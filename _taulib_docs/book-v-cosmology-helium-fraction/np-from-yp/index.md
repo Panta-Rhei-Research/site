@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "np_from_yp",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-helium-fraction/np-from-yp/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-helium-fraction/np-from-yp/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Cosmology.HeliumFraction`.",
   "declaration_id": "TauLib.BookV.Cosmology.HeliumFraction::np_from_yp",
   "declaration_slug": "np-from-yp",
   "kind": "theorem",
   "name": "np_from_yp",
   "module_name": "TauLib.BookV.Cosmology.HeliumFraction",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-helium-fraction/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-helium-fraction/",
   "source_line_start": 235,
   "source_line_end": 238,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/HeliumFraction.lean#L235-L238",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.HeliumFraction",
-        "url": "/verify/taulib/docs/book-v-cosmology-helium-fraction/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-helium-fraction/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.HeliumFraction](/verify/taulib/docs/book-v-cosmology-helium-fraction/)
+- Module: [TauLib.BookV.Cosmology.HeliumFraction](/corpus/taulib/docs/book-v-cosmology-helium-fraction/)
 - Source path: [`TauLib/BookV/Cosmology/HeliumFraction.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/HeliumFraction.lean#L235-L238)
 - Source range: L235-L238
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

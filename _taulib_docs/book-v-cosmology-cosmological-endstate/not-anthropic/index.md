@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "not_anthropic",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-cosmological-endstate/not-anthropic/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-cosmological-endstate/not-anthropic/",
   "summary_short": "`def` declaration in `TauLib.BookV.Cosmology.CosmologicalEndstate`.",
   "declaration_id": "TauLib.BookV.Cosmology.CosmologicalEndstate::not_anthropic",
   "declaration_slug": "not-anthropic",
   "kind": "def",
   "name": "not_anthropic",
   "module_name": "TauLib.BookV.Cosmology.CosmologicalEndstate",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-cosmological-endstate/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-cosmological-endstate/",
   "source_line_start": 230,
   "source_line_end": 232,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/CosmologicalEndstate.lean#L230-L232",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.CosmologicalEndstate",
-        "url": "/verify/taulib/docs/book-v-cosmology-cosmological-endstate/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-cosmological-endstate/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.CosmologicalEndstate](/verify/taulib/docs/book-v-cosmology-cosmological-endstate/)
+- Module: [TauLib.BookV.Cosmology.CosmologicalEndstate](/corpus/taulib/docs/book-v-cosmology-cosmological-endstate/)
 - Source path: [`TauLib/BookV/Cosmology/CosmologicalEndstate.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/CosmologicalEndstate.lean#L230-L232)
 - Source range: L230-L232
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

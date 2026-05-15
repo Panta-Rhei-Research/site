@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "RegimeTransition",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-running-regime/regime-transition/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-running-regime/regime-transition/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Calibration.RunningRegime`.",
   "declaration_id": "TauLib.BookIV.Calibration.RunningRegime::RegimeTransition",
   "declaration_slug": "regime-transition",
   "kind": "structure",
   "name": "RegimeTransition",
   "module_name": "TauLib.BookIV.Calibration.RunningRegime",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-running-regime/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-running-regime/",
   "source_line_start": 137,
   "source_line_end": 145,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/RunningRegime.lean#L137-L145",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.RunningRegime",
-        "url": "/verify/taulib/docs/book-iv-calibration-running-regime/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-running-regime/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.RunningRegime](/verify/taulib/docs/book-iv-calibration-running-regime/)
+- Module: [TauLib.BookIV.Calibration.RunningRegime](/corpus/taulib/docs/book-iv-calibration-running-regime/)
 - Source path: [`TauLib/BookIV/Calibration/RunningRegime.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/RunningRegime.lean#L137-L145)
 - Source range: L137-L145
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

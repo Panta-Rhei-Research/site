@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "width_principle_check",
-  "permalink": "/verify/taulib/docs/book-iii-computation-admissibility/width-principle-check/",
+  "permalink": "/corpus/taulib/docs/book-iii-computation-admissibility/width-principle-check/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Computation.Admissibility`.",
   "declaration_id": "TauLib.BookIII.Computation.Admissibility::width_principle_check",
   "declaration_slug": "width-principle-check",
   "kind": "def",
   "name": "width_principle_check",
   "module_name": "TauLib.BookIII.Computation.Admissibility",
-  "module_url": "/verify/taulib/docs/book-iii-computation-admissibility/",
+  "module_url": "/corpus/taulib/docs/book-iii-computation-admissibility/",
   "source_line_start": 114,
   "source_line_end": 132,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Computation/Admissibility.lean#L114-L132",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Computation.Admissibility",
-        "url": "/verify/taulib/docs/book-iii-computation-admissibility/"
+        "url": "/corpus/taulib/docs/book-iii-computation-admissibility/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Computation.Admissibility](/verify/taulib/docs/book-iii-computation-admissibility/)
+- Module: [TauLib.BookIII.Computation.Admissibility](/corpus/taulib/docs/book-iii-computation-admissibility/)
 - Source path: [`TauLib/BookIII/Computation/Admissibility.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Computation/Admissibility.lean#L114-L132)
 - Source range: L114-L132
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ym_gap_positive",
-  "permalink": "/verify/taulib/docs/book-iv-strong-yang-mills-gap/ym-gap-positive/",
+  "permalink": "/corpus/taulib/docs/book-iv-strong-yang-mills-gap/ym-gap-positive/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Strong.YangMillsGap`.",
   "declaration_id": "TauLib.BookIV.Strong.YangMillsGap::ym_gap_positive",
   "declaration_slug": "ym-gap-positive",
   "kind": "theorem",
   "name": "ym_gap_positive",
   "module_name": "TauLib.BookIV.Strong.YangMillsGap",
-  "module_url": "/verify/taulib/docs/book-iv-strong-yang-mills-gap/",
+  "module_url": "/corpus/taulib/docs/book-iv-strong-yang-mills-gap/",
   "source_line_start": 325,
   "source_line_end": 326,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/YangMillsGap.lean#L325-L326",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Strong.YangMillsGap",
-        "url": "/verify/taulib/docs/book-iv-strong-yang-mills-gap/"
+        "url": "/corpus/taulib/docs/book-iv-strong-yang-mills-gap/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Strong.YangMillsGap](/verify/taulib/docs/book-iv-strong-yang-mills-gap/)
+- Module: [TauLib.BookIV.Strong.YangMillsGap](/corpus/taulib/docs/book-iv-strong-yang-mills-gap/)
 - Source path: [`TauLib/BookIV/Strong/YangMillsGap.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/YangMillsGap.lean#L325-L326)
 - Source range: L325-L326
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

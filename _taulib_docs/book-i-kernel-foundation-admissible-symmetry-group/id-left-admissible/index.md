@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "id_left_admissible",
-  "permalink": "/verify/taulib/docs/book-i-kernel-foundation-admissible-symmetry-group/id-left-admissible/",
+  "permalink": "/corpus/taulib/docs/book-i-kernel-foundation-admissible-symmetry-group/id-left-admissible/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.KernelFoundation.AdmissibleSymmetryGroup`.",
   "declaration_id": "TauLib.BookI.KernelFoundation.AdmissibleSymmetryGroup::id_left_admissible",
   "declaration_slug": "id-left-admissible",
   "kind": "theorem",
   "name": "id_left_admissible",
   "module_name": "TauLib.BookI.KernelFoundation.AdmissibleSymmetryGroup",
-  "module_url": "/verify/taulib/docs/book-i-kernel-foundation-admissible-symmetry-group/",
+  "module_url": "/corpus/taulib/docs/book-i-kernel-foundation-admissible-symmetry-group/",
   "source_line_start": 146,
   "source_line_end": 147,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/KernelFoundation/AdmissibleSymmetryGroup.lean#L146-L147",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.KernelFoundation.AdmissibleSymmetryGroup",
-        "url": "/verify/taulib/docs/book-i-kernel-foundation-admissible-symmetry-group/"
+        "url": "/corpus/taulib/docs/book-i-kernel-foundation-admissible-symmetry-group/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.KernelFoundation.AdmissibleSymmetryGroup](/verify/taulib/docs/book-i-kernel-foundation-admissible-symmetry-group/)
+- Module: [TauLib.BookI.KernelFoundation.AdmissibleSymmetryGroup](/corpus/taulib/docs/book-i-kernel-foundation-admissible-symmetry-group/)
 - Source path: [`TauLib/BookI/KernelFoundation/AdmissibleSymmetryGroup.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/KernelFoundation/AdmissibleSymmetryGroup.lean#L146-L147)
 - Source range: L146-L147
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

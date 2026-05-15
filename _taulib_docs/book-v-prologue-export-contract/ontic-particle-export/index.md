@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "OnticParticleExport",
-  "permalink": "/verify/taulib/docs/book-v-prologue-export-contract/ontic-particle-export/",
+  "permalink": "/corpus/taulib/docs/book-v-prologue-export-contract/ontic-particle-export/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Prologue.ExportContract`.",
   "declaration_id": "TauLib.BookV.Prologue.ExportContract::OnticParticleExport",
   "declaration_slug": "ontic-particle-export",
   "kind": "structure",
   "name": "OnticParticleExport",
   "module_name": "TauLib.BookV.Prologue.ExportContract",
-  "module_url": "/verify/taulib/docs/book-v-prologue-export-contract/",
+  "module_url": "/corpus/taulib/docs/book-v-prologue-export-contract/",
   "source_line_start": 117,
   "source_line_end": 122,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Prologue/ExportContract.lean#L117-L122",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Prologue.ExportContract",
-        "url": "/verify/taulib/docs/book-v-prologue-export-contract/"
+        "url": "/corpus/taulib/docs/book-v-prologue-export-contract/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Prologue.ExportContract](/verify/taulib/docs/book-v-prologue-export-contract/)
+- Module: [TauLib.BookV.Prologue.ExportContract](/corpus/taulib/docs/book-v-prologue-export-contract/)
 - Source path: [`TauLib/BookV/Prologue/ExportContract.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Prologue/ExportContract.lean#L117-L122)
 - Source range: L117-L122
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

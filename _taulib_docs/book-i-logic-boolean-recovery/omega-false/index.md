@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "omega_false",
-  "permalink": "/verify/taulib/docs/book-i-logic-boolean-recovery/omega-false/",
+  "permalink": "/corpus/taulib/docs/book-i-logic-boolean-recovery/omega-false/",
   "summary_short": "`def` declaration in `TauLib.BookI.Logic.BooleanRecovery`.",
   "declaration_id": "TauLib.BookI.Logic.BooleanRecovery::omega_false",
   "declaration_slug": "omega-false",
   "kind": "def",
   "name": "omega_false",
   "module_name": "TauLib.BookI.Logic.BooleanRecovery",
-  "module_url": "/verify/taulib/docs/book-i-logic-boolean-recovery/",
+  "module_url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/",
   "source_line_start": 182,
   "source_line_end": 182,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Logic/BooleanRecovery.lean#L182-L182",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Logic.BooleanRecovery",
-        "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/"
+        "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Logic.BooleanRecovery](/verify/taulib/docs/book-i-logic-boolean-recovery/)
+- Module: [TauLib.BookI.Logic.BooleanRecovery](/corpus/taulib/docs/book-i-logic-boolean-recovery/)
 - Source path: [`TauLib/BookI/Logic/BooleanRecovery.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Logic/BooleanRecovery.lean#L182-L182)
 - Source range: L182-L182
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

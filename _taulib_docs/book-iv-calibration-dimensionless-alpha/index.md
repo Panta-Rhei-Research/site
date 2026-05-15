@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.Calibration.DimensionlessAlpha",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.Calibration.DimensionlessAlpha`.",
   "module_name": "TauLib.BookIV.Calibration.DimensionlessAlpha",
   "module_slug": "book-iv-calibration-dimensionless-alpha",
@@ -41,19 +41,23 @@
     {
       "kind": "theorem",
       "name": "alpha_spec_range",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/alpha-spec-range/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/alpha-spec-range/",
       "source_line_start": 41,
       "source_line_end": 44,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "RelationalUnits",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/relational-units/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/relational-units/",
       "source_line_start": 60,
       "source_line_end": 73,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D287"
       ]
@@ -61,19 +65,23 @@
     {
       "kind": "def",
       "name": "relational_units",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/relational-units-l76/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/relational-units-l76/",
       "source_line_start": 76,
       "source_line_end": 84,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "holonomy_formula_ch11",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/holonomy-formula-ch11/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/holonomy-formula-ch11/",
       "source_line_start": 95,
       "source_line_end": 102,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T107"
       ]
@@ -81,10 +89,12 @@
     {
       "kind": "structure",
       "name": "CorrectionFactor",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/correction-factor/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/correction-factor/",
       "source_line_start": 118,
       "source_line_end": 126,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D288"
       ]
@@ -92,19 +102,23 @@
     {
       "kind": "def",
       "name": "correction_factor",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/correction-factor-l129/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/correction-factor-l129/",
       "source_line_start": 129,
       "source_line_end": 134,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/eval-l143/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/eval-l143/",
       "source_line_start": 143,
       "source_line_end": 143,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": [
         "IV.R260"
       ]
@@ -112,28 +126,34 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/eval-l144/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/eval-l144/",
       "source_line_start": 144,
       "source_line_end": 144,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/eval-l145/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/eval-l145/",
       "source_line_start": 145,
       "source_line_end": 145,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/eval-l146/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/eval-l146/",
       "source_line_start": 146,
       "source_line_end": 148,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -145,7 +165,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -224,15 +244,15 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `theorem` | [alpha_spec_range](/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/alpha-spec-range/) | L41-L44 | formalized | — |
-| `structure` | [RelationalUnits](/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/relational-units/) | L60-L73 | defined | `IV.D287` |
-| `def` | [relational_units](/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/relational-units-l76/) | L76-L84 | defined | — |
-| `theorem` | [holonomy_formula_ch11](/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/holonomy-formula-ch11/) | L95-L102 | formalized | `IV.T107` |
-| `structure` | [CorrectionFactor](/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/correction-factor/) | L118-L126 | defined | `IV.D288` |
-| `def` | [correction_factor](/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/correction-factor-l129/) | L129-L134 | defined | — |
-| `eval` | [#eval L143](/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/eval-l143/) | L143-L143 | computed | `IV.R260` |
-| `eval` | [#eval L144](/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/eval-l144/) | L144-L144 | computed | — |
-| `eval` | [#eval L145](/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/eval-l145/) | L145-L145 | computed | — |
-| `eval` | [#eval L146](/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/eval-l146/) | L146-L148 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `theorem` | [alpha_spec_range](/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/alpha-spec-range/) | L41-L44 | proof obligation | formal proof obligation checked | — |
+| `structure` | [RelationalUnits](/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/relational-units/) | L60-L73 | type/data schema | type/data schema | `IV.D287` |
+| `def` | [relational_units](/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/relational-units-l76/) | L76-L84 | definition | definition | — |
+| `theorem` | [holonomy_formula_ch11](/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/holonomy-formula-ch11/) | L95-L102 | proof obligation | formal proof obligation checked | `IV.T107` |
+| `structure` | [CorrectionFactor](/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/correction-factor/) | L118-L126 | type/data schema | type/data schema | `IV.D288` |
+| `def` | [correction_factor](/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/correction-factor-l129/) | L129-L134 | definition | definition | — |
+| `eval` | [#eval L143](/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/eval-l143/) | L143-L143 | computed check | computed check | `IV.R260` |
+| `eval` | [#eval L144](/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/eval-l144/) | L144-L144 | computed check | computed check | — |
+| `eval` | [#eval L145](/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/eval-l145/) | L145-L145 | computed check | computed check | — |
+| `eval` | [#eval L146](/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/eval-l146/) | L146-L148 | computed check | computed check | — |

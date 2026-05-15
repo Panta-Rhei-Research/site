@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauQuaternion.mul",
-  "permalink": "/verify/taulib/docs/book-i-boundary-quaternions/mul/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-quaternions/mul/",
   "summary_short": "`def` declaration in `TauLib.BookI.Boundary.Quaternions`.",
   "declaration_id": "TauLib.BookI.Boundary.Quaternions::TauQuaternion.mul",
   "declaration_slug": "mul",
   "kind": "def",
   "name": "TauQuaternion.mul",
   "module_name": "TauLib.BookI.Boundary.Quaternions",
-  "module_url": "/verify/taulib/docs/book-i-boundary-quaternions/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-quaternions/",
   "source_line_start": 113,
   "source_line_end": 117,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Quaternions.lean#L113-L117",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Quaternions",
-        "url": "/verify/taulib/docs/book-i-boundary-quaternions/"
+        "url": "/corpus/taulib/docs/book-i-boundary-quaternions/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Quaternions](/verify/taulib/docs/book-i-boundary-quaternions/)
+- Module: [TauLib.BookI.Boundary.Quaternions](/corpus/taulib/docs/book-i-boundary-quaternions/)
 - Source path: [`TauLib/BookI/Boundary/Quaternions.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Quaternions.lean#L113-L117)
 - Source range: L113-L117
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ChainLink.toNat",
-  "permalink": "/verify/taulib/docs/book-iii-hinge-dependency-chain/to-nat/",
+  "permalink": "/corpus/taulib/docs/book-iii-hinge-dependency-chain/to-nat/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Hinge.DependencyChain`.",
   "declaration_id": "TauLib.BookIII.Hinge.DependencyChain::ChainLink.toNat",
   "declaration_slug": "to-nat",
   "kind": "def",
   "name": "ChainLink.toNat",
   "module_name": "TauLib.BookIII.Hinge.DependencyChain",
-  "module_url": "/verify/taulib/docs/book-iii-hinge-dependency-chain/",
+  "module_url": "/corpus/taulib/docs/book-iii-hinge-dependency-chain/",
   "source_line_start": 66,
   "source_line_end": 80,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Hinge/DependencyChain.lean#L66-L80",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Hinge.DependencyChain",
-        "url": "/verify/taulib/docs/book-iii-hinge-dependency-chain/"
+        "url": "/corpus/taulib/docs/book-iii-hinge-dependency-chain/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Hinge.DependencyChain](/verify/taulib/docs/book-iii-hinge-dependency-chain/)
+- Module: [TauLib.BookIII.Hinge.DependencyChain](/corpus/taulib/docs/book-iii-hinge-dependency-chain/)
 - Source path: [`TauLib/BookIII/Hinge/DependencyChain.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Hinge/DependencyChain.lean#L66-L80)
 - Source range: L66-L80
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

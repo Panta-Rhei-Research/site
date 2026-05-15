@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "heisenberg_te",
-  "permalink": "/verify/taulib/docs/book-iv-quantum-mechanics-address-obstruction/heisenberg-te-l328/",
+  "permalink": "/corpus/taulib/docs/book-iv-quantum-mechanics-address-obstruction/heisenberg-te-l328/",
   "summary_short": "`def` declaration in `TauLib.BookIV.QuantumMechanics.AddressObstruction`.",
   "declaration_id": "TauLib.BookIV.QuantumMechanics.AddressObstruction::heisenberg_te",
   "declaration_slug": "heisenberg-te-l328",
   "kind": "def",
   "name": "heisenberg_te",
   "module_name": "TauLib.BookIV.QuantumMechanics.AddressObstruction",
-  "module_url": "/verify/taulib/docs/book-iv-quantum-mechanics-address-obstruction/",
+  "module_url": "/corpus/taulib/docs/book-iv-quantum-mechanics-address-obstruction/",
   "source_line_start": 328,
   "source_line_end": 333,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/AddressObstruction.lean#L328-L333",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.QuantumMechanics.AddressObstruction",
-        "url": "/verify/taulib/docs/book-iv-quantum-mechanics-address-obstruction/"
+        "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-address-obstruction/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.QuantumMechanics.AddressObstruction](/verify/taulib/docs/book-iv-quantum-mechanics-address-obstruction/)
+- Module: [TauLib.BookIV.QuantumMechanics.AddressObstruction](/corpus/taulib/docs/book-iv-quantum-mechanics-address-obstruction/)
 - Source path: [`TauLib/BookIV/QuantumMechanics/AddressObstruction.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/AddressObstruction.lean#L328-L333)
 - Source range: L328-L333
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

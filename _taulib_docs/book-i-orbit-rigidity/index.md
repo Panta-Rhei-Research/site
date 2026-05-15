@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Orbit.Rigidity",
-  "permalink": "/verify/taulib/docs/book-i-orbit-rigidity/",
+  "permalink": "/corpus/taulib/docs/book-i-orbit-rigidity/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Orbit.Rigidity`.",
   "module_name": "TauLib.BookI.Orbit.Rigidity",
   "module_slug": "book-i-orbit-rigidity",
@@ -37,64 +37,78 @@
     {
       "kind": "theorem",
       "name": "rho_seed_omega",
-      "url": "/verify/taulib/docs/book-i-orbit-rigidity/rho-seed-omega/",
+      "url": "/corpus/taulib/docs/book-i-orbit-rigidity/rho-seed-omega/",
       "source_line_start": 19,
       "source_line_end": 20,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "TauAutomorphism",
-      "url": "/verify/taulib/docs/book-i-orbit-rigidity/tau-automorphism/",
+      "url": "/corpus/taulib/docs/book-i-orbit-rigidity/tau-automorphism/",
       "source_line_start": 23,
       "source_line_end": 28,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "auto_omega_to_omega",
-      "url": "/verify/taulib/docs/book-i-orbit-rigidity/auto-omega-to-omega/",
+      "url": "/corpus/taulib/docs/book-i-orbit-rigidity/auto-omega-to-omega/",
       "source_line_start": 31,
       "source_line_end": 39,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "auto_non_omega",
-      "url": "/verify/taulib/docs/book-i-orbit-rigidity/auto-non-omega/",
+      "url": "/corpus/taulib/docs/book-i-orbit-rigidity/auto-non-omega/",
       "source_line_start": 42,
       "source_line_end": 50,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "auto_shift",
-      "url": "/verify/taulib/docs/book-i-orbit-rigidity/auto-shift/",
+      "url": "/corpus/taulib/docs/book-i-orbit-rigidity/auto-shift/",
       "source_line_start": 53,
       "source_line_end": 61,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "rigidity_depth",
-      "url": "/verify/taulib/docs/book-i-orbit-rigidity/rigidity-depth/",
+      "url": "/corpus/taulib/docs/book-i-orbit-rigidity/rigidity-depth/",
       "source_line_start": 64,
       "source_line_end": 129,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "rigidity_non_omega",
-      "url": "/verify/taulib/docs/book-i-orbit-rigidity/rigidity-non-omega/",
+      "url": "/corpus/taulib/docs/book-i-orbit-rigidity/rigidity-non-omega/",
       "source_line_start": 132,
       "source_line_end": 138,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.T07"
       ]
@@ -102,28 +116,34 @@
     {
       "kind": "structure",
       "name": "TauModel",
-      "url": "/verify/taulib/docs/book-i-orbit-rigidity/tau-model/",
+      "url": "/corpus/taulib/docs/book-i-orbit-rigidity/tau-model/",
       "source_line_start": 141,
       "source_line_end": 146,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "interpret",
-      "url": "/verify/taulib/docs/book-i-orbit-rigidity/interpret/",
+      "url": "/corpus/taulib/docs/book-i-orbit-rigidity/interpret/",
       "source_line_start": 149,
       "source_line_end": 150,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "categoricity_non_omega",
-      "url": "/verify/taulib/docs/book-i-orbit-rigidity/categoricity-non-omega/",
+      "url": "/corpus/taulib/docs/book-i-orbit-rigidity/categoricity-non-omega/",
       "source_line_start": 153,
       "source_line_end": 166,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.T08"
       ]
@@ -137,7 +157,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -212,15 +232,15 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `theorem` | [rho_seed_omega](/verify/taulib/docs/book-i-orbit-rigidity/rho-seed-omega/) | L19-L20 | formalized | — |
-| `structure` | [TauAutomorphism](/verify/taulib/docs/book-i-orbit-rigidity/tau-automorphism/) | L23-L28 | defined | — |
-| `theorem` | [auto_omega_to_omega](/verify/taulib/docs/book-i-orbit-rigidity/auto-omega-to-omega/) | L31-L39 | formalized | — |
-| `theorem` | [auto_non_omega](/verify/taulib/docs/book-i-orbit-rigidity/auto-non-omega/) | L42-L50 | formalized | — |
-| `theorem` | [auto_shift](/verify/taulib/docs/book-i-orbit-rigidity/auto-shift/) | L53-L61 | formalized | — |
-| `theorem` | [rigidity_depth](/verify/taulib/docs/book-i-orbit-rigidity/rigidity-depth/) | L64-L129 | formalized | — |
-| `theorem` | [rigidity_non_omega](/verify/taulib/docs/book-i-orbit-rigidity/rigidity-non-omega/) | L132-L138 | formalized | `I.T07` |
-| `structure` | [TauModel](/verify/taulib/docs/book-i-orbit-rigidity/tau-model/) | L141-L146 | defined | — |
-| `def` | [interpret](/verify/taulib/docs/book-i-orbit-rigidity/interpret/) | L149-L150 | defined | — |
-| `theorem` | [categoricity_non_omega](/verify/taulib/docs/book-i-orbit-rigidity/categoricity-non-omega/) | L153-L166 | formalized | `I.T08` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `theorem` | [rho_seed_omega](/corpus/taulib/docs/book-i-orbit-rigidity/rho-seed-omega/) | L19-L20 | proof obligation | formal proof obligation checked | — |
+| `structure` | [TauAutomorphism](/corpus/taulib/docs/book-i-orbit-rigidity/tau-automorphism/) | L23-L28 | type/data schema | type/data schema | — |
+| `theorem` | [auto_omega_to_omega](/corpus/taulib/docs/book-i-orbit-rigidity/auto-omega-to-omega/) | L31-L39 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [auto_non_omega](/corpus/taulib/docs/book-i-orbit-rigidity/auto-non-omega/) | L42-L50 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [auto_shift](/corpus/taulib/docs/book-i-orbit-rigidity/auto-shift/) | L53-L61 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [rigidity_depth](/corpus/taulib/docs/book-i-orbit-rigidity/rigidity-depth/) | L64-L129 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [rigidity_non_omega](/corpus/taulib/docs/book-i-orbit-rigidity/rigidity-non-omega/) | L132-L138 | proof obligation | formal proof obligation checked | `I.T07` |
+| `structure` | [TauModel](/corpus/taulib/docs/book-i-orbit-rigidity/tau-model/) | L141-L146 | type/data schema | type/data schema | — |
+| `def` | [interpret](/corpus/taulib/docs/book-i-orbit-rigidity/interpret/) | L149-L150 | definition | definition | — |
+| `theorem` | [categoricity_non_omega](/corpus/taulib/docs/book-i-orbit-rigidity/categoricity-non-omega/) | L153-L166 | proof obligation | formal proof obligation checked | `I.T08` |

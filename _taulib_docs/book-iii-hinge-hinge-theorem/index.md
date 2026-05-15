@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIII.Hinge.HingeTheorem",
-  "permalink": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/",
+  "permalink": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIII.Hinge.HingeTheorem`.",
   "module_name": "TauLib.BookIII.Hinge.HingeTheorem",
   "module_slug": "book-iii-hinge-hinge-theorem",
@@ -33,37 +33,45 @@
     {
       "kind": "def",
       "name": "sector_product",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/sector-product/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/sector-product/",
       "source_line_start": 54,
       "source_line_end": 60,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "total_sector_product",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/total-sector-product/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/total-sector-product/",
       "source_line_start": 64,
       "source_line_end": 69,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "sector_product_at_level",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/sector-product-at-level/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/sector-product-at-level/",
       "source_line_start": 73,
       "source_line_end": 78,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "sector_instantiation_check",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/sector-instantiation-check/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/sector-instantiation-check/",
       "source_line_start": 88,
       "source_line_end": 117,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T41"
       ]
@@ -71,10 +79,12 @@
     {
       "kind": "def",
       "name": "level_coherence_check",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/level-coherence-check/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/level-coherence-check/",
       "source_line_start": 121,
       "source_line_end": 142,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T41"
       ]
@@ -82,10 +92,12 @@
     {
       "kind": "def",
       "name": "enrichment_determines_sectors",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/enrichment-determines-sectors/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/enrichment-determines-sectors/",
       "source_line_start": 146,
       "source_line_end": 171,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T41"
       ]
@@ -93,10 +105,12 @@
     {
       "kind": "def",
       "name": "hinge_theorem_check",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/hinge-theorem-check/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/hinge-theorem-check/",
       "source_line_start": 175,
       "source_line_end": 183,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T41"
       ]
@@ -104,28 +118,34 @@
     {
       "kind": "def",
       "name": "iota_numer",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/iota-numer/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/iota-numer/",
       "source_line_start": 190,
       "source_line_end": 190,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "iota_denom",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/iota-denom/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/iota-denom/",
       "source_line_start": 191,
       "source_line_end": 191,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "iota_determines_ratio",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/iota-determines-ratio/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/iota-determines-ratio/",
       "source_line_start": 197,
       "source_line_end": 214,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T42"
       ]
@@ -133,10 +153,12 @@
     {
       "kind": "def",
       "name": "no_free_parameters_check",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/no-free-parameters-check/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/no-free-parameters-check/",
       "source_line_start": 219,
       "source_line_end": 243,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T42"
       ]
@@ -144,10 +166,12 @@
     {
       "kind": "def",
       "name": "coupling_uniqueness_check",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/coupling-uniqueness-check/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/coupling-uniqueness-check/",
       "source_line_start": 251,
       "source_line_end": 255,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T42"
       ]
@@ -155,10 +179,12 @@
     {
       "kind": "def",
       "name": "no_knobs_check",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/no-knobs-check/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/no-knobs-check/",
       "source_line_start": 260,
       "source_line_end": 263,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T42"
       ]
@@ -166,127 +192,155 @@
     {
       "kind": "def",
       "name": "hinge_assembly_check",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/hinge-assembly-check/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/hinge-assembly-check/",
       "source_line_start": 271,
       "source_line_end": 274,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/eval-l281/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/eval-l281/",
       "source_line_start": 281,
       "source_line_end": 281,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/eval-l282/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/eval-l282/",
       "source_line_start": 282,
       "source_line_end": 282,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/eval-l283/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/eval-l283/",
       "source_line_start": 283,
       "source_line_end": 283,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/eval-l286/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/eval-l286/",
       "source_line_start": 286,
       "source_line_end": 286,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/eval-l289/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/eval-l289/",
       "source_line_start": 289,
       "source_line_end": 289,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/eval-l292/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/eval-l292/",
       "source_line_start": 292,
       "source_line_end": 292,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/eval-l295/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/eval-l295/",
       "source_line_start": 295,
       "source_line_end": 295,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/eval-l298/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/eval-l298/",
       "source_line_start": 298,
       "source_line_end": 298,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/eval-l301/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/eval-l301/",
       "source_line_start": 301,
       "source_line_end": 301,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/eval-l304/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/eval-l304/",
       "source_line_start": 304,
       "source_line_end": 304,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/eval-l307/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/eval-l307/",
       "source_line_start": 307,
       "source_line_end": 307,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/eval-l310/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/eval-l310/",
       "source_line_start": 310,
       "source_line_end": 310,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "hinge_theorem_8_3",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/hinge-theorem-8-3/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/hinge-theorem-8-3/",
       "source_line_start": 317,
       "source_line_end": 318,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T41"
       ]
@@ -294,37 +348,45 @@
     {
       "kind": "theorem",
       "name": "sector_instantiation_10_3",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/sector-instantiation-10-3/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/sector-instantiation-10-3/",
       "source_line_start": 320,
       "source_line_end": 321,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "level_coherence_4",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/level-coherence-4/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/level-coherence-4/",
       "source_line_start": 323,
       "source_line_end": 324,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "enrichment_determines_10_3",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/enrichment-determines-10-3/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/enrichment-determines-10-3/",
       "source_line_start": 326,
       "source_line_end": 327,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "no_knobs_8_3",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/no-knobs-8-3/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/no-knobs-8-3/",
       "source_line_start": 330,
       "source_line_end": 331,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T42"
       ]
@@ -332,46 +394,56 @@
     {
       "kind": "theorem",
       "name": "iota_determines_5",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/iota-determines-5/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/iota-determines-5/",
       "source_line_start": 333,
       "source_line_end": 334,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "no_free_params_10_3",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/no-free-params-10-3/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/no-free-params-10-3/",
       "source_line_start": 336,
       "source_line_end": 337,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "coupling_uniqueness_8_3",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/coupling-uniqueness-8-3/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/coupling-uniqueness-8-3/",
       "source_line_start": 339,
       "source_line_end": 340,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "hinge_assembly_8_3",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/hinge-assembly-8-3/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/hinge-assembly-8-3/",
       "source_line_start": 343,
       "source_line_end": 344,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "hinge_chain_length",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/hinge-chain-length/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/hinge-chain-length/",
       "source_line_start": 351,
       "source_line_end": 352,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T41"
       ]
@@ -379,10 +451,12 @@
     {
       "kind": "theorem",
       "name": "sector_product_depth_3",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/sector-product-depth-3/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/sector-product-depth-3/",
       "source_line_start": 355,
       "source_line_end": 357,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T41"
       ]
@@ -390,10 +464,12 @@
     {
       "kind": "theorem",
       "name": "enrichment_strict",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/enrichment-strict/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/enrichment-strict/",
       "source_line_start": 360,
       "source_line_end": 364,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T41"
       ]
@@ -401,10 +477,12 @@
     {
       "kind": "theorem",
       "name": "iota_value",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/iota-value/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/iota-value/",
       "source_line_start": 367,
       "source_line_end": 368,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T42"
       ]
@@ -412,10 +490,12 @@
     {
       "kind": "theorem",
       "name": "iota_lt_one",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/iota-lt-one/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/iota-lt-one/",
       "source_line_start": 371,
       "source_line_end": 371,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T42"
       ]
@@ -423,10 +503,12 @@
     {
       "kind": "theorem",
       "name": "iota_pos",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/iota-pos/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/iota-pos/",
       "source_line_start": 374,
       "source_line_end": 374,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T42"
       ]
@@ -434,10 +516,12 @@
     {
       "kind": "theorem",
       "name": "iota_ratio_depth_3",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/iota-ratio-depth-3/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/iota-ratio-depth-3/",
       "source_line_start": 378,
       "source_line_end": 380,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T42"
       ]
@@ -445,10 +529,12 @@
     {
       "kind": "theorem",
       "name": "iota_ratio_depth_4",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/iota-ratio-depth-4/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/iota-ratio-depth-4/",
       "source_line_start": 384,
       "source_line_end": 386,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T42"
       ]
@@ -456,10 +542,12 @@
     {
       "kind": "theorem",
       "name": "five_sectors_exhaustive",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/five-sectors-exhaustive/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/five-sectors-exhaustive/",
       "source_line_start": 389,
       "source_line_end": 391,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T42"
       ]
@@ -467,10 +555,12 @@
     {
       "kind": "theorem",
       "name": "no_knobs_witness",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/no-knobs-witness/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/no-knobs-witness/",
       "source_line_start": 395,
       "source_line_end": 398,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T42"
       ]
@@ -478,10 +568,12 @@
     {
       "kind": "theorem",
       "name": "hinge_point",
-      "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/hinge-point/",
+      "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/hinge-point/",
       "source_line_start": 402,
       "source_line_end": 407,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T41"
       ]
@@ -495,7 +587,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -566,51 +658,51 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [sector_product](/verify/taulib/docs/book-iii-hinge-hinge-theorem/sector-product/) | L54-L60 | defined | — |
-| `def` | [total_sector_product](/verify/taulib/docs/book-iii-hinge-hinge-theorem/total-sector-product/) | L64-L69 | defined | — |
-| `def` | [sector_product_at_level](/verify/taulib/docs/book-iii-hinge-hinge-theorem/sector-product-at-level/) | L73-L78 | defined | — |
-| `def` | [sector_instantiation_check](/verify/taulib/docs/book-iii-hinge-hinge-theorem/sector-instantiation-check/) | L88-L117 | defined | `III.T41` |
-| `def` | [level_coherence_check](/verify/taulib/docs/book-iii-hinge-hinge-theorem/level-coherence-check/) | L121-L142 | defined | `III.T41` |
-| `def` | [enrichment_determines_sectors](/verify/taulib/docs/book-iii-hinge-hinge-theorem/enrichment-determines-sectors/) | L146-L171 | defined | `III.T41` |
-| `def` | [hinge_theorem_check](/verify/taulib/docs/book-iii-hinge-hinge-theorem/hinge-theorem-check/) | L175-L183 | defined | `III.T41` |
-| `def` | [iota_numer](/verify/taulib/docs/book-iii-hinge-hinge-theorem/iota-numer/) | L190-L190 | defined | — |
-| `def` | [iota_denom](/verify/taulib/docs/book-iii-hinge-hinge-theorem/iota-denom/) | L191-L191 | defined | — |
-| `def` | [iota_determines_ratio](/verify/taulib/docs/book-iii-hinge-hinge-theorem/iota-determines-ratio/) | L197-L214 | defined | `III.T42` |
-| `def` | [no_free_parameters_check](/verify/taulib/docs/book-iii-hinge-hinge-theorem/no-free-parameters-check/) | L219-L243 | defined | `III.T42` |
-| `def` | [coupling_uniqueness_check](/verify/taulib/docs/book-iii-hinge-hinge-theorem/coupling-uniqueness-check/) | L251-L255 | defined | `III.T42` |
-| `def` | [no_knobs_check](/verify/taulib/docs/book-iii-hinge-hinge-theorem/no-knobs-check/) | L260-L263 | defined | `III.T42` |
-| `def` | [hinge_assembly_check](/verify/taulib/docs/book-iii-hinge-hinge-theorem/hinge-assembly-check/) | L271-L274 | defined | — |
-| `eval` | [#eval L281](/verify/taulib/docs/book-iii-hinge-hinge-theorem/eval-l281/) | L281-L281 | computed | — |
-| `eval` | [#eval L282](/verify/taulib/docs/book-iii-hinge-hinge-theorem/eval-l282/) | L282-L282 | computed | — |
-| `eval` | [#eval L283](/verify/taulib/docs/book-iii-hinge-hinge-theorem/eval-l283/) | L283-L283 | computed | — |
-| `eval` | [#eval L286](/verify/taulib/docs/book-iii-hinge-hinge-theorem/eval-l286/) | L286-L286 | computed | — |
-| `eval` | [#eval L289](/verify/taulib/docs/book-iii-hinge-hinge-theorem/eval-l289/) | L289-L289 | computed | — |
-| `eval` | [#eval L292](/verify/taulib/docs/book-iii-hinge-hinge-theorem/eval-l292/) | L292-L292 | computed | — |
-| `eval` | [#eval L295](/verify/taulib/docs/book-iii-hinge-hinge-theorem/eval-l295/) | L295-L295 | computed | — |
-| `eval` | [#eval L298](/verify/taulib/docs/book-iii-hinge-hinge-theorem/eval-l298/) | L298-L298 | computed | — |
-| `eval` | [#eval L301](/verify/taulib/docs/book-iii-hinge-hinge-theorem/eval-l301/) | L301-L301 | computed | — |
-| `eval` | [#eval L304](/verify/taulib/docs/book-iii-hinge-hinge-theorem/eval-l304/) | L304-L304 | computed | — |
-| `eval` | [#eval L307](/verify/taulib/docs/book-iii-hinge-hinge-theorem/eval-l307/) | L307-L307 | computed | — |
-| `eval` | [#eval L310](/verify/taulib/docs/book-iii-hinge-hinge-theorem/eval-l310/) | L310-L310 | computed | — |
-| `theorem` | [hinge_theorem_8_3](/verify/taulib/docs/book-iii-hinge-hinge-theorem/hinge-theorem-8-3/) | L317-L318 | formalized | `III.T41` |
-| `theorem` | [sector_instantiation_10_3](/verify/taulib/docs/book-iii-hinge-hinge-theorem/sector-instantiation-10-3/) | L320-L321 | formalized | — |
-| `theorem` | [level_coherence_4](/verify/taulib/docs/book-iii-hinge-hinge-theorem/level-coherence-4/) | L323-L324 | formalized | — |
-| `theorem` | [enrichment_determines_10_3](/verify/taulib/docs/book-iii-hinge-hinge-theorem/enrichment-determines-10-3/) | L326-L327 | formalized | — |
-| `theorem` | [no_knobs_8_3](/verify/taulib/docs/book-iii-hinge-hinge-theorem/no-knobs-8-3/) | L330-L331 | formalized | `III.T42` |
-| `theorem` | [iota_determines_5](/verify/taulib/docs/book-iii-hinge-hinge-theorem/iota-determines-5/) | L333-L334 | formalized | — |
-| `theorem` | [no_free_params_10_3](/verify/taulib/docs/book-iii-hinge-hinge-theorem/no-free-params-10-3/) | L336-L337 | formalized | — |
-| `theorem` | [coupling_uniqueness_8_3](/verify/taulib/docs/book-iii-hinge-hinge-theorem/coupling-uniqueness-8-3/) | L339-L340 | formalized | — |
-| `theorem` | [hinge_assembly_8_3](/verify/taulib/docs/book-iii-hinge-hinge-theorem/hinge-assembly-8-3/) | L343-L344 | formalized | — |
-| `theorem` | [hinge_chain_length](/verify/taulib/docs/book-iii-hinge-hinge-theorem/hinge-chain-length/) | L351-L352 | formalized | `III.T41` |
-| `theorem` | [sector_product_depth_3](/verify/taulib/docs/book-iii-hinge-hinge-theorem/sector-product-depth-3/) | L355-L357 | formalized | `III.T41` |
-| `theorem` | [enrichment_strict](/verify/taulib/docs/book-iii-hinge-hinge-theorem/enrichment-strict/) | L360-L364 | formalized | `III.T41` |
-| `theorem` | [iota_value](/verify/taulib/docs/book-iii-hinge-hinge-theorem/iota-value/) | L367-L368 | formalized | `III.T42` |
-| `theorem` | [iota_lt_one](/verify/taulib/docs/book-iii-hinge-hinge-theorem/iota-lt-one/) | L371-L371 | formalized | `III.T42` |
-| `theorem` | [iota_pos](/verify/taulib/docs/book-iii-hinge-hinge-theorem/iota-pos/) | L374-L374 | formalized | `III.T42` |
-| `theorem` | [iota_ratio_depth_3](/verify/taulib/docs/book-iii-hinge-hinge-theorem/iota-ratio-depth-3/) | L378-L380 | formalized | `III.T42` |
-| `theorem` | [iota_ratio_depth_4](/verify/taulib/docs/book-iii-hinge-hinge-theorem/iota-ratio-depth-4/) | L384-L386 | formalized | `III.T42` |
-| `theorem` | [five_sectors_exhaustive](/verify/taulib/docs/book-iii-hinge-hinge-theorem/five-sectors-exhaustive/) | L389-L391 | formalized | `III.T42` |
-| `theorem` | [no_knobs_witness](/verify/taulib/docs/book-iii-hinge-hinge-theorem/no-knobs-witness/) | L395-L398 | formalized | `III.T42` |
-| `theorem` | [hinge_point](/verify/taulib/docs/book-iii-hinge-hinge-theorem/hinge-point/) | L402-L407 | formalized | `III.T41` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [sector_product](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/sector-product/) | L54-L60 | definition | definition | — |
+| `def` | [total_sector_product](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/total-sector-product/) | L64-L69 | definition | definition | — |
+| `def` | [sector_product_at_level](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/sector-product-at-level/) | L73-L78 | definition | definition | — |
+| `def` | [sector_instantiation_check](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/sector-instantiation-check/) | L88-L117 | data/computed value | data/computed value | `III.T41` |
+| `def` | [level_coherence_check](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/level-coherence-check/) | L121-L142 | data/computed value | data/computed value | `III.T41` |
+| `def` | [enrichment_determines_sectors](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/enrichment-determines-sectors/) | L146-L171 | data/computed value | data/computed value | `III.T41` |
+| `def` | [hinge_theorem_check](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/hinge-theorem-check/) | L175-L183 | data/computed value | data/computed value | `III.T41` |
+| `def` | [iota_numer](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/iota-numer/) | L190-L190 | data/computed value | data/computed value | — |
+| `def` | [iota_denom](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/iota-denom/) | L191-L191 | data/computed value | data/computed value | — |
+| `def` | [iota_determines_ratio](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/iota-determines-ratio/) | L197-L214 | data/computed value | data/computed value | `III.T42` |
+| `def` | [no_free_parameters_check](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/no-free-parameters-check/) | L219-L243 | data/computed value | data/computed value | `III.T42` |
+| `def` | [coupling_uniqueness_check](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/coupling-uniqueness-check/) | L251-L255 | data/computed value | data/computed value | `III.T42` |
+| `def` | [no_knobs_check](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/no-knobs-check/) | L260-L263 | data/computed value | data/computed value | `III.T42` |
+| `def` | [hinge_assembly_check](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/hinge-assembly-check/) | L271-L274 | data/computed value | data/computed value | — |
+| `eval` | [#eval L281](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/eval-l281/) | L281-L281 | computed check | computed check | — |
+| `eval` | [#eval L282](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/eval-l282/) | L282-L282 | computed check | computed check | — |
+| `eval` | [#eval L283](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/eval-l283/) | L283-L283 | computed check | computed check | — |
+| `eval` | [#eval L286](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/eval-l286/) | L286-L286 | computed check | computed check | — |
+| `eval` | [#eval L289](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/eval-l289/) | L289-L289 | computed check | computed check | — |
+| `eval` | [#eval L292](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/eval-l292/) | L292-L292 | computed check | computed check | — |
+| `eval` | [#eval L295](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/eval-l295/) | L295-L295 | computed check | computed check | — |
+| `eval` | [#eval L298](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/eval-l298/) | L298-L298 | computed check | computed check | — |
+| `eval` | [#eval L301](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/eval-l301/) | L301-L301 | computed check | computed check | — |
+| `eval` | [#eval L304](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/eval-l304/) | L304-L304 | computed check | computed check | — |
+| `eval` | [#eval L307](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/eval-l307/) | L307-L307 | computed check | computed check | — |
+| `eval` | [#eval L310](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/eval-l310/) | L310-L310 | computed check | computed check | — |
+| `theorem` | [hinge_theorem_8_3](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/hinge-theorem-8-3/) | L317-L318 | proof obligation | formal proof obligation checked | `III.T41` |
+| `theorem` | [sector_instantiation_10_3](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/sector-instantiation-10-3/) | L320-L321 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [level_coherence_4](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/level-coherence-4/) | L323-L324 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [enrichment_determines_10_3](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/enrichment-determines-10-3/) | L326-L327 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [no_knobs_8_3](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/no-knobs-8-3/) | L330-L331 | proof obligation | formal proof obligation checked | `III.T42` |
+| `theorem` | [iota_determines_5](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/iota-determines-5/) | L333-L334 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [no_free_params_10_3](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/no-free-params-10-3/) | L336-L337 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [coupling_uniqueness_8_3](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/coupling-uniqueness-8-3/) | L339-L340 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [hinge_assembly_8_3](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/hinge-assembly-8-3/) | L343-L344 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [hinge_chain_length](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/hinge-chain-length/) | L351-L352 | proof obligation | formal proof obligation checked | `III.T41` |
+| `theorem` | [sector_product_depth_3](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/sector-product-depth-3/) | L355-L357 | proof obligation | formal proof obligation checked | `III.T41` |
+| `theorem` | [enrichment_strict](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/enrichment-strict/) | L360-L364 | proof obligation | formal proof obligation checked | `III.T41` |
+| `theorem` | [iota_value](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/iota-value/) | L367-L368 | proof obligation | formal proof obligation checked | `III.T42` |
+| `theorem` | [iota_lt_one](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/iota-lt-one/) | L371-L371 | proof obligation | formal proof obligation checked | `III.T42` |
+| `theorem` | [iota_pos](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/iota-pos/) | L374-L374 | proof obligation | formal proof obligation checked | `III.T42` |
+| `theorem` | [iota_ratio_depth_3](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/iota-ratio-depth-3/) | L378-L380 | proof obligation | formal proof obligation checked | `III.T42` |
+| `theorem` | [iota_ratio_depth_4](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/iota-ratio-depth-4/) | L384-L386 | proof obligation | formal proof obligation checked | `III.T42` |
+| `theorem` | [five_sectors_exhaustive](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/five-sectors-exhaustive/) | L389-L391 | proof obligation | formal proof obligation checked | `III.T42` |
+| `theorem` | [no_knobs_witness](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/no-knobs-witness/) | L395-L398 | proof obligation | formal proof obligation checked | `III.T42` |
+| `theorem` | [hinge_point](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/hinge-point/) | L402-L407 | proof obligation | formal proof obligation checked | `III.T41` |

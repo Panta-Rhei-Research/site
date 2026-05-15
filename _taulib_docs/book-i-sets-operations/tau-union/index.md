@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "tau_union",
-  "permalink": "/verify/taulib/docs/book-i-sets-operations/tau-union/",
+  "permalink": "/corpus/taulib/docs/book-i-sets-operations/tau-union/",
   "summary_short": "`def` declaration in `TauLib.BookI.Sets.Operations`.",
   "declaration_id": "TauLib.BookI.Sets.Operations::tau_union",
   "declaration_slug": "tau-union",
   "kind": "def",
   "name": "tau_union",
   "module_name": "TauLib.BookI.Sets.Operations",
-  "module_url": "/verify/taulib/docs/book-i-sets-operations/",
+  "module_url": "/corpus/taulib/docs/book-i-sets-operations/",
   "source_line_start": 39,
   "source_line_end": 39,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Operations.lean#L39-L39",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Sets.Operations",
-        "url": "/verify/taulib/docs/book-i-sets-operations/"
+        "url": "/corpus/taulib/docs/book-i-sets-operations/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Sets.Operations](/verify/taulib/docs/book-i-sets-operations/)
+- Module: [TauLib.BookI.Sets.Operations](/corpus/taulib/docs/book-i-sets-operations/)
 - Source path: [`TauLib/BookI/Sets/Operations.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Operations.lean#L39-L39)
 - Source range: L39-L39
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

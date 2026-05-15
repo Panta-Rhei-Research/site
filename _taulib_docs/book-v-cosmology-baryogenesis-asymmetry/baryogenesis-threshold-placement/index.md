@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "baryogenesis_threshold_placement",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-baryogenesis-asymmetry/baryogenesis-threshold-placement/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-baryogenesis-asymmetry/baryogenesis-threshold-placement/",
   "summary_short": "`def` declaration in `TauLib.BookV.Cosmology.BaryogenesisAsymmetry`.",
   "declaration_id": "TauLib.BookV.Cosmology.BaryogenesisAsymmetry::baryogenesis_threshold_placement",
   "declaration_slug": "baryogenesis-threshold-placement",
   "kind": "def",
   "name": "baryogenesis_threshold_placement",
   "module_name": "TauLib.BookV.Cosmology.BaryogenesisAsymmetry",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-baryogenesis-asymmetry/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-baryogenesis-asymmetry/",
   "source_line_start": 269,
   "source_line_end": 271,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BaryogenesisAsymmetry.lean#L269-L271",
   "formal_status": "defined",
+  "declaration_role": "docstring/data record",
+  "formal_status_label": "docstring/data record",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.BaryogenesisAsymmetry",
-        "url": "/verify/taulib/docs/book-v-cosmology-baryogenesis-asymmetry/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-baryogenesis-asymmetry/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "docstring/data record",
+      "status": "docstring/data record"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.BaryogenesisAsymmetry](/verify/taulib/docs/book-v-cosmology-baryogenesis-asymmetry/)
+- Module: [TauLib.BookV.Cosmology.BaryogenesisAsymmetry](/corpus/taulib/docs/book-v-cosmology-baryogenesis-asymmetry/)
 - Source path: [`TauLib/BookV/Cosmology/BaryogenesisAsymmetry.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BaryogenesisAsymmetry.lean#L269-L271)
 - Source range: L269-L271
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `docstring/data record`
+- Formal status hint: `docstring/data record`
 
 ## Registry Links
 

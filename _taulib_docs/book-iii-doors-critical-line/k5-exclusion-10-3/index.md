@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "k5_exclusion_10_3",
-  "permalink": "/verify/taulib/docs/book-iii-doors-critical-line/k5-exclusion-10-3/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-critical-line/k5-exclusion-10-3/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Doors.CriticalLine`.",
   "declaration_id": "TauLib.BookIII.Doors.CriticalLine::k5_exclusion_10_3",
   "declaration_slug": "k5-exclusion-10-3",
   "kind": "theorem",
   "name": "k5_exclusion_10_3",
   "module_name": "TauLib.BookIII.Doors.CriticalLine",
-  "module_url": "/verify/taulib/docs/book-iii-doors-critical-line/",
+  "module_url": "/corpus/taulib/docs/book-iii-doors-critical-line/",
   "source_line_start": 175,
   "source_line_end": 176,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/CriticalLine.lean#L175-L176",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Doors.CriticalLine",
-        "url": "/verify/taulib/docs/book-iii-doors-critical-line/"
+        "url": "/corpus/taulib/docs/book-iii-doors-critical-line/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Doors.CriticalLine](/verify/taulib/docs/book-iii-doors-critical-line/)
+- Module: [TauLib.BookIII.Doors.CriticalLine](/corpus/taulib/docs/book-iii-doors-critical-line/)
 - Source path: [`TauLib/BookIII/Doors/CriticalLine.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/CriticalLine.lean#L175-L176)
 - Source range: L175-L176
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

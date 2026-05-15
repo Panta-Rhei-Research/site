@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "MacroRefinementEntropy",
-  "permalink": "/verify/taulib/docs/book-v-thermodynamics-entropy-splitting/macro-refinement-entropy/",
+  "permalink": "/corpus/taulib/docs/book-v-thermodynamics-entropy-splitting/macro-refinement-entropy/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Thermodynamics.EntropySplitting`.",
   "declaration_id": "TauLib.BookV.Thermodynamics.EntropySplitting::MacroRefinementEntropy",
   "declaration_slug": "macro-refinement-entropy",
   "kind": "structure",
   "name": "MacroRefinementEntropy",
   "module_name": "TauLib.BookV.Thermodynamics.EntropySplitting",
-  "module_url": "/verify/taulib/docs/book-v-thermodynamics-entropy-splitting/",
+  "module_url": "/corpus/taulib/docs/book-v-thermodynamics-entropy-splitting/",
   "source_line_start": 123,
   "source_line_end": 132,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/EntropySplitting.lean#L123-L132",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Thermodynamics.EntropySplitting",
-        "url": "/verify/taulib/docs/book-v-thermodynamics-entropy-splitting/"
+        "url": "/corpus/taulib/docs/book-v-thermodynamics-entropy-splitting/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Thermodynamics.EntropySplitting](/verify/taulib/docs/book-v-thermodynamics-entropy-splitting/)
+- Module: [TauLib.BookV.Thermodynamics.EntropySplitting](/corpus/taulib/docs/book-v-thermodynamics-entropy-splitting/)
 - Source path: [`TauLib/BookV/Thermodynamics/EntropySplitting.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/EntropySplitting.lean#L123-L132)
 - Source range: L123-L132
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

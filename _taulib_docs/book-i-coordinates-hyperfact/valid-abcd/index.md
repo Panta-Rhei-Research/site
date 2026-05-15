@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ValidABCD",
-  "permalink": "/verify/taulib/docs/book-i-coordinates-hyperfact/valid-abcd/",
+  "permalink": "/corpus/taulib/docs/book-i-coordinates-hyperfact/valid-abcd/",
   "summary_short": "`def` declaration in `TauLib.BookI.Coordinates.Hyperfact`.",
   "declaration_id": "TauLib.BookI.Coordinates.Hyperfact::ValidABCD",
   "declaration_slug": "valid-abcd",
   "kind": "def",
   "name": "ValidABCD",
   "module_name": "TauLib.BookI.Coordinates.Hyperfact",
-  "module_url": "/verify/taulib/docs/book-i-coordinates-hyperfact/",
+  "module_url": "/corpus/taulib/docs/book-i-coordinates-hyperfact/",
   "source_line_start": 42,
   "source_line_end": 45,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/Hyperfact.lean#L42-L45",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Coordinates.Hyperfact",
-        "url": "/verify/taulib/docs/book-i-coordinates-hyperfact/"
+        "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Coordinates.Hyperfact](/verify/taulib/docs/book-i-coordinates-hyperfact/)
+- Module: [TauLib.BookI.Coordinates.Hyperfact](/corpus/taulib/docs/book-i-coordinates-hyperfact/)
 - Source path: [`TauLib/BookI/Coordinates/Hyperfact.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/Hyperfact.lean#L42-L45)
 - Source range: L42-L45
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

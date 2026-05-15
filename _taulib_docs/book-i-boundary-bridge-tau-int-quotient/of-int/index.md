@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauIntQ.ofInt",
-  "permalink": "/verify/taulib/docs/book-i-boundary-bridge-tau-int-quotient/of-int/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-bridge-tau-int-quotient/of-int/",
   "summary_short": "`def` declaration in `TauLib.BookI.Boundary.Bridge.TauIntQuotient`.",
   "declaration_id": "TauLib.BookI.Boundary.Bridge.TauIntQuotient::TauIntQ.ofInt",
   "declaration_slug": "of-int",
   "kind": "def",
   "name": "TauIntQ.ofInt",
   "module_name": "TauLib.BookI.Boundary.Bridge.TauIntQuotient",
-  "module_url": "/verify/taulib/docs/book-i-boundary-bridge-tau-int-quotient/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-bridge-tau-int-quotient/",
   "source_line_start": 280,
   "source_line_end": 282,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Bridge/TauIntQuotient.lean#L280-L282",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Bridge.TauIntQuotient",
-        "url": "/verify/taulib/docs/book-i-boundary-bridge-tau-int-quotient/"
+        "url": "/corpus/taulib/docs/book-i-boundary-bridge-tau-int-quotient/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Bridge.TauIntQuotient](/verify/taulib/docs/book-i-boundary-bridge-tau-int-quotient/)
+- Module: [TauLib.BookI.Boundary.Bridge.TauIntQuotient](/corpus/taulib/docs/book-i-boundary-bridge-tau-int-quotient/)
 - Source path: [`TauLib/BookI/Boundary/Bridge/TauIntQuotient.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Bridge/TauIntQuotient.lean#L280-L282)
 - Source range: L280-L282
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

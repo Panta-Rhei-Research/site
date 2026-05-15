@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "BookIExport",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-boundary-interior/book-iexport/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-boundary-interior/book-iexport/",
   "summary_short": "`structure` declaration in `TauLib.BookI.Holomorphy.BoundaryInterior`.",
   "declaration_id": "TauLib.BookI.Holomorphy.BoundaryInterior::BookIExport",
   "declaration_slug": "book-iexport",
   "kind": "structure",
   "name": "BookIExport",
   "module_name": "TauLib.BookI.Holomorphy.BoundaryInterior",
-  "module_url": "/verify/taulib/docs/book-i-holomorphy-boundary-interior/",
+  "module_url": "/corpus/taulib/docs/book-i-holomorphy-boundary-interior/",
   "source_line_start": 103,
   "source_line_end": 118,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/BoundaryInterior.lean#L103-L118",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Holomorphy.BoundaryInterior",
-        "url": "/verify/taulib/docs/book-i-holomorphy-boundary-interior/"
+        "url": "/corpus/taulib/docs/book-i-holomorphy-boundary-interior/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Holomorphy.BoundaryInterior](/verify/taulib/docs/book-i-holomorphy-boundary-interior/)
+- Module: [TauLib.BookI.Holomorphy.BoundaryInterior](/corpus/taulib/docs/book-i-holomorphy-boundary-interior/)
 - Source path: [`TauLib/BookI/Holomorphy/BoundaryInterior.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/BoundaryInterior.lean#L103-L118)
 - Source range: L103-L118
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

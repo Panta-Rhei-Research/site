@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Boundary.TauRealAnalyticalHelpers",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-real-analytical-helpers/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-real-analytical-helpers/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Boundary.TauRealAnalyticalHelpers`.",
   "module_name": "TauLib.BookI.Boundary.TauRealAnalyticalHelpers",
   "module_slug": "book-i-boundary-tau-real-analytical-helpers",
@@ -34,64 +34,78 @@
     {
       "kind": "theorem",
       "name": "Nat.factorial_ge_two_pow",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-analytical-helpers/factorial-ge-two-pow/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-analytical-helpers/factorial-ge-two-pow/",
       "source_line_start": 51,
       "source_line_end": 73,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "Nat.two_pow_succ_gt_linear",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-analytical-helpers/two-pow-succ-gt-linear/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-analytical-helpers/two-pow-succ-gt-linear/",
       "source_line_start": 80,
       "source_line_end": 85,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "Rat.two_pow_succ_gt_linear",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-analytical-helpers/two-pow-succ-gt-linear-l88/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-analytical-helpers/two-pow-succ-gt-linear-l88/",
       "source_line_start": 88,
       "source_line_end": 96,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "Rat.pow_pred_eq",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-analytical-helpers/pow-pred-eq/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-analytical-helpers/pow-pred-eq/",
       "source_line_start": 104,
       "source_line_end": 108,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "Rat.four_div_two_pow_succ_eq_two_div_two_pow",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-analytical-helpers/four-div-two-pow-succ-eq-two-div-two-pow/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-analytical-helpers/four-div-two-pow-succ-eq-two-div-two-pow/",
       "source_line_start": 111,
       "source_line_end": 118,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "Rat.one_div_two_pow_pred_eq_two_div_two_pow",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-analytical-helpers/one-div-two-pow-pred-eq-two-div-two-pow/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-analytical-helpers/one-div-two-pow-pred-eq-two-div-two-pow/",
       "source_line_start": 121,
       "source_line_end": 125,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "Rat.four_div_two_pow_lt_recip",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-analytical-helpers/four-div-two-pow-lt-recip/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-analytical-helpers/four-div-two-pow-lt-recip/",
       "source_line_start": 139,
       "source_line_end": 155,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -103,7 +117,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -177,12 +191,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `theorem` | [Nat.factorial_ge_two_pow](/verify/taulib/docs/book-i-boundary-tau-real-analytical-helpers/factorial-ge-two-pow/) | L51-L73 | formalized | — |
-| `theorem` | [Nat.two_pow_succ_gt_linear](/verify/taulib/docs/book-i-boundary-tau-real-analytical-helpers/two-pow-succ-gt-linear/) | L80-L85 | formalized | — |
-| `theorem` | [Rat.two_pow_succ_gt_linear](/verify/taulib/docs/book-i-boundary-tau-real-analytical-helpers/two-pow-succ-gt-linear-l88/) | L88-L96 | formalized | — |
-| `theorem` | [Rat.pow_pred_eq](/verify/taulib/docs/book-i-boundary-tau-real-analytical-helpers/pow-pred-eq/) | L104-L108 | formalized | — |
-| `theorem` | [Rat.four_div_two_pow_succ_eq_two_div_two_pow](/verify/taulib/docs/book-i-boundary-tau-real-analytical-helpers/four-div-two-pow-succ-eq-two-div-two-pow/) | L111-L118 | formalized | — |
-| `theorem` | [Rat.one_div_two_pow_pred_eq_two_div_two_pow](/verify/taulib/docs/book-i-boundary-tau-real-analytical-helpers/one-div-two-pow-pred-eq-two-div-two-pow/) | L121-L125 | formalized | — |
-| `theorem` | [Rat.four_div_two_pow_lt_recip](/verify/taulib/docs/book-i-boundary-tau-real-analytical-helpers/four-div-two-pow-lt-recip/) | L139-L155 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `theorem` | [Nat.factorial_ge_two_pow](/corpus/taulib/docs/book-i-boundary-tau-real-analytical-helpers/factorial-ge-two-pow/) | L51-L73 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [Nat.two_pow_succ_gt_linear](/corpus/taulib/docs/book-i-boundary-tau-real-analytical-helpers/two-pow-succ-gt-linear/) | L80-L85 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [Rat.two_pow_succ_gt_linear](/corpus/taulib/docs/book-i-boundary-tau-real-analytical-helpers/two-pow-succ-gt-linear-l88/) | L88-L96 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [Rat.pow_pred_eq](/corpus/taulib/docs/book-i-boundary-tau-real-analytical-helpers/pow-pred-eq/) | L104-L108 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [Rat.four_div_two_pow_succ_eq_two_div_two_pow](/corpus/taulib/docs/book-i-boundary-tau-real-analytical-helpers/four-div-two-pow-succ-eq-two-div-two-pow/) | L111-L118 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [Rat.one_div_two_pow_pred_eq_two_div_two_pow](/corpus/taulib/docs/book-i-boundary-tau-real-analytical-helpers/one-div-two-pow-pred-eq-two-div-two-pow/) | L121-L125 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [Rat.four_div_two_pow_lt_recip](/corpus/taulib/docs/book-i-boundary-tau-real-analytical-helpers/four-div-two-pow-lt-recip/) | L139-L155 | proof obligation | formal proof obligation checked | — |

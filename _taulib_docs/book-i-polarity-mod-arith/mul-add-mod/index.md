@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "mul_add_mod",
-  "permalink": "/verify/taulib/docs/book-i-polarity-mod-arith/mul-add-mod/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-mod-arith/mul-add-mod/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Polarity.ModArith`.",
   "declaration_id": "TauLib.BookI.Polarity.ModArith::mul_add_mod",
   "declaration_slug": "mul-add-mod",
   "kind": "theorem",
   "name": "mul_add_mod",
   "module_name": "TauLib.BookI.Polarity.ModArith",
-  "module_url": "/verify/taulib/docs/book-i-polarity-mod-arith/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-mod-arith/",
   "source_line_start": 176,
   "source_line_end": 182,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/ModArith.lean#L176-L182",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.ModArith",
-        "url": "/verify/taulib/docs/book-i-polarity-mod-arith/"
+        "url": "/corpus/taulib/docs/book-i-polarity-mod-arith/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.ModArith](/verify/taulib/docs/book-i-polarity-mod-arith/)
+- Module: [TauLib.BookI.Polarity.ModArith](/corpus/taulib/docs/book-i-polarity-mod-arith/)
 - Source path: [`TauLib/BookI/Polarity/ModArith.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/ModArith.lean#L176-L182)
 - Source range: L176-L182
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

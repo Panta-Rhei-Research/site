@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "defect_monotone_5",
-  "permalink": "/verify/taulib/docs/book-iii-physics-fluid-data/defect-monotone-5/",
+  "permalink": "/corpus/taulib/docs/book-iii-physics-fluid-data/defect-monotone-5/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Physics.FluidData`.",
   "declaration_id": "TauLib.BookIII.Physics.FluidData::defect_monotone_5",
   "declaration_slug": "defect-monotone-5",
   "kind": "theorem",
   "name": "defect_monotone_5",
   "module_name": "TauLib.BookIII.Physics.FluidData",
-  "module_url": "/verify/taulib/docs/book-iii-physics-fluid-data/",
+  "module_url": "/corpus/taulib/docs/book-iii-physics-fluid-data/",
   "source_line_start": 220,
   "source_line_end": 221,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/FluidData.lean#L220-L221",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Physics.FluidData",
-        "url": "/verify/taulib/docs/book-iii-physics-fluid-data/"
+        "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Physics.FluidData](/verify/taulib/docs/book-iii-physics-fluid-data/)
+- Module: [TauLib.BookIII.Physics.FluidData](/corpus/taulib/docs/book-iii-physics-fluid-data/)
 - Source path: [`TauLib/BookIII/Physics/FluidData.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/FluidData.lean#L220-L221)
 - Source range: L220-L221
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

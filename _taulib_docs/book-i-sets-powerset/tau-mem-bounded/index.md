@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "tau_mem_bounded",
-  "permalink": "/verify/taulib/docs/book-i-sets-powerset/tau-mem-bounded/",
+  "permalink": "/corpus/taulib/docs/book-i-sets-powerset/tau-mem-bounded/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Sets.Powerset`.",
   "declaration_id": "TauLib.BookI.Sets.Powerset::tau_mem_bounded",
   "declaration_slug": "tau-mem-bounded",
   "kind": "theorem",
   "name": "tau_mem_bounded",
   "module_name": "TauLib.BookI.Sets.Powerset",
-  "module_url": "/verify/taulib/docs/book-i-sets-powerset/",
+  "module_url": "/corpus/taulib/docs/book-i-sets-powerset/",
   "source_line_start": 115,
   "source_line_end": 117,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Powerset.lean#L115-L117",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Sets.Powerset",
-        "url": "/verify/taulib/docs/book-i-sets-powerset/"
+        "url": "/corpus/taulib/docs/book-i-sets-powerset/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Sets.Powerset](/verify/taulib/docs/book-i-sets-powerset/)
+- Module: [TauLib.BookI.Sets.Powerset](/corpus/taulib/docs/book-i-sets-powerset/)
 - Source path: [`TauLib/BookI/Sets/Powerset.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Powerset.lean#L115-L117)
 - Source range: L115-L117
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

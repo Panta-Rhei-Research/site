@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "correction_changes_pairing",
-  "permalink": "/verify/taulib/docs/book-vi-consumer-fiber-regime/correction-changes-pairing/",
+  "permalink": "/corpus/taulib/docs/book-vi-consumer-fiber-regime/correction-changes-pairing/",
   "summary_short": "`theorem` declaration in `TauLib.BookVI.Consumer.FiberRegime`.",
   "declaration_id": "TauLib.BookVI.Consumer.FiberRegime::correction_changes_pairing",
   "declaration_slug": "correction-changes-pairing",
   "kind": "theorem",
   "name": "correction_changes_pairing",
   "module_name": "TauLib.BookVI.Consumer.FiberRegime",
-  "module_url": "/verify/taulib/docs/book-vi-consumer-fiber-regime/",
+  "module_url": "/corpus/taulib/docs/book-vi-consumer-fiber-regime/",
   "source_line_start": 81,
   "source_line_end": 83,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Consumer/FiberRegime.lean#L81-L83",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Consumer.FiberRegime",
-        "url": "/verify/taulib/docs/book-vi-consumer-fiber-regime/"
+        "url": "/corpus/taulib/docs/book-vi-consumer-fiber-regime/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Consumer.FiberRegime](/verify/taulib/docs/book-vi-consumer-fiber-regime/)
+- Module: [TauLib.BookVI.Consumer.FiberRegime](/corpus/taulib/docs/book-vi-consumer-fiber-regime/)
 - Source path: [`TauLib/BookVI/Consumer/FiberRegime.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Consumer/FiberRegime.lean#L81-L83)
 - Source range: L81-L83
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

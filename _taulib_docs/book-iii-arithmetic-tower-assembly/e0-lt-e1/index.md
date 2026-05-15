@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "e0_lt_e1",
-  "permalink": "/verify/taulib/docs/book-iii-arithmetic-tower-assembly/e0-lt-e1/",
+  "permalink": "/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/e0-lt-e1/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Arithmetic.TowerAssembly`.",
   "declaration_id": "TauLib.BookIII.Arithmetic.TowerAssembly::e0_lt_e1",
   "declaration_slug": "e0-lt-e1",
   "kind": "theorem",
   "name": "e0_lt_e1",
   "module_name": "TauLib.BookIII.Arithmetic.TowerAssembly",
-  "module_url": "/verify/taulib/docs/book-iii-arithmetic-tower-assembly/",
+  "module_url": "/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/",
   "source_line_start": 133,
   "source_line_end": 133,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/TowerAssembly.lean#L133-L133",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Arithmetic.TowerAssembly",
-        "url": "/verify/taulib/docs/book-iii-arithmetic-tower-assembly/"
+        "url": "/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Arithmetic.TowerAssembly](/verify/taulib/docs/book-iii-arithmetic-tower-assembly/)
+- Module: [TauLib.BookIII.Arithmetic.TowerAssembly](/corpus/taulib/docs/book-iii-arithmetic-tower-assembly/)
 - Source path: [`TauLib/BookIII/Arithmetic/TowerAssembly.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/TowerAssembly.lean#L133-L133)
 - Source range: L133-L133
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

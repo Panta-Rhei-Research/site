@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "si_measured_constants",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-sireference/si-measured-constants/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-sireference/si-measured-constants/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Calibration.SIReference`.",
   "declaration_id": "TauLib.BookIV.Calibration.SIReference::si_measured_constants",
   "declaration_slug": "si-measured-constants",
   "kind": "def",
   "name": "si_measured_constants",
   "module_name": "TauLib.BookIV.Calibration.SIReference",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-sireference/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-sireference/",
   "source_line_start": 223,
   "source_line_end": 226,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/SIReference.lean#L223-L226",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.SIReference",
-        "url": "/verify/taulib/docs/book-iv-calibration-sireference/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-sireference/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.SIReference](/verify/taulib/docs/book-iv-calibration-sireference/)
+- Module: [TauLib.BookIV.Calibration.SIReference](/corpus/taulib/docs/book-iv-calibration-sireference/)
 - Source path: [`TauLib/BookIV/Calibration/SIReference.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/SIReference.lean#L223-L226)
 - Source range: L223-L226
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

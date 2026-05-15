@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "evolution_identity_thm",
-  "permalink": "/verify/taulib/docs/book-ii-hartogs-evolution-operator/evolution-identity-thm/",
+  "permalink": "/corpus/taulib/docs/book-ii-hartogs-evolution-operator/evolution-identity-thm/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Hartogs.EvolutionOperator`.",
   "declaration_id": "TauLib.BookII.Hartogs.EvolutionOperator::evolution_identity_thm",
   "declaration_slug": "evolution-identity-thm",
   "kind": "theorem",
   "name": "evolution_identity_thm",
   "module_name": "TauLib.BookII.Hartogs.EvolutionOperator",
-  "module_url": "/verify/taulib/docs/book-ii-hartogs-evolution-operator/",
+  "module_url": "/corpus/taulib/docs/book-ii-hartogs-evolution-operator/",
   "source_line_start": 149,
   "source_line_end": 151,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/EvolutionOperator.lean#L149-L151",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Hartogs.EvolutionOperator",
-        "url": "/verify/taulib/docs/book-ii-hartogs-evolution-operator/"
+        "url": "/corpus/taulib/docs/book-ii-hartogs-evolution-operator/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Hartogs.EvolutionOperator](/verify/taulib/docs/book-ii-hartogs-evolution-operator/)
+- Module: [TauLib.BookII.Hartogs.EvolutionOperator](/corpus/taulib/docs/book-ii-hartogs-evolution-operator/)
 - Source path: [`TauLib/BookII/Hartogs/EvolutionOperator.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/EvolutionOperator.lean#L149-L151)
 - Source range: L149-L151
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

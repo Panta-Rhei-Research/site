@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "allBlockingMechanisms",
-  "permalink": "/verify/taulib/docs/book-i-meta-logic-ontic-invariance/all-blocking-mechanisms/",
+  "permalink": "/corpus/taulib/docs/book-i-meta-logic-ontic-invariance/all-blocking-mechanisms/",
   "summary_short": "`def` declaration in `TauLib.BookI.MetaLogic.OnticInvariance`.",
   "declaration_id": "TauLib.BookI.MetaLogic.OnticInvariance::allBlockingMechanisms",
   "declaration_slug": "all-blocking-mechanisms",
   "kind": "def",
   "name": "allBlockingMechanisms",
   "module_name": "TauLib.BookI.MetaLogic.OnticInvariance",
-  "module_url": "/verify/taulib/docs/book-i-meta-logic-ontic-invariance/",
+  "module_url": "/corpus/taulib/docs/book-i-meta-logic-ontic-invariance/",
   "source_line_start": 56,
   "source_line_end": 57,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/OnticInvariance.lean#L56-L57",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.MetaLogic.OnticInvariance",
-        "url": "/verify/taulib/docs/book-i-meta-logic-ontic-invariance/"
+        "url": "/corpus/taulib/docs/book-i-meta-logic-ontic-invariance/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.MetaLogic.OnticInvariance](/verify/taulib/docs/book-i-meta-logic-ontic-invariance/)
+- Module: [TauLib.BookI.MetaLogic.OnticInvariance](/corpus/taulib/docs/book-i-meta-logic-ontic-invariance/)
 - Source path: [`TauLib/BookI/MetaLogic/OnticInvariance.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/OnticInvariance.lean#L56-L57)
 - Source range: L56-L57
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "bulk_reduce_stable",
-  "permalink": "/verify/taulib/docs/book-iii-prologue-hartogs-bulk/bulk-reduce-stable/",
+  "permalink": "/corpus/taulib/docs/book-iii-prologue-hartogs-bulk/bulk-reduce-stable/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Prologue.HartogsBulk`.",
   "declaration_id": "TauLib.BookIII.Prologue.HartogsBulk::bulk_reduce_stable",
   "declaration_slug": "bulk-reduce-stable",
   "kind": "theorem",
   "name": "bulk_reduce_stable",
   "module_name": "TauLib.BookIII.Prologue.HartogsBulk",
-  "module_url": "/verify/taulib/docs/book-iii-prologue-hartogs-bulk/",
+  "module_url": "/corpus/taulib/docs/book-iii-prologue-hartogs-bulk/",
   "source_line_start": 155,
   "source_line_end": 160,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Prologue/HartogsBulk.lean#L155-L160",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Prologue.HartogsBulk",
-        "url": "/verify/taulib/docs/book-iii-prologue-hartogs-bulk/"
+        "url": "/corpus/taulib/docs/book-iii-prologue-hartogs-bulk/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Prologue.HartogsBulk](/verify/taulib/docs/book-iii-prologue-hartogs-bulk/)
+- Module: [TauLib.BookIII.Prologue.HartogsBulk](/corpus/taulib/docs/book-iii-prologue-hartogs-bulk/)
 - Source path: [`TauLib/BookIII/Prologue/HartogsBulk.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Prologue/HartogsBulk.lean#L155-L160)
 - Source range: L155-L160
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

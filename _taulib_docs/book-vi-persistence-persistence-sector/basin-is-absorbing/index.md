@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "basin_is_absorbing",
-  "permalink": "/verify/taulib/docs/book-vi-persistence-persistence-sector/basin-is-absorbing/",
+  "permalink": "/corpus/taulib/docs/book-vi-persistence-persistence-sector/basin-is-absorbing/",
   "summary_short": "`theorem` declaration in `TauLib.BookVI.Persistence.PersistenceSector`.",
   "declaration_id": "TauLib.BookVI.Persistence.PersistenceSector::basin_is_absorbing",
   "declaration_slug": "basin-is-absorbing",
   "kind": "theorem",
   "name": "basin_is_absorbing",
   "module_name": "TauLib.BookVI.Persistence.PersistenceSector",
-  "module_url": "/verify/taulib/docs/book-vi-persistence-persistence-sector/",
+  "module_url": "/corpus/taulib/docs/book-vi-persistence-persistence-sector/",
   "source_line_start": 346,
   "source_line_end": 350,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Persistence/PersistenceSector.lean#L346-L350",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Persistence.PersistenceSector",
-        "url": "/verify/taulib/docs/book-vi-persistence-persistence-sector/"
+        "url": "/corpus/taulib/docs/book-vi-persistence-persistence-sector/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Persistence.PersistenceSector](/verify/taulib/docs/book-vi-persistence-persistence-sector/)
+- Module: [TauLib.BookVI.Persistence.PersistenceSector](/corpus/taulib/docs/book-vi-persistence-persistence-sector/)
 - Source path: [`TauLib/BookVI/Persistence/PersistenceSector.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Persistence/PersistenceSector.lean#L346-L350)
 - Source range: L346-L350
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.Electroweak.GaugeInvariance2",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.Electroweak.GaugeInvariance2`.",
   "module_name": "TauLib.BookIV.Electroweak.GaugeInvariance2",
   "module_slug": "book-iv-electroweak-gauge-invariance2",
@@ -47,10 +47,12 @@
     {
       "kind": "structure",
       "name": "WilsonLoop",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/wilson-loop/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/wilson-loop/",
       "source_line_start": 64,
       "source_line_end": 73,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D96"
       ]
@@ -58,28 +60,34 @@
     {
       "kind": "def",
       "name": "wilson_u1",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/wilson-u1/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/wilson-u1/",
       "source_line_start": 76,
       "source_line_end": 80,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "WilsonLoop.compose",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/compose/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/compose/",
       "source_line_start": 83,
       "source_line_end": 87,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "NonAbelianGauge",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/non-abelian-gauge/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/non-abelian-gauge/",
       "source_line_start": 96,
       "source_line_end": 104,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D97"
       ]
@@ -87,37 +95,45 @@
     {
       "kind": "def",
       "name": "gauge_u1",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-u1/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-u1/",
       "source_line_start": 107,
       "source_line_end": 111,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "gauge_su2",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-su2/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-su2/",
       "source_line_start": 114,
       "source_line_end": 118,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "gauge_su3",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-su3/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-su3/",
       "source_line_start": 121,
       "source_line_end": 125,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "ABPhaseUniqueness",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/abphase-uniqueness/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/abphase-uniqueness/",
       "source_line_start": 134,
       "source_line_end": 140,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.T39"
       ]
@@ -125,19 +141,23 @@
     {
       "kind": "theorem",
       "name": "ab_phase_unique",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/ab-phase-unique/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/ab-phase-unique/",
       "source_line_start": 142,
       "source_line_end": 143,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "ABRootOfUnity",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/abroot-of-unity/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/abroot-of-unity/",
       "source_line_start": 152,
       "source_line_end": 159,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.T40"
       ]
@@ -145,28 +165,34 @@
     {
       "kind": "def",
       "name": "ab_root_example",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/ab-root-example/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/ab-root-example/",
       "source_line_start": 161,
       "source_line_end": 164,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ab_root_of_unity",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/ab-root-of-unity/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/ab-root-of-unity/",
       "source_line_start": 166,
       "source_line_end": 166,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "HolonomyFromCurvature",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/holonomy-from-curvature/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/holonomy-from-curvature/",
       "source_line_start": 175,
       "source_line_end": 180,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.T41"
       ]
@@ -174,28 +200,34 @@
     {
       "kind": "def",
       "name": "holonomy_curvature_example",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/holonomy-curvature-example/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/holonomy-curvature-example/",
       "source_line_start": 182,
       "source_line_end": 182,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "holonomy_from_curvature",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/holonomy-from-curvature-l184/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/holonomy-from-curvature-l184/",
       "source_line_start": 184,
       "source_line_end": 185,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "GaugeTransformationLaw",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-transformation-law/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-transformation-law/",
       "source_line_start": 194,
       "source_line_end": 203,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.T121"
       ]
@@ -203,28 +235,34 @@
     {
       "kind": "def",
       "name": "gauge_transform_u1",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-transform-u1/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-transform-u1/",
       "source_line_start": 206,
       "source_line_end": 211,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "gauge_transformation_law",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-transformation-law-l213/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-transformation-law-l213/",
       "source_line_start": 213,
       "source_line_end": 214,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "inductive",
       "name": "ObservableLevel",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/observable-level/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/observable-level/",
       "source_line_start": 223,
       "source_line_end": 227,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.P40"
       ]
@@ -232,28 +270,34 @@
     {
       "kind": "def",
       "name": "ObservableLevel.toNat",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/to-nat/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/to-nat/",
       "source_line_start": 230,
       "source_line_end": 233,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "observable_hierarchy",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/observable-hierarchy/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/observable-hierarchy/",
       "source_line_start": 235,
       "source_line_end": 238,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "nonabelian_self_interaction",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/nonabelian-self-interaction/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/nonabelian-self-interaction/",
       "source_line_start": 247,
       "source_line_end": 251,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.P41"
       ]
@@ -261,10 +305,12 @@
     {
       "kind": "structure",
       "name": "PathOrderedExp",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/path-ordered-exp/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/path-ordered-exp/",
       "source_line_start": 260,
       "source_line_end": 266,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.P42"
       ]
@@ -272,28 +318,34 @@
     {
       "kind": "def",
       "name": "path_ordered_u1",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/path-ordered-u1/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/path-ordered-u1/",
       "source_line_start": 269,
       "source_line_end": 272,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "path_ordered_exp",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/path-ordered-exp-l274/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/path-ordered-exp-l274/",
       "source_line_start": 274,
       "source_line_end": 275,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "SevenStepChain",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/seven-step-chain/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/seven-step-chain/",
       "source_line_start": 284,
       "source_line_end": 292,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.P43"
       ]
@@ -301,28 +353,34 @@
     {
       "kind": "def",
       "name": "seven_step_chain",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/seven-step-chain-l294/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/seven-step-chain-l294/",
       "source_line_start": 294,
       "source_line_end": 296,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "seven_step_chain_valid",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/seven-step-chain-valid/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/seven-step-chain-valid/",
       "source_line_start": 298,
       "source_line_end": 298,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "ABInterference",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/abinterference/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/abinterference/",
       "source_line_start": 307,
       "source_line_end": 315,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.P173"
       ]
@@ -330,28 +388,34 @@
     {
       "kind": "def",
       "name": "example_ab_interf",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/example-ab-interf/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/example-ab-interf/",
       "source_line_start": 317,
       "source_line_end": 319,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ab_interference",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/ab-interference/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/ab-interference/",
       "source_line_start": 321,
       "source_line_end": 321,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "example_wilson",
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/example-wilson/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/example-wilson/",
       "source_line_start": 340,
       "source_line_end": 340,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "IV.R25",
         "IV.R359",
@@ -362,91 +426,111 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l341/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l341/",
       "source_line_start": 341,
       "source_line_end": 341,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l342/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l342/",
       "source_line_start": 342,
       "source_line_end": 342,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l343/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l343/",
       "source_line_start": 343,
       "source_line_end": 343,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l344/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l344/",
       "source_line_start": 344,
       "source_line_end": 344,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l345/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l345/",
       "source_line_start": 345,
       "source_line_end": 345,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l346/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l346/",
       "source_line_start": 346,
       "source_line_end": 346,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l347/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l347/",
       "source_line_start": 347,
       "source_line_end": 347,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l348/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l348/",
       "source_line_start": 348,
       "source_line_end": 348,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l349/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l349/",
       "source_line_start": 349,
       "source_line_end": 349,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l350/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l350/",
       "source_line_start": 350,
       "source_line_end": 352,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -458,7 +542,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -543,47 +627,47 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [WilsonLoop](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/wilson-loop/) | L64-L73 | defined | `IV.D96` |
-| `def` | [wilson_u1](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/wilson-u1/) | L76-L80 | defined | — |
-| `def` | [WilsonLoop.compose](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/compose/) | L83-L87 | defined | — |
-| `structure` | [NonAbelianGauge](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/non-abelian-gauge/) | L96-L104 | defined | `IV.D97` |
-| `def` | [gauge_u1](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-u1/) | L107-L111 | defined | — |
-| `def` | [gauge_su2](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-su2/) | L114-L118 | defined | — |
-| `def` | [gauge_su3](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-su3/) | L121-L125 | defined | — |
-| `structure` | [ABPhaseUniqueness](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/abphase-uniqueness/) | L134-L140 | defined | `IV.T39` |
-| `theorem` | [ab_phase_unique](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/ab-phase-unique/) | L142-L143 | formalized | — |
-| `structure` | [ABRootOfUnity](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/abroot-of-unity/) | L152-L159 | defined | `IV.T40` |
-| `def` | [ab_root_example](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/ab-root-example/) | L161-L164 | defined | — |
-| `theorem` | [ab_root_of_unity](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/ab-root-of-unity/) | L166-L166 | formalized | — |
-| `structure` | [HolonomyFromCurvature](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/holonomy-from-curvature/) | L175-L180 | defined | `IV.T41` |
-| `def` | [holonomy_curvature_example](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/holonomy-curvature-example/) | L182-L182 | defined | — |
-| `theorem` | [holonomy_from_curvature](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/holonomy-from-curvature-l184/) | L184-L185 | formalized | — |
-| `structure` | [GaugeTransformationLaw](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-transformation-law/) | L194-L203 | defined | `IV.T121` |
-| `def` | [gauge_transform_u1](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-transform-u1/) | L206-L211 | defined | — |
-| `theorem` | [gauge_transformation_law](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-transformation-law-l213/) | L213-L214 | formalized | — |
-| `inductive` | [ObservableLevel](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/observable-level/) | L223-L227 | defined | `IV.P40` |
-| `def` | [ObservableLevel.toNat](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/to-nat/) | L230-L233 | defined | — |
-| `theorem` | [observable_hierarchy](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/observable-hierarchy/) | L235-L238 | formalized | — |
-| `theorem` | [nonabelian_self_interaction](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/nonabelian-self-interaction/) | L247-L251 | formalized | `IV.P41` |
-| `structure` | [PathOrderedExp](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/path-ordered-exp/) | L260-L266 | defined | `IV.P42` |
-| `def` | [path_ordered_u1](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/path-ordered-u1/) | L269-L272 | defined | — |
-| `theorem` | [path_ordered_exp](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/path-ordered-exp-l274/) | L274-L275 | formalized | — |
-| `structure` | [SevenStepChain](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/seven-step-chain/) | L284-L292 | defined | `IV.P43` |
-| `def` | [seven_step_chain](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/seven-step-chain-l294/) | L294-L296 | defined | — |
-| `theorem` | [seven_step_chain_valid](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/seven-step-chain-valid/) | L298-L298 | formalized | — |
-| `structure` | [ABInterference](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/abinterference/) | L307-L315 | defined | `IV.P173` |
-| `def` | [example_ab_interf](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/example-ab-interf/) | L317-L319 | defined | — |
-| `theorem` | [ab_interference](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/ab-interference/) | L321-L321 | formalized | — |
-| `def` | [example_wilson](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/example-wilson/) | L340-L340 | defined | `IV.R25`, `IV.R359`, `IV.R360`, `IV.R362` |
-| `eval` | [#eval L341](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l341/) | L341-L341 | computed | — |
-| `eval` | [#eval L342](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l342/) | L342-L342 | computed | — |
-| `eval` | [#eval L343](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l343/) | L343-L343 | computed | — |
-| `eval` | [#eval L344](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l344/) | L344-L344 | computed | — |
-| `eval` | [#eval L345](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l345/) | L345-L345 | computed | — |
-| `eval` | [#eval L346](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l346/) | L346-L346 | computed | — |
-| `eval` | [#eval L347](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l347/) | L347-L347 | computed | — |
-| `eval` | [#eval L348](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l348/) | L348-L348 | computed | — |
-| `eval` | [#eval L349](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l349/) | L349-L349 | computed | — |
-| `eval` | [#eval L350](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l350/) | L350-L352 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [WilsonLoop](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/wilson-loop/) | L64-L73 | type/data schema | type/data schema | `IV.D96` |
+| `def` | [wilson_u1](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/wilson-u1/) | L76-L80 | data/computed value | data/computed value | — |
+| `def` | [WilsonLoop.compose](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/compose/) | L83-L87 | definition | definition | — |
+| `structure` | [NonAbelianGauge](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/non-abelian-gauge/) | L96-L104 | type/data schema | type/data schema | `IV.D97` |
+| `def` | [gauge_u1](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-u1/) | L107-L111 | definition | definition | — |
+| `def` | [gauge_su2](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-su2/) | L114-L118 | definition | definition | — |
+| `def` | [gauge_su3](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-su3/) | L121-L125 | definition | definition | — |
+| `structure` | [ABPhaseUniqueness](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/abphase-uniqueness/) | L134-L140 | type/data schema | type/data schema | `IV.T39` |
+| `theorem` | [ab_phase_unique](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/ab-phase-unique/) | L142-L143 | proof obligation | formal proof obligation checked | — |
+| `structure` | [ABRootOfUnity](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/abroot-of-unity/) | L152-L159 | type/data schema | type/data schema | `IV.T40` |
+| `def` | [ab_root_example](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/ab-root-example/) | L161-L164 | definition | definition | — |
+| `theorem` | [ab_root_of_unity](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/ab-root-of-unity/) | L166-L166 | proof obligation | formal proof obligation checked | — |
+| `structure` | [HolonomyFromCurvature](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/holonomy-from-curvature/) | L175-L180 | type/data schema | type/data schema | `IV.T41` |
+| `def` | [holonomy_curvature_example](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/holonomy-curvature-example/) | L182-L182 | definition | definition | — |
+| `theorem` | [holonomy_from_curvature](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/holonomy-from-curvature-l184/) | L184-L185 | proof obligation | formal proof obligation checked | — |
+| `structure` | [GaugeTransformationLaw](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-transformation-law/) | L194-L203 | type/data schema | type/data schema | `IV.T121` |
+| `def` | [gauge_transform_u1](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-transform-u1/) | L206-L211 | definition | definition | — |
+| `theorem` | [gauge_transformation_law](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/gauge-transformation-law-l213/) | L213-L214 | proof obligation | formal proof obligation checked | — |
+| `inductive` | [ObservableLevel](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/observable-level/) | L223-L227 | type/data schema | type/data schema | `IV.P40` |
+| `def` | [ObservableLevel.toNat](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/to-nat/) | L230-L233 | definition | definition | — |
+| `theorem` | [observable_hierarchy](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/observable-hierarchy/) | L235-L238 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [nonabelian_self_interaction](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/nonabelian-self-interaction/) | L247-L251 | proof obligation | formal proof obligation checked | `IV.P41` |
+| `structure` | [PathOrderedExp](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/path-ordered-exp/) | L260-L266 | type/data schema | type/data schema | `IV.P42` |
+| `def` | [path_ordered_u1](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/path-ordered-u1/) | L269-L272 | definition | definition | — |
+| `theorem` | [path_ordered_exp](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/path-ordered-exp-l274/) | L274-L275 | proof obligation | formal proof obligation checked | — |
+| `structure` | [SevenStepChain](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/seven-step-chain/) | L284-L292 | type/data schema | type/data schema | `IV.P43` |
+| `def` | [seven_step_chain](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/seven-step-chain-l294/) | L294-L296 | definition | definition | — |
+| `theorem` | [seven_step_chain_valid](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/seven-step-chain-valid/) | L298-L298 | proof obligation | formal proof obligation checked | — |
+| `structure` | [ABInterference](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/abinterference/) | L307-L315 | type/data schema | type/data schema | `IV.P173` |
+| `def` | [example_ab_interf](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/example-ab-interf/) | L317-L319 | definition | definition | — |
+| `theorem` | [ab_interference](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/ab-interference/) | L321-L321 | proof obligation | formal proof obligation checked | — |
+| `def` | [example_wilson](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/example-wilson/) | L340-L340 | definition | definition | `IV.R25`, `IV.R359`, `IV.R360`, `IV.R362` |
+| `eval` | [#eval L341](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l341/) | L341-L341 | computed check | computed check | — |
+| `eval` | [#eval L342](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l342/) | L342-L342 | computed check | computed check | — |
+| `eval` | [#eval L343](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l343/) | L343-L343 | computed check | computed check | — |
+| `eval` | [#eval L344](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l344/) | L344-L344 | computed check | computed check | — |
+| `eval` | [#eval L345](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l345/) | L345-L345 | computed check | computed check | — |
+| `eval` | [#eval L346](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l346/) | L346-L346 | computed check | computed check | — |
+| `eval` | [#eval L347](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l347/) | L347-L347 | computed check | computed check | — |
+| `eval` | [#eval L348](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l348/) | L348-L348 | computed check | computed check | — |
+| `eval` | [#eval L349](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l349/) | L349-L349 | computed check | computed check | — |
+| `eval` | [#eval L350](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/eval-l350/) | L350-L352 | computed check | computed check | — |

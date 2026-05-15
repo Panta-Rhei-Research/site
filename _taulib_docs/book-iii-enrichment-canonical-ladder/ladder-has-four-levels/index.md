@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ladder_has_four_levels",
-  "permalink": "/verify/taulib/docs/book-iii-enrichment-canonical-ladder/ladder-has-four-levels/",
+  "permalink": "/corpus/taulib/docs/book-iii-enrichment-canonical-ladder/ladder-has-four-levels/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Enrichment.CanonicalLadder`.",
   "declaration_id": "TauLib.BookIII.Enrichment.CanonicalLadder::ladder_has_four_levels",
   "declaration_slug": "ladder-has-four-levels",
   "kind": "theorem",
   "name": "ladder_has_four_levels",
   "module_name": "TauLib.BookIII.Enrichment.CanonicalLadder",
-  "module_url": "/verify/taulib/docs/book-iii-enrichment-canonical-ladder/",
+  "module_url": "/corpus/taulib/docs/book-iii-enrichment-canonical-ladder/",
   "source_line_start": 273,
   "source_line_end": 274,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Enrichment/CanonicalLadder.lean#L273-L274",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Enrichment.CanonicalLadder",
-        "url": "/verify/taulib/docs/book-iii-enrichment-canonical-ladder/"
+        "url": "/corpus/taulib/docs/book-iii-enrichment-canonical-ladder/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Enrichment.CanonicalLadder](/verify/taulib/docs/book-iii-enrichment-canonical-ladder/)
+- Module: [TauLib.BookIII.Enrichment.CanonicalLadder](/corpus/taulib/docs/book-iii-enrichment-canonical-ladder/)
 - Source path: [`TauLib/BookIII/Enrichment/CanonicalLadder.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Enrichment/CanonicalLadder.lean#L273-L274)
 - Source range: L273-L274
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

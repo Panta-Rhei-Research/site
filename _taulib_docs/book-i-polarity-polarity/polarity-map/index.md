@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "polarity_map",
-  "permalink": "/verify/taulib/docs/book-i-polarity-polarity/polarity-map/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-polarity/polarity-map/",
   "summary_short": "`def` declaration in `TauLib.BookI.Polarity.Polarity`.",
   "declaration_id": "TauLib.BookI.Polarity.Polarity::polarity_map",
   "declaration_slug": "polarity-map",
   "kind": "def",
   "name": "polarity_map",
   "module_name": "TauLib.BookI.Polarity.Polarity",
-  "module_url": "/verify/taulib/docs/book-i-polarity-polarity/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-polarity/",
   "source_line_start": 121,
   "source_line_end": 121,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/Polarity.lean#L121-L121",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.Polarity",
-        "url": "/verify/taulib/docs/book-i-polarity-polarity/"
+        "url": "/corpus/taulib/docs/book-i-polarity-polarity/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.Polarity](/verify/taulib/docs/book-i-polarity-polarity/)
+- Module: [TauLib.BookI.Polarity.Polarity](/corpus/taulib/docs/book-i-polarity-polarity/)
 - Source path: [`TauLib/BookI/Polarity/Polarity.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/Polarity.lean#L121-L121)
 - Source range: L121-L121
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

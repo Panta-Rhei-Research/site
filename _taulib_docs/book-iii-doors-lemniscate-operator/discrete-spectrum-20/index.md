@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "discrete_spectrum_20",
-  "permalink": "/verify/taulib/docs/book-iii-doors-lemniscate-operator/discrete-spectrum-20/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-lemniscate-operator/discrete-spectrum-20/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Doors.LemniscateOperator`.",
   "declaration_id": "TauLib.BookIII.Doors.LemniscateOperator::discrete_spectrum_20",
   "declaration_slug": "discrete-spectrum-20",
   "kind": "theorem",
   "name": "discrete_spectrum_20",
   "module_name": "TauLib.BookIII.Doors.LemniscateOperator",
-  "module_url": "/verify/taulib/docs/book-iii-doors-lemniscate-operator/",
+  "module_url": "/corpus/taulib/docs/book-iii-doors-lemniscate-operator/",
   "source_line_start": 182,
   "source_line_end": 183,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/LemniscateOperator.lean#L182-L183",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Doors.LemniscateOperator",
-        "url": "/verify/taulib/docs/book-iii-doors-lemniscate-operator/"
+        "url": "/corpus/taulib/docs/book-iii-doors-lemniscate-operator/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Doors.LemniscateOperator](/verify/taulib/docs/book-iii-doors-lemniscate-operator/)
+- Module: [TauLib.BookIII.Doors.LemniscateOperator](/corpus/taulib/docs/book-iii-doors-lemniscate-operator/)
 - Source path: [`TauLib/BookIII/Doors/LemniscateOperator.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/LemniscateOperator.lean#L182-L183)
 - Source range: L182-L183
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

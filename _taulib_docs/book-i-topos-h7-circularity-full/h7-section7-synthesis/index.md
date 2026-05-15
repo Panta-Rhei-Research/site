@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "h7_section7_synthesis",
-  "permalink": "/verify/taulib/docs/book-i-topos-h7-circularity-full/h7-section7-synthesis/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-h7-circularity-full/h7-section7-synthesis/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Topos.H7CircularityFull`.",
   "declaration_id": "TauLib.BookI.Topos.H7CircularityFull::h7_section7_synthesis",
   "declaration_slug": "h7-section7-synthesis",
   "kind": "theorem",
   "name": "h7_section7_synthesis",
   "module_name": "TauLib.BookI.Topos.H7CircularityFull",
-  "module_url": "/verify/taulib/docs/book-i-topos-h7-circularity-full/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-h7-circularity-full/",
   "source_line_start": 226,
   "source_line_end": 241,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/H7CircularityFull.lean#L226-L241",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.H7CircularityFull",
-        "url": "/verify/taulib/docs/book-i-topos-h7-circularity-full/"
+        "url": "/corpus/taulib/docs/book-i-topos-h7-circularity-full/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.H7CircularityFull](/verify/taulib/docs/book-i-topos-h7-circularity-full/)
+- Module: [TauLib.BookI.Topos.H7CircularityFull](/corpus/taulib/docs/book-i-topos-h7-circularity-full/)
 - Source path: [`TauLib/BookI/Topos/H7CircularityFull.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/H7CircularityFull.lean#L226-L241)
 - Source range: L226-L241
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

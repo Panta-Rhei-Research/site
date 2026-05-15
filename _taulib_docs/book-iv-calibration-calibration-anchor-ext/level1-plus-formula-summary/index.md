@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "Level1PlusFormulaSummary",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-calibration-anchor-ext/level1-plus-formula-summary/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor-ext/level1-plus-formula-summary/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Calibration.CalibrationAnchorExt`.",
   "declaration_id": "TauLib.BookIV.Calibration.CalibrationAnchorExt::Level1PlusFormulaSummary",
   "declaration_slug": "level1-plus-formula-summary",
   "kind": "structure",
   "name": "Level1PlusFormulaSummary",
   "module_name": "TauLib.BookIV.Calibration.CalibrationAnchorExt",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor-ext/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor-ext/",
   "source_line_start": 194,
   "source_line_end": 207,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/CalibrationAnchorExt.lean#L194-L207",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.CalibrationAnchorExt",
-        "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor-ext/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor-ext/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.CalibrationAnchorExt](/verify/taulib/docs/book-iv-calibration-calibration-anchor-ext/)
+- Module: [TauLib.BookIV.Calibration.CalibrationAnchorExt](/corpus/taulib/docs/book-iv-calibration-calibration-anchor-ext/)
 - Source path: [`TauLib/BookIV/Calibration/CalibrationAnchorExt.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/CalibrationAnchorExt.lean#L194-L207)
 - Source range: L194-L207
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

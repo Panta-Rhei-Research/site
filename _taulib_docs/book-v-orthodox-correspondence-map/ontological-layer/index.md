@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "OntologicalLayer",
-  "permalink": "/verify/taulib/docs/book-v-orthodox-correspondence-map/ontological-layer/",
+  "permalink": "/corpus/taulib/docs/book-v-orthodox-correspondence-map/ontological-layer/",
   "summary_short": "`inductive` declaration in `TauLib.BookV.Orthodox.CorrespondenceMap`.",
   "declaration_id": "TauLib.BookV.Orthodox.CorrespondenceMap::OntologicalLayer",
   "declaration_slug": "ontological-layer",
   "kind": "inductive",
   "name": "OntologicalLayer",
   "module_name": "TauLib.BookV.Orthodox.CorrespondenceMap",
-  "module_url": "/verify/taulib/docs/book-v-orthodox-correspondence-map/",
+  "module_url": "/corpus/taulib/docs/book-v-orthodox-correspondence-map/",
   "source_line_start": 139,
   "source_line_end": 144,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/CorrespondenceMap.lean#L139-L144",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Orthodox.CorrespondenceMap",
-        "url": "/verify/taulib/docs/book-v-orthodox-correspondence-map/"
+        "url": "/corpus/taulib/docs/book-v-orthodox-correspondence-map/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "inductive",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Orthodox.CorrespondenceMap](/verify/taulib/docs/book-v-orthodox-correspondence-map/)
+- Module: [TauLib.BookV.Orthodox.CorrespondenceMap](/corpus/taulib/docs/book-v-orthodox-correspondence-map/)
 - Source path: [`TauLib/BookV/Orthodox/CorrespondenceMap.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/CorrespondenceMap.lean#L139-L144)
 - Source range: L139-L144
 - Kind: `inductive`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

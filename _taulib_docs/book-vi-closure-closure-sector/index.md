@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookVI.Closure.ClosureSector",
-  "permalink": "/verify/taulib/docs/book-vi-closure-closure-sector/",
+  "permalink": "/corpus/taulib/docs/book-vi-closure-closure-sector/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookVI.Closure.ClosureSector`.",
   "module_name": "TauLib.BookVI.Closure.ClosureSector",
   "module_slug": "book-vi-closure-closure-sector",
@@ -35,10 +35,12 @@
     {
       "kind": "structure",
       "name": "ClosureSectorDef",
-      "url": "/verify/taulib/docs/book-vi-closure-closure-sector/closure-sector-def/",
+      "url": "/corpus/taulib/docs/book-vi-closure-closure-sector/closure-sector-def/",
       "source_line_start": 41,
       "source_line_end": 54,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D41"
       ]
@@ -46,28 +48,34 @@
     {
       "kind": "def",
       "name": "closure_def",
-      "url": "/verify/taulib/docs/book-vi-closure-closure-sector/closure-def/",
+      "url": "/corpus/taulib/docs/book-vi-closure-closure-sector/closure-def/",
       "source_line_start": 56,
       "source_line_end": 56,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "closure_generator_match",
-      "url": "/verify/taulib/docs/book-vi-closure-closure-sector/closure-generator-match/",
+      "url": "/corpus/taulib/docs/book-vi-closure-closure-sector/closure-generator-match/",
       "source_line_start": 59,
       "source_line_end": 61,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "StructureRecyclingPredicate",
-      "url": "/verify/taulib/docs/book-vi-closure-closure-sector/structure-recycling-predicate/",
+      "url": "/corpus/taulib/docs/book-vi-closure-closure-sector/structure-recycling-predicate/",
       "source_line_start": 72,
       "source_line_end": 83,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D42"
       ]
@@ -75,37 +83,45 @@
     {
       "kind": "def",
       "name": "struct_recycle",
-      "url": "/verify/taulib/docs/book-vi-closure-closure-sector/struct-recycle/",
+      "url": "/corpus/taulib/docs/book-vi-closure-closure-sector/struct-recycle/",
       "source_line_start": 85,
       "source_line_end": 87,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "recycling_three_conditions",
-      "url": "/verify/taulib/docs/book-vi-closure-closure-sector/recycling-three-conditions/",
+      "url": "/corpus/taulib/docs/book-vi-closure-closure-sector/recycling-three-conditions/",
       "source_line_start": 89,
       "source_line_end": 91,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "recycling_all_hold",
-      "url": "/verify/taulib/docs/book-vi-closure-closure-sector/recycling-all-hold/",
+      "url": "/corpus/taulib/docs/book-vi-closure-closure-sector/recycling-all-hold/",
       "source_line_start": 93,
       "source_line_end": 97,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "ClosureReturn",
-      "url": "/verify/taulib/docs/book-vi-closure-closure-sector/closure-return/",
+      "url": "/corpus/taulib/docs/book-vi-closure-closure-sector/closure-return/",
       "source_line_start": 106,
       "source_line_end": 113,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.T23"
       ]
@@ -113,28 +129,34 @@
     {
       "kind": "def",
       "name": "closure_ret",
-      "url": "/verify/taulib/docs/book-vi-closure-closure-sector/closure-ret/",
+      "url": "/corpus/taulib/docs/book-vi-closure-closure-sector/closure-ret/",
       "source_line_start": 115,
       "source_line_end": 117,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "closure_is_pi_double_return",
-      "url": "/verify/taulib/docs/book-vi-closure-closure-sector/closure-is-pi-double-return/",
+      "url": "/corpus/taulib/docs/book-vi-closure-closure-sector/closure-is-pi-double-return/",
       "source_line_start": 119,
       "source_line_end": 122,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "AgingDefect",
-      "url": "/verify/taulib/docs/book-vi-closure-closure-sector/aging-defect/",
+      "url": "/corpus/taulib/docs/book-vi-closure-closure-sector/aging-defect/",
       "source_line_start": 132,
       "source_line_end": 139,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D43"
       ]
@@ -142,19 +164,23 @@
     {
       "kind": "def",
       "name": "aging",
-      "url": "/verify/taulib/docs/book-vi-closure-closure-sector/aging/",
+      "url": "/corpus/taulib/docs/book-vi-closure-closure-sector/aging/",
       "source_line_start": 141,
       "source_line_end": 141,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "RepairBudgetExhaustion",
-      "url": "/verify/taulib/docs/book-vi-closure-closure-sector/repair-budget-exhaustion/",
+      "url": "/corpus/taulib/docs/book-vi-closure-closure-sector/repair-budget-exhaustion/",
       "source_line_start": 152,
       "source_line_end": 161,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.P16"
       ]
@@ -162,19 +188,23 @@
     {
       "kind": "def",
       "name": "repair_exhaust",
-      "url": "/verify/taulib/docs/book-vi-closure-closure-sector/repair-exhaust/",
+      "url": "/corpus/taulib/docs/book-vi-closure-closure-sector/repair-exhaust/",
       "source_line_start": 163,
       "source_line_end": 163,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "repair_budget_exhaustion",
-      "url": "/verify/taulib/docs/book-vi-closure-closure-sector/repair-budget-exhaustion-l165/",
+      "url": "/corpus/taulib/docs/book-vi-closure-closure-sector/repair-budget-exhaustion-l165/",
       "source_line_start": 165,
       "source_line_end": 171,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -186,7 +216,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -259,20 +289,20 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [ClosureSectorDef](/verify/taulib/docs/book-vi-closure-closure-sector/closure-sector-def/) | L41-L54 | defined | `VI.D41` |
-| `def` | [closure_def](/verify/taulib/docs/book-vi-closure-closure-sector/closure-def/) | L56-L56 | defined | — |
-| `theorem` | [closure_generator_match](/verify/taulib/docs/book-vi-closure-closure-sector/closure-generator-match/) | L59-L61 | formalized | — |
-| `structure` | [StructureRecyclingPredicate](/verify/taulib/docs/book-vi-closure-closure-sector/structure-recycling-predicate/) | L72-L83 | defined | `VI.D42` |
-| `def` | [struct_recycle](/verify/taulib/docs/book-vi-closure-closure-sector/struct-recycle/) | L85-L87 | defined | — |
-| `theorem` | [recycling_three_conditions](/verify/taulib/docs/book-vi-closure-closure-sector/recycling-three-conditions/) | L89-L91 | formalized | — |
-| `theorem` | [recycling_all_hold](/verify/taulib/docs/book-vi-closure-closure-sector/recycling-all-hold/) | L93-L97 | formalized | — |
-| `structure` | [ClosureReturn](/verify/taulib/docs/book-vi-closure-closure-sector/closure-return/) | L106-L113 | defined | `VI.T23` |
-| `def` | [closure_ret](/verify/taulib/docs/book-vi-closure-closure-sector/closure-ret/) | L115-L117 | defined | — |
-| `theorem` | [closure_is_pi_double_return](/verify/taulib/docs/book-vi-closure-closure-sector/closure-is-pi-double-return/) | L119-L122 | formalized | — |
-| `structure` | [AgingDefect](/verify/taulib/docs/book-vi-closure-closure-sector/aging-defect/) | L132-L139 | defined | `VI.D43` |
-| `def` | [aging](/verify/taulib/docs/book-vi-closure-closure-sector/aging/) | L141-L141 | defined | — |
-| `structure` | [RepairBudgetExhaustion](/verify/taulib/docs/book-vi-closure-closure-sector/repair-budget-exhaustion/) | L152-L161 | defined | `VI.P16` |
-| `def` | [repair_exhaust](/verify/taulib/docs/book-vi-closure-closure-sector/repair-exhaust/) | L163-L163 | defined | — |
-| `theorem` | [repair_budget_exhaustion](/verify/taulib/docs/book-vi-closure-closure-sector/repair-budget-exhaustion-l165/) | L165-L171 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [ClosureSectorDef](/corpus/taulib/docs/book-vi-closure-closure-sector/closure-sector-def/) | L41-L54 | type/data schema | type/data schema | `VI.D41` |
+| `def` | [closure_def](/corpus/taulib/docs/book-vi-closure-closure-sector/closure-def/) | L56-L56 | definition | definition | — |
+| `theorem` | [closure_generator_match](/corpus/taulib/docs/book-vi-closure-closure-sector/closure-generator-match/) | L59-L61 | proof obligation | formal proof obligation checked | — |
+| `structure` | [StructureRecyclingPredicate](/corpus/taulib/docs/book-vi-closure-closure-sector/structure-recycling-predicate/) | L72-L83 | type/data schema | type/data schema | `VI.D42` |
+| `def` | [struct_recycle](/corpus/taulib/docs/book-vi-closure-closure-sector/struct-recycle/) | L85-L87 | definition | definition | — |
+| `theorem` | [recycling_three_conditions](/corpus/taulib/docs/book-vi-closure-closure-sector/recycling-three-conditions/) | L89-L91 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [recycling_all_hold](/corpus/taulib/docs/book-vi-closure-closure-sector/recycling-all-hold/) | L93-L97 | proof obligation | formal proof obligation checked | — |
+| `structure` | [ClosureReturn](/corpus/taulib/docs/book-vi-closure-closure-sector/closure-return/) | L106-L113 | type/data schema | type/data schema | `VI.T23` |
+| `def` | [closure_ret](/corpus/taulib/docs/book-vi-closure-closure-sector/closure-ret/) | L115-L117 | definition | definition | — |
+| `theorem` | [closure_is_pi_double_return](/corpus/taulib/docs/book-vi-closure-closure-sector/closure-is-pi-double-return/) | L119-L122 | proof obligation | formal proof obligation checked | — |
+| `structure` | [AgingDefect](/corpus/taulib/docs/book-vi-closure-closure-sector/aging-defect/) | L132-L139 | type/data schema | type/data schema | `VI.D43` |
+| `def` | [aging](/corpus/taulib/docs/book-vi-closure-closure-sector/aging/) | L141-L141 | definition | definition | — |
+| `structure` | [RepairBudgetExhaustion](/corpus/taulib/docs/book-vi-closure-closure-sector/repair-budget-exhaustion/) | L152-L161 | type/data schema | type/data schema | `VI.P16` |
+| `def` | [repair_exhaust](/corpus/taulib/docs/book-vi-closure-closure-sector/repair-exhaust/) | L163-L163 | definition | definition | — |
+| `theorem` | [repair_budget_exhaustion](/corpus/taulib/docs/book-vi-closure-closure-sector/repair-budget-exhaustion-l165/) | L165-L171 | proof obligation | formal proof obligation checked | — |

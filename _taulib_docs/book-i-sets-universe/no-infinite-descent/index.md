@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "no_infinite_descent",
-  "permalink": "/verify/taulib/docs/book-i-sets-universe/no-infinite-descent/",
+  "permalink": "/corpus/taulib/docs/book-i-sets-universe/no-infinite-descent/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Sets.Universe`.",
   "declaration_id": "TauLib.BookI.Sets.Universe::no_infinite_descent",
   "declaration_slug": "no-infinite-descent",
   "kind": "theorem",
   "name": "no_infinite_descent",
   "module_name": "TauLib.BookI.Sets.Universe",
-  "module_url": "/verify/taulib/docs/book-i-sets-universe/",
+  "module_url": "/corpus/taulib/docs/book-i-sets-universe/",
   "source_line_start": 101,
   "source_line_end": 128,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Universe.lean#L101-L128",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Sets.Universe",
-        "url": "/verify/taulib/docs/book-i-sets-universe/"
+        "url": "/corpus/taulib/docs/book-i-sets-universe/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Sets.Universe](/verify/taulib/docs/book-i-sets-universe/)
+- Module: [TauLib.BookI.Sets.Universe](/corpus/taulib/docs/book-i-sets-universe/)
 - Source path: [`TauLib/BookI/Sets/Universe.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Universe.lean#L101-L128)
 - Source range: L101-L128
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

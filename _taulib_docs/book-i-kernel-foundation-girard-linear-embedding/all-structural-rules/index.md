@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "allStructuralRules",
-  "permalink": "/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/all-structural-rules/",
+  "permalink": "/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/all-structural-rules/",
   "summary_short": "`def` declaration in `TauLib.BookI.KernelFoundation.GirardLinearEmbedding`.",
   "declaration_id": "TauLib.BookI.KernelFoundation.GirardLinearEmbedding::allStructuralRules",
   "declaration_slug": "all-structural-rules",
   "kind": "def",
   "name": "allStructuralRules",
   "module_name": "TauLib.BookI.KernelFoundation.GirardLinearEmbedding",
-  "module_url": "/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/",
+  "module_url": "/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/",
   "source_line_start": 157,
   "source_line_end": 158,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/KernelFoundation/GirardLinearEmbedding.lean#L157-L158",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.KernelFoundation.GirardLinearEmbedding",
-        "url": "/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/"
+        "url": "/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.KernelFoundation.GirardLinearEmbedding](/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/)
+- Module: [TauLib.BookI.KernelFoundation.GirardLinearEmbedding](/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/)
 - Source path: [`TauLib/BookI/KernelFoundation/GirardLinearEmbedding.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/KernelFoundation/GirardLinearEmbedding.lean#L157-L158)
 - Source range: L157-L158
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

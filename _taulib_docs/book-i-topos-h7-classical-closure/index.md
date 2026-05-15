@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Topos.H7ClassicalClosure",
-  "permalink": "/verify/taulib/docs/book-i-topos-h7-classical-closure/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-h7-classical-closure/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Topos.H7ClassicalClosure`.",
   "module_name": "TauLib.BookI.Topos.H7ClassicalClosure",
   "module_slug": "book-i-topos-h7-classical-closure",
@@ -31,55 +31,67 @@
     {
       "kind": "theorem",
       "name": "classical_topos_subquotient_witness",
-      "url": "/verify/taulib/docs/book-i-topos-h7-classical-closure/classical-topos-subquotient-witness/",
+      "url": "/corpus/taulib/docs/book-i-topos-h7-classical-closure/classical-topos-subquotient-witness/",
       "source_line_start": 126,
       "source_line_end": 129,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "classical_embedding_witness",
-      "url": "/verify/taulib/docs/book-i-topos-h7-classical-closure/classical-embedding-witness/",
+      "url": "/corpus/taulib/docs/book-i-topos-h7-classical-closure/classical-embedding-witness/",
       "source_line_start": 139,
       "source_line_end": 142,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "comparison_functor_structural_witness",
-      "url": "/verify/taulib/docs/book-i-topos-h7-classical-closure/comparison-functor-structural-witness/",
+      "url": "/corpus/taulib/docs/book-i-topos-h7-classical-closure/comparison-functor-structural-witness/",
       "source_line_start": 155,
       "source_line_end": 160,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "h7_section8_synthesis",
-      "url": "/verify/taulib/docs/book-i-topos-h7-classical-closure/h7-section8-synthesis/",
+      "url": "/corpus/taulib/docs/book-i-topos-h7-classical-closure/h7-section8-synthesis/",
       "source_line_start": 178,
       "source_line_end": 187,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "h7_closure_synthesis",
-      "url": "/verify/taulib/docs/book-i-topos-h7-classical-closure/h7-closure-synthesis/",
+      "url": "/corpus/taulib/docs/book-i-topos-h7-classical-closure/h7-closure-synthesis/",
       "source_line_start": 208,
       "source_line_end": 230,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "seven_bundle_closure_synthesis",
-      "url": "/verify/taulib/docs/book-i-topos-h7-classical-closure/seven-bundle-closure-synthesis/",
+      "url": "/corpus/taulib/docs/book-i-topos-h7-classical-closure/seven-bundle-closure-synthesis/",
       "source_line_start": 268,
       "source_line_end": 295,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -91,7 +103,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -158,11 +170,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `theorem` | [classical_topos_subquotient_witness](/verify/taulib/docs/book-i-topos-h7-classical-closure/classical-topos-subquotient-witness/) | L126-L129 | formalized | — |
-| `theorem` | [classical_embedding_witness](/verify/taulib/docs/book-i-topos-h7-classical-closure/classical-embedding-witness/) | L139-L142 | formalized | — |
-| `theorem` | [comparison_functor_structural_witness](/verify/taulib/docs/book-i-topos-h7-classical-closure/comparison-functor-structural-witness/) | L155-L160 | formalized | — |
-| `theorem` | [h7_section8_synthesis](/verify/taulib/docs/book-i-topos-h7-classical-closure/h7-section8-synthesis/) | L178-L187 | formalized | — |
-| `theorem` | [h7_closure_synthesis](/verify/taulib/docs/book-i-topos-h7-classical-closure/h7-closure-synthesis/) | L208-L230 | formalized | — |
-| `theorem` | [seven_bundle_closure_synthesis](/verify/taulib/docs/book-i-topos-h7-classical-closure/seven-bundle-closure-synthesis/) | L268-L295 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `theorem` | [classical_topos_subquotient_witness](/corpus/taulib/docs/book-i-topos-h7-classical-closure/classical-topos-subquotient-witness/) | L126-L129 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [classical_embedding_witness](/corpus/taulib/docs/book-i-topos-h7-classical-closure/classical-embedding-witness/) | L139-L142 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [comparison_functor_structural_witness](/corpus/taulib/docs/book-i-topos-h7-classical-closure/comparison-functor-structural-witness/) | L155-L160 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [h7_section8_synthesis](/corpus/taulib/docs/book-i-topos-h7-classical-closure/h7-section8-synthesis/) | L178-L187 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [h7_closure_synthesis](/corpus/taulib/docs/book-i-topos-h7-classical-closure/h7-closure-synthesis/) | L208-L230 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [seven_bundle_closure_synthesis](/corpus/taulib/docs/book-i-topos-h7-classical-closure/seven-bundle-closure-synthesis/) | L268-L295 | proof obligation | formal proof obligation checked | — |

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "plasma_cutoff",
-  "permalink": "/verify/taulib/docs/book-v-fluid-macro-tau-plasma/plasma-cutoff/",
+  "permalink": "/corpus/taulib/docs/book-v-fluid-macro-tau-plasma/plasma-cutoff/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.FluidMacro.TauPlasma`.",
   "declaration_id": "TauLib.BookV.FluidMacro.TauPlasma::plasma_cutoff",
   "declaration_slug": "plasma-cutoff",
   "kind": "theorem",
   "name": "plasma_cutoff",
   "module_name": "TauLib.BookV.FluidMacro.TauPlasma",
-  "module_url": "/verify/taulib/docs/book-v-fluid-macro-tau-plasma/",
+  "module_url": "/corpus/taulib/docs/book-v-fluid-macro-tau-plasma/",
   "source_line_start": 189,
   "source_line_end": 191,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/TauPlasma.lean#L189-L191",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.FluidMacro.TauPlasma",
-        "url": "/verify/taulib/docs/book-v-fluid-macro-tau-plasma/"
+        "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-plasma/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.FluidMacro.TauPlasma](/verify/taulib/docs/book-v-fluid-macro-tau-plasma/)
+- Module: [TauLib.BookV.FluidMacro.TauPlasma](/corpus/taulib/docs/book-v-fluid-macro-tau-plasma/)
 - Source path: [`TauLib/BookV/FluidMacro/TauPlasma.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/TauPlasma.lean#L189-L191)
 - Source range: L189-L191
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

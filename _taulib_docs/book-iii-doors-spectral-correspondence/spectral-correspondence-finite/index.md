@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "spectral_correspondence_finite",
-  "permalink": "/verify/taulib/docs/book-iii-doors-spectral-correspondence/spectral-correspondence-finite/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-spectral-correspondence/spectral-correspondence-finite/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Doors.SpectralCorrespondence`.",
   "declaration_id": "TauLib.BookIII.Doors.SpectralCorrespondence::spectral_correspondence_finite",
   "declaration_slug": "spectral-correspondence-finite",
   "kind": "def",
   "name": "spectral_correspondence_finite",
   "module_name": "TauLib.BookIII.Doors.SpectralCorrespondence",
-  "module_url": "/verify/taulib/docs/book-iii-doors-spectral-correspondence/",
+  "module_url": "/corpus/taulib/docs/book-iii-doors-spectral-correspondence/",
   "source_line_start": 85,
   "source_line_end": 95,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/SpectralCorrespondence.lean#L85-L95",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Doors.SpectralCorrespondence",
-        "url": "/verify/taulib/docs/book-iii-doors-spectral-correspondence/"
+        "url": "/corpus/taulib/docs/book-iii-doors-spectral-correspondence/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Doors.SpectralCorrespondence](/verify/taulib/docs/book-iii-doors-spectral-correspondence/)
+- Module: [TauLib.BookIII.Doors.SpectralCorrespondence](/corpus/taulib/docs/book-iii-doors-spectral-correspondence/)
 - Source path: [`TauLib/BookIII/Doors/SpectralCorrespondence.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/SpectralCorrespondence.lean#L85-L95)
 - Source range: L85-L95
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.MassDerivation.HolonomyDetail",
-  "permalink": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/",
+  "permalink": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.MassDerivation.HolonomyDetail`.",
   "module_name": "TauLib.BookIV.MassDerivation.HolonomyDetail",
   "module_slug": "book-iv-mass-derivation-holonomy-detail",
@@ -36,10 +36,12 @@
     {
       "kind": "structure",
       "name": "TripleHolonomyH3",
-      "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/triple-holonomy-h3/",
+      "url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/triple-holonomy-h3/",
       "source_line_start": 72,
       "source_line_end": 91,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D314"
       ]
@@ -47,46 +49,56 @@
     {
       "kind": "def",
       "name": "triple_holonomy_H3",
-      "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/triple-holonomy-h3-l94/",
+      "url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/triple-holonomy-h3-l94/",
       "source_line_start": 94,
       "source_line_end": 103,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "holonomy_three_circles",
-      "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-three-circles/",
+      "url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-three-circles/",
       "source_line_start": 106,
       "source_line_end": 107,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "holonomy_three_generators",
-      "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-three-generators/",
+      "url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-three-generators/",
       "source_line_start": 110,
       "source_line_end": 111,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "holonomy_pi_exponent",
-      "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-pi-exponent/",
+      "url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-pi-exponent/",
       "source_line_start": 114,
       "source_line_end": 115,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "holonomy_in_range",
-      "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-in-range/",
+      "url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-in-range/",
       "source_line_start": 129,
       "source_line_end": 132,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T116"
       ]
@@ -94,19 +106,23 @@
     {
       "kind": "theorem",
       "name": "holonomy_perturbative",
-      "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-perturbative/",
+      "url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-perturbative/",
       "source_line_start": 135,
       "source_line_end": 138,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "HolonomyCorrectionDetail",
-      "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-correction-detail/",
+      "url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-correction-detail/",
       "source_line_start": 153,
       "source_line_end": 170,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D315"
       ]
@@ -114,136 +130,166 @@
     {
       "kind": "def",
       "name": "holonomy_detail",
-      "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-detail/",
+      "url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-detail/",
       "source_line_start": 173,
       "source_line_end": 182,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "pi3_matches",
-      "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/pi3-matches/",
+      "url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/pi3-matches/",
       "source_line_start": 185,
       "source_line_end": 188,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "alpha2_matches",
-      "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/alpha2-matches/",
+      "url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/alpha2-matches/",
       "source_line_start": 191,
       "source_line_end": 194,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "holonomy_correction_float",
-      "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-correction-float/",
+      "url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-correction-float/",
       "source_line_start": 197,
       "source_line_end": 201,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "breathing_epstein_shape_match",
-      "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/breathing-epstein-shape-match/",
+      "url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/breathing-epstein-shape-match/",
       "source_line_start": 208,
       "source_line_end": 212,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "charge_conjugation_instance",
-      "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/charge-conjugation-instance/",
+      "url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/charge-conjugation-instance/",
       "source_line_start": 215,
       "source_line_end": 215,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "charge_conjugation_order",
-      "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/charge-conjugation-order/",
+      "url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/charge-conjugation-order/",
       "source_line_start": 217,
       "source_line_end": 218,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l225/",
+      "url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l225/",
       "source_line_start": 225,
       "source_line_end": 225,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l226/",
+      "url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l226/",
       "source_line_start": 226,
       "source_line_end": 226,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l227/",
+      "url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l227/",
       "source_line_start": 227,
       "source_line_end": 227,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l230/",
+      "url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l230/",
       "source_line_start": 230,
       "source_line_end": 231,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l234/",
+      "url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l234/",
       "source_line_start": 234,
       "source_line_end": 235,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l238/",
+      "url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l238/",
       "source_line_start": 238,
       "source_line_end": 238,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l241/",
+      "url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l241/",
       "source_line_start": 241,
       "source_line_end": 241,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l242/",
+      "url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l242/",
       "source_line_start": 242,
       "source_line_end": 244,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -255,7 +301,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -329,28 +375,28 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [TripleHolonomyH3](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/triple-holonomy-h3/) | L72-L91 | defined | `IV.D314` |
-| `def` | [triple_holonomy_H3](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/triple-holonomy-h3-l94/) | L94-L103 | defined | — |
-| `theorem` | [holonomy_three_circles](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-three-circles/) | L106-L107 | formalized | — |
-| `theorem` | [holonomy_three_generators](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-three-generators/) | L110-L111 | formalized | — |
-| `theorem` | [holonomy_pi_exponent](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-pi-exponent/) | L114-L115 | formalized | — |
-| `theorem` | [holonomy_in_range](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-in-range/) | L129-L132 | formalized | `IV.T116` |
-| `theorem` | [holonomy_perturbative](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-perturbative/) | L135-L138 | formalized | — |
-| `structure` | [HolonomyCorrectionDetail](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-correction-detail/) | L153-L170 | defined | `IV.D315` |
-| `def` | [holonomy_detail](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-detail/) | L173-L182 | defined | — |
-| `theorem` | [pi3_matches](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/pi3-matches/) | L185-L188 | formalized | — |
-| `theorem` | [alpha2_matches](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/alpha2-matches/) | L191-L194 | formalized | — |
-| `def` | [holonomy_correction_float](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-correction-float/) | L197-L201 | defined | — |
-| `theorem` | [breathing_epstein_shape_match](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/breathing-epstein-shape-match/) | L208-L212 | formalized | — |
-| `def` | [charge_conjugation_instance](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/charge-conjugation-instance/) | L215-L215 | defined | — |
-| `theorem` | [charge_conjugation_order](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/charge-conjugation-order/) | L217-L218 | formalized | — |
-| `eval` | [#eval L225](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l225/) | L225-L225 | computed | — |
-| `eval` | [#eval L226](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l226/) | L226-L226 | computed | — |
-| `eval` | [#eval L227](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l227/) | L227-L227 | computed | — |
-| `eval` | [#eval L230](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l230/) | L230-L231 | computed | — |
-| `eval` | [#eval L234](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l234/) | L234-L235 | computed | — |
-| `eval` | [#eval L238](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l238/) | L238-L238 | computed | — |
-| `eval` | [#eval L241](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l241/) | L241-L241 | computed | — |
-| `eval` | [#eval L242](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l242/) | L242-L244 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [TripleHolonomyH3](/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/triple-holonomy-h3/) | L72-L91 | type/data schema | type/data schema | `IV.D314` |
+| `def` | [triple_holonomy_H3](/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/triple-holonomy-h3-l94/) | L94-L103 | definition | definition | — |
+| `theorem` | [holonomy_three_circles](/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-three-circles/) | L106-L107 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [holonomy_three_generators](/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-three-generators/) | L110-L111 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [holonomy_pi_exponent](/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-pi-exponent/) | L114-L115 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [holonomy_in_range](/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-in-range/) | L129-L132 | proof obligation | formal proof obligation checked | `IV.T116` |
+| `theorem` | [holonomy_perturbative](/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-perturbative/) | L135-L138 | proof obligation | formal proof obligation checked | — |
+| `structure` | [HolonomyCorrectionDetail](/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-correction-detail/) | L153-L170 | type/data schema | type/data schema | `IV.D315` |
+| `def` | [holonomy_detail](/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-detail/) | L173-L182 | definition | definition | — |
+| `theorem` | [pi3_matches](/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/pi3-matches/) | L185-L188 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [alpha2_matches](/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/alpha2-matches/) | L191-L194 | proof obligation | formal proof obligation checked | — |
+| `def` | [holonomy_correction_float](/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-correction-float/) | L197-L201 | data/computed value | data/computed value | — |
+| `theorem` | [breathing_epstein_shape_match](/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/breathing-epstein-shape-match/) | L208-L212 | proof obligation | formal proof obligation checked | — |
+| `def` | [charge_conjugation_instance](/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/charge-conjugation-instance/) | L215-L215 | definition | definition | — |
+| `theorem` | [charge_conjugation_order](/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/charge-conjugation-order/) | L217-L218 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L225](/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l225/) | L225-L225 | computed check | computed check | — |
+| `eval` | [#eval L226](/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l226/) | L226-L226 | computed check | computed check | — |
+| `eval` | [#eval L227](/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l227/) | L227-L227 | computed check | computed check | — |
+| `eval` | [#eval L230](/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l230/) | L230-L231 | computed check | computed check | — |
+| `eval` | [#eval L234](/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l234/) | L234-L235 | computed check | computed check | — |
+| `eval` | [#eval L238](/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l238/) | L238-L238 | computed check | computed check | — |
+| `eval` | [#eval L241](/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l241/) | L241-L241 | computed check | computed check | — |
+| `eval` | [#eval L242](/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/eval-l242/) | L242-L244 | computed check | computed check | — |

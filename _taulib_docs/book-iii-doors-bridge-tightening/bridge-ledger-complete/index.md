@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "bridge_ledger_complete",
-  "permalink": "/verify/taulib/docs/book-iii-doors-bridge-tightening/bridge-ledger-complete/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-bridge-tightening/bridge-ledger-complete/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Doors.BridgeTightening`.",
   "declaration_id": "TauLib.BookIII.Doors.BridgeTightening::bridge_ledger_complete",
   "declaration_slug": "bridge-ledger-complete",
   "kind": "theorem",
   "name": "bridge_ledger_complete",
   "module_name": "TauLib.BookIII.Doors.BridgeTightening",
-  "module_url": "/verify/taulib/docs/book-iii-doors-bridge-tightening/",
+  "module_url": "/corpus/taulib/docs/book-iii-doors-bridge-tightening/",
   "source_line_start": 276,
   "source_line_end": 277,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/BridgeTightening.lean#L276-L277",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Doors.BridgeTightening",
-        "url": "/verify/taulib/docs/book-iii-doors-bridge-tightening/"
+        "url": "/corpus/taulib/docs/book-iii-doors-bridge-tightening/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Doors.BridgeTightening](/verify/taulib/docs/book-iii-doors-bridge-tightening/)
+- Module: [TauLib.BookIII.Doors.BridgeTightening](/corpus/taulib/docs/book-iii-doors-bridge-tightening/)
 - Source path: [`TauLib/BookIII/Doors/BridgeTightening.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/BridgeTightening.lean#L276-L277)
 - Source range: L276-L277
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

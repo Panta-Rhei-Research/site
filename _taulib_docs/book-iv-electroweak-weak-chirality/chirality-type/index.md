@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ChiralityType",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-weak-chirality/chirality-type/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-weak-chirality/chirality-type/",
   "summary_short": "`inductive` declaration in `TauLib.BookIV.Electroweak.WeakChirality`.",
   "declaration_id": "TauLib.BookIV.Electroweak.WeakChirality::ChiralityType",
   "declaration_slug": "chirality-type",
   "kind": "inductive",
   "name": "ChiralityType",
   "module_name": "TauLib.BookIV.Electroweak.WeakChirality",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-weak-chirality/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-weak-chirality/",
   "source_line_start": 109,
   "source_line_end": 114,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/WeakChirality.lean#L109-L114",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.WeakChirality",
-        "url": "/verify/taulib/docs/book-iv-electroweak-weak-chirality/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-weak-chirality/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "inductive",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.WeakChirality](/verify/taulib/docs/book-iv-electroweak-weak-chirality/)
+- Module: [TauLib.BookIV.Electroweak.WeakChirality](/corpus/taulib/docs/book-iv-electroweak-weak-chirality/)
 - Source path: [`TauLib/BookIV/Electroweak/WeakChirality.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/WeakChirality.lean#L109-L114)
 - Source range: L109-L114
 - Kind: `inductive`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

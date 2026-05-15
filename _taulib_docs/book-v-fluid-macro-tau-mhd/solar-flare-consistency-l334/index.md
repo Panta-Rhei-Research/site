@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "solar_flare_consistency",
-  "permalink": "/verify/taulib/docs/book-v-fluid-macro-tau-mhd/solar-flare-consistency-l334/",
+  "permalink": "/corpus/taulib/docs/book-v-fluid-macro-tau-mhd/solar-flare-consistency-l334/",
   "summary_short": "`def` declaration in `TauLib.BookV.FluidMacro.TauMHD`.",
   "declaration_id": "TauLib.BookV.FluidMacro.TauMHD::solar_flare_consistency",
   "declaration_slug": "solar-flare-consistency-l334",
   "kind": "def",
   "name": "solar_flare_consistency",
   "module_name": "TauLib.BookV.FluidMacro.TauMHD",
-  "module_url": "/verify/taulib/docs/book-v-fluid-macro-tau-mhd/",
+  "module_url": "/corpus/taulib/docs/book-v-fluid-macro-tau-mhd/",
   "source_line_start": 334,
   "source_line_end": 334,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/TauMHD.lean#L334-L334",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.FluidMacro.TauMHD",
-        "url": "/verify/taulib/docs/book-v-fluid-macro-tau-mhd/"
+        "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-mhd/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.FluidMacro.TauMHD](/verify/taulib/docs/book-v-fluid-macro-tau-mhd/)
+- Module: [TauLib.BookV.FluidMacro.TauMHD](/corpus/taulib/docs/book-v-fluid-macro-tau-mhd/)
 - Source path: [`TauLib/BookV/FluidMacro/TauMHD.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/TauMHD.lean#L334-L334)
 - Source range: L334-L334
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

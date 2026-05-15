@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "bsd_nonneg_1",
-  "permalink": "/verify/taulib/docs/book-iii-arithmetic-proto-codes/bsd-nonneg-1/",
+  "permalink": "/corpus/taulib/docs/book-iii-arithmetic-proto-codes/bsd-nonneg-1/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Arithmetic.ProtoCodes`.",
   "declaration_id": "TauLib.BookIII.Arithmetic.ProtoCodes::bsd_nonneg_1",
   "declaration_slug": "bsd-nonneg-1",
   "kind": "theorem",
   "name": "bsd_nonneg_1",
   "module_name": "TauLib.BookIII.Arithmetic.ProtoCodes",
-  "module_url": "/verify/taulib/docs/book-iii-arithmetic-proto-codes/",
+  "module_url": "/corpus/taulib/docs/book-iii-arithmetic-proto-codes/",
   "source_line_start": 179,
   "source_line_end": 180,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/ProtoCodes.lean#L179-L180",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Arithmetic.ProtoCodes",
-        "url": "/verify/taulib/docs/book-iii-arithmetic-proto-codes/"
+        "url": "/corpus/taulib/docs/book-iii-arithmetic-proto-codes/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Arithmetic.ProtoCodes](/verify/taulib/docs/book-iii-arithmetic-proto-codes/)
+- Module: [TauLib.BookIII.Arithmetic.ProtoCodes](/corpus/taulib/docs/book-iii-arithmetic-proto-codes/)
 - Source path: [`TauLib/BookIII/Arithmetic/ProtoCodes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/ProtoCodes.lean#L179-L180)
 - Source range: L179-L180
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

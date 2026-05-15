@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "universal_half_life",
-  "permalink": "/verify/taulib/docs/book-v-thermodynamics-defect-exhaustion/universal-half-life/",
+  "permalink": "/corpus/taulib/docs/book-v-thermodynamics-defect-exhaustion/universal-half-life/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Thermodynamics.DefectExhaustion`.",
   "declaration_id": "TauLib.BookV.Thermodynamics.DefectExhaustion::universal_half_life",
   "declaration_slug": "universal-half-life",
   "kind": "theorem",
   "name": "universal_half_life",
   "module_name": "TauLib.BookV.Thermodynamics.DefectExhaustion",
-  "module_url": "/verify/taulib/docs/book-v-thermodynamics-defect-exhaustion/",
+  "module_url": "/corpus/taulib/docs/book-v-thermodynamics-defect-exhaustion/",
   "source_line_start": 343,
   "source_line_end": 344,
   "registry_ids": [
@@ -30,15 +30,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/DefectExhaustion.lean#L343-L344",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Thermodynamics.DefectExhaustion",
-        "url": "/verify/taulib/docs/book-v-thermodynamics-defect-exhaustion/"
+        "url": "/corpus/taulib/docs/book-v-thermodynamics-defect-exhaustion/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -55,7 +57,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -76,11 +79,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Thermodynamics.DefectExhaustion](/verify/taulib/docs/book-v-thermodynamics-defect-exhaustion/)
+- Module: [TauLib.BookV.Thermodynamics.DefectExhaustion](/corpus/taulib/docs/book-v-thermodynamics-defect-exhaustion/)
 - Source path: [`TauLib/BookV/Thermodynamics/DefectExhaustion.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/DefectExhaustion.lean#L343-L344)
 - Source range: L343-L344
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "all_stages_euclidean_5",
-  "permalink": "/verify/taulib/docs/book-ii-mirror-wave-holomorphy/all-stages-euclidean-5/",
+  "permalink": "/corpus/taulib/docs/book-ii-mirror-wave-holomorphy/all-stages-euclidean-5/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Mirror.WaveHolomorphy`.",
   "declaration_id": "TauLib.BookII.Mirror.WaveHolomorphy::all_stages_euclidean_5",
   "declaration_slug": "all-stages-euclidean-5",
   "kind": "theorem",
   "name": "all_stages_euclidean_5",
   "module_name": "TauLib.BookII.Mirror.WaveHolomorphy",
-  "module_url": "/verify/taulib/docs/book-ii-mirror-wave-holomorphy/",
+  "module_url": "/corpus/taulib/docs/book-ii-mirror-wave-holomorphy/",
   "source_line_start": 181,
   "source_line_end": 182,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Mirror/WaveHolomorphy.lean#L181-L182",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Mirror.WaveHolomorphy",
-        "url": "/verify/taulib/docs/book-ii-mirror-wave-holomorphy/"
+        "url": "/corpus/taulib/docs/book-ii-mirror-wave-holomorphy/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Mirror.WaveHolomorphy](/verify/taulib/docs/book-ii-mirror-wave-holomorphy/)
+- Module: [TauLib.BookII.Mirror.WaveHolomorphy](/corpus/taulib/docs/book-ii-mirror-wave-holomorphy/)
 - Source path: [`TauLib/BookII/Mirror/WaveHolomorphy.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Mirror/WaveHolomorphy.lean#L181-L182)
 - Source range: L181-L182
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

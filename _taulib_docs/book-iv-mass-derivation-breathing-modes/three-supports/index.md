@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "three_supports",
-  "permalink": "/verify/taulib/docs/book-iv-mass-derivation-breathing-modes/three-supports/",
+  "permalink": "/corpus/taulib/docs/book-iv-mass-derivation-breathing-modes/three-supports/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.MassDerivation.BreathingModes`.",
   "declaration_id": "TauLib.BookIV.MassDerivation.BreathingModes::three_supports",
   "declaration_slug": "three-supports",
   "kind": "theorem",
   "name": "three_supports",
   "module_name": "TauLib.BookIV.MassDerivation.BreathingModes",
-  "module_url": "/verify/taulib/docs/book-iv-mass-derivation-breathing-modes/",
+  "module_url": "/corpus/taulib/docs/book-iv-mass-derivation-breathing-modes/",
   "source_line_start": 152,
   "source_line_end": 154,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/MassDerivation/BreathingModes.lean#L152-L154",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.MassDerivation.BreathingModes",
-        "url": "/verify/taulib/docs/book-iv-mass-derivation-breathing-modes/"
+        "url": "/corpus/taulib/docs/book-iv-mass-derivation-breathing-modes/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.MassDerivation.BreathingModes](/verify/taulib/docs/book-iv-mass-derivation-breathing-modes/)
+- Module: [TauLib.BookIV.MassDerivation.BreathingModes](/corpus/taulib/docs/book-iv-mass-derivation-breathing-modes/)
 - Source path: [`TauLib/BookIV/MassDerivation/BreathingModes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/MassDerivation/BreathingModes.lean#L152-L154)
 - Source range: L152-L154
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

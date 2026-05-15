@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "code_spectral_find_separator",
-  "permalink": "/verify/taulib/docs/book-ii-regularity-code-decode/code-spectral-find-separator/",
+  "permalink": "/corpus/taulib/docs/book-ii-regularity-code-decode/code-spectral-find-separator/",
   "summary_short": "`def` declaration in `TauLib.BookII.Regularity.CodeDecode`.",
   "declaration_id": "TauLib.BookII.Regularity.CodeDecode::code_spectral_find_separator",
   "declaration_slug": "code-spectral-find-separator",
   "kind": "def",
   "name": "code_spectral_find_separator",
   "module_name": "TauLib.BookII.Regularity.CodeDecode",
-  "module_url": "/verify/taulib/docs/book-ii-regularity-code-decode/",
+  "module_url": "/corpus/taulib/docs/book-ii-regularity-code-decode/",
   "source_line_start": 272,
   "source_line_end": 284,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Regularity/CodeDecode.lean#L272-L284",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Regularity.CodeDecode",
-        "url": "/verify/taulib/docs/book-ii-regularity-code-decode/"
+        "url": "/corpus/taulib/docs/book-ii-regularity-code-decode/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Regularity.CodeDecode](/verify/taulib/docs/book-ii-regularity-code-decode/)
+- Module: [TauLib.BookII.Regularity.CodeDecode](/corpus/taulib/docs/book-ii-regularity-code-decode/)
 - Source path: [`TauLib/BookII/Regularity/CodeDecode.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Regularity/CodeDecode.lean#L272-L284)
 - Source range: L272-L284
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

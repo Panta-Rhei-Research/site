@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "holonomy_correction_float",
-  "permalink": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-correction-float/",
+  "permalink": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/holonomy-correction-float/",
   "summary_short": "`def` declaration in `TauLib.BookIV.MassDerivation.HolonomyDetail`.",
   "declaration_id": "TauLib.BookIV.MassDerivation.HolonomyDetail::holonomy_correction_float",
   "declaration_slug": "holonomy-correction-float",
   "kind": "def",
   "name": "holonomy_correction_float",
   "module_name": "TauLib.BookIV.MassDerivation.HolonomyDetail",
-  "module_url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/",
+  "module_url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/",
   "source_line_start": 197,
   "source_line_end": 201,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/MassDerivation/HolonomyDetail.lean#L197-L201",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.MassDerivation.HolonomyDetail",
-        "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/"
+        "url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.MassDerivation.HolonomyDetail](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/)
+- Module: [TauLib.BookIV.MassDerivation.HolonomyDetail](/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/)
 - Source path: [`TauLib/BookIV/MassDerivation/HolonomyDetail.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/MassDerivation/HolonomyDetail.lean#L197-L201)
 - Source range: L197-L201
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

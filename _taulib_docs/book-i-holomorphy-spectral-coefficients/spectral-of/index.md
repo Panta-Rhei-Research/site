@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "spectral_of",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/spectral-of/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/spectral-of/",
   "summary_short": "`def` declaration in `TauLib.BookI.Holomorphy.SpectralCoefficients`.",
   "declaration_id": "TauLib.BookI.Holomorphy.SpectralCoefficients::spectral_of",
   "declaration_slug": "spectral-of",
   "kind": "def",
   "name": "spectral_of",
   "module_name": "TauLib.BookI.Holomorphy.SpectralCoefficients",
-  "module_url": "/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/",
+  "module_url": "/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/",
   "source_line_start": 44,
   "source_line_end": 45,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/SpectralCoefficients.lean#L44-L45",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Holomorphy.SpectralCoefficients",
-        "url": "/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/"
+        "url": "/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Holomorphy.SpectralCoefficients](/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/)
+- Module: [TauLib.BookI.Holomorphy.SpectralCoefficients](/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/)
 - Source path: [`TauLib/BookI/Holomorphy/SpectralCoefficients.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/SpectralCoefficients.lean#L44-L45)
 - Source range: L44-L45
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

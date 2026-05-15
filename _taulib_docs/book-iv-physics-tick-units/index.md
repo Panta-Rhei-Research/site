@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.Physics.TickUnits",
-  "permalink": "/verify/taulib/docs/book-iv-physics-tick-units/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-tick-units/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.Physics.TickUnits`.",
   "module_name": "TauLib.BookIV.Physics.TickUnits",
   "module_slug": "book-iv-physics-tick-units",
@@ -36,10 +36,12 @@
     {
       "kind": "inductive",
       "name": "TickKind",
-      "url": "/verify/taulib/docs/book-iv-physics-tick-units/tick-kind/",
+      "url": "/corpus/taulib/docs/book-iv-physics-tick-units/tick-kind/",
       "source_line_start": 54,
       "source_line_end": 70,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D322"
       ]
@@ -47,10 +49,12 @@
     {
       "kind": "structure",
       "name": "TickMorphism",
-      "url": "/verify/taulib/docs/book-iv-physics-tick-units/tick-morphism/",
+      "url": "/corpus/taulib/docs/book-iv-physics-tick-units/tick-morphism/",
       "source_line_start": 82,
       "source_line_end": 88,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D321"
       ]
@@ -58,55 +62,67 @@
     {
       "kind": "def",
       "name": "TickMorphism.identity",
-      "url": "/verify/taulib/docs/book-iv-physics-tick-units/identity/",
+      "url": "/corpus/taulib/docs/book-iv-physics-tick-units/identity/",
       "source_line_start": 91,
       "source_line_end": 93,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TickMorphism.compose",
-      "url": "/verify/taulib/docs/book-iv-physics-tick-units/compose/",
+      "url": "/corpus/taulib/docs/book-iv-physics-tick-units/compose/",
       "source_line_start": 96,
       "source_line_end": 99,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TickKind.sector",
-      "url": "/verify/taulib/docs/book-iv-physics-tick-units/sector/",
+      "url": "/corpus/taulib/docs/book-iv-physics-tick-units/sector/",
       "source_line_start": 106,
       "source_line_end": 111,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TickKind.carrier",
-      "url": "/verify/taulib/docs/book-iv-physics-tick-units/carrier/",
+      "url": "/corpus/taulib/docs/book-iv-physics-tick-units/carrier/",
       "source_line_start": 114,
       "source_line_end": 119,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TickKind.measuredInvariant",
-      "url": "/verify/taulib/docs/book-iv-physics-tick-units/measured-invariant/",
+      "url": "/corpus/taulib/docs/book-iv-physics-tick-units/measured-invariant/",
       "source_line_start": 122,
       "source_line_end": 127,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tick_sector_bijection",
-      "url": "/verify/taulib/docs/book-iv-physics-tick-units/tick-sector-bijection/",
+      "url": "/corpus/taulib/docs/book-iv-physics-tick-units/tick-sector-bijection/",
       "source_line_start": 135,
       "source_line_end": 146,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T125"
       ]
@@ -114,10 +130,12 @@
     {
       "kind": "theorem",
       "name": "tick_exhaustion",
-      "url": "/verify/taulib/docs/book-iv-physics-tick-units/tick-exhaustion/",
+      "url": "/corpus/taulib/docs/book-iv-physics-tick-units/tick-exhaustion/",
       "source_line_start": 149,
       "source_line_end": 152,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T126"
       ]
@@ -125,73 +143,89 @@
     {
       "kind": "theorem",
       "name": "tick_sector_consistent_with_invariant",
-      "url": "/verify/taulib/docs/book-iv-physics-tick-units/tick-sector-consistent-with-invariant/",
+      "url": "/corpus/taulib/docs/book-iv-physics-tick-units/tick-sector-consistent-with-invariant/",
       "source_line_start": 155,
       "source_line_end": 157,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "identity_count",
-      "url": "/verify/taulib/docs/book-iv-physics-tick-units/identity-count/",
+      "url": "/corpus/taulib/docs/book-iv-physics-tick-units/identity-count/",
       "source_line_start": 160,
       "source_line_end": 161,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "compose_count",
-      "url": "/verify/taulib/docs/book-iv-physics-tick-units/compose-count/",
+      "url": "/corpus/taulib/docs/book-iv-physics-tick-units/compose-count/",
       "source_line_start": 164,
       "source_line_end": 165,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "InternalRatio",
-      "url": "/verify/taulib/docs/book-iv-physics-tick-units/internal-ratio/",
+      "url": "/corpus/taulib/docs/book-iv-physics-tick-units/internal-ratio/",
       "source_line_start": 174,
       "source_line_end": 185,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "InternalRatio.isDimensionless",
-      "url": "/verify/taulib/docs/book-iv-physics-tick-units/is-dimensionless/",
+      "url": "/corpus/taulib/docs/book-iv-physics-tick-units/is-dimensionless/",
       "source_line_start": 188,
       "source_line_end": 189,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-physics-tick-units/eval-l195/",
+      "url": "/corpus/taulib/docs/book-iv-physics-tick-units/eval-l195/",
       "source_line_start": 195,
       "source_line_end": 195,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-physics-tick-units/eval-l196/",
+      "url": "/corpus/taulib/docs/book-iv-physics-tick-units/eval-l196/",
       "source_line_start": 196,
       "source_line_end": 196,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-physics-tick-units/eval-l197/",
+      "url": "/corpus/taulib/docs/book-iv-physics-tick-units/eval-l197/",
       "source_line_start": 197,
       "source_line_end": 199,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -203,7 +237,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -277,22 +311,22 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [TickKind](/verify/taulib/docs/book-iv-physics-tick-units/tick-kind/) | L54-L70 | defined | `IV.D322` |
-| `structure` | [TickMorphism](/verify/taulib/docs/book-iv-physics-tick-units/tick-morphism/) | L82-L88 | defined | `IV.D321` |
-| `def` | [TickMorphism.identity](/verify/taulib/docs/book-iv-physics-tick-units/identity/) | L91-L93 | defined | — |
-| `def` | [TickMorphism.compose](/verify/taulib/docs/book-iv-physics-tick-units/compose/) | L96-L99 | defined | — |
-| `def` | [TickKind.sector](/verify/taulib/docs/book-iv-physics-tick-units/sector/) | L106-L111 | defined | — |
-| `def` | [TickKind.carrier](/verify/taulib/docs/book-iv-physics-tick-units/carrier/) | L114-L119 | defined | — |
-| `def` | [TickKind.measuredInvariant](/verify/taulib/docs/book-iv-physics-tick-units/measured-invariant/) | L122-L127 | defined | — |
-| `theorem` | [tick_sector_bijection](/verify/taulib/docs/book-iv-physics-tick-units/tick-sector-bijection/) | L135-L146 | formalized | `IV.T125` |
-| `theorem` | [tick_exhaustion](/verify/taulib/docs/book-iv-physics-tick-units/tick-exhaustion/) | L149-L152 | formalized | `IV.T126` |
-| `theorem` | [tick_sector_consistent_with_invariant](/verify/taulib/docs/book-iv-physics-tick-units/tick-sector-consistent-with-invariant/) | L155-L157 | formalized | — |
-| `theorem` | [identity_count](/verify/taulib/docs/book-iv-physics-tick-units/identity-count/) | L160-L161 | formalized | — |
-| `theorem` | [compose_count](/verify/taulib/docs/book-iv-physics-tick-units/compose-count/) | L164-L165 | formalized | — |
-| `structure` | [InternalRatio](/verify/taulib/docs/book-iv-physics-tick-units/internal-ratio/) | L174-L185 | defined | — |
-| `def` | [InternalRatio.isDimensionless](/verify/taulib/docs/book-iv-physics-tick-units/is-dimensionless/) | L188-L189 | defined | — |
-| `eval` | [#eval L195](/verify/taulib/docs/book-iv-physics-tick-units/eval-l195/) | L195-L195 | computed | — |
-| `eval` | [#eval L196](/verify/taulib/docs/book-iv-physics-tick-units/eval-l196/) | L196-L196 | computed | — |
-| `eval` | [#eval L197](/verify/taulib/docs/book-iv-physics-tick-units/eval-l197/) | L197-L199 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [TickKind](/corpus/taulib/docs/book-iv-physics-tick-units/tick-kind/) | L54-L70 | type/data schema | type/data schema | `IV.D322` |
+| `structure` | [TickMorphism](/corpus/taulib/docs/book-iv-physics-tick-units/tick-morphism/) | L82-L88 | type/data schema | type/data schema | `IV.D321` |
+| `def` | [TickMorphism.identity](/corpus/taulib/docs/book-iv-physics-tick-units/identity/) | L91-L93 | definition | definition | — |
+| `def` | [TickMorphism.compose](/corpus/taulib/docs/book-iv-physics-tick-units/compose/) | L96-L99 | definition | definition | — |
+| `def` | [TickKind.sector](/corpus/taulib/docs/book-iv-physics-tick-units/sector/) | L106-L111 | definition | definition | — |
+| `def` | [TickKind.carrier](/corpus/taulib/docs/book-iv-physics-tick-units/carrier/) | L114-L119 | definition | definition | — |
+| `def` | [TickKind.measuredInvariant](/corpus/taulib/docs/book-iv-physics-tick-units/measured-invariant/) | L122-L127 | definition | definition | — |
+| `theorem` | [tick_sector_bijection](/corpus/taulib/docs/book-iv-physics-tick-units/tick-sector-bijection/) | L135-L146 | proof obligation | formal proof obligation checked | `IV.T125` |
+| `theorem` | [tick_exhaustion](/corpus/taulib/docs/book-iv-physics-tick-units/tick-exhaustion/) | L149-L152 | proof obligation | formal proof obligation checked | `IV.T126` |
+| `theorem` | [tick_sector_consistent_with_invariant](/corpus/taulib/docs/book-iv-physics-tick-units/tick-sector-consistent-with-invariant/) | L155-L157 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [identity_count](/corpus/taulib/docs/book-iv-physics-tick-units/identity-count/) | L160-L161 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [compose_count](/corpus/taulib/docs/book-iv-physics-tick-units/compose-count/) | L164-L165 | proof obligation | formal proof obligation checked | — |
+| `structure` | [InternalRatio](/corpus/taulib/docs/book-iv-physics-tick-units/internal-ratio/) | L174-L185 | type/data schema | type/data schema | — |
+| `def` | [InternalRatio.isDimensionless](/corpus/taulib/docs/book-iv-physics-tick-units/is-dimensionless/) | L188-L189 | data/computed value | data/computed value | — |
+| `eval` | [#eval L195](/corpus/taulib/docs/book-iv-physics-tick-units/eval-l195/) | L195-L195 | computed check | computed check | — |
+| `eval` | [#eval L196](/corpus/taulib/docs/book-iv-physics-tick-units/eval-l196/) | L196-L196 | computed check | computed check | — |
+| `eval` | [#eval L197](/corpus/taulib/docs/book-iv-physics-tick-units/eval-l197/) | L197-L199 | computed check | computed check | — |

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "internal_randomness",
-  "permalink": "/verify/taulib/docs/book-vii-ethics-ciproof/internal-randomness-l663/",
+  "permalink": "/corpus/taulib/docs/book-vii-ethics-ciproof/internal-randomness-l663/",
   "summary_short": "`def` declaration in `TauLib.BookVII.Ethics.CIProof`.",
   "declaration_id": "TauLib.BookVII.Ethics.CIProof::internal_randomness",
   "declaration_slug": "internal-randomness-l663",
   "kind": "def",
   "name": "internal_randomness",
   "module_name": "TauLib.BookVII.Ethics.CIProof",
-  "module_url": "/verify/taulib/docs/book-vii-ethics-ciproof/",
+  "module_url": "/corpus/taulib/docs/book-vii-ethics-ciproof/",
   "source_line_start": 663,
   "source_line_end": 663,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Ethics/CIProof.lean#L663-L663",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVII.Ethics.CIProof",
-        "url": "/verify/taulib/docs/book-vii-ethics-ciproof/"
+        "url": "/corpus/taulib/docs/book-vii-ethics-ciproof/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVII.Ethics.CIProof](/verify/taulib/docs/book-vii-ethics-ciproof/)
+- Module: [TauLib.BookVII.Ethics.CIProof](/corpus/taulib/docs/book-vii-ethics-ciproof/)
 - Source path: [`TauLib/BookVII/Ethics/CIProof.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Ethics/CIProof.lean#L663-L663)
 - Source range: L663-L663
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

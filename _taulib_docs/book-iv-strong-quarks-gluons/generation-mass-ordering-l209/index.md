@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "generation_mass_ordering",
-  "permalink": "/verify/taulib/docs/book-iv-strong-quarks-gluons/generation-mass-ordering-l209/",
+  "permalink": "/corpus/taulib/docs/book-iv-strong-quarks-gluons/generation-mass-ordering-l209/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Strong.QuarksGluons`.",
   "declaration_id": "TauLib.BookIV.Strong.QuarksGluons::generation_mass_ordering",
   "declaration_slug": "generation-mass-ordering-l209",
   "kind": "def",
   "name": "generation_mass_ordering",
   "module_name": "TauLib.BookIV.Strong.QuarksGluons",
-  "module_url": "/verify/taulib/docs/book-iv-strong-quarks-gluons/",
+  "module_url": "/corpus/taulib/docs/book-iv-strong-quarks-gluons/",
   "source_line_start": 209,
   "source_line_end": 209,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/QuarksGluons.lean#L209-L209",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Strong.QuarksGluons",
-        "url": "/verify/taulib/docs/book-iv-strong-quarks-gluons/"
+        "url": "/corpus/taulib/docs/book-iv-strong-quarks-gluons/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Strong.QuarksGluons](/verify/taulib/docs/book-iv-strong-quarks-gluons/)
+- Module: [TauLib.BookIV.Strong.QuarksGluons](/corpus/taulib/docs/book-iv-strong-quarks-gluons/)
 - Source path: [`TauLib/BookIV/Strong/QuarksGluons.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/QuarksGluons.lean#L209-L209)
 - Source range: L209-L209
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "collapse_phases_complete",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-supernovae/collapse-phases-complete/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-supernovae/collapse-phases-complete/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Astrophysics.Supernovae`.",
   "declaration_id": "TauLib.BookV.Astrophysics.Supernovae::collapse_phases_complete",
   "declaration_slug": "collapse-phases-complete",
   "kind": "theorem",
   "name": "collapse_phases_complete",
   "module_name": "TauLib.BookV.Astrophysics.Supernovae",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-supernovae/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-supernovae/",
   "source_line_start": 145,
   "source_line_end": 149,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/Supernovae.lean#L145-L149",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.Supernovae",
-        "url": "/verify/taulib/docs/book-v-astrophysics-supernovae/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-supernovae/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.Supernovae](/verify/taulib/docs/book-v-astrophysics-supernovae/)
+- Module: [TauLib.BookV.Astrophysics.Supernovae](/corpus/taulib/docs/book-v-astrophysics-supernovae/)
 - Source path: [`TauLib/BookV/Astrophysics/Supernovae.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/Supernovae.lean#L145-L149)
 - Source range: L145-L149
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

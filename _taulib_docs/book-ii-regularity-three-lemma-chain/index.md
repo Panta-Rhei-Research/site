@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookII.Regularity.ThreeLemmaChain",
-  "permalink": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/",
+  "permalink": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookII.Regularity.ThreeLemmaChain`.",
   "module_name": "TauLib.BookII.Regularity.ThreeLemmaChain",
   "module_slug": "book-ii-regularity-three-lemma-chain",
@@ -34,10 +34,12 @@
     {
       "kind": "def",
       "name": "branch_factorization_check",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/branch-factorization-check/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/branch-factorization-check/",
       "source_line_start": 58,
       "source_line_end": 79,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.L08"
       ]
@@ -45,19 +47,23 @@
     {
       "kind": "def",
       "name": "branch_factorization_bndlift",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/branch-factorization-bndlift/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/branch-factorization-bndlift/",
       "source_line_start": 83,
       "source_line_end": 98,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "prime_split_support_check",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/prime-split-support-check/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/prime-split-support-check/",
       "source_line_start": 116,
       "source_line_end": 136,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.L09"
       ]
@@ -65,10 +71,12 @@
     {
       "kind": "def",
       "name": "prime_split_stagewise",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/prime-split-stagewise/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/prime-split-stagewise/",
       "source_line_start": 141,
       "source_line_end": 156,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.L09"
       ]
@@ -76,19 +84,23 @@
     {
       "kind": "def",
       "name": "j_swap",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/j-swap/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/j-swap/",
       "source_line_start": 165,
       "source_line_end": 166,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "polarity_symmetry_check",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/polarity-symmetry-check/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/polarity-symmetry-check/",
       "source_line_start": 176,
       "source_line_end": 199,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.L10"
       ]
@@ -96,109 +108,133 @@
     {
       "kind": "theorem",
       "name": "j_swap_involution",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/j-swap-involution/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/j-swap-involution/",
       "source_line_start": 202,
       "source_line_end": 204,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "j_swap_proj_plus",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/j-swap-proj-plus/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/j-swap-proj-plus/",
       "source_line_start": 207,
       "source_line_end": 209,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "j_swap_proj_minus",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/j-swap-proj-minus/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/j-swap-proj-minus/",
       "source_line_start": 211,
       "source_line_end": 213,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "j_swap_recovery",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/j-swap-recovery/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/j-swap-recovery/",
       "source_line_start": 216,
       "source_line_end": 219,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "sc_j_mul",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/sc-j-mul/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/sc-j-mul/",
       "source_line_start": 227,
       "source_line_end": 228,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "sc_j_swaps",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/sc-j-swaps/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/sc-j-swaps/",
       "source_line_start": 231,
       "source_line_end": 233,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "j_swaps_idempotents_check",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/j-swaps-idempotents-check/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/j-swaps-idempotents-check/",
       "source_line_start": 237,
       "source_line_end": 240,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "is1_decomposition_check",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/is1-decomposition-check/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/is1-decomposition-check/",
       "source_line_start": 248,
       "source_line_end": 261,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "is2_naturality_check",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/is2-naturality-check/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/is2-naturality-check/",
       "source_line_start": 266,
       "source_line_end": 287,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "is3_channel_support_check",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/is3-channel-support-check/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/is3-channel-support-check/",
       "source_line_start": 290,
       "source_line_end": 291,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "is4_polarity_check",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/is4-polarity-check/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/is4-polarity-check/",
       "source_line_start": 294,
       "source_line_end": 295,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "hol_iff_is_check",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/hol-iff-is-check/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/hol-iff-is-check/",
       "source_line_start": 299,
       "source_line_end": 303,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.T33"
       ]
@@ -206,163 +242,199 @@
     {
       "kind": "def",
       "name": "full_three_lemma_check",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/full-three-lemma-check/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/full-three-lemma-check/",
       "source_line_start": 310,
       "source_line_end": 317,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l324/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l324/",
       "source_line_start": 324,
       "source_line_end": 324,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l325/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l325/",
       "source_line_start": 325,
       "source_line_end": 325,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l328/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l328/",
       "source_line_start": 328,
       "source_line_end": 328,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l329/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l329/",
       "source_line_start": 329,
       "source_line_end": 329,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l332/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l332/",
       "source_line_start": 332,
       "source_line_end": 332,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l333/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l333/",
       "source_line_start": 333,
       "source_line_end": 333,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l334/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l334/",
       "source_line_start": 334,
       "source_line_end": 334,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l335/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l335/",
       "source_line_start": 335,
       "source_line_end": 335,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l338/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l338/",
       "source_line_start": 338,
       "source_line_end": 338,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l339/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l339/",
       "source_line_start": 339,
       "source_line_end": 339,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l342/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l342/",
       "source_line_start": 342,
       "source_line_end": 342,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l343/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l343/",
       "source_line_start": 343,
       "source_line_end": 343,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l344/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l344/",
       "source_line_start": 344,
       "source_line_end": 344,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l345/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l345/",
       "source_line_start": 345,
       "source_line_end": 345,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l348/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l348/",
       "source_line_start": 348,
       "source_line_end": 348,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l351/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l351/",
       "source_line_start": 351,
       "source_line_end": 351,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "branch_fact_12_3",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/branch-fact-12-3/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/branch-fact-12-3/",
       "source_line_start": 358,
       "source_line_end": 359,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.L08"
       ]
@@ -370,19 +442,23 @@
     {
       "kind": "theorem",
       "name": "branch_bndlift_12_3",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/branch-bndlift-12-3/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/branch-bndlift-12-3/",
       "source_line_start": 361,
       "source_line_end": 362,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "prime_split_30",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/prime-split-30/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/prime-split-30/",
       "source_line_start": 365,
       "source_line_end": 366,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.L09"
       ]
@@ -390,19 +466,23 @@
     {
       "kind": "theorem",
       "name": "prime_split_stage_12_3",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/prime-split-stage-12-3/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/prime-split-stage-12-3/",
       "source_line_start": 368,
       "source_line_end": 369,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "polarity_30",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/polarity-30/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/polarity-30/",
       "source_line_start": 372,
       "source_line_end": 373,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.L10"
       ]
@@ -410,19 +490,23 @@
     {
       "kind": "theorem",
       "name": "j_idem_swap",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/j-idem-swap/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/j-idem-swap/",
       "source_line_start": 375,
       "source_line_end": 376,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "is1_12_3",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/is1-12-3/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/is1-12-3/",
       "source_line_start": 379,
       "source_line_end": 380,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.T33"
       ]
@@ -430,37 +514,45 @@
     {
       "kind": "theorem",
       "name": "is2_12_3",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/is2-12-3/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/is2-12-3/",
       "source_line_start": 382,
       "source_line_end": 383,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "is3_30",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/is3-30/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/is3-30/",
       "source_line_start": 385,
       "source_line_end": 386,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "is4_30",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/is4-30/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/is4-30/",
       "source_line_start": 388,
       "source_line_end": 389,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "hol_iff_is_12_3",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/hol-iff-is-12-3/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/hol-iff-is-12-3/",
       "source_line_start": 392,
       "source_line_end": 393,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.T33"
       ]
@@ -468,10 +560,12 @@
     {
       "kind": "theorem",
       "name": "full_three_lemma_12_3",
-      "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/full-three-lemma-12-3/",
+      "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/full-three-lemma-12-3/",
       "source_line_start": 396,
       "source_line_end": 399,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -483,7 +577,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -555,52 +649,52 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [branch_factorization_check](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/branch-factorization-check/) | L58-L79 | defined | `II.L08` |
-| `def` | [branch_factorization_bndlift](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/branch-factorization-bndlift/) | L83-L98 | defined | — |
-| `def` | [prime_split_support_check](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/prime-split-support-check/) | L116-L136 | defined | `II.L09` |
-| `def` | [prime_split_stagewise](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/prime-split-stagewise/) | L141-L156 | defined | `II.L09` |
-| `def` | [j_swap](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/j-swap/) | L165-L166 | defined | — |
-| `def` | [polarity_symmetry_check](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/polarity-symmetry-check/) | L176-L199 | defined | `II.L10` |
-| `theorem` | [j_swap_involution](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/j-swap-involution/) | L202-L204 | formalized | — |
-| `theorem` | [j_swap_proj_plus](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/j-swap-proj-plus/) | L207-L209 | formalized | — |
-| `theorem` | [j_swap_proj_minus](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/j-swap-proj-minus/) | L211-L213 | formalized | — |
-| `theorem` | [j_swap_recovery](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/j-swap-recovery/) | L216-L219 | formalized | — |
-| `def` | [sc_j_mul](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/sc-j-mul/) | L227-L228 | defined | — |
-| `theorem` | [sc_j_swaps](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/sc-j-swaps/) | L231-L233 | formalized | — |
-| `def` | [j_swaps_idempotents_check](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/j-swaps-idempotents-check/) | L237-L240 | defined | — |
-| `def` | [is1_decomposition_check](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/is1-decomposition-check/) | L248-L261 | defined | — |
-| `def` | [is2_naturality_check](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/is2-naturality-check/) | L266-L287 | defined | — |
-| `def` | [is3_channel_support_check](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/is3-channel-support-check/) | L290-L291 | defined | — |
-| `def` | [is4_polarity_check](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/is4-polarity-check/) | L294-L295 | defined | — |
-| `def` | [hol_iff_is_check](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/hol-iff-is-check/) | L299-L303 | defined | `II.T33` |
-| `def` | [full_three_lemma_check](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/full-three-lemma-check/) | L310-L317 | defined | — |
-| `eval` | [#eval L324](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l324/) | L324-L324 | computed | — |
-| `eval` | [#eval L325](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l325/) | L325-L325 | computed | — |
-| `eval` | [#eval L328](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l328/) | L328-L328 | computed | — |
-| `eval` | [#eval L329](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l329/) | L329-L329 | computed | — |
-| `eval` | [#eval L332](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l332/) | L332-L332 | computed | — |
-| `eval` | [#eval L333](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l333/) | L333-L333 | computed | — |
-| `eval` | [#eval L334](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l334/) | L334-L334 | computed | — |
-| `eval` | [#eval L335](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l335/) | L335-L335 | computed | — |
-| `eval` | [#eval L338](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l338/) | L338-L338 | computed | — |
-| `eval` | [#eval L339](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l339/) | L339-L339 | computed | — |
-| `eval` | [#eval L342](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l342/) | L342-L342 | computed | — |
-| `eval` | [#eval L343](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l343/) | L343-L343 | computed | — |
-| `eval` | [#eval L344](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l344/) | L344-L344 | computed | — |
-| `eval` | [#eval L345](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l345/) | L345-L345 | computed | — |
-| `eval` | [#eval L348](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l348/) | L348-L348 | computed | — |
-| `eval` | [#eval L351](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l351/) | L351-L351 | computed | — |
-| `theorem` | [branch_fact_12_3](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/branch-fact-12-3/) | L358-L359 | formalized | `II.L08` |
-| `theorem` | [branch_bndlift_12_3](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/branch-bndlift-12-3/) | L361-L362 | formalized | — |
-| `theorem` | [prime_split_30](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/prime-split-30/) | L365-L366 | formalized | `II.L09` |
-| `theorem` | [prime_split_stage_12_3](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/prime-split-stage-12-3/) | L368-L369 | formalized | — |
-| `theorem` | [polarity_30](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/polarity-30/) | L372-L373 | formalized | `II.L10` |
-| `theorem` | [j_idem_swap](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/j-idem-swap/) | L375-L376 | formalized | — |
-| `theorem` | [is1_12_3](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/is1-12-3/) | L379-L380 | formalized | `II.T33` |
-| `theorem` | [is2_12_3](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/is2-12-3/) | L382-L383 | formalized | — |
-| `theorem` | [is3_30](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/is3-30/) | L385-L386 | formalized | — |
-| `theorem` | [is4_30](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/is4-30/) | L388-L389 | formalized | — |
-| `theorem` | [hol_iff_is_12_3](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/hol-iff-is-12-3/) | L392-L393 | formalized | `II.T33` |
-| `theorem` | [full_three_lemma_12_3](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/full-three-lemma-12-3/) | L396-L399 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [branch_factorization_check](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/branch-factorization-check/) | L58-L79 | data/computed value | data/computed value | `II.L08` |
+| `def` | [branch_factorization_bndlift](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/branch-factorization-bndlift/) | L83-L98 | data/computed value | data/computed value | — |
+| `def` | [prime_split_support_check](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/prime-split-support-check/) | L116-L136 | data/computed value | data/computed value | `II.L09` |
+| `def` | [prime_split_stagewise](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/prime-split-stagewise/) | L141-L156 | data/computed value | data/computed value | `II.L09` |
+| `def` | [j_swap](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/j-swap/) | L165-L166 | definition | definition | — |
+| `def` | [polarity_symmetry_check](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/polarity-symmetry-check/) | L176-L199 | data/computed value | data/computed value | `II.L10` |
+| `theorem` | [j_swap_involution](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/j-swap-involution/) | L202-L204 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [j_swap_proj_plus](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/j-swap-proj-plus/) | L207-L209 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [j_swap_proj_minus](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/j-swap-proj-minus/) | L211-L213 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [j_swap_recovery](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/j-swap-recovery/) | L216-L219 | proof obligation | formal proof obligation checked | — |
+| `def` | [sc_j_mul](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/sc-j-mul/) | L227-L228 | definition | definition | — |
+| `theorem` | [sc_j_swaps](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/sc-j-swaps/) | L231-L233 | proof obligation | formal proof obligation checked | — |
+| `def` | [j_swaps_idempotents_check](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/j-swaps-idempotents-check/) | L237-L240 | data/computed value | data/computed value | — |
+| `def` | [is1_decomposition_check](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/is1-decomposition-check/) | L248-L261 | data/computed value | data/computed value | — |
+| `def` | [is2_naturality_check](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/is2-naturality-check/) | L266-L287 | data/computed value | data/computed value | — |
+| `def` | [is3_channel_support_check](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/is3-channel-support-check/) | L290-L291 | data/computed value | data/computed value | — |
+| `def` | [is4_polarity_check](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/is4-polarity-check/) | L294-L295 | data/computed value | data/computed value | — |
+| `def` | [hol_iff_is_check](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/hol-iff-is-check/) | L299-L303 | data/computed value | data/computed value | `II.T33` |
+| `def` | [full_three_lemma_check](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/full-three-lemma-check/) | L310-L317 | data/computed value | data/computed value | — |
+| `eval` | [#eval L324](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l324/) | L324-L324 | computed check | computed check | — |
+| `eval` | [#eval L325](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l325/) | L325-L325 | computed check | computed check | — |
+| `eval` | [#eval L328](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l328/) | L328-L328 | computed check | computed check | — |
+| `eval` | [#eval L329](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l329/) | L329-L329 | computed check | computed check | — |
+| `eval` | [#eval L332](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l332/) | L332-L332 | computed check | computed check | — |
+| `eval` | [#eval L333](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l333/) | L333-L333 | computed check | computed check | — |
+| `eval` | [#eval L334](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l334/) | L334-L334 | computed check | computed check | — |
+| `eval` | [#eval L335](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l335/) | L335-L335 | computed check | computed check | — |
+| `eval` | [#eval L338](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l338/) | L338-L338 | computed check | computed check | — |
+| `eval` | [#eval L339](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l339/) | L339-L339 | computed check | computed check | — |
+| `eval` | [#eval L342](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l342/) | L342-L342 | computed check | computed check | — |
+| `eval` | [#eval L343](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l343/) | L343-L343 | computed check | computed check | — |
+| `eval` | [#eval L344](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l344/) | L344-L344 | computed check | computed check | — |
+| `eval` | [#eval L345](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l345/) | L345-L345 | computed check | computed check | — |
+| `eval` | [#eval L348](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l348/) | L348-L348 | computed check | computed check | — |
+| `eval` | [#eval L351](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/eval-l351/) | L351-L351 | computed check | computed check | — |
+| `theorem` | [branch_fact_12_3](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/branch-fact-12-3/) | L358-L359 | proof obligation | formal proof obligation checked | `II.L08` |
+| `theorem` | [branch_bndlift_12_3](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/branch-bndlift-12-3/) | L361-L362 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [prime_split_30](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/prime-split-30/) | L365-L366 | proof obligation | formal proof obligation checked | `II.L09` |
+| `theorem` | [prime_split_stage_12_3](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/prime-split-stage-12-3/) | L368-L369 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [polarity_30](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/polarity-30/) | L372-L373 | proof obligation | formal proof obligation checked | `II.L10` |
+| `theorem` | [j_idem_swap](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/j-idem-swap/) | L375-L376 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [is1_12_3](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/is1-12-3/) | L379-L380 | proof obligation | formal proof obligation checked | `II.T33` |
+| `theorem` | [is2_12_3](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/is2-12-3/) | L382-L383 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [is3_30](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/is3-30/) | L385-L386 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [is4_30](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/is4-30/) | L388-L389 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [hol_iff_is_12_3](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/hol-iff-is-12-3/) | L392-L393 | proof obligation | formal proof obligation checked | `II.T33` |
+| `theorem` | [full_three_lemma_12_3](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/full-three-lemma-12-3/) | L396-L399 | proof obligation | formal proof obligation checked | — |

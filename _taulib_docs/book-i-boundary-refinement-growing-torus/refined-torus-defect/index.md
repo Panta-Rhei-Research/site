@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "RefinedTorusDefect",
-  "permalink": "/verify/taulib/docs/book-i-boundary-refinement-growing-torus/refined-torus-defect/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-refinement-growing-torus/refined-torus-defect/",
   "summary_short": "`inductive` declaration in `TauLib.BookI.Boundary.RefinementGrowingTorus`.",
   "declaration_id": "TauLib.BookI.Boundary.RefinementGrowingTorus::RefinedTorusDefect",
   "declaration_slug": "refined-torus-defect",
   "kind": "inductive",
   "name": "RefinedTorusDefect",
   "module_name": "TauLib.BookI.Boundary.RefinementGrowingTorus",
-  "module_url": "/verify/taulib/docs/book-i-boundary-refinement-growing-torus/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-refinement-growing-torus/",
   "source_line_start": 94,
   "source_line_end": 98,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/RefinementGrowingTorus.lean#L94-L98",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.RefinementGrowingTorus",
-        "url": "/verify/taulib/docs/book-i-boundary-refinement-growing-torus/"
+        "url": "/corpus/taulib/docs/book-i-boundary-refinement-growing-torus/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "inductive",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.RefinementGrowingTorus](/verify/taulib/docs/book-i-boundary-refinement-growing-torus/)
+- Module: [TauLib.BookI.Boundary.RefinementGrowingTorus](/corpus/taulib/docs/book-i-boundary-refinement-growing-torus/)
 - Source path: [`TauLib/BookI/Boundary/RefinementGrowingTorus.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/RefinementGrowingTorus.lean#L94-L98)
 - Source range: L94-L98
 - Kind: `inductive`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

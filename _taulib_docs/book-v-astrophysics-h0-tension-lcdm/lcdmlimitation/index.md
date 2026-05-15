@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "LCDMLimitation",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-h0-tension-lcdm/lcdmlimitation/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-h0-tension-lcdm/lcdmlimitation/",
   "summary_short": "`inductive` declaration in `TauLib.BookV.Astrophysics.H0TensionLCDM`.",
   "declaration_id": "TauLib.BookV.Astrophysics.H0TensionLCDM::LCDMLimitation",
   "declaration_slug": "lcdmlimitation",
   "kind": "inductive",
   "name": "LCDMLimitation",
   "module_name": "TauLib.BookV.Astrophysics.H0TensionLCDM",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-h0-tension-lcdm/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-h0-tension-lcdm/",
   "source_line_start": 188,
   "source_line_end": 201,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/H0TensionLCDM.lean#L188-L201",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.H0TensionLCDM",
-        "url": "/verify/taulib/docs/book-v-astrophysics-h0-tension-lcdm/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-h0-tension-lcdm/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "inductive",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.H0TensionLCDM](/verify/taulib/docs/book-v-astrophysics-h0-tension-lcdm/)
+- Module: [TauLib.BookV.Astrophysics.H0TensionLCDM](/corpus/taulib/docs/book-v-astrophysics-h0-tension-lcdm/)
 - Source path: [`TauLib/BookV/Astrophysics/H0TensionLCDM.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/H0TensionLCDM.lean#L188-L201)
 - Source range: L188-L201
 - Kind: `inductive`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

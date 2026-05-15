@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L324",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-exponent-derivation/eval-l324/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-exponent-derivation/eval-l324/",
   "summary_short": "`eval` declaration in `TauLib.BookV.GravityField.ExponentDerivation`.",
   "declaration_id": "TauLib.BookV.GravityField.ExponentDerivation::#eval:324",
   "declaration_slug": "eval-l324",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.GravityField.ExponentDerivation",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-exponent-derivation/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-exponent-derivation/",
   "source_line_start": 324,
   "source_line_end": 324,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/ExponentDerivation.lean#L324-L324",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.ExponentDerivation",
-        "url": "/verify/taulib/docs/book-v-gravity-field-exponent-derivation/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-exponent-derivation/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.ExponentDerivation](/verify/taulib/docs/book-v-gravity-field-exponent-derivation/)
+- Module: [TauLib.BookV.GravityField.ExponentDerivation](/corpus/taulib/docs/book-v-gravity-field-exponent-derivation/)
 - Source path: [`TauLib/BookV/GravityField/ExponentDerivation.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/ExponentDerivation.lean#L324-L324)
 - Source range: L324-L324
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "minimal_bh",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild-scale/minimal-bh/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild-scale/minimal-bh/",
   "summary_short": "`def` declaration in `TauLib.BookV.GravityField.TauSchwarzschildScale`.",
   "declaration_id": "TauLib.BookV.GravityField.TauSchwarzschildScale::minimal_bh",
   "declaration_slug": "minimal-bh",
   "kind": "def",
   "name": "minimal_bh",
   "module_name": "TauLib.BookV.GravityField.TauSchwarzschildScale",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild-scale/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild-scale/",
   "source_line_start": 118,
   "source_line_end": 118,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/TauSchwarzschildScale.lean#L118-L118",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.TauSchwarzschildScale",
-        "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild-scale/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild-scale/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.TauSchwarzschildScale](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild-scale/)
+- Module: [TauLib.BookV.GravityField.TauSchwarzschildScale](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild-scale/)
 - Source path: [`TauLib/BookV/GravityField/TauSchwarzschildScale.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/TauSchwarzschildScale.lean#L118-L118)
 - Source range: L118-L118
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

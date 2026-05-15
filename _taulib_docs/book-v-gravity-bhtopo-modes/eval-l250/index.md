@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L250",
-  "permalink": "/verify/taulib/docs/book-v-gravity-bhtopo-modes/eval-l250/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-bhtopo-modes/eval-l250/",
   "summary_short": "`eval` declaration in `TauLib.BookV.Gravity.BHTopoModes`.",
   "declaration_id": "TauLib.BookV.Gravity.BHTopoModes::#eval:250",
   "declaration_slug": "eval-l250",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.Gravity.BHTopoModes",
-  "module_url": "/verify/taulib/docs/book-v-gravity-bhtopo-modes/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-bhtopo-modes/",
   "source_line_start": 250,
   "source_line_end": 250,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L250-L250",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Gravity.BHTopoModes",
-        "url": "/verify/taulib/docs/book-v-gravity-bhtopo-modes/"
+        "url": "/corpus/taulib/docs/book-v-gravity-bhtopo-modes/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Gravity.BHTopoModes](/verify/taulib/docs/book-v-gravity-bhtopo-modes/)
+- Module: [TauLib.BookV.Gravity.BHTopoModes](/corpus/taulib/docs/book-v-gravity-bhtopo-modes/)
 - Source path: [`TauLib/BookV/Gravity/BHTopoModes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L250-L250)
 - Source range: L250-L250
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 
@@ -75,11 +79,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 ## Immediate Comment / Docstring
 
 ```lean
--- Entropy ratio
+-- Frequency ratio
 ```
 
 ## Source Excerpt
 
 ```lean
-#eval torus_entropy_ratio    -- ≈ 1.0722 (= π·ι_τ)
+#eval qnm_frequency_ratio    -- ≈ 2.9299 (= ι_τ⁻¹)
 ```

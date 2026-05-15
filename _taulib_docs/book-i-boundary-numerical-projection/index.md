@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Boundary.NumericalProjection",
-  "permalink": "/verify/taulib/docs/book-i-boundary-numerical-projection/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-numerical-projection/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Boundary.NumericalProjection`.",
   "module_name": "TauLib.BookI.Boundary.NumericalProjection",
   "module_slug": "book-i-boundary-numerical-projection",
@@ -35,226 +35,276 @@
     {
       "kind": "def",
       "name": "numericalReadoutAtDepth",
-      "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/numerical-readout-at-depth/",
+      "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/numerical-readout-at-depth/",
       "source_line_start": 107,
       "source_line_end": 108,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "twoNumericalAt",
-      "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/two-numerical-at/",
+      "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/two-numerical-at/",
       "source_line_start": 111,
       "source_line_end": 112,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "piNumericalAt",
-      "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/pi-numerical-at/",
+      "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/pi-numerical-at/",
       "source_line_start": 115,
       "source_line_end": 116,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "eNumericalAt",
-      "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/e-numerical-at/",
+      "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/e-numerical-at/",
       "source_line_start": 119,
       "source_line_end": 120,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "iotaNumericalAt",
-      "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/iota-numerical-at/",
+      "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/iota-numerical-at/",
       "source_line_start": 123,
       "source_line_end": 124,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "piPlusENumericalAt",
-      "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/pi-plus-enumerical-at/",
+      "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/pi-plus-enumerical-at/",
       "source_line_start": 127,
       "source_line_end": 128,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "numericalReadout_two_const",
-      "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/numerical-readout-two-const/",
+      "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/numerical-readout-two-const/",
       "source_line_start": 139,
       "source_line_end": 142,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "numerical_coupling_at_depth",
-      "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/numerical-coupling-at-depth/",
+      "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/numerical-coupling-at-depth/",
       "source_line_start": 163,
       "source_line_end": 182,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "numerical_coupling_exact_when_epsilon_zero",
-      "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/numerical-coupling-exact-when-epsilon-zero/",
+      "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/numerical-coupling-exact-when-epsilon-zero/",
       "source_line_start": 199,
       "source_line_end": 203,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "numerical_isomorphism_at_depth",
-      "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/numerical-isomorphism-at-depth/",
+      "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/numerical-isomorphism-at-depth/",
       "source_line_start": 222,
       "source_line_end": 229,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l236/",
+      "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l236/",
       "source_line_start": 236,
       "source_line_end": 236,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l237/",
+      "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l237/",
       "source_line_start": 237,
       "source_line_end": 237,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l238/",
+      "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l238/",
       "source_line_start": 238,
       "source_line_end": 238,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l239/",
+      "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l239/",
       "source_line_start": 239,
       "source_line_end": 239,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l240/",
+      "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l240/",
       "source_line_start": 240,
       "source_line_end": 240,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l243/",
+      "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l243/",
       "source_line_start": 243,
       "source_line_end": 243,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l244/",
+      "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l244/",
       "source_line_start": 244,
       "source_line_end": 244,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l245/",
+      "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l245/",
       "source_line_start": 245,
       "source_line_end": 245,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l248/",
+      "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l248/",
       "source_line_start": 248,
       "source_line_end": 248,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l249/",
+      "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l249/",
       "source_line_start": 249,
       "source_line_end": 249,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l252/",
+      "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l252/",
       "source_line_start": 252,
       "source_line_end": 252,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l253/",
+      "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l253/",
       "source_line_start": 253,
       "source_line_end": 253,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l254/",
+      "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l254/",
       "source_line_start": 254,
       "source_line_end": 254,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l257/",
+      "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l257/",
       "source_line_start": 257,
       "source_line_end": 257,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "h3_complete_proof_chain_at_depth",
-      "url": "/verify/taulib/docs/book-i-boundary-numerical-projection/h3-complete-proof-chain-at-depth/",
+      "url": "/corpus/taulib/docs/book-i-boundary-numerical-projection/h3-complete-proof-chain-at-depth/",
       "source_line_start": 282,
       "source_line_end": 288,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -266,7 +316,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -334,30 +384,30 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [numericalReadoutAtDepth](/verify/taulib/docs/book-i-boundary-numerical-projection/numerical-readout-at-depth/) | L107-L108 | defined | — |
-| `def` | [twoNumericalAt](/verify/taulib/docs/book-i-boundary-numerical-projection/two-numerical-at/) | L111-L112 | defined | — |
-| `def` | [piNumericalAt](/verify/taulib/docs/book-i-boundary-numerical-projection/pi-numerical-at/) | L115-L116 | defined | — |
-| `def` | [eNumericalAt](/verify/taulib/docs/book-i-boundary-numerical-projection/e-numerical-at/) | L119-L120 | defined | — |
-| `def` | [iotaNumericalAt](/verify/taulib/docs/book-i-boundary-numerical-projection/iota-numerical-at/) | L123-L124 | defined | — |
-| `def` | [piPlusENumericalAt](/verify/taulib/docs/book-i-boundary-numerical-projection/pi-plus-enumerical-at/) | L127-L128 | defined | — |
-| `theorem` | [numericalReadout_two_const](/verify/taulib/docs/book-i-boundary-numerical-projection/numerical-readout-two-const/) | L139-L142 | formalized | — |
-| `theorem` | [numerical_coupling_at_depth](/verify/taulib/docs/book-i-boundary-numerical-projection/numerical-coupling-at-depth/) | L163-L182 | formalized | — |
-| `theorem` | [numerical_coupling_exact_when_epsilon_zero](/verify/taulib/docs/book-i-boundary-numerical-projection/numerical-coupling-exact-when-epsilon-zero/) | L199-L203 | formalized | — |
-| `theorem` | [numerical_isomorphism_at_depth](/verify/taulib/docs/book-i-boundary-numerical-projection/numerical-isomorphism-at-depth/) | L222-L229 | formalized | — |
-| `eval` | [#eval L236](/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l236/) | L236-L236 | computed | — |
-| `eval` | [#eval L237](/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l237/) | L237-L237 | computed | — |
-| `eval` | [#eval L238](/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l238/) | L238-L238 | computed | — |
-| `eval` | [#eval L239](/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l239/) | L239-L239 | computed | — |
-| `eval` | [#eval L240](/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l240/) | L240-L240 | computed | — |
-| `eval` | [#eval L243](/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l243/) | L243-L243 | computed | — |
-| `eval` | [#eval L244](/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l244/) | L244-L244 | computed | — |
-| `eval` | [#eval L245](/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l245/) | L245-L245 | computed | — |
-| `eval` | [#eval L248](/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l248/) | L248-L248 | computed | — |
-| `eval` | [#eval L249](/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l249/) | L249-L249 | computed | — |
-| `eval` | [#eval L252](/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l252/) | L252-L252 | computed | — |
-| `eval` | [#eval L253](/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l253/) | L253-L253 | computed | — |
-| `eval` | [#eval L254](/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l254/) | L254-L254 | computed | — |
-| `eval` | [#eval L257](/verify/taulib/docs/book-i-boundary-numerical-projection/eval-l257/) | L257-L257 | computed | — |
-| `theorem` | [h3_complete_proof_chain_at_depth](/verify/taulib/docs/book-i-boundary-numerical-projection/h3-complete-proof-chain-at-depth/) | L282-L288 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [numericalReadoutAtDepth](/corpus/taulib/docs/book-i-boundary-numerical-projection/numerical-readout-at-depth/) | L107-L108 | definition | definition | — |
+| `def` | [twoNumericalAt](/corpus/taulib/docs/book-i-boundary-numerical-projection/two-numerical-at/) | L111-L112 | definition | definition | — |
+| `def` | [piNumericalAt](/corpus/taulib/docs/book-i-boundary-numerical-projection/pi-numerical-at/) | L115-L116 | definition | definition | — |
+| `def` | [eNumericalAt](/corpus/taulib/docs/book-i-boundary-numerical-projection/e-numerical-at/) | L119-L120 | definition | definition | — |
+| `def` | [iotaNumericalAt](/corpus/taulib/docs/book-i-boundary-numerical-projection/iota-numerical-at/) | L123-L124 | definition | definition | — |
+| `def` | [piPlusENumericalAt](/corpus/taulib/docs/book-i-boundary-numerical-projection/pi-plus-enumerical-at/) | L127-L128 | definition | definition | — |
+| `theorem` | [numericalReadout_two_const](/corpus/taulib/docs/book-i-boundary-numerical-projection/numerical-readout-two-const/) | L139-L142 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [numerical_coupling_at_depth](/corpus/taulib/docs/book-i-boundary-numerical-projection/numerical-coupling-at-depth/) | L163-L182 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [numerical_coupling_exact_when_epsilon_zero](/corpus/taulib/docs/book-i-boundary-numerical-projection/numerical-coupling-exact-when-epsilon-zero/) | L199-L203 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [numerical_isomorphism_at_depth](/corpus/taulib/docs/book-i-boundary-numerical-projection/numerical-isomorphism-at-depth/) | L222-L229 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L236](/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l236/) | L236-L236 | computed check | computed check | — |
+| `eval` | [#eval L237](/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l237/) | L237-L237 | computed check | computed check | — |
+| `eval` | [#eval L238](/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l238/) | L238-L238 | computed check | computed check | — |
+| `eval` | [#eval L239](/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l239/) | L239-L239 | computed check | computed check | — |
+| `eval` | [#eval L240](/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l240/) | L240-L240 | computed check | computed check | — |
+| `eval` | [#eval L243](/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l243/) | L243-L243 | computed check | computed check | — |
+| `eval` | [#eval L244](/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l244/) | L244-L244 | computed check | computed check | — |
+| `eval` | [#eval L245](/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l245/) | L245-L245 | computed check | computed check | — |
+| `eval` | [#eval L248](/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l248/) | L248-L248 | computed check | computed check | — |
+| `eval` | [#eval L249](/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l249/) | L249-L249 | computed check | computed check | — |
+| `eval` | [#eval L252](/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l252/) | L252-L252 | computed check | computed check | — |
+| `eval` | [#eval L253](/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l253/) | L253-L253 | computed check | computed check | — |
+| `eval` | [#eval L254](/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l254/) | L254-L254 | computed check | computed check | — |
+| `eval` | [#eval L257](/corpus/taulib/docs/book-i-boundary-numerical-projection/eval-l257/) | L257-L257 | computed check | computed check | — |
+| `theorem` | [h3_complete_proof_chain_at_depth](/corpus/taulib/docs/book-i-boundary-numerical-projection/h3-complete-proof-chain-at-depth/) | L282-L288 | proof obligation | formal proof obligation checked | — |

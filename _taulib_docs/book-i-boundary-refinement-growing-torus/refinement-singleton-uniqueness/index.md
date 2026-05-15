@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "refinement_singleton_uniqueness",
-  "permalink": "/verify/taulib/docs/book-i-boundary-refinement-growing-torus/refinement-singleton-uniqueness/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-refinement-growing-torus/refinement-singleton-uniqueness/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.RefinementGrowingTorus`.",
   "declaration_id": "TauLib.BookI.Boundary.RefinementGrowingTorus::refinement_singleton_uniqueness",
   "declaration_slug": "refinement-singleton-uniqueness",
   "kind": "theorem",
   "name": "refinement_singleton_uniqueness",
   "module_name": "TauLib.BookI.Boundary.RefinementGrowingTorus",
-  "module_url": "/verify/taulib/docs/book-i-boundary-refinement-growing-torus/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-refinement-growing-torus/",
   "source_line_start": 255,
   "source_line_end": 261,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/RefinementGrowingTorus.lean#L255-L261",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.RefinementGrowingTorus",
-        "url": "/verify/taulib/docs/book-i-boundary-refinement-growing-torus/"
+        "url": "/corpus/taulib/docs/book-i-boundary-refinement-growing-torus/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.RefinementGrowingTorus](/verify/taulib/docs/book-i-boundary-refinement-growing-torus/)
+- Module: [TauLib.BookI.Boundary.RefinementGrowingTorus](/corpus/taulib/docs/book-i-boundary-refinement-growing-torus/)
 - Source path: [`TauLib/BookI/Boundary/RefinementGrowingTorus.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/RefinementGrowingTorus.lean#L255-L261)
 - Source range: L255-L261
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

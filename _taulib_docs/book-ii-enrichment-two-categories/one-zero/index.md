@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "one_zero",
-  "permalink": "/verify/taulib/docs/book-ii-enrichment-two-categories/one-zero/",
+  "permalink": "/corpus/taulib/docs/book-ii-enrichment-two-categories/one-zero/",
   "summary_short": "`def` declaration in `TauLib.BookII.Enrichment.TwoCategories`.",
   "declaration_id": "TauLib.BookII.Enrichment.TwoCategories::one_zero",
   "declaration_slug": "one-zero",
   "kind": "def",
   "name": "one_zero",
   "module_name": "TauLib.BookII.Enrichment.TwoCategories",
-  "module_url": "/verify/taulib/docs/book-ii-enrichment-two-categories/",
+  "module_url": "/corpus/taulib/docs/book-ii-enrichment-two-categories/",
   "source_line_start": 104,
   "source_line_end": 104,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/TwoCategories.lean#L104-L104",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Enrichment.TwoCategories",
-        "url": "/verify/taulib/docs/book-ii-enrichment-two-categories/"
+        "url": "/corpus/taulib/docs/book-ii-enrichment-two-categories/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Enrichment.TwoCategories](/verify/taulib/docs/book-ii-enrichment-two-categories/)
+- Module: [TauLib.BookII.Enrichment.TwoCategories](/corpus/taulib/docs/book-ii-enrichment-two-categories/)
 - Source path: [`TauLib/BookII/Enrichment/TwoCategories.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/TwoCategories.lean#L104-L104)
 - Source range: L104-L104
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

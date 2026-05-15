@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "universe_rank",
-  "permalink": "/verify/taulib/docs/book-iii-bridge-zfcas-vm/universe-rank/",
+  "permalink": "/corpus/taulib/docs/book-iii-bridge-zfcas-vm/universe-rank/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Bridge.ZFCasVM`.",
   "declaration_id": "TauLib.BookIII.Bridge.ZFCasVM::universe_rank",
   "declaration_slug": "universe-rank",
   "kind": "def",
   "name": "universe_rank",
   "module_name": "TauLib.BookIII.Bridge.ZFCasVM",
-  "module_url": "/verify/taulib/docs/book-iii-bridge-zfcas-vm/",
+  "module_url": "/corpus/taulib/docs/book-iii-bridge-zfcas-vm/",
   "source_line_start": 194,
   "source_line_end": 194,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/ZFCasVM.lean#L194-L194",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Bridge.ZFCasVM",
-        "url": "/verify/taulib/docs/book-iii-bridge-zfcas-vm/"
+        "url": "/corpus/taulib/docs/book-iii-bridge-zfcas-vm/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Bridge.ZFCasVM](/verify/taulib/docs/book-iii-bridge-zfcas-vm/)
+- Module: [TauLib.BookIII.Bridge.ZFCasVM](/corpus/taulib/docs/book-iii-bridge-zfcas-vm/)
 - Source path: [`TauLib/BookIII/Bridge/ZFCasVM.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/ZFCasVM.lean#L194-L194)
 - Source range: L194-L194
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

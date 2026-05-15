@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L408",
-  "permalink": "/verify/taulib/docs/book-i-polarity-omega-germs/eval-l408/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-omega-germs/eval-l408/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Polarity.OmegaGerms`.",
   "declaration_id": "TauLib.BookI.Polarity.OmegaGerms::#eval:408",
   "declaration_slug": "eval-l408",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Polarity.OmegaGerms",
-  "module_url": "/verify/taulib/docs/book-i-polarity-omega-germs/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-omega-germs/",
   "source_line_start": 408,
   "source_line_end": 408,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/OmegaGerms.lean#L408-L408",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.OmegaGerms",
-        "url": "/verify/taulib/docs/book-i-polarity-omega-germs/"
+        "url": "/corpus/taulib/docs/book-i-polarity-omega-germs/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.OmegaGerms](/verify/taulib/docs/book-i-polarity-omega-germs/)
+- Module: [TauLib.BookI.Polarity.OmegaGerms](/corpus/taulib/docs/book-i-polarity-omega-germs/)
 - Source path: [`TauLib/BookI/Polarity/OmegaGerms.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/OmegaGerms.lean#L408-L408)
 - Source range: L408-L408
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

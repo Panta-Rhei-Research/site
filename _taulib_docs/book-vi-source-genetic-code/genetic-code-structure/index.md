@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "genetic_code_structure",
-  "permalink": "/verify/taulib/docs/book-vi-source-genetic-code/genetic-code-structure/",
+  "permalink": "/corpus/taulib/docs/book-vi-source-genetic-code/genetic-code-structure/",
   "summary_short": "`theorem` declaration in `TauLib.BookVI.Source.GeneticCode`.",
   "declaration_id": "TauLib.BookVI.Source.GeneticCode::genetic_code_structure",
   "declaration_slug": "genetic-code-structure",
   "kind": "theorem",
   "name": "genetic_code_structure",
   "module_name": "TauLib.BookVI.Source.GeneticCode",
-  "module_url": "/verify/taulib/docs/book-vi-source-genetic-code/",
+  "module_url": "/corpus/taulib/docs/book-vi-source-genetic-code/",
   "source_line_start": 63,
   "source_line_end": 67,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Source/GeneticCode.lean#L63-L67",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Source.GeneticCode",
-        "url": "/verify/taulib/docs/book-vi-source-genetic-code/"
+        "url": "/corpus/taulib/docs/book-vi-source-genetic-code/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Source.GeneticCode](/verify/taulib/docs/book-vi-source-genetic-code/)
+- Module: [TauLib.BookVI.Source.GeneticCode](/corpus/taulib/docs/book-vi-source-genetic-code/)
 - Source path: [`TauLib/BookVI/Source/GeneticCode.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Source/GeneticCode.lean#L63-L67)
 - Source range: L63-L67
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

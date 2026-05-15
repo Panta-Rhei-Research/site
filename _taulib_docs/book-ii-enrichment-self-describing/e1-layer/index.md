@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "E1Layer",
-  "permalink": "/verify/taulib/docs/book-ii-enrichment-self-describing/e1-layer/",
+  "permalink": "/corpus/taulib/docs/book-ii-enrichment-self-describing/e1-layer/",
   "summary_short": "`structure` declaration in `TauLib.BookII.Enrichment.SelfDescribing`.",
   "declaration_id": "TauLib.BookII.Enrichment.SelfDescribing::E1Layer",
   "declaration_slug": "e1-layer",
   "kind": "structure",
   "name": "E1Layer",
   "module_name": "TauLib.BookII.Enrichment.SelfDescribing",
-  "module_url": "/verify/taulib/docs/book-ii-enrichment-self-describing/",
+  "module_url": "/corpus/taulib/docs/book-ii-enrichment-self-describing/",
   "source_line_start": 47,
   "source_line_end": 52,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/SelfDescribing.lean#L47-L52",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Enrichment.SelfDescribing",
-        "url": "/verify/taulib/docs/book-ii-enrichment-self-describing/"
+        "url": "/corpus/taulib/docs/book-ii-enrichment-self-describing/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Enrichment.SelfDescribing](/verify/taulib/docs/book-ii-enrichment-self-describing/)
+- Module: [TauLib.BookII.Enrichment.SelfDescribing](/corpus/taulib/docs/book-ii-enrichment-self-describing/)
 - Source path: [`TauLib/BookII/Enrichment/SelfDescribing.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/SelfDescribing.lean#L47-L52)
 - Source range: L47-L52
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

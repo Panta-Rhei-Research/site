@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "e1_yoneda_witness",
-  "permalink": "/verify/taulib/docs/book-ii-enrichment-self-describing/e1-yoneda-witness/",
+  "permalink": "/corpus/taulib/docs/book-ii-enrichment-self-describing/e1-yoneda-witness/",
   "summary_short": "`def` declaration in `TauLib.BookII.Enrichment.SelfDescribing`.",
   "declaration_id": "TauLib.BookII.Enrichment.SelfDescribing::e1_yoneda_witness",
   "declaration_slug": "e1-yoneda-witness",
   "kind": "def",
   "name": "e1_yoneda_witness",
   "module_name": "TauLib.BookII.Enrichment.SelfDescribing",
-  "module_url": "/verify/taulib/docs/book-ii-enrichment-self-describing/",
+  "module_url": "/corpus/taulib/docs/book-ii-enrichment-self-describing/",
   "source_line_start": 108,
   "source_line_end": 121,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/SelfDescribing.lean#L108-L121",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Enrichment.SelfDescribing",
-        "url": "/verify/taulib/docs/book-ii-enrichment-self-describing/"
+        "url": "/corpus/taulib/docs/book-ii-enrichment-self-describing/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Enrichment.SelfDescribing](/verify/taulib/docs/book-ii-enrichment-self-describing/)
+- Module: [TauLib.BookII.Enrichment.SelfDescribing](/corpus/taulib/docs/book-ii-enrichment-self-describing/)
 - Source path: [`TauLib/BookII/Enrichment/SelfDescribing.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/SelfDescribing.lean#L108-L121)
 - Source range: L108-L121
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

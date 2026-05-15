@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L195",
-  "permalink": "/verify/taulib/docs/tour-millennium-problems/eval-l195/",
+  "permalink": "/corpus/taulib/docs/tour-millennium-problems/eval-l195/",
   "summary_short": "`eval` declaration in `TauLib.Tour.MillenniumProblems`.",
   "declaration_id": "TauLib.Tour.MillenniumProblems::#eval:195",
   "declaration_slug": "eval-l195",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.Tour.MillenniumProblems",
-  "module_url": "/verify/taulib/docs/tour-millennium-problems/",
+  "module_url": "/corpus/taulib/docs/tour-millennium-problems/",
   "source_line_start": 195,
   "source_line_end": 226,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/Tour/MillenniumProblems.lean#L195-L226",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.Tour.MillenniumProblems",
-        "url": "/verify/taulib/docs/tour-millennium-problems/"
+        "url": "/corpus/taulib/docs/tour-millennium-problems/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.Tour.MillenniumProblems](/verify/taulib/docs/tour-millennium-problems/)
+- Module: [TauLib.Tour.MillenniumProblems](/corpus/taulib/docs/tour-millennium-problems/)
 - Source path: [`TauLib/Tour/MillenniumProblems.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/Tour/MillenniumProblems.lean#L195-L226)
 - Source range: L195-L226
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

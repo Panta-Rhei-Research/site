@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "cech_derived_1",
-  "permalink": "/verify/taulib/docs/book-ii-central-theorem-sheaf-cohomology/cech-derived-1/",
+  "permalink": "/corpus/taulib/docs/book-ii-central-theorem-sheaf-cohomology/cech-derived-1/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.CentralTheorem.SheafCohomology`.",
   "declaration_id": "TauLib.BookII.CentralTheorem.SheafCohomology::cech_derived_1",
   "declaration_slug": "cech-derived-1",
   "kind": "theorem",
   "name": "cech_derived_1",
   "module_name": "TauLib.BookII.CentralTheorem.SheafCohomology",
-  "module_url": "/verify/taulib/docs/book-ii-central-theorem-sheaf-cohomology/",
+  "module_url": "/corpus/taulib/docs/book-ii-central-theorem-sheaf-cohomology/",
   "source_line_start": 222,
   "source_line_end": 223,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/SheafCohomology.lean#L222-L223",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.CentralTheorem.SheafCohomology",
-        "url": "/verify/taulib/docs/book-ii-central-theorem-sheaf-cohomology/"
+        "url": "/corpus/taulib/docs/book-ii-central-theorem-sheaf-cohomology/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.CentralTheorem.SheafCohomology](/verify/taulib/docs/book-ii-central-theorem-sheaf-cohomology/)
+- Module: [TauLib.BookII.CentralTheorem.SheafCohomology](/corpus/taulib/docs/book-ii-central-theorem-sheaf-cohomology/)
 - Source path: [`TauLib/BookII/CentralTheorem/SheafCohomology.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/SheafCohomology.lean#L222-L223)
 - Source range: L222-L223
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

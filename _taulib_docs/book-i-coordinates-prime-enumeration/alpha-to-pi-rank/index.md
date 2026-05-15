@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "alpha_to_pi_rank",
-  "permalink": "/verify/taulib/docs/book-i-coordinates-prime-enumeration/alpha-to-pi-rank/",
+  "permalink": "/corpus/taulib/docs/book-i-coordinates-prime-enumeration/alpha-to-pi-rank/",
   "summary_short": "`def` declaration in `TauLib.BookI.Coordinates.PrimeEnumeration`.",
   "declaration_id": "TauLib.BookI.Coordinates.PrimeEnumeration::alpha_to_pi_rank",
   "declaration_slug": "alpha-to-pi-rank",
   "kind": "def",
   "name": "alpha_to_pi_rank",
   "module_name": "TauLib.BookI.Coordinates.PrimeEnumeration",
-  "module_url": "/verify/taulib/docs/book-i-coordinates-prime-enumeration/",
+  "module_url": "/corpus/taulib/docs/book-i-coordinates-prime-enumeration/",
   "source_line_start": 105,
   "source_line_end": 105,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/PrimeEnumeration.lean#L105-L105",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Coordinates.PrimeEnumeration",
-        "url": "/verify/taulib/docs/book-i-coordinates-prime-enumeration/"
+        "url": "/corpus/taulib/docs/book-i-coordinates-prime-enumeration/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Coordinates.PrimeEnumeration](/verify/taulib/docs/book-i-coordinates-prime-enumeration/)
+- Module: [TauLib.BookI.Coordinates.PrimeEnumeration](/corpus/taulib/docs/book-i-coordinates-prime-enumeration/)
 - Source path: [`TauLib/BookI/Coordinates/PrimeEnumeration.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/PrimeEnumeration.lean#L105-L105)
 - Source range: L105-L105
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

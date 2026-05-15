@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauRat.equivalence",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-rat-field/equivalence/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-rat-field/equivalence/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.TauRatField`.",
   "declaration_id": "TauLib.BookI.Boundary.TauRatField::TauRat.equivalence",
   "declaration_slug": "equivalence",
   "kind": "theorem",
   "name": "TauRat.equivalence",
   "module_name": "TauLib.BookI.Boundary.TauRatField",
-  "module_url": "/verify/taulib/docs/book-i-boundary-tau-rat-field/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-tau-rat-field/",
   "source_line_start": 79,
   "source_line_end": 80,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRatField.lean#L79-L80",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.TauRatField",
-        "url": "/verify/taulib/docs/book-i-boundary-tau-rat-field/"
+        "url": "/corpus/taulib/docs/book-i-boundary-tau-rat-field/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.TauRatField](/verify/taulib/docs/book-i-boundary-tau-rat-field/)
+- Module: [TauLib.BookI.Boundary.TauRatField](/corpus/taulib/docs/book-i-boundary-tau-rat-field/)
 - Source path: [`TauLib/BookI/Boundary/TauRatField.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRatField.lean#L79-L80)
 - Source range: L79-L80
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

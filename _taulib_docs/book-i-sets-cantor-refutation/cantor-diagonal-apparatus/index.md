@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "CantorDiagonalApparatus",
-  "permalink": "/verify/taulib/docs/book-i-sets-cantor-refutation/cantor-diagonal-apparatus/",
+  "permalink": "/corpus/taulib/docs/book-i-sets-cantor-refutation/cantor-diagonal-apparatus/",
   "summary_short": "`structure` declaration in `TauLib.BookI.Sets.CantorRefutation`.",
   "declaration_id": "TauLib.BookI.Sets.CantorRefutation::CantorDiagonalApparatus",
   "declaration_slug": "cantor-diagonal-apparatus",
   "kind": "structure",
   "name": "CantorDiagonalApparatus",
   "module_name": "TauLib.BookI.Sets.CantorRefutation",
-  "module_url": "/verify/taulib/docs/book-i-sets-cantor-refutation/",
+  "module_url": "/corpus/taulib/docs/book-i-sets-cantor-refutation/",
   "source_line_start": 142,
   "source_line_end": 151,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/CantorRefutation.lean#L142-L151",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Sets.CantorRefutation",
-        "url": "/verify/taulib/docs/book-i-sets-cantor-refutation/"
+        "url": "/corpus/taulib/docs/book-i-sets-cantor-refutation/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Sets.CantorRefutation](/verify/taulib/docs/book-i-sets-cantor-refutation/)
+- Module: [TauLib.BookI.Sets.CantorRefutation](/corpus/taulib/docs/book-i-sets-cantor-refutation/)
 - Source path: [`TauLib/BookI/Sets/CantorRefutation.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/CantorRefutation.lean#L142-L151)
 - Source range: L142-L151
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "gap_taxonomy",
-  "permalink": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/gap-taxonomy/",
+  "permalink": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/gap-taxonomy/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Bridge.ConjectureGaps`.",
   "declaration_id": "TauLib.BookIII.Bridge.ConjectureGaps::gap_taxonomy",
   "declaration_slug": "gap-taxonomy",
   "kind": "theorem",
   "name": "gap_taxonomy",
   "module_name": "TauLib.BookIII.Bridge.ConjectureGaps",
-  "module_url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/",
+  "module_url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/",
   "source_line_start": 221,
   "source_line_end": 222,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/ConjectureGaps.lean#L221-L222",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Bridge.ConjectureGaps",
-        "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/"
+        "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Bridge.ConjectureGaps](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/)
+- Module: [TauLib.BookIII.Bridge.ConjectureGaps](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/)
 - Source path: [`TauLib/BookIII/Bridge/ConjectureGaps.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/ConjectureGaps.lean#L221-L222)
 - Source range: L221-L222
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

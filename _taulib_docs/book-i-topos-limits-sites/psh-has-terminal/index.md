@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "psh_has_terminal",
-  "permalink": "/verify/taulib/docs/book-i-topos-limits-sites/psh-has-terminal/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-limits-sites/psh-has-terminal/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Topos.LimitsSites`.",
   "declaration_id": "TauLib.BookI.Topos.LimitsSites::psh_has_terminal",
   "declaration_slug": "psh-has-terminal",
   "kind": "theorem",
   "name": "psh_has_terminal",
   "module_name": "TauLib.BookI.Topos.LimitsSites",
-  "module_url": "/verify/taulib/docs/book-i-topos-limits-sites/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-limits-sites/",
   "source_line_start": 174,
   "source_line_end": 175,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/LimitsSites.lean#L174-L175",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.LimitsSites",
-        "url": "/verify/taulib/docs/book-i-topos-limits-sites/"
+        "url": "/corpus/taulib/docs/book-i-topos-limits-sites/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.LimitsSites](/verify/taulib/docs/book-i-topos-limits-sites/)
+- Module: [TauLib.BookI.Topos.LimitsSites](/corpus/taulib/docs/book-i-topos-limits-sites/)
 - Source path: [`TauLib/BookI/Topos/LimitsSites.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/LimitsSites.lean#L174-L175)
 - Source range: L174-L175
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Addressability.CayleyMetric",
-  "permalink": "/verify/taulib/docs/book-i-addressability-cayley-metric/",
+  "permalink": "/corpus/taulib/docs/book-i-addressability-cayley-metric/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Addressability.CayleyMetric`.",
   "module_name": "TauLib.BookI.Addressability.CayleyMetric",
   "module_slug": "book-i-addressability-cayley-metric",
@@ -31,91 +31,111 @@
     {
       "kind": "def",
       "name": "natAbsDiff",
-      "url": "/verify/taulib/docs/book-i-addressability-cayley-metric/nat-abs-diff/",
+      "url": "/corpus/taulib/docs/book-i-addressability-cayley-metric/nat-abs-diff/",
       "source_line_start": 56,
       "source_line_end": 59,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "natAbsDiff_comm",
-      "url": "/verify/taulib/docs/book-i-addressability-cayley-metric/nat-abs-diff-comm/",
+      "url": "/corpus/taulib/docs/book-i-addressability-cayley-metric/nat-abs-diff-comm/",
       "source_line_start": 61,
       "source_line_end": 62,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "natAbsDiff_eq_zero_iff",
-      "url": "/verify/taulib/docs/book-i-addressability-cayley-metric/nat-abs-diff-eq-zero-iff/",
+      "url": "/corpus/taulib/docs/book-i-addressability-cayley-metric/nat-abs-diff-eq-zero-iff/",
       "source_line_start": 64,
       "source_line_end": 69,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "natAbsDiff_triangle",
-      "url": "/verify/taulib/docs/book-i-addressability-cayley-metric/nat-abs-diff-triangle/",
+      "url": "/corpus/taulib/docs/book-i-addressability-cayley-metric/nat-abs-diff-triangle/",
       "source_line_start": 71,
       "source_line_end": 73,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "CayleyDist",
-      "url": "/verify/taulib/docs/book-i-addressability-cayley-metric/cayley-dist/",
+      "url": "/corpus/taulib/docs/book-i-addressability-cayley-metric/cayley-dist/",
       "source_line_start": 80,
       "source_line_end": 84,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "CayleyDist_symm",
-      "url": "/verify/taulib/docs/book-i-addressability-cayley-metric/cayley-dist-symm/",
+      "url": "/corpus/taulib/docs/book-i-addressability-cayley-metric/cayley-dist-symm/",
       "source_line_start": 86,
       "source_line_end": 89,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "CayleyDist_eq_zero_iff_rhoCount",
-      "url": "/verify/taulib/docs/book-i-addressability-cayley-metric/cayley-dist-eq-zero-iff-rho-count/",
+      "url": "/corpus/taulib/docs/book-i-addressability-cayley-metric/cayley-dist-eq-zero-iff-rho-count/",
       "source_line_start": 95,
       "source_line_end": 98,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "CayleyDist_triangle",
-      "url": "/verify/taulib/docs/book-i-addressability-cayley-metric/cayley-dist-triangle/",
+      "url": "/corpus/taulib/docs/book-i-addressability-cayley-metric/cayley-dist-triangle/",
       "source_line_start": 101,
       "source_line_end": 104,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "CayleyDist_compose_right",
-      "url": "/verify/taulib/docs/book-i-addressability-cayley-metric/cayley-dist-compose-right/",
+      "url": "/corpus/taulib/docs/book-i-addressability-cayley-metric/cayley-dist-compose-right/",
       "source_line_start": 113,
       "source_line_end": 118,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "CayleyDist_compose_left",
-      "url": "/verify/taulib/docs/book-i-addressability-cayley-metric/cayley-dist-compose-left/",
+      "url": "/corpus/taulib/docs/book-i-addressability-cayley-metric/cayley-dist-compose-left/",
       "source_line_start": 121,
       "source_line_end": 128,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -127,7 +147,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -196,15 +216,15 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [natAbsDiff](/verify/taulib/docs/book-i-addressability-cayley-metric/nat-abs-diff/) | L56-L59 | defined | — |
-| `theorem` | [natAbsDiff_comm](/verify/taulib/docs/book-i-addressability-cayley-metric/nat-abs-diff-comm/) | L61-L62 | formalized | — |
-| `theorem` | [natAbsDiff_eq_zero_iff](/verify/taulib/docs/book-i-addressability-cayley-metric/nat-abs-diff-eq-zero-iff/) | L64-L69 | formalized | — |
-| `theorem` | [natAbsDiff_triangle](/verify/taulib/docs/book-i-addressability-cayley-metric/nat-abs-diff-triangle/) | L71-L73 | formalized | — |
-| `def` | [CayleyDist](/verify/taulib/docs/book-i-addressability-cayley-metric/cayley-dist/) | L80-L84 | defined | — |
-| `theorem` | [CayleyDist_symm](/verify/taulib/docs/book-i-addressability-cayley-metric/cayley-dist-symm/) | L86-L89 | formalized | — |
-| `theorem` | [CayleyDist_eq_zero_iff_rhoCount](/verify/taulib/docs/book-i-addressability-cayley-metric/cayley-dist-eq-zero-iff-rho-count/) | L95-L98 | formalized | — |
-| `theorem` | [CayleyDist_triangle](/verify/taulib/docs/book-i-addressability-cayley-metric/cayley-dist-triangle/) | L101-L104 | formalized | — |
-| `theorem` | [CayleyDist_compose_right](/verify/taulib/docs/book-i-addressability-cayley-metric/cayley-dist-compose-right/) | L113-L118 | formalized | — |
-| `theorem` | [CayleyDist_compose_left](/verify/taulib/docs/book-i-addressability-cayley-metric/cayley-dist-compose-left/) | L121-L128 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [natAbsDiff](/corpus/taulib/docs/book-i-addressability-cayley-metric/nat-abs-diff/) | L56-L59 | data/computed value | data/computed value | — |
+| `theorem` | [natAbsDiff_comm](/corpus/taulib/docs/book-i-addressability-cayley-metric/nat-abs-diff-comm/) | L61-L62 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [natAbsDiff_eq_zero_iff](/corpus/taulib/docs/book-i-addressability-cayley-metric/nat-abs-diff-eq-zero-iff/) | L64-L69 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [natAbsDiff_triangle](/corpus/taulib/docs/book-i-addressability-cayley-metric/nat-abs-diff-triangle/) | L71-L73 | proof obligation | formal proof obligation checked | — |
+| `def` | [CayleyDist](/corpus/taulib/docs/book-i-addressability-cayley-metric/cayley-dist/) | L80-L84 | data/computed value | data/computed value | — |
+| `theorem` | [CayleyDist_symm](/corpus/taulib/docs/book-i-addressability-cayley-metric/cayley-dist-symm/) | L86-L89 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [CayleyDist_eq_zero_iff_rhoCount](/corpus/taulib/docs/book-i-addressability-cayley-metric/cayley-dist-eq-zero-iff-rho-count/) | L95-L98 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [CayleyDist_triangle](/corpus/taulib/docs/book-i-addressability-cayley-metric/cayley-dist-triangle/) | L101-L104 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [CayleyDist_compose_right](/corpus/taulib/docs/book-i-addressability-cayley-metric/cayley-dist-compose-right/) | L113-L118 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [CayleyDist_compose_left](/corpus/taulib/docs/book-i-addressability-cayley-metric/cayley-dist-compose-left/) | L121-L128 | proof obligation | formal proof obligation checked | — |

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "nonOmegaGenerators",
-  "permalink": "/verify/taulib/docs/book-i-kernel-signature/non-omega-generators/",
+  "permalink": "/corpus/taulib/docs/book-i-kernel-signature/non-omega-generators/",
   "summary_short": "`def` declaration in `TauLib.BookI.Kernel.Signature`.",
   "declaration_id": "TauLib.BookI.Kernel.Signature::nonOmegaGenerators",
   "declaration_slug": "non-omega-generators",
   "kind": "def",
   "name": "nonOmegaGenerators",
   "module_name": "TauLib.BookI.Kernel.Signature",
-  "module_url": "/verify/taulib/docs/book-i-kernel-signature/",
+  "module_url": "/corpus/taulib/docs/book-i-kernel-signature/",
   "source_line_start": 94,
   "source_line_end": 94,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Kernel/Signature.lean#L94-L94",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Kernel.Signature",
-        "url": "/verify/taulib/docs/book-i-kernel-signature/"
+        "url": "/corpus/taulib/docs/book-i-kernel-signature/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Kernel.Signature](/verify/taulib/docs/book-i-kernel-signature/)
+- Module: [TauLib.BookI.Kernel.Signature](/corpus/taulib/docs/book-i-kernel-signature/)
 - Source path: [`TauLib/BookI/Kernel/Signature.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Kernel/Signature.lean#L94-L94)
 - Source range: L94-L94
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

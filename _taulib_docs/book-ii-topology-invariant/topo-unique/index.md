@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "topo_unique",
-  "permalink": "/verify/taulib/docs/book-ii-topology-invariant/topo-unique/",
+  "permalink": "/corpus/taulib/docs/book-ii-topology-invariant/topo-unique/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Topology.Invariant`.",
   "declaration_id": "TauLib.BookII.Topology.Invariant::topo_unique",
   "declaration_slug": "topo-unique",
   "kind": "theorem",
   "name": "topo_unique",
   "module_name": "TauLib.BookII.Topology.Invariant",
-  "module_url": "/verify/taulib/docs/book-ii-topology-invariant/",
+  "module_url": "/corpus/taulib/docs/book-ii-topology-invariant/",
   "source_line_start": 106,
   "source_line_end": 106,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/Invariant.lean#L106-L106",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Topology.Invariant",
-        "url": "/verify/taulib/docs/book-ii-topology-invariant/"
+        "url": "/corpus/taulib/docs/book-ii-topology-invariant/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Topology.Invariant](/verify/taulib/docs/book-ii-topology-invariant/)
+- Module: [TauLib.BookII.Topology.Invariant](/corpus/taulib/docs/book-ii-topology-invariant/)
 - Source path: [`TauLib/BookII/Topology/Invariant.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/Invariant.lean#L106-L106)
 - Source range: L106-L106
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "sqrt3_numer",
-  "permalink": "/verify/taulib/docs/book-iv-physics-lemniscate-capacity/sqrt3-numer/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-lemniscate-capacity/sqrt3-numer/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Physics.LemniscateCapacity`.",
   "declaration_id": "TauLib.BookIV.Physics.LemniscateCapacity::sqrt3_numer",
   "declaration_slug": "sqrt3-numer",
   "kind": "def",
   "name": "sqrt3_numer",
   "module_name": "TauLib.BookIV.Physics.LemniscateCapacity",
-  "module_url": "/verify/taulib/docs/book-iv-physics-lemniscate-capacity/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-lemniscate-capacity/",
   "source_line_start": 150,
   "source_line_end": 150,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/LemniscateCapacity.lean#L150-L150",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.LemniscateCapacity",
-        "url": "/verify/taulib/docs/book-iv-physics-lemniscate-capacity/"
+        "url": "/corpus/taulib/docs/book-iv-physics-lemniscate-capacity/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.LemniscateCapacity](/verify/taulib/docs/book-iv-physics-lemniscate-capacity/)
+- Module: [TauLib.BookIV.Physics.LemniscateCapacity](/corpus/taulib/docs/book-iv-physics-lemniscate-capacity/)
 - Source path: [`TauLib/BookIV/Physics/LemniscateCapacity.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/LemniscateCapacity.lean#L150-L150)
 - Source range: L150-L150
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

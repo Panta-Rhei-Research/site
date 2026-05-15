@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "defect_entropy_bounded",
-  "permalink": "/verify/taulib/docs/book-v-thermodynamics-entropy-splitting/defect-entropy-bounded/",
+  "permalink": "/corpus/taulib/docs/book-v-thermodynamics-entropy-splitting/defect-entropy-bounded/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Thermodynamics.EntropySplitting`.",
   "declaration_id": "TauLib.BookV.Thermodynamics.EntropySplitting::defect_entropy_bounded",
   "declaration_slug": "defect-entropy-bounded",
   "kind": "theorem",
   "name": "defect_entropy_bounded",
   "module_name": "TauLib.BookV.Thermodynamics.EntropySplitting",
-  "module_url": "/verify/taulib/docs/book-v-thermodynamics-entropy-splitting/",
+  "module_url": "/corpus/taulib/docs/book-v-thermodynamics-entropy-splitting/",
   "source_line_start": 176,
   "source_line_end": 179,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/EntropySplitting.lean#L176-L179",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Thermodynamics.EntropySplitting",
-        "url": "/verify/taulib/docs/book-v-thermodynamics-entropy-splitting/"
+        "url": "/corpus/taulib/docs/book-v-thermodynamics-entropy-splitting/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Thermodynamics.EntropySplitting](/verify/taulib/docs/book-v-thermodynamics-entropy-splitting/)
+- Module: [TauLib.BookV.Thermodynamics.EntropySplitting](/corpus/taulib/docs/book-v-thermodynamics-entropy-splitting/)
 - Source path: [`TauLib/BookV/Thermodynamics/EntropySplitting.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/EntropySplitting.lean#L176-L179)
 - Source range: L176-L179
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

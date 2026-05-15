@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "shadow_diagram_check",
-  "permalink": "/verify/taulib/docs/book-iii-bridge-bridge-axiom/shadow-diagram-check/",
+  "permalink": "/corpus/taulib/docs/book-iii-bridge-bridge-axiom/shadow-diagram-check/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Bridge.BridgeAxiom`.",
   "declaration_id": "TauLib.BookIII.Bridge.BridgeAxiom::shadow_diagram_check",
   "declaration_slug": "shadow-diagram-check",
   "kind": "def",
   "name": "shadow_diagram_check",
   "module_name": "TauLib.BookIII.Bridge.BridgeAxiom",
-  "module_url": "/verify/taulib/docs/book-iii-bridge-bridge-axiom/",
+  "module_url": "/corpus/taulib/docs/book-iii-bridge-bridge-axiom/",
   "source_line_start": 148,
   "source_line_end": 169,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/BridgeAxiom.lean#L148-L169",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Bridge.BridgeAxiom",
-        "url": "/verify/taulib/docs/book-iii-bridge-bridge-axiom/"
+        "url": "/corpus/taulib/docs/book-iii-bridge-bridge-axiom/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Bridge.BridgeAxiom](/verify/taulib/docs/book-iii-bridge-bridge-axiom/)
+- Module: [TauLib.BookIII.Bridge.BridgeAxiom](/corpus/taulib/docs/book-iii-bridge-bridge-axiom/)
 - Source path: [`TauLib/BookIII/Bridge/BridgeAxiom.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/BridgeAxiom.lean#L148-L169)
 - Source range: L148-L169
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

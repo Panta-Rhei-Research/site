@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "gauge_3_complete",
-  "permalink": "/verify/taulib/docs/book-iii-physics-strong-sector/gauge-3-complete/",
+  "permalink": "/corpus/taulib/docs/book-iii-physics-strong-sector/gauge-3-complete/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Physics.StrongSector`.",
   "declaration_id": "TauLib.BookIII.Physics.StrongSector::gauge_3_complete",
   "declaration_slug": "gauge-3-complete",
   "kind": "theorem",
   "name": "gauge_3_complete",
   "module_name": "TauLib.BookIII.Physics.StrongSector",
-  "module_url": "/verify/taulib/docs/book-iii-physics-strong-sector/",
+  "module_url": "/corpus/taulib/docs/book-iii-physics-strong-sector/",
   "source_line_start": 218,
   "source_line_end": 220,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/StrongSector.lean#L218-L220",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Physics.StrongSector",
-        "url": "/verify/taulib/docs/book-iii-physics-strong-sector/"
+        "url": "/corpus/taulib/docs/book-iii-physics-strong-sector/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Physics.StrongSector](/verify/taulib/docs/book-iii-physics-strong-sector/)
+- Module: [TauLib.BookIII.Physics.StrongSector](/corpus/taulib/docs/book-iii-physics-strong-sector/)
 - Source path: [`TauLib/BookIII/Physics/StrongSector.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/StrongSector.lean#L218-L220)
 - Source range: L218-L220
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

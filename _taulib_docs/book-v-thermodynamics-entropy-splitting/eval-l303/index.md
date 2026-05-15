@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L303",
-  "permalink": "/verify/taulib/docs/book-v-thermodynamics-entropy-splitting/eval-l303/",
+  "permalink": "/corpus/taulib/docs/book-v-thermodynamics-entropy-splitting/eval-l303/",
   "summary_short": "`eval` declaration in `TauLib.BookV.Thermodynamics.EntropySplitting`.",
   "declaration_id": "TauLib.BookV.Thermodynamics.EntropySplitting::#eval:303",
   "declaration_slug": "eval-l303",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.Thermodynamics.EntropySplitting",
-  "module_url": "/verify/taulib/docs/book-v-thermodynamics-entropy-splitting/",
+  "module_url": "/corpus/taulib/docs/book-v-thermodynamics-entropy-splitting/",
   "source_line_start": 303,
   "source_line_end": 303,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/EntropySplitting.lean#L303-L303",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Thermodynamics.EntropySplitting",
-        "url": "/verify/taulib/docs/book-v-thermodynamics-entropy-splitting/"
+        "url": "/corpus/taulib/docs/book-v-thermodynamics-entropy-splitting/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Thermodynamics.EntropySplitting](/verify/taulib/docs/book-v-thermodynamics-entropy-splitting/)
+- Module: [TauLib.BookV.Thermodynamics.EntropySplitting](/corpus/taulib/docs/book-v-thermodynamics-entropy-splitting/)
 - Source path: [`TauLib/BookV/Thermodynamics/EntropySplitting.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/EntropySplitting.lean#L303-L303)
 - Source range: L303-L303
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

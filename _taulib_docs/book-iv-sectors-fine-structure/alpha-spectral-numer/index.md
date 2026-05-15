@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "alpha_spectral_numer",
-  "permalink": "/verify/taulib/docs/book-iv-sectors-fine-structure/alpha-spectral-numer/",
+  "permalink": "/corpus/taulib/docs/book-iv-sectors-fine-structure/alpha-spectral-numer/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Sectors.FineStructure`.",
   "declaration_id": "TauLib.BookIV.Sectors.FineStructure::alpha_spectral_numer",
   "declaration_slug": "alpha-spectral-numer",
   "kind": "def",
   "name": "alpha_spectral_numer",
   "module_name": "TauLib.BookIV.Sectors.FineStructure",
-  "module_url": "/verify/taulib/docs/book-iv-sectors-fine-structure/",
+  "module_url": "/corpus/taulib/docs/book-iv-sectors-fine-structure/",
   "source_line_start": 91,
   "source_line_end": 91,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Sectors/FineStructure.lean#L91-L91",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Sectors.FineStructure",
-        "url": "/verify/taulib/docs/book-iv-sectors-fine-structure/"
+        "url": "/corpus/taulib/docs/book-iv-sectors-fine-structure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Sectors.FineStructure](/verify/taulib/docs/book-iv-sectors-fine-structure/)
+- Module: [TauLib.BookIV.Sectors.FineStructure](/corpus/taulib/docs/book-iv-sectors-fine-structure/)
 - Source path: [`TauLib/BookIV/Sectors/FineStructure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Sectors/FineStructure.lean#L91-L91)
 - Source range: L91-L91
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

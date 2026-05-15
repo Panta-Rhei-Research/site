@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L340",
-  "permalink": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l340/",
+  "permalink": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l340/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Logic.BooleanRecovery`.",
   "declaration_id": "TauLib.BookI.Logic.BooleanRecovery::#eval:340",
   "declaration_slug": "eval-l340",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Logic.BooleanRecovery",
-  "module_url": "/verify/taulib/docs/book-i-logic-boolean-recovery/",
+  "module_url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/",
   "source_line_start": 340,
   "source_line_end": 340,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Logic/BooleanRecovery.lean#L340-L340",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Logic.BooleanRecovery",
-        "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/"
+        "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Logic.BooleanRecovery](/verify/taulib/docs/book-i-logic-boolean-recovery/)
+- Module: [TauLib.BookI.Logic.BooleanRecovery](/corpus/taulib/docs/book-i-logic-boolean-recovery/)
 - Source path: [`TauLib/BookI/Logic/BooleanRecovery.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Logic/BooleanRecovery.lean#L340-L340)
 - Source range: L340-L340
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

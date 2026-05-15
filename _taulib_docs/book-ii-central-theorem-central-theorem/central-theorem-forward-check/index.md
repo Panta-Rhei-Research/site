@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "central_theorem_forward_check",
-  "permalink": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/central-theorem-forward-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/central-theorem-forward-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.CentralTheorem.CentralTheorem`.",
   "declaration_id": "TauLib.BookII.CentralTheorem.CentralTheorem::central_theorem_forward_check",
   "declaration_slug": "central-theorem-forward-check",
   "kind": "def",
   "name": "central_theorem_forward_check",
   "module_name": "TauLib.BookII.CentralTheorem.CentralTheorem",
-  "module_url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/",
+  "module_url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/",
   "source_line_start": 146,
   "source_line_end": 168,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/CentralTheorem.lean#L146-L168",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.CentralTheorem.CentralTheorem",
-        "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/"
+        "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.CentralTheorem.CentralTheorem](/verify/taulib/docs/book-ii-central-theorem-central-theorem/)
+- Module: [TauLib.BookII.CentralTheorem.CentralTheorem](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/)
 - Source path: [`TauLib/BookII/CentralTheorem/CentralTheorem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/CentralTheorem.lean#L146-L168)
 - Source range: L146-L168
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

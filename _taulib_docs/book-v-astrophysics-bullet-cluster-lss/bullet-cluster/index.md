@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "bullet_cluster",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-bullet-cluster-lss/bullet-cluster/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-bullet-cluster-lss/bullet-cluster/",
   "summary_short": "`def` declaration in `TauLib.BookV.Astrophysics.BulletClusterLSS`.",
   "declaration_id": "TauLib.BookV.Astrophysics.BulletClusterLSS::bullet_cluster",
   "declaration_slug": "bullet-cluster",
   "kind": "def",
   "name": "bullet_cluster",
   "module_name": "TauLib.BookV.Astrophysics.BulletClusterLSS",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-bullet-cluster-lss/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-bullet-cluster-lss/",
   "source_line_start": 243,
   "source_line_end": 250,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/BulletClusterLSS.lean#L243-L250",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.BulletClusterLSS",
-        "url": "/verify/taulib/docs/book-v-astrophysics-bullet-cluster-lss/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-bullet-cluster-lss/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.BulletClusterLSS](/verify/taulib/docs/book-v-astrophysics-bullet-cluster-lss/)
+- Module: [TauLib.BookV.Astrophysics.BulletClusterLSS](/corpus/taulib/docs/book-v-astrophysics-bullet-cluster-lss/)
 - Source path: [`TauLib/BookV/Astrophysics/BulletClusterLSS.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/BulletClusterLSS.lean#L243-L250)
 - Source range: L243-L250
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

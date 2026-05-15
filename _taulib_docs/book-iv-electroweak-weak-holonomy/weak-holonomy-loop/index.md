@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "WeakHolonomyLoop",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-weak-holonomy/weak-holonomy-loop/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-weak-holonomy/weak-holonomy-loop/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Electroweak.WeakHolonomy`.",
   "declaration_id": "TauLib.BookIV.Electroweak.WeakHolonomy::WeakHolonomyLoop",
   "declaration_slug": "weak-holonomy-loop",
   "kind": "structure",
   "name": "WeakHolonomyLoop",
   "module_name": "TauLib.BookIV.Electroweak.WeakHolonomy",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-weak-holonomy/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-weak-holonomy/",
   "source_line_start": 153,
   "source_line_end": 162,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/WeakHolonomy.lean#L153-L162",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.WeakHolonomy",
-        "url": "/verify/taulib/docs/book-iv-electroweak-weak-holonomy/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-weak-holonomy/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.WeakHolonomy](/verify/taulib/docs/book-iv-electroweak-weak-holonomy/)
+- Module: [TauLib.BookIV.Electroweak.WeakHolonomy](/corpus/taulib/docs/book-iv-electroweak-weak-holonomy/)
 - Source path: [`TauLib/BookIV/Electroweak/WeakHolonomy.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/WeakHolonomy.lean#L153-L162)
 - Source range: L153-L162
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

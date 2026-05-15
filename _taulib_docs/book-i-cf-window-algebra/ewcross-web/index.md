@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "EWCrossWeb",
-  "permalink": "/verify/taulib/docs/book-i-cf-window-algebra/ewcross-web/",
+  "permalink": "/corpus/taulib/docs/book-i-cf-window-algebra/ewcross-web/",
   "summary_short": "`structure` declaration in `TauLib.BookI.CF.WindowAlgebra`.",
   "declaration_id": "TauLib.BookI.CF.WindowAlgebra::EWCrossWeb",
   "declaration_slug": "ewcross-web",
   "kind": "structure",
   "name": "EWCrossWeb",
   "module_name": "TauLib.BookI.CF.WindowAlgebra",
-  "module_url": "/verify/taulib/docs/book-i-cf-window-algebra/",
+  "module_url": "/corpus/taulib/docs/book-i-cf-window-algebra/",
   "source_line_start": 152,
   "source_line_end": 156,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/CF/WindowAlgebra.lean#L152-L156",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.CF.WindowAlgebra",
-        "url": "/verify/taulib/docs/book-i-cf-window-algebra/"
+        "url": "/corpus/taulib/docs/book-i-cf-window-algebra/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.CF.WindowAlgebra](/verify/taulib/docs/book-i-cf-window-algebra/)
+- Module: [TauLib.BookI.CF.WindowAlgebra](/corpus/taulib/docs/book-i-cf-window-algebra/)
 - Source path: [`TauLib/BookI/CF/WindowAlgebra.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/CF/WindowAlgebra.lean#L152-L156)
 - Source range: L152-L156
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

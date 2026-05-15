@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "OmegaGermApproach",
-  "permalink": "/verify/taulib/docs/book-i-sets-unique-infinity/omega-germ-approach/",
+  "permalink": "/corpus/taulib/docs/book-i-sets-unique-infinity/omega-germ-approach/",
   "summary_short": "`structure` declaration in `TauLib.BookI.Sets.UniqueInfinity`.",
   "declaration_id": "TauLib.BookI.Sets.UniqueInfinity::OmegaGermApproach",
   "declaration_slug": "omega-germ-approach",
   "kind": "structure",
   "name": "OmegaGermApproach",
   "module_name": "TauLib.BookI.Sets.UniqueInfinity",
-  "module_url": "/verify/taulib/docs/book-i-sets-unique-infinity/",
+  "module_url": "/corpus/taulib/docs/book-i-sets-unique-infinity/",
   "source_line_start": 59,
   "source_line_end": 68,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/UniqueInfinity.lean#L59-L68",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Sets.UniqueInfinity",
-        "url": "/verify/taulib/docs/book-i-sets-unique-infinity/"
+        "url": "/corpus/taulib/docs/book-i-sets-unique-infinity/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Sets.UniqueInfinity](/verify/taulib/docs/book-i-sets-unique-infinity/)
+- Module: [TauLib.BookI.Sets.UniqueInfinity](/corpus/taulib/docs/book-i-sets-unique-infinity/)
 - Source path: [`TauLib/BookI/Sets/UniqueInfinity.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/UniqueInfinity.lean#L59-L68)
 - Source range: L59-L68
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

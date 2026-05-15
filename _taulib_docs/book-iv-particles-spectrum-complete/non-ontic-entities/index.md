@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "non_ontic_entities",
-  "permalink": "/verify/taulib/docs/book-iv-particles-spectrum-complete/non-ontic-entities/",
+  "permalink": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/non-ontic-entities/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Particles.SpectrumComplete`.",
   "declaration_id": "TauLib.BookIV.Particles.SpectrumComplete::non_ontic_entities",
   "declaration_slug": "non-ontic-entities",
   "kind": "def",
   "name": "non_ontic_entities",
   "module_name": "TauLib.BookIV.Particles.SpectrumComplete",
-  "module_url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/",
+  "module_url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/",
   "source_line_start": 138,
   "source_line_end": 149,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/SpectrumComplete.lean#L138-L149",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Particles.SpectrumComplete",
-        "url": "/verify/taulib/docs/book-iv-particles-spectrum-complete/"
+        "url": "/corpus/taulib/docs/book-iv-particles-spectrum-complete/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Particles.SpectrumComplete](/verify/taulib/docs/book-iv-particles-spectrum-complete/)
+- Module: [TauLib.BookIV.Particles.SpectrumComplete](/corpus/taulib/docs/book-iv-particles-spectrum-complete/)
 - Source path: [`TauLib/BookIV/Particles/SpectrumComplete.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/SpectrumComplete.lean#L138-L149)
 - Source range: L138-L149
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

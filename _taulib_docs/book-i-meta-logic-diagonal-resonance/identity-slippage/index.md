@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "IdentitySlippage",
-  "permalink": "/verify/taulib/docs/book-i-meta-logic-diagonal-resonance/identity-slippage/",
+  "permalink": "/corpus/taulib/docs/book-i-meta-logic-diagonal-resonance/identity-slippage/",
   "summary_short": "`structure` declaration in `TauLib.BookI.MetaLogic.DiagonalResonance`.",
   "declaration_id": "TauLib.BookI.MetaLogic.DiagonalResonance::IdentitySlippage",
   "declaration_slug": "identity-slippage",
   "kind": "structure",
   "name": "IdentitySlippage",
   "module_name": "TauLib.BookI.MetaLogic.DiagonalResonance",
-  "module_url": "/verify/taulib/docs/book-i-meta-logic-diagonal-resonance/",
+  "module_url": "/corpus/taulib/docs/book-i-meta-logic-diagonal-resonance/",
   "source_line_start": 75,
   "source_line_end": 77,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/DiagonalResonance.lean#L75-L77",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.MetaLogic.DiagonalResonance",
-        "url": "/verify/taulib/docs/book-i-meta-logic-diagonal-resonance/"
+        "url": "/corpus/taulib/docs/book-i-meta-logic-diagonal-resonance/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.MetaLogic.DiagonalResonance](/verify/taulib/docs/book-i-meta-logic-diagonal-resonance/)
+- Module: [TauLib.BookI.MetaLogic.DiagonalResonance](/corpus/taulib/docs/book-i-meta-logic-diagonal-resonance/)
 - Source path: [`TauLib/BookI/MetaLogic/DiagonalResonance.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/DiagonalResonance.lean#L75-L77)
 - Source range: L75-L77
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

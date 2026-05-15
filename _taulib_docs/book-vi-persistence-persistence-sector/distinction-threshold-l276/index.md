@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "distinction_threshold",
-  "permalink": "/verify/taulib/docs/book-vi-persistence-persistence-sector/distinction-threshold-l276/",
+  "permalink": "/corpus/taulib/docs/book-vi-persistence-persistence-sector/distinction-threshold-l276/",
   "summary_short": "`def` declaration in `TauLib.BookVI.Persistence.PersistenceSector`.",
   "declaration_id": "TauLib.BookVI.Persistence.PersistenceSector::distinction_threshold",
   "declaration_slug": "distinction-threshold-l276",
   "kind": "def",
   "name": "distinction_threshold",
   "module_name": "TauLib.BookVI.Persistence.PersistenceSector",
-  "module_url": "/verify/taulib/docs/book-vi-persistence-persistence-sector/",
+  "module_url": "/corpus/taulib/docs/book-vi-persistence-persistence-sector/",
   "source_line_start": 276,
   "source_line_end": 278,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Persistence/PersistenceSector.lean#L276-L278",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Persistence.PersistenceSector",
-        "url": "/verify/taulib/docs/book-vi-persistence-persistence-sector/"
+        "url": "/corpus/taulib/docs/book-vi-persistence-persistence-sector/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Persistence.PersistenceSector](/verify/taulib/docs/book-vi-persistence-persistence-sector/)
+- Module: [TauLib.BookVI.Persistence.PersistenceSector](/corpus/taulib/docs/book-vi-persistence-persistence-sector/)
 - Source path: [`TauLib/BookVI/Persistence/PersistenceSector.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Persistence/PersistenceSector.lean#L276-L278)
 - Source range: L276-L278
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

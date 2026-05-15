@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "neutron_singlet",
-  "permalink": "/verify/taulib/docs/book-iv-strong-quarks-gluons/neutron-singlet/",
+  "permalink": "/corpus/taulib/docs/book-iv-strong-quarks-gluons/neutron-singlet/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Strong.QuarksGluons`.",
   "declaration_id": "TauLib.BookIV.Strong.QuarksGluons::neutron_singlet",
   "declaration_slug": "neutron-singlet",
   "kind": "theorem",
   "name": "neutron_singlet",
   "module_name": "TauLib.BookIV.Strong.QuarksGluons",
-  "module_url": "/verify/taulib/docs/book-iv-strong-quarks-gluons/",
+  "module_url": "/corpus/taulib/docs/book-iv-strong-quarks-gluons/",
   "source_line_start": 368,
   "source_line_end": 370,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/QuarksGluons.lean#L368-L370",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Strong.QuarksGluons",
-        "url": "/verify/taulib/docs/book-iv-strong-quarks-gluons/"
+        "url": "/corpus/taulib/docs/book-iv-strong-quarks-gluons/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Strong.QuarksGluons](/verify/taulib/docs/book-iv-strong-quarks-gluons/)
+- Module: [TauLib.BookIV.Strong.QuarksGluons](/corpus/taulib/docs/book-iv-strong-quarks-gluons/)
 - Source path: [`TauLib/BookIV/Strong/QuarksGluons.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/QuarksGluons.lean#L368-L370)
 - Source range: L368-L370
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

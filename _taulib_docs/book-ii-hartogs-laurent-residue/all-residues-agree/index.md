@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "all_residues_agree",
-  "permalink": "/verify/taulib/docs/book-ii-hartogs-laurent-residue/all-residues-agree/",
+  "permalink": "/corpus/taulib/docs/book-ii-hartogs-laurent-residue/all-residues-agree/",
   "summary_short": "`def` declaration in `TauLib.BookII.Hartogs.LaurentResidue`.",
   "declaration_id": "TauLib.BookII.Hartogs.LaurentResidue::all_residues_agree",
   "declaration_slug": "all-residues-agree",
   "kind": "def",
   "name": "all_residues_agree",
   "module_name": "TauLib.BookII.Hartogs.LaurentResidue",
-  "module_url": "/verify/taulib/docs/book-ii-hartogs-laurent-residue/",
+  "module_url": "/corpus/taulib/docs/book-ii-hartogs-laurent-residue/",
   "source_line_start": 146,
   "source_line_end": 153,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/LaurentResidue.lean#L146-L153",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Hartogs.LaurentResidue",
-        "url": "/verify/taulib/docs/book-ii-hartogs-laurent-residue/"
+        "url": "/corpus/taulib/docs/book-ii-hartogs-laurent-residue/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Hartogs.LaurentResidue](/verify/taulib/docs/book-ii-hartogs-laurent-residue/)
+- Module: [TauLib.BookII.Hartogs.LaurentResidue](/corpus/taulib/docs/book-ii-hartogs-laurent-residue/)
 - Source path: [`TauLib/BookII/Hartogs/LaurentResidue.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/LaurentResidue.lean#L146-L153)
 - Source range: L146-L153
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

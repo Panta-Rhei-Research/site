@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "GermConvergence",
-  "permalink": "/verify/taulib/docs/book-i-sets-unique-infinity/germ-convergence/",
+  "permalink": "/corpus/taulib/docs/book-i-sets-unique-infinity/germ-convergence/",
   "summary_short": "`def` declaration in `TauLib.BookI.Sets.UniqueInfinity`.",
   "declaration_id": "TauLib.BookI.Sets.UniqueInfinity::GermConvergence",
   "declaration_slug": "germ-convergence",
   "kind": "def",
   "name": "GermConvergence",
   "module_name": "TauLib.BookI.Sets.UniqueInfinity",
-  "module_url": "/verify/taulib/docs/book-i-sets-unique-infinity/",
+  "module_url": "/corpus/taulib/docs/book-i-sets-unique-infinity/",
   "source_line_start": 197,
   "source_line_end": 199,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/UniqueInfinity.lean#L197-L199",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Sets.UniqueInfinity",
-        "url": "/verify/taulib/docs/book-i-sets-unique-infinity/"
+        "url": "/corpus/taulib/docs/book-i-sets-unique-infinity/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Sets.UniqueInfinity](/verify/taulib/docs/book-i-sets-unique-infinity/)
+- Module: [TauLib.BookI.Sets.UniqueInfinity](/corpus/taulib/docs/book-i-sets-unique-infinity/)
 - Source path: [`TauLib/BookI/Sets/UniqueInfinity.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/UniqueInfinity.lean#L197-L199)
 - Source range: L197-L199
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

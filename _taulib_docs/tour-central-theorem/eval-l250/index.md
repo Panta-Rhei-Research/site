@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L250",
-  "permalink": "/verify/taulib/docs/tour-central-theorem/eval-l250/",
+  "permalink": "/corpus/taulib/docs/tour-central-theorem/eval-l250/",
   "summary_short": "`eval` declaration in `TauLib.Tour.CentralTheorem`.",
   "declaration_id": "TauLib.Tour.CentralTheorem::#eval:250",
   "declaration_slug": "eval-l250",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.Tour.CentralTheorem",
-  "module_url": "/verify/taulib/docs/tour-central-theorem/",
+  "module_url": "/corpus/taulib/docs/tour-central-theorem/",
   "source_line_start": 250,
   "source_line_end": 254,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/Tour/CentralTheorem.lean#L250-L254",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.Tour.CentralTheorem",
-        "url": "/verify/taulib/docs/tour-central-theorem/"
+        "url": "/corpus/taulib/docs/tour-central-theorem/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.Tour.CentralTheorem](/verify/taulib/docs/tour-central-theorem/)
+- Module: [TauLib.Tour.CentralTheorem](/corpus/taulib/docs/tour-central-theorem/)
 - Source path: [`TauLib/Tour/CentralTheorem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/Tour/CentralTheorem.lean#L250-L254)
 - Source range: L250-L254
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

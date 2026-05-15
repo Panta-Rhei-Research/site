@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "example at L328",
-  "permalink": "/verify/taulib/docs/book-i-boundary-split-complex/example-l328/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-split-complex/example-l328/",
   "summary_short": "`example` declaration in `TauLib.BookI.Boundary.SplitComplex`.",
   "declaration_id": "TauLib.BookI.Boundary.SplitComplex::#eval:328",
   "declaration_slug": "example-l328",
   "kind": "example",
   "name": null,
   "module_name": "TauLib.BookI.Boundary.SplitComplex",
-  "module_url": "/verify/taulib/docs/book-i-boundary-split-complex/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-split-complex/",
   "source_line_start": 328,
   "source_line_end": 328,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/SplitComplex.lean#L328-L328",
   "formal_status": "example",
+  "declaration_role": "example check",
+  "formal_status_label": "example",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.SplitComplex",
-        "url": "/verify/taulib/docs/book-i-boundary-split-complex/"
+        "url": "/corpus/taulib/docs/book-i-boundary-split-complex/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,6 +43,7 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "example",
+      "role": "example check",
       "status": "example"
     }
   },
@@ -62,10 +65,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.SplitComplex](/verify/taulib/docs/book-i-boundary-split-complex/)
+- Module: [TauLib.BookI.Boundary.SplitComplex](/corpus/taulib/docs/book-i-boundary-split-complex/)
 - Source path: [`TauLib/BookI/Boundary/SplitComplex.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/SplitComplex.lean#L328-L328)
 - Source range: L328-L328
 - Kind: `example`
+- Public role: `example check`
 - Formal status hint: `example`
 
 ## Registry Links

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "LocalTau3Chart",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/local-tau3-chart/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/local-tau3-chart/",
   "summary_short": "`structure` declaration in `TauLib.BookV.GravityField.LorentzNoMinkowski`.",
   "declaration_id": "TauLib.BookV.GravityField.LorentzNoMinkowski::LocalTau3Chart",
   "declaration_slug": "local-tau3-chart",
   "kind": "structure",
   "name": "LocalTau3Chart",
   "module_name": "TauLib.BookV.GravityField.LorentzNoMinkowski",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/",
   "source_line_start": 121,
   "source_line_end": 136,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/LorentzNoMinkowski.lean#L121-L136",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.LorentzNoMinkowski",
-        "url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.LorentzNoMinkowski](/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/)
+- Module: [TauLib.BookV.GravityField.LorentzNoMinkowski](/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/)
 - Source path: [`TauLib/BookV/GravityField/LorentzNoMinkowski.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/LorentzNoMinkowski.lean#L121-L136)
 - Source range: L121-L136
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

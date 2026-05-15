@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L121",
-  "permalink": "/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l121/",
+  "permalink": "/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l121/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Coordinates.HyperfactIsomorphism`.",
   "declaration_id": "TauLib.BookI.Coordinates.HyperfactIsomorphism::#eval:121",
   "declaration_slug": "eval-l121",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Coordinates.HyperfactIsomorphism",
-  "module_url": "/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/",
+  "module_url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/",
   "source_line_start": 121,
   "source_line_end": 121,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/HyperfactIsomorphism.lean#L121-L121",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Coordinates.HyperfactIsomorphism",
-        "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/"
+        "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Coordinates.HyperfactIsomorphism](/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/)
+- Module: [TauLib.BookI.Coordinates.HyperfactIsomorphism](/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/)
 - Source path: [`TauLib/BookI/Coordinates/HyperfactIsomorphism.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/HyperfactIsomorphism.lean#L121-L121)
 - Source range: L121-L121
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

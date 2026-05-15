@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "saturation_checker",
-  "permalink": "/verify/taulib/docs/book-iii-enrichment-functor/saturation-checker/",
+  "permalink": "/corpus/taulib/docs/book-iii-enrichment-functor/saturation-checker/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Enrichment.Functor`.",
   "declaration_id": "TauLib.BookIII.Enrichment.Functor::saturation_checker",
   "declaration_slug": "saturation-checker",
   "kind": "def",
   "name": "saturation_checker",
   "module_name": "TauLib.BookIII.Enrichment.Functor",
-  "module_url": "/verify/taulib/docs/book-iii-enrichment-functor/",
+  "module_url": "/corpus/taulib/docs/book-iii-enrichment-functor/",
   "source_line_start": 172,
   "source_line_end": 194,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Enrichment/Functor.lean#L172-L194",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Enrichment.Functor",
-        "url": "/verify/taulib/docs/book-iii-enrichment-functor/"
+        "url": "/corpus/taulib/docs/book-iii-enrichment-functor/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Enrichment.Functor](/verify/taulib/docs/book-iii-enrichment-functor/)
+- Module: [TauLib.BookIII.Enrichment.Functor](/corpus/taulib/docs/book-iii-enrichment-functor/)
 - Source path: [`TauLib/BookIII/Enrichment/Functor.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Enrichment/Functor.lean#L172-L194)
 - Source range: L172-L194
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

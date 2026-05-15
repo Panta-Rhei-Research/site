@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "leray_limit_recovery",
-  "permalink": "/verify/taulib/docs/book-v-fluid-macro-navier-stokes-macro/leray-limit-recovery/",
+  "permalink": "/corpus/taulib/docs/book-v-fluid-macro-navier-stokes-macro/leray-limit-recovery/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.FluidMacro.NavierStokesMacro`.",
   "declaration_id": "TauLib.BookV.FluidMacro.NavierStokesMacro::leray_limit_recovery",
   "declaration_slug": "leray-limit-recovery",
   "kind": "theorem",
   "name": "leray_limit_recovery",
   "module_name": "TauLib.BookV.FluidMacro.NavierStokesMacro",
-  "module_url": "/verify/taulib/docs/book-v-fluid-macro-navier-stokes-macro/",
+  "module_url": "/corpus/taulib/docs/book-v-fluid-macro-navier-stokes-macro/",
   "source_line_start": 382,
   "source_line_end": 384,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/NavierStokesMacro.lean#L382-L384",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.FluidMacro.NavierStokesMacro",
-        "url": "/verify/taulib/docs/book-v-fluid-macro-navier-stokes-macro/"
+        "url": "/corpus/taulib/docs/book-v-fluid-macro-navier-stokes-macro/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.FluidMacro.NavierStokesMacro](/verify/taulib/docs/book-v-fluid-macro-navier-stokes-macro/)
+- Module: [TauLib.BookV.FluidMacro.NavierStokesMacro](/corpus/taulib/docs/book-v-fluid-macro-navier-stokes-macro/)
 - Source path: [`TauLib/BookV/FluidMacro/NavierStokesMacro.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/NavierStokesMacro.lean#L382-L384)
 - Source range: L382-L384
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

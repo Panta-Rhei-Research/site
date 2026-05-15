@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "boundary_algebra_satisfies_C1_C4",
-  "permalink": "/verify/taulib/docs/book-i-polarity-h4-uniqueness-elliptic/boundary-algebra-satisfies-c1-c4/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-h4-uniqueness-elliptic/boundary-algebra-satisfies-c1-c4/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Polarity.H4UniquenessElliptic`.",
   "declaration_id": "TauLib.BookI.Polarity.H4UniquenessElliptic::boundary_algebra_satisfies_C1_C4",
   "declaration_slug": "boundary-algebra-satisfies-c1-c4",
   "kind": "theorem",
   "name": "boundary_algebra_satisfies_C1_C4",
   "module_name": "TauLib.BookI.Polarity.H4UniquenessElliptic",
-  "module_url": "/verify/taulib/docs/book-i-polarity-h4-uniqueness-elliptic/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-h4-uniqueness-elliptic/",
   "source_line_start": 143,
   "source_line_end": 158,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/H4UniquenessElliptic.lean#L143-L158",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.H4UniquenessElliptic",
-        "url": "/verify/taulib/docs/book-i-polarity-h4-uniqueness-elliptic/"
+        "url": "/corpus/taulib/docs/book-i-polarity-h4-uniqueness-elliptic/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.H4UniquenessElliptic](/verify/taulib/docs/book-i-polarity-h4-uniqueness-elliptic/)
+- Module: [TauLib.BookI.Polarity.H4UniquenessElliptic](/corpus/taulib/docs/book-i-polarity-h4-uniqueness-elliptic/)
 - Source path: [`TauLib/BookI/Polarity/H4UniquenessElliptic.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/H4UniquenessElliptic.lean#L143-L158)
 - Source range: L143-L158
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

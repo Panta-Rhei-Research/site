@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "qlc_relation_conj",
-  "permalink": "/verify/taulib/docs/book-iv-particles-three-generations/qlc-relation-conj/",
+  "permalink": "/corpus/taulib/docs/book-iv-particles-three-generations/qlc-relation-conj/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Particles.ThreeGenerations`.",
   "declaration_id": "TauLib.BookIV.Particles.ThreeGenerations::qlc_relation_conj",
   "declaration_slug": "qlc-relation-conj",
   "kind": "theorem",
   "name": "qlc_relation_conj",
   "module_name": "TauLib.BookIV.Particles.ThreeGenerations",
-  "module_url": "/verify/taulib/docs/book-iv-particles-three-generations/",
+  "module_url": "/corpus/taulib/docs/book-iv-particles-three-generations/",
   "source_line_start": 877,
   "source_line_end": 881,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/ThreeGenerations.lean#L877-L881",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Particles.ThreeGenerations",
-        "url": "/verify/taulib/docs/book-iv-particles-three-generations/"
+        "url": "/corpus/taulib/docs/book-iv-particles-three-generations/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Particles.ThreeGenerations](/verify/taulib/docs/book-iv-particles-three-generations/)
+- Module: [TauLib.BookIV.Particles.ThreeGenerations](/corpus/taulib/docs/book-iv-particles-three-generations/)
 - Source path: [`TauLib/BookIV/Particles/ThreeGenerations.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/ThreeGenerations.lean#L877-L881)
 - Source range: L877-L881
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

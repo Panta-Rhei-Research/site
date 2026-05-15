@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "RelationalUnits",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/relational-units/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/relational-units/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Calibration.DimensionlessAlpha`.",
   "declaration_id": "TauLib.BookIV.Calibration.DimensionlessAlpha::RelationalUnits",
   "declaration_slug": "relational-units",
   "kind": "structure",
   "name": "RelationalUnits",
   "module_name": "TauLib.BookIV.Calibration.DimensionlessAlpha",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/",
   "source_line_start": 60,
   "source_line_end": 73,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/DimensionlessAlpha.lean#L60-L73",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.DimensionlessAlpha",
-        "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.DimensionlessAlpha](/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/)
+- Module: [TauLib.BookIV.Calibration.DimensionlessAlpha](/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/)
 - Source path: [`TauLib/BookIV/Calibration/DimensionlessAlpha.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/DimensionlessAlpha.lean#L60-L73)
 - Source range: L60-L73
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

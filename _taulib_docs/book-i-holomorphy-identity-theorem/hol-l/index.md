@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "HolL",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/hol-l/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/hol-l/",
   "summary_short": "`structure` declaration in `TauLib.BookI.Holomorphy.IdentityTheorem`.",
   "declaration_id": "TauLib.BookI.Holomorphy.IdentityTheorem::HolL",
   "declaration_slug": "hol-l",
   "kind": "structure",
   "name": "HolL",
   "module_name": "TauLib.BookI.Holomorphy.IdentityTheorem",
-  "module_url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/",
+  "module_url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/",
   "source_line_start": 192,
   "source_line_end": 194,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/IdentityTheorem.lean#L192-L194",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Holomorphy.IdentityTheorem",
-        "url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/"
+        "url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Holomorphy.IdentityTheorem](/verify/taulib/docs/book-i-holomorphy-identity-theorem/)
+- Module: [TauLib.BookI.Holomorphy.IdentityTheorem](/corpus/taulib/docs/book-i-holomorphy-identity-theorem/)
 - Source path: [`TauLib/BookI/Holomorphy/IdentityTheorem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/IdentityTheorem.lean#L192-L194)
 - Source range: L192-L194
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

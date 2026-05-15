@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "RewiringRow",
-  "permalink": "/verify/taulib/docs/book-ii-mirror-inventory/rewiring-row/",
+  "permalink": "/corpus/taulib/docs/book-ii-mirror-inventory/rewiring-row/",
   "summary_short": "`structure` declaration in `TauLib.BookII.Mirror.Inventory`.",
   "declaration_id": "TauLib.BookII.Mirror.Inventory::RewiringRow",
   "declaration_slug": "rewiring-row",
   "kind": "structure",
   "name": "RewiringRow",
   "module_name": "TauLib.BookII.Mirror.Inventory",
-  "module_url": "/verify/taulib/docs/book-ii-mirror-inventory/",
+  "module_url": "/corpus/taulib/docs/book-ii-mirror-inventory/",
   "source_line_start": 40,
   "source_line_end": 45,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Mirror/Inventory.lean#L40-L45",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Mirror.Inventory",
-        "url": "/verify/taulib/docs/book-ii-mirror-inventory/"
+        "url": "/corpus/taulib/docs/book-ii-mirror-inventory/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Mirror.Inventory](/verify/taulib/docs/book-ii-mirror-inventory/)
+- Module: [TauLib.BookII.Mirror.Inventory](/corpus/taulib/docs/book-ii-mirror-inventory/)
 - Source path: [`TauLib/BookII/Mirror/Inventory.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Mirror/Inventory.lean#L40-L45)
 - Source range: L40-L45
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

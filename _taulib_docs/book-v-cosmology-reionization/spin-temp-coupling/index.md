@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "SpinTempCoupling",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-reionization/spin-temp-coupling/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-reionization/spin-temp-coupling/",
   "summary_short": "`inductive` declaration in `TauLib.BookV.Cosmology.Reionization`.",
   "declaration_id": "TauLib.BookV.Cosmology.Reionization::SpinTempCoupling",
   "declaration_slug": "spin-temp-coupling",
   "kind": "inductive",
   "name": "SpinTempCoupling",
   "module_name": "TauLib.BookV.Cosmology.Reionization",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-reionization/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-reionization/",
   "source_line_start": 59,
   "source_line_end": 68,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/Reionization.lean#L59-L68",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.Reionization",
-        "url": "/verify/taulib/docs/book-v-cosmology-reionization/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-reionization/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "inductive",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.Reionization](/verify/taulib/docs/book-v-cosmology-reionization/)
+- Module: [TauLib.BookV.Cosmology.Reionization](/corpus/taulib/docs/book-v-cosmology-reionization/)
 - Source path: [`TauLib/BookV/Cosmology/Reionization.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/Reionization.lean#L59-L68)
 - Source range: L59-L68
 - Kind: `inductive`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

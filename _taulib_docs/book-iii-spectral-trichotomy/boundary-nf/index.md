@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "BoundaryNF",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-trichotomy/boundary-nf/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-trichotomy/boundary-nf/",
   "summary_short": "`structure` declaration in `TauLib.BookIII.Spectral.Trichotomy`.",
   "declaration_id": "TauLib.BookIII.Spectral.Trichotomy::BoundaryNF",
   "declaration_slug": "boundary-nf",
   "kind": "structure",
   "name": "BoundaryNF",
   "module_name": "TauLib.BookIII.Spectral.Trichotomy",
-  "module_url": "/verify/taulib/docs/book-iii-spectral-trichotomy/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/",
   "source_line_start": 124,
   "source_line_end": 129,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/Trichotomy.lean#L124-L129",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectral.Trichotomy",
-        "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/"
+        "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectral.Trichotomy](/verify/taulib/docs/book-iii-spectral-trichotomy/)
+- Module: [TauLib.BookIII.Spectral.Trichotomy](/corpus/taulib/docs/book-iii-spectral-trichotomy/)
 - Source path: [`TauLib/BookIII/Spectral/Trichotomy.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/Trichotomy.lean#L124-L129)
 - Source range: L124-L129
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

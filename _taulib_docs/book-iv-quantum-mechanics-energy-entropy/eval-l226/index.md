@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L226",
-  "permalink": "/verify/taulib/docs/book-iv-quantum-mechanics-energy-entropy/eval-l226/",
+  "permalink": "/corpus/taulib/docs/book-iv-quantum-mechanics-energy-entropy/eval-l226/",
   "summary_short": "`eval` declaration in `TauLib.BookIV.QuantumMechanics.EnergyEntropy`.",
   "declaration_id": "TauLib.BookIV.QuantumMechanics.EnergyEntropy::#eval:226",
   "declaration_slug": "eval-l226",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIV.QuantumMechanics.EnergyEntropy",
-  "module_url": "/verify/taulib/docs/book-iv-quantum-mechanics-energy-entropy/",
+  "module_url": "/corpus/taulib/docs/book-iv-quantum-mechanics-energy-entropy/",
   "source_line_start": 226,
   "source_line_end": 226,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/EnergyEntropy.lean#L226-L226",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.QuantumMechanics.EnergyEntropy",
-        "url": "/verify/taulib/docs/book-iv-quantum-mechanics-energy-entropy/"
+        "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-energy-entropy/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.QuantumMechanics.EnergyEntropy](/verify/taulib/docs/book-iv-quantum-mechanics-energy-entropy/)
+- Module: [TauLib.BookIV.QuantumMechanics.EnergyEntropy](/corpus/taulib/docs/book-iv-quantum-mechanics-energy-entropy/)
 - Source path: [`TauLib/BookIV/QuantumMechanics/EnergyEntropy.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/EnergyEntropy.lean#L226-L226)
 - Source range: L226-L226
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "no_fine_tuning_holds",
-  "permalink": "/verify/taulib/docs/book-v-fluid-macro-phase-transitions/no-fine-tuning-holds/",
+  "permalink": "/corpus/taulib/docs/book-v-fluid-macro-phase-transitions/no-fine-tuning-holds/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.FluidMacro.PhaseTransitions`.",
   "declaration_id": "TauLib.BookV.FluidMacro.PhaseTransitions::no_fine_tuning_holds",
   "declaration_slug": "no-fine-tuning-holds",
   "kind": "theorem",
   "name": "no_fine_tuning_holds",
   "module_name": "TauLib.BookV.FluidMacro.PhaseTransitions",
-  "module_url": "/verify/taulib/docs/book-v-fluid-macro-phase-transitions/",
+  "module_url": "/corpus/taulib/docs/book-v-fluid-macro-phase-transitions/",
   "source_line_start": 289,
   "source_line_end": 289,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/PhaseTransitions.lean#L289-L289",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.FluidMacro.PhaseTransitions",
-        "url": "/verify/taulib/docs/book-v-fluid-macro-phase-transitions/"
+        "url": "/corpus/taulib/docs/book-v-fluid-macro-phase-transitions/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.FluidMacro.PhaseTransitions](/verify/taulib/docs/book-v-fluid-macro-phase-transitions/)
+- Module: [TauLib.BookV.FluidMacro.PhaseTransitions](/corpus/taulib/docs/book-v-fluid-macro-phase-transitions/)
 - Source path: [`TauLib/BookV/FluidMacro/PhaseTransitions.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/PhaseTransitions.lean#L289-L289)
 - Source range: L289-L289
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

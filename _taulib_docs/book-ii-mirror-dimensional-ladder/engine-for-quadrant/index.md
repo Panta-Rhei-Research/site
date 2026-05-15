@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "engine_for_quadrant",
-  "permalink": "/verify/taulib/docs/book-ii-mirror-dimensional-ladder/engine-for-quadrant/",
+  "permalink": "/corpus/taulib/docs/book-ii-mirror-dimensional-ladder/engine-for-quadrant/",
   "summary_short": "`def` declaration in `TauLib.BookII.Mirror.DimensionalLadder`.",
   "declaration_id": "TauLib.BookII.Mirror.DimensionalLadder::engine_for_quadrant",
   "declaration_slug": "engine-for-quadrant",
   "kind": "def",
   "name": "engine_for_quadrant",
   "module_name": "TauLib.BookII.Mirror.DimensionalLadder",
-  "module_url": "/verify/taulib/docs/book-ii-mirror-dimensional-ladder/",
+  "module_url": "/corpus/taulib/docs/book-ii-mirror-dimensional-ladder/",
   "source_line_start": 296,
   "source_line_end": 302,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Mirror/DimensionalLadder.lean#L296-L302",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Mirror.DimensionalLadder",
-        "url": "/verify/taulib/docs/book-ii-mirror-dimensional-ladder/"
+        "url": "/corpus/taulib/docs/book-ii-mirror-dimensional-ladder/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Mirror.DimensionalLadder](/verify/taulib/docs/book-ii-mirror-dimensional-ladder/)
+- Module: [TauLib.BookII.Mirror.DimensionalLadder](/corpus/taulib/docs/book-ii-mirror-dimensional-ladder/)
 - Source path: [`TauLib/BookII/Mirror/DimensionalLadder.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Mirror/DimensionalLadder.lean#L296-L302)
 - Source range: L296-L302
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

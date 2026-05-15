@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "precision_budget",
-  "permalink": "/verify/taulib/docs/book-v-coda-galpha-bridge/precision-budget-l208/",
+  "permalink": "/corpus/taulib/docs/book-v-coda-galpha-bridge/precision-budget-l208/",
   "summary_short": "`def` declaration in `TauLib.BookV.Coda.GAlphaBridge`.",
   "declaration_id": "TauLib.BookV.Coda.GAlphaBridge::precision_budget",
   "declaration_slug": "precision-budget-l208",
   "kind": "def",
   "name": "precision_budget",
   "module_name": "TauLib.BookV.Coda.GAlphaBridge",
-  "module_url": "/verify/taulib/docs/book-v-coda-galpha-bridge/",
+  "module_url": "/corpus/taulib/docs/book-v-coda-galpha-bridge/",
   "source_line_start": 208,
   "source_line_end": 210,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Coda/GAlphaBridge.lean#L208-L210",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Coda.GAlphaBridge",
-        "url": "/verify/taulib/docs/book-v-coda-galpha-bridge/"
+        "url": "/corpus/taulib/docs/book-v-coda-galpha-bridge/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Coda.GAlphaBridge](/verify/taulib/docs/book-v-coda-galpha-bridge/)
+- Module: [TauLib.BookV.Coda.GAlphaBridge](/corpus/taulib/docs/book-v-coda-galpha-bridge/)
 - Source path: [`TauLib/BookV/Coda/GAlphaBridge.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Coda/GAlphaBridge.lean#L208-L210)
 - Source range: L208-L210
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Holomorphy.H6DiagonalDiscipline",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Holomorphy.H6DiagonalDiscipline`.",
   "module_name": "TauLib.BookI.Holomorphy.H6DiagonalDiscipline",
   "module_slug": "book-i-holomorphy-h6-diagonal-discipline",
@@ -35,91 +35,111 @@
     {
       "kind": "theorem",
       "name": "dd_orthogonal_idempotent_pair_witness",
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/dd-orthogonal-idempotent-pair-witness/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/dd-orthogonal-idempotent-pair-witness/",
       "source_line_start": 122,
       "source_line_end": 124,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "three_inversions_I1_to_I2_witness",
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/three-inversions-i1-to-i2-witness/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/three-inversions-i1-to-i2-witness/",
       "source_line_start": 143,
       "source_line_end": 149,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "three_inversions_I2_to_I1_witness",
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/three-inversions-i2-to-i1-witness/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/three-inversions-i2-to-i1-witness/",
       "source_line_start": 161,
       "source_line_end": 164,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "three_inversions_witness",
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/three-inversions-witness/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/three-inversions-witness/",
       "source_line_start": 178,
       "source_line_end": 186,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "h6_section6_synthesis",
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/h6-section6-synthesis/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/h6-section6-synthesis/",
       "source_line_start": 220,
       "source_line_end": 233,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/example-l240/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/example-l240/",
       "source_line_start": 240,
       "source_line_end": 241,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/example-l244/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/example-l244/",
       "source_line_start": 244,
       "source_line_end": 245,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/eval-l248/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/eval-l248/",
       "source_line_start": 248,
       "source_line_end": 248,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/eval-l249/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/eval-l249/",
       "source_line_start": 249,
       "source_line_end": 249,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/eval-l250/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/eval-l250/",
       "source_line_start": 250,
       "source_line_end": 252,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -131,7 +151,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -201,15 +221,15 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `theorem` | [dd_orthogonal_idempotent_pair_witness](/verify/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/dd-orthogonal-idempotent-pair-witness/) | L122-L124 | formalized | — |
-| `theorem` | [three_inversions_I1_to_I2_witness](/verify/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/three-inversions-i1-to-i2-witness/) | L143-L149 | formalized | — |
-| `theorem` | [three_inversions_I2_to_I1_witness](/verify/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/three-inversions-i2-to-i1-witness/) | L161-L164 | formalized | — |
-| `theorem` | [three_inversions_witness](/verify/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/three-inversions-witness/) | L178-L186 | formalized | — |
-| `theorem` | [h6_section6_synthesis](/verify/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/h6-section6-synthesis/) | L220-L233 | formalized | — |
-| `example` | [#eval L240](/verify/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/example-l240/) | L240-L241 | example | — |
-| `example` | [#eval L244](/verify/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/example-l244/) | L244-L245 | example | — |
-| `eval` | [#eval L248](/verify/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/eval-l248/) | L248-L248 | computed | — |
-| `eval` | [#eval L249](/verify/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/eval-l249/) | L249-L249 | computed | — |
-| `eval` | [#eval L250](/verify/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/eval-l250/) | L250-L252 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `theorem` | [dd_orthogonal_idempotent_pair_witness](/corpus/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/dd-orthogonal-idempotent-pair-witness/) | L122-L124 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [three_inversions_I1_to_I2_witness](/corpus/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/three-inversions-i1-to-i2-witness/) | L143-L149 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [three_inversions_I2_to_I1_witness](/corpus/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/three-inversions-i2-to-i1-witness/) | L161-L164 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [three_inversions_witness](/corpus/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/three-inversions-witness/) | L178-L186 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [h6_section6_synthesis](/corpus/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/h6-section6-synthesis/) | L220-L233 | proof obligation | formal proof obligation checked | — |
+| `example` | [#eval L240](/corpus/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/example-l240/) | L240-L241 | example check | example | — |
+| `example` | [#eval L244](/corpus/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/example-l244/) | L244-L245 | example check | example | — |
+| `eval` | [#eval L248](/corpus/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/eval-l248/) | L248-L248 | computed check | computed check | — |
+| `eval` | [#eval L249](/corpus/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/eval-l249/) | L249-L249 | computed check | computed check | — |
+| `eval` | [#eval L250](/corpus/taulib/docs/book-i-holomorphy-h6-diagonal-discipline/eval-l250/) | L250-L252 | computed check | computed check | — |

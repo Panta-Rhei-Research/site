@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "WeakRedistribution",
-  "permalink": "/verify/taulib/docs/book-v-thermodynamics-inversion/weak-redistribution/",
+  "permalink": "/corpus/taulib/docs/book-v-thermodynamics-inversion/weak-redistribution/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Thermodynamics.Inversion`.",
   "declaration_id": "TauLib.BookV.Thermodynamics.Inversion::WeakRedistribution",
   "declaration_slug": "weak-redistribution",
   "kind": "structure",
   "name": "WeakRedistribution",
   "module_name": "TauLib.BookV.Thermodynamics.Inversion",
-  "module_url": "/verify/taulib/docs/book-v-thermodynamics-inversion/",
+  "module_url": "/corpus/taulib/docs/book-v-thermodynamics-inversion/",
   "source_line_start": 161,
   "source_line_end": 168,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/Inversion.lean#L161-L168",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Thermodynamics.Inversion",
-        "url": "/verify/taulib/docs/book-v-thermodynamics-inversion/"
+        "url": "/corpus/taulib/docs/book-v-thermodynamics-inversion/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Thermodynamics.Inversion](/verify/taulib/docs/book-v-thermodynamics-inversion/)
+- Module: [TauLib.BookV.Thermodynamics.Inversion](/corpus/taulib/docs/book-v-thermodynamics-inversion/)
 - Source path: [`TauLib/BookV/Thermodynamics/Inversion.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/Inversion.lean#L161-L168)
 - Source range: L161-L168
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

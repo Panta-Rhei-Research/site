@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "singlet_classification",
-  "permalink": "/verify/taulib/docs/book-iv-strong-confinement/singlet-classification-l173/",
+  "permalink": "/corpus/taulib/docs/book-iv-strong-confinement/singlet-classification-l173/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Strong.Confinement`.",
   "declaration_id": "TauLib.BookIV.Strong.Confinement::singlet_classification",
   "declaration_slug": "singlet-classification-l173",
   "kind": "def",
   "name": "singlet_classification",
   "module_name": "TauLib.BookIV.Strong.Confinement",
-  "module_url": "/verify/taulib/docs/book-iv-strong-confinement/",
+  "module_url": "/corpus/taulib/docs/book-iv-strong-confinement/",
   "source_line_start": 173,
   "source_line_end": 173,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/Confinement.lean#L173-L173",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Strong.Confinement",
-        "url": "/verify/taulib/docs/book-iv-strong-confinement/"
+        "url": "/corpus/taulib/docs/book-iv-strong-confinement/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Strong.Confinement](/verify/taulib/docs/book-iv-strong-confinement/)
+- Module: [TauLib.BookIV.Strong.Confinement](/corpus/taulib/docs/book-iv-strong-confinement/)
 - Source path: [`TauLib/BookIV/Strong/Confinement.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/Confinement.lean#L173-L173)
 - Source range: L173-L173
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

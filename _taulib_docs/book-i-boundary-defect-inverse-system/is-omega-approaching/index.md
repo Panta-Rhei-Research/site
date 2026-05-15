@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "DefectInverseSystem.IsOmegaApproaching",
-  "permalink": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/is-omega-approaching/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/is-omega-approaching/",
   "summary_short": "`def` declaration in `TauLib.BookI.Boundary.DefectInverseSystem`.",
   "declaration_id": "TauLib.BookI.Boundary.DefectInverseSystem::DefectInverseSystem.IsOmegaApproaching",
   "declaration_slug": "is-omega-approaching",
   "kind": "def",
   "name": "DefectInverseSystem.IsOmegaApproaching",
   "module_name": "TauLib.BookI.Boundary.DefectInverseSystem",
-  "module_url": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/",
   "source_line_start": 246,
   "source_line_end": 250,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/DefectInverseSystem.lean#L246-L250",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.DefectInverseSystem",
-        "url": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/"
+        "url": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.DefectInverseSystem](/verify/taulib/docs/book-i-boundary-defect-inverse-system/)
+- Module: [TauLib.BookI.Boundary.DefectInverseSystem](/corpus/taulib/docs/book-i-boundary-defect-inverse-system/)
 - Source path: [`TauLib/BookI/Boundary/DefectInverseSystem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/DefectInverseSystem.lean#L246-L250)
 - Source range: L246-L250
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

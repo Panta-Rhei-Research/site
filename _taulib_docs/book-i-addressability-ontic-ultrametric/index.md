@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Addressability.OnticUltrametric",
-  "permalink": "/verify/taulib/docs/book-i-addressability-ontic-ultrametric/",
+  "permalink": "/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Addressability.OnticUltrametric`.",
   "module_name": "TauLib.BookI.Addressability.OnticUltrametric",
   "module_slug": "book-i-addressability-ontic-ultrametric",
@@ -31,127 +31,155 @@
     {
       "kind": "def",
       "name": "seedAgree",
-      "url": "/verify/taulib/docs/book-i-addressability-ontic-ultrametric/seed-agree/",
+      "url": "/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/seed-agree/",
       "source_line_start": 55,
       "source_line_end": 63,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "seedAgree_refl",
-      "url": "/verify/taulib/docs/book-i-addressability-ontic-ultrametric/seed-agree-refl/",
+      "url": "/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/seed-agree-refl/",
       "source_line_start": 65,
       "source_line_end": 66,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "seedAgree_symm",
-      "url": "/verify/taulib/docs/book-i-addressability-ontic-ultrametric/seed-agree-symm/",
+      "url": "/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/seed-agree-symm/",
       "source_line_start": 68,
       "source_line_end": 71,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "seedAgree_trans",
-      "url": "/verify/taulib/docs/book-i-addressability-ontic-ultrametric/seed-agree-trans/",
+      "url": "/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/seed-agree-trans/",
       "source_line_start": 73,
       "source_line_end": 77,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "nfEquiv",
-      "url": "/verify/taulib/docs/book-i-addressability-ontic-ultrametric/nf-equiv/",
+      "url": "/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/nf-equiv/",
       "source_line_start": 86,
       "source_line_end": 90,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "nfEquiv_refl",
-      "url": "/verify/taulib/docs/book-i-addressability-ontic-ultrametric/nf-equiv-refl/",
+      "url": "/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/nf-equiv-refl/",
       "source_line_start": 92,
       "source_line_end": 93,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "nfEquiv_symm",
-      "url": "/verify/taulib/docs/book-i-addressability-ontic-ultrametric/nf-equiv-symm/",
+      "url": "/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/nf-equiv-symm/",
       "source_line_start": 95,
       "source_line_end": 97,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "nfEquiv_trans",
-      "url": "/verify/taulib/docs/book-i-addressability-ontic-ultrametric/nf-equiv-trans/",
+      "url": "/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/nf-equiv-trans/",
       "source_line_start": 99,
       "source_line_end": 101,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "OnticDist",
-      "url": "/verify/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist/",
+      "url": "/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist/",
       "source_line_start": 109,
       "source_line_end": 113,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "OnticDist_symm",
-      "url": "/verify/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist-symm/",
+      "url": "/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist-symm/",
       "source_line_start": 115,
       "source_line_end": 120,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "OnticDist_eq_zero_iff",
-      "url": "/verify/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist-eq-zero-iff/",
+      "url": "/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist-eq-zero-iff/",
       "source_line_start": 124,
       "source_line_end": 132,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "OnticDist_ultrametric",
-      "url": "/verify/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist-ultrametric/",
+      "url": "/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist-ultrametric/",
       "source_line_start": 141,
       "source_line_end": 152,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "OnticDist_distinct",
-      "url": "/verify/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist-distinct/",
+      "url": "/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist-distinct/",
       "source_line_start": 161,
       "source_line_end": 163,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "OnticDist_equiv",
-      "url": "/verify/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist-equiv/",
+      "url": "/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist-equiv/",
       "source_line_start": 167,
       "source_line_end": 171,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -163,7 +191,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -232,19 +260,19 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [seedAgree](/verify/taulib/docs/book-i-addressability-ontic-ultrametric/seed-agree/) | L55-L63 | defined | — |
-| `theorem` | [seedAgree_refl](/verify/taulib/docs/book-i-addressability-ontic-ultrametric/seed-agree-refl/) | L65-L66 | formalized | — |
-| `theorem` | [seedAgree_symm](/verify/taulib/docs/book-i-addressability-ontic-ultrametric/seed-agree-symm/) | L68-L71 | formalized | — |
-| `theorem` | [seedAgree_trans](/verify/taulib/docs/book-i-addressability-ontic-ultrametric/seed-agree-trans/) | L73-L77 | formalized | — |
-| `def` | [nfEquiv](/verify/taulib/docs/book-i-addressability-ontic-ultrametric/nf-equiv/) | L86-L90 | defined | — |
-| `theorem` | [nfEquiv_refl](/verify/taulib/docs/book-i-addressability-ontic-ultrametric/nf-equiv-refl/) | L92-L93 | formalized | — |
-| `theorem` | [nfEquiv_symm](/verify/taulib/docs/book-i-addressability-ontic-ultrametric/nf-equiv-symm/) | L95-L97 | formalized | — |
-| `theorem` | [nfEquiv_trans](/verify/taulib/docs/book-i-addressability-ontic-ultrametric/nf-equiv-trans/) | L99-L101 | formalized | — |
-| `def` | [OnticDist](/verify/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist/) | L109-L113 | defined | — |
-| `theorem` | [OnticDist_symm](/verify/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist-symm/) | L115-L120 | formalized | — |
-| `theorem` | [OnticDist_eq_zero_iff](/verify/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist-eq-zero-iff/) | L124-L132 | formalized | — |
-| `theorem` | [OnticDist_ultrametric](/verify/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist-ultrametric/) | L141-L152 | formalized | — |
-| `theorem` | [OnticDist_distinct](/verify/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist-distinct/) | L161-L163 | formalized | — |
-| `theorem` | [OnticDist_equiv](/verify/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist-equiv/) | L167-L171 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [seedAgree](/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/seed-agree/) | L55-L63 | definition | definition | — |
+| `theorem` | [seedAgree_refl](/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/seed-agree-refl/) | L65-L66 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [seedAgree_symm](/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/seed-agree-symm/) | L68-L71 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [seedAgree_trans](/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/seed-agree-trans/) | L73-L77 | proof obligation | formal proof obligation checked | — |
+| `def` | [nfEquiv](/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/nf-equiv/) | L86-L90 | definition | definition | — |
+| `theorem` | [nfEquiv_refl](/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/nf-equiv-refl/) | L92-L93 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [nfEquiv_symm](/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/nf-equiv-symm/) | L95-L97 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [nfEquiv_trans](/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/nf-equiv-trans/) | L99-L101 | proof obligation | formal proof obligation checked | — |
+| `def` | [OnticDist](/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist/) | L109-L113 | data/computed value | data/computed value | — |
+| `theorem` | [OnticDist_symm](/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist-symm/) | L115-L120 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [OnticDist_eq_zero_iff](/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist-eq-zero-iff/) | L124-L132 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [OnticDist_ultrametric](/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist-ultrametric/) | L141-L152 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [OnticDist_distinct](/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist-distinct/) | L161-L163 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [OnticDist_equiv](/corpus/taulib/docs/book-i-addressability-ontic-ultrametric/ontic-dist-equiv/) | L167-L171 | proof obligation | formal proof obligation checked | — |

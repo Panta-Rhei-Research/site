@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.Physics.MassEnergy",
-  "permalink": "/verify/taulib/docs/book-iv-physics-mass-energy/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-mass-energy/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.Physics.MassEnergy`.",
   "module_name": "TauLib.BookIV.Physics.MassEnergy",
   "module_slug": "book-iv-physics-mass-energy",
@@ -39,10 +39,12 @@
     {
       "kind": "structure",
       "name": "MassIndex",
-      "url": "/verify/taulib/docs/book-iv-physics-mass-energy/mass-index/",
+      "url": "/corpus/taulib/docs/book-iv-physics-mass-energy/mass-index/",
       "source_line_start": 75,
       "source_line_end": 86,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D20"
       ]
@@ -50,19 +52,23 @@
     {
       "kind": "def",
       "name": "MassIndex.toFloat",
-      "url": "/verify/taulib/docs/book-iv-physics-mass-energy/to-float/",
+      "url": "/corpus/taulib/docs/book-iv-physics-mass-energy/to-float/",
       "source_line_start": 89,
       "source_line_end": 90,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "EnergyIndex",
-      "url": "/verify/taulib/docs/book-iv-physics-mass-energy/energy-index/",
+      "url": "/corpus/taulib/docs/book-iv-physics-mass-energy/energy-index/",
       "source_line_start": 101,
       "source_line_end": 110,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D21"
       ]
@@ -70,19 +76,23 @@
     {
       "kind": "def",
       "name": "EnergyIndex.toFloat",
-      "url": "/verify/taulib/docs/book-iv-physics-mass-energy/to-float-l113/",
+      "url": "/corpus/taulib/docs/book-iv-physics-mass-energy/to-float-l113/",
       "source_line_start": 113,
       "source_line_end": 114,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "SpeedConstant",
-      "url": "/verify/taulib/docs/book-iv-physics-mass-energy/speed-constant/",
+      "url": "/corpus/taulib/docs/book-iv-physics-mass-energy/speed-constant/",
       "source_line_start": 126,
       "source_line_end": 133,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D22"
       ]
@@ -90,19 +100,23 @@
     {
       "kind": "def",
       "name": "SpeedConstant.toFloat",
-      "url": "/verify/taulib/docs/book-iv-physics-mass-energy/to-float-l136/",
+      "url": "/corpus/taulib/docs/book-iv-physics-mass-energy/to-float-l136/",
       "source_line_start": 136,
       "source_line_end": 137,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "MassEnergyRelation",
-      "url": "/verify/taulib/docs/book-iv-physics-mass-energy/mass-energy-relation/",
+      "url": "/corpus/taulib/docs/book-iv-physics-mass-energy/mass-energy-relation/",
       "source_line_start": 151,
       "source_line_end": 162,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D23"
       ]
@@ -110,28 +124,34 @@
     {
       "kind": "structure",
       "name": "OnticParticle",
-      "url": "/verify/taulib/docs/book-iv-physics-mass-energy/ontic-particle/",
+      "url": "/corpus/taulib/docs/book-iv-physics-mass-energy/ontic-particle/",
       "source_line_start": 169,
       "source_line_end": 176,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "RadiationCarrier",
-      "url": "/verify/taulib/docs/book-iv-physics-mass-energy/radiation-carrier/",
+      "url": "/corpus/taulib/docs/book-iv-physics-mass-energy/radiation-carrier/",
       "source_line_start": 179,
       "source_line_end": 184,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "NeutronRole",
-      "url": "/verify/taulib/docs/book-iv-physics-mass-energy/neutron-role/",
+      "url": "/corpus/taulib/docs/book-iv-physics-mass-energy/neutron-role/",
       "source_line_start": 201,
       "source_line_end": 208,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.R04"
       ]
@@ -139,46 +159,56 @@
     {
       "kind": "theorem",
       "name": "ontic_has_fiber",
-      "url": "/verify/taulib/docs/book-iv-physics-mass-energy/ontic-has-fiber/",
+      "url": "/corpus/taulib/docs/book-iv-physics-mass-energy/ontic-has-fiber/",
       "source_line_start": 215,
       "source_line_end": 216,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ontic_is_persistent",
-      "url": "/verify/taulib/docs/book-iv-physics-mass-energy/ontic-is-persistent/",
+      "url": "/corpus/taulib/docs/book-iv-physics-mass-energy/ontic-is-persistent/",
       "source_line_start": 219,
       "source_line_end": 220,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "mass_energy_positive",
-      "url": "/verify/taulib/docs/book-iv-physics-mass-energy/mass-energy-positive/",
+      "url": "/corpus/taulib/docs/book-iv-physics-mass-energy/mass-energy-positive/",
       "source_line_start": 224,
       "source_line_end": 228,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-physics-mass-energy/eval-l235/",
+      "url": "/corpus/taulib/docs/book-iv-physics-mass-energy/eval-l235/",
       "source_line_start": 235,
       "source_line_end": 235,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-physics-mass-energy/eval-l238/",
+      "url": "/corpus/taulib/docs/book-iv-physics-mass-energy/eval-l238/",
       "source_line_start": 238,
       "source_line_end": 240,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -190,7 +220,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -267,20 +297,20 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [MassIndex](/verify/taulib/docs/book-iv-physics-mass-energy/mass-index/) | L75-L86 | defined | `IV.D20` |
-| `def` | [MassIndex.toFloat](/verify/taulib/docs/book-iv-physics-mass-energy/to-float/) | L89-L90 | defined | — |
-| `structure` | [EnergyIndex](/verify/taulib/docs/book-iv-physics-mass-energy/energy-index/) | L101-L110 | defined | `IV.D21` |
-| `def` | [EnergyIndex.toFloat](/verify/taulib/docs/book-iv-physics-mass-energy/to-float-l113/) | L113-L114 | defined | — |
-| `structure` | [SpeedConstant](/verify/taulib/docs/book-iv-physics-mass-energy/speed-constant/) | L126-L133 | defined | `IV.D22` |
-| `def` | [SpeedConstant.toFloat](/verify/taulib/docs/book-iv-physics-mass-energy/to-float-l136/) | L136-L137 | defined | — |
-| `structure` | [MassEnergyRelation](/verify/taulib/docs/book-iv-physics-mass-energy/mass-energy-relation/) | L151-L162 | defined | `IV.D23` |
-| `structure` | [OnticParticle](/verify/taulib/docs/book-iv-physics-mass-energy/ontic-particle/) | L169-L176 | defined | — |
-| `structure` | [RadiationCarrier](/verify/taulib/docs/book-iv-physics-mass-energy/radiation-carrier/) | L179-L184 | defined | — |
-| `structure` | [NeutronRole](/verify/taulib/docs/book-iv-physics-mass-energy/neutron-role/) | L201-L208 | defined | `IV.R04` |
-| `theorem` | [ontic_has_fiber](/verify/taulib/docs/book-iv-physics-mass-energy/ontic-has-fiber/) | L215-L216 | formalized | — |
-| `theorem` | [ontic_is_persistent](/verify/taulib/docs/book-iv-physics-mass-energy/ontic-is-persistent/) | L219-L220 | formalized | — |
-| `theorem` | [mass_energy_positive](/verify/taulib/docs/book-iv-physics-mass-energy/mass-energy-positive/) | L224-L228 | formalized | — |
-| `eval` | [#eval L235](/verify/taulib/docs/book-iv-physics-mass-energy/eval-l235/) | L235-L235 | computed | — |
-| `eval` | [#eval L238](/verify/taulib/docs/book-iv-physics-mass-energy/eval-l238/) | L238-L240 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [MassIndex](/corpus/taulib/docs/book-iv-physics-mass-energy/mass-index/) | L75-L86 | type/data schema | type/data schema | `IV.D20` |
+| `def` | [MassIndex.toFloat](/corpus/taulib/docs/book-iv-physics-mass-energy/to-float/) | L89-L90 | data/computed value | data/computed value | — |
+| `structure` | [EnergyIndex](/corpus/taulib/docs/book-iv-physics-mass-energy/energy-index/) | L101-L110 | type/data schema | type/data schema | `IV.D21` |
+| `def` | [EnergyIndex.toFloat](/corpus/taulib/docs/book-iv-physics-mass-energy/to-float-l113/) | L113-L114 | data/computed value | data/computed value | — |
+| `structure` | [SpeedConstant](/corpus/taulib/docs/book-iv-physics-mass-energy/speed-constant/) | L126-L133 | type/data schema | type/data schema | `IV.D22` |
+| `def` | [SpeedConstant.toFloat](/corpus/taulib/docs/book-iv-physics-mass-energy/to-float-l136/) | L136-L137 | data/computed value | data/computed value | — |
+| `structure` | [MassEnergyRelation](/corpus/taulib/docs/book-iv-physics-mass-energy/mass-energy-relation/) | L151-L162 | type/data schema | type/data schema | `IV.D23` |
+| `structure` | [OnticParticle](/corpus/taulib/docs/book-iv-physics-mass-energy/ontic-particle/) | L169-L176 | type/data schema | type/data schema | — |
+| `structure` | [RadiationCarrier](/corpus/taulib/docs/book-iv-physics-mass-energy/radiation-carrier/) | L179-L184 | type/data schema | type/data schema | — |
+| `structure` | [NeutronRole](/corpus/taulib/docs/book-iv-physics-mass-energy/neutron-role/) | L201-L208 | type/data schema | type/data schema | `IV.R04` |
+| `theorem` | [ontic_has_fiber](/corpus/taulib/docs/book-iv-physics-mass-energy/ontic-has-fiber/) | L215-L216 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [ontic_is_persistent](/corpus/taulib/docs/book-iv-physics-mass-energy/ontic-is-persistent/) | L219-L220 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [mass_energy_positive](/corpus/taulib/docs/book-iv-physics-mass-energy/mass-energy-positive/) | L224-L228 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L235](/corpus/taulib/docs/book-iv-physics-mass-energy/eval-l235/) | L235-L235 | computed check | computed check | — |
+| `eval` | [#eval L238](/corpus/taulib/docs/book-iv-physics-mass-energy/eval-l238/) | L238-L240 | computed check | computed check | — |

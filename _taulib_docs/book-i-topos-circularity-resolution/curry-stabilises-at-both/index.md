@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "curry_stabilises_at_Both",
-  "permalink": "/verify/taulib/docs/book-i-topos-circularity-resolution/curry-stabilises-at-both/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-circularity-resolution/curry-stabilises-at-both/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Topos.CircularityResolution`.",
   "declaration_id": "TauLib.BookI.Topos.CircularityResolution::curry_stabilises_at_Both",
   "declaration_slug": "curry-stabilises-at-both",
   "kind": "theorem",
   "name": "curry_stabilises_at_Both",
   "module_name": "TauLib.BookI.Topos.CircularityResolution",
-  "module_url": "/verify/taulib/docs/book-i-topos-circularity-resolution/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-circularity-resolution/",
   "source_line_start": 316,
   "source_line_end": 318,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/CircularityResolution.lean#L316-L318",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.CircularityResolution",
-        "url": "/verify/taulib/docs/book-i-topos-circularity-resolution/"
+        "url": "/corpus/taulib/docs/book-i-topos-circularity-resolution/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.CircularityResolution](/verify/taulib/docs/book-i-topos-circularity-resolution/)
+- Module: [TauLib.BookI.Topos.CircularityResolution](/corpus/taulib/docs/book-i-topos-circularity-resolution/)
 - Source path: [`TauLib/BookI/Topos/CircularityResolution.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/CircularityResolution.lean#L316-L318)
 - Source range: L316-L318
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

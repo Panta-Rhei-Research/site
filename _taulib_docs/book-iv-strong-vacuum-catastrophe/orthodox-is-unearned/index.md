@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "orthodox_is_unearned",
-  "permalink": "/verify/taulib/docs/book-iv-strong-vacuum-catastrophe/orthodox-is-unearned/",
+  "permalink": "/corpus/taulib/docs/book-iv-strong-vacuum-catastrophe/orthodox-is-unearned/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Strong.VacuumCatastrophe`.",
   "declaration_id": "TauLib.BookIV.Strong.VacuumCatastrophe::orthodox_is_unearned",
   "declaration_slug": "orthodox-is-unearned",
   "kind": "theorem",
   "name": "orthodox_is_unearned",
   "module_name": "TauLib.BookIV.Strong.VacuumCatastrophe",
-  "module_url": "/verify/taulib/docs/book-iv-strong-vacuum-catastrophe/",
+  "module_url": "/corpus/taulib/docs/book-iv-strong-vacuum-catastrophe/",
   "source_line_start": 163,
   "source_line_end": 163,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/VacuumCatastrophe.lean#L163-L163",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Strong.VacuumCatastrophe",
-        "url": "/verify/taulib/docs/book-iv-strong-vacuum-catastrophe/"
+        "url": "/corpus/taulib/docs/book-iv-strong-vacuum-catastrophe/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Strong.VacuumCatastrophe](/verify/taulib/docs/book-iv-strong-vacuum-catastrophe/)
+- Module: [TauLib.BookIV.Strong.VacuumCatastrophe](/corpus/taulib/docs/book-iv-strong-vacuum-catastrophe/)
 - Source path: [`TauLib/BookIV/Strong/VacuumCatastrophe.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/VacuumCatastrophe.lean#L163-L163)
 - Source range: L163-L163
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

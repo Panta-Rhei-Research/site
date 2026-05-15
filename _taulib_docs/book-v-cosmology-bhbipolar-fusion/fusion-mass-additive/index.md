@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "fusion_mass_additive",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-bhbipolar-fusion/fusion-mass-additive/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-bhbipolar-fusion/fusion-mass-additive/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Cosmology.BHBipolarFusion`.",
   "declaration_id": "TauLib.BookV.Cosmology.BHBipolarFusion::fusion_mass_additive",
   "declaration_slug": "fusion-mass-additive",
   "kind": "theorem",
   "name": "fusion_mass_additive",
   "module_name": "TauLib.BookV.Cosmology.BHBipolarFusion",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-bhbipolar-fusion/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-bhbipolar-fusion/",
   "source_line_start": 220,
   "source_line_end": 221,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BHBipolarFusion.lean#L220-L221",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.BHBipolarFusion",
-        "url": "/verify/taulib/docs/book-v-cosmology-bhbipolar-fusion/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-bhbipolar-fusion/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.BHBipolarFusion](/verify/taulib/docs/book-v-cosmology-bhbipolar-fusion/)
+- Module: [TauLib.BookV.Cosmology.BHBipolarFusion](/corpus/taulib/docs/book-v-cosmology-bhbipolar-fusion/)
 - Source path: [`TauLib/BookV/Cosmology/BHBipolarFusion.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BHBipolarFusion.lean#L220-L221)
 - Source range: L220-L221
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

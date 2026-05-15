@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "YukawaReadout",
-  "permalink": "/verify/taulib/docs/book-iv-particles-sector-atlas/yukawa-readout/",
+  "permalink": "/corpus/taulib/docs/book-iv-particles-sector-atlas/yukawa-readout/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Particles.SectorAtlas`.",
   "declaration_id": "TauLib.BookIV.Particles.SectorAtlas::YukawaReadout",
   "declaration_slug": "yukawa-readout",
   "kind": "structure",
   "name": "YukawaReadout",
   "module_name": "TauLib.BookIV.Particles.SectorAtlas",
-  "module_url": "/verify/taulib/docs/book-iv-particles-sector-atlas/",
+  "module_url": "/corpus/taulib/docs/book-iv-particles-sector-atlas/",
   "source_line_start": 216,
   "source_line_end": 225,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/SectorAtlas.lean#L216-L225",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Particles.SectorAtlas",
-        "url": "/verify/taulib/docs/book-iv-particles-sector-atlas/"
+        "url": "/corpus/taulib/docs/book-iv-particles-sector-atlas/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Particles.SectorAtlas](/verify/taulib/docs/book-iv-particles-sector-atlas/)
+- Module: [TauLib.BookIV.Particles.SectorAtlas](/corpus/taulib/docs/book-iv-particles-sector-atlas/)
 - Source path: [`TauLib/BookIV/Particles/SectorAtlas.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/SectorAtlas.lean#L216-L225)
 - Source range: L216-L225
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

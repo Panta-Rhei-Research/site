@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "book3_prerequisites_check",
-  "permalink": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/book3-prerequisites-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/book3-prerequisites-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.Closure.DiffGeoAgenda`.",
   "declaration_id": "TauLib.BookII.Closure.DiffGeoAgenda::book3_prerequisites_check",
   "declaration_slug": "book3-prerequisites-check",
   "kind": "def",
   "name": "book3_prerequisites_check",
   "module_name": "TauLib.BookII.Closure.DiffGeoAgenda",
-  "module_url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/",
+  "module_url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/",
   "source_line_start": 99,
   "source_line_end": 104,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/DiffGeoAgenda.lean#L99-L104",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Closure.DiffGeoAgenda",
-        "url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/"
+        "url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Closure.DiffGeoAgenda](/verify/taulib/docs/book-ii-closure-diff-geo-agenda/)
+- Module: [TauLib.BookII.Closure.DiffGeoAgenda](/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/)
 - Source path: [`TauLib/BookII/Closure/DiffGeoAgenda.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/DiffGeoAgenda.lean#L99-L104)
 - Source range: L99-L104
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

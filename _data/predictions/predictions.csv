@@ -54,8 +54,8 @@ pred-052,20-galaxy-btfr,Baryonic Tully-Fisher Relation (20 Galaxies),astrophysic
 pred-053,bh-topology,Black Hole Horizon Topology,astrophysics,structural,tau-effective,/predictions/bh-topology/
 pred-054,qnm-ratio,Quasinormal Mode Frequency Ratio,astrophysics,structural,tau-effective,/predictions/qnm-ratio/
 pred-055,eht-shadow,EHT Shadow Correction,astrophysics,structural,tau-effective,/predictions/eht-shadow/
-pred-056,gw-echo-time,Gravitational Wave Echo Time,astrophysics,structural,tau-effective,/predictions/gw-echo-time/
-pred-057,echo-ratio,GW Echo Time Ratio,astrophysics,structural,tau-effective,/predictions/echo-ratio/
+pred-056,gw-echo-time,Gravitational-Wave Cycle-Delay Time,astrophysics,structural,tau-effective,/predictions/gw-echo-time/
+pred-057,echo-ratio,GW Cycle-Delay Ratio,astrophysics,structural,tau-effective,/predictions/echo-ratio/
 pred-058,magnetic-winding,Magnetic Winding Number,astrophysics,structural,tau-effective,/predictions/magnetic-winding/
 pred-059,bz-b-jet,Jet Magnetic Field Ratio B_z/B_φ,astrophysics,structural,conjectural,/predictions/bz-b-jet/
 pred-060,no-singularities,No Singularities (Bounded Characters),astrophysics,structural,tau-effective,/predictions/no-singularities/

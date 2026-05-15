@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "local_langlands_10_3",
-  "permalink": "/verify/taulib/docs/book-iii-arithmetic-langlands/local-langlands-10-3/",
+  "permalink": "/corpus/taulib/docs/book-iii-arithmetic-langlands/local-langlands-10-3/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Arithmetic.Langlands`.",
   "declaration_id": "TauLib.BookIII.Arithmetic.Langlands::local_langlands_10_3",
   "declaration_slug": "local-langlands-10-3",
   "kind": "theorem",
   "name": "local_langlands_10_3",
   "module_name": "TauLib.BookIII.Arithmetic.Langlands",
-  "module_url": "/verify/taulib/docs/book-iii-arithmetic-langlands/",
+  "module_url": "/corpus/taulib/docs/book-iii-arithmetic-langlands/",
   "source_line_start": 206,
   "source_line_end": 207,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/Langlands.lean#L206-L207",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Arithmetic.Langlands",
-        "url": "/verify/taulib/docs/book-iii-arithmetic-langlands/"
+        "url": "/corpus/taulib/docs/book-iii-arithmetic-langlands/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Arithmetic.Langlands](/verify/taulib/docs/book-iii-arithmetic-langlands/)
+- Module: [TauLib.BookIII.Arithmetic.Langlands](/corpus/taulib/docs/book-iii-arithmetic-langlands/)
 - Source path: [`TauLib/BookIII/Arithmetic/Langlands.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/Langlands.lean#L206-L207)
 - Source range: L206-L207
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

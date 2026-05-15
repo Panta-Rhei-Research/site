@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "b_not_a",
-  "permalink": "/verify/taulib/docs/book-iii-sectors-parity-bridge/b-not-a/",
+  "permalink": "/corpus/taulib/docs/book-iii-sectors-parity-bridge/b-not-a/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Sectors.ParityBridge`.",
   "declaration_id": "TauLib.BookIII.Sectors.ParityBridge::b_not_a",
   "declaration_slug": "b-not-a",
   "kind": "theorem",
   "name": "b_not_a",
   "module_name": "TauLib.BookIII.Sectors.ParityBridge",
-  "module_url": "/verify/taulib/docs/book-iii-sectors-parity-bridge/",
+  "module_url": "/corpus/taulib/docs/book-iii-sectors-parity-bridge/",
   "source_line_start": 171,
   "source_line_end": 171,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Sectors/ParityBridge.lean#L171-L171",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Sectors.ParityBridge",
-        "url": "/verify/taulib/docs/book-iii-sectors-parity-bridge/"
+        "url": "/corpus/taulib/docs/book-iii-sectors-parity-bridge/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Sectors.ParityBridge](/verify/taulib/docs/book-iii-sectors-parity-bridge/)
+- Module: [TauLib.BookIII.Sectors.ParityBridge](/corpus/taulib/docs/book-iii-sectors-parity-bridge/)
 - Source path: [`TauLib/BookIII/Sectors/ParityBridge.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Sectors/ParityBridge.lean#L171-L171)
 - Source range: L171-L171
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

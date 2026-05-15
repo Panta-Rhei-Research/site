@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "remark_cottingham_comparison",
-  "permalink": "/verify/taulib/docs/book-iv-physics-nucleon-mass-splitting/remark-cottingham-comparison/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-nucleon-mass-splitting/remark-cottingham-comparison/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Physics.NucleonMassSplitting`.",
   "declaration_id": "TauLib.BookIV.Physics.NucleonMassSplitting::remark_cottingham_comparison",
   "declaration_slug": "remark-cottingham-comparison",
   "kind": "def",
   "name": "remark_cottingham_comparison",
   "module_name": "TauLib.BookIV.Physics.NucleonMassSplitting",
-  "module_url": "/verify/taulib/docs/book-iv-physics-nucleon-mass-splitting/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-nucleon-mass-splitting/",
   "source_line_start": 372,
   "source_line_end": 375,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/NucleonMassSplitting.lean#L372-L375",
   "formal_status": "defined",
+  "declaration_role": "docstring/data record",
+  "formal_status_label": "docstring/data record",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.NucleonMassSplitting",
-        "url": "/verify/taulib/docs/book-iv-physics-nucleon-mass-splitting/"
+        "url": "/corpus/taulib/docs/book-iv-physics-nucleon-mass-splitting/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "docstring/data record",
+      "status": "docstring/data record"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.NucleonMassSplitting](/verify/taulib/docs/book-iv-physics-nucleon-mass-splitting/)
+- Module: [TauLib.BookIV.Physics.NucleonMassSplitting](/corpus/taulib/docs/book-iv-physics-nucleon-mass-splitting/)
 - Source path: [`TauLib/BookIV/Physics/NucleonMassSplitting.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/NucleonMassSplitting.lean#L372-L375)
 - Source range: L372-L375
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `docstring/data record`
+- Formal status hint: `docstring/data record`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "AddressResolution.probFloat",
-  "permalink": "/verify/taulib/docs/book-iv-quantum-mechanics-measurement/prob-float/",
+  "permalink": "/corpus/taulib/docs/book-iv-quantum-mechanics-measurement/prob-float/",
   "summary_short": "`def` declaration in `TauLib.BookIV.QuantumMechanics.Measurement`.",
   "declaration_id": "TauLib.BookIV.QuantumMechanics.Measurement::AddressResolution.probFloat",
   "declaration_slug": "prob-float",
   "kind": "def",
   "name": "AddressResolution.probFloat",
   "module_name": "TauLib.BookIV.QuantumMechanics.Measurement",
-  "module_url": "/verify/taulib/docs/book-iv-quantum-mechanics-measurement/",
+  "module_url": "/corpus/taulib/docs/book-iv-quantum-mechanics-measurement/",
   "source_line_start": 88,
   "source_line_end": 89,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/Measurement.lean#L88-L89",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.QuantumMechanics.Measurement",
-        "url": "/verify/taulib/docs/book-iv-quantum-mechanics-measurement/"
+        "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-measurement/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.QuantumMechanics.Measurement](/verify/taulib/docs/book-iv-quantum-mechanics-measurement/)
+- Module: [TauLib.BookIV.QuantumMechanics.Measurement](/corpus/taulib/docs/book-iv-quantum-mechanics-measurement/)
 - Source path: [`TauLib/BookIV/QuantumMechanics/Measurement.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/Measurement.lean#L88-L89)
 - Source range: L88-L89
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

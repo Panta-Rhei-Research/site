@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "lift_gravity",
-  "permalink": "/verify/taulib/docs/book-iv-physics-planck-character/lift-gravity/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-planck-character/lift-gravity/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Physics.PlanckCharacter`.",
   "declaration_id": "TauLib.BookIV.Physics.PlanckCharacter::lift_gravity",
   "declaration_slug": "lift-gravity",
   "kind": "def",
   "name": "lift_gravity",
   "module_name": "TauLib.BookIV.Physics.PlanckCharacter",
-  "module_url": "/verify/taulib/docs/book-iv-physics-planck-character/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-planck-character/",
   "source_line_start": 153,
   "source_line_end": 157,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/PlanckCharacter.lean#L153-L157",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.PlanckCharacter",
-        "url": "/verify/taulib/docs/book-iv-physics-planck-character/"
+        "url": "/corpus/taulib/docs/book-iv-physics-planck-character/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.PlanckCharacter](/verify/taulib/docs/book-iv-physics-planck-character/)
+- Module: [TauLib.BookIV.Physics.PlanckCharacter](/corpus/taulib/docs/book-iv-physics-planck-character/)
 - Source path: [`TauLib/BookIV/Physics/PlanckCharacter.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/PlanckCharacter.lean#L153-L157)
 - Source range: L153-L157
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

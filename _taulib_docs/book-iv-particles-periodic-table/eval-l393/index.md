@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L393",
-  "permalink": "/verify/taulib/docs/book-iv-particles-periodic-table/eval-l393/",
+  "permalink": "/corpus/taulib/docs/book-iv-particles-periodic-table/eval-l393/",
   "summary_short": "`eval` declaration in `TauLib.BookIV.Particles.PeriodicTable`.",
   "declaration_id": "TauLib.BookIV.Particles.PeriodicTable::#eval:393",
   "declaration_slug": "eval-l393",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIV.Particles.PeriodicTable",
-  "module_url": "/verify/taulib/docs/book-iv-particles-periodic-table/",
+  "module_url": "/corpus/taulib/docs/book-iv-particles-periodic-table/",
   "source_line_start": 393,
   "source_line_end": 393,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/PeriodicTable.lean#L393-L393",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Particles.PeriodicTable",
-        "url": "/verify/taulib/docs/book-iv-particles-periodic-table/"
+        "url": "/corpus/taulib/docs/book-iv-particles-periodic-table/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Particles.PeriodicTable](/verify/taulib/docs/book-iv-particles-periodic-table/)
+- Module: [TauLib.BookIV.Particles.PeriodicTable](/corpus/taulib/docs/book-iv-particles-periodic-table/)
 - Source path: [`TauLib/BookIV/Particles/PeriodicTable.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/PeriodicTable.lean#L393-L393)
 - Source range: L393-L393
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

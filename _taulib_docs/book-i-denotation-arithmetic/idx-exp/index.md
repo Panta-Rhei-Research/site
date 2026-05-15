@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "idx_exp",
-  "permalink": "/verify/taulib/docs/book-i-denotation-arithmetic/idx-exp/",
+  "permalink": "/corpus/taulib/docs/book-i-denotation-arithmetic/idx-exp/",
   "summary_short": "`def` declaration in `TauLib.BookI.Denotation.Arithmetic`.",
   "declaration_id": "TauLib.BookI.Denotation.Arithmetic::idx_exp",
   "declaration_slug": "idx-exp",
   "kind": "def",
   "name": "idx_exp",
   "module_name": "TauLib.BookI.Denotation.Arithmetic",
-  "module_url": "/verify/taulib/docs/book-i-denotation-arithmetic/",
+  "module_url": "/corpus/taulib/docs/book-i-denotation-arithmetic/",
   "source_line_start": 76,
   "source_line_end": 79,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/Arithmetic.lean#L76-L79",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Denotation.Arithmetic",
-        "url": "/verify/taulib/docs/book-i-denotation-arithmetic/"
+        "url": "/corpus/taulib/docs/book-i-denotation-arithmetic/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Denotation.Arithmetic](/verify/taulib/docs/book-i-denotation-arithmetic/)
+- Module: [TauLib.BookI.Denotation.Arithmetic](/corpus/taulib/docs/book-i-denotation-arithmetic/)
 - Source path: [`TauLib/BookI/Denotation/Arithmetic.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/Arithmetic.lean#L76-L79)
 - Source range: L76-L79
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

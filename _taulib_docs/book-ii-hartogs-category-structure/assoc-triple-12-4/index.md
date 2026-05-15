@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "assoc_triple_12_4",
-  "permalink": "/verify/taulib/docs/book-ii-hartogs-category-structure/assoc-triple-12-4/",
+  "permalink": "/corpus/taulib/docs/book-ii-hartogs-category-structure/assoc-triple-12-4/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Hartogs.CategoryStructure`.",
   "declaration_id": "TauLib.BookII.Hartogs.CategoryStructure::assoc_triple_12_4",
   "declaration_slug": "assoc-triple-12-4",
   "kind": "theorem",
   "name": "assoc_triple_12_4",
   "module_name": "TauLib.BookII.Hartogs.CategoryStructure",
-  "module_url": "/verify/taulib/docs/book-ii-hartogs-category-structure/",
+  "module_url": "/corpus/taulib/docs/book-ii-hartogs-category-structure/",
   "source_line_start": 447,
   "source_line_end": 448,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/CategoryStructure.lean#L447-L448",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Hartogs.CategoryStructure",
-        "url": "/verify/taulib/docs/book-ii-hartogs-category-structure/"
+        "url": "/corpus/taulib/docs/book-ii-hartogs-category-structure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Hartogs.CategoryStructure](/verify/taulib/docs/book-ii-hartogs-category-structure/)
+- Module: [TauLib.BookII.Hartogs.CategoryStructure](/corpus/taulib/docs/book-ii-hartogs-category-structure/)
 - Source path: [`TauLib/BookII/Hartogs/CategoryStructure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/CategoryStructure.lean#L447-L448)
 - Source range: L447-L448
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L520",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l520/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l520/",
   "summary_short": "`eval` declaration in `TauLib.BookV.Cosmology.BBNNuclearNetwork`.",
   "declaration_id": "TauLib.BookV.Cosmology.BBNNuclearNetwork::#eval:520",
   "declaration_slug": "eval-l520",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.Cosmology.BBNNuclearNetwork",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/",
   "source_line_start": 520,
   "source_line_end": 520,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BBNNuclearNetwork.lean#L520-L520",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.BBNNuclearNetwork",
-        "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.BBNNuclearNetwork](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/)
+- Module: [TauLib.BookV.Cosmology.BBNNuclearNetwork](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/)
 - Source path: [`TauLib/BookV/Cosmology/BBNNuclearNetwork.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BBNNuclearNetwork.lean#L520-L520)
 - Source range: L520-L520
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

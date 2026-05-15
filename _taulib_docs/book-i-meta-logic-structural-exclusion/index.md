@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.MetaLogic.StructuralExclusion",
-  "permalink": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/",
+  "permalink": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.MetaLogic.StructuralExclusion`.",
   "module_name": "TauLib.BookI.MetaLogic.StructuralExclusion",
   "module_slug": "book-i-meta-logic-structural-exclusion",
@@ -38,10 +38,12 @@
     {
       "kind": "inductive",
       "name": "SelfHostingDegree",
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/self-hosting-degree/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/self-hosting-degree/",
       "source_line_start": 42,
       "source_line_end": 49,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "I.D80"
       ]
@@ -49,28 +51,34 @@
     {
       "kind": "def",
       "name": "allSelfHostingDegrees",
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/all-self-hosting-degrees/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/all-self-hosting-degrees/",
       "source_line_start": 52,
       "source_line_end": 53,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "self_hosting_degree_count",
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/self-hosting-degree-count/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/self-hosting-degree-count/",
       "source_line_start": 56,
       "source_line_end": 56,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "CCCSide",
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/cccside/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/cccside/",
       "source_line_start": 65,
       "source_line_end": 71,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "I.D81"
       ]
@@ -78,10 +86,12 @@
     {
       "kind": "structure",
       "name": "StarAutonomousSide",
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/star-autonomous-side/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/star-autonomous-side/",
       "source_line_start": 77,
       "source_line_end": 83,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "I.D81"
       ]
@@ -89,28 +99,34 @@
     {
       "kind": "def",
       "name": "ccc_side",
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/ccc-side/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/ccc-side/",
       "source_line_start": 86,
       "source_line_end": 89,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "star_autonomous_side",
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/star-autonomous-side-l92/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/star-autonomous-side-l92/",
       "source_line_start": 92,
       "source_line_end": 95,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "K5StructuralExclusion",
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/k5-structural-exclusion/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/k5-structural-exclusion/",
       "source_line_start": 109,
       "source_line_end": 117,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "I.T39"
       ]
@@ -118,19 +134,23 @@
     {
       "kind": "def",
       "name": "k5_structural_exclusion",
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/k5-structural-exclusion-l120/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/k5-structural-exclusion-l120/",
       "source_line_start": 120,
       "source_line_end": 124,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "inductive",
       "name": "EnrichmentFrontierStatus",
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/enrichment-frontier-status/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/enrichment-frontier-status/",
       "source_line_start": 132,
       "source_line_end": 138,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "I.D82"
       ]
@@ -138,208 +158,254 @@
     {
       "kind": "def",
       "name": "e0_e1_status",
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/e0-e1-status/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/e0-e1-status/",
       "source_line_start": 143,
       "source_line_end": 143,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "e1_e2_status",
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/e1-e2-status/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/e1-e2-status/",
       "source_line_start": 148,
       "source_line_end": 148,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "e2_e3_status",
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/e2-e3-status/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/e2-e3-status/",
       "source_line_start": 153,
       "source_line_end": 153,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "allFrontierStatuses",
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/all-frontier-statuses/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/all-frontier-statuses/",
       "source_line_start": 156,
       "source_line_end": 157,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "frontier_status_count",
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/frontier-status-count/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/frontier-status-count/",
       "source_line_start": 160,
       "source_line_end": 160,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "e_transitions_distinct",
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/e-transitions-distinct/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/e-transitions-distinct/",
       "source_line_start": 163,
       "source_line_end": 167,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "frontierRank",
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/frontier-rank/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/frontier-rank/",
       "source_line_start": 172,
       "source_line_end": 175,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "e0_e1_easier_than_e1_e2",
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/e0-e1-easier-than-e1-e2/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/e0-e1-easier-than-e1-e2/",
       "source_line_start": 178,
       "source_line_end": 179,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "e1_e2_easier_than_e2_e3",
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/e1-e2-easier-than-e2-e3/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/e1-e2-easier-than-e2-e3/",
       "source_line_start": 182,
       "source_line_end": 183,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "max_frontier_rank",
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/max-frontier-rank/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/max-frontier-rank/",
       "source_line_start": 186,
       "source_line_end": 187,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l194/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l194/",
       "source_line_start": 194,
       "source_line_end": 194,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l197/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l197/",
       "source_line_start": 197,
       "source_line_end": 197,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l198/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l198/",
       "source_line_start": 198,
       "source_line_end": 198,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l199/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l199/",
       "source_line_start": 199,
       "source_line_end": 199,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l200/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l200/",
       "source_line_start": 200,
       "source_line_end": 200,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l203/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l203/",
       "source_line_start": 203,
       "source_line_end": 203,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l204/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l204/",
       "source_line_start": 204,
       "source_line_end": 204,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l207/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l207/",
       "source_line_start": 207,
       "source_line_end": 207,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l208/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l208/",
       "source_line_start": 208,
       "source_line_end": 208,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l209/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l209/",
       "source_line_start": 209,
       "source_line_end": 209,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l210/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l210/",
       "source_line_start": 210,
       "source_line_end": 210,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l211/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l211/",
       "source_line_start": 211,
       "source_line_end": 211,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l212/",
+      "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l212/",
       "source_line_start": 212,
       "source_line_end": 214,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -351,7 +417,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -427,38 +493,38 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [SelfHostingDegree](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/self-hosting-degree/) | L42-L49 | defined | `I.D80` |
-| `def` | [allSelfHostingDegrees](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/all-self-hosting-degrees/) | L52-L53 | defined | — |
-| `theorem` | [self_hosting_degree_count](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/self-hosting-degree-count/) | L56-L56 | formalized | — |
-| `structure` | [CCCSide](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/cccside/) | L65-L71 | defined | `I.D81` |
-| `structure` | [StarAutonomousSide](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/star-autonomous-side/) | L77-L83 | defined | `I.D81` |
-| `def` | [ccc_side](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/ccc-side/) | L86-L89 | defined | — |
-| `def` | [star_autonomous_side](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/star-autonomous-side-l92/) | L92-L95 | defined | — |
-| `structure` | [K5StructuralExclusion](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/k5-structural-exclusion/) | L109-L117 | defined | `I.T39` |
-| `def` | [k5_structural_exclusion](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/k5-structural-exclusion-l120/) | L120-L124 | defined | — |
-| `inductive` | [EnrichmentFrontierStatus](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/enrichment-frontier-status/) | L132-L138 | defined | `I.D82` |
-| `def` | [e0_e1_status](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/e0-e1-status/) | L143-L143 | defined | — |
-| `def` | [e1_e2_status](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/e1-e2-status/) | L148-L148 | defined | — |
-| `def` | [e2_e3_status](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/e2-e3-status/) | L153-L153 | defined | — |
-| `def` | [allFrontierStatuses](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/all-frontier-statuses/) | L156-L157 | defined | — |
-| `theorem` | [frontier_status_count](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/frontier-status-count/) | L160-L160 | formalized | — |
-| `theorem` | [e_transitions_distinct](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/e-transitions-distinct/) | L163-L167 | formalized | — |
-| `def` | [frontierRank](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/frontier-rank/) | L172-L175 | defined | — |
-| `theorem` | [e0_e1_easier_than_e1_e2](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/e0-e1-easier-than-e1-e2/) | L178-L179 | formalized | — |
-| `theorem` | [e1_e2_easier_than_e2_e3](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/e1-e2-easier-than-e2-e3/) | L182-L183 | formalized | — |
-| `theorem` | [max_frontier_rank](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/max-frontier-rank/) | L186-L187 | formalized | — |
-| `eval` | [#eval L194](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l194/) | L194-L194 | computed | — |
-| `eval` | [#eval L197](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l197/) | L197-L197 | computed | — |
-| `eval` | [#eval L198](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l198/) | L198-L198 | computed | — |
-| `eval` | [#eval L199](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l199/) | L199-L199 | computed | — |
-| `eval` | [#eval L200](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l200/) | L200-L200 | computed | — |
-| `eval` | [#eval L203](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l203/) | L203-L203 | computed | — |
-| `eval` | [#eval L204](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l204/) | L204-L204 | computed | — |
-| `eval` | [#eval L207](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l207/) | L207-L207 | computed | — |
-| `eval` | [#eval L208](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l208/) | L208-L208 | computed | — |
-| `eval` | [#eval L209](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l209/) | L209-L209 | computed | — |
-| `eval` | [#eval L210](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l210/) | L210-L210 | computed | — |
-| `eval` | [#eval L211](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l211/) | L211-L211 | computed | — |
-| `eval` | [#eval L212](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l212/) | L212-L214 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [SelfHostingDegree](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/self-hosting-degree/) | L42-L49 | type/data schema | type/data schema | `I.D80` |
+| `def` | [allSelfHostingDegrees](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/all-self-hosting-degrees/) | L52-L53 | data/computed value | data/computed value | — |
+| `theorem` | [self_hosting_degree_count](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/self-hosting-degree-count/) | L56-L56 | proof obligation | formal proof obligation checked | — |
+| `structure` | [CCCSide](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/cccside/) | L65-L71 | type/data schema | type/data schema | `I.D81` |
+| `structure` | [StarAutonomousSide](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/star-autonomous-side/) | L77-L83 | type/data schema | type/data schema | `I.D81` |
+| `def` | [ccc_side](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/ccc-side/) | L86-L89 | definition | definition | — |
+| `def` | [star_autonomous_side](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/star-autonomous-side-l92/) | L92-L95 | definition | definition | — |
+| `structure` | [K5StructuralExclusion](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/k5-structural-exclusion/) | L109-L117 | type/data schema | type/data schema | `I.T39` |
+| `def` | [k5_structural_exclusion](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/k5-structural-exclusion-l120/) | L120-L124 | definition | definition | — |
+| `inductive` | [EnrichmentFrontierStatus](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/enrichment-frontier-status/) | L132-L138 | type/data schema | type/data schema | `I.D82` |
+| `def` | [e0_e1_status](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/e0-e1-status/) | L143-L143 | definition | definition | — |
+| `def` | [e1_e2_status](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/e1-e2-status/) | L148-L148 | definition | definition | — |
+| `def` | [e2_e3_status](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/e2-e3-status/) | L153-L153 | definition | definition | — |
+| `def` | [allFrontierStatuses](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/all-frontier-statuses/) | L156-L157 | data/computed value | data/computed value | — |
+| `theorem` | [frontier_status_count](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/frontier-status-count/) | L160-L160 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [e_transitions_distinct](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/e-transitions-distinct/) | L163-L167 | proof obligation | formal proof obligation checked | — |
+| `def` | [frontierRank](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/frontier-rank/) | L172-L175 | definition | definition | — |
+| `theorem` | [e0_e1_easier_than_e1_e2](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/e0-e1-easier-than-e1-e2/) | L178-L179 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [e1_e2_easier_than_e2_e3](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/e1-e2-easier-than-e2-e3/) | L182-L183 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [max_frontier_rank](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/max-frontier-rank/) | L186-L187 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L194](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l194/) | L194-L194 | computed check | computed check | — |
+| `eval` | [#eval L197](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l197/) | L197-L197 | computed check | computed check | — |
+| `eval` | [#eval L198](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l198/) | L198-L198 | computed check | computed check | — |
+| `eval` | [#eval L199](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l199/) | L199-L199 | computed check | computed check | — |
+| `eval` | [#eval L200](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l200/) | L200-L200 | computed check | computed check | — |
+| `eval` | [#eval L203](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l203/) | L203-L203 | computed check | computed check | — |
+| `eval` | [#eval L204](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l204/) | L204-L204 | computed check | computed check | — |
+| `eval` | [#eval L207](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l207/) | L207-L207 | computed check | computed check | — |
+| `eval` | [#eval L208](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l208/) | L208-L208 | computed check | computed check | — |
+| `eval` | [#eval L209](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l209/) | L209-L209 | computed check | computed check | — |
+| `eval` | [#eval L210](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l210/) | L210-L210 | computed check | computed check | — |
+| `eval` | [#eval L211](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l211/) | L211-L211 | computed check | computed check | — |
+| `eval` | [#eval L212](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l212/) | L212-L214 | computed check | computed check | — |

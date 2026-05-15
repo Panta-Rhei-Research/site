@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "off_diagonal_zero_is_structural",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-neutrino-mode/off-diagonal-zero-is-structural/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-neutrino-mode/off-diagonal-zero-is-structural/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Electroweak.NeutrinoMode`.",
   "declaration_id": "TauLib.BookIV.Electroweak.NeutrinoMode::off_diagonal_zero_is_structural",
   "declaration_slug": "off-diagonal-zero-is-structural",
   "kind": "theorem",
   "name": "off_diagonal_zero_is_structural",
   "module_name": "TauLib.BookIV.Electroweak.NeutrinoMode",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-neutrino-mode/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-neutrino-mode/",
   "source_line_start": 401,
   "source_line_end": 401,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/NeutrinoMode.lean#L401-L401",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.NeutrinoMode",
-        "url": "/verify/taulib/docs/book-iv-electroweak-neutrino-mode/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-neutrino-mode/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.NeutrinoMode](/verify/taulib/docs/book-iv-electroweak-neutrino-mode/)
+- Module: [TauLib.BookIV.Electroweak.NeutrinoMode](/corpus/taulib/docs/book-iv-electroweak-neutrino-mode/)
 - Source path: [`TauLib/BookIV/Electroweak/NeutrinoMode.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/NeutrinoMode.lean#L401-L401)
 - Source range: L401-L401
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

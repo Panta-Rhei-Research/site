@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "fta_height_one_corollary",
-  "permalink": "/verify/taulib/docs/book-i-coordinates-hyperfact-fta/fta-height-one-corollary/",
+  "permalink": "/corpus/taulib/docs/book-i-coordinates-hyperfact-fta/fta-height-one-corollary/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Coordinates.HyperfactFTA`.",
   "declaration_id": "TauLib.BookI.Coordinates.HyperfactFTA::fta_height_one_corollary",
   "declaration_slug": "fta-height-one-corollary",
   "kind": "theorem",
   "name": "fta_height_one_corollary",
   "module_name": "TauLib.BookI.Coordinates.HyperfactFTA",
-  "module_url": "/verify/taulib/docs/book-i-coordinates-hyperfact-fta/",
+  "module_url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-fta/",
   "source_line_start": 103,
   "source_line_end": 112,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/HyperfactFTA.lean#L103-L112",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Coordinates.HyperfactFTA",
-        "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-fta/"
+        "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-fta/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Coordinates.HyperfactFTA](/verify/taulib/docs/book-i-coordinates-hyperfact-fta/)
+- Module: [TauLib.BookI.Coordinates.HyperfactFTA](/corpus/taulib/docs/book-i-coordinates-hyperfact-fta/)
 - Source path: [`TauLib/BookI/Coordinates/HyperfactFTA.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/HyperfactFTA.lean#L103-L112)
 - Source range: L103-L112
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

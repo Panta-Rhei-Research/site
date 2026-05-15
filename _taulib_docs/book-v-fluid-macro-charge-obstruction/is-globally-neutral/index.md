@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "MacroCharge.isGloballyNeutral",
-  "permalink": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/is-globally-neutral/",
+  "permalink": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/is-globally-neutral/",
   "summary_short": "`def` declaration in `TauLib.BookV.FluidMacro.ChargeObstruction`.",
   "declaration_id": "TauLib.BookV.FluidMacro.ChargeObstruction::MacroCharge.isGloballyNeutral",
   "declaration_slug": "is-globally-neutral",
   "kind": "def",
   "name": "MacroCharge.isGloballyNeutral",
   "module_name": "TauLib.BookV.FluidMacro.ChargeObstruction",
-  "module_url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/",
+  "module_url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/",
   "source_line_start": 82,
   "source_line_end": 83,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/ChargeObstruction.lean#L82-L83",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.FluidMacro.ChargeObstruction",
-        "url": "/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/"
+        "url": "/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.FluidMacro.ChargeObstruction](/verify/taulib/docs/book-v-fluid-macro-charge-obstruction/)
+- Module: [TauLib.BookV.FluidMacro.ChargeObstruction](/corpus/taulib/docs/book-v-fluid-macro-charge-obstruction/)
 - Source path: [`TauLib/BookV/FluidMacro/ChargeObstruction.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/ChargeObstruction.lean#L82-L83)
 - Source range: L82-L83
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

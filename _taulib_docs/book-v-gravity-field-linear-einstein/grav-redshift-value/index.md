@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "grav_redshift_value",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-linear-einstein/grav-redshift-value/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-linear-einstein/grav-redshift-value/",
   "summary_short": "`def` declaration in `TauLib.BookV.GravityField.LinearEinstein`.",
   "declaration_id": "TauLib.BookV.GravityField.LinearEinstein::grav_redshift_value",
   "declaration_slug": "grav-redshift-value",
   "kind": "def",
   "name": "grav_redshift_value",
   "module_name": "TauLib.BookV.GravityField.LinearEinstein",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-linear-einstein/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-linear-einstein/",
   "source_line_start": 198,
   "source_line_end": 203,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/LinearEinstein.lean#L198-L203",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.LinearEinstein",
-        "url": "/verify/taulib/docs/book-v-gravity-field-linear-einstein/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-linear-einstein/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.LinearEinstein](/verify/taulib/docs/book-v-gravity-field-linear-einstein/)
+- Module: [TauLib.BookV.GravityField.LinearEinstein](/corpus/taulib/docs/book-v-gravity-field-linear-einstein/)
 - Source path: [`TauLib/BookV/GravityField/LinearEinstein.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/LinearEinstein.lean#L198-L203)
 - Source range: L198-L203
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "triangle_check",
-  "permalink": "/verify/taulib/docs/book-ii-domains-ultrametric/triangle-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-domains-ultrametric/triangle-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.Domains.Ultrametric`.",
   "declaration_id": "TauLib.BookII.Domains.Ultrametric::triangle_check",
   "declaration_slug": "triangle-check",
   "kind": "def",
   "name": "triangle_check",
   "module_name": "TauLib.BookII.Domains.Ultrametric",
-  "module_url": "/verify/taulib/docs/book-ii-domains-ultrametric/",
+  "module_url": "/corpus/taulib/docs/book-ii-domains-ultrametric/",
   "source_line_start": 92,
   "source_line_end": 105,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Domains/Ultrametric.lean#L92-L105",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Domains.Ultrametric",
-        "url": "/verify/taulib/docs/book-ii-domains-ultrametric/"
+        "url": "/corpus/taulib/docs/book-ii-domains-ultrametric/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Domains.Ultrametric](/verify/taulib/docs/book-ii-domains-ultrametric/)
+- Module: [TauLib.BookII.Domains.Ultrametric](/corpus/taulib/docs/book-ii-domains-ultrametric/)
 - Source path: [`TauLib/BookII/Domains/Ultrametric.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Domains/Ultrametric.lean#L92-L105)
 - Source range: L92-L105
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

@@ -35,7 +35,7 @@ related_public_surfaces:
     surface_type: "falsification_facet"
     surface_id: "N25"
     title: "N25 — EHT shadow correction $+2.91%$"
-    url: "/results/falsifications/n25-eht-shadow-correction-291/"
+    url: "/falsifications/n25-eht-shadow-correction-291/"
     match_basis: "facet_title_summary"
     match_confidence: "high"
     matched_terms:
@@ -66,7 +66,7 @@ V.OP5 SOLVED: Sprint 7E provides complete observational signature suite for T² 
 ## Related Results surfaces
 
 - [EHT Shadow Correction](/predictions/eht-shadow/)
-- [N25 — EHT shadow correction $+2.91%$](/results/falsifications/n25-eht-shadow-correction-291/)
+- [N25 — EHT shadow correction $+2.91%$](/falsifications/n25-eht-shadow-correction-291/)
 
 ## Reading role
 

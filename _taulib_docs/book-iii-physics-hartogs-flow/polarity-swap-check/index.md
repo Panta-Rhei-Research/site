@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "polarity_swap_check",
-  "permalink": "/verify/taulib/docs/book-iii-physics-hartogs-flow/polarity-swap-check/",
+  "permalink": "/corpus/taulib/docs/book-iii-physics-hartogs-flow/polarity-swap-check/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Physics.HartogsFlow`.",
   "declaration_id": "TauLib.BookIII.Physics.HartogsFlow::polarity_swap_check",
   "declaration_slug": "polarity-swap-check",
   "kind": "def",
   "name": "polarity_swap_check",
   "module_name": "TauLib.BookIII.Physics.HartogsFlow",
-  "module_url": "/verify/taulib/docs/book-iii-physics-hartogs-flow/",
+  "module_url": "/corpus/taulib/docs/book-iii-physics-hartogs-flow/",
   "source_line_start": 166,
   "source_line_end": 189,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/HartogsFlow.lean#L166-L189",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Physics.HartogsFlow",
-        "url": "/verify/taulib/docs/book-iii-physics-hartogs-flow/"
+        "url": "/corpus/taulib/docs/book-iii-physics-hartogs-flow/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Physics.HartogsFlow](/verify/taulib/docs/book-iii-physics-hartogs-flow/)
+- Module: [TauLib.BookIII.Physics.HartogsFlow](/corpus/taulib/docs/book-iii-physics-hartogs-flow/)
 - Source path: [`TauLib/BookIII/Physics/HartogsFlow.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/HartogsFlow.lean#L166-L189)
 - Source range: L166-L189
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

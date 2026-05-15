@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIII.Spectral.LocalFields",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-local-fields/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-local-fields/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIII.Spectral.LocalFields`.",
   "module_name": "TauLib.BookIII.Spectral.LocalFields",
   "module_slug": "book-iii-spectral-local-fields",
@@ -33,10 +33,12 @@
     {
       "kind": "structure",
       "name": "LocalFieldElt",
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/local-field-elt/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/local-field-elt/",
       "source_line_start": 36,
       "source_line_end": 40,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "III.D21"
       ]
@@ -44,10 +46,12 @@
     {
       "kind": "def",
       "name": "to_local",
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/to-local/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/to-local/",
       "source_line_start": 43,
       "source_line_end": 45,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "III.D21"
       ]
@@ -55,10 +59,12 @@
     {
       "kind": "def",
       "name": "padic_val",
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/padic-val/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/padic-val/",
       "source_line_start": 49,
       "source_line_end": 57,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "III.D21"
       ]
@@ -66,10 +72,12 @@
     {
       "kind": "def",
       "name": "local_field_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/local-field-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/local-field-check/",
       "source_line_start": 61,
       "source_line_end": 80,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D21"
       ]
@@ -77,10 +85,12 @@
     {
       "kind": "def",
       "name": "local_ring_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/local-ring-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/local-ring-check/",
       "source_line_start": 84,
       "source_line_end": 105,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D21"
       ]
@@ -88,10 +98,12 @@
     {
       "kind": "def",
       "name": "completeness_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/completeness-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/completeness-check/",
       "source_line_start": 115,
       "source_line_end": 139,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.P06"
       ]
@@ -99,10 +111,12 @@
     {
       "kind": "def",
       "name": "limit_uniqueness_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/limit-uniqueness-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/limit-uniqueness-check/",
       "source_line_start": 143,
       "source_line_end": 168,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.P06"
       ]
@@ -110,109 +124,133 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/eval-l175/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/eval-l175/",
       "source_line_start": 175,
       "source_line_end": 175,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/eval-l176/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/eval-l176/",
       "source_line_start": 176,
       "source_line_end": 176,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/eval-l177/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/eval-l177/",
       "source_line_start": 177,
       "source_line_end": 177,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/eval-l180/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/eval-l180/",
       "source_line_start": 180,
       "source_line_end": 180,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/eval-l181/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/eval-l181/",
       "source_line_start": 181,
       "source_line_end": 181,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/eval-l182/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/eval-l182/",
       "source_line_start": 182,
       "source_line_end": 182,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/eval-l183/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/eval-l183/",
       "source_line_start": 183,
       "source_line_end": 183,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/eval-l186/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/eval-l186/",
       "source_line_start": 186,
       "source_line_end": 186,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/eval-l187/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/eval-l187/",
       "source_line_start": 187,
       "source_line_end": 187,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/eval-l188/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/eval-l188/",
       "source_line_start": 188,
       "source_line_end": 188,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/eval-l189/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/eval-l189/",
       "source_line_start": 189,
       "source_line_end": 189,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "local_field_15_4",
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/local-field-15-4/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/local-field-15-4/",
       "source_line_start": 196,
       "source_line_end": 197,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D21"
       ]
@@ -220,10 +258,12 @@
     {
       "kind": "theorem",
       "name": "local_ring_10_4",
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/local-ring-10-4/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/local-ring-10-4/",
       "source_line_start": 200,
       "source_line_end": 201,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D21"
       ]
@@ -231,10 +271,12 @@
     {
       "kind": "theorem",
       "name": "completeness_20_5",
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/completeness-20-5/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/completeness-20-5/",
       "source_line_start": 204,
       "source_line_end": 205,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.P06"
       ]
@@ -242,10 +284,12 @@
     {
       "kind": "theorem",
       "name": "limit_unique_10_4",
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/limit-unique-10-4/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/limit-unique-10-4/",
       "source_line_start": 208,
       "source_line_end": 209,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.P06"
       ]
@@ -253,10 +297,12 @@
     {
       "kind": "theorem",
       "name": "val_p_is_1",
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/val-p-is-1/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/val-p-is-1/",
       "source_line_start": 216,
       "source_line_end": 216,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D21"
       ]
@@ -264,19 +310,23 @@
     {
       "kind": "theorem",
       "name": "val_p_is_1'",
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/val-p-is-1-l217/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/val-p-is-1-l217/",
       "source_line_start": 217,
       "source_line_end": 217,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "val_p2",
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/val-p2/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/val-p2/",
       "source_line_start": 220,
       "source_line_end": 220,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D21"
       ]
@@ -284,19 +334,23 @@
     {
       "kind": "theorem",
       "name": "val_p3",
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/val-p3/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/val-p3/",
       "source_line_start": 221,
       "source_line_end": 221,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "val_zero",
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/val-zero/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/val-zero/",
       "source_line_start": 224,
       "source_line_end": 224,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D21"
       ]
@@ -304,10 +358,12 @@
     {
       "kind": "theorem",
       "name": "tower_42_3",
-      "url": "/verify/taulib/docs/book-iii-spectral-local-fields/tower-42-3/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/tower-42-3/",
       "source_line_start": 227,
       "source_line_end": 230,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.P06"
       ]
@@ -321,7 +377,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -392,33 +448,33 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [LocalFieldElt](/verify/taulib/docs/book-iii-spectral-local-fields/local-field-elt/) | L36-L40 | defined | `III.D21` |
-| `def` | [to_local](/verify/taulib/docs/book-iii-spectral-local-fields/to-local/) | L43-L45 | defined | `III.D21` |
-| `def` | [padic_val](/verify/taulib/docs/book-iii-spectral-local-fields/padic-val/) | L49-L57 | defined | `III.D21` |
-| `def` | [local_field_check](/verify/taulib/docs/book-iii-spectral-local-fields/local-field-check/) | L61-L80 | defined | `III.D21` |
-| `def` | [local_ring_check](/verify/taulib/docs/book-iii-spectral-local-fields/local-ring-check/) | L84-L105 | defined | `III.D21` |
-| `def` | [completeness_check](/verify/taulib/docs/book-iii-spectral-local-fields/completeness-check/) | L115-L139 | defined | `III.P06` |
-| `def` | [limit_uniqueness_check](/verify/taulib/docs/book-iii-spectral-local-fields/limit-uniqueness-check/) | L143-L168 | defined | `III.P06` |
-| `eval` | [#eval L175](/verify/taulib/docs/book-iii-spectral-local-fields/eval-l175/) | L175-L175 | computed | — |
-| `eval` | [#eval L176](/verify/taulib/docs/book-iii-spectral-local-fields/eval-l176/) | L176-L176 | computed | — |
-| `eval` | [#eval L177](/verify/taulib/docs/book-iii-spectral-local-fields/eval-l177/) | L177-L177 | computed | — |
-| `eval` | [#eval L180](/verify/taulib/docs/book-iii-spectral-local-fields/eval-l180/) | L180-L180 | computed | — |
-| `eval` | [#eval L181](/verify/taulib/docs/book-iii-spectral-local-fields/eval-l181/) | L181-L181 | computed | — |
-| `eval` | [#eval L182](/verify/taulib/docs/book-iii-spectral-local-fields/eval-l182/) | L182-L182 | computed | — |
-| `eval` | [#eval L183](/verify/taulib/docs/book-iii-spectral-local-fields/eval-l183/) | L183-L183 | computed | — |
-| `eval` | [#eval L186](/verify/taulib/docs/book-iii-spectral-local-fields/eval-l186/) | L186-L186 | computed | — |
-| `eval` | [#eval L187](/verify/taulib/docs/book-iii-spectral-local-fields/eval-l187/) | L187-L187 | computed | — |
-| `eval` | [#eval L188](/verify/taulib/docs/book-iii-spectral-local-fields/eval-l188/) | L188-L188 | computed | — |
-| `eval` | [#eval L189](/verify/taulib/docs/book-iii-spectral-local-fields/eval-l189/) | L189-L189 | computed | — |
-| `theorem` | [local_field_15_4](/verify/taulib/docs/book-iii-spectral-local-fields/local-field-15-4/) | L196-L197 | formalized | `III.D21` |
-| `theorem` | [local_ring_10_4](/verify/taulib/docs/book-iii-spectral-local-fields/local-ring-10-4/) | L200-L201 | formalized | `III.D21` |
-| `theorem` | [completeness_20_5](/verify/taulib/docs/book-iii-spectral-local-fields/completeness-20-5/) | L204-L205 | formalized | `III.P06` |
-| `theorem` | [limit_unique_10_4](/verify/taulib/docs/book-iii-spectral-local-fields/limit-unique-10-4/) | L208-L209 | formalized | `III.P06` |
-| `theorem` | [val_p_is_1](/verify/taulib/docs/book-iii-spectral-local-fields/val-p-is-1/) | L216-L216 | formalized | `III.D21` |
-| `theorem` | [val_p_is_1'](/verify/taulib/docs/book-iii-spectral-local-fields/val-p-is-1-l217/) | L217-L217 | formalized | — |
-| `theorem` | [val_p2](/verify/taulib/docs/book-iii-spectral-local-fields/val-p2/) | L220-L220 | formalized | `III.D21` |
-| `theorem` | [val_p3](/verify/taulib/docs/book-iii-spectral-local-fields/val-p3/) | L221-L221 | formalized | — |
-| `theorem` | [val_zero](/verify/taulib/docs/book-iii-spectral-local-fields/val-zero/) | L224-L224 | formalized | `III.D21` |
-| `theorem` | [tower_42_3](/verify/taulib/docs/book-iii-spectral-local-fields/tower-42-3/) | L227-L230 | formalized | `III.P06` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [LocalFieldElt](/corpus/taulib/docs/book-iii-spectral-local-fields/local-field-elt/) | L36-L40 | type/data schema | type/data schema | `III.D21` |
+| `def` | [to_local](/corpus/taulib/docs/book-iii-spectral-local-fields/to-local/) | L43-L45 | definition | definition | `III.D21` |
+| `def` | [padic_val](/corpus/taulib/docs/book-iii-spectral-local-fields/padic-val/) | L49-L57 | definition | definition | `III.D21` |
+| `def` | [local_field_check](/corpus/taulib/docs/book-iii-spectral-local-fields/local-field-check/) | L61-L80 | data/computed value | data/computed value | `III.D21` |
+| `def` | [local_ring_check](/corpus/taulib/docs/book-iii-spectral-local-fields/local-ring-check/) | L84-L105 | data/computed value | data/computed value | `III.D21` |
+| `def` | [completeness_check](/corpus/taulib/docs/book-iii-spectral-local-fields/completeness-check/) | L115-L139 | data/computed value | data/computed value | `III.P06` |
+| `def` | [limit_uniqueness_check](/corpus/taulib/docs/book-iii-spectral-local-fields/limit-uniqueness-check/) | L143-L168 | data/computed value | data/computed value | `III.P06` |
+| `eval` | [#eval L175](/corpus/taulib/docs/book-iii-spectral-local-fields/eval-l175/) | L175-L175 | computed check | computed check | — |
+| `eval` | [#eval L176](/corpus/taulib/docs/book-iii-spectral-local-fields/eval-l176/) | L176-L176 | computed check | computed check | — |
+| `eval` | [#eval L177](/corpus/taulib/docs/book-iii-spectral-local-fields/eval-l177/) | L177-L177 | computed check | computed check | — |
+| `eval` | [#eval L180](/corpus/taulib/docs/book-iii-spectral-local-fields/eval-l180/) | L180-L180 | computed check | computed check | — |
+| `eval` | [#eval L181](/corpus/taulib/docs/book-iii-spectral-local-fields/eval-l181/) | L181-L181 | computed check | computed check | — |
+| `eval` | [#eval L182](/corpus/taulib/docs/book-iii-spectral-local-fields/eval-l182/) | L182-L182 | computed check | computed check | — |
+| `eval` | [#eval L183](/corpus/taulib/docs/book-iii-spectral-local-fields/eval-l183/) | L183-L183 | computed check | computed check | — |
+| `eval` | [#eval L186](/corpus/taulib/docs/book-iii-spectral-local-fields/eval-l186/) | L186-L186 | computed check | computed check | — |
+| `eval` | [#eval L187](/corpus/taulib/docs/book-iii-spectral-local-fields/eval-l187/) | L187-L187 | computed check | computed check | — |
+| `eval` | [#eval L188](/corpus/taulib/docs/book-iii-spectral-local-fields/eval-l188/) | L188-L188 | computed check | computed check | — |
+| `eval` | [#eval L189](/corpus/taulib/docs/book-iii-spectral-local-fields/eval-l189/) | L189-L189 | computed check | computed check | — |
+| `theorem` | [local_field_15_4](/corpus/taulib/docs/book-iii-spectral-local-fields/local-field-15-4/) | L196-L197 | proof obligation | formal proof obligation checked | `III.D21` |
+| `theorem` | [local_ring_10_4](/corpus/taulib/docs/book-iii-spectral-local-fields/local-ring-10-4/) | L200-L201 | proof obligation | formal proof obligation checked | `III.D21` |
+| `theorem` | [completeness_20_5](/corpus/taulib/docs/book-iii-spectral-local-fields/completeness-20-5/) | L204-L205 | proof obligation | formal proof obligation checked | `III.P06` |
+| `theorem` | [limit_unique_10_4](/corpus/taulib/docs/book-iii-spectral-local-fields/limit-unique-10-4/) | L208-L209 | proof obligation | formal proof obligation checked | `III.P06` |
+| `theorem` | [val_p_is_1](/corpus/taulib/docs/book-iii-spectral-local-fields/val-p-is-1/) | L216-L216 | proof obligation | formal proof obligation checked | `III.D21` |
+| `theorem` | [val_p_is_1'](/corpus/taulib/docs/book-iii-spectral-local-fields/val-p-is-1-l217/) | L217-L217 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [val_p2](/corpus/taulib/docs/book-iii-spectral-local-fields/val-p2/) | L220-L220 | proof obligation | formal proof obligation checked | `III.D21` |
+| `theorem` | [val_p3](/corpus/taulib/docs/book-iii-spectral-local-fields/val-p3/) | L221-L221 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [val_zero](/corpus/taulib/docs/book-iii-spectral-local-fields/val-zero/) | L224-L224 | proof obligation | formal proof obligation checked | `III.D21` |
+| `theorem` | [tower_42_3](/corpus/taulib/docs/book-iii-spectral-local-fields/tower-42-3/) | L227-L230 | proof obligation | formal proof obligation checked | `III.P06` |

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "goldbach_primorial_m4",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-primorial-m4/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/goldbach-primorial-m4/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Spectral.GoldbachDeep`.",
   "declaration_id": "TauLib.BookIII.Spectral.GoldbachDeep::goldbach_primorial_m4",
   "declaration_slug": "goldbach-primorial-m4",
   "kind": "theorem",
   "name": "goldbach_primorial_m4",
   "module_name": "TauLib.BookIII.Spectral.GoldbachDeep",
-  "module_url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/",
   "source_line_start": 178,
   "source_line_end": 179,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/GoldbachDeep.lean#L178-L179",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectral.GoldbachDeep",
-        "url": "/verify/taulib/docs/book-iii-spectral-goldbach-deep/"
+        "url": "/corpus/taulib/docs/book-iii-spectral-goldbach-deep/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectral.GoldbachDeep](/verify/taulib/docs/book-iii-spectral-goldbach-deep/)
+- Module: [TauLib.BookIII.Spectral.GoldbachDeep](/corpus/taulib/docs/book-iii-spectral-goldbach-deep/)
 - Source path: [`TauLib/BookIII/Spectral/GoldbachDeep.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/GoldbachDeep.lean#L178-L179)
 - Source range: L178-L179
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

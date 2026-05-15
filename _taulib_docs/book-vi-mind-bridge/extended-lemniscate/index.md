@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ExtendedLemniscate",
-  "permalink": "/verify/taulib/docs/book-vi-mind-bridge/extended-lemniscate/",
+  "permalink": "/corpus/taulib/docs/book-vi-mind-bridge/extended-lemniscate/",
   "summary_short": "`structure` declaration in `TauLib.BookVI.Mind.Bridge`.",
   "declaration_id": "TauLib.BookVI.Mind.Bridge::ExtendedLemniscate",
   "declaration_slug": "extended-lemniscate",
   "kind": "structure",
   "name": "ExtendedLemniscate",
   "module_name": "TauLib.BookVI.Mind.Bridge",
-  "module_url": "/verify/taulib/docs/book-vi-mind-bridge/",
+  "module_url": "/corpus/taulib/docs/book-vi-mind-bridge/",
   "source_line_start": 70,
   "source_line_end": 79,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Mind/Bridge.lean#L70-L79",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Mind.Bridge",
-        "url": "/verify/taulib/docs/book-vi-mind-bridge/"
+        "url": "/corpus/taulib/docs/book-vi-mind-bridge/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Mind.Bridge](/verify/taulib/docs/book-vi-mind-bridge/)
+- Module: [TauLib.BookVI.Mind.Bridge](/corpus/taulib/docs/book-vi-mind-bridge/)
 - Source path: [`TauLib/BookVI/Mind/Bridge.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Mind/Bridge.lean#L70-L79)
 - Source range: L70-L79
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.Tour.MillenniumProblems",
-  "permalink": "/verify/taulib/docs/tour-millennium-problems/",
+  "permalink": "/corpus/taulib/docs/tour-millennium-problems/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.Tour.MillenniumProblems`.",
   "module_name": "TauLib.Tour.MillenniumProblems",
   "module_slug": "tour-millennium-problems",
@@ -30,10 +30,12 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-millennium-problems/eval-l195/",
+      "url": "/corpus/taulib/docs/tour-millennium-problems/eval-l195/",
       "source_line_start": 195,
       "source_line_end": 226,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -45,7 +47,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -117,6 +119,6 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `eval` | [#eval L195](/verify/taulib/docs/tour-millennium-problems/eval-l195/) | L195-L226 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `eval` | [#eval L195](/corpus/taulib/docs/tour-millennium-problems/eval-l195/) | L195-L226 | computed check | computed check | — |

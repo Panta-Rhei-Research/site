@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "hyperfact_D_unique_of_BC",
-  "permalink": "/verify/taulib/docs/book-i-coordinates-hyperfact-prop/hyperfact-d-unique-of-bc/",
+  "permalink": "/corpus/taulib/docs/book-i-coordinates-hyperfact-prop/hyperfact-d-unique-of-bc/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Coordinates.HyperfactProp`.",
   "declaration_id": "TauLib.BookI.Coordinates.HyperfactProp::hyperfact_D_unique_of_BC",
   "declaration_slug": "hyperfact-d-unique-of-bc",
   "kind": "theorem",
   "name": "hyperfact_D_unique_of_BC",
   "module_name": "TauLib.BookI.Coordinates.HyperfactProp",
-  "module_url": "/verify/taulib/docs/book-i-coordinates-hyperfact-prop/",
+  "module_url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-prop/",
   "source_line_start": 108,
   "source_line_end": 114,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/HyperfactProp.lean#L108-L114",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Coordinates.HyperfactProp",
-        "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-prop/"
+        "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-prop/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Coordinates.HyperfactProp](/verify/taulib/docs/book-i-coordinates-hyperfact-prop/)
+- Module: [TauLib.BookI.Coordinates.HyperfactProp](/corpus/taulib/docs/book-i-coordinates-hyperfact-prop/)
 - Source path: [`TauLib/BookI/Coordinates/HyperfactProp.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/HyperfactProp.lean#L108-L114)
 - Source range: L108-L114
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

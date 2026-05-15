@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "self_model_check",
-  "permalink": "/verify/taulib/docs/book-iii-mirror-proof-theory-e3/self-model-check/",
+  "permalink": "/corpus/taulib/docs/book-iii-mirror-proof-theory-e3/self-model-check/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Mirror.ProofTheoryE3`.",
   "declaration_id": "TauLib.BookIII.Mirror.ProofTheoryE3::self_model_check",
   "declaration_slug": "self-model-check",
   "kind": "def",
   "name": "self_model_check",
   "module_name": "TauLib.BookIII.Mirror.ProofTheoryE3",
-  "module_url": "/verify/taulib/docs/book-iii-mirror-proof-theory-e3/",
+  "module_url": "/corpus/taulib/docs/book-iii-mirror-proof-theory-e3/",
   "source_line_start": 158,
   "source_line_end": 176,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Mirror/ProofTheoryE3.lean#L158-L176",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Mirror.ProofTheoryE3",
-        "url": "/verify/taulib/docs/book-iii-mirror-proof-theory-e3/"
+        "url": "/corpus/taulib/docs/book-iii-mirror-proof-theory-e3/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Mirror.ProofTheoryE3](/verify/taulib/docs/book-iii-mirror-proof-theory-e3/)
+- Module: [TauLib.BookIII.Mirror.ProofTheoryE3](/corpus/taulib/docs/book-iii-mirror-proof-theory-e3/)
 - Source path: [`TauLib/BookIII/Mirror/ProofTheoryE3.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Mirror/ProofTheoryE3.lean#L158-L176)
 - Source range: L158-L176
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

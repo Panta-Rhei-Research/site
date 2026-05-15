@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.Sectors.ModeCensus",
-  "permalink": "/verify/taulib/docs/book-iv-sectors-mode-census/",
+  "permalink": "/corpus/taulib/docs/book-iv-sectors-mode-census/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.Sectors.ModeCensus`.",
   "module_name": "TauLib.BookIV.Sectors.ModeCensus",
   "module_slug": "book-iv-sectors-mode-census",
@@ -35,28 +35,34 @@
     {
       "kind": "inductive",
       "name": "Gen5",
-      "url": "/verify/taulib/docs/book-iv-sectors-mode-census/gen5/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-mode-census/gen5/",
       "source_line_start": 45,
       "source_line_end": 51,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "inductive",
       "name": "LobeConfig",
-      "url": "/verify/taulib/docs/book-iv-sectors-mode-census/lobe-config/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-mode-census/lobe-config/",
       "source_line_start": 54,
       "source_line_end": 58,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "BoundaryMode",
-      "url": "/verify/taulib/docs/book-iv-sectors-mode-census/boundary-mode/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-mode-census/boundary-mode/",
       "source_line_start": 62,
       "source_line_end": 65,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D49"
       ]
@@ -64,19 +70,23 @@
     {
       "kind": "def",
       "name": "BoundaryMode.emActive",
-      "url": "/verify/taulib/docs/book-iv-sectors-mode-census/em-active/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-mode-census/em-active/",
       "source_line_start": 79,
       "source_line_end": 86,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "allModes",
-      "url": "/verify/taulib/docs/book-iv-sectors-mode-census/all-modes/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-mode-census/all-modes/",
       "source_line_start": 93,
       "source_line_end": 98,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "IV.D49"
       ]
@@ -84,28 +94,34 @@
     {
       "kind": "def",
       "name": "activeModes",
-      "url": "/verify/taulib/docs/book-iv-sectors-mode-census/active-modes/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-mode-census/active-modes/",
       "source_line_start": 101,
       "source_line_end": 101,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "silentModes",
-      "url": "/verify/taulib/docs/book-iv-sectors-mode-census/silent-modes/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-mode-census/silent-modes/",
       "source_line_start": 104,
       "source_line_end": 104,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "mode_total",
-      "url": "/verify/taulib/docs/book-iv-sectors-mode-census/mode-total/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-mode-census/mode-total/",
       "source_line_start": 111,
       "source_line_end": 111,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T16"
       ]
@@ -113,10 +129,12 @@
     {
       "kind": "theorem",
       "name": "active_count",
-      "url": "/verify/taulib/docs/book-iv-sectors-mode-census/active-count/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-mode-census/active-count/",
       "source_line_start": 114,
       "source_line_end": 114,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T16"
       ]
@@ -124,10 +142,12 @@
     {
       "kind": "theorem",
       "name": "silent_count",
-      "url": "/verify/taulib/docs/book-iv-sectors-mode-census/silent-count/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-mode-census/silent-count/",
       "source_line_start": 117,
       "source_line_end": 117,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T16"
       ]
@@ -135,19 +155,23 @@
     {
       "kind": "theorem",
       "name": "active_plus_silent",
-      "url": "/verify/taulib/docs/book-iv-sectors-mode-census/active-plus-silent/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-mode-census/active-plus-silent/",
       "source_line_start": 120,
       "source_line_end": 121,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "charge_fraction_square",
-      "url": "/verify/taulib/docs/book-iv-sectors-mode-census/charge-fraction-square/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-mode-census/charge-fraction-square/",
       "source_line_start": 129,
       "source_line_end": 129,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.P08"
       ]
@@ -155,64 +179,78 @@
     {
       "kind": "theorem",
       "name": "silent_modes_are_gravity_plus_Z0",
-      "url": "/verify/taulib/docs/book-iv-sectors-mode-census/silent-modes-are-gravity-plus-z0/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-mode-census/silent-modes-are-gravity-plus-z0/",
       "source_line_start": 132,
       "source_line_end": 137,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "euler_sieve_identity",
-      "url": "/verify/taulib/docs/book-iv-sectors-mode-census/euler-sieve-identity/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-mode-census/euler-sieve-identity/",
       "source_line_start": 145,
       "source_line_end": 146,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "s5_correction",
-      "url": "/verify/taulib/docs/book-iv-sectors-mode-census/s5-correction/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-mode-census/s5-correction/",
       "source_line_start": 149,
       "source_line_end": 149,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "mode_product",
-      "url": "/verify/taulib/docs/book-iv-sectors-mode-census/mode-product/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-mode-census/mode-product/",
       "source_line_start": 152,
       "source_line_end": 152,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-sectors-mode-census/eval-l158/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-mode-census/eval-l158/",
       "source_line_start": 158,
       "source_line_end": 158,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-sectors-mode-census/eval-l159/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-mode-census/eval-l159/",
       "source_line_start": 159,
       "source_line_end": 159,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-sectors-mode-census/eval-l160/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-mode-census/eval-l160/",
       "source_line_start": 160,
       "source_line_end": 162,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -224,7 +262,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -299,24 +337,24 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [Gen5](/verify/taulib/docs/book-iv-sectors-mode-census/gen5/) | L45-L51 | defined | — |
-| `inductive` | [LobeConfig](/verify/taulib/docs/book-iv-sectors-mode-census/lobe-config/) | L54-L58 | defined | — |
-| `structure` | [BoundaryMode](/verify/taulib/docs/book-iv-sectors-mode-census/boundary-mode/) | L62-L65 | defined | `IV.D49` |
-| `def` | [BoundaryMode.emActive](/verify/taulib/docs/book-iv-sectors-mode-census/em-active/) | L79-L86 | defined | — |
-| `def` | [allModes](/verify/taulib/docs/book-iv-sectors-mode-census/all-modes/) | L93-L98 | defined | `IV.D49` |
-| `def` | [activeModes](/verify/taulib/docs/book-iv-sectors-mode-census/active-modes/) | L101-L101 | defined | — |
-| `def` | [silentModes](/verify/taulib/docs/book-iv-sectors-mode-census/silent-modes/) | L104-L104 | defined | — |
-| `theorem` | [mode_total](/verify/taulib/docs/book-iv-sectors-mode-census/mode-total/) | L111-L111 | formalized | `IV.T16` |
-| `theorem` | [active_count](/verify/taulib/docs/book-iv-sectors-mode-census/active-count/) | L114-L114 | formalized | `IV.T16` |
-| `theorem` | [silent_count](/verify/taulib/docs/book-iv-sectors-mode-census/silent-count/) | L117-L117 | formalized | `IV.T16` |
-| `theorem` | [active_plus_silent](/verify/taulib/docs/book-iv-sectors-mode-census/active-plus-silent/) | L120-L121 | formalized | — |
-| `theorem` | [charge_fraction_square](/verify/taulib/docs/book-iv-sectors-mode-census/charge-fraction-square/) | L129-L129 | formalized | `IV.P08` |
-| `theorem` | [silent_modes_are_gravity_plus_Z0](/verify/taulib/docs/book-iv-sectors-mode-census/silent-modes-are-gravity-plus-z0/) | L132-L137 | formalized | — |
-| `theorem` | [euler_sieve_identity](/verify/taulib/docs/book-iv-sectors-mode-census/euler-sieve-identity/) | L145-L146 | formalized | — |
-| `theorem` | [s5_correction](/verify/taulib/docs/book-iv-sectors-mode-census/s5-correction/) | L149-L149 | formalized | — |
-| `theorem` | [mode_product](/verify/taulib/docs/book-iv-sectors-mode-census/mode-product/) | L152-L152 | formalized | — |
-| `eval` | [#eval L158](/verify/taulib/docs/book-iv-sectors-mode-census/eval-l158/) | L158-L158 | computed | — |
-| `eval` | [#eval L159](/verify/taulib/docs/book-iv-sectors-mode-census/eval-l159/) | L159-L159 | computed | — |
-| `eval` | [#eval L160](/verify/taulib/docs/book-iv-sectors-mode-census/eval-l160/) | L160-L162 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [Gen5](/corpus/taulib/docs/book-iv-sectors-mode-census/gen5/) | L45-L51 | type/data schema | type/data schema | — |
+| `inductive` | [LobeConfig](/corpus/taulib/docs/book-iv-sectors-mode-census/lobe-config/) | L54-L58 | type/data schema | type/data schema | — |
+| `structure` | [BoundaryMode](/corpus/taulib/docs/book-iv-sectors-mode-census/boundary-mode/) | L62-L65 | type/data schema | type/data schema | `IV.D49` |
+| `def` | [BoundaryMode.emActive](/corpus/taulib/docs/book-iv-sectors-mode-census/em-active/) | L79-L86 | definition | definition | — |
+| `def` | [allModes](/corpus/taulib/docs/book-iv-sectors-mode-census/all-modes/) | L93-L98 | data/computed value | data/computed value | `IV.D49` |
+| `def` | [activeModes](/corpus/taulib/docs/book-iv-sectors-mode-census/active-modes/) | L101-L101 | data/computed value | data/computed value | — |
+| `def` | [silentModes](/corpus/taulib/docs/book-iv-sectors-mode-census/silent-modes/) | L104-L104 | data/computed value | data/computed value | — |
+| `theorem` | [mode_total](/corpus/taulib/docs/book-iv-sectors-mode-census/mode-total/) | L111-L111 | proof obligation | formal proof obligation checked | `IV.T16` |
+| `theorem` | [active_count](/corpus/taulib/docs/book-iv-sectors-mode-census/active-count/) | L114-L114 | proof obligation | formal proof obligation checked | `IV.T16` |
+| `theorem` | [silent_count](/corpus/taulib/docs/book-iv-sectors-mode-census/silent-count/) | L117-L117 | proof obligation | formal proof obligation checked | `IV.T16` |
+| `theorem` | [active_plus_silent](/corpus/taulib/docs/book-iv-sectors-mode-census/active-plus-silent/) | L120-L121 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [charge_fraction_square](/corpus/taulib/docs/book-iv-sectors-mode-census/charge-fraction-square/) | L129-L129 | proof obligation | formal proof obligation checked | `IV.P08` |
+| `theorem` | [silent_modes_are_gravity_plus_Z0](/corpus/taulib/docs/book-iv-sectors-mode-census/silent-modes-are-gravity-plus-z0/) | L132-L137 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [euler_sieve_identity](/corpus/taulib/docs/book-iv-sectors-mode-census/euler-sieve-identity/) | L145-L146 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [s5_correction](/corpus/taulib/docs/book-iv-sectors-mode-census/s5-correction/) | L149-L149 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [mode_product](/corpus/taulib/docs/book-iv-sectors-mode-census/mode-product/) | L152-L152 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L158](/corpus/taulib/docs/book-iv-sectors-mode-census/eval-l158/) | L158-L158 | computed check | computed check | — |
+| `eval` | [#eval L159](/corpus/taulib/docs/book-iv-sectors-mode-census/eval-l159/) | L159-L159 | computed check | computed check | — |
+| `eval` | [#eval L160](/corpus/taulib/docs/book-iv-sectors-mode-census/eval-l160/) | L160-L162 | computed check | computed check | — |

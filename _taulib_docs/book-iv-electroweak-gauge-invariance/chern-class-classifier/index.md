@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "chern_class_classifier",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance/chern-class-classifier/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance/chern-class-classifier/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Electroweak.GaugeInvariance`.",
   "declaration_id": "TauLib.BookIV.Electroweak.GaugeInvariance::chern_class_classifier",
   "declaration_slug": "chern-class-classifier",
   "kind": "theorem",
   "name": "chern_class_classifier",
   "module_name": "TauLib.BookIV.Electroweak.GaugeInvariance",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance/",
   "source_line_start": 304,
   "source_line_end": 306,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/GaugeInvariance.lean#L304-L306",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.GaugeInvariance",
-        "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.GaugeInvariance](/verify/taulib/docs/book-iv-electroweak-gauge-invariance/)
+- Module: [TauLib.BookIV.Electroweak.GaugeInvariance](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance/)
 - Source path: [`TauLib/BookIV/Electroweak/GaugeInvariance.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/GaugeInvariance.lean#L304-L306)
 - Source range: L304-L306
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

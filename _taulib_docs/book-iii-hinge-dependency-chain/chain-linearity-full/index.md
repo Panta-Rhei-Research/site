@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "chain_linearity_full",
-  "permalink": "/verify/taulib/docs/book-iii-hinge-dependency-chain/chain-linearity-full/",
+  "permalink": "/corpus/taulib/docs/book-iii-hinge-dependency-chain/chain-linearity-full/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Hinge.DependencyChain`.",
   "declaration_id": "TauLib.BookIII.Hinge.DependencyChain::chain_linearity_full",
   "declaration_slug": "chain-linearity-full",
   "kind": "theorem",
   "name": "chain_linearity_full",
   "module_name": "TauLib.BookIII.Hinge.DependencyChain",
-  "module_url": "/verify/taulib/docs/book-iii-hinge-dependency-chain/",
+  "module_url": "/corpus/taulib/docs/book-iii-hinge-dependency-chain/",
   "source_line_start": 299,
   "source_line_end": 300,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Hinge/DependencyChain.lean#L299-L300",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Hinge.DependencyChain",
-        "url": "/verify/taulib/docs/book-iii-hinge-dependency-chain/"
+        "url": "/corpus/taulib/docs/book-iii-hinge-dependency-chain/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Hinge.DependencyChain](/verify/taulib/docs/book-iii-hinge-dependency-chain/)
+- Module: [TauLib.BookIII.Hinge.DependencyChain](/corpus/taulib/docs/book-iii-hinge-dependency-chain/)
 - Source path: [`TauLib/BookIII/Hinge/DependencyChain.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Hinge/DependencyChain.lean#L299-L300)
 - Source range: L299-L300
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

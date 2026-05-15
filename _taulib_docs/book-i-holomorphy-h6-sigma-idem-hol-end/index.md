@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Holomorphy.H6SigmaIdemHolEnd",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Holomorphy.H6SigmaIdemHolEnd`.",
   "module_name": "TauLib.BookI.Holomorphy.H6SigmaIdemHolEnd",
   "module_slug": "book-i-holomorphy-h6-sigma-idem-hol-end",
@@ -36,118 +36,144 @@
     {
       "kind": "def",
       "name": "sigma_conjugate_transformer",
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/sigma-conjugate-transformer/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/sigma-conjugate-transformer/",
       "source_line_start": 116,
       "source_line_end": 118,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "sigma_anti_holomorphy_witness",
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/sigma-anti-holomorphy-witness/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/sigma-anti-holomorphy-witness/",
       "source_line_start": 135,
       "source_line_end": 140,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "sigma_conjugate_involutive",
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/sigma-conjugate-involutive/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/sigma-conjugate-involutive/",
       "source_line_start": 153,
       "source_line_end": 163,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "idem_supported_holomorphy_witness",
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/idem-supported-holomorphy-witness/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/idem-supported-holomorphy-witness/",
       "source_line_start": 178,
       "source_line_end": 182,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "idem_orthogonality_for_decomposition",
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/idem-orthogonality-for-decomposition/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/idem-orthogonality-for-decomposition/",
       "source_line_start": 187,
       "source_line_end": 189,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "HolEndObject",
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/hol-end-object/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/hol-end-object/",
       "source_line_start": 203,
       "source_line_end": 206,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "Intertwines",
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/intertwines/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/intertwines/",
       "source_line_start": 216,
       "source_line_end": 217,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "holend_identity_intertwines",
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/holend-identity-intertwines/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/holend-identity-intertwines/",
       "source_line_start": 224,
       "source_line_end": 227,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "holend_composition_intertwines",
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/holend-composition-intertwines/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/holend-composition-intertwines/",
       "source_line_start": 233,
       "source_line_end": 240,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "pre_yoneda_collapse_witness",
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/pre-yoneda-collapse-witness/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/pre-yoneda-collapse-witness/",
       "source_line_start": 258,
       "source_line_end": 261,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "pre_yoneda_address_equivalence_witness",
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/pre-yoneda-address-equivalence-witness/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/pre-yoneda-address-equivalence-witness/",
       "source_line_start": 267,
       "source_line_end": 270,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "h6_section8_9_synthesis",
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/h6-section8-9-synthesis/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/h6-section8-9-synthesis/",
       "source_line_start": 292,
       "source_line_end": 308,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "h6_closure_synthesis",
-      "url": "/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/h6-closure-synthesis/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/h6-closure-synthesis/",
       "source_line_start": 339,
       "source_line_end": 362,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -159,7 +185,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -229,18 +255,18 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [sigma_conjugate_transformer](/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/sigma-conjugate-transformer/) | L116-L118 | defined | — |
-| `theorem` | [sigma_anti_holomorphy_witness](/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/sigma-anti-holomorphy-witness/) | L135-L140 | formalized | — |
-| `theorem` | [sigma_conjugate_involutive](/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/sigma-conjugate-involutive/) | L153-L163 | formalized | — |
-| `theorem` | [idem_supported_holomorphy_witness](/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/idem-supported-holomorphy-witness/) | L178-L182 | formalized | — |
-| `theorem` | [idem_orthogonality_for_decomposition](/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/idem-orthogonality-for-decomposition/) | L187-L189 | formalized | — |
-| `structure` | [HolEndObject](/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/hol-end-object/) | L203-L206 | defined | — |
-| `def` | [Intertwines](/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/intertwines/) | L216-L217 | defined | — |
-| `theorem` | [holend_identity_intertwines](/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/holend-identity-intertwines/) | L224-L227 | formalized | — |
-| `theorem` | [holend_composition_intertwines](/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/holend-composition-intertwines/) | L233-L240 | formalized | — |
-| `theorem` | [pre_yoneda_collapse_witness](/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/pre-yoneda-collapse-witness/) | L258-L261 | formalized | — |
-| `theorem` | [pre_yoneda_address_equivalence_witness](/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/pre-yoneda-address-equivalence-witness/) | L267-L270 | formalized | — |
-| `theorem` | [h6_section8_9_synthesis](/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/h6-section8-9-synthesis/) | L292-L308 | formalized | — |
-| `theorem` | [h6_closure_synthesis](/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/h6-closure-synthesis/) | L339-L362 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [sigma_conjugate_transformer](/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/sigma-conjugate-transformer/) | L116-L118 | definition | definition | — |
+| `theorem` | [sigma_anti_holomorphy_witness](/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/sigma-anti-holomorphy-witness/) | L135-L140 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [sigma_conjugate_involutive](/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/sigma-conjugate-involutive/) | L153-L163 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [idem_supported_holomorphy_witness](/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/idem-supported-holomorphy-witness/) | L178-L182 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [idem_orthogonality_for_decomposition](/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/idem-orthogonality-for-decomposition/) | L187-L189 | proof obligation | formal proof obligation checked | — |
+| `structure` | [HolEndObject](/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/hol-end-object/) | L203-L206 | type/data schema | type/data schema | — |
+| `def` | [Intertwines](/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/intertwines/) | L216-L217 | definition | definition | — |
+| `theorem` | [holend_identity_intertwines](/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/holend-identity-intertwines/) | L224-L227 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [holend_composition_intertwines](/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/holend-composition-intertwines/) | L233-L240 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [pre_yoneda_collapse_witness](/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/pre-yoneda-collapse-witness/) | L258-L261 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [pre_yoneda_address_equivalence_witness](/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/pre-yoneda-address-equivalence-witness/) | L267-L270 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [h6_section8_9_synthesis](/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/h6-section8-9-synthesis/) | L292-L308 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [h6_closure_synthesis](/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/h6-closure-synthesis/) | L339-L362 | proof obligation | formal proof obligation checked | — |

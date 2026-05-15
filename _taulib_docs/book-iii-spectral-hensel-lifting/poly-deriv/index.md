@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "poly_deriv",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-hensel-lifting/poly-deriv/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-hensel-lifting/poly-deriv/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Spectral.HenselLifting`.",
   "declaration_id": "TauLib.BookIII.Spectral.HenselLifting::poly_deriv",
   "declaration_slug": "poly-deriv",
   "kind": "def",
   "name": "poly_deriv",
   "module_name": "TauLib.BookIII.Spectral.HenselLifting",
-  "module_url": "/verify/taulib/docs/book-iii-spectral-hensel-lifting/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectral-hensel-lifting/",
   "source_line_start": 52,
   "source_line_end": 54,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/HenselLifting.lean#L52-L54",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectral.HenselLifting",
-        "url": "/verify/taulib/docs/book-iii-spectral-hensel-lifting/"
+        "url": "/corpus/taulib/docs/book-iii-spectral-hensel-lifting/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectral.HenselLifting](/verify/taulib/docs/book-iii-spectral-hensel-lifting/)
+- Module: [TauLib.BookIII.Spectral.HenselLifting](/corpus/taulib/docs/book-iii-spectral-hensel-lifting/)
 - Source path: [`TauLib/BookIII/Spectral/HenselLifting.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/HenselLifting.lean#L52-L54)
 - Source range: L52-L54
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

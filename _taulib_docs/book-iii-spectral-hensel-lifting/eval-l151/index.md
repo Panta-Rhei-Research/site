@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L151",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-hensel-lifting/eval-l151/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-hensel-lifting/eval-l151/",
   "summary_short": "`eval` declaration in `TauLib.BookIII.Spectral.HenselLifting`.",
   "declaration_id": "TauLib.BookIII.Spectral.HenselLifting::#eval:151",
   "declaration_slug": "eval-l151",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIII.Spectral.HenselLifting",
-  "module_url": "/verify/taulib/docs/book-iii-spectral-hensel-lifting/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectral-hensel-lifting/",
   "source_line_start": 151,
   "source_line_end": 151,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/HenselLifting.lean#L151-L151",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectral.HenselLifting",
-        "url": "/verify/taulib/docs/book-iii-spectral-hensel-lifting/"
+        "url": "/corpus/taulib/docs/book-iii-spectral-hensel-lifting/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectral.HenselLifting](/verify/taulib/docs/book-iii-spectral-hensel-lifting/)
+- Module: [TauLib.BookIII.Spectral.HenselLifting](/corpus/taulib/docs/book-iii-spectral-hensel-lifting/)
 - Source path: [`TauLib/BookIII/Spectral/HenselLifting.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/HenselLifting.lean#L151-L151)
 - Source range: L151-L151
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

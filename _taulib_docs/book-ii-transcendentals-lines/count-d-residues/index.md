@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "count_d_residues",
-  "permalink": "/verify/taulib/docs/book-ii-transcendentals-lines/count-d-residues/",
+  "permalink": "/corpus/taulib/docs/book-ii-transcendentals-lines/count-d-residues/",
   "summary_short": "`def` declaration in `TauLib.BookII.Transcendentals.Lines`.",
   "declaration_id": "TauLib.BookII.Transcendentals.Lines::count_d_residues",
   "declaration_slug": "count-d-residues",
   "kind": "def",
   "name": "count_d_residues",
   "module_name": "TauLib.BookII.Transcendentals.Lines",
-  "module_url": "/verify/taulib/docs/book-ii-transcendentals-lines/",
+  "module_url": "/corpus/taulib/docs/book-ii-transcendentals-lines/",
   "source_line_start": 77,
   "source_line_end": 86,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Transcendentals/Lines.lean#L77-L86",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Transcendentals.Lines",
-        "url": "/verify/taulib/docs/book-ii-transcendentals-lines/"
+        "url": "/corpus/taulib/docs/book-ii-transcendentals-lines/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Transcendentals.Lines](/verify/taulib/docs/book-ii-transcendentals-lines/)
+- Module: [TauLib.BookII.Transcendentals.Lines](/corpus/taulib/docs/book-ii-transcendentals-lines/)
 - Source path: [`TauLib/BookII/Transcendentals/Lines.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Transcendentals/Lines.lean#L77-L86)
 - Source range: L77-L86
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

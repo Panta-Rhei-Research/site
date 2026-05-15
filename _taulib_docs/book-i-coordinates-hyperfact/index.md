@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Coordinates.Hyperfact",
-  "permalink": "/verify/taulib/docs/book-i-coordinates-hyperfact/",
+  "permalink": "/corpus/taulib/docs/book-i-coordinates-hyperfact/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Coordinates.Hyperfact`.",
   "module_name": "TauLib.BookI.Coordinates.Hyperfact",
   "module_slug": "book-i-coordinates-hyperfact",
@@ -35,28 +35,34 @@
     {
       "kind": "def",
       "name": "ValidABCD",
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact/valid-abcd/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact/valid-abcd/",
       "source_line_start": 42,
       "source_line_end": 45,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "valid_abcd_check",
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact/valid-abcd-check/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact/valid-abcd-check/",
       "source_line_start": 48,
       "source_line_end": 51,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "hyperfact_check",
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact/hyperfact-check/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact/hyperfact-check/",
       "source_line_start": 61,
       "source_line_end": 70,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "I.T04"
       ]
@@ -64,10 +70,12 @@
     {
       "kind": "def",
       "name": "tau_encode",
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact/tau-encode/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact/tau-encode/",
       "source_line_start": 78,
       "source_line_end": 79,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "I.C01"
       ]
@@ -75,145 +83,177 @@
     {
       "kind": "def",
       "name": "tau_decode",
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact/tau-decode/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact/tau-decode/",
       "source_line_start": 82,
       "source_line_end": 83,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "encoding_check",
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact/encoding-check/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact/encoding-check/",
       "source_line_start": 86,
       "source_line_end": 87,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "injectivity_check_go",
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact/injectivity-check-go/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact/injectivity-check-go/",
       "source_line_start": 94,
       "source_line_end": 100,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "injectivity_check",
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact/injectivity-check/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact/injectivity-check/",
       "source_line_start": 102,
       "source_line_end": 102,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact/eval-l109/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact/eval-l109/",
       "source_line_start": 109,
       "source_line_end": 109,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact/eval-l110/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact/eval-l110/",
       "source_line_start": 110,
       "source_line_end": 110,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact/eval-l111/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact/eval-l111/",
       "source_line_start": 111,
       "source_line_end": 111,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact/eval-l112/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact/eval-l112/",
       "source_line_start": 112,
       "source_line_end": 112,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact/eval-l113/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact/eval-l113/",
       "source_line_start": 113,
       "source_line_end": 113,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact/eval-l116/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact/eval-l116/",
       "source_line_start": 116,
       "source_line_end": 116,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact/eval-l117/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact/eval-l117/",
       "source_line_start": 117,
       "source_line_end": 117,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact/eval-l118/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact/eval-l118/",
       "source_line_start": 118,
       "source_line_end": 118,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact/eval-l119/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact/eval-l119/",
       "source_line_start": 119,
       "source_line_end": 119,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact/eval-l120/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact/eval-l120/",
       "source_line_start": 120,
       "source_line_end": 120,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact/eval-l121/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact/eval-l121/",
       "source_line_start": 121,
       "source_line_end": 121,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact/eval-l124/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact/eval-l124/",
       "source_line_start": 124,
       "source_line_end": 126,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -225,7 +265,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -298,25 +338,25 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [ValidABCD](/verify/taulib/docs/book-i-coordinates-hyperfact/valid-abcd/) | L42-L45 | defined | — |
-| `def` | [valid_abcd_check](/verify/taulib/docs/book-i-coordinates-hyperfact/valid-abcd-check/) | L48-L51 | defined | — |
-| `def` | [hyperfact_check](/verify/taulib/docs/book-i-coordinates-hyperfact/hyperfact-check/) | L61-L70 | defined | `I.T04` |
-| `def` | [tau_encode](/verify/taulib/docs/book-i-coordinates-hyperfact/tau-encode/) | L78-L79 | defined | `I.C01` |
-| `def` | [tau_decode](/verify/taulib/docs/book-i-coordinates-hyperfact/tau-decode/) | L82-L83 | defined | — |
-| `def` | [encoding_check](/verify/taulib/docs/book-i-coordinates-hyperfact/encoding-check/) | L86-L87 | defined | — |
-| `def` | [injectivity_check_go](/verify/taulib/docs/book-i-coordinates-hyperfact/injectivity-check-go/) | L94-L100 | defined | — |
-| `def` | [injectivity_check](/verify/taulib/docs/book-i-coordinates-hyperfact/injectivity-check/) | L102-L102 | defined | — |
-| `eval` | [#eval L109](/verify/taulib/docs/book-i-coordinates-hyperfact/eval-l109/) | L109-L109 | computed | — |
-| `eval` | [#eval L110](/verify/taulib/docs/book-i-coordinates-hyperfact/eval-l110/) | L110-L110 | computed | — |
-| `eval` | [#eval L111](/verify/taulib/docs/book-i-coordinates-hyperfact/eval-l111/) | L111-L111 | computed | — |
-| `eval` | [#eval L112](/verify/taulib/docs/book-i-coordinates-hyperfact/eval-l112/) | L112-L112 | computed | — |
-| `eval` | [#eval L113](/verify/taulib/docs/book-i-coordinates-hyperfact/eval-l113/) | L113-L113 | computed | — |
-| `eval` | [#eval L116](/verify/taulib/docs/book-i-coordinates-hyperfact/eval-l116/) | L116-L116 | computed | — |
-| `eval` | [#eval L117](/verify/taulib/docs/book-i-coordinates-hyperfact/eval-l117/) | L117-L117 | computed | — |
-| `eval` | [#eval L118](/verify/taulib/docs/book-i-coordinates-hyperfact/eval-l118/) | L118-L118 | computed | — |
-| `eval` | [#eval L119](/verify/taulib/docs/book-i-coordinates-hyperfact/eval-l119/) | L119-L119 | computed | — |
-| `eval` | [#eval L120](/verify/taulib/docs/book-i-coordinates-hyperfact/eval-l120/) | L120-L120 | computed | — |
-| `eval` | [#eval L121](/verify/taulib/docs/book-i-coordinates-hyperfact/eval-l121/) | L121-L121 | computed | — |
-| `eval` | [#eval L124](/verify/taulib/docs/book-i-coordinates-hyperfact/eval-l124/) | L124-L126 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [ValidABCD](/corpus/taulib/docs/book-i-coordinates-hyperfact/valid-abcd/) | L42-L45 | definition | definition | — |
+| `def` | [valid_abcd_check](/corpus/taulib/docs/book-i-coordinates-hyperfact/valid-abcd-check/) | L48-L51 | data/computed value | data/computed value | — |
+| `def` | [hyperfact_check](/corpus/taulib/docs/book-i-coordinates-hyperfact/hyperfact-check/) | L61-L70 | data/computed value | data/computed value | `I.T04` |
+| `def` | [tau_encode](/corpus/taulib/docs/book-i-coordinates-hyperfact/tau-encode/) | L78-L79 | data/computed value | data/computed value | `I.C01` |
+| `def` | [tau_decode](/corpus/taulib/docs/book-i-coordinates-hyperfact/tau-decode/) | L82-L83 | data/computed value | data/computed value | — |
+| `def` | [encoding_check](/corpus/taulib/docs/book-i-coordinates-hyperfact/encoding-check/) | L86-L87 | data/computed value | data/computed value | — |
+| `def` | [injectivity_check_go](/corpus/taulib/docs/book-i-coordinates-hyperfact/injectivity-check-go/) | L94-L100 | data/computed value | data/computed value | — |
+| `def` | [injectivity_check](/corpus/taulib/docs/book-i-coordinates-hyperfact/injectivity-check/) | L102-L102 | data/computed value | data/computed value | — |
+| `eval` | [#eval L109](/corpus/taulib/docs/book-i-coordinates-hyperfact/eval-l109/) | L109-L109 | computed check | computed check | — |
+| `eval` | [#eval L110](/corpus/taulib/docs/book-i-coordinates-hyperfact/eval-l110/) | L110-L110 | computed check | computed check | — |
+| `eval` | [#eval L111](/corpus/taulib/docs/book-i-coordinates-hyperfact/eval-l111/) | L111-L111 | computed check | computed check | — |
+| `eval` | [#eval L112](/corpus/taulib/docs/book-i-coordinates-hyperfact/eval-l112/) | L112-L112 | computed check | computed check | — |
+| `eval` | [#eval L113](/corpus/taulib/docs/book-i-coordinates-hyperfact/eval-l113/) | L113-L113 | computed check | computed check | — |
+| `eval` | [#eval L116](/corpus/taulib/docs/book-i-coordinates-hyperfact/eval-l116/) | L116-L116 | computed check | computed check | — |
+| `eval` | [#eval L117](/corpus/taulib/docs/book-i-coordinates-hyperfact/eval-l117/) | L117-L117 | computed check | computed check | — |
+| `eval` | [#eval L118](/corpus/taulib/docs/book-i-coordinates-hyperfact/eval-l118/) | L118-L118 | computed check | computed check | — |
+| `eval` | [#eval L119](/corpus/taulib/docs/book-i-coordinates-hyperfact/eval-l119/) | L119-L119 | computed check | computed check | — |
+| `eval` | [#eval L120](/corpus/taulib/docs/book-i-coordinates-hyperfact/eval-l120/) | L120-L120 | computed check | computed check | — |
+| `eval` | [#eval L121](/corpus/taulib/docs/book-i-coordinates-hyperfact/eval-l121/) | L121-L121 | computed check | computed check | — |
+| `eval` | [#eval L124](/corpus/taulib/docs/book-i-coordinates-hyperfact/eval-l124/) | L124-L126 | computed check | computed check | — |

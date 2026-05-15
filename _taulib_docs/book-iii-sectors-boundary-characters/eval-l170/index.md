@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L170",
-  "permalink": "/verify/taulib/docs/book-iii-sectors-boundary-characters/eval-l170/",
+  "permalink": "/corpus/taulib/docs/book-iii-sectors-boundary-characters/eval-l170/",
   "summary_short": "`eval` declaration in `TauLib.BookIII.Sectors.BoundaryCharacters`.",
   "declaration_id": "TauLib.BookIII.Sectors.BoundaryCharacters::#eval:170",
   "declaration_slug": "eval-l170",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIII.Sectors.BoundaryCharacters",
-  "module_url": "/verify/taulib/docs/book-iii-sectors-boundary-characters/",
+  "module_url": "/corpus/taulib/docs/book-iii-sectors-boundary-characters/",
   "source_line_start": 170,
   "source_line_end": 170,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Sectors/BoundaryCharacters.lean#L170-L170",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Sectors.BoundaryCharacters",
-        "url": "/verify/taulib/docs/book-iii-sectors-boundary-characters/"
+        "url": "/corpus/taulib/docs/book-iii-sectors-boundary-characters/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Sectors.BoundaryCharacters](/verify/taulib/docs/book-iii-sectors-boundary-characters/)
+- Module: [TauLib.BookIII.Sectors.BoundaryCharacters](/corpus/taulib/docs/book-iii-sectors-boundary-characters/)
 - Source path: [`TauLib/BookIII/Sectors/BoundaryCharacters.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Sectors/BoundaryCharacters.lean#L170-L170)
 - Source range: L170-L170
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

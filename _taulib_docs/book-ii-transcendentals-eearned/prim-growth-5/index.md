@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "prim_growth_5",
-  "permalink": "/verify/taulib/docs/book-ii-transcendentals-eearned/prim-growth-5/",
+  "permalink": "/corpus/taulib/docs/book-ii-transcendentals-eearned/prim-growth-5/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Transcendentals.EEarned`.",
   "declaration_id": "TauLib.BookII.Transcendentals.EEarned::prim_growth_5",
   "declaration_slug": "prim-growth-5",
   "kind": "theorem",
   "name": "prim_growth_5",
   "module_name": "TauLib.BookII.Transcendentals.EEarned",
-  "module_url": "/verify/taulib/docs/book-ii-transcendentals-eearned/",
+  "module_url": "/corpus/taulib/docs/book-ii-transcendentals-eearned/",
   "source_line_start": 158,
   "source_line_end": 158,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Transcendentals/EEarned.lean#L158-L158",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Transcendentals.EEarned",
-        "url": "/verify/taulib/docs/book-ii-transcendentals-eearned/"
+        "url": "/corpus/taulib/docs/book-ii-transcendentals-eearned/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Transcendentals.EEarned](/verify/taulib/docs/book-ii-transcendentals-eearned/)
+- Module: [TauLib.BookII.Transcendentals.EEarned](/corpus/taulib/docs/book-ii-transcendentals-eearned/)
 - Source path: [`TauLib/BookII/Transcendentals/EEarned.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Transcendentals/EEarned.lean#L158-L158)
 - Source range: L158-L158
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

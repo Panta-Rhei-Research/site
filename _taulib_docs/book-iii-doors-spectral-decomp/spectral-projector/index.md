@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "spectral_projector",
-  "permalink": "/verify/taulib/docs/book-iii-doors-spectral-decomp/spectral-projector/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/spectral-projector/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Doors.SpectralDecomp`.",
   "declaration_id": "TauLib.BookIII.Doors.SpectralDecomp::spectral_projector",
   "declaration_slug": "spectral-projector",
   "kind": "def",
   "name": "spectral_projector",
   "module_name": "TauLib.BookIII.Doors.SpectralDecomp",
-  "module_url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/",
+  "module_url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/",
   "source_line_start": 54,
   "source_line_end": 60,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/SpectralDecomp.lean#L54-L60",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Doors.SpectralDecomp",
-        "url": "/verify/taulib/docs/book-iii-doors-spectral-decomp/"
+        "url": "/corpus/taulib/docs/book-iii-doors-spectral-decomp/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Doors.SpectralDecomp](/verify/taulib/docs/book-iii-doors-spectral-decomp/)
+- Module: [TauLib.BookIII.Doors.SpectralDecomp](/corpus/taulib/docs/book-iii-doors-spectral-decomp/)
 - Source path: [`TauLib/BookIII/Doors/SpectralDecomp.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/SpectralDecomp.lean#L54-L60)
 - Source range: L54-L60
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

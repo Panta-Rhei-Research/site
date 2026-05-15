@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "iota_tau_confirmed_check",
-  "permalink": "/verify/taulib/docs/book-ii-transcendentals-iota-tau-confirmed/iota-tau-confirmed-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-transcendentals-iota-tau-confirmed/iota-tau-confirmed-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.Transcendentals.IotaTauConfirmed`.",
   "declaration_id": "TauLib.BookII.Transcendentals.IotaTauConfirmed::iota_tau_confirmed_check",
   "declaration_slug": "iota-tau-confirmed-check",
   "kind": "def",
   "name": "iota_tau_confirmed_check",
   "module_name": "TauLib.BookII.Transcendentals.IotaTauConfirmed",
-  "module_url": "/verify/taulib/docs/book-ii-transcendentals-iota-tau-confirmed/",
+  "module_url": "/corpus/taulib/docs/book-ii-transcendentals-iota-tau-confirmed/",
   "source_line_start": 56,
   "source_line_end": 58,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Transcendentals/IotaTauConfirmed.lean#L56-L58",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Transcendentals.IotaTauConfirmed",
-        "url": "/verify/taulib/docs/book-ii-transcendentals-iota-tau-confirmed/"
+        "url": "/corpus/taulib/docs/book-ii-transcendentals-iota-tau-confirmed/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Transcendentals.IotaTauConfirmed](/verify/taulib/docs/book-ii-transcendentals-iota-tau-confirmed/)
+- Module: [TauLib.BookII.Transcendentals.IotaTauConfirmed](/corpus/taulib/docs/book-ii-transcendentals-iota-tau-confirmed/)
 - Source path: [`TauLib/BookII/Transcendentals/IotaTauConfirmed.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Transcendentals/IotaTauConfirmed.lean#L56-L58)
 - Source range: L56-L58
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

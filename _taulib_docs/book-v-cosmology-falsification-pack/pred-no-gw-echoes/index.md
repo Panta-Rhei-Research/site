@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "pred_no_gw_echoes",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-falsification-pack/pred-no-gw-echoes/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-falsification-pack/pred-no-gw-echoes/",
   "summary_short": "`def` declaration in `TauLib.BookV.Cosmology.FalsificationPack`.",
   "declaration_id": "TauLib.BookV.Cosmology.FalsificationPack::pred_no_gw_echoes",
   "declaration_slug": "pred-no-gw-echoes",
   "kind": "def",
   "name": "pred_no_gw_echoes",
   "module_name": "TauLib.BookV.Cosmology.FalsificationPack",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-falsification-pack/",
-  "source_line_start": 130,
-  "source_line_end": 135,
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-falsification-pack/",
+  "source_line_start": 134,
+  "source_line_end": 139,
   "registry_ids": [],
   "related_registry_items": [],
-  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L130-L135",
+  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L134-L139",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.FalsificationPack",
-        "url": "/verify/taulib/docs/book-v-cosmology-falsification-pack/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-falsification-pack/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -34,14 +36,15 @@
     "artifacts": [
       {
         "title": "Source on GitHub",
-        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L130-L135",
+        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L134-L139",
         "external": true
       }
     ],
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.FalsificationPack](/verify/taulib/docs/book-v-cosmology-falsification-pack/)
-- Source path: [`TauLib/BookV/Cosmology/FalsificationPack.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L130-L135)
-- Source range: L130-L135
+- Module: [TauLib.BookV.Cosmology.FalsificationPack](/corpus/taulib/docs/book-v-cosmology-falsification-pack/)
+- Source path: [`TauLib/BookV/Cosmology/FalsificationPack.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L134-L139)
+- Source range: L134-L139
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 
@@ -75,16 +79,19 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 ## Immediate Comment / Docstring
 
 ```lean
-/-- S4: No GW echoes. -/
+/-- S4: No reflective-surface GW echoes.
+    This structural no-echo claim is about exotic compact object
+    reflective surfaces behind the horizon. It is distinct from the
+    T² cycle-delay topology readouts in `BHTopoModes`. -/
 ```
 
 ## Source Excerpt
 
 ```lean
 def pred_no_gw_echoes : TestablePrediction where
-  name := "S4: No GW echoes"
+  name := "S4: No reflective-surface GW echoes"
   level := .Structural
-  description := "T^2 horizon has no echo structure (S^2 would produce echoes)."
-  status := "No echoes detected (consistent)"
+  description := "No exotic reflective surface behind the horizon; T^2 cycle-delay readouts are a separate topology-readout prediction."
+  status := "No reflective-surface echoes detected (consistent)"
   currently_testable := true
 ```

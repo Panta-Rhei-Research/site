@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIII.Spectral.Trichotomy",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-trichotomy/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-trichotomy/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIII.Spectral.Trichotomy`.",
   "module_name": "TauLib.BookIII.Spectral.Trichotomy",
   "module_slug": "book-iii-spectral-trichotomy",
@@ -36,10 +36,12 @@
     {
       "kind": "def",
       "name": "trichotomy_decompose",
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/trichotomy-decompose/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/trichotomy-decompose/",
       "source_line_start": 41,
       "source_line_end": 55,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T14"
       ]
@@ -47,10 +49,12 @@
     {
       "kind": "def",
       "name": "trichotomy_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/trichotomy-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/trichotomy-check/",
       "source_line_start": 59,
       "source_line_end": 90,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T14"
       ]
@@ -58,10 +62,12 @@
     {
       "kind": "def",
       "name": "trichotomy_functorial_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/trichotomy-functorial-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/trichotomy-functorial-check/",
       "source_line_start": 94,
       "source_line_end": 115,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T14"
       ]
@@ -69,10 +75,12 @@
     {
       "kind": "structure",
       "name": "BoundaryNF",
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/boundary-nf/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/boundary-nf/",
       "source_line_start": 124,
       "source_line_end": 129,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "III.D24"
       ]
@@ -80,10 +88,12 @@
     {
       "kind": "def",
       "name": "boundary_normal_form",
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/boundary-normal-form/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/boundary-normal-form/",
       "source_line_start": 132,
       "source_line_end": 138,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "III.D24"
       ]
@@ -91,10 +101,12 @@
     {
       "kind": "def",
       "name": "bnf_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/bnf-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/bnf-check/",
       "source_line_start": 142,
       "source_line_end": 158,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D24"
       ]
@@ -102,10 +114,12 @@
     {
       "kind": "def",
       "name": "bnf_uniqueness_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/bnf-uniqueness-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/bnf-uniqueness-check/",
       "source_line_start": 161,
       "source_line_end": 183,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D24"
       ]
@@ -113,19 +127,23 @@
     {
       "kind": "def",
       "name": "compute_label_product",
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/compute-label-product/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/compute-label-product/",
       "source_line_start": 190,
       "source_line_end": 201,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "bc_non_collapse_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/bc-non-collapse-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/bc-non-collapse-check/",
       "source_line_start": 208,
       "source_line_end": 223,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T15"
       ]
@@ -133,10 +151,12 @@
     {
       "kind": "def",
       "name": "bc_coprime_check",
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/bc-coprime-check/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/bc-coprime-check/",
       "source_line_start": 227,
       "source_line_end": 240,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T15"
       ]
@@ -144,118 +164,144 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/eval-l247/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/eval-l247/",
       "source_line_start": 247,
       "source_line_end": 247,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/eval-l248/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/eval-l248/",
       "source_line_start": 248,
       "source_line_end": 248,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/eval-l251/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/eval-l251/",
       "source_line_start": 251,
       "source_line_end": 251,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/eval-l252/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/eval-l252/",
       "source_line_start": 252,
       "source_line_end": 252,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/eval-l255/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/eval-l255/",
       "source_line_start": 255,
       "source_line_end": 255,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/eval-l256/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/eval-l256/",
       "source_line_start": 256,
       "source_line_end": 256,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/eval-l257/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/eval-l257/",
       "source_line_start": 257,
       "source_line_end": 257,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/eval-l258/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/eval-l258/",
       "source_line_start": 258,
       "source_line_end": 258,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/eval-l261/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/eval-l261/",
       "source_line_start": 261,
       "source_line_end": 261,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/eval-l262/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/eval-l262/",
       "source_line_start": 262,
       "source_line_end": 262,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/eval-l263/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/eval-l263/",
       "source_line_start": 263,
       "source_line_end": 263,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/eval-l264/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/eval-l264/",
       "source_line_start": 264,
       "source_line_end": 264,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "trichotomy_15_4",
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/trichotomy-15-4/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/trichotomy-15-4/",
       "source_line_start": 271,
       "source_line_end": 272,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T14"
       ]
@@ -263,10 +309,12 @@
     {
       "kind": "theorem",
       "name": "trichotomy_func_15_3",
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/trichotomy-func-15-3/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/trichotomy-func-15-3/",
       "source_line_start": 275,
       "source_line_end": 276,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T14"
       ]
@@ -274,10 +322,12 @@
     {
       "kind": "theorem",
       "name": "bnf_15_4",
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/bnf-15-4/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/bnf-15-4/",
       "source_line_start": 279,
       "source_line_end": 280,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D24"
       ]
@@ -285,10 +335,12 @@
     {
       "kind": "theorem",
       "name": "bnf_unique_10_3",
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/bnf-unique-10-3/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/bnf-unique-10-3/",
       "source_line_start": 283,
       "source_line_end": 284,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D24"
       ]
@@ -296,10 +348,12 @@
     {
       "kind": "theorem",
       "name": "bc_non_collapse_10_5",
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/bc-non-collapse-10-5/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/bc-non-collapse-10-5/",
       "source_line_start": 287,
       "source_line_end": 288,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T15"
       ]
@@ -307,10 +361,12 @@
     {
       "kind": "theorem",
       "name": "bc_coprime_5",
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/bc-coprime-5/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/bc-coprime-5/",
       "source_line_start": 291,
       "source_line_end": 292,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T15"
       ]
@@ -318,10 +374,12 @@
     {
       "kind": "theorem",
       "name": "trichotomy_depth_1",
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/trichotomy-depth-1/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/trichotomy-depth-1/",
       "source_line_start": 300,
       "source_line_end": 301,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T14"
       ]
@@ -329,10 +387,12 @@
     {
       "kind": "theorem",
       "name": "bnf_zero_3",
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/bnf-zero-3/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/bnf-zero-3/",
       "source_line_start": 304,
       "source_line_end": 307,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D24"
       ]
@@ -340,10 +400,12 @@
     {
       "kind": "theorem",
       "name": "bc_coprime_at_3",
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/bc-coprime-at-3/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/bc-coprime-at-3/",
       "source_line_start": 311,
       "source_line_end": 313,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T15"
       ]
@@ -351,10 +413,12 @@
     {
       "kind": "theorem",
       "name": "bc_distinct_3",
-      "url": "/verify/taulib/docs/book-iii-spectral-trichotomy/bc-distinct-3/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-trichotomy/bc-distinct-3/",
       "source_line_start": 316,
       "source_line_end": 319,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T15"
       ]
@@ -368,7 +432,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -442,37 +506,37 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [trichotomy_decompose](/verify/taulib/docs/book-iii-spectral-trichotomy/trichotomy-decompose/) | L41-L55 | defined | `III.T14` |
-| `def` | [trichotomy_check](/verify/taulib/docs/book-iii-spectral-trichotomy/trichotomy-check/) | L59-L90 | defined | `III.T14` |
-| `def` | [trichotomy_functorial_check](/verify/taulib/docs/book-iii-spectral-trichotomy/trichotomy-functorial-check/) | L94-L115 | defined | `III.T14` |
-| `structure` | [BoundaryNF](/verify/taulib/docs/book-iii-spectral-trichotomy/boundary-nf/) | L124-L129 | defined | `III.D24` |
-| `def` | [boundary_normal_form](/verify/taulib/docs/book-iii-spectral-trichotomy/boundary-normal-form/) | L132-L138 | defined | `III.D24` |
-| `def` | [bnf_check](/verify/taulib/docs/book-iii-spectral-trichotomy/bnf-check/) | L142-L158 | defined | `III.D24` |
-| `def` | [bnf_uniqueness_check](/verify/taulib/docs/book-iii-spectral-trichotomy/bnf-uniqueness-check/) | L161-L183 | defined | `III.D24` |
-| `def` | [compute_label_product](/verify/taulib/docs/book-iii-spectral-trichotomy/compute-label-product/) | L190-L201 | defined | — |
-| `def` | [bc_non_collapse_check](/verify/taulib/docs/book-iii-spectral-trichotomy/bc-non-collapse-check/) | L208-L223 | defined | `III.T15` |
-| `def` | [bc_coprime_check](/verify/taulib/docs/book-iii-spectral-trichotomy/bc-coprime-check/) | L227-L240 | defined | `III.T15` |
-| `eval` | [#eval L247](/verify/taulib/docs/book-iii-spectral-trichotomy/eval-l247/) | L247-L247 | computed | — |
-| `eval` | [#eval L248](/verify/taulib/docs/book-iii-spectral-trichotomy/eval-l248/) | L248-L248 | computed | — |
-| `eval` | [#eval L251](/verify/taulib/docs/book-iii-spectral-trichotomy/eval-l251/) | L251-L251 | computed | — |
-| `eval` | [#eval L252](/verify/taulib/docs/book-iii-spectral-trichotomy/eval-l252/) | L252-L252 | computed | — |
-| `eval` | [#eval L255](/verify/taulib/docs/book-iii-spectral-trichotomy/eval-l255/) | L255-L255 | computed | — |
-| `eval` | [#eval L256](/verify/taulib/docs/book-iii-spectral-trichotomy/eval-l256/) | L256-L256 | computed | — |
-| `eval` | [#eval L257](/verify/taulib/docs/book-iii-spectral-trichotomy/eval-l257/) | L257-L257 | computed | — |
-| `eval` | [#eval L258](/verify/taulib/docs/book-iii-spectral-trichotomy/eval-l258/) | L258-L258 | computed | — |
-| `eval` | [#eval L261](/verify/taulib/docs/book-iii-spectral-trichotomy/eval-l261/) | L261-L261 | computed | — |
-| `eval` | [#eval L262](/verify/taulib/docs/book-iii-spectral-trichotomy/eval-l262/) | L262-L262 | computed | — |
-| `eval` | [#eval L263](/verify/taulib/docs/book-iii-spectral-trichotomy/eval-l263/) | L263-L263 | computed | — |
-| `eval` | [#eval L264](/verify/taulib/docs/book-iii-spectral-trichotomy/eval-l264/) | L264-L264 | computed | — |
-| `theorem` | [trichotomy_15_4](/verify/taulib/docs/book-iii-spectral-trichotomy/trichotomy-15-4/) | L271-L272 | formalized | `III.T14` |
-| `theorem` | [trichotomy_func_15_3](/verify/taulib/docs/book-iii-spectral-trichotomy/trichotomy-func-15-3/) | L275-L276 | formalized | `III.T14` |
-| `theorem` | [bnf_15_4](/verify/taulib/docs/book-iii-spectral-trichotomy/bnf-15-4/) | L279-L280 | formalized | `III.D24` |
-| `theorem` | [bnf_unique_10_3](/verify/taulib/docs/book-iii-spectral-trichotomy/bnf-unique-10-3/) | L283-L284 | formalized | `III.D24` |
-| `theorem` | [bc_non_collapse_10_5](/verify/taulib/docs/book-iii-spectral-trichotomy/bc-non-collapse-10-5/) | L287-L288 | formalized | `III.T15` |
-| `theorem` | [bc_coprime_5](/verify/taulib/docs/book-iii-spectral-trichotomy/bc-coprime-5/) | L291-L292 | formalized | `III.T15` |
-| `theorem` | [trichotomy_depth_1](/verify/taulib/docs/book-iii-spectral-trichotomy/trichotomy-depth-1/) | L300-L301 | formalized | `III.T14` |
-| `theorem` | [bnf_zero_3](/verify/taulib/docs/book-iii-spectral-trichotomy/bnf-zero-3/) | L304-L307 | formalized | `III.D24` |
-| `theorem` | [bc_coprime_at_3](/verify/taulib/docs/book-iii-spectral-trichotomy/bc-coprime-at-3/) | L311-L313 | formalized | `III.T15` |
-| `theorem` | [bc_distinct_3](/verify/taulib/docs/book-iii-spectral-trichotomy/bc-distinct-3/) | L316-L319 | formalized | `III.T15` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [trichotomy_decompose](/corpus/taulib/docs/book-iii-spectral-trichotomy/trichotomy-decompose/) | L41-L55 | data/computed value | data/computed value | `III.T14` |
+| `def` | [trichotomy_check](/corpus/taulib/docs/book-iii-spectral-trichotomy/trichotomy-check/) | L59-L90 | data/computed value | data/computed value | `III.T14` |
+| `def` | [trichotomy_functorial_check](/corpus/taulib/docs/book-iii-spectral-trichotomy/trichotomy-functorial-check/) | L94-L115 | data/computed value | data/computed value | `III.T14` |
+| `structure` | [BoundaryNF](/corpus/taulib/docs/book-iii-spectral-trichotomy/boundary-nf/) | L124-L129 | type/data schema | type/data schema | `III.D24` |
+| `def` | [boundary_normal_form](/corpus/taulib/docs/book-iii-spectral-trichotomy/boundary-normal-form/) | L132-L138 | definition | definition | `III.D24` |
+| `def` | [bnf_check](/corpus/taulib/docs/book-iii-spectral-trichotomy/bnf-check/) | L142-L158 | data/computed value | data/computed value | `III.D24` |
+| `def` | [bnf_uniqueness_check](/corpus/taulib/docs/book-iii-spectral-trichotomy/bnf-uniqueness-check/) | L161-L183 | data/computed value | data/computed value | `III.D24` |
+| `def` | [compute_label_product](/corpus/taulib/docs/book-iii-spectral-trichotomy/compute-label-product/) | L190-L201 | definition | definition | — |
+| `def` | [bc_non_collapse_check](/corpus/taulib/docs/book-iii-spectral-trichotomy/bc-non-collapse-check/) | L208-L223 | data/computed value | data/computed value | `III.T15` |
+| `def` | [bc_coprime_check](/corpus/taulib/docs/book-iii-spectral-trichotomy/bc-coprime-check/) | L227-L240 | data/computed value | data/computed value | `III.T15` |
+| `eval` | [#eval L247](/corpus/taulib/docs/book-iii-spectral-trichotomy/eval-l247/) | L247-L247 | computed check | computed check | — |
+| `eval` | [#eval L248](/corpus/taulib/docs/book-iii-spectral-trichotomy/eval-l248/) | L248-L248 | computed check | computed check | — |
+| `eval` | [#eval L251](/corpus/taulib/docs/book-iii-spectral-trichotomy/eval-l251/) | L251-L251 | computed check | computed check | — |
+| `eval` | [#eval L252](/corpus/taulib/docs/book-iii-spectral-trichotomy/eval-l252/) | L252-L252 | computed check | computed check | — |
+| `eval` | [#eval L255](/corpus/taulib/docs/book-iii-spectral-trichotomy/eval-l255/) | L255-L255 | computed check | computed check | — |
+| `eval` | [#eval L256](/corpus/taulib/docs/book-iii-spectral-trichotomy/eval-l256/) | L256-L256 | computed check | computed check | — |
+| `eval` | [#eval L257](/corpus/taulib/docs/book-iii-spectral-trichotomy/eval-l257/) | L257-L257 | computed check | computed check | — |
+| `eval` | [#eval L258](/corpus/taulib/docs/book-iii-spectral-trichotomy/eval-l258/) | L258-L258 | computed check | computed check | — |
+| `eval` | [#eval L261](/corpus/taulib/docs/book-iii-spectral-trichotomy/eval-l261/) | L261-L261 | computed check | computed check | — |
+| `eval` | [#eval L262](/corpus/taulib/docs/book-iii-spectral-trichotomy/eval-l262/) | L262-L262 | computed check | computed check | — |
+| `eval` | [#eval L263](/corpus/taulib/docs/book-iii-spectral-trichotomy/eval-l263/) | L263-L263 | computed check | computed check | — |
+| `eval` | [#eval L264](/corpus/taulib/docs/book-iii-spectral-trichotomy/eval-l264/) | L264-L264 | computed check | computed check | — |
+| `theorem` | [trichotomy_15_4](/corpus/taulib/docs/book-iii-spectral-trichotomy/trichotomy-15-4/) | L271-L272 | proof obligation | formal proof obligation checked | `III.T14` |
+| `theorem` | [trichotomy_func_15_3](/corpus/taulib/docs/book-iii-spectral-trichotomy/trichotomy-func-15-3/) | L275-L276 | proof obligation | formal proof obligation checked | `III.T14` |
+| `theorem` | [bnf_15_4](/corpus/taulib/docs/book-iii-spectral-trichotomy/bnf-15-4/) | L279-L280 | proof obligation | formal proof obligation checked | `III.D24` |
+| `theorem` | [bnf_unique_10_3](/corpus/taulib/docs/book-iii-spectral-trichotomy/bnf-unique-10-3/) | L283-L284 | proof obligation | formal proof obligation checked | `III.D24` |
+| `theorem` | [bc_non_collapse_10_5](/corpus/taulib/docs/book-iii-spectral-trichotomy/bc-non-collapse-10-5/) | L287-L288 | proof obligation | formal proof obligation checked | `III.T15` |
+| `theorem` | [bc_coprime_5](/corpus/taulib/docs/book-iii-spectral-trichotomy/bc-coprime-5/) | L291-L292 | proof obligation | formal proof obligation checked | `III.T15` |
+| `theorem` | [trichotomy_depth_1](/corpus/taulib/docs/book-iii-spectral-trichotomy/trichotomy-depth-1/) | L300-L301 | proof obligation | formal proof obligation checked | `III.T14` |
+| `theorem` | [bnf_zero_3](/corpus/taulib/docs/book-iii-spectral-trichotomy/bnf-zero-3/) | L304-L307 | proof obligation | formal proof obligation checked | `III.D24` |
+| `theorem` | [bc_coprime_at_3](/corpus/taulib/docs/book-iii-spectral-trichotomy/bc-coprime-at-3/) | L311-L313 | proof obligation | formal proof obligation checked | `III.T15` |
+| `theorem` | [bc_distinct_3](/corpus/taulib/docs/book-iii-spectral-trichotomy/bc-distinct-3/) | L316-L319 | proof obligation | formal proof obligation checked | `III.T15` |

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "PhysicsSelfDescription",
-  "permalink": "/verify/taulib/docs/book-v-coda-hermetic-closure/physics-self-description/",
+  "permalink": "/corpus/taulib/docs/book-v-coda-hermetic-closure/physics-self-description/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Coda.HermeticClosure`.",
   "declaration_id": "TauLib.BookV.Coda.HermeticClosure::PhysicsSelfDescription",
   "declaration_slug": "physics-self-description",
   "kind": "structure",
   "name": "PhysicsSelfDescription",
   "module_name": "TauLib.BookV.Coda.HermeticClosure",
-  "module_url": "/verify/taulib/docs/book-v-coda-hermetic-closure/",
+  "module_url": "/corpus/taulib/docs/book-v-coda-hermetic-closure/",
   "source_line_start": 130,
   "source_line_end": 141,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Coda/HermeticClosure.lean#L130-L141",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Coda.HermeticClosure",
-        "url": "/verify/taulib/docs/book-v-coda-hermetic-closure/"
+        "url": "/corpus/taulib/docs/book-v-coda-hermetic-closure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Coda.HermeticClosure](/verify/taulib/docs/book-v-coda-hermetic-closure/)
+- Module: [TauLib.BookV.Coda.HermeticClosure](/corpus/taulib/docs/book-v-coda-hermetic-closure/)
 - Source path: [`TauLib/BookV/Coda/HermeticClosure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Coda/HermeticClosure.lean#L130-L141)
 - Source range: L130-L141
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

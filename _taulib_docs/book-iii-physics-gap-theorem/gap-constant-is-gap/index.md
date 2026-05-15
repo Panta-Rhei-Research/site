@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "gap_constant_is_gap",
-  "permalink": "/verify/taulib/docs/book-iii-physics-gap-theorem/gap-constant-is-gap/",
+  "permalink": "/corpus/taulib/docs/book-iii-physics-gap-theorem/gap-constant-is-gap/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Physics.GapTheorem`.",
   "declaration_id": "TauLib.BookIII.Physics.GapTheorem::gap_constant_is_gap",
   "declaration_slug": "gap-constant-is-gap",
   "kind": "theorem",
   "name": "gap_constant_is_gap",
   "module_name": "TauLib.BookIII.Physics.GapTheorem",
-  "module_url": "/verify/taulib/docs/book-iii-physics-gap-theorem/",
+  "module_url": "/corpus/taulib/docs/book-iii-physics-gap-theorem/",
   "source_line_start": 237,
   "source_line_end": 238,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/GapTheorem.lean#L237-L238",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Physics.GapTheorem",
-        "url": "/verify/taulib/docs/book-iii-physics-gap-theorem/"
+        "url": "/corpus/taulib/docs/book-iii-physics-gap-theorem/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Physics.GapTheorem](/verify/taulib/docs/book-iii-physics-gap-theorem/)
+- Module: [TauLib.BookIII.Physics.GapTheorem](/corpus/taulib/docs/book-iii-physics-gap-theorem/)
 - Source path: [`TauLib/BookIII/Physics/GapTheorem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/GapTheorem.lean#L237-L238)
 - Source range: L237-L238
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

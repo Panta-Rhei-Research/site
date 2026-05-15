@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "example at L224",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-rat-field/example-l224/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-rat-field/example-l224/",
   "summary_short": "`example` declaration in `TauLib.BookI.Boundary.TauRatField`.",
   "declaration_id": "TauLib.BookI.Boundary.TauRatField::#eval:224",
   "declaration_slug": "example-l224",
   "kind": "example",
   "name": null,
   "module_name": "TauLib.BookI.Boundary.TauRatField",
-  "module_url": "/verify/taulib/docs/book-i-boundary-tau-rat-field/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-tau-rat-field/",
   "source_line_start": 224,
   "source_line_end": 230,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRatField.lean#L224-L230",
   "formal_status": "example",
+  "declaration_role": "example check",
+  "formal_status_label": "example",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.TauRatField",
-        "url": "/verify/taulib/docs/book-i-boundary-tau-rat-field/"
+        "url": "/corpus/taulib/docs/book-i-boundary-tau-rat-field/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,6 +43,7 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "example",
+      "role": "example check",
       "status": "example"
     }
   },
@@ -62,10 +65,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.TauRatField](/verify/taulib/docs/book-i-boundary-tau-rat-field/)
+- Module: [TauLib.BookI.Boundary.TauRatField](/corpus/taulib/docs/book-i-boundary-tau-rat-field/)
 - Source path: [`TauLib/BookI/Boundary/TauRatField.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRatField.lean#L224-L230)
 - Source range: L224-L230
 - Kind: `example`
+- Public role: `example check`
 - Formal status hint: `example`
 
 ## Registry Links

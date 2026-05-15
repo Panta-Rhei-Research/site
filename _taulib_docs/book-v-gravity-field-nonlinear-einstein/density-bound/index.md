@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "density_bound",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-nonlinear-einstein/density-bound/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-nonlinear-einstein/density-bound/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.GravityField.NonlinearEinstein`.",
   "declaration_id": "TauLib.BookV.GravityField.NonlinearEinstein::density_bound",
   "declaration_slug": "density-bound",
   "kind": "theorem",
   "name": "density_bound",
   "module_name": "TauLib.BookV.GravityField.NonlinearEinstein",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-nonlinear-einstein/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-nonlinear-einstein/",
   "source_line_start": 331,
   "source_line_end": 333,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/NonlinearEinstein.lean#L331-L333",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.NonlinearEinstein",
-        "url": "/verify/taulib/docs/book-v-gravity-field-nonlinear-einstein/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-nonlinear-einstein/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.NonlinearEinstein](/verify/taulib/docs/book-v-gravity-field-nonlinear-einstein/)
+- Module: [TauLib.BookV.GravityField.NonlinearEinstein](/corpus/taulib/docs/book-v-gravity-field-nonlinear-einstein/)
 - Source path: [`TauLib/BookV/GravityField/NonlinearEinstein.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/NonlinearEinstein.lean#L331-L333)
 - Source range: L331-L333
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

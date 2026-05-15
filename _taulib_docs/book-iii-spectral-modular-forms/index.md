@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIII.Spectral.ModularForms",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-modular-forms/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-modular-forms/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIII.Spectral.ModularForms`.",
   "module_name": "TauLib.BookIII.Spectral.ModularForms",
   "module_slug": "book-iii-spectral-modular-forms",
@@ -35,10 +35,12 @@
     {
       "kind": "def",
       "name": "E4_numer",
-      "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/e4-numer/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/e4-numer/",
       "source_line_start": 59,
       "source_line_end": 59,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D80"
       ]
@@ -46,37 +48,45 @@
     {
       "kind": "def",
       "name": "E4_denom",
-      "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/e4-denom/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/e4-denom/",
       "source_line_start": 60,
       "source_line_end": 60,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "E4_denom_pos",
-      "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/e4-denom-pos/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/e4-denom-pos/",
       "source_line_start": 63,
       "source_line_end": 63,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "E4_float",
-      "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/e4-float/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/e4-float/",
       "source_line_start": 66,
       "source_line_end": 66,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "E6_abs_numer",
-      "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/e6-abs-numer/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/e6-abs-numer/",
       "source_line_start": 77,
       "source_line_end": 77,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D81"
       ]
@@ -84,64 +94,78 @@
     {
       "kind": "def",
       "name": "E6_abs_denom",
-      "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/e6-abs-denom/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/e6-abs-denom/",
       "source_line_start": 78,
       "source_line_end": 78,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "E6_abs_denom_pos",
-      "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/e6-abs-denom-pos/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/e6-abs-denom-pos/",
       "source_line_start": 81,
       "source_line_end": 81,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "E6_abs_float",
-      "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/e6-abs-float/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/e6-abs-float/",
       "source_line_start": 84,
       "source_line_end": 94,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "iota_sixth_numer",
-      "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/iota-sixth-numer/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/iota-sixth-numer/",
       "source_line_start": 97,
       "source_line_end": 97,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "iota_sixth_denom",
-      "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/iota-sixth-denom/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/iota-sixth-denom/",
       "source_line_start": 100,
       "source_line_end": 100,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "E4_in_range",
-      "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/e4-in-range/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/e4-in-range/",
       "source_line_start": 109,
       "source_line_end": 111,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "E4_iota4_near_one_lower",
-      "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/e4-iota4-near-one-lower/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/e4-iota4-near-one-lower/",
       "source_line_start": 120,
       "source_line_end": 121,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T50"
       ]
@@ -149,19 +173,23 @@
     {
       "kind": "theorem",
       "name": "E4_iota4_near_one_upper",
-      "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/e4-iota4-near-one-upper/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/e4-iota4-near-one-upper/",
       "source_line_start": 123,
       "source_line_end": 124,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "E4_iota4_near_one",
-      "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/e4-iota4-near-one/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/e4-iota4-near-one/",
       "source_line_start": 128,
       "source_line_end": 131,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T50"
       ]
@@ -169,10 +197,12 @@
     {
       "kind": "theorem",
       "name": "E6_abs_in_range",
-      "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/e6-abs-in-range/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/e6-abs-in-range/",
       "source_line_start": 138,
       "source_line_end": 144,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T51"
       ]
@@ -180,28 +210,34 @@
     {
       "kind": "theorem",
       "name": "E6_iota6_near_one_lower",
-      "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/e6-iota6-near-one-lower/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/e6-iota6-near-one-lower/",
       "source_line_start": 146,
       "source_line_end": 147,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "E6_iota6_near_one_upper",
-      "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/e6-iota6-near-one-upper/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/e6-iota6-near-one-upper/",
       "source_line_start": 149,
       "source_line_end": 150,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "E6_iota6_near_one",
-      "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/e6-iota6-near-one/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/e6-iota6-near-one/",
       "source_line_start": 154,
       "source_line_end": 157,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T51"
       ]
@@ -209,55 +245,67 @@
     {
       "kind": "theorem",
       "name": "alpha_E4_formula_structure",
-      "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/alpha-e4-formula-structure/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/alpha-e4-formula-structure/",
       "source_line_start": 166,
       "source_line_end": 168,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "E8_follows_from_E4",
-      "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/e8-follows-from-e4/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/e8-follows-from-e4/",
       "source_line_start": 173,
       "source_line_end": 176,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/eval-l183/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/eval-l183/",
       "source_line_start": 183,
       "source_line_end": 183,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/eval-l186/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/eval-l186/",
       "source_line_start": 186,
       "source_line_end": 186,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/eval-l189/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/eval-l189/",
       "source_line_start": 189,
       "source_line_end": 189,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-modular-forms/eval-l193/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-modular-forms/eval-l193/",
       "source_line_start": 193,
       "source_line_end": 195,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -269,7 +317,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -342,29 +390,29 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [E4_numer](/verify/taulib/docs/book-iii-spectral-modular-forms/e4-numer/) | L59-L59 | defined | `III.D80` |
-| `def` | [E4_denom](/verify/taulib/docs/book-iii-spectral-modular-forms/e4-denom/) | L60-L60 | defined | — |
-| `theorem` | [E4_denom_pos](/verify/taulib/docs/book-iii-spectral-modular-forms/e4-denom-pos/) | L63-L63 | formalized | — |
-| `def` | [E4_float](/verify/taulib/docs/book-iii-spectral-modular-forms/e4-float/) | L66-L66 | defined | — |
-| `def` | [E6_abs_numer](/verify/taulib/docs/book-iii-spectral-modular-forms/e6-abs-numer/) | L77-L77 | defined | `III.D81` |
-| `def` | [E6_abs_denom](/verify/taulib/docs/book-iii-spectral-modular-forms/e6-abs-denom/) | L78-L78 | defined | — |
-| `theorem` | [E6_abs_denom_pos](/verify/taulib/docs/book-iii-spectral-modular-forms/e6-abs-denom-pos/) | L81-L81 | formalized | — |
-| `def` | [E6_abs_float](/verify/taulib/docs/book-iii-spectral-modular-forms/e6-abs-float/) | L84-L94 | defined | — |
-| `def` | [iota_sixth_numer](/verify/taulib/docs/book-iii-spectral-modular-forms/iota-sixth-numer/) | L97-L97 | defined | — |
-| `def` | [iota_sixth_denom](/verify/taulib/docs/book-iii-spectral-modular-forms/iota-sixth-denom/) | L100-L100 | defined | — |
-| `theorem` | [E4_in_range](/verify/taulib/docs/book-iii-spectral-modular-forms/e4-in-range/) | L109-L111 | formalized | — |
-| `theorem` | [E4_iota4_near_one_lower](/verify/taulib/docs/book-iii-spectral-modular-forms/e4-iota4-near-one-lower/) | L120-L121 | formalized | `III.T50` |
-| `theorem` | [E4_iota4_near_one_upper](/verify/taulib/docs/book-iii-spectral-modular-forms/e4-iota4-near-one-upper/) | L123-L124 | formalized | — |
-| `theorem` | [E4_iota4_near_one](/verify/taulib/docs/book-iii-spectral-modular-forms/e4-iota4-near-one/) | L128-L131 | formalized | `III.T50` |
-| `theorem` | [E6_abs_in_range](/verify/taulib/docs/book-iii-spectral-modular-forms/e6-abs-in-range/) | L138-L144 | formalized | `III.T51` |
-| `theorem` | [E6_iota6_near_one_lower](/verify/taulib/docs/book-iii-spectral-modular-forms/e6-iota6-near-one-lower/) | L146-L147 | formalized | — |
-| `theorem` | [E6_iota6_near_one_upper](/verify/taulib/docs/book-iii-spectral-modular-forms/e6-iota6-near-one-upper/) | L149-L150 | formalized | — |
-| `theorem` | [E6_iota6_near_one](/verify/taulib/docs/book-iii-spectral-modular-forms/e6-iota6-near-one/) | L154-L157 | formalized | `III.T51` |
-| `theorem` | [alpha_E4_formula_structure](/verify/taulib/docs/book-iii-spectral-modular-forms/alpha-e4-formula-structure/) | L166-L168 | formalized | — |
-| `theorem` | [E8_follows_from_E4](/verify/taulib/docs/book-iii-spectral-modular-forms/e8-follows-from-e4/) | L173-L176 | formalized | — |
-| `eval` | [#eval L183](/verify/taulib/docs/book-iii-spectral-modular-forms/eval-l183/) | L183-L183 | computed | — |
-| `eval` | [#eval L186](/verify/taulib/docs/book-iii-spectral-modular-forms/eval-l186/) | L186-L186 | computed | — |
-| `eval` | [#eval L189](/verify/taulib/docs/book-iii-spectral-modular-forms/eval-l189/) | L189-L189 | computed | — |
-| `eval` | [#eval L193](/verify/taulib/docs/book-iii-spectral-modular-forms/eval-l193/) | L193-L195 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [E4_numer](/corpus/taulib/docs/book-iii-spectral-modular-forms/e4-numer/) | L59-L59 | data/computed value | data/computed value | `III.D80` |
+| `def` | [E4_denom](/corpus/taulib/docs/book-iii-spectral-modular-forms/e4-denom/) | L60-L60 | data/computed value | data/computed value | — |
+| `theorem` | [E4_denom_pos](/corpus/taulib/docs/book-iii-spectral-modular-forms/e4-denom-pos/) | L63-L63 | proof obligation | formal proof obligation checked | — |
+| `def` | [E4_float](/corpus/taulib/docs/book-iii-spectral-modular-forms/e4-float/) | L66-L66 | data/computed value | data/computed value | — |
+| `def` | [E6_abs_numer](/corpus/taulib/docs/book-iii-spectral-modular-forms/e6-abs-numer/) | L77-L77 | data/computed value | data/computed value | `III.D81` |
+| `def` | [E6_abs_denom](/corpus/taulib/docs/book-iii-spectral-modular-forms/e6-abs-denom/) | L78-L78 | data/computed value | data/computed value | — |
+| `theorem` | [E6_abs_denom_pos](/corpus/taulib/docs/book-iii-spectral-modular-forms/e6-abs-denom-pos/) | L81-L81 | proof obligation | formal proof obligation checked | — |
+| `def` | [E6_abs_float](/corpus/taulib/docs/book-iii-spectral-modular-forms/e6-abs-float/) | L84-L94 | data/computed value | data/computed value | — |
+| `def` | [iota_sixth_numer](/corpus/taulib/docs/book-iii-spectral-modular-forms/iota-sixth-numer/) | L97-L97 | data/computed value | data/computed value | — |
+| `def` | [iota_sixth_denom](/corpus/taulib/docs/book-iii-spectral-modular-forms/iota-sixth-denom/) | L100-L100 | data/computed value | data/computed value | — |
+| `theorem` | [E4_in_range](/corpus/taulib/docs/book-iii-spectral-modular-forms/e4-in-range/) | L109-L111 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [E4_iota4_near_one_lower](/corpus/taulib/docs/book-iii-spectral-modular-forms/e4-iota4-near-one-lower/) | L120-L121 | proof obligation | formal proof obligation checked | `III.T50` |
+| `theorem` | [E4_iota4_near_one_upper](/corpus/taulib/docs/book-iii-spectral-modular-forms/e4-iota4-near-one-upper/) | L123-L124 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [E4_iota4_near_one](/corpus/taulib/docs/book-iii-spectral-modular-forms/e4-iota4-near-one/) | L128-L131 | proof obligation | formal proof obligation checked | `III.T50` |
+| `theorem` | [E6_abs_in_range](/corpus/taulib/docs/book-iii-spectral-modular-forms/e6-abs-in-range/) | L138-L144 | proof obligation | formal proof obligation checked | `III.T51` |
+| `theorem` | [E6_iota6_near_one_lower](/corpus/taulib/docs/book-iii-spectral-modular-forms/e6-iota6-near-one-lower/) | L146-L147 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [E6_iota6_near_one_upper](/corpus/taulib/docs/book-iii-spectral-modular-forms/e6-iota6-near-one-upper/) | L149-L150 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [E6_iota6_near_one](/corpus/taulib/docs/book-iii-spectral-modular-forms/e6-iota6-near-one/) | L154-L157 | proof obligation | formal proof obligation checked | `III.T51` |
+| `theorem` | [alpha_E4_formula_structure](/corpus/taulib/docs/book-iii-spectral-modular-forms/alpha-e4-formula-structure/) | L166-L168 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [E8_follows_from_E4](/corpus/taulib/docs/book-iii-spectral-modular-forms/e8-follows-from-e4/) | L173-L176 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L183](/corpus/taulib/docs/book-iii-spectral-modular-forms/eval-l183/) | L183-L183 | computed check | computed check | — |
+| `eval` | [#eval L186](/corpus/taulib/docs/book-iii-spectral-modular-forms/eval-l186/) | L186-L186 | computed check | computed check | — |
+| `eval` | [#eval L189](/corpus/taulib/docs/book-iii-spectral-modular-forms/eval-l189/) | L189-L189 | computed check | computed check | — |
+| `eval` | [#eval L193](/corpus/taulib/docs/book-iii-spectral-modular-forms/eval-l193/) | L193-L195 | computed check | computed check | — |

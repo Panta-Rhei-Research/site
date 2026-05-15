@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "zero_free_parameters",
-  "permalink": "/verify/taulib/docs/book-iv-coda-self-describing/zero-free-parameters/",
+  "permalink": "/corpus/taulib/docs/book-iv-coda-self-describing/zero-free-parameters/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Coda.SelfDescribing`.",
   "declaration_id": "TauLib.BookIV.Coda.SelfDescribing::zero_free_parameters",
   "declaration_slug": "zero-free-parameters",
   "kind": "theorem",
   "name": "zero_free_parameters",
   "module_name": "TauLib.BookIV.Coda.SelfDescribing",
-  "module_url": "/verify/taulib/docs/book-iv-coda-self-describing/",
+  "module_url": "/corpus/taulib/docs/book-iv-coda-self-describing/",
   "source_line_start": 165,
   "source_line_end": 166,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Coda/SelfDescribing.lean#L165-L166",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Coda.SelfDescribing",
-        "url": "/verify/taulib/docs/book-iv-coda-self-describing/"
+        "url": "/corpus/taulib/docs/book-iv-coda-self-describing/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Coda.SelfDescribing](/verify/taulib/docs/book-iv-coda-self-describing/)
+- Module: [TauLib.BookIV.Coda.SelfDescribing](/corpus/taulib/docs/book-iv-coda-self-describing/)
 - Source path: [`TauLib/BookIV/Coda/SelfDescribing.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Coda/SelfDescribing.lean#L165-L166)
 - Source range: L165-L166
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

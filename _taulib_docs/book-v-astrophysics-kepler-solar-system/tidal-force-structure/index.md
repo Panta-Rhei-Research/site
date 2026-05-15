@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TidalForceStructure",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/tidal-force-structure/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/tidal-force-structure/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Astrophysics.KeplerSolarSystem`.",
   "declaration_id": "TauLib.BookV.Astrophysics.KeplerSolarSystem::TidalForceStructure",
   "declaration_slug": "tidal-force-structure",
   "kind": "structure",
   "name": "TidalForceStructure",
   "module_name": "TauLib.BookV.Astrophysics.KeplerSolarSystem",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/",
   "source_line_start": 147,
   "source_line_end": 158,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/KeplerSolarSystem.lean#L147-L158",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.KeplerSolarSystem",
-        "url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.KeplerSolarSystem](/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/)
+- Module: [TauLib.BookV.Astrophysics.KeplerSolarSystem](/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/)
 - Source path: [`TauLib/BookV/Astrophysics/KeplerSolarSystem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/KeplerSolarSystem.lean#L147-L158)
 - Source range: L147-L158
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

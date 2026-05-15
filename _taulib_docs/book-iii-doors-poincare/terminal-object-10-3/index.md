@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "terminal_object_10_3",
-  "permalink": "/verify/taulib/docs/book-iii-doors-poincare/terminal-object-10-3/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-poincare/terminal-object-10-3/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Doors.Poincare`.",
   "declaration_id": "TauLib.BookIII.Doors.Poincare::terminal_object_10_3",
   "declaration_slug": "terminal-object-10-3",
   "kind": "theorem",
   "name": "terminal_object_10_3",
   "module_name": "TauLib.BookIII.Doors.Poincare",
-  "module_url": "/verify/taulib/docs/book-iii-doors-poincare/",
+  "module_url": "/corpus/taulib/docs/book-iii-doors-poincare/",
   "source_line_start": 160,
   "source_line_end": 161,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/Poincare.lean#L160-L161",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Doors.Poincare",
-        "url": "/verify/taulib/docs/book-iii-doors-poincare/"
+        "url": "/corpus/taulib/docs/book-iii-doors-poincare/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Doors.Poincare](/verify/taulib/docs/book-iii-doors-poincare/)
+- Module: [TauLib.BookIII.Doors.Poincare](/corpus/taulib/docs/book-iii-doors-poincare/)
 - Source path: [`TauLib/BookIII/Doors/Poincare.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/Poincare.lean#L160-L161)
 - Source range: L160-L161
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

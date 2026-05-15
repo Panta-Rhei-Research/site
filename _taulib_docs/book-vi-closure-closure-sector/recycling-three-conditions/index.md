@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "recycling_three_conditions",
-  "permalink": "/verify/taulib/docs/book-vi-closure-closure-sector/recycling-three-conditions/",
+  "permalink": "/corpus/taulib/docs/book-vi-closure-closure-sector/recycling-three-conditions/",
   "summary_short": "`theorem` declaration in `TauLib.BookVI.Closure.ClosureSector`.",
   "declaration_id": "TauLib.BookVI.Closure.ClosureSector::recycling_three_conditions",
   "declaration_slug": "recycling-three-conditions",
   "kind": "theorem",
   "name": "recycling_three_conditions",
   "module_name": "TauLib.BookVI.Closure.ClosureSector",
-  "module_url": "/verify/taulib/docs/book-vi-closure-closure-sector/",
+  "module_url": "/corpus/taulib/docs/book-vi-closure-closure-sector/",
   "source_line_start": 89,
   "source_line_end": 91,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Closure/ClosureSector.lean#L89-L91",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Closure.ClosureSector",
-        "url": "/verify/taulib/docs/book-vi-closure-closure-sector/"
+        "url": "/corpus/taulib/docs/book-vi-closure-closure-sector/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Closure.ClosureSector](/verify/taulib/docs/book-vi-closure-closure-sector/)
+- Module: [TauLib.BookVI.Closure.ClosureSector](/corpus/taulib/docs/book-vi-closure-closure-sector/)
 - Source path: [`TauLib/BookVI/Closure/ClosureSector.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Closure/ClosureSector.lean#L89-L91)
 - Source range: L89-L91
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N22 — Clustering amplitude $S_8 = 0.760$"
-permalink: "/results/falsifications/n22-clustering-amplitude-s8-0760/"
+permalink: "/falsifications/n22-clustering-amplitude-s8-0760/"
 lane: "results"
 falsification_id: "N22"
 n_num: 22

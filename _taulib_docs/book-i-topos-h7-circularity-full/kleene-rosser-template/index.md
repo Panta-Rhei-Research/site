@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "kleeneRosserTemplate",
-  "permalink": "/verify/taulib/docs/book-i-topos-h7-circularity-full/kleene-rosser-template/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-h7-circularity-full/kleene-rosser-template/",
   "summary_short": "`def` declaration in `TauLib.BookI.Topos.H7CircularityFull`.",
   "declaration_id": "TauLib.BookI.Topos.H7CircularityFull::kleeneRosserTemplate",
   "declaration_slug": "kleene-rosser-template",
   "kind": "def",
   "name": "kleeneRosserTemplate",
   "module_name": "TauLib.BookI.Topos.H7CircularityFull",
-  "module_url": "/verify/taulib/docs/book-i-topos-h7-circularity-full/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-h7-circularity-full/",
   "source_line_start": 100,
   "source_line_end": 100,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/H7CircularityFull.lean#L100-L100",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.H7CircularityFull",
-        "url": "/verify/taulib/docs/book-i-topos-h7-circularity-full/"
+        "url": "/corpus/taulib/docs/book-i-topos-h7-circularity-full/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.H7CircularityFull](/verify/taulib/docs/book-i-topos-h7-circularity-full/)
+- Module: [TauLib.BookI.Topos.H7CircularityFull](/corpus/taulib/docs/book-i-topos-h7-circularity-full/)
 - Source path: [`TauLib/BookI/Topos/H7CircularityFull.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/H7CircularityFull.lean#L100-L100)
 - Source range: L100-L100
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

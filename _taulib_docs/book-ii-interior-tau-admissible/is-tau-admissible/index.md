@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "is_tau_admissible",
-  "permalink": "/verify/taulib/docs/book-ii-interior-tau-admissible/is-tau-admissible/",
+  "permalink": "/corpus/taulib/docs/book-ii-interior-tau-admissible/is-tau-admissible/",
   "summary_short": "`def` declaration in `TauLib.BookII.Interior.TauAdmissible`.",
   "declaration_id": "TauLib.BookII.Interior.TauAdmissible::is_tau_admissible",
   "declaration_slug": "is-tau-admissible",
   "kind": "def",
   "name": "is_tau_admissible",
   "module_name": "TauLib.BookII.Interior.TauAdmissible",
-  "module_url": "/verify/taulib/docs/book-ii-interior-tau-admissible/",
+  "module_url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/",
   "source_line_start": 76,
   "source_line_end": 77,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Interior/TauAdmissible.lean#L76-L77",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Interior.TauAdmissible",
-        "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/"
+        "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Interior.TauAdmissible](/verify/taulib/docs/book-ii-interior-tau-admissible/)
+- Module: [TauLib.BookII.Interior.TauAdmissible](/corpus/taulib/docs/book-ii-interior-tau-admissible/)
 - Source path: [`TauLib/BookII/Interior/TauAdmissible.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Interior/TauAdmissible.lean#L76-L77)
 - Source range: L76-L77
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

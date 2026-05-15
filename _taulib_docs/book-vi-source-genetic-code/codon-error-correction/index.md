@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "CodonErrorCorrection",
-  "permalink": "/verify/taulib/docs/book-vi-source-genetic-code/codon-error-correction/",
+  "permalink": "/corpus/taulib/docs/book-vi-source-genetic-code/codon-error-correction/",
   "summary_short": "`structure` declaration in `TauLib.BookVI.Source.GeneticCode`.",
   "declaration_id": "TauLib.BookVI.Source.GeneticCode::CodonErrorCorrection",
   "declaration_slug": "codon-error-correction",
   "kind": "structure",
   "name": "CodonErrorCorrection",
   "module_name": "TauLib.BookVI.Source.GeneticCode",
-  "module_url": "/verify/taulib/docs/book-vi-source-genetic-code/",
+  "module_url": "/corpus/taulib/docs/book-vi-source-genetic-code/",
   "source_line_start": 77,
   "source_line_end": 88,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Source/GeneticCode.lean#L77-L88",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Source.GeneticCode",
-        "url": "/verify/taulib/docs/book-vi-source-genetic-code/"
+        "url": "/corpus/taulib/docs/book-vi-source-genetic-code/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Source.GeneticCode](/verify/taulib/docs/book-vi-source-genetic-code/)
+- Module: [TauLib.BookVI.Source.GeneticCode](/corpus/taulib/docs/book-vi-source-genetic-code/)
 - Source path: [`TauLib/BookVI/Source/GeneticCode.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Source/GeneticCode.lean#L77-L88)
 - Source range: L77-L88
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

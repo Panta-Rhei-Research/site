@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "scope_discipline_check",
-  "permalink": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/scope-discipline-check/",
+  "permalink": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/scope-discipline-check/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Bridge.ConjectureGaps`.",
   "declaration_id": "TauLib.BookIII.Bridge.ConjectureGaps::scope_discipline_check",
   "declaration_slug": "scope-discipline-check",
   "kind": "def",
   "name": "scope_discipline_check",
   "module_name": "TauLib.BookIII.Bridge.ConjectureGaps",
-  "module_url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/",
+  "module_url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/",
   "source_line_start": 159,
   "source_line_end": 162,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/ConjectureGaps.lean#L159-L162",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Bridge.ConjectureGaps",
-        "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/"
+        "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Bridge.ConjectureGaps](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/)
+- Module: [TauLib.BookIII.Bridge.ConjectureGaps](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/)
 - Source path: [`TauLib/BookIII/Bridge/ConjectureGaps.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/ConjectureGaps.lean#L159-L162)
 - Source range: L159-L162
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

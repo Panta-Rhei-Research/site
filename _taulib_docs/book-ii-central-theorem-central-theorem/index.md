@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookII.CentralTheorem.CentralTheorem",
-  "permalink": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/",
+  "permalink": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookII.CentralTheorem.CentralTheorem`.",
   "module_name": "TauLib.BookII.CentralTheorem.CentralTheorem",
   "module_slug": "book-ii-central-theorem-central-theorem",
@@ -37,10 +37,12 @@
     {
       "kind": "structure",
       "name": "SpectralAlgebraElement",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/spectral-algebra-element/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/spectral-algebra-element/",
       "source_line_start": 61,
       "source_line_end": 65,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "II.D60"
       ]
@@ -48,19 +50,23 @@
     {
       "kind": "def",
       "name": "SpectralAlgebraElement.eval",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/eval/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/eval/",
       "source_line_start": 69,
       "source_line_end": 70,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "spectral_algebra_stage_ring_check",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/spectral-algebra-stage-ring-check/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/spectral-algebra-stage-ring-check/",
       "source_line_start": 77,
       "source_line_end": 98,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.D60"
       ]
@@ -68,10 +74,12 @@
     {
       "kind": "def",
       "name": "spectral_algebra_tower_check",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/spectral-algebra-tower-check/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/spectral-algebra-tower-check/",
       "source_line_start": 109,
       "source_line_end": 129,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.D60"
       ]
@@ -79,10 +87,12 @@
     {
       "kind": "def",
       "name": "central_theorem_forward_check",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/central-theorem-forward-check/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/central-theorem-forward-check/",
       "source_line_start": 146,
       "source_line_end": 168,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.T40"
       ]
@@ -90,10 +100,12 @@
     {
       "kind": "def",
       "name": "central_theorem_inverse_check",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/central-theorem-inverse-check/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/central-theorem-inverse-check/",
       "source_line_start": 181,
       "source_line_end": 204,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.T40"
       ]
@@ -101,28 +113,34 @@
     {
       "kind": "def",
       "name": "spectral_to_hol",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/spectral-to-hol/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/spectral-to-hol/",
       "source_line_start": 207,
       "source_line_end": 208,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "hol_to_spectral",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/hol-to-spectral/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/hol-to-spectral/",
       "source_line_start": 211,
       "source_line_end": 212,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "central_theorem_roundtrip_check",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/central-theorem-roundtrip-check/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/central-theorem-roundtrip-check/",
       "source_line_start": 229,
       "source_line_end": 260,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.T40"
       ]
@@ -130,10 +148,12 @@
     {
       "kind": "def",
       "name": "central_theorem_check",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/central-theorem-check/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/central-theorem-check/",
       "source_line_start": 270,
       "source_line_end": 280,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.T40"
       ]
@@ -141,10 +161,12 @@
     {
       "kind": "def",
       "name": "holographic_check",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/holographic-check/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/holographic-check/",
       "source_line_start": 298,
       "source_line_end": 326,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.C01"
       ]
@@ -152,10 +174,12 @@
     {
       "kind": "def",
       "name": "full_central_theorem_check",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/full-central-theorem-check/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/full-central-theorem-check/",
       "source_line_start": 330,
       "source_line_end": 332,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.C01"
       ]
@@ -163,100 +187,122 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/eval-l339/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/eval-l339/",
       "source_line_start": 339,
       "source_line_end": 339,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/eval-l340/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/eval-l340/",
       "source_line_start": 340,
       "source_line_end": 340,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/eval-l343/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/eval-l343/",
       "source_line_start": 343,
       "source_line_end": 343,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/eval-l344/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/eval-l344/",
       "source_line_start": 344,
       "source_line_end": 344,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/eval-l345/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/eval-l345/",
       "source_line_start": 345,
       "source_line_end": 345,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/eval-l348/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/eval-l348/",
       "source_line_start": 348,
       "source_line_end": 348,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/eval-l351/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/eval-l351/",
       "source_line_start": 351,
       "source_line_end": 351,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/eval-l354/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/eval-l354/",
       "source_line_start": 354,
       "source_line_end": 354,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/eval-l357/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/eval-l357/",
       "source_line_start": 357,
       "source_line_end": 358,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/eval-l361/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/eval-l361/",
       "source_line_start": 361,
       "source_line_end": 364,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "spectral_ring_3_15",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/spectral-ring-3-15/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/spectral-ring-3-15/",
       "source_line_start": 371,
       "source_line_end": 372,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.D60"
       ]
@@ -264,19 +310,23 @@
     {
       "kind": "theorem",
       "name": "spectral_tower_3_15",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/spectral-tower-3-15/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/spectral-tower-3-15/",
       "source_line_start": 374,
       "source_line_end": 375,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "central_fwd_3_15",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/central-fwd-3-15/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/central-fwd-3-15/",
       "source_line_start": 378,
       "source_line_end": 379,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.T40"
       ]
@@ -284,10 +334,12 @@
     {
       "kind": "theorem",
       "name": "central_inv_3_15",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/central-inv-3-15/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/central-inv-3-15/",
       "source_line_start": 382,
       "source_line_end": 383,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.T40"
       ]
@@ -295,10 +347,12 @@
     {
       "kind": "theorem",
       "name": "central_rt_3_15",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/central-rt-3-15/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/central-rt-3-15/",
       "source_line_start": 386,
       "source_line_end": 387,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.T40"
       ]
@@ -306,10 +360,12 @@
     {
       "kind": "theorem",
       "name": "central_theorem_3_15",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/central-theorem-3-15/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/central-theorem-3-15/",
       "source_line_start": 390,
       "source_line_end": 391,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.T40"
       ]
@@ -317,10 +373,12 @@
     {
       "kind": "theorem",
       "name": "holographic_3_15",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/holographic-3-15/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/holographic-3-15/",
       "source_line_start": 394,
       "source_line_end": 395,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.C01"
       ]
@@ -328,19 +386,23 @@
     {
       "kind": "theorem",
       "name": "full_central_3_15",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/full-central-3-15/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/full-central-3-15/",
       "source_line_start": 398,
       "source_line_end": 399,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "spectral_periodic",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/spectral-periodic/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/spectral-periodic/",
       "source_line_start": 407,
       "source_line_end": 409,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.D60"
       ]
@@ -348,10 +410,12 @@
     {
       "kind": "theorem",
       "name": "spectral_idempotent_supported",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/spectral-idempotent-supported/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/spectral-idempotent-supported/",
       "source_line_start": 413,
       "source_line_end": 419,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.D60"
       ]
@@ -359,10 +423,12 @@
     {
       "kind": "theorem",
       "name": "central_forward_coherent",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/central-forward-coherent/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/central-forward-coherent/",
       "source_line_start": 425,
       "source_line_end": 427,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.T40"
       ]
@@ -370,10 +436,12 @@
     {
       "kind": "theorem",
       "name": "central_inverse_periodic",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/central-inverse-periodic/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/central-inverse-periodic/",
       "source_line_start": 432,
       "source_line_end": 434,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.T40"
       ]
@@ -381,10 +449,12 @@
     {
       "kind": "theorem",
       "name": "central_roundtrip",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/central-roundtrip/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/central-roundtrip/",
       "source_line_start": 441,
       "source_line_end": 444,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.T40"
       ]
@@ -392,10 +462,12 @@
     {
       "kind": "theorem",
       "name": "holographic_roundtrip",
-      "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/holographic-roundtrip/",
+      "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/holographic-roundtrip/",
       "source_line_start": 449,
       "source_line_end": 454,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.C01"
       ]
@@ -409,7 +481,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -484,41 +556,41 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [SpectralAlgebraElement](/verify/taulib/docs/book-ii-central-theorem-central-theorem/spectral-algebra-element/) | L61-L65 | defined | `II.D60` |
-| `def` | [SpectralAlgebraElement.eval](/verify/taulib/docs/book-ii-central-theorem-central-theorem/eval/) | L69-L70 | defined | — |
-| `def` | [spectral_algebra_stage_ring_check](/verify/taulib/docs/book-ii-central-theorem-central-theorem/spectral-algebra-stage-ring-check/) | L77-L98 | defined | `II.D60` |
-| `def` | [spectral_algebra_tower_check](/verify/taulib/docs/book-ii-central-theorem-central-theorem/spectral-algebra-tower-check/) | L109-L129 | defined | `II.D60` |
-| `def` | [central_theorem_forward_check](/verify/taulib/docs/book-ii-central-theorem-central-theorem/central-theorem-forward-check/) | L146-L168 | defined | `II.T40` |
-| `def` | [central_theorem_inverse_check](/verify/taulib/docs/book-ii-central-theorem-central-theorem/central-theorem-inverse-check/) | L181-L204 | defined | `II.T40` |
-| `def` | [spectral_to_hol](/verify/taulib/docs/book-ii-central-theorem-central-theorem/spectral-to-hol/) | L207-L208 | defined | — |
-| `def` | [hol_to_spectral](/verify/taulib/docs/book-ii-central-theorem-central-theorem/hol-to-spectral/) | L211-L212 | defined | — |
-| `def` | [central_theorem_roundtrip_check](/verify/taulib/docs/book-ii-central-theorem-central-theorem/central-theorem-roundtrip-check/) | L229-L260 | defined | `II.T40` |
-| `def` | [central_theorem_check](/verify/taulib/docs/book-ii-central-theorem-central-theorem/central-theorem-check/) | L270-L280 | defined | `II.T40` |
-| `def` | [holographic_check](/verify/taulib/docs/book-ii-central-theorem-central-theorem/holographic-check/) | L298-L326 | defined | `II.C01` |
-| `def` | [full_central_theorem_check](/verify/taulib/docs/book-ii-central-theorem-central-theorem/full-central-theorem-check/) | L330-L332 | defined | `II.C01` |
-| `eval` | [#eval L339](/verify/taulib/docs/book-ii-central-theorem-central-theorem/eval-l339/) | L339-L339 | computed | — |
-| `eval` | [#eval L340](/verify/taulib/docs/book-ii-central-theorem-central-theorem/eval-l340/) | L340-L340 | computed | — |
-| `eval` | [#eval L343](/verify/taulib/docs/book-ii-central-theorem-central-theorem/eval-l343/) | L343-L343 | computed | — |
-| `eval` | [#eval L344](/verify/taulib/docs/book-ii-central-theorem-central-theorem/eval-l344/) | L344-L344 | computed | — |
-| `eval` | [#eval L345](/verify/taulib/docs/book-ii-central-theorem-central-theorem/eval-l345/) | L345-L345 | computed | — |
-| `eval` | [#eval L348](/verify/taulib/docs/book-ii-central-theorem-central-theorem/eval-l348/) | L348-L348 | computed | — |
-| `eval` | [#eval L351](/verify/taulib/docs/book-ii-central-theorem-central-theorem/eval-l351/) | L351-L351 | computed | — |
-| `eval` | [#eval L354](/verify/taulib/docs/book-ii-central-theorem-central-theorem/eval-l354/) | L354-L354 | computed | — |
-| `eval` | [#eval L357](/verify/taulib/docs/book-ii-central-theorem-central-theorem/eval-l357/) | L357-L358 | computed | — |
-| `eval` | [#eval L361](/verify/taulib/docs/book-ii-central-theorem-central-theorem/eval-l361/) | L361-L364 | computed | — |
-| `theorem` | [spectral_ring_3_15](/verify/taulib/docs/book-ii-central-theorem-central-theorem/spectral-ring-3-15/) | L371-L372 | formalized | `II.D60` |
-| `theorem` | [spectral_tower_3_15](/verify/taulib/docs/book-ii-central-theorem-central-theorem/spectral-tower-3-15/) | L374-L375 | formalized | — |
-| `theorem` | [central_fwd_3_15](/verify/taulib/docs/book-ii-central-theorem-central-theorem/central-fwd-3-15/) | L378-L379 | formalized | `II.T40` |
-| `theorem` | [central_inv_3_15](/verify/taulib/docs/book-ii-central-theorem-central-theorem/central-inv-3-15/) | L382-L383 | formalized | `II.T40` |
-| `theorem` | [central_rt_3_15](/verify/taulib/docs/book-ii-central-theorem-central-theorem/central-rt-3-15/) | L386-L387 | formalized | `II.T40` |
-| `theorem` | [central_theorem_3_15](/verify/taulib/docs/book-ii-central-theorem-central-theorem/central-theorem-3-15/) | L390-L391 | formalized | `II.T40` |
-| `theorem` | [holographic_3_15](/verify/taulib/docs/book-ii-central-theorem-central-theorem/holographic-3-15/) | L394-L395 | formalized | `II.C01` |
-| `theorem` | [full_central_3_15](/verify/taulib/docs/book-ii-central-theorem-central-theorem/full-central-3-15/) | L398-L399 | formalized | — |
-| `theorem` | [spectral_periodic](/verify/taulib/docs/book-ii-central-theorem-central-theorem/spectral-periodic/) | L407-L409 | formalized | `II.D60` |
-| `theorem` | [spectral_idempotent_supported](/verify/taulib/docs/book-ii-central-theorem-central-theorem/spectral-idempotent-supported/) | L413-L419 | formalized | `II.D60` |
-| `theorem` | [central_forward_coherent](/verify/taulib/docs/book-ii-central-theorem-central-theorem/central-forward-coherent/) | L425-L427 | formalized | `II.T40` |
-| `theorem` | [central_inverse_periodic](/verify/taulib/docs/book-ii-central-theorem-central-theorem/central-inverse-periodic/) | L432-L434 | formalized | `II.T40` |
-| `theorem` | [central_roundtrip](/verify/taulib/docs/book-ii-central-theorem-central-theorem/central-roundtrip/) | L441-L444 | formalized | `II.T40` |
-| `theorem` | [holographic_roundtrip](/verify/taulib/docs/book-ii-central-theorem-central-theorem/holographic-roundtrip/) | L449-L454 | formalized | `II.C01` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [SpectralAlgebraElement](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/spectral-algebra-element/) | L61-L65 | type/data schema | type/data schema | `II.D60` |
+| `def` | [SpectralAlgebraElement.eval](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/eval/) | L69-L70 | definition | definition | — |
+| `def` | [spectral_algebra_stage_ring_check](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/spectral-algebra-stage-ring-check/) | L77-L98 | data/computed value | data/computed value | `II.D60` |
+| `def` | [spectral_algebra_tower_check](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/spectral-algebra-tower-check/) | L109-L129 | data/computed value | data/computed value | `II.D60` |
+| `def` | [central_theorem_forward_check](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/central-theorem-forward-check/) | L146-L168 | data/computed value | data/computed value | `II.T40` |
+| `def` | [central_theorem_inverse_check](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/central-theorem-inverse-check/) | L181-L204 | data/computed value | data/computed value | `II.T40` |
+| `def` | [spectral_to_hol](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/spectral-to-hol/) | L207-L208 | definition | definition | — |
+| `def` | [hol_to_spectral](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/hol-to-spectral/) | L211-L212 | definition | definition | — |
+| `def` | [central_theorem_roundtrip_check](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/central-theorem-roundtrip-check/) | L229-L260 | data/computed value | data/computed value | `II.T40` |
+| `def` | [central_theorem_check](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/central-theorem-check/) | L270-L280 | data/computed value | data/computed value | `II.T40` |
+| `def` | [holographic_check](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/holographic-check/) | L298-L326 | data/computed value | data/computed value | `II.C01` |
+| `def` | [full_central_theorem_check](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/full-central-theorem-check/) | L330-L332 | data/computed value | data/computed value | `II.C01` |
+| `eval` | [#eval L339](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/eval-l339/) | L339-L339 | computed check | computed check | — |
+| `eval` | [#eval L340](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/eval-l340/) | L340-L340 | computed check | computed check | — |
+| `eval` | [#eval L343](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/eval-l343/) | L343-L343 | computed check | computed check | — |
+| `eval` | [#eval L344](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/eval-l344/) | L344-L344 | computed check | computed check | — |
+| `eval` | [#eval L345](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/eval-l345/) | L345-L345 | computed check | computed check | — |
+| `eval` | [#eval L348](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/eval-l348/) | L348-L348 | computed check | computed check | — |
+| `eval` | [#eval L351](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/eval-l351/) | L351-L351 | computed check | computed check | — |
+| `eval` | [#eval L354](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/eval-l354/) | L354-L354 | computed check | computed check | — |
+| `eval` | [#eval L357](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/eval-l357/) | L357-L358 | computed check | computed check | — |
+| `eval` | [#eval L361](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/eval-l361/) | L361-L364 | computed check | computed check | — |
+| `theorem` | [spectral_ring_3_15](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/spectral-ring-3-15/) | L371-L372 | proof obligation | formal proof obligation checked | `II.D60` |
+| `theorem` | [spectral_tower_3_15](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/spectral-tower-3-15/) | L374-L375 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [central_fwd_3_15](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/central-fwd-3-15/) | L378-L379 | proof obligation | formal proof obligation checked | `II.T40` |
+| `theorem` | [central_inv_3_15](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/central-inv-3-15/) | L382-L383 | proof obligation | formal proof obligation checked | `II.T40` |
+| `theorem` | [central_rt_3_15](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/central-rt-3-15/) | L386-L387 | proof obligation | formal proof obligation checked | `II.T40` |
+| `theorem` | [central_theorem_3_15](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/central-theorem-3-15/) | L390-L391 | proof obligation | formal proof obligation checked | `II.T40` |
+| `theorem` | [holographic_3_15](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/holographic-3-15/) | L394-L395 | proof obligation | formal proof obligation checked | `II.C01` |
+| `theorem` | [full_central_3_15](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/full-central-3-15/) | L398-L399 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [spectral_periodic](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/spectral-periodic/) | L407-L409 | proof obligation | formal proof obligation checked | `II.D60` |
+| `theorem` | [spectral_idempotent_supported](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/spectral-idempotent-supported/) | L413-L419 | proof obligation | formal proof obligation checked | `II.D60` |
+| `theorem` | [central_forward_coherent](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/central-forward-coherent/) | L425-L427 | proof obligation | formal proof obligation checked | `II.T40` |
+| `theorem` | [central_inverse_periodic](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/central-inverse-periodic/) | L432-L434 | proof obligation | formal proof obligation checked | `II.T40` |
+| `theorem` | [central_roundtrip](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/central-roundtrip/) | L441-L444 | proof obligation | formal proof obligation checked | `II.T40` |
+| `theorem` | [holographic_roundtrip](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/holographic-roundtrip/) | L449-L454 | proof obligation | formal proof obligation checked | `II.C01` |

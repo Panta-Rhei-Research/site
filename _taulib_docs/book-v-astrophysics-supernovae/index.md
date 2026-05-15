@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.Astrophysics.Supernovae",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-supernovae/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-supernovae/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.Astrophysics.Supernovae`.",
   "module_name": "TauLib.BookV.Astrophysics.Supernovae",
   "module_slug": "book-v-astrophysics-supernovae",
@@ -44,10 +44,12 @@
     {
       "kind": "inductive",
       "name": "SupernovaType",
-      "url": "/verify/taulib/docs/book-v-astrophysics-supernovae/supernova-type/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-supernovae/supernova-type/",
       "source_line_start": 69,
       "source_line_end": 78,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D126"
       ]
@@ -55,28 +57,34 @@
     {
       "kind": "def",
       "name": "SupernovaType.isCoreCollapse",
-      "url": "/verify/taulib/docs/book-v-astrophysics-supernovae/is-core-collapse/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-supernovae/is-core-collapse/",
       "source_line_start": 81,
       "source_line_end": 85,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "SupernovaType.isThermonuclear",
-      "url": "/verify/taulib/docs/book-v-astrophysics-supernovae/is-thermonuclear/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-supernovae/is-thermonuclear/",
       "source_line_start": 88,
       "source_line_end": 90,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "core_collapse_topology",
-      "url": "/verify/taulib/docs/book-v-astrophysics-supernovae/core-collapse-topology/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-supernovae/core-collapse-topology/",
       "source_line_start": 102,
       "source_line_end": 104,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T89"
       ]
@@ -84,19 +92,23 @@
     {
       "kind": "inductive",
       "name": "CollapsePhase",
-      "url": "/verify/taulib/docs/book-v-astrophysics-supernovae/collapse-phase/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-supernovae/collapse-phase/",
       "source_line_start": 111,
       "source_line_end": 124,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "CoreCollapseMechanism",
-      "url": "/verify/taulib/docs/book-v-astrophysics-supernovae/core-collapse-mechanism/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-supernovae/core-collapse-mechanism/",
       "source_line_start": 129,
       "source_line_end": 142,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D127"
       ]
@@ -104,19 +116,23 @@
     {
       "kind": "theorem",
       "name": "collapse_phases_complete",
-      "url": "/verify/taulib/docs/book-v-astrophysics-supernovae/collapse-phases-complete/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-supernovae/collapse-phases-complete/",
       "source_line_start": 145,
       "source_line_end": 149,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "neutrino_from_defect",
-      "url": "/verify/taulib/docs/book-v-astrophysics-supernovae/neutrino-from-defect/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-supernovae/neutrino-from-defect/",
       "source_line_start": 162,
       "source_line_end": 164,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P73"
       ]
@@ -124,10 +140,12 @@
     {
       "kind": "theorem",
       "name": "type_ia_chandrasekhar",
-      "url": "/verify/taulib/docs/book-v-astrophysics-supernovae/type-ia-chandrasekhar/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-supernovae/type-ia-chandrasekhar/",
       "source_line_start": 176,
       "source_line_end": 178,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P74"
       ]
@@ -135,19 +153,23 @@
     {
       "kind": "inductive",
       "name": "ElementGroup",
-      "url": "/verify/taulib/docs/book-v-astrophysics-supernovae/element-group/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-supernovae/element-group/",
       "source_line_start": 185,
       "source_line_end": 194,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "NucleosynthesisProducts",
-      "url": "/verify/taulib/docs/book-v-astrophysics-supernovae/nucleosynthesis-products/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-supernovae/nucleosynthesis-products/",
       "source_line_start": 202,
       "source_line_end": 209,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D128"
       ]
@@ -155,28 +177,34 @@
     {
       "kind": "def",
       "name": "cc_sn_products",
-      "url": "/verify/taulib/docs/book-v-astrophysics-supernovae/cc-sn-products/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-supernovae/cc-sn-products/",
       "source_line_start": 212,
       "source_line_end": 215,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "ia_sn_products",
-      "url": "/verify/taulib/docs/book-v-astrophysics-supernovae/ia-sn-products/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-supernovae/ia-sn-products/",
       "source_line_start": 218,
       "source_line_end": 221,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "standardizable_candle",
-      "url": "/verify/taulib/docs/book-v-astrophysics-supernovae/standardizable-candle/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-supernovae/standardizable-candle/",
       "source_line_start": 233,
       "source_line_end": 235,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P75"
       ]
@@ -184,10 +212,12 @@
     {
       "kind": "theorem",
       "name": "sn_rate_sfh",
-      "url": "/verify/taulib/docs/book-v-astrophysics-supernovae/sn-rate-sfh/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-supernovae/sn-rate-sfh/",
       "source_line_start": 244,
       "source_line_end": 246,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P76"
       ]
@@ -195,46 +225,56 @@
     {
       "kind": "def",
       "name": "example_cc",
-      "url": "/verify/taulib/docs/book-v-astrophysics-supernovae/example-cc/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-supernovae/example-cc/",
       "source_line_start": 277,
       "source_line_end": 283,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-astrophysics-supernovae/eval-l285/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-supernovae/eval-l285/",
       "source_line_start": 285,
       "source_line_end": 285,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-astrophysics-supernovae/eval-l286/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-supernovae/eval-l286/",
       "source_line_start": 286,
       "source_line_end": 286,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-astrophysics-supernovae/eval-l287/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-supernovae/eval-l287/",
       "source_line_start": 287,
       "source_line_end": 287,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-astrophysics-supernovae/eval-l288/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-supernovae/eval-l288/",
       "source_line_start": 288,
       "source_line_end": 290,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -246,7 +286,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -328,25 +368,25 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [SupernovaType](/verify/taulib/docs/book-v-astrophysics-supernovae/supernova-type/) | L69-L78 | defined | `V.D126` |
-| `def` | [SupernovaType.isCoreCollapse](/verify/taulib/docs/book-v-astrophysics-supernovae/is-core-collapse/) | L81-L85 | defined | — |
-| `def` | [SupernovaType.isThermonuclear](/verify/taulib/docs/book-v-astrophysics-supernovae/is-thermonuclear/) | L88-L90 | defined | — |
-| `theorem` | [core_collapse_topology](/verify/taulib/docs/book-v-astrophysics-supernovae/core-collapse-topology/) | L102-L104 | formalized | `V.T89` |
-| `inductive` | [CollapsePhase](/verify/taulib/docs/book-v-astrophysics-supernovae/collapse-phase/) | L111-L124 | defined | — |
-| `structure` | [CoreCollapseMechanism](/verify/taulib/docs/book-v-astrophysics-supernovae/core-collapse-mechanism/) | L129-L142 | defined | `V.D127` |
-| `theorem` | [collapse_phases_complete](/verify/taulib/docs/book-v-astrophysics-supernovae/collapse-phases-complete/) | L145-L149 | formalized | — |
-| `theorem` | [neutrino_from_defect](/verify/taulib/docs/book-v-astrophysics-supernovae/neutrino-from-defect/) | L162-L164 | formalized | `V.P73` |
-| `theorem` | [type_ia_chandrasekhar](/verify/taulib/docs/book-v-astrophysics-supernovae/type-ia-chandrasekhar/) | L176-L178 | formalized | `V.P74` |
-| `inductive` | [ElementGroup](/verify/taulib/docs/book-v-astrophysics-supernovae/element-group/) | L185-L194 | defined | — |
-| `structure` | [NucleosynthesisProducts](/verify/taulib/docs/book-v-astrophysics-supernovae/nucleosynthesis-products/) | L202-L209 | defined | `V.D128` |
-| `def` | [cc_sn_products](/verify/taulib/docs/book-v-astrophysics-supernovae/cc-sn-products/) | L212-L215 | defined | — |
-| `def` | [ia_sn_products](/verify/taulib/docs/book-v-astrophysics-supernovae/ia-sn-products/) | L218-L221 | defined | — |
-| `theorem` | [standardizable_candle](/verify/taulib/docs/book-v-astrophysics-supernovae/standardizable-candle/) | L233-L235 | formalized | `V.P75` |
-| `theorem` | [sn_rate_sfh](/verify/taulib/docs/book-v-astrophysics-supernovae/sn-rate-sfh/) | L244-L246 | formalized | `V.P76` |
-| `def` | [example_cc](/verify/taulib/docs/book-v-astrophysics-supernovae/example-cc/) | L277-L283 | defined | — |
-| `eval` | [#eval L285](/verify/taulib/docs/book-v-astrophysics-supernovae/eval-l285/) | L285-L285 | computed | — |
-| `eval` | [#eval L286](/verify/taulib/docs/book-v-astrophysics-supernovae/eval-l286/) | L286-L286 | computed | — |
-| `eval` | [#eval L287](/verify/taulib/docs/book-v-astrophysics-supernovae/eval-l287/) | L287-L287 | computed | — |
-| `eval` | [#eval L288](/verify/taulib/docs/book-v-astrophysics-supernovae/eval-l288/) | L288-L290 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [SupernovaType](/corpus/taulib/docs/book-v-astrophysics-supernovae/supernova-type/) | L69-L78 | type/data schema | type/data schema | `V.D126` |
+| `def` | [SupernovaType.isCoreCollapse](/corpus/taulib/docs/book-v-astrophysics-supernovae/is-core-collapse/) | L81-L85 | definition | definition | — |
+| `def` | [SupernovaType.isThermonuclear](/corpus/taulib/docs/book-v-astrophysics-supernovae/is-thermonuclear/) | L88-L90 | definition | definition | — |
+| `theorem` | [core_collapse_topology](/corpus/taulib/docs/book-v-astrophysics-supernovae/core-collapse-topology/) | L102-L104 | proof obligation | formal proof obligation checked | `V.T89` |
+| `inductive` | [CollapsePhase](/corpus/taulib/docs/book-v-astrophysics-supernovae/collapse-phase/) | L111-L124 | type/data schema | type/data schema | — |
+| `structure` | [CoreCollapseMechanism](/corpus/taulib/docs/book-v-astrophysics-supernovae/core-collapse-mechanism/) | L129-L142 | type/data schema | type/data schema | `V.D127` |
+| `theorem` | [collapse_phases_complete](/corpus/taulib/docs/book-v-astrophysics-supernovae/collapse-phases-complete/) | L145-L149 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [neutrino_from_defect](/corpus/taulib/docs/book-v-astrophysics-supernovae/neutrino-from-defect/) | L162-L164 | proof obligation | formal proof obligation checked | `V.P73` |
+| `theorem` | [type_ia_chandrasekhar](/corpus/taulib/docs/book-v-astrophysics-supernovae/type-ia-chandrasekhar/) | L176-L178 | proof obligation | formal proof obligation checked | `V.P74` |
+| `inductive` | [ElementGroup](/corpus/taulib/docs/book-v-astrophysics-supernovae/element-group/) | L185-L194 | type/data schema | type/data schema | — |
+| `structure` | [NucleosynthesisProducts](/corpus/taulib/docs/book-v-astrophysics-supernovae/nucleosynthesis-products/) | L202-L209 | type/data schema | type/data schema | `V.D128` |
+| `def` | [cc_sn_products](/corpus/taulib/docs/book-v-astrophysics-supernovae/cc-sn-products/) | L212-L215 | definition | definition | — |
+| `def` | [ia_sn_products](/corpus/taulib/docs/book-v-astrophysics-supernovae/ia-sn-products/) | L218-L221 | definition | definition | — |
+| `theorem` | [standardizable_candle](/corpus/taulib/docs/book-v-astrophysics-supernovae/standardizable-candle/) | L233-L235 | proof obligation | formal proof obligation checked | `V.P75` |
+| `theorem` | [sn_rate_sfh](/corpus/taulib/docs/book-v-astrophysics-supernovae/sn-rate-sfh/) | L244-L246 | proof obligation | formal proof obligation checked | `V.P76` |
+| `def` | [example_cc](/corpus/taulib/docs/book-v-astrophysics-supernovae/example-cc/) | L277-L283 | definition | definition | — |
+| `eval` | [#eval L285](/corpus/taulib/docs/book-v-astrophysics-supernovae/eval-l285/) | L285-L285 | computed check | computed check | — |
+| `eval` | [#eval L286](/corpus/taulib/docs/book-v-astrophysics-supernovae/eval-l286/) | L286-L286 | computed check | computed check | — |
+| `eval` | [#eval L287](/corpus/taulib/docs/book-v-astrophysics-supernovae/eval-l287/) | L287-L287 | computed check | computed check | — |
+| `eval` | [#eval L288](/corpus/taulib/docs/book-v-astrophysics-supernovae/eval-l288/) | L288-L290 | computed check | computed check | — |

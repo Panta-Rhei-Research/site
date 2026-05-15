@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "lobes_clopen",
-  "permalink": "/verify/taulib/docs/book-ii-topology-boundary-minimality/lobes-clopen/",
+  "permalink": "/corpus/taulib/docs/book-ii-topology-boundary-minimality/lobes-clopen/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Topology.BoundaryMinimality`.",
   "declaration_id": "TauLib.BookII.Topology.BoundaryMinimality::lobes_clopen",
   "declaration_slug": "lobes-clopen",
   "kind": "theorem",
   "name": "lobes_clopen",
   "module_name": "TauLib.BookII.Topology.BoundaryMinimality",
-  "module_url": "/verify/taulib/docs/book-ii-topology-boundary-minimality/",
+  "module_url": "/corpus/taulib/docs/book-ii-topology-boundary-minimality/",
   "source_line_start": 165,
   "source_line_end": 165,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/BoundaryMinimality.lean#L165-L165",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Topology.BoundaryMinimality",
-        "url": "/verify/taulib/docs/book-ii-topology-boundary-minimality/"
+        "url": "/corpus/taulib/docs/book-ii-topology-boundary-minimality/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Topology.BoundaryMinimality](/verify/taulib/docs/book-ii-topology-boundary-minimality/)
+- Module: [TauLib.BookII.Topology.BoundaryMinimality](/corpus/taulib/docs/book-ii-topology-boundary-minimality/)
 - Source path: [`TauLib/BookII/Topology/BoundaryMinimality.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/BoundaryMinimality.lean#L165-L165)
 - Source range: L165-L165
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

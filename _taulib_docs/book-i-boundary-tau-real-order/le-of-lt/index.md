@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauReal.le_of_lt",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-real-order/le-of-lt/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-real-order/le-of-lt/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.TauRealOrder`.",
   "declaration_id": "TauLib.BookI.Boundary.TauRealOrder::TauReal.le_of_lt",
   "declaration_slug": "le-of-lt",
   "kind": "theorem",
   "name": "TauReal.le_of_lt",
   "module_name": "TauLib.BookI.Boundary.TauRealOrder",
-  "module_url": "/verify/taulib/docs/book-i-boundary-tau-real-order/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-tau-real-order/",
   "source_line_start": 128,
   "source_line_end": 151,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealOrder.lean#L128-L151",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.TauRealOrder",
-        "url": "/verify/taulib/docs/book-i-boundary-tau-real-order/"
+        "url": "/corpus/taulib/docs/book-i-boundary-tau-real-order/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.TauRealOrder](/verify/taulib/docs/book-i-boundary-tau-real-order/)
+- Module: [TauLib.BookI.Boundary.TauRealOrder](/corpus/taulib/docs/book-i-boundary-tau-real-order/)
 - Source path: [`TauLib/BookI/Boundary/TauRealOrder.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealOrder.lean#L128-L151)
 - Source range: L128-L151
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

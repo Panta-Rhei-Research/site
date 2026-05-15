@@ -2,37 +2,39 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "echo_time_inner",
-  "permalink": "/verify/taulib/docs/book-v-gravity-bhtopo-modes/echo-time-inner/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-bhtopo-modes/echo-time-inner/",
   "summary_short": "`def` declaration in `TauLib.BookV.Gravity.BHTopoModes`.",
   "declaration_id": "TauLib.BookV.Gravity.BHTopoModes::echo_time_inner",
   "declaration_slug": "echo-time-inner",
   "kind": "def",
   "name": "echo_time_inner",
   "module_name": "TauLib.BookV.Gravity.BHTopoModes",
-  "module_url": "/verify/taulib/docs/book-v-gravity-bhtopo-modes/",
-  "source_line_start": 127,
-  "source_line_end": 128,
+  "module_url": "/corpus/taulib/docs/book-v-gravity-bhtopo-modes/",
+  "source_line_start": 131,
+  "source_line_end": 132,
   "registry_ids": [
     "V.T169"
   ],
   "related_registry_items": [
     {
       "id": "V.T169",
-      "title": "GW Echo Times t± = 4GM·ι_τ^{±1}/c³",
+      "title": "GW Cycle-Delay Times t± = 4GM·ι_τ^{±1}/c³",
       "url": "/registry/object/V.T169/"
     }
   ],
-  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L127-L128",
+  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L131-L132",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Gravity.BHTopoModes",
-        "url": "/verify/taulib/docs/book-v-gravity-bhtopo-modes/"
+        "url": "/corpus/taulib/docs/book-v-gravity-bhtopo-modes/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -42,14 +44,15 @@
     "artifacts": [
       {
         "title": "Source on GitHub",
-        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L127-L128",
+        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L131-L132",
         "external": true
       }
     ],
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,21 +73,24 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Gravity.BHTopoModes](/verify/taulib/docs/book-v-gravity-bhtopo-modes/)
-- Source path: [`TauLib/BookV/Gravity/BHTopoModes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L127-L128)
-- Source range: L127-L128
+- Module: [TauLib.BookV.Gravity.BHTopoModes](/corpus/taulib/docs/book-v-gravity-bhtopo-modes/)
+- Source path: [`TauLib/BookV/Gravity/BHTopoModes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L131-L132)
+- Source range: L131-L132
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 
-- `V.T169` — GW Echo Times t± = 4GM·ι_τ^{±1}/c³
+- `V.T169` — GW Cycle-Delay Times t± = 4GM·ι_τ^{±1}/c³
 
 ## Immediate Comment / Docstring
 
 ```lean
-/-- Inner echo time: t_inner = 4GM·ι_τ/c³ [seconds].
-    Corresponds to inner S¹ round-trip on the torus horizon. [V.T169] -/
+/-- Inner cycle-delay time: t_inner = 4GM·ι_τ/c³ [seconds].
+    Corresponds to inner S¹ round-trip on the torus horizon. This is a
+    topology-readout delay, not an exotic-compact-object reflective-surface
+    echo. The declaration name is kept for public API stability. [V.T169] -/
 ```
 
 ## Source Excerpt

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.GravityField.TauSchwarzschild",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.GravityField.TauSchwarzschild`.",
   "module_name": "TauLib.BookV.GravityField.TauSchwarzschild",
   "module_slug": "book-v-gravity-field-tau-schwarzschild",
@@ -48,10 +48,12 @@
     {
       "kind": "structure",
       "name": "FieldTorusVacuum",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-torus-vacuum/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-torus-vacuum/",
       "source_line_start": 65,
       "source_line_end": 72,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D61"
       ]
@@ -59,10 +61,12 @@
     {
       "kind": "def",
       "name": "vacuum_is_regular",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/vacuum-is-regular/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/vacuum-is-regular/",
       "source_line_start": 75,
       "source_line_end": 76,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "V.P18"
       ]
@@ -70,10 +74,12 @@
     {
       "kind": "structure",
       "name": "FieldGravConstant",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-grav-constant/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-grav-constant/",
       "source_line_start": 86,
       "source_line_end": 91,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D62"
       ]
@@ -81,10 +87,12 @@
     {
       "kind": "theorem",
       "name": "field_g_tau_well_defined",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-g-tau-well-defined/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-g-tau-well-defined/",
       "source_line_start": 94,
       "source_line_end": 96,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P17"
       ]
@@ -92,10 +100,12 @@
     {
       "kind": "structure",
       "name": "GeometricRelaxation",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/geometric-relaxation/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/geometric-relaxation/",
       "source_line_start": 107,
       "source_line_end": 120,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D63"
       ]
@@ -103,19 +113,23 @@
     {
       "kind": "def",
       "name": "GeometricRelaxation.bindingFractionFloat",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/binding-fraction-float/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/binding-fraction-float/",
       "source_line_start": 123,
       "source_line_end": 125,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "TopologicalRelaxation",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/topological-relaxation/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/topological-relaxation/",
       "source_line_start": 133,
       "source_line_end": 144,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D64"
       ]
@@ -123,10 +137,12 @@
     {
       "kind": "inductive",
       "name": "FieldEvolutionMode",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-evolution-mode/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-evolution-mode/",
       "source_line_start": 154,
       "source_line_end": 161,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D65"
       ]
@@ -134,28 +150,34 @@
     {
       "kind": "def",
       "name": "FieldEvolutionMode.changes_mass",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/changes-mass/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/changes-mass/",
       "source_line_start": 164,
       "source_line_end": 167,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "five_field_modes",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/five-field-modes/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/five-field-modes/",
       "source_line_start": 170,
       "source_line_end": 175,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "field_vacuum_shape_ratio",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-vacuum-shape-ratio/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-vacuum-shape-ratio/",
       "source_line_start": 182,
       "source_line_end": 185,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T38"
       ]
@@ -163,10 +185,12 @@
     {
       "kind": "theorem",
       "name": "chart_readout_schwarzschild",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/chart-readout-schwarzschild/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/chart-readout-schwarzschild/",
       "source_line_start": 188,
       "source_line_end": 190,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T39"
       ]
@@ -174,10 +198,12 @@
     {
       "kind": "theorem",
       "name": "field_schwarzschild_relation",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-schwarzschild-relation/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-schwarzschild-relation/",
       "source_line_start": 193,
       "source_line_end": 196,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T40"
       ]
@@ -185,10 +211,12 @@
     {
       "kind": "theorem",
       "name": "field_no_shrink",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-no-shrink/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-no-shrink/",
       "source_line_start": 199,
       "source_line_end": 200,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T41"
       ]
@@ -196,100 +224,122 @@
     {
       "kind": "def",
       "name": "example_field_vacuum",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/example-field-vacuum/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/example-field-vacuum/",
       "source_line_start": 216,
       "source_line_end": 219,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "example_field_g",
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/example-field-g/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/example-field-g/",
       "source_line_start": 222,
       "source_line_end": 228,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l234/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l234/",
       "source_line_start": 234,
       "source_line_end": 234,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l235/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l235/",
       "source_line_start": 235,
       "source_line_end": 235,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l236/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l236/",
       "source_line_start": 236,
       "source_line_end": 236,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l238/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l238/",
       "source_line_start": 238,
       "source_line_end": 238,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l239/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l239/",
       "source_line_start": 239,
       "source_line_end": 239,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l241/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l241/",
       "source_line_start": 241,
       "source_line_end": 241,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l242/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l242/",
       "source_line_start": 242,
       "source_line_end": 242,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l243/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l243/",
       "source_line_start": 243,
       "source_line_end": 243,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l244/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l244/",
       "source_line_start": 244,
       "source_line_end": 246,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -301,7 +351,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -387,30 +437,30 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [FieldTorusVacuum](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-torus-vacuum/) | L65-L72 | defined | `V.D61` |
-| `def` | [vacuum_is_regular](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/vacuum-is-regular/) | L75-L76 | defined | `V.P18` |
-| `structure` | [FieldGravConstant](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-grav-constant/) | L86-L91 | defined | `V.D62` |
-| `theorem` | [field_g_tau_well_defined](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-g-tau-well-defined/) | L94-L96 | formalized | `V.P17` |
-| `structure` | [GeometricRelaxation](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/geometric-relaxation/) | L107-L120 | defined | `V.D63` |
-| `def` | [GeometricRelaxation.bindingFractionFloat](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/binding-fraction-float/) | L123-L125 | defined | — |
-| `structure` | [TopologicalRelaxation](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/topological-relaxation/) | L133-L144 | defined | `V.D64` |
-| `inductive` | [FieldEvolutionMode](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-evolution-mode/) | L154-L161 | defined | `V.D65` |
-| `def` | [FieldEvolutionMode.changes_mass](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/changes-mass/) | L164-L167 | defined | — |
-| `theorem` | [five_field_modes](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/five-field-modes/) | L170-L175 | formalized | — |
-| `theorem` | [field_vacuum_shape_ratio](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-vacuum-shape-ratio/) | L182-L185 | formalized | `V.T38` |
-| `theorem` | [chart_readout_schwarzschild](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/chart-readout-schwarzschild/) | L188-L190 | formalized | `V.T39` |
-| `theorem` | [field_schwarzschild_relation](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-schwarzschild-relation/) | L193-L196 | formalized | `V.T40` |
-| `theorem` | [field_no_shrink](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-no-shrink/) | L199-L200 | formalized | `V.T41` |
-| `def` | [example_field_vacuum](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/example-field-vacuum/) | L216-L219 | defined | — |
-| `def` | [example_field_g](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/example-field-g/) | L222-L228 | defined | — |
-| `eval` | [#eval L234](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l234/) | L234-L234 | computed | — |
-| `eval` | [#eval L235](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l235/) | L235-L235 | computed | — |
-| `eval` | [#eval L236](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l236/) | L236-L236 | computed | — |
-| `eval` | [#eval L238](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l238/) | L238-L238 | computed | — |
-| `eval` | [#eval L239](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l239/) | L239-L239 | computed | — |
-| `eval` | [#eval L241](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l241/) | L241-L241 | computed | — |
-| `eval` | [#eval L242](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l242/) | L242-L242 | computed | — |
-| `eval` | [#eval L243](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l243/) | L243-L243 | computed | — |
-| `eval` | [#eval L244](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l244/) | L244-L246 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [FieldTorusVacuum](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-torus-vacuum/) | L65-L72 | type/data schema | type/data schema | `V.D61` |
+| `def` | [vacuum_is_regular](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/vacuum-is-regular/) | L75-L76 | definition | definition | `V.P18` |
+| `structure` | [FieldGravConstant](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-grav-constant/) | L86-L91 | type/data schema | type/data schema | `V.D62` |
+| `theorem` | [field_g_tau_well_defined](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-g-tau-well-defined/) | L94-L96 | proof obligation | formal proof obligation checked | `V.P17` |
+| `structure` | [GeometricRelaxation](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/geometric-relaxation/) | L107-L120 | type/data schema | type/data schema | `V.D63` |
+| `def` | [GeometricRelaxation.bindingFractionFloat](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/binding-fraction-float/) | L123-L125 | data/computed value | data/computed value | — |
+| `structure` | [TopologicalRelaxation](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/topological-relaxation/) | L133-L144 | type/data schema | type/data schema | `V.D64` |
+| `inductive` | [FieldEvolutionMode](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-evolution-mode/) | L154-L161 | type/data schema | type/data schema | `V.D65` |
+| `def` | [FieldEvolutionMode.changes_mass](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/changes-mass/) | L164-L167 | definition | definition | — |
+| `theorem` | [five_field_modes](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/five-field-modes/) | L170-L175 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [field_vacuum_shape_ratio](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-vacuum-shape-ratio/) | L182-L185 | proof obligation | formal proof obligation checked | `V.T38` |
+| `theorem` | [chart_readout_schwarzschild](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/chart-readout-schwarzschild/) | L188-L190 | proof obligation | formal proof obligation checked | `V.T39` |
+| `theorem` | [field_schwarzschild_relation](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-schwarzschild-relation/) | L193-L196 | proof obligation | formal proof obligation checked | `V.T40` |
+| `theorem` | [field_no_shrink](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-no-shrink/) | L199-L200 | proof obligation | formal proof obligation checked | `V.T41` |
+| `def` | [example_field_vacuum](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/example-field-vacuum/) | L216-L219 | definition | definition | — |
+| `def` | [example_field_g](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/example-field-g/) | L222-L228 | definition | definition | — |
+| `eval` | [#eval L234](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l234/) | L234-L234 | computed check | computed check | — |
+| `eval` | [#eval L235](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l235/) | L235-L235 | computed check | computed check | — |
+| `eval` | [#eval L236](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l236/) | L236-L236 | computed check | computed check | — |
+| `eval` | [#eval L238](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l238/) | L238-L238 | computed check | computed check | — |
+| `eval` | [#eval L239](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l239/) | L239-L239 | computed check | computed check | — |
+| `eval` | [#eval L241](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l241/) | L241-L241 | computed check | computed check | — |
+| `eval` | [#eval L242](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l242/) | L242-L242 | computed check | computed check | — |
+| `eval` | [#eval L243](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l243/) | L243-L243 | computed check | computed check | — |
+| `eval` | [#eval L244](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/eval-l244/) | L244-L246 | computed check | computed check | — |

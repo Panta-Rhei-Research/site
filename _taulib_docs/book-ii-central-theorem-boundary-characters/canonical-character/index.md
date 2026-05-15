@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "canonical_character",
-  "permalink": "/verify/taulib/docs/book-ii-central-theorem-boundary-characters/canonical-character/",
+  "permalink": "/corpus/taulib/docs/book-ii-central-theorem-boundary-characters/canonical-character/",
   "summary_short": "`def` declaration in `TauLib.BookII.CentralTheorem.BoundaryCharacters`.",
   "declaration_id": "TauLib.BookII.CentralTheorem.BoundaryCharacters::canonical_character",
   "declaration_slug": "canonical-character",
   "kind": "def",
   "name": "canonical_character",
   "module_name": "TauLib.BookII.CentralTheorem.BoundaryCharacters",
-  "module_url": "/verify/taulib/docs/book-ii-central-theorem-boundary-characters/",
+  "module_url": "/corpus/taulib/docs/book-ii-central-theorem-boundary-characters/",
   "source_line_start": 71,
   "source_line_end": 73,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/BoundaryCharacters.lean#L71-L73",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.CentralTheorem.BoundaryCharacters",
-        "url": "/verify/taulib/docs/book-ii-central-theorem-boundary-characters/"
+        "url": "/corpus/taulib/docs/book-ii-central-theorem-boundary-characters/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.CentralTheorem.BoundaryCharacters](/verify/taulib/docs/book-ii-central-theorem-boundary-characters/)
+- Module: [TauLib.BookII.CentralTheorem.BoundaryCharacters](/corpus/taulib/docs/book-ii-central-theorem-boundary-characters/)
 - Source path: [`TauLib/BookII/CentralTheorem/BoundaryCharacters.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/BoundaryCharacters.lean#L71-L73)
 - Source range: L71-L73
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookVI.LifeCore.ParityBridge",
-  "permalink": "/verify/taulib/docs/book-vi-life-core-parity-bridge/",
+  "permalink": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookVI.LifeCore.ParityBridge`.",
   "module_name": "TauLib.BookVI.LifeCore.ParityBridge",
   "module_slug": "book-vi-life-core-parity-bridge",
@@ -40,10 +40,12 @@
     {
       "kind": "structure",
       "name": "PolarityFunctional",
-      "url": "/verify/taulib/docs/book-vi-life-core-parity-bridge/polarity-functional/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/polarity-functional/",
       "source_line_start": 28,
       "source_line_end": 33,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D01"
       ]
@@ -51,19 +53,23 @@
     {
       "kind": "def",
       "name": "polarity_functional",
-      "url": "/verify/taulib/docs/book-vi-life-core-parity-bridge/polarity-functional-l35/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/polarity-functional-l35/",
       "source_line_start": 35,
       "source_line_end": 39,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "TwoPointObject",
-      "url": "/verify/taulib/docs/book-vi-life-core-parity-bridge/two-point-object/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/two-point-object/",
       "source_line_start": 43,
       "source_line_end": 48,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D02"
       ]
@@ -71,19 +77,23 @@
     {
       "kind": "def",
       "name": "two_point",
-      "url": "/verify/taulib/docs/book-vi-life-core-parity-bridge/two-point/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/two-point/",
       "source_line_start": 50,
       "source_line_end": 52,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "ThreePolarityTerms",
-      "url": "/verify/taulib/docs/book-vi-life-core-parity-bridge/three-polarity-terms/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/three-polarity-terms/",
       "source_line_start": 55,
       "source_line_end": 58,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D03"
       ]
@@ -91,19 +101,23 @@
     {
       "kind": "def",
       "name": "polarity_terms",
-      "url": "/verify/taulib/docs/book-vi-life-core-parity-bridge/polarity-terms/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/polarity-terms/",
       "source_line_start": 60,
       "source_line_end": 62,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "weak_sector_uniqueness",
-      "url": "/verify/taulib/docs/book-vi-life-core-parity-bridge/weak-sector-uniqueness/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/weak-sector-uniqueness/",
       "source_line_start": 66,
       "source_line_end": 69,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "VI.L01"
       ]
@@ -111,10 +125,12 @@
     {
       "kind": "structure",
       "name": "ParityBridgeTheorem",
-      "url": "/verify/taulib/docs/book-vi-life-core-parity-bridge/parity-bridge-theorem/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/parity-bridge-theorem/",
       "source_line_start": 73,
       "source_line_end": 79,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.T01"
       ]
@@ -122,28 +138,34 @@
     {
       "kind": "def",
       "name": "parity_bridge",
-      "url": "/verify/taulib/docs/book-vi-life-core-parity-bridge/parity-bridge/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/parity-bridge/",
       "source_line_start": 81,
       "source_line_end": 83,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "parity_bridge_theorem",
-      "url": "/verify/taulib/docs/book-vi-life-core-parity-bridge/parity-bridge-theorem-l85/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/parity-bridge-theorem-l85/",
       "source_line_start": 85,
       "source_line_end": 87,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "LowNoiseCarrierCondition",
-      "url": "/verify/taulib/docs/book-vi-life-core-parity-bridge/low-noise-carrier-condition/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/low-noise-carrier-condition/",
       "source_line_start": 90,
       "source_line_end": 93,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.P01"
       ]
@@ -151,28 +173,34 @@
     {
       "kind": "def",
       "name": "low_noise",
-      "url": "/verify/taulib/docs/book-vi-life-core-parity-bridge/low-noise/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/low-noise/",
       "source_line_start": 95,
       "source_line_end": 97,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "low_noise_carrier_condition",
-      "url": "/verify/taulib/docs/book-vi-life-core-parity-bridge/low-noise-carrier-condition-l99/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/low-noise-carrier-condition-l99/",
       "source_line_start": 99,
       "source_line_end": 100,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "PolarityPropagation",
-      "url": "/verify/taulib/docs/book-vi-life-core-parity-bridge/polarity-propagation/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/polarity-propagation/",
       "source_line_start": 111,
       "source_line_end": 121,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D71"
       ]
@@ -180,19 +208,23 @@
     {
       "kind": "def",
       "name": "polarity_propagation",
-      "url": "/verify/taulib/docs/book-vi-life-core-parity-bridge/polarity-propagation-l123/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/polarity-propagation-l123/",
       "source_line_start": 123,
       "source_line_end": 125,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "ChiralitySeed",
-      "url": "/verify/taulib/docs/book-vi-life-core-parity-bridge/chirality-seed/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/chirality-seed/",
       "source_line_start": 135,
       "source_line_end": 143,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D72"
       ]
@@ -200,19 +232,23 @@
     {
       "kind": "def",
       "name": "chirality_seed",
-      "url": "/verify/taulib/docs/book-vi-life-core-parity-bridge/chirality-seed-l145/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/chirality-seed-l145/",
       "source_line_start": 145,
       "source_line_end": 147,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "propagation_preserves_chirality",
-      "url": "/verify/taulib/docs/book-vi-life-core-parity-bridge/propagation-preserves-chirality/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/propagation-preserves-chirality/",
       "source_line_start": 158,
       "source_line_end": 163,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "VI.T41"
       ]
@@ -220,10 +256,12 @@
     {
       "kind": "theorem",
       "name": "propagation_uniqueness",
-      "url": "/verify/taulib/docs/book-vi-life-core-parity-bridge/propagation-uniqueness/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/propagation-uniqueness/",
       "source_line_start": 172,
       "source_line_end": 177,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "VI.L14"
       ]
@@ -237,7 +275,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -315,24 +353,24 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [PolarityFunctional](/verify/taulib/docs/book-vi-life-core-parity-bridge/polarity-functional/) | L28-L33 | defined | `VI.D01` |
-| `def` | [polarity_functional](/verify/taulib/docs/book-vi-life-core-parity-bridge/polarity-functional-l35/) | L35-L39 | defined | — |
-| `structure` | [TwoPointObject](/verify/taulib/docs/book-vi-life-core-parity-bridge/two-point-object/) | L43-L48 | defined | `VI.D02` |
-| `def` | [two_point](/verify/taulib/docs/book-vi-life-core-parity-bridge/two-point/) | L50-L52 | defined | — |
-| `structure` | [ThreePolarityTerms](/verify/taulib/docs/book-vi-life-core-parity-bridge/three-polarity-terms/) | L55-L58 | defined | `VI.D03` |
-| `def` | [polarity_terms](/verify/taulib/docs/book-vi-life-core-parity-bridge/polarity-terms/) | L60-L62 | defined | — |
-| `theorem` | [weak_sector_uniqueness](/verify/taulib/docs/book-vi-life-core-parity-bridge/weak-sector-uniqueness/) | L66-L69 | formalized | `VI.L01` |
-| `structure` | [ParityBridgeTheorem](/verify/taulib/docs/book-vi-life-core-parity-bridge/parity-bridge-theorem/) | L73-L79 | defined | `VI.T01` |
-| `def` | [parity_bridge](/verify/taulib/docs/book-vi-life-core-parity-bridge/parity-bridge/) | L81-L83 | defined | — |
-| `theorem` | [parity_bridge_theorem](/verify/taulib/docs/book-vi-life-core-parity-bridge/parity-bridge-theorem-l85/) | L85-L87 | formalized | — |
-| `structure` | [LowNoiseCarrierCondition](/verify/taulib/docs/book-vi-life-core-parity-bridge/low-noise-carrier-condition/) | L90-L93 | defined | `VI.P01` |
-| `def` | [low_noise](/verify/taulib/docs/book-vi-life-core-parity-bridge/low-noise/) | L95-L97 | defined | — |
-| `theorem` | [low_noise_carrier_condition](/verify/taulib/docs/book-vi-life-core-parity-bridge/low-noise-carrier-condition-l99/) | L99-L100 | formalized | — |
-| `structure` | [PolarityPropagation](/verify/taulib/docs/book-vi-life-core-parity-bridge/polarity-propagation/) | L111-L121 | defined | `VI.D71` |
-| `def` | [polarity_propagation](/verify/taulib/docs/book-vi-life-core-parity-bridge/polarity-propagation-l123/) | L123-L125 | defined | — |
-| `structure` | [ChiralitySeed](/verify/taulib/docs/book-vi-life-core-parity-bridge/chirality-seed/) | L135-L143 | defined | `VI.D72` |
-| `def` | [chirality_seed](/verify/taulib/docs/book-vi-life-core-parity-bridge/chirality-seed-l145/) | L145-L147 | defined | — |
-| `theorem` | [propagation_preserves_chirality](/verify/taulib/docs/book-vi-life-core-parity-bridge/propagation-preserves-chirality/) | L158-L163 | formalized | `VI.T41` |
-| `theorem` | [propagation_uniqueness](/verify/taulib/docs/book-vi-life-core-parity-bridge/propagation-uniqueness/) | L172-L177 | formalized | `VI.L14` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [PolarityFunctional](/corpus/taulib/docs/book-vi-life-core-parity-bridge/polarity-functional/) | L28-L33 | type/data schema | type/data schema | `VI.D01` |
+| `def` | [polarity_functional](/corpus/taulib/docs/book-vi-life-core-parity-bridge/polarity-functional-l35/) | L35-L39 | definition | definition | — |
+| `structure` | [TwoPointObject](/corpus/taulib/docs/book-vi-life-core-parity-bridge/two-point-object/) | L43-L48 | type/data schema | type/data schema | `VI.D02` |
+| `def` | [two_point](/corpus/taulib/docs/book-vi-life-core-parity-bridge/two-point/) | L50-L52 | definition | definition | — |
+| `structure` | [ThreePolarityTerms](/corpus/taulib/docs/book-vi-life-core-parity-bridge/three-polarity-terms/) | L55-L58 | type/data schema | type/data schema | `VI.D03` |
+| `def` | [polarity_terms](/corpus/taulib/docs/book-vi-life-core-parity-bridge/polarity-terms/) | L60-L62 | definition | definition | — |
+| `theorem` | [weak_sector_uniqueness](/corpus/taulib/docs/book-vi-life-core-parity-bridge/weak-sector-uniqueness/) | L66-L69 | proof obligation | formal proof obligation checked | `VI.L01` |
+| `structure` | [ParityBridgeTheorem](/corpus/taulib/docs/book-vi-life-core-parity-bridge/parity-bridge-theorem/) | L73-L79 | type/data schema | type/data schema | `VI.T01` |
+| `def` | [parity_bridge](/corpus/taulib/docs/book-vi-life-core-parity-bridge/parity-bridge/) | L81-L83 | definition | definition | — |
+| `theorem` | [parity_bridge_theorem](/corpus/taulib/docs/book-vi-life-core-parity-bridge/parity-bridge-theorem-l85/) | L85-L87 | proof obligation | formal proof obligation checked | — |
+| `structure` | [LowNoiseCarrierCondition](/corpus/taulib/docs/book-vi-life-core-parity-bridge/low-noise-carrier-condition/) | L90-L93 | type/data schema | type/data schema | `VI.P01` |
+| `def` | [low_noise](/corpus/taulib/docs/book-vi-life-core-parity-bridge/low-noise/) | L95-L97 | definition | definition | — |
+| `theorem` | [low_noise_carrier_condition](/corpus/taulib/docs/book-vi-life-core-parity-bridge/low-noise-carrier-condition-l99/) | L99-L100 | proof obligation | formal proof obligation checked | — |
+| `structure` | [PolarityPropagation](/corpus/taulib/docs/book-vi-life-core-parity-bridge/polarity-propagation/) | L111-L121 | type/data schema | type/data schema | `VI.D71` |
+| `def` | [polarity_propagation](/corpus/taulib/docs/book-vi-life-core-parity-bridge/polarity-propagation-l123/) | L123-L125 | definition | definition | — |
+| `structure` | [ChiralitySeed](/corpus/taulib/docs/book-vi-life-core-parity-bridge/chirality-seed/) | L135-L143 | type/data schema | type/data schema | `VI.D72` |
+| `def` | [chirality_seed](/corpus/taulib/docs/book-vi-life-core-parity-bridge/chirality-seed-l145/) | L145-L147 | definition | definition | — |
+| `theorem` | [propagation_preserves_chirality](/corpus/taulib/docs/book-vi-life-core-parity-bridge/propagation-preserves-chirality/) | L158-L163 | proof obligation | formal proof obligation checked | `VI.T41` |
+| `theorem` | [propagation_uniqueness](/corpus/taulib/docs/book-vi-life-core-parity-bridge/propagation-uniqueness/) | L172-L177 | proof obligation | formal proof obligation checked | `VI.L14` |

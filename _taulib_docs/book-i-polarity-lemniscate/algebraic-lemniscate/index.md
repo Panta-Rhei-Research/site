@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "AlgebraicLemniscate",
-  "permalink": "/verify/taulib/docs/book-i-polarity-lemniscate/algebraic-lemniscate/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-lemniscate/algebraic-lemniscate/",
   "summary_short": "`structure` declaration in `TauLib.BookI.Polarity.Lemniscate`.",
   "declaration_id": "TauLib.BookI.Polarity.Lemniscate::AlgebraicLemniscate",
   "declaration_slug": "algebraic-lemniscate",
   "kind": "structure",
   "name": "AlgebraicLemniscate",
   "module_name": "TauLib.BookI.Polarity.Lemniscate",
-  "module_url": "/verify/taulib/docs/book-i-polarity-lemniscate/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-lemniscate/",
   "source_line_start": 44,
   "source_line_end": 58,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/Lemniscate.lean#L44-L58",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.Lemniscate",
-        "url": "/verify/taulib/docs/book-i-polarity-lemniscate/"
+        "url": "/corpus/taulib/docs/book-i-polarity-lemniscate/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.Lemniscate](/verify/taulib/docs/book-i-polarity-lemniscate/)
+- Module: [TauLib.BookI.Polarity.Lemniscate](/corpus/taulib/docs/book-i-polarity-lemniscate/)
 - Source path: [`TauLib/BookI/Polarity/Lemniscate.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/Lemniscate.lean#L44-L58)
 - Source range: L44-L58
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

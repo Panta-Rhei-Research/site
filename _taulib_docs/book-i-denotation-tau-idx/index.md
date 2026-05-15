@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Denotation.TauIdx",
-  "permalink": "/verify/taulib/docs/book-i-denotation-tau-idx/",
+  "permalink": "/corpus/taulib/docs/book-i-denotation-tau-idx/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Denotation.TauIdx`.",
   "module_name": "TauLib.BookI.Denotation.TauIdx",
   "module_slug": "book-i-denotation-tau-idx",
@@ -32,64 +32,78 @@
     {
       "kind": "def",
       "name": "toAlphaOrbit",
-      "url": "/verify/taulib/docs/book-i-denotation-tau-idx/to-alpha-orbit/",
+      "url": "/corpus/taulib/docs/book-i-denotation-tau-idx/to-alpha-orbit/",
       "source_line_start": 48,
       "source_line_end": 48,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "fromAlphaOrbit",
-      "url": "/verify/taulib/docs/book-i-denotation-tau-idx/from-alpha-orbit/",
+      "url": "/corpus/taulib/docs/book-i-denotation-tau-idx/from-alpha-orbit/",
       "source_line_start": 51,
       "source_line_end": 51,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "toAlpha_injective",
-      "url": "/verify/taulib/docs/book-i-denotation-tau-idx/to-alpha-injective/",
+      "url": "/corpus/taulib/docs/book-i-denotation-tau-idx/to-alpha-injective/",
       "source_line_start": 54,
       "source_line_end": 57,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "toAlpha_fromAlpha",
-      "url": "/verify/taulib/docs/book-i-denotation-tau-idx/to-alpha-from-alpha/",
+      "url": "/corpus/taulib/docs/book-i-denotation-tau-idx/to-alpha-from-alpha/",
       "source_line_start": 60,
       "source_line_end": 62,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "toAlpha_in_orbit",
-      "url": "/verify/taulib/docs/book-i-denotation-tau-idx/to-alpha-in-orbit/",
+      "url": "/corpus/taulib/docs/book-i-denotation-tau-idx/to-alpha-in-orbit/",
       "source_line_start": 65,
       "source_line_end": 67,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "toAlpha_rho",
-      "url": "/verify/taulib/docs/book-i-denotation-tau-idx/to-alpha-rho/",
+      "url": "/corpus/taulib/docs/book-i-denotation-tau-idx/to-alpha-rho/",
       "source_line_start": 70,
       "source_line_end": 72,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "sigma",
-      "url": "/verify/taulib/docs/book-i-denotation-tau-idx/sigma/",
+      "url": "/corpus/taulib/docs/book-i-denotation-tau-idx/sigma/",
       "source_line_start": 80,
       "source_line_end": 83,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "I.D09"
       ]
@@ -97,37 +111,45 @@
     {
       "kind": "theorem",
       "name": "sigma_involutive",
-      "url": "/verify/taulib/docs/book-i-denotation-tau-idx/sigma-involutive/",
+      "url": "/corpus/taulib/docs/book-i-denotation-tau-idx/sigma-involutive/",
       "source_line_start": 86,
       "source_line_end": 89,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "sigma_preserves_depth",
-      "url": "/verify/taulib/docs/book-i-denotation-tau-idx/sigma-preserves-depth/",
+      "url": "/corpus/taulib/docs/book-i-denotation-tau-idx/sigma-preserves-depth/",
       "source_line_start": 92,
       "source_line_end": 95,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "sigma_self",
-      "url": "/verify/taulib/docs/book-i-denotation-tau-idx/sigma-self/",
+      "url": "/corpus/taulib/docs/book-i-denotation-tau-idx/sigma-self/",
       "source_line_start": 98,
       "source_line_end": 101,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "sigma_comm",
-      "url": "/verify/taulib/docs/book-i-denotation-tau-idx/sigma-comm/",
+      "url": "/corpus/taulib/docs/book-i-denotation-tau-idx/sigma-comm/",
       "source_line_start": 104,
       "source_line_end": 109,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -139,7 +161,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -209,16 +231,16 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [toAlphaOrbit](/verify/taulib/docs/book-i-denotation-tau-idx/to-alpha-orbit/) | L48-L48 | defined | — |
-| `def` | [fromAlphaOrbit](/verify/taulib/docs/book-i-denotation-tau-idx/from-alpha-orbit/) | L51-L51 | defined | — |
-| `theorem` | [toAlpha_injective](/verify/taulib/docs/book-i-denotation-tau-idx/to-alpha-injective/) | L54-L57 | formalized | — |
-| `theorem` | [toAlpha_fromAlpha](/verify/taulib/docs/book-i-denotation-tau-idx/to-alpha-from-alpha/) | L60-L62 | formalized | — |
-| `theorem` | [toAlpha_in_orbit](/verify/taulib/docs/book-i-denotation-tau-idx/to-alpha-in-orbit/) | L65-L67 | formalized | — |
-| `theorem` | [toAlpha_rho](/verify/taulib/docs/book-i-denotation-tau-idx/to-alpha-rho/) | L70-L72 | formalized | — |
-| `def` | [sigma](/verify/taulib/docs/book-i-denotation-tau-idx/sigma/) | L80-L83 | defined | `I.D09` |
-| `theorem` | [sigma_involutive](/verify/taulib/docs/book-i-denotation-tau-idx/sigma-involutive/) | L86-L89 | formalized | — |
-| `theorem` | [sigma_preserves_depth](/verify/taulib/docs/book-i-denotation-tau-idx/sigma-preserves-depth/) | L92-L95 | formalized | — |
-| `theorem` | [sigma_self](/verify/taulib/docs/book-i-denotation-tau-idx/sigma-self/) | L98-L101 | formalized | — |
-| `theorem` | [sigma_comm](/verify/taulib/docs/book-i-denotation-tau-idx/sigma-comm/) | L104-L109 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [toAlphaOrbit](/corpus/taulib/docs/book-i-denotation-tau-idx/to-alpha-orbit/) | L48-L48 | definition | definition | — |
+| `def` | [fromAlphaOrbit](/corpus/taulib/docs/book-i-denotation-tau-idx/from-alpha-orbit/) | L51-L51 | definition | definition | — |
+| `theorem` | [toAlpha_injective](/corpus/taulib/docs/book-i-denotation-tau-idx/to-alpha-injective/) | L54-L57 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [toAlpha_fromAlpha](/corpus/taulib/docs/book-i-denotation-tau-idx/to-alpha-from-alpha/) | L60-L62 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [toAlpha_in_orbit](/corpus/taulib/docs/book-i-denotation-tau-idx/to-alpha-in-orbit/) | L65-L67 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [toAlpha_rho](/corpus/taulib/docs/book-i-denotation-tau-idx/to-alpha-rho/) | L70-L72 | proof obligation | formal proof obligation checked | — |
+| `def` | [sigma](/corpus/taulib/docs/book-i-denotation-tau-idx/sigma/) | L80-L83 | definition | definition | `I.D09` |
+| `theorem` | [sigma_involutive](/corpus/taulib/docs/book-i-denotation-tau-idx/sigma-involutive/) | L86-L89 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [sigma_preserves_depth](/corpus/taulib/docs/book-i-denotation-tau-idx/sigma-preserves-depth/) | L92-L95 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [sigma_self](/corpus/taulib/docs/book-i-denotation-tau-idx/sigma-self/) | L98-L101 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [sigma_comm](/corpus/taulib/docs/book-i-denotation-tau-idx/sigma-comm/) | L104-L109 | proof obligation | formal proof obligation checked | — |

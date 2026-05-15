@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "central_roundtrip",
-  "permalink": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/central-roundtrip/",
+  "permalink": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/central-roundtrip/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.CentralTheorem.CentralTheorem`.",
   "declaration_id": "TauLib.BookII.CentralTheorem.CentralTheorem::central_roundtrip",
   "declaration_slug": "central-roundtrip",
   "kind": "theorem",
   "name": "central_roundtrip",
   "module_name": "TauLib.BookII.CentralTheorem.CentralTheorem",
-  "module_url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/",
+  "module_url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/",
   "source_line_start": 441,
   "source_line_end": 444,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/CentralTheorem.lean#L441-L444",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.CentralTheorem.CentralTheorem",
-        "url": "/verify/taulib/docs/book-ii-central-theorem-central-theorem/"
+        "url": "/corpus/taulib/docs/book-ii-central-theorem-central-theorem/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.CentralTheorem.CentralTheorem](/verify/taulib/docs/book-ii-central-theorem-central-theorem/)
+- Module: [TauLib.BookII.CentralTheorem.CentralTheorem](/corpus/taulib/docs/book-ii-central-theorem-central-theorem/)
 - Source path: [`TauLib/BookII/CentralTheorem/CentralTheorem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/CentralTheorem.lean#L441-L444)
 - Source range: L441-L444
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

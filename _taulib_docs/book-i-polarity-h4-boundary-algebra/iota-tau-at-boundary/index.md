@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "iota_tau_at_boundary",
-  "permalink": "/verify/taulib/docs/book-i-polarity-h4-boundary-algebra/iota-tau-at-boundary/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-h4-boundary-algebra/iota-tau-at-boundary/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Polarity.H4BoundaryAlgebra`.",
   "declaration_id": "TauLib.BookI.Polarity.H4BoundaryAlgebra::iota_tau_at_boundary",
   "declaration_slug": "iota-tau-at-boundary",
   "kind": "theorem",
   "name": "iota_tau_at_boundary",
   "module_name": "TauLib.BookI.Polarity.H4BoundaryAlgebra",
-  "module_url": "/verify/taulib/docs/book-i-polarity-h4-boundary-algebra/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-h4-boundary-algebra/",
   "source_line_start": 287,
   "source_line_end": 289,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/H4BoundaryAlgebra.lean#L287-L289",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.H4BoundaryAlgebra",
-        "url": "/verify/taulib/docs/book-i-polarity-h4-boundary-algebra/"
+        "url": "/corpus/taulib/docs/book-i-polarity-h4-boundary-algebra/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.H4BoundaryAlgebra](/verify/taulib/docs/book-i-polarity-h4-boundary-algebra/)
+- Module: [TauLib.BookI.Polarity.H4BoundaryAlgebra](/corpus/taulib/docs/book-i-polarity-h4-boundary-algebra/)
 - Source path: [`TauLib/BookI/Polarity/H4BoundaryAlgebra.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/H4BoundaryAlgebra.lean#L287-L289)
 - Source range: L287-L289
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

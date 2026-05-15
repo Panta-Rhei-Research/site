@@ -24,7 +24,7 @@ scope: "tau-effective"
 scope_display: "τ-Effective"
 canonical_books:
   - "V"
-summary_short: "Quasinormal Mode Frequency Ratio: τ-value 2.929, deviation –."
+summary_short: "Quasinormal Mode Frequency Ratio: τ-value 2.929, released-corrected; tests the leading-order T² ratio, not mass-only Kerr ringdown."
 right_rail:
   toc: false
   related:
@@ -61,38 +61,26 @@ do_not_edit: true
 
 ## Derivation
 
-The PDG 2024 central value
-is $ρ = 0.159 ± 0.010$.
-The factor $1/(2π)$ is the normalized
-angular measure on one lobe of $$:
-CP violation in the quark sector
-is governed by the geometry
-of the lemniscate boundary.
+Book V separates the ordinary Kerr primary ringdown scale from the
+proposed τ topological ratio. The Kerr primary mode depends on the
+remnant mass and spin. The τ claim is narrower: if the $T^2$ secondary
+ringdown readout is present, the leading-order frequency ratio cancels
+the common mass/spin scale and satisfies
+$f_{(0,1)}/f_{(1,0)} = ι<sub>τ</sub>⁻¹$.
 
-where $κ_D = 1 - ι<sub>τ</sub>$.
-The PDG 2024 value is
-$η = 0.349^+0.012_-0.011$,
-giving a deviation of $-2\,285$ ppm ($-0.23%$, $0.7σ$).
+The ratio comes from the primitive outer and inner torus cycles with
+shape ratio $r/R = ι<sub>τ</sub>$. Their eigenvalue ratio is
+$λ_{0,1}/λ_{1,0} = ι<sub>τ</sub>⁻²$; taking the square root gives the
+frequency ratio $ι<sub>τ</sub>⁻¹ ≈ 2.929$.
 
-The exponents in (eq:ch61-etabar)
-are not numerological accidents.
-They have a topological reading
-(IV.D363/IV.T173):
-
--14
-&= -12 · |lobes|
-= -12 × 2
-(holonomy factor),
-+54
-&= |gen|2 · |lobes|
-+ 1|lobes|
-= 34 + 12
-(coupling factor),
--12
-&= -1|lobes|
-= |gen|^-1/2|_|gen|=4
-(normalization factor).
+This is a released structural prediction, but it is not a claim that
+current ringdown data already detect a τ mode or validate the black-hole
+sector. It is a calibration and falsification surface for high-SNR
+ringdown spectroscopy.
 
 ## Source
 
-This prediction is derived in the Numerical Physics Ledger (Chapter 61 — mixing-baryogenesis), Books IV–V of *Panta Rhei*.
+This prediction is derived in Book V, Chapters 41 and 50, with Registry
+anchor V.T168 and related ringdown refinement V.T223. See
+[ERRATUM-005](/publications/books/book-v/errata/) for the 2026-05-15
+correction of mass/spin wording and generated-page contamination.

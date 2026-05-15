@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookVI.LifeCore.SelfDesc",
-  "permalink": "/verify/taulib/docs/book-vi-life-core-self-desc/",
+  "permalink": "/corpus/taulib/docs/book-vi-life-core-self-desc/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookVI.LifeCore.SelfDesc`.",
   "module_name": "TauLib.BookVI.LifeCore.SelfDesc",
   "module_slug": "book-vi-life-core-self-desc",
@@ -38,10 +38,12 @@
     {
       "kind": "structure",
       "name": "SelfDescPredicate",
-      "url": "/verify/taulib/docs/book-vi-life-core-self-desc/self-desc-predicate/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-self-desc/self-desc-predicate/",
       "source_line_start": 25,
       "source_line_end": 31,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D08"
       ]
@@ -49,19 +51,23 @@
     {
       "kind": "def",
       "name": "canonical_selfdesc",
-      "url": "/verify/taulib/docs/book-vi-life-core-self-desc/canonical-selfdesc/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-self-desc/canonical-selfdesc/",
       "source_line_start": 33,
       "source_line_end": 35,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "InternalEvaluator",
-      "url": "/verify/taulib/docs/book-vi-life-core-self-desc/internal-evaluator/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-self-desc/internal-evaluator/",
       "source_line_start": 38,
       "source_line_end": 42,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D09"
       ]
@@ -69,19 +75,23 @@
     {
       "kind": "def",
       "name": "internal_eval",
-      "url": "/verify/taulib/docs/book-vi-life-core-self-desc/internal-eval/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-self-desc/internal-eval/",
       "source_line_start": 44,
       "source_line_end": 44,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "code_reconstruction",
-      "url": "/verify/taulib/docs/book-vi-life-core-self-desc/code-reconstruction/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-self-desc/code-reconstruction/",
       "source_line_start": 47,
       "source_line_end": 48,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "VI.P02"
       ]
@@ -89,10 +99,12 @@
     {
       "kind": "structure",
       "name": "SelfDescClosure",
-      "url": "/verify/taulib/docs/book-vi-life-core-self-desc/self-desc-closure/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-self-desc/self-desc-closure/",
       "source_line_start": 51,
       "source_line_end": 55,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.T03"
       ]
@@ -100,28 +112,34 @@
     {
       "kind": "def",
       "name": "closure_thm",
-      "url": "/verify/taulib/docs/book-vi-life-core-self-desc/closure-thm/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-self-desc/closure-thm/",
       "source_line_start": 57,
       "source_line_end": 57,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "selfdesc_closure_theorem",
-      "url": "/verify/taulib/docs/book-vi-life-core-self-desc/selfdesc-closure-theorem/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-self-desc/selfdesc-closure-theorem/",
       "source_line_start": 59,
       "source_line_end": 63,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "SevenHallmarksComplete",
-      "url": "/verify/taulib/docs/book-vi-life-core-self-desc/seven-hallmarks-complete/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-self-desc/seven-hallmarks-complete/",
       "source_line_start": 66,
       "source_line_end": 72,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.P04"
       ]
@@ -129,28 +147,34 @@
     {
       "kind": "def",
       "name": "seven_hallmarks",
-      "url": "/verify/taulib/docs/book-vi-life-core-self-desc/seven-hallmarks/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-self-desc/seven-hallmarks/",
       "source_line_start": 74,
       "source_line_end": 78,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "seven_hallmarks_complete",
-      "url": "/verify/taulib/docs/book-vi-life-core-self-desc/seven-hallmarks-complete-l80/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-self-desc/seven-hallmarks-complete-l80/",
       "source_line_start": 80,
       "source_line_end": 84,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "life_requires_both",
-      "url": "/verify/taulib/docs/book-vi-life-core-self-desc/life-requires-both/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-self-desc/life-requires-both/",
       "source_line_start": 87,
       "source_line_end": 92,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -162,7 +186,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -238,17 +262,17 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [SelfDescPredicate](/verify/taulib/docs/book-vi-life-core-self-desc/self-desc-predicate/) | L25-L31 | defined | `VI.D08` |
-| `def` | [canonical_selfdesc](/verify/taulib/docs/book-vi-life-core-self-desc/canonical-selfdesc/) | L33-L35 | defined | — |
-| `structure` | [InternalEvaluator](/verify/taulib/docs/book-vi-life-core-self-desc/internal-evaluator/) | L38-L42 | defined | `VI.D09` |
-| `def` | [internal_eval](/verify/taulib/docs/book-vi-life-core-self-desc/internal-eval/) | L44-L44 | defined | — |
-| `theorem` | [code_reconstruction](/verify/taulib/docs/book-vi-life-core-self-desc/code-reconstruction/) | L47-L48 | formalized | `VI.P02` |
-| `structure` | [SelfDescClosure](/verify/taulib/docs/book-vi-life-core-self-desc/self-desc-closure/) | L51-L55 | defined | `VI.T03` |
-| `def` | [closure_thm](/verify/taulib/docs/book-vi-life-core-self-desc/closure-thm/) | L57-L57 | defined | — |
-| `theorem` | [selfdesc_closure_theorem](/verify/taulib/docs/book-vi-life-core-self-desc/selfdesc-closure-theorem/) | L59-L63 | formalized | — |
-| `structure` | [SevenHallmarksComplete](/verify/taulib/docs/book-vi-life-core-self-desc/seven-hallmarks-complete/) | L66-L72 | defined | `VI.P04` |
-| `def` | [seven_hallmarks](/verify/taulib/docs/book-vi-life-core-self-desc/seven-hallmarks/) | L74-L78 | defined | — |
-| `theorem` | [seven_hallmarks_complete](/verify/taulib/docs/book-vi-life-core-self-desc/seven-hallmarks-complete-l80/) | L80-L84 | formalized | — |
-| `theorem` | [life_requires_both](/verify/taulib/docs/book-vi-life-core-self-desc/life-requires-both/) | L87-L92 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [SelfDescPredicate](/corpus/taulib/docs/book-vi-life-core-self-desc/self-desc-predicate/) | L25-L31 | type/data schema | type/data schema | `VI.D08` |
+| `def` | [canonical_selfdesc](/corpus/taulib/docs/book-vi-life-core-self-desc/canonical-selfdesc/) | L33-L35 | definition | definition | — |
+| `structure` | [InternalEvaluator](/corpus/taulib/docs/book-vi-life-core-self-desc/internal-evaluator/) | L38-L42 | type/data schema | type/data schema | `VI.D09` |
+| `def` | [internal_eval](/corpus/taulib/docs/book-vi-life-core-self-desc/internal-eval/) | L44-L44 | data/computed value | data/computed value | — |
+| `theorem` | [code_reconstruction](/corpus/taulib/docs/book-vi-life-core-self-desc/code-reconstruction/) | L47-L48 | proof obligation | formal proof obligation checked | `VI.P02` |
+| `structure` | [SelfDescClosure](/corpus/taulib/docs/book-vi-life-core-self-desc/self-desc-closure/) | L51-L55 | type/data schema | type/data schema | `VI.T03` |
+| `def` | [closure_thm](/corpus/taulib/docs/book-vi-life-core-self-desc/closure-thm/) | L57-L57 | definition | definition | — |
+| `theorem` | [selfdesc_closure_theorem](/corpus/taulib/docs/book-vi-life-core-self-desc/selfdesc-closure-theorem/) | L59-L63 | proof obligation | formal proof obligation checked | — |
+| `structure` | [SevenHallmarksComplete](/corpus/taulib/docs/book-vi-life-core-self-desc/seven-hallmarks-complete/) | L66-L72 | type/data schema | type/data schema | `VI.P04` |
+| `def` | [seven_hallmarks](/corpus/taulib/docs/book-vi-life-core-self-desc/seven-hallmarks/) | L74-L78 | definition | definition | — |
+| `theorem` | [seven_hallmarks_complete](/corpus/taulib/docs/book-vi-life-core-self-desc/seven-hallmarks-complete-l80/) | L80-L84 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [life_requires_both](/corpus/taulib/docs/book-vi-life-core-self-desc/life-requires-both/) | L87-L92 | proof obligation | formal proof obligation checked | — |

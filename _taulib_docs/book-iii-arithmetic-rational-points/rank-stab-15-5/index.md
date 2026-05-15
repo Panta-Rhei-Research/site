@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "rank_stab_15_5",
-  "permalink": "/verify/taulib/docs/book-iii-arithmetic-rational-points/rank-stab-15-5/",
+  "permalink": "/corpus/taulib/docs/book-iii-arithmetic-rational-points/rank-stab-15-5/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Arithmetic.RationalPoints`.",
   "declaration_id": "TauLib.BookIII.Arithmetic.RationalPoints::rank_stab_15_5",
   "declaration_slug": "rank-stab-15-5",
   "kind": "theorem",
   "name": "rank_stab_15_5",
   "module_name": "TauLib.BookIII.Arithmetic.RationalPoints",
-  "module_url": "/verify/taulib/docs/book-iii-arithmetic-rational-points/",
+  "module_url": "/corpus/taulib/docs/book-iii-arithmetic-rational-points/",
   "source_line_start": 168,
   "source_line_end": 169,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/RationalPoints.lean#L168-L169",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Arithmetic.RationalPoints",
-        "url": "/verify/taulib/docs/book-iii-arithmetic-rational-points/"
+        "url": "/corpus/taulib/docs/book-iii-arithmetic-rational-points/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Arithmetic.RationalPoints](/verify/taulib/docs/book-iii-arithmetic-rational-points/)
+- Module: [TauLib.BookIII.Arithmetic.RationalPoints](/corpus/taulib/docs/book-iii-arithmetic-rational-points/)
 - Source path: [`TauLib/BookIII/Arithmetic/RationalPoints.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/RationalPoints.lean#L168-L169)
 - Source range: L168-L169
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

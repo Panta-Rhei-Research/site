@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "data_vs_interpretation",
-  "permalink": "/verify/taulib/docs/book-v-thermodynamics-dark-energy-artifact/data-vs-interpretation/",
+  "permalink": "/corpus/taulib/docs/book-v-thermodynamics-dark-energy-artifact/data-vs-interpretation/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Thermodynamics.DarkEnergyArtifact`.",
   "declaration_id": "TauLib.BookV.Thermodynamics.DarkEnergyArtifact::data_vs_interpretation",
   "declaration_slug": "data-vs-interpretation",
   "kind": "theorem",
   "name": "data_vs_interpretation",
   "module_name": "TauLib.BookV.Thermodynamics.DarkEnergyArtifact",
-  "module_url": "/verify/taulib/docs/book-v-thermodynamics-dark-energy-artifact/",
+  "module_url": "/corpus/taulib/docs/book-v-thermodynamics-dark-energy-artifact/",
   "source_line_start": 189,
   "source_line_end": 191,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/DarkEnergyArtifact.lean#L189-L191",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Thermodynamics.DarkEnergyArtifact",
-        "url": "/verify/taulib/docs/book-v-thermodynamics-dark-energy-artifact/"
+        "url": "/corpus/taulib/docs/book-v-thermodynamics-dark-energy-artifact/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Thermodynamics.DarkEnergyArtifact](/verify/taulib/docs/book-v-thermodynamics-dark-energy-artifact/)
+- Module: [TauLib.BookV.Thermodynamics.DarkEnergyArtifact](/corpus/taulib/docs/book-v-thermodynamics-dark-energy-artifact/)
 - Source path: [`TauLib/BookV/Thermodynamics/DarkEnergyArtifact.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/DarkEnergyArtifact.lean#L189-L191)
 - Source range: L189-L191
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

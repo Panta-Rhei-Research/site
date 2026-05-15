@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "cr_structure_tau3",
-  "permalink": "/verify/taulib/docs/book-iv-quantum-mechanics-craddress-space/cr-structure-tau3/",
+  "permalink": "/corpus/taulib/docs/book-iv-quantum-mechanics-craddress-space/cr-structure-tau3/",
   "summary_short": "`def` declaration in `TauLib.BookIV.QuantumMechanics.CRAddressSpace`.",
   "declaration_id": "TauLib.BookIV.QuantumMechanics.CRAddressSpace::cr_structure_tau3",
   "declaration_slug": "cr-structure-tau3",
   "kind": "def",
   "name": "cr_structure_tau3",
   "module_name": "TauLib.BookIV.QuantumMechanics.CRAddressSpace",
-  "module_url": "/verify/taulib/docs/book-iv-quantum-mechanics-craddress-space/",
+  "module_url": "/corpus/taulib/docs/book-iv-quantum-mechanics-craddress-space/",
   "source_line_start": 88,
   "source_line_end": 94,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/CRAddressSpace.lean#L88-L94",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.QuantumMechanics.CRAddressSpace",
-        "url": "/verify/taulib/docs/book-iv-quantum-mechanics-craddress-space/"
+        "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-craddress-space/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.QuantumMechanics.CRAddressSpace](/verify/taulib/docs/book-iv-quantum-mechanics-craddress-space/)
+- Module: [TauLib.BookIV.QuantumMechanics.CRAddressSpace](/corpus/taulib/docs/book-iv-quantum-mechanics-craddress-space/)
 - Source path: [`TauLib/BookIV/QuantumMechanics/CRAddressSpace.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/CRAddressSpace.lean#L88-L94)
 - Source range: L88-L94
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

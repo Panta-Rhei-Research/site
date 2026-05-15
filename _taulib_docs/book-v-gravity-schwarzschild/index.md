@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.Gravity.Schwarzschild",
-  "permalink": "/verify/taulib/docs/book-v-gravity-schwarzschild/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-schwarzschild/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.Gravity.Schwarzschild`.",
   "module_name": "TauLib.BookV.Gravity.Schwarzschild",
   "module_slug": "book-v-gravity-schwarzschild",
@@ -39,10 +39,12 @@
     {
       "kind": "structure",
       "name": "BHMassIndex",
-      "url": "/verify/taulib/docs/book-v-gravity-schwarzschild/bhmass-index/",
+      "url": "/corpus/taulib/docs/book-v-gravity-schwarzschild/bhmass-index/",
       "source_line_start": 81,
       "source_line_end": 92,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D07"
       ]
@@ -50,19 +52,23 @@
     {
       "kind": "def",
       "name": "BHMassIndex.toFloat",
-      "url": "/verify/taulib/docs/book-v-gravity-schwarzschild/to-float/",
+      "url": "/corpus/taulib/docs/book-v-gravity-schwarzschild/to-float/",
       "source_line_start": 95,
       "source_line_end": 96,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "SchwarzschildRelation",
-      "url": "/verify/taulib/docs/book-v-gravity-schwarzschild/schwarzschild-relation/",
+      "url": "/corpus/taulib/docs/book-v-gravity-schwarzschild/schwarzschild-relation/",
       "source_line_start": 113,
       "source_line_end": 128,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D08"
       ]
@@ -70,19 +76,23 @@
     {
       "kind": "def",
       "name": "SchwarzschildRelation.radiusFloat",
-      "url": "/verify/taulib/docs/book-v-gravity-schwarzschild/radius-float/",
+      "url": "/corpus/taulib/docs/book-v-gravity-schwarzschild/radius-float/",
       "source_line_start": 131,
       "source_line_end": 132,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "NoShrinkProperty",
-      "url": "/verify/taulib/docs/book-v-gravity-schwarzschild/no-shrink-property/",
+      "url": "/corpus/taulib/docs/book-v-gravity-schwarzschild/no-shrink-property/",
       "source_line_start": 147,
       "source_line_end": 152,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.T03"
       ]
@@ -90,10 +100,12 @@
     {
       "kind": "inductive",
       "name": "BHEvolutionMode",
-      "url": "/verify/taulib/docs/book-v-gravity-schwarzschild/bhevolution-mode/",
+      "url": "/corpus/taulib/docs/book-v-gravity-schwarzschild/bhevolution-mode/",
       "source_line_start": 166,
       "source_line_end": 177,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D09"
       ]
@@ -101,28 +113,34 @@
     {
       "kind": "def",
       "name": "BHEvolutionMode.preserves_mass",
-      "url": "/verify/taulib/docs/book-v-gravity-schwarzschild/preserves-mass/",
+      "url": "/corpus/taulib/docs/book-v-gravity-schwarzschild/preserves-mass/",
       "source_line_start": 184,
       "source_line_end": 187,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "BHEvolutionMode.is_internal",
-      "url": "/verify/taulib/docs/book-v-gravity-schwarzschild/is-internal/",
+      "url": "/corpus/taulib/docs/book-v-gravity-schwarzschild/is-internal/",
       "source_line_start": 190,
       "source_line_end": 193,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "ChandrasekharLimit",
-      "url": "/verify/taulib/docs/book-v-gravity-schwarzschild/chandrasekhar-limit/",
+      "url": "/corpus/taulib/docs/book-v-gravity-schwarzschild/chandrasekhar-limit/",
       "source_line_start": 210,
       "source_line_end": 217,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.R02"
       ]
@@ -130,91 +148,111 @@
     {
       "kind": "theorem",
       "name": "three_evolution_modes",
-      "url": "/verify/taulib/docs/book-v-gravity-schwarzschild/three-evolution-modes/",
+      "url": "/corpus/taulib/docs/book-v-gravity-schwarzschild/three-evolution-modes/",
       "source_line_start": 224,
       "source_line_end": 226,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "fusion_increases_mass",
-      "url": "/verify/taulib/docs/book-v-gravity-schwarzschild/fusion-increases-mass/",
+      "url": "/corpus/taulib/docs/book-v-gravity-schwarzschild/fusion-increases-mass/",
       "source_line_start": 229,
       "source_line_end": 230,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ringdown_preserves_mass",
-      "url": "/verify/taulib/docs/book-v-gravity-schwarzschild/ringdown-preserves-mass/",
+      "url": "/corpus/taulib/docs/book-v-gravity-schwarzschild/ringdown-preserves-mass/",
       "source_line_start": 233,
       "source_line_end": 234,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "transport_preserves_mass",
-      "url": "/verify/taulib/docs/book-v-gravity-schwarzschild/transport-preserves-mass/",
+      "url": "/corpus/taulib/docs/book-v-gravity-schwarzschild/transport-preserves-mass/",
       "source_line_start": 237,
       "source_line_end": 238,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ringdown_internal",
-      "url": "/verify/taulib/docs/book-v-gravity-schwarzschild/ringdown-internal/",
+      "url": "/corpus/taulib/docs/book-v-gravity-schwarzschild/ringdown-internal/",
       "source_line_start": 241,
       "source_line_end": 242,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "no_shrink_requires_maturity",
-      "url": "/verify/taulib/docs/book-v-gravity-schwarzschild/no-shrink-requires-maturity/",
+      "url": "/corpus/taulib/docs/book-v-gravity-schwarzschild/no-shrink-requires-maturity/",
       "source_line_start": 245,
       "source_line_end": 246,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "schwarzschild_linear",
-      "url": "/verify/taulib/docs/book-v-gravity-schwarzschild/schwarzschild-linear/",
+      "url": "/corpus/taulib/docs/book-v-gravity-schwarzschild/schwarzschild-linear/",
       "source_line_start": 250,
       "source_line_end": 253,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-schwarzschild/eval-l260/",
+      "url": "/corpus/taulib/docs/book-v-gravity-schwarzschild/eval-l260/",
       "source_line_start": 260,
       "source_line_end": 260,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-schwarzschild/eval-l261/",
+      "url": "/corpus/taulib/docs/book-v-gravity-schwarzschild/eval-l261/",
       "source_line_start": 261,
       "source_line_end": 261,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-schwarzschild/eval-l262/",
+      "url": "/corpus/taulib/docs/book-v-gravity-schwarzschild/eval-l262/",
       "source_line_start": 262,
       "source_line_end": 264,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -226,7 +264,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -299,24 +337,24 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [BHMassIndex](/verify/taulib/docs/book-v-gravity-schwarzschild/bhmass-index/) | L81-L92 | defined | `V.D07` |
-| `def` | [BHMassIndex.toFloat](/verify/taulib/docs/book-v-gravity-schwarzschild/to-float/) | L95-L96 | defined | — |
-| `structure` | [SchwarzschildRelation](/verify/taulib/docs/book-v-gravity-schwarzschild/schwarzschild-relation/) | L113-L128 | defined | `V.D08` |
-| `def` | [SchwarzschildRelation.radiusFloat](/verify/taulib/docs/book-v-gravity-schwarzschild/radius-float/) | L131-L132 | defined | — |
-| `structure` | [NoShrinkProperty](/verify/taulib/docs/book-v-gravity-schwarzschild/no-shrink-property/) | L147-L152 | defined | `V.T03` |
-| `inductive` | [BHEvolutionMode](/verify/taulib/docs/book-v-gravity-schwarzschild/bhevolution-mode/) | L166-L177 | defined | `V.D09` |
-| `def` | [BHEvolutionMode.preserves_mass](/verify/taulib/docs/book-v-gravity-schwarzschild/preserves-mass/) | L184-L187 | defined | — |
-| `def` | [BHEvolutionMode.is_internal](/verify/taulib/docs/book-v-gravity-schwarzschild/is-internal/) | L190-L193 | defined | — |
-| `structure` | [ChandrasekharLimit](/verify/taulib/docs/book-v-gravity-schwarzschild/chandrasekhar-limit/) | L210-L217 | defined | `V.R02` |
-| `theorem` | [three_evolution_modes](/verify/taulib/docs/book-v-gravity-schwarzschild/three-evolution-modes/) | L224-L226 | formalized | — |
-| `theorem` | [fusion_increases_mass](/verify/taulib/docs/book-v-gravity-schwarzschild/fusion-increases-mass/) | L229-L230 | formalized | — |
-| `theorem` | [ringdown_preserves_mass](/verify/taulib/docs/book-v-gravity-schwarzschild/ringdown-preserves-mass/) | L233-L234 | formalized | — |
-| `theorem` | [transport_preserves_mass](/verify/taulib/docs/book-v-gravity-schwarzschild/transport-preserves-mass/) | L237-L238 | formalized | — |
-| `theorem` | [ringdown_internal](/verify/taulib/docs/book-v-gravity-schwarzschild/ringdown-internal/) | L241-L242 | formalized | — |
-| `theorem` | [no_shrink_requires_maturity](/verify/taulib/docs/book-v-gravity-schwarzschild/no-shrink-requires-maturity/) | L245-L246 | formalized | — |
-| `theorem` | [schwarzschild_linear](/verify/taulib/docs/book-v-gravity-schwarzschild/schwarzschild-linear/) | L250-L253 | formalized | — |
-| `eval` | [#eval L260](/verify/taulib/docs/book-v-gravity-schwarzschild/eval-l260/) | L260-L260 | computed | — |
-| `eval` | [#eval L261](/verify/taulib/docs/book-v-gravity-schwarzschild/eval-l261/) | L261-L261 | computed | — |
-| `eval` | [#eval L262](/verify/taulib/docs/book-v-gravity-schwarzschild/eval-l262/) | L262-L264 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [BHMassIndex](/corpus/taulib/docs/book-v-gravity-schwarzschild/bhmass-index/) | L81-L92 | type/data schema | type/data schema | `V.D07` |
+| `def` | [BHMassIndex.toFloat](/corpus/taulib/docs/book-v-gravity-schwarzschild/to-float/) | L95-L96 | data/computed value | data/computed value | — |
+| `structure` | [SchwarzschildRelation](/corpus/taulib/docs/book-v-gravity-schwarzschild/schwarzschild-relation/) | L113-L128 | type/data schema | type/data schema | `V.D08` |
+| `def` | [SchwarzschildRelation.radiusFloat](/corpus/taulib/docs/book-v-gravity-schwarzschild/radius-float/) | L131-L132 | data/computed value | data/computed value | — |
+| `structure` | [NoShrinkProperty](/corpus/taulib/docs/book-v-gravity-schwarzschild/no-shrink-property/) | L147-L152 | type/data schema | type/data schema | `V.T03` |
+| `inductive` | [BHEvolutionMode](/corpus/taulib/docs/book-v-gravity-schwarzschild/bhevolution-mode/) | L166-L177 | type/data schema | type/data schema | `V.D09` |
+| `def` | [BHEvolutionMode.preserves_mass](/corpus/taulib/docs/book-v-gravity-schwarzschild/preserves-mass/) | L184-L187 | definition | definition | — |
+| `def` | [BHEvolutionMode.is_internal](/corpus/taulib/docs/book-v-gravity-schwarzschild/is-internal/) | L190-L193 | definition | definition | — |
+| `structure` | [ChandrasekharLimit](/corpus/taulib/docs/book-v-gravity-schwarzschild/chandrasekhar-limit/) | L210-L217 | type/data schema | type/data schema | `V.R02` |
+| `theorem` | [three_evolution_modes](/corpus/taulib/docs/book-v-gravity-schwarzschild/three-evolution-modes/) | L224-L226 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [fusion_increases_mass](/corpus/taulib/docs/book-v-gravity-schwarzschild/fusion-increases-mass/) | L229-L230 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [ringdown_preserves_mass](/corpus/taulib/docs/book-v-gravity-schwarzschild/ringdown-preserves-mass/) | L233-L234 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [transport_preserves_mass](/corpus/taulib/docs/book-v-gravity-schwarzschild/transport-preserves-mass/) | L237-L238 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [ringdown_internal](/corpus/taulib/docs/book-v-gravity-schwarzschild/ringdown-internal/) | L241-L242 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [no_shrink_requires_maturity](/corpus/taulib/docs/book-v-gravity-schwarzschild/no-shrink-requires-maturity/) | L245-L246 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [schwarzschild_linear](/corpus/taulib/docs/book-v-gravity-schwarzschild/schwarzschild-linear/) | L250-L253 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L260](/corpus/taulib/docs/book-v-gravity-schwarzschild/eval-l260/) | L260-L260 | computed check | computed check | — |
+| `eval` | [#eval L261](/corpus/taulib/docs/book-v-gravity-schwarzschild/eval-l261/) | L261-L261 | computed check | computed check | — |
+| `eval` | [#eval L262](/corpus/taulib/docs/book-v-gravity-schwarzschild/eval-l262/) | L262-L264 | computed check | computed check | — |

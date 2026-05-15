@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.Electroweak.WeinbergNLO",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.Electroweak.WeinbergNLO`.",
   "module_name": "TauLib.BookIV.Electroweak.WeinbergNLO",
   "module_slug": "book-iv-electroweak-weinberg-nlo",
@@ -46,10 +46,12 @@
     {
       "kind": "structure",
       "name": "WeinbergNLO",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/weinberg-nlo/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/weinberg-nlo/",
       "source_line_start": 50,
       "source_line_end": 56,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D334"
       ]
@@ -57,19 +59,23 @@
     {
       "kind": "def",
       "name": "weinbergNLO",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/weinberg-nlo-l59/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/weinberg-nlo-l59/",
       "source_line_start": 59,
       "source_line_end": 60,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "nlo_from_windows",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/nlo-from-windows/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/nlo-from-windows/",
       "source_line_start": 69,
       "source_line_end": 73,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T134"
       ]
@@ -77,10 +83,12 @@
     {
       "kind": "theorem",
       "name": "exponent_width_coincidence",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/exponent-width-coincidence/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/exponent-width-coincidence/",
       "source_line_start": 85,
       "source_line_end": 88,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.P180"
       ]
@@ -88,28 +96,34 @@
     {
       "kind": "theorem",
       "name": "mw_ratio_values",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/mw-ratio-values/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/mw-ratio-values/",
       "source_line_start": 96,
       "source_line_end": 98,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "window_gap",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/window-gap/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/window-gap/",
       "source_line_start": 101,
       "source_line_end": 102,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "remark_scale_consistency",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/remark-scale-consistency/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/remark-scale-consistency/",
       "source_line_start": 111,
       "source_line_end": 112,
       "formal_status": "defined",
+      "declaration_role": "docstring/data record",
+      "formal_status_label": "docstring/data record",
       "registry_ids": [
         "IV.R389"
       ]
@@ -117,10 +131,12 @@
     {
       "kind": "structure",
       "name": "FermiFormIngredients",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/fermi-form-ingredients/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/fermi-form-ingredients/",
       "source_line_start": 126,
       "source_line_end": 138,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.T135"
       ]
@@ -128,19 +144,23 @@
     {
       "kind": "def",
       "name": "fermiForm",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/fermi-form/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/fermi-form/",
       "source_line_start": 141,
       "source_line_end": 147,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "fermi_form_w_independent",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/fermi-form-w-independent/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/fermi-form-w-independent/",
       "source_line_start": 152,
       "source_line_end": 159,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T135"
       ]
@@ -148,10 +168,12 @@
     {
       "kind": "theorem",
       "name": "mode_interpretation_17",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/mode-interpretation-17/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/mode-interpretation-17/",
       "source_line_start": 168,
       "source_line_end": 168,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.P181"
       ]
@@ -159,10 +181,12 @@
     {
       "kind": "theorem",
       "name": "mode_interpretation_5",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/mode-interpretation-5/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/mode-interpretation-5/",
       "source_line_start": 172,
       "source_line_end": 172,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.P181"
       ]
@@ -170,28 +194,34 @@
     {
       "kind": "theorem",
       "name": "mode_interpretation_7",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/mode-interpretation-7/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/mode-interpretation-7/",
       "source_line_start": 176,
       "source_line_end": 176,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "mode_cf_consistency",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/mode-cf-consistency/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/mode-cf-consistency/",
       "source_line_start": 180,
       "source_line_end": 183,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "remark_oq_a3_resolved",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/remark-oq-a3-resolved/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/remark-oq-a3-resolved/",
       "source_line_start": 196,
       "source_line_end": 197,
       "formal_status": "defined",
+      "declaration_role": "docstring/data record",
+      "formal_status_label": "docstring/data record",
       "registry_ids": [
         "IV.R390"
       ]
@@ -199,10 +229,12 @@
     {
       "kind": "def",
       "name": "remark_oq_b2_status",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/remark-oq-b2-status/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/remark-oq-b2-status/",
       "source_line_start": 205,
       "source_line_end": 206,
       "formal_status": "defined",
+      "declaration_role": "docstring/data record",
+      "formal_status_label": "docstring/data record",
       "registry_ids": [
         "IV.R391"
       ]
@@ -210,10 +242,12 @@
     {
       "kind": "theorem",
       "name": "nlo_from_ew_projection",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/nlo-from-ew-projection/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/nlo-from-ew-projection/",
       "source_line_start": 211,
       "source_line_end": 214,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T139"
       ]
@@ -221,10 +255,12 @@
     {
       "kind": "def",
       "name": "weinberg_nnlo_coeffs",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/weinberg-nnlo-coeffs/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/weinberg-nnlo-coeffs/",
       "source_line_start": 223,
       "source_line_end": 224,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "IV.D337"
       ]
@@ -232,37 +268,45 @@
     {
       "kind": "theorem",
       "name": "nnlo_nlo_num_is_w3_4",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/nnlo-nlo-num-is-w3-4/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/nnlo-nlo-num-is-w3-4/",
       "source_line_start": 227,
       "source_line_end": 228,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "nnlo_nnlo_den_is_w4_3",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/nnlo-nnlo-den-is-w4-3/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/nnlo-nnlo-den-is-w4-3/",
       "source_line_start": 231,
       "source_line_end": 232,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "nnlo_window_extends_nlo",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/nnlo-window-extends-nlo/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/nnlo-window-extends-nlo/",
       "source_line_start": 236,
       "source_line_end": 238,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "mw_nlo_coefficient",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/mw-nlo-coefficient/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/mw-nlo-coefficient/",
       "source_line_start": 245,
       "source_line_end": 248,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.D338"
       ]
@@ -270,19 +314,23 @@
     {
       "kind": "theorem",
       "name": "mw_nlo_numerator_equals_sin2w_nlo_numerator",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/mw-nlo-numerator-equals-sin2w-nlo-numerator/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/mw-nlo-numerator-equals-sin2w-nlo-numerator/",
       "source_line_start": 251,
       "source_line_end": 253,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "alpha_s_nlo_denominator",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/alpha-s-nlo-denominator/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/alpha-s-nlo-denominator/",
       "source_line_start": 262,
       "source_line_end": 263,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.D339"
       ]
@@ -290,10 +338,12 @@
     {
       "kind": "theorem",
       "name": "window_universality",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/window-universality/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/window-universality/",
       "source_line_start": 274,
       "source_line_end": 277,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T140"
       ]
@@ -301,10 +351,12 @@
     {
       "kind": "def",
       "name": "remark_nnlo_precision",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/remark-nnlo-precision/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/remark-nnlo-precision/",
       "source_line_start": 282,
       "source_line_end": 284,
       "formal_status": "defined",
+      "declaration_role": "docstring/data record",
+      "formal_status_label": "docstring/data record",
       "registry_ids": [
         "IV.R393"
       ]
@@ -312,19 +364,23 @@
     {
       "kind": "theorem",
       "name": "nnlo_window_strictly_larger",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/nnlo-window-strictly-larger/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/nnlo-window-strictly-larger/",
       "source_line_start": 288,
       "source_line_end": 289,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "consecutive_window_integers",
-      "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/consecutive-window-integers/",
+      "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/consecutive-window-integers/",
       "source_line_start": 292,
       "source_line_end": 298,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -336,7 +392,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -420,33 +476,33 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [WeinbergNLO](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/weinberg-nlo/) | L50-L56 | defined | `IV.D334` |
-| `def` | [weinbergNLO](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/weinberg-nlo-l59/) | L59-L60 | defined | — |
-| `theorem` | [nlo_from_windows](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/nlo-from-windows/) | L69-L73 | formalized | `IV.T134` |
-| `theorem` | [exponent_width_coincidence](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/exponent-width-coincidence/) | L85-L88 | formalized | `IV.P180` |
-| `theorem` | [mw_ratio_values](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/mw-ratio-values/) | L96-L98 | formalized | — |
-| `theorem` | [window_gap](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/window-gap/) | L101-L102 | formalized | — |
-| `def` | [remark_scale_consistency](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/remark-scale-consistency/) | L111-L112 | defined | `IV.R389` |
-| `structure` | [FermiFormIngredients](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/fermi-form-ingredients/) | L126-L138 | defined | `IV.T135` |
-| `def` | [fermiForm](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/fermi-form/) | L141-L147 | defined | — |
-| `theorem` | [fermi_form_w_independent](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/fermi-form-w-independent/) | L152-L159 | formalized | `IV.T135` |
-| `theorem` | [mode_interpretation_17](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/mode-interpretation-17/) | L168-L168 | formalized | `IV.P181` |
-| `theorem` | [mode_interpretation_5](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/mode-interpretation-5/) | L172-L172 | formalized | `IV.P181` |
-| `theorem` | [mode_interpretation_7](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/mode-interpretation-7/) | L176-L176 | formalized | — |
-| `theorem` | [mode_cf_consistency](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/mode-cf-consistency/) | L180-L183 | formalized | — |
-| `def` | [remark_oq_a3_resolved](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/remark-oq-a3-resolved/) | L196-L197 | defined | `IV.R390` |
-| `def` | [remark_oq_b2_status](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/remark-oq-b2-status/) | L205-L206 | defined | `IV.R391` |
-| `theorem` | [nlo_from_ew_projection](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/nlo-from-ew-projection/) | L211-L214 | formalized | `IV.T139` |
-| `def` | [weinberg_nnlo_coeffs](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/weinberg-nnlo-coeffs/) | L223-L224 | defined | `IV.D337` |
-| `theorem` | [nnlo_nlo_num_is_w3_4](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/nnlo-nlo-num-is-w3-4/) | L227-L228 | formalized | — |
-| `theorem` | [nnlo_nnlo_den_is_w4_3](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/nnlo-nnlo-den-is-w4-3/) | L231-L232 | formalized | — |
-| `theorem` | [nnlo_window_extends_nlo](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/nnlo-window-extends-nlo/) | L236-L238 | formalized | — |
-| `theorem` | [mw_nlo_coefficient](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/mw-nlo-coefficient/) | L245-L248 | formalized | `IV.D338` |
-| `theorem` | [mw_nlo_numerator_equals_sin2w_nlo_numerator](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/mw-nlo-numerator-equals-sin2w-nlo-numerator/) | L251-L253 | formalized | — |
-| `theorem` | [alpha_s_nlo_denominator](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/alpha-s-nlo-denominator/) | L262-L263 | formalized | `IV.D339` |
-| `theorem` | [window_universality](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/window-universality/) | L274-L277 | formalized | `IV.T140` |
-| `def` | [remark_nnlo_precision](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/remark-nnlo-precision/) | L282-L284 | defined | `IV.R393` |
-| `theorem` | [nnlo_window_strictly_larger](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/nnlo-window-strictly-larger/) | L288-L289 | formalized | — |
-| `theorem` | [consecutive_window_integers](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/consecutive-window-integers/) | L292-L298 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [WeinbergNLO](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/weinberg-nlo/) | L50-L56 | type/data schema | type/data schema | `IV.D334` |
+| `def` | [weinbergNLO](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/weinberg-nlo-l59/) | L59-L60 | definition | definition | — |
+| `theorem` | [nlo_from_windows](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/nlo-from-windows/) | L69-L73 | proof obligation | formal proof obligation checked | `IV.T134` |
+| `theorem` | [exponent_width_coincidence](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/exponent-width-coincidence/) | L85-L88 | proof obligation | formal proof obligation checked | `IV.P180` |
+| `theorem` | [mw_ratio_values](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/mw-ratio-values/) | L96-L98 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [window_gap](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/window-gap/) | L101-L102 | proof obligation | formal proof obligation checked | — |
+| `def` | [remark_scale_consistency](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/remark-scale-consistency/) | L111-L112 | docstring/data record | docstring/data record | `IV.R389` |
+| `structure` | [FermiFormIngredients](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/fermi-form-ingredients/) | L126-L138 | type/data schema | type/data schema | `IV.T135` |
+| `def` | [fermiForm](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/fermi-form/) | L141-L147 | definition | definition | — |
+| `theorem` | [fermi_form_w_independent](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/fermi-form-w-independent/) | L152-L159 | proof obligation | formal proof obligation checked | `IV.T135` |
+| `theorem` | [mode_interpretation_17](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/mode-interpretation-17/) | L168-L168 | proof obligation | formal proof obligation checked | `IV.P181` |
+| `theorem` | [mode_interpretation_5](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/mode-interpretation-5/) | L172-L172 | proof obligation | formal proof obligation checked | `IV.P181` |
+| `theorem` | [mode_interpretation_7](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/mode-interpretation-7/) | L176-L176 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [mode_cf_consistency](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/mode-cf-consistency/) | L180-L183 | proof obligation | formal proof obligation checked | — |
+| `def` | [remark_oq_a3_resolved](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/remark-oq-a3-resolved/) | L196-L197 | docstring/data record | docstring/data record | `IV.R390` |
+| `def` | [remark_oq_b2_status](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/remark-oq-b2-status/) | L205-L206 | docstring/data record | docstring/data record | `IV.R391` |
+| `theorem` | [nlo_from_ew_projection](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/nlo-from-ew-projection/) | L211-L214 | proof obligation | formal proof obligation checked | `IV.T139` |
+| `def` | [weinberg_nnlo_coeffs](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/weinberg-nnlo-coeffs/) | L223-L224 | data/computed value | data/computed value | `IV.D337` |
+| `theorem` | [nnlo_nlo_num_is_w3_4](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/nnlo-nlo-num-is-w3-4/) | L227-L228 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [nnlo_nnlo_den_is_w4_3](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/nnlo-nnlo-den-is-w4-3/) | L231-L232 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [nnlo_window_extends_nlo](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/nnlo-window-extends-nlo/) | L236-L238 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [mw_nlo_coefficient](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/mw-nlo-coefficient/) | L245-L248 | proof obligation | formal proof obligation checked | `IV.D338` |
+| `theorem` | [mw_nlo_numerator_equals_sin2w_nlo_numerator](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/mw-nlo-numerator-equals-sin2w-nlo-numerator/) | L251-L253 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [alpha_s_nlo_denominator](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/alpha-s-nlo-denominator/) | L262-L263 | proof obligation | formal proof obligation checked | `IV.D339` |
+| `theorem` | [window_universality](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/window-universality/) | L274-L277 | proof obligation | formal proof obligation checked | `IV.T140` |
+| `def` | [remark_nnlo_precision](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/remark-nnlo-precision/) | L282-L284 | docstring/data record | docstring/data record | `IV.R393` |
+| `theorem` | [nnlo_window_strictly_larger](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/nnlo-window-strictly-larger/) | L288-L289 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [consecutive_window_integers](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/consecutive-window-integers/) | L292-L298 | proof obligation | formal proof obligation checked | — |

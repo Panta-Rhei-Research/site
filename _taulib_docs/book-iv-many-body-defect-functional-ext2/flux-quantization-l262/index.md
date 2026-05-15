@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "flux_quantization",
-  "permalink": "/verify/taulib/docs/book-iv-many-body-defect-functional-ext2/flux-quantization-l262/",
+  "permalink": "/corpus/taulib/docs/book-iv-many-body-defect-functional-ext2/flux-quantization-l262/",
   "summary_short": "`def` declaration in `TauLib.BookIV.ManyBody.DefectFunctionalExt2`.",
   "declaration_id": "TauLib.BookIV.ManyBody.DefectFunctionalExt2::flux_quantization",
   "declaration_slug": "flux-quantization-l262",
   "kind": "def",
   "name": "flux_quantization",
   "module_name": "TauLib.BookIV.ManyBody.DefectFunctionalExt2",
-  "module_url": "/verify/taulib/docs/book-iv-many-body-defect-functional-ext2/",
+  "module_url": "/corpus/taulib/docs/book-iv-many-body-defect-functional-ext2/",
   "source_line_start": 262,
   "source_line_end": 262,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/DefectFunctionalExt2.lean#L262-L262",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.ManyBody.DefectFunctionalExt2",
-        "url": "/verify/taulib/docs/book-iv-many-body-defect-functional-ext2/"
+        "url": "/corpus/taulib/docs/book-iv-many-body-defect-functional-ext2/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.ManyBody.DefectFunctionalExt2](/verify/taulib/docs/book-iv-many-body-defect-functional-ext2/)
+- Module: [TauLib.BookIV.ManyBody.DefectFunctionalExt2](/corpus/taulib/docs/book-iv-many-body-defect-functional-ext2/)
 - Source path: [`TauLib/BookIV/ManyBody/DefectFunctionalExt2.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/DefectFunctionalExt2.lean#L262-L262)
 - Source range: L262-L262
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

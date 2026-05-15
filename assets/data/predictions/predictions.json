@@ -4711,7 +4711,7 @@
     "canonical_books": [
       "V"
     ],
-    "summary_short": "Quasinormal Mode Frequency Ratio: τ-value 2.929, deviation –.",
+    "summary_short": "Quasinormal Mode Frequency Ratio: τ-value 2.929, released-corrected; tests the leading-order T² ratio, not mass-only Kerr ringdown.",
     "url": "/predictions/qnm-ratio/",
     "facet_type": "prediction",
     "lean_modules": [
@@ -4788,8 +4788,8 @@
     "id": "pred-056",
     "prediction_id": "pred-056",
     "slug": "gw-echo-time",
-    "title": "Gravitational Wave Echo Time",
-    "title_plain": "Gravitational Wave Echo Time",
+    "title": "Gravitational-Wave Cycle-Delay Time",
+    "title_plain": "Gravitational-Wave Cycle-Delay Time",
     "domain": "astrophysics",
     "domain_display": "Astrophysics",
     "tau_value": "see text",
@@ -4801,63 +4801,18 @@
     "precision_display": "Structural",
     "scope": "tau-effective",
     "scope_display": "τ-Effective",
-    "registry_id": "V.D283",
+    "registry_id": "V.T169",
     "canonical_books": [
       "V"
     ],
-    "summary_short": "Gravitational Wave Echo Time: τ-value see text, deviation –.",
+    "summary_short": "Gravitational-Wave Cycle-Delay Time: τ-value see text, deviation –; not a reflective-surface ECO echo claim.",
     "url": "/predictions/gw-echo-time/",
     "facet_type": "prediction",
     "lean_modules": [
       {
-        "module": "TauLib.BookIII.Sectors.Decomposition",
-        "formalization": "formalized",
-        "registry_id_origin": "III.D13"
-      },
-      {
-        "module": "TauLib.BookIV.Sectors.SectorParameters",
-        "formalization": "formalized",
-        "registry_id_origin": "IV.D06"
-      },
-      {
-        "module": "TauLib.BookV.Astrophysics.BinaryMergersGW",
-        "formalization": "formalized",
-        "registry_id_origin": "V.T223"
-      },
-      {
-        "module": "TauLib.BookV.Astrophysics.EHTReread",
-        "formalization": "formalized",
-        "registry_id_origin": "V.P83"
-      },
-      {
         "module": "TauLib.BookV.Gravity.BHTopoModes",
         "formalization": "formalized",
-        "registry_id_origin": "V.D283"
-      },
-      {
-        "module": "TauLib.BookV.GravityField.LinearEinstein",
-        "formalization": "formalized",
-        "registry_id_origin": "V.D52"
-      },
-      {
-        "module": "TauLib.BookV.GravityField.NonlinearEinstein",
-        "formalization": "formalized",
-        "registry_id_origin": "V.D54"
-      },
-      {
-        "module": "TauLib.BookV.GravityField.TOVStarBuilder",
-        "formalization": "formalized",
-        "registry_id_origin": "V.P20"
-      },
-      {
-        "module": "TauLib.BookV.GravityField.TauEinsteinEq",
-        "formalization": "formalized",
-        "registry_id_origin": "V.D50"
-      },
-      {
-        "module": "TauLib.BookV.GravityField.TauSchwarzschild",
-        "formalization": "formalized",
-        "registry_id_origin": "V.T40"
+        "registry_id_origin": "V.T169"
       }
     ],
     "lean_linkage_status": "derived",
@@ -4870,8 +4825,8 @@
     "id": "pred-057",
     "prediction_id": "pred-057",
     "slug": "echo-ratio",
-    "title": "GW Echo Time Ratio",
-    "title_plain": "GW Echo Time Ratio",
+    "title": "GW Cycle-Delay Ratio",
+    "title_plain": "GW Cycle-Delay Ratio",
     "domain": "astrophysics",
     "domain_display": "Astrophysics",
     "tau_value": "8.57",
@@ -4883,18 +4838,18 @@
     "precision_display": "Structural",
     "scope": "tau-effective",
     "scope_display": "τ-Effective",
-    "registry_id": "V.T185",
+    "registry_id": "V.D243",
     "canonical_books": [
       "V"
     ],
-    "summary_short": "GW Echo Time Ratio: τ-value 8.57, deviation –.",
+    "summary_short": "GW Cycle-Delay Ratio: τ-value 8.57, deviation –; not a reflective-surface ECO echo claim.",
     "url": "/predictions/echo-ratio/",
     "facet_type": "prediction",
     "lean_modules": [
       {
         "module": "TauLib.BookV.Gravity.BHTopoModes",
         "formalization": "formalized",
-        "registry_id_origin": "V.T185"
+        "registry_id_origin": "V.D243"
       }
     ],
     "lean_linkage_status": "derived",

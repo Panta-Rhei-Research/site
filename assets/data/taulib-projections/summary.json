@@ -6,9 +6,9 @@
   "do_not_edit": true,
   "source_commit": "cb5e83015b54dd72eba560953fe2461820078757",
   "module_count": 512,
-  "declaration_count": 14601,
+  "declaration_count": 14607,
   "declaration_kind_counts": {
-    "def": 3741,
+    "def": 3747,
     "theorem": 4857,
     "structure": 1518,
     "example": 371,
@@ -18,7 +18,7 @@
     "lemma": 6
   },
   "formal_status_counts": {
-    "defined": 5441,
+    "defined": 5447,
     "formalized": 4863,
     "example": 371,
     "computed": 3923,

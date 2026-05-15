@@ -52,27 +52,27 @@
     "related_taulib_modules": [
       {
         "title": "TauLib.BookI.Kernel.Signature",
-        "url": "/corpus/taulib/docs/book-i-kernel-signature/"
+        "url": "/verify/taulib/docs/book-i-kernel-signature/"
       },
       {
         "title": "TauLib.BookI.Kernel.Axioms",
-        "url": "/corpus/taulib/docs/book-i-kernel-axioms/"
+        "url": "/verify/taulib/docs/book-i-kernel-axioms/"
       },
       {
         "title": "TauLib.BookI.Kernel.Diagonal",
-        "url": "/corpus/taulib/docs/book-i-kernel-diagonal/"
+        "url": "/verify/taulib/docs/book-i-kernel-diagonal/"
       },
       {
         "title": "TauLib.BookI.Boundary.SplitComplex",
-        "url": "/corpus/taulib/docs/book-i-boundary-split-complex/"
+        "url": "/verify/taulib/docs/book-i-boundary-split-complex/"
       },
       {
         "title": "TauLib.BookI.Holomorphy.TauHolomorphic",
-        "url": "/corpus/taulib/docs/book-i-holomorphy-tau-holomorphic/"
+        "url": "/verify/taulib/docs/book-i-holomorphy-tau-holomorphic/"
       },
       {
         "title": "TauLib.BookI.Topos.EarnedTopos",
-        "url": "/corpus/taulib/docs/book-i-topos-earned-topos/"
+        "url": "/verify/taulib/docs/book-i-topos-earned-topos/"
       }
     ],
     "related_books": [
@@ -146,11 +146,11 @@
       "taulib_modules": [
         {
           "title": "TauLib.BookI.Kernel.Signature",
-          "url": "/corpus/taulib/docs/book-i-kernel-signature/"
+          "url": "/verify/taulib/docs/book-i-kernel-signature/"
         },
         {
           "title": "TauLib.BookI.Kernel.Axioms",
-          "url": "/corpus/taulib/docs/book-i-kernel-axioms/"
+          "url": "/verify/taulib/docs/book-i-kernel-axioms/"
         }
       ],
       "bridge_check_status": "not_applicable",
@@ -175,7 +175,7 @@
         },
         {
           "title": "Mathematician Audit Route",
-          "url": "/verify/how-to-verify-by-role/mathematician/"
+          "url": "/verify/how-to-audit/mathematician/"
         }
       ]
     },
@@ -243,27 +243,27 @@
     "related_taulib_modules": [
       {
         "title": "TauLib.BookI.Denotation.Arithmetic",
-        "url": "/corpus/taulib/docs/book-i-denotation-arithmetic/"
+        "url": "/verify/taulib/docs/book-i-denotation-arithmetic/"
       },
       {
         "title": "TauLib.BookII.Geometry.Betweenness",
-        "url": "/corpus/taulib/docs/book-ii-geometry-betweenness/"
+        "url": "/verify/taulib/docs/book-ii-geometry-betweenness/"
       },
       {
         "title": "TauLib.BookII.Geometry.Congruence",
-        "url": "/corpus/taulib/docs/book-ii-geometry-congruence/"
+        "url": "/verify/taulib/docs/book-ii-geometry-congruence/"
       },
       {
         "title": "TauLib.BookII.Geometry.PaschParallel",
-        "url": "/corpus/taulib/docs/book-ii-geometry-pasch-parallel/"
+        "url": "/verify/taulib/docs/book-ii-geometry-pasch-parallel/"
       },
       {
         "title": "TauLib.BookI.Boundary.Iota",
-        "url": "/corpus/taulib/docs/book-i-boundary-iota/"
+        "url": "/verify/taulib/docs/book-i-boundary-iota/"
       },
       {
         "title": "TauLib.BookI.Boundary.NumberTower",
-        "url": "/corpus/taulib/docs/book-i-boundary-number-tower/"
+        "url": "/verify/taulib/docs/book-i-boundary-number-tower/"
       }
     ],
     "related_books": [
@@ -301,7 +301,7 @@
       },
       {
         "title": "Mathematician Audit Route",
-        "url": "/verify/how-to-verify-by-role/mathematician/"
+        "url": "/verify/how-to-audit/mathematician/"
       }
     ],
     "related_publications": [
@@ -332,15 +332,15 @@
       "taulib_modules": [
         {
           "title": "TauLib.BookI.Denotation.Arithmetic",
-          "url": "/corpus/taulib/docs/book-i-denotation-arithmetic/"
+          "url": "/verify/taulib/docs/book-i-denotation-arithmetic/"
         },
         {
           "title": "TauLib.BookI.Boundary.Iota",
-          "url": "/corpus/taulib/docs/book-i-boundary-iota/"
+          "url": "/verify/taulib/docs/book-i-boundary-iota/"
         },
         {
           "title": "TauLib.BookI.Boundary.NumberTower",
-          "url": "/corpus/taulib/docs/book-i-boundary-number-tower/"
+          "url": "/verify/taulib/docs/book-i-boundary-number-tower/"
         }
       ],
       "bridge_check_status": "pending_bridge_verification",
@@ -425,23 +425,23 @@
     "related_taulib_modules": [
       {
         "title": "TauLib.BookI.Topos.InternalHom",
-        "url": "/corpus/taulib/docs/book-i-topos-internal-hom/"
+        "url": "/verify/taulib/docs/book-i-topos-internal-hom/"
       },
       {
         "title": "TauLib.BookI.Topos.Functors",
-        "url": "/corpus/taulib/docs/book-i-topos-functors/"
+        "url": "/verify/taulib/docs/book-i-topos-functors/"
       },
       {
         "title": "TauLib.BookI.Topos.EarnedTopos",
-        "url": "/corpus/taulib/docs/book-i-topos-earned-topos/"
+        "url": "/verify/taulib/docs/book-i-topos-earned-topos/"
       },
       {
         "title": "TauLib.BookII.Enrichment.SelfEnrichment",
-        "url": "/corpus/taulib/docs/book-ii-enrichment-self-enrichment/"
+        "url": "/verify/taulib/docs/book-ii-enrichment-self-enrichment/"
       },
       {
         "title": "TauLib.BookII.Enrichment.SelfDescribing",
-        "url": "/corpus/taulib/docs/book-ii-enrichment-self-describing/"
+        "url": "/verify/taulib/docs/book-ii-enrichment-self-describing/"
       }
     ],
     "related_books": [
@@ -479,7 +479,7 @@
       },
       {
         "title": "Mathematician Audit Route",
-        "url": "/verify/how-to-verify-by-role/mathematician/"
+        "url": "/verify/how-to-audit/mathematician/"
       }
     ],
     "related_publications": [
@@ -502,11 +502,11 @@
       "taulib_modules": [
         {
           "title": "TauLib.BookI.Topos.InternalHom",
-          "url": "/corpus/taulib/docs/book-i-topos-internal-hom/"
+          "url": "/verify/taulib/docs/book-i-topos-internal-hom/"
         },
         {
           "title": "TauLib.BookII.Enrichment.SelfEnrichment",
-          "url": "/corpus/taulib/docs/book-ii-enrichment-self-enrichment/"
+          "url": "/verify/taulib/docs/book-ii-enrichment-self-enrichment/"
         }
       ],
       "bridge_check_status": "partial",

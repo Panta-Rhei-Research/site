@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L416",
-  "permalink": "/verify/taulib/docs/book-ii-hartogs-laurent-residue/eval-l416/",
+  "permalink": "/corpus/taulib/docs/book-ii-hartogs-laurent-residue/eval-l416/",
   "summary_short": "`eval` declaration in `TauLib.BookII.Hartogs.LaurentResidue`.",
   "declaration_id": "TauLib.BookII.Hartogs.LaurentResidue::#eval:416",
   "declaration_slug": "eval-l416",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookII.Hartogs.LaurentResidue",
-  "module_url": "/verify/taulib/docs/book-ii-hartogs-laurent-residue/",
+  "module_url": "/corpus/taulib/docs/book-ii-hartogs-laurent-residue/",
   "source_line_start": 416,
   "source_line_end": 416,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/LaurentResidue.lean#L416-L416",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Hartogs.LaurentResidue",
-        "url": "/verify/taulib/docs/book-ii-hartogs-laurent-residue/"
+        "url": "/corpus/taulib/docs/book-ii-hartogs-laurent-residue/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Hartogs.LaurentResidue](/verify/taulib/docs/book-ii-hartogs-laurent-residue/)
+- Module: [TauLib.BookII.Hartogs.LaurentResidue](/corpus/taulib/docs/book-ii-hartogs-laurent-residue/)
 - Source path: [`TauLib/BookII/Hartogs/LaurentResidue.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/LaurentResidue.lean#L416-L416)
 - Source range: L416-L416
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

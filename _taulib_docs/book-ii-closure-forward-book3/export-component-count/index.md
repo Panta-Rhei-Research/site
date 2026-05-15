@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "export_component_count",
-  "permalink": "/verify/taulib/docs/book-ii-closure-forward-book3/export-component-count/",
+  "permalink": "/corpus/taulib/docs/book-ii-closure-forward-book3/export-component-count/",
   "summary_short": "`def` declaration in `TauLib.BookII.Closure.ForwardBook3`.",
   "declaration_id": "TauLib.BookII.Closure.ForwardBook3::export_component_count",
   "declaration_slug": "export-component-count",
   "kind": "def",
   "name": "export_component_count",
   "module_name": "TauLib.BookII.Closure.ForwardBook3",
-  "module_url": "/verify/taulib/docs/book-ii-closure-forward-book3/",
+  "module_url": "/corpus/taulib/docs/book-ii-closure-forward-book3/",
   "source_line_start": 91,
   "source_line_end": 97,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/ForwardBook3.lean#L91-L97",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Closure.ForwardBook3",
-        "url": "/verify/taulib/docs/book-ii-closure-forward-book3/"
+        "url": "/corpus/taulib/docs/book-ii-closure-forward-book3/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Closure.ForwardBook3](/verify/taulib/docs/book-ii-closure-forward-book3/)
+- Module: [TauLib.BookII.Closure.ForwardBook3](/corpus/taulib/docs/book-ii-closure-forward-book3/)
 - Source path: [`TauLib/BookII/Closure/ForwardBook3.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/ForwardBook3.lean#L91-L97)
 - Source range: L91-L97
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

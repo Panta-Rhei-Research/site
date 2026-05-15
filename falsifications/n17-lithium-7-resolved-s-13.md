@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N17 — Lithium-7 framework account (S = 1/3)"
-permalink: "/results/falsifications/n17-lithium-7-resolved-s-13/"
+permalink: "/falsifications/n17-lithium-7-resolved-s-13/"
 lane: "results"
 falsification_id: "N17"
 n_num: 17

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "iota_tau_denom_pos",
-  "permalink": "/verify/taulib/docs/book-i-boundary-iota/iota-tau-denom-pos/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-iota/iota-tau-denom-pos/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.Iota`.",
   "declaration_id": "TauLib.BookI.Boundary.Iota::iota_tau_denom_pos",
   "declaration_slug": "iota-tau-denom-pos",
   "kind": "theorem",
   "name": "iota_tau_denom_pos",
   "module_name": "TauLib.BookI.Boundary.Iota",
-  "module_url": "/verify/taulib/docs/book-i-boundary-iota/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-iota/",
   "source_line_start": 47,
   "source_line_end": 48,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Iota.lean#L47-L48",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Iota",
-        "url": "/verify/taulib/docs/book-i-boundary-iota/"
+        "url": "/corpus/taulib/docs/book-i-boundary-iota/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Iota](/verify/taulib/docs/book-i-boundary-iota/)
+- Module: [TauLib.BookI.Boundary.Iota](/corpus/taulib/docs/book-i-boundary-iota/)
 - Source path: [`TauLib/BookI/Boundary/Iota.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Iota.lean#L47-L48)
 - Source range: L47-L48
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

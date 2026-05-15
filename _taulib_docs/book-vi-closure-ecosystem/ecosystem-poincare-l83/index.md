@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ecosystem_poincare",
-  "permalink": "/verify/taulib/docs/book-vi-closure-ecosystem/ecosystem-poincare-l83/",
+  "permalink": "/corpus/taulib/docs/book-vi-closure-ecosystem/ecosystem-poincare-l83/",
   "summary_short": "`theorem` declaration in `TauLib.BookVI.Closure.Ecosystem`.",
   "declaration_id": "TauLib.BookVI.Closure.Ecosystem::ecosystem_poincare",
   "declaration_slug": "ecosystem-poincare-l83",
   "kind": "theorem",
   "name": "ecosystem_poincare",
   "module_name": "TauLib.BookVI.Closure.Ecosystem",
-  "module_url": "/verify/taulib/docs/book-vi-closure-ecosystem/",
+  "module_url": "/corpus/taulib/docs/book-vi-closure-ecosystem/",
   "source_line_start": 83,
   "source_line_end": 87,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Closure/Ecosystem.lean#L83-L87",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Closure.Ecosystem",
-        "url": "/verify/taulib/docs/book-vi-closure-ecosystem/"
+        "url": "/corpus/taulib/docs/book-vi-closure-ecosystem/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Closure.Ecosystem](/verify/taulib/docs/book-vi-closure-ecosystem/)
+- Module: [TauLib.BookVI.Closure.Ecosystem](/corpus/taulib/docs/book-vi-closure-ecosystem/)
 - Source path: [`TauLib/BookVI/Closure/Ecosystem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Closure/Ecosystem.lean#L83-L87)
 - Source range: L83-L87
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

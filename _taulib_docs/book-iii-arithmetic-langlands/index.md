@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIII.Arithmetic.Langlands",
-  "permalink": "/verify/taulib/docs/book-iii-arithmetic-langlands/",
+  "permalink": "/corpus/taulib/docs/book-iii-arithmetic-langlands/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIII.Arithmetic.Langlands`.",
   "module_name": "TauLib.BookIII.Arithmetic.Langlands",
   "module_slug": "book-iii-arithmetic-langlands",
@@ -35,10 +35,12 @@
     {
       "kind": "def",
       "name": "ag_duality_check",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-langlands/ag-duality-check/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-langlands/ag-duality-check/",
       "source_line_start": 50,
       "source_line_end": 71,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D63"
       ]
@@ -46,10 +48,12 @@
     {
       "kind": "def",
       "name": "local_langlands_check",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-langlands/local-langlands-check/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-langlands/local-langlands-check/",
       "source_line_start": 80,
       "source_line_end": 101,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D64"
       ]
@@ -57,10 +61,12 @@
     {
       "kind": "def",
       "name": "duality_md_check",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-langlands/duality-md-check/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-langlands/duality-md-check/",
       "source_line_start": 109,
       "source_line_end": 129,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.P28"
       ]
@@ -68,10 +74,12 @@
     {
       "kind": "def",
       "name": "functoriality_check",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-langlands/functoriality-check/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-langlands/functoriality-check/",
       "source_line_start": 138,
       "source_line_end": 157,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T36"
       ]
@@ -79,10 +87,12 @@
     {
       "kind": "def",
       "name": "base_change_check",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-langlands/base-change-check/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-langlands/base-change-check/",
       "source_line_start": 167,
       "source_line_end": 187,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T37"
       ]
@@ -90,100 +100,122 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-arithmetic-langlands/eval-l193/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-langlands/eval-l193/",
       "source_line_start": 193,
       "source_line_end": 193,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-arithmetic-langlands/eval-l194/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-langlands/eval-l194/",
       "source_line_start": 194,
       "source_line_end": 194,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-arithmetic-langlands/eval-l195/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-langlands/eval-l195/",
       "source_line_start": 195,
       "source_line_end": 195,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-arithmetic-langlands/eval-l196/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-langlands/eval-l196/",
       "source_line_start": 196,
       "source_line_end": 196,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-arithmetic-langlands/eval-l197/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-langlands/eval-l197/",
       "source_line_start": 197,
       "source_line_end": 197,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ag_duality_15_4",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-langlands/ag-duality-15-4/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-langlands/ag-duality-15-4/",
       "source_line_start": 203,
       "source_line_end": 204,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "local_langlands_10_3",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-langlands/local-langlands-10-3/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-langlands/local-langlands-10-3/",
       "source_line_start": 206,
       "source_line_end": 207,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "duality_md_15_4",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-langlands/duality-md-15-4/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-langlands/duality-md-15-4/",
       "source_line_start": 209,
       "source_line_end": 210,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "functoriality_15_4",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-langlands/functoriality-15-4/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-langlands/functoriality-15-4/",
       "source_line_start": 212,
       "source_line_end": 213,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "base_change_15_3",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-langlands/base-change-15-3/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-langlands/base-change-15-3/",
       "source_line_start": 215,
       "source_line_end": 216,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "langlands_level",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-langlands/langlands-level/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-langlands/langlands-level/",
       "source_line_start": 223,
       "source_line_end": 223,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D63"
       ]
@@ -191,19 +223,23 @@
     {
       "kind": "theorem",
       "name": "langlands_part",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-langlands/langlands-part/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-langlands/langlands-part/",
       "source_line_start": 224,
       "source_line_end": 224,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "func_10_1",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-langlands/func-10-1/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-langlands/func-10-1/",
       "source_line_start": 227,
       "source_line_end": 228,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T36"
       ]
@@ -211,10 +247,12 @@
     {
       "kind": "theorem",
       "name": "base_change_10_1",
-      "url": "/verify/taulib/docs/book-iii-arithmetic-langlands/base-change-10-1/",
+      "url": "/corpus/taulib/docs/book-iii-arithmetic-langlands/base-change-10-1/",
       "source_line_start": 231,
       "source_line_end": 234,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T37"
       ]
@@ -228,7 +266,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -301,24 +339,24 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [ag_duality_check](/verify/taulib/docs/book-iii-arithmetic-langlands/ag-duality-check/) | L50-L71 | defined | `III.D63` |
-| `def` | [local_langlands_check](/verify/taulib/docs/book-iii-arithmetic-langlands/local-langlands-check/) | L80-L101 | defined | `III.D64` |
-| `def` | [duality_md_check](/verify/taulib/docs/book-iii-arithmetic-langlands/duality-md-check/) | L109-L129 | defined | `III.P28` |
-| `def` | [functoriality_check](/verify/taulib/docs/book-iii-arithmetic-langlands/functoriality-check/) | L138-L157 | defined | `III.T36` |
-| `def` | [base_change_check](/verify/taulib/docs/book-iii-arithmetic-langlands/base-change-check/) | L167-L187 | defined | `III.T37` |
-| `eval` | [#eval L193](/verify/taulib/docs/book-iii-arithmetic-langlands/eval-l193/) | L193-L193 | computed | — |
-| `eval` | [#eval L194](/verify/taulib/docs/book-iii-arithmetic-langlands/eval-l194/) | L194-L194 | computed | — |
-| `eval` | [#eval L195](/verify/taulib/docs/book-iii-arithmetic-langlands/eval-l195/) | L195-L195 | computed | — |
-| `eval` | [#eval L196](/verify/taulib/docs/book-iii-arithmetic-langlands/eval-l196/) | L196-L196 | computed | — |
-| `eval` | [#eval L197](/verify/taulib/docs/book-iii-arithmetic-langlands/eval-l197/) | L197-L197 | computed | — |
-| `theorem` | [ag_duality_15_4](/verify/taulib/docs/book-iii-arithmetic-langlands/ag-duality-15-4/) | L203-L204 | formalized | — |
-| `theorem` | [local_langlands_10_3](/verify/taulib/docs/book-iii-arithmetic-langlands/local-langlands-10-3/) | L206-L207 | formalized | — |
-| `theorem` | [duality_md_15_4](/verify/taulib/docs/book-iii-arithmetic-langlands/duality-md-15-4/) | L209-L210 | formalized | — |
-| `theorem` | [functoriality_15_4](/verify/taulib/docs/book-iii-arithmetic-langlands/functoriality-15-4/) | L212-L213 | formalized | — |
-| `theorem` | [base_change_15_3](/verify/taulib/docs/book-iii-arithmetic-langlands/base-change-15-3/) | L215-L216 | formalized | — |
-| `theorem` | [langlands_level](/verify/taulib/docs/book-iii-arithmetic-langlands/langlands-level/) | L223-L223 | formalized | `III.D63` |
-| `theorem` | [langlands_part](/verify/taulib/docs/book-iii-arithmetic-langlands/langlands-part/) | L224-L224 | formalized | — |
-| `theorem` | [func_10_1](/verify/taulib/docs/book-iii-arithmetic-langlands/func-10-1/) | L227-L228 | formalized | `III.T36` |
-| `theorem` | [base_change_10_1](/verify/taulib/docs/book-iii-arithmetic-langlands/base-change-10-1/) | L231-L234 | formalized | `III.T37` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [ag_duality_check](/corpus/taulib/docs/book-iii-arithmetic-langlands/ag-duality-check/) | L50-L71 | data/computed value | data/computed value | `III.D63` |
+| `def` | [local_langlands_check](/corpus/taulib/docs/book-iii-arithmetic-langlands/local-langlands-check/) | L80-L101 | data/computed value | data/computed value | `III.D64` |
+| `def` | [duality_md_check](/corpus/taulib/docs/book-iii-arithmetic-langlands/duality-md-check/) | L109-L129 | data/computed value | data/computed value | `III.P28` |
+| `def` | [functoriality_check](/corpus/taulib/docs/book-iii-arithmetic-langlands/functoriality-check/) | L138-L157 | data/computed value | data/computed value | `III.T36` |
+| `def` | [base_change_check](/corpus/taulib/docs/book-iii-arithmetic-langlands/base-change-check/) | L167-L187 | data/computed value | data/computed value | `III.T37` |
+| `eval` | [#eval L193](/corpus/taulib/docs/book-iii-arithmetic-langlands/eval-l193/) | L193-L193 | computed check | computed check | — |
+| `eval` | [#eval L194](/corpus/taulib/docs/book-iii-arithmetic-langlands/eval-l194/) | L194-L194 | computed check | computed check | — |
+| `eval` | [#eval L195](/corpus/taulib/docs/book-iii-arithmetic-langlands/eval-l195/) | L195-L195 | computed check | computed check | — |
+| `eval` | [#eval L196](/corpus/taulib/docs/book-iii-arithmetic-langlands/eval-l196/) | L196-L196 | computed check | computed check | — |
+| `eval` | [#eval L197](/corpus/taulib/docs/book-iii-arithmetic-langlands/eval-l197/) | L197-L197 | computed check | computed check | — |
+| `theorem` | [ag_duality_15_4](/corpus/taulib/docs/book-iii-arithmetic-langlands/ag-duality-15-4/) | L203-L204 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [local_langlands_10_3](/corpus/taulib/docs/book-iii-arithmetic-langlands/local-langlands-10-3/) | L206-L207 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [duality_md_15_4](/corpus/taulib/docs/book-iii-arithmetic-langlands/duality-md-15-4/) | L209-L210 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [functoriality_15_4](/corpus/taulib/docs/book-iii-arithmetic-langlands/functoriality-15-4/) | L212-L213 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [base_change_15_3](/corpus/taulib/docs/book-iii-arithmetic-langlands/base-change-15-3/) | L215-L216 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [langlands_level](/corpus/taulib/docs/book-iii-arithmetic-langlands/langlands-level/) | L223-L223 | proof obligation | formal proof obligation checked | `III.D63` |
+| `theorem` | [langlands_part](/corpus/taulib/docs/book-iii-arithmetic-langlands/langlands-part/) | L224-L224 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [func_10_1](/corpus/taulib/docs/book-iii-arithmetic-langlands/func-10-1/) | L227-L228 | proof obligation | formal proof obligation checked | `III.T36` |
+| `theorem` | [base_change_10_1](/corpus/taulib/docs/book-iii-arithmetic-langlands/base-change-10-1/) | L231-L234 | proof obligation | formal proof obligation checked | `III.T37` |

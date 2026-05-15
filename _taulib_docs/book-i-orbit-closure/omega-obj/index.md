@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "omega_obj",
-  "permalink": "/verify/taulib/docs/book-i-orbit-closure/omega-obj/",
+  "permalink": "/corpus/taulib/docs/book-i-orbit-closure/omega-obj/",
   "summary_short": "`def` declaration in `TauLib.BookI.Orbit.Closure`.",
   "declaration_id": "TauLib.BookI.Orbit.Closure::omega_obj",
   "declaration_slug": "omega-obj",
   "kind": "def",
   "name": "omega_obj",
   "module_name": "TauLib.BookI.Orbit.Closure",
-  "module_url": "/verify/taulib/docs/book-i-orbit-closure/",
+  "module_url": "/corpus/taulib/docs/book-i-orbit-closure/",
   "source_line_start": 94,
   "source_line_end": 96,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/Closure.lean#L94-L96",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Orbit.Closure",
-        "url": "/verify/taulib/docs/book-i-orbit-closure/"
+        "url": "/corpus/taulib/docs/book-i-orbit-closure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Orbit.Closure](/verify/taulib/docs/book-i-orbit-closure/)
+- Module: [TauLib.BookI.Orbit.Closure](/corpus/taulib/docs/book-i-orbit-closure/)
 - Source path: [`TauLib/BookI/Orbit/Closure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/Closure.lean#L94-L96)
 - Source range: L94-L96
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

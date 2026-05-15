@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "crt_basis_off_diagonal",
-  "permalink": "/verify/taulib/docs/book-i-polarity-crtbasis/crt-basis-off-diagonal/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-crtbasis/crt-basis-off-diagonal/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Polarity.CRTBasis`.",
   "declaration_id": "TauLib.BookI.Polarity.CRTBasis::crt_basis_off_diagonal",
   "declaration_slug": "crt-basis-off-diagonal",
   "kind": "theorem",
   "name": "crt_basis_off_diagonal",
   "module_name": "TauLib.BookI.Polarity.CRTBasis",
-  "module_url": "/verify/taulib/docs/book-i-polarity-crtbasis/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-crtbasis/",
   "source_line_start": 183,
   "source_line_end": 191,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/CRTBasis.lean#L183-L191",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.CRTBasis",
-        "url": "/verify/taulib/docs/book-i-polarity-crtbasis/"
+        "url": "/corpus/taulib/docs/book-i-polarity-crtbasis/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.CRTBasis](/verify/taulib/docs/book-i-polarity-crtbasis/)
+- Module: [TauLib.BookI.Polarity.CRTBasis](/corpus/taulib/docs/book-i-polarity-crtbasis/)
 - Source path: [`TauLib/BookI/Polarity/CRTBasis.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/CRTBasis.lean#L183-L191)
 - Source range: L183-L191
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

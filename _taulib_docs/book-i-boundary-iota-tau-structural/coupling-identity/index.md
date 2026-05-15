@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "coupling_identity",
-  "permalink": "/verify/taulib/docs/book-i-boundary-iota-tau-structural/coupling-identity/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-iota-tau-structural/coupling-identity/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.IotaTauStructural`.",
   "declaration_id": "TauLib.BookI.Boundary.IotaTauStructural::coupling_identity",
   "declaration_slug": "coupling-identity",
   "kind": "theorem",
   "name": "coupling_identity",
   "module_name": "TauLib.BookI.Boundary.IotaTauStructural",
-  "module_url": "/verify/taulib/docs/book-i-boundary-iota-tau-structural/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-iota-tau-structural/",
   "source_line_start": 246,
   "source_line_end": 252,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/IotaTauStructural.lean#L246-L252",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.IotaTauStructural",
-        "url": "/verify/taulib/docs/book-i-boundary-iota-tau-structural/"
+        "url": "/corpus/taulib/docs/book-i-boundary-iota-tau-structural/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.IotaTauStructural](/verify/taulib/docs/book-i-boundary-iota-tau-structural/)
+- Module: [TauLib.BookI.Boundary.IotaTauStructural](/corpus/taulib/docs/book-i-boundary-iota-tau-structural/)
 - Source path: [`TauLib/BookI/Boundary/IotaTauStructural.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/IotaTauStructural.lean#L246-L252)
 - Source range: L246-L252
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

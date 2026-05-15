@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "halting_finite_check",
-  "permalink": "/verify/taulib/docs/book-iii-bridge-incompleteness/halting-finite-check/",
+  "permalink": "/corpus/taulib/docs/book-iii-bridge-incompleteness/halting-finite-check/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Bridge.Incompleteness`.",
   "declaration_id": "TauLib.BookIII.Bridge.Incompleteness::halting_finite_check",
   "declaration_slug": "halting-finite-check",
   "kind": "def",
   "name": "halting_finite_check",
   "module_name": "TauLib.BookIII.Bridge.Incompleteness",
-  "module_url": "/verify/taulib/docs/book-iii-bridge-incompleteness/",
+  "module_url": "/corpus/taulib/docs/book-iii-bridge-incompleteness/",
   "source_line_start": 156,
   "source_line_end": 175,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/Incompleteness.lean#L156-L175",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Bridge.Incompleteness",
-        "url": "/verify/taulib/docs/book-iii-bridge-incompleteness/"
+        "url": "/corpus/taulib/docs/book-iii-bridge-incompleteness/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Bridge.Incompleteness](/verify/taulib/docs/book-iii-bridge-incompleteness/)
+- Module: [TauLib.BookIII.Bridge.Incompleteness](/corpus/taulib/docs/book-iii-bridge-incompleteness/)
 - Source path: [`TauLib/BookIII/Bridge/Incompleteness.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/Incompleteness.lean#L156-L175)
 - Source range: L156-L175
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

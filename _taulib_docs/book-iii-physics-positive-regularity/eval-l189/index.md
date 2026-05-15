@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L189",
-  "permalink": "/verify/taulib/docs/book-iii-physics-positive-regularity/eval-l189/",
+  "permalink": "/corpus/taulib/docs/book-iii-physics-positive-regularity/eval-l189/",
   "summary_short": "`eval` declaration in `TauLib.BookIII.Physics.PositiveRegularity`.",
   "declaration_id": "TauLib.BookIII.Physics.PositiveRegularity::#eval:189",
   "declaration_slug": "eval-l189",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIII.Physics.PositiveRegularity",
-  "module_url": "/verify/taulib/docs/book-iii-physics-positive-regularity/",
+  "module_url": "/corpus/taulib/docs/book-iii-physics-positive-regularity/",
   "source_line_start": 189,
   "source_line_end": 189,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/PositiveRegularity.lean#L189-L189",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Physics.PositiveRegularity",
-        "url": "/verify/taulib/docs/book-iii-physics-positive-regularity/"
+        "url": "/corpus/taulib/docs/book-iii-physics-positive-regularity/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Physics.PositiveRegularity](/verify/taulib/docs/book-iii-physics-positive-regularity/)
+- Module: [TauLib.BookIII.Physics.PositiveRegularity](/corpus/taulib/docs/book-iii-physics-positive-regularity/)
 - Source path: [`TauLib/BookIII/Physics/PositiveRegularity.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/PositiveRegularity.lean#L189-L189)
 - Source range: L189-L189
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

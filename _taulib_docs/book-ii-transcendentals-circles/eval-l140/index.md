@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L140",
-  "permalink": "/verify/taulib/docs/book-ii-transcendentals-circles/eval-l140/",
+  "permalink": "/corpus/taulib/docs/book-ii-transcendentals-circles/eval-l140/",
   "summary_short": "`eval` declaration in `TauLib.BookII.Transcendentals.Circles`.",
   "declaration_id": "TauLib.BookII.Transcendentals.Circles::#eval:140",
   "declaration_slug": "eval-l140",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookII.Transcendentals.Circles",
-  "module_url": "/verify/taulib/docs/book-ii-transcendentals-circles/",
+  "module_url": "/corpus/taulib/docs/book-ii-transcendentals-circles/",
   "source_line_start": 140,
   "source_line_end": 140,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Transcendentals/Circles.lean#L140-L140",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Transcendentals.Circles",
-        "url": "/verify/taulib/docs/book-ii-transcendentals-circles/"
+        "url": "/corpus/taulib/docs/book-ii-transcendentals-circles/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Transcendentals.Circles](/verify/taulib/docs/book-ii-transcendentals-circles/)
+- Module: [TauLib.BookII.Transcendentals.Circles](/corpus/taulib/docs/book-ii-transcendentals-circles/)
 - Source path: [`TauLib/BookII/Transcendentals/Circles.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Transcendentals/Circles.lean#L140-L140)
 - Source range: L140-L140
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

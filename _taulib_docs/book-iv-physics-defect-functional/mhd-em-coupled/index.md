@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "mhd_em_coupled",
-  "permalink": "/verify/taulib/docs/book-iv-physics-defect-functional/mhd-em-coupled/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-defect-functional/mhd-em-coupled/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Physics.DefectFunctional`.",
   "declaration_id": "TauLib.BookIV.Physics.DefectFunctional::mhd_em_coupled",
   "declaration_slug": "mhd-em-coupled",
   "kind": "theorem",
   "name": "mhd_em_coupled",
   "module_name": "TauLib.BookIV.Physics.DefectFunctional",
-  "module_url": "/verify/taulib/docs/book-iv-physics-defect-functional/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-defect-functional/",
   "source_line_start": 301,
   "source_line_end": 302,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/DefectFunctional.lean#L301-L302",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.DefectFunctional",
-        "url": "/verify/taulib/docs/book-iv-physics-defect-functional/"
+        "url": "/corpus/taulib/docs/book-iv-physics-defect-functional/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.DefectFunctional](/verify/taulib/docs/book-iv-physics-defect-functional/)
+- Module: [TauLib.BookIV.Physics.DefectFunctional](/corpus/taulib/docs/book-iv-physics-defect-functional/)
 - Source path: [`TauLib/BookIV/Physics/DefectFunctional.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/DefectFunctional.lean#L301-L302)
 - Source range: L301-L302
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

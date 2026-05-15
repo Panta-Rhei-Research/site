@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TTM.run",
-  "permalink": "/verify/taulib/docs/book-iii-spectrum-ttm/run/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectrum-ttm/run/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Spectrum.TTM`.",
   "declaration_id": "TauLib.BookIII.Spectrum.TTM::TTM.run",
   "declaration_slug": "run",
   "kind": "def",
   "name": "TTM.run",
   "module_name": "TauLib.BookIII.Spectrum.TTM",
-  "module_url": "/verify/taulib/docs/book-iii-spectrum-ttm/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectrum-ttm/",
   "source_line_start": 238,
   "source_line_end": 243,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectrum/TTM.lean#L238-L243",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectrum.TTM",
-        "url": "/verify/taulib/docs/book-iii-spectrum-ttm/"
+        "url": "/corpus/taulib/docs/book-iii-spectrum-ttm/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectrum.TTM](/verify/taulib/docs/book-iii-spectrum-ttm/)
+- Module: [TauLib.BookIII.Spectrum.TTM](/corpus/taulib/docs/book-iii-spectrum-ttm/)
 - Source path: [`TauLib/BookIII/Spectrum/TTM.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectrum/TTM.lean#L238-L243)
 - Source range: L238-L243
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "chi_plus_of_e_minus",
-  "permalink": "/verify/taulib/docs/book-i-boundary-characters/chi-plus-of-e-minus/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-characters/chi-plus-of-e-minus/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.Characters`.",
   "declaration_id": "TauLib.BookI.Boundary.Characters::chi_plus_of_e_minus",
   "declaration_slug": "chi-plus-of-e-minus",
   "kind": "theorem",
   "name": "chi_plus_of_e_minus",
   "module_name": "TauLib.BookI.Boundary.Characters",
-  "module_url": "/verify/taulib/docs/book-i-boundary-characters/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-characters/",
   "source_line_start": 194,
   "source_line_end": 196,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Characters.lean#L194-L196",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Characters",
-        "url": "/verify/taulib/docs/book-i-boundary-characters/"
+        "url": "/corpus/taulib/docs/book-i-boundary-characters/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Characters](/verify/taulib/docs/book-i-boundary-characters/)
+- Module: [TauLib.BookI.Boundary.Characters](/corpus/taulib/docs/book-i-boundary-characters/)
 - Source path: [`TauLib/BookI/Boundary/Characters.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Characters.lean#L194-L196)
 - Source range: L194-L196
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

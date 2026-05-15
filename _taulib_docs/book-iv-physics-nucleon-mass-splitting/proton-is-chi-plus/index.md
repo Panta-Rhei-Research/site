@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "protonIsChiPlus",
-  "permalink": "/verify/taulib/docs/book-iv-physics-nucleon-mass-splitting/proton-is-chi-plus/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-nucleon-mass-splitting/proton-is-chi-plus/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Physics.NucleonMassSplitting`.",
   "declaration_id": "TauLib.BookIV.Physics.NucleonMassSplitting::protonIsChiPlus",
   "declaration_slug": "proton-is-chi-plus",
   "kind": "def",
   "name": "protonIsChiPlus",
   "module_name": "TauLib.BookIV.Physics.NucleonMassSplitting",
-  "module_url": "/verify/taulib/docs/book-iv-physics-nucleon-mass-splitting/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-nucleon-mass-splitting/",
   "source_line_start": 68,
   "source_line_end": 68,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/NucleonMassSplitting.lean#L68-L68",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.NucleonMassSplitting",
-        "url": "/verify/taulib/docs/book-iv-physics-nucleon-mass-splitting/"
+        "url": "/corpus/taulib/docs/book-iv-physics-nucleon-mass-splitting/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.NucleonMassSplitting](/verify/taulib/docs/book-iv-physics-nucleon-mass-splitting/)
+- Module: [TauLib.BookIV.Physics.NucleonMassSplitting](/corpus/taulib/docs/book-iv-physics-nucleon-mass-splitting/)
 - Source path: [`TauLib/BookIV/Physics/NucleonMassSplitting.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/NucleonMassSplitting.lean#L68-L68)
 - Source range: L68-L68
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

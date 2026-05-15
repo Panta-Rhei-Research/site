@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "LedgerEntry",
-  "permalink": "/verify/taulib/docs/book-v-coda-constants-ledger/ledger-entry/",
+  "permalink": "/corpus/taulib/docs/book-v-coda-constants-ledger/ledger-entry/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Coda.ConstantsLedger`.",
   "declaration_id": "TauLib.BookV.Coda.ConstantsLedger::LedgerEntry",
   "declaration_slug": "ledger-entry",
   "kind": "structure",
   "name": "LedgerEntry",
   "module_name": "TauLib.BookV.Coda.ConstantsLedger",
-  "module_url": "/verify/taulib/docs/book-v-coda-constants-ledger/",
+  "module_url": "/corpus/taulib/docs/book-v-coda-constants-ledger/",
   "source_line_start": 80,
   "source_line_end": 89,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Coda/ConstantsLedger.lean#L80-L89",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Coda.ConstantsLedger",
-        "url": "/verify/taulib/docs/book-v-coda-constants-ledger/"
+        "url": "/corpus/taulib/docs/book-v-coda-constants-ledger/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Coda.ConstantsLedger](/verify/taulib/docs/book-v-coda-constants-ledger/)
+- Module: [TauLib.BookV.Coda.ConstantsLedger](/corpus/taulib/docs/book-v-coda-constants-ledger/)
 - Source path: [`TauLib/BookV/Coda/ConstantsLedger.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Coda/ConstantsLedger.lean#L80-L89)
 - Source range: L80-L89
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

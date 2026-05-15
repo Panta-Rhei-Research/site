@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauReal",
-  "permalink": "/verify/taulib/docs/book-i-boundary-constructive-reals/tau-real/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-constructive-reals/tau-real/",
   "summary_short": "`structure` declaration in `TauLib.BookI.Boundary.ConstructiveReals`.",
   "declaration_id": "TauLib.BookI.Boundary.ConstructiveReals::TauReal",
   "declaration_slug": "tau-real",
   "kind": "structure",
   "name": "TauReal",
   "module_name": "TauLib.BookI.Boundary.ConstructiveReals",
-  "module_url": "/verify/taulib/docs/book-i-boundary-constructive-reals/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/",
   "source_line_start": 136,
   "source_line_end": 138,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/ConstructiveReals.lean#L136-L138",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.ConstructiveReals",
-        "url": "/verify/taulib/docs/book-i-boundary-constructive-reals/"
+        "url": "/corpus/taulib/docs/book-i-boundary-constructive-reals/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.ConstructiveReals](/verify/taulib/docs/book-i-boundary-constructive-reals/)
+- Module: [TauLib.BookI.Boundary.ConstructiveReals](/corpus/taulib/docs/book-i-boundary-constructive-reals/)
 - Source path: [`TauLib/BookI/Boundary/ConstructiveReals.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/ConstructiveReals.lean#L136-L138)
 - Source range: L136-L138
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

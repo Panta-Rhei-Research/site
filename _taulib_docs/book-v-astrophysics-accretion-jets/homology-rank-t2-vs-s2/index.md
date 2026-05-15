@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "homology_rank_t2_vs_s2",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-accretion-jets/homology-rank-t2-vs-s2/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-accretion-jets/homology-rank-t2-vs-s2/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Astrophysics.AccretionJets`.",
   "declaration_id": "TauLib.BookV.Astrophysics.AccretionJets::homology_rank_t2_vs_s2",
   "declaration_slug": "homology-rank-t2-vs-s2",
   "kind": "theorem",
   "name": "homology_rank_t2_vs_s2",
   "module_name": "TauLib.BookV.Astrophysics.AccretionJets",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-accretion-jets/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-accretion-jets/",
   "source_line_start": 355,
   "source_line_end": 355,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/AccretionJets.lean#L355-L355",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.AccretionJets",
-        "url": "/verify/taulib/docs/book-v-astrophysics-accretion-jets/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-accretion-jets/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.AccretionJets](/verify/taulib/docs/book-v-astrophysics-accretion-jets/)
+- Module: [TauLib.BookV.Astrophysics.AccretionJets](/corpus/taulib/docs/book-v-astrophysics-accretion-jets/)
 - Source path: [`TauLib/BookV/Astrophysics/AccretionJets.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/AccretionJets.lean#L355-L355)
 - Source range: L355-L355
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

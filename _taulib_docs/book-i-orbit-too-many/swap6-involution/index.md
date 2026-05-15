@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "swap6_involution",
-  "permalink": "/verify/taulib/docs/book-i-orbit-too-many/swap6-involution/",
+  "permalink": "/corpus/taulib/docs/book-i-orbit-too-many/swap6-involution/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Orbit.TooMany`.",
   "declaration_id": "TauLib.BookI.Orbit.TooMany::swap6_involution",
   "declaration_slug": "swap6-involution",
   "kind": "theorem",
   "name": "swap6_involution",
   "module_name": "TauLib.BookI.Orbit.TooMany",
-  "module_url": "/verify/taulib/docs/book-i-orbit-too-many/",
+  "module_url": "/corpus/taulib/docs/book-i-orbit-too-many/",
   "source_line_start": 112,
   "source_line_end": 114,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/TooMany.lean#L112-L114",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Orbit.TooMany",
-        "url": "/verify/taulib/docs/book-i-orbit-too-many/"
+        "url": "/corpus/taulib/docs/book-i-orbit-too-many/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Orbit.TooMany](/verify/taulib/docs/book-i-orbit-too-many/)
+- Module: [TauLib.BookI.Orbit.TooMany](/corpus/taulib/docs/book-i-orbit-too-many/)
 - Source path: [`TauLib/BookI/Orbit/TooMany.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/TooMany.lean#L112-L114)
 - Source range: L112-L114
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

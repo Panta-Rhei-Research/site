@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "val_p2",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-local-fields/val-p2/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-local-fields/val-p2/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Spectral.LocalFields`.",
   "declaration_id": "TauLib.BookIII.Spectral.LocalFields::val_p2",
   "declaration_slug": "val-p2",
   "kind": "theorem",
   "name": "val_p2",
   "module_name": "TauLib.BookIII.Spectral.LocalFields",
-  "module_url": "/verify/taulib/docs/book-iii-spectral-local-fields/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectral-local-fields/",
   "source_line_start": 220,
   "source_line_end": 220,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/LocalFields.lean#L220-L220",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectral.LocalFields",
-        "url": "/verify/taulib/docs/book-iii-spectral-local-fields/"
+        "url": "/corpus/taulib/docs/book-iii-spectral-local-fields/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectral.LocalFields](/verify/taulib/docs/book-iii-spectral-local-fields/)
+- Module: [TauLib.BookIII.Spectral.LocalFields](/corpus/taulib/docs/book-iii-spectral-local-fields/)
 - Source path: [`TauLib/BookIII/Spectral/LocalFields.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/LocalFields.lean#L220-L220)
 - Source range: L220-L220
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

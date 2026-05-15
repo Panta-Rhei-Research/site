@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ew_density_equals_window_ratio",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-ewprojection/ew-density-equals-window-ratio/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-ewprojection/ew-density-equals-window-ratio/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Electroweak.EWProjection`.",
   "declaration_id": "TauLib.BookIV.Electroweak.EWProjection::ew_density_equals_window_ratio",
   "declaration_slug": "ew-density-equals-window-ratio",
   "kind": "theorem",
   "name": "ew_density_equals_window_ratio",
   "module_name": "TauLib.BookIV.Electroweak.EWProjection",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-ewprojection/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-ewprojection/",
   "source_line_start": 167,
   "source_line_end": 174,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/EWProjection.lean#L167-L174",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.EWProjection",
-        "url": "/verify/taulib/docs/book-iv-electroweak-ewprojection/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-ewprojection/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.EWProjection](/verify/taulib/docs/book-iv-electroweak-ewprojection/)
+- Module: [TauLib.BookIV.Electroweak.EWProjection](/corpus/taulib/docs/book-iv-electroweak-ewprojection/)
 - Source path: [`TauLib/BookIV/Electroweak/EWProjection.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/EWProjection.lean#L167-L174)
 - Source range: L167-L174
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

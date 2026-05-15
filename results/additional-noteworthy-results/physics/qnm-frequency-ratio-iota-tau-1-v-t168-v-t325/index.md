@@ -35,7 +35,7 @@ related_public_surfaces:
     surface_type: "falsification_facet"
     surface_id: "N24"
     title: "N24 — QNM frequency ratio ιτ⁻¹"
-    url: "/results/falsifications/n24-qnm-frequency-ratio-1/"
+    url: "/falsifications/n24-qnm-frequency-ratio-1/"
     match_basis: "facet_title_summary"
     match_confidence: "medium"
     matched_terms:
@@ -62,7 +62,7 @@ related_public_surfaces:
     surface_type: "falsification_facet"
     surface_id: "N26"
     title: "N26 — GW echo time ratio ιτ⁻²"
-    url: "/results/falsifications/n26-gw-echo-time-ratio-2/"
+    url: "/falsifications/n26-gw-echo-time-ratio-2/"
     match_basis: "existing_surface_near_registry_anchor"
     match_confidence: "medium"
     matched_terms:
@@ -93,10 +93,10 @@ Ledger restatement: QNM frequency ratio iota_tau^{-1} (V.T168)
 ## Related Results surfaces
 
 - [BH Quasi-Normal Modes](/results/problem/bh-quasi-normal-modes/)
-- [N24 — QNM frequency ratio ιτ⁻¹](/results/falsifications/n24-qnm-frequency-ratio-1/)
+- [N24 — QNM frequency ratio ιτ⁻¹](/falsifications/n24-qnm-frequency-ratio-1/)
 - [Quasinormal Mode Frequency Ratio](/predictions/qnm-ratio/)
 - [GW Echo Time Ratio](/predictions/echo-ratio/)
-- [N26 — GW echo time ratio ιτ⁻²](/results/falsifications/n26-gw-echo-time-ratio-2/)
+- [N26 — GW echo time ratio ιτ⁻²](/falsifications/n26-gw-echo-time-ratio-2/)
 
 ## Reading role
 

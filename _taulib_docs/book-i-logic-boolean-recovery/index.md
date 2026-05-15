@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Logic.BooleanRecovery",
-  "permalink": "/verify/taulib/docs/book-i-logic-boolean-recovery/",
+  "permalink": "/corpus/taulib/docs/book-i-logic-boolean-recovery/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Logic.BooleanRecovery`.",
   "module_name": "TauLib.BookI.Logic.BooleanRecovery",
   "module_slug": "book-i-logic-boolean-recovery",
@@ -32,10 +32,12 @@
     {
       "kind": "def",
       "name": "forget",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/forget/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/forget/",
       "source_line_start": 49,
       "source_line_end": 53,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "I.P13"
       ]
@@ -43,118 +45,144 @@
     {
       "kind": "theorem",
       "name": "forget_preserves_meet",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/forget-preserves-meet/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-preserves-meet/",
       "source_line_start": 60,
       "source_line_end": 62,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "forget_preserves_join",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/forget-preserves-join/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-preserves-join/",
       "source_line_start": 65,
       "source_line_end": 67,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "forget_conflates_T_B",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/forget-conflates-t-b/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-conflates-t-b/",
       "source_line_start": 78,
       "source_line_end": 78,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "forget_conflates_F_N",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/forget-conflates-f-n/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-conflates-f-n/",
       "source_line_start": 81,
       "source_line_end": 81,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "forget_not_injective",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/forget-not-injective/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-not-injective/",
       "source_line_start": 84,
       "source_line_end": 87,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "forget_preserves_neg",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/forget-preserves-neg/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-preserves-neg/",
       "source_line_start": 90,
       "source_line_end": 91,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "forget_pessimistic",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/forget-pessimistic/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-pessimistic/",
       "source_line_start": 99,
       "source_line_end": 103,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "forget_pessimistic_preserves_meet",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/forget-pessimistic-preserves-meet/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-pessimistic-preserves-meet/",
       "source_line_start": 106,
       "source_line_end": 109,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "forget_pessimistic_preserves_join",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/forget-pessimistic-preserves-join/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-pessimistic-preserves-join/",
       "source_line_start": 112,
       "source_line_end": 115,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "forget_pessimistic_preserves_neg",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/forget-pessimistic-preserves-neg/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-pessimistic-preserves-neg/",
       "source_line_start": 118,
       "source_line_end": 120,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "dual_forget_injective",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/dual-forget-injective/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/dual-forget-injective/",
       "source_line_start": 124,
       "source_line_end": 127,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "dual_forget_is_toBoolPair",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/dual-forget-is-to-bool-pair/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/dual-forget-is-to-bool-pair/",
       "source_line_start": 130,
       "source_line_end": 132,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "boolean_recovery",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/boolean-recovery/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/boolean-recovery/",
       "source_line_start": 143,
       "source_line_end": 145,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.P13"
       ]
@@ -162,37 +190,45 @@
     {
       "kind": "theorem",
       "name": "forget_fiber_T_B",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/forget-fiber-t-b/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-fiber-t-b/",
       "source_line_start": 148,
       "source_line_end": 148,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "forget_fiber_F_N",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/forget-fiber-f-n/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-fiber-f-n/",
       "source_line_start": 150,
       "source_line_end": 150,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "forget_never_injective",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/forget-never-injective/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-never-injective/",
       "source_line_start": 153,
       "source_line_end": 159,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "forget_fiber",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/forget-fiber/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-fiber/",
       "source_line_start": 163,
       "source_line_end": 176,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.D41"
       ]
@@ -200,433 +236,529 @@
     {
       "kind": "def",
       "name": "omega_true",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/omega-true/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/omega-true/",
       "source_line_start": 179,
       "source_line_end": 179,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "omega_false",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/omega-false/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/omega-false/",
       "source_line_start": 182,
       "source_line_end": 182,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "omega_both",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/omega-both/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/omega-both/",
       "source_line_start": 185,
       "source_line_end": 185,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "omega_neither",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/omega-neither/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/omega-neither/",
       "source_line_start": 188,
       "source_line_end": 188,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "Truth4.heyting_impl",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/heyting-impl/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/heyting-impl/",
       "source_line_start": 204,
       "source_line_end": 214,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "heyting_eq_material",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/heyting-eq-material/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/heyting-eq-material/",
       "source_line_start": 219,
       "source_line_end": 221,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "heyting_adjunction",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/heyting-adjunction/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/heyting-adjunction/",
       "source_line_start": 225,
       "source_line_end": 227,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "heyting_maximality",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/heyting-maximality/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/heyting-maximality/",
       "source_line_start": 230,
       "source_line_end": 234,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "Truth4.heyting_neg",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/heyting-neg/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/heyting-neg/",
       "source_line_start": 237,
       "source_line_end": 237,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "heyting_neg_eq_neg",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/heyting-neg-eq-neg/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/heyting-neg-eq-neg/",
       "source_line_start": 240,
       "source_line_end": 242,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "excluded_middle",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/excluded-middle/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/excluded-middle/",
       "source_line_start": 250,
       "source_line_end": 251,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "double_negation",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/double-negation/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/double-negation/",
       "source_line_start": 254,
       "source_line_end": 255,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "non_contradiction",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/non-contradiction/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/non-contradiction/",
       "source_line_start": 258,
       "source_line_end": 259,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "truth4_is_boolean",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/truth4-is-boolean/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/truth4-is-boolean/",
       "source_line_start": 270,
       "source_line_end": 280,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "explosion_is_semantic",
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/explosion-is-semantic/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/explosion-is-semantic/",
       "source_line_start": 291,
       "source_line_end": 297,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l304/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l304/",
       "source_line_start": 304,
       "source_line_end": 304,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l305/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l305/",
       "source_line_start": 305,
       "source_line_end": 305,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l306/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l306/",
       "source_line_start": 306,
       "source_line_end": 306,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l307/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l307/",
       "source_line_start": 307,
       "source_line_end": 307,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l310/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l310/",
       "source_line_start": 310,
       "source_line_end": 310,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l311/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l311/",
       "source_line_start": 311,
       "source_line_end": 311,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l314/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l314/",
       "source_line_start": 314,
       "source_line_end": 314,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l315/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l315/",
       "source_line_start": 315,
       "source_line_end": 315,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l316/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l316/",
       "source_line_start": 316,
       "source_line_end": 316,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l317/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l317/",
       "source_line_start": 317,
       "source_line_end": 317,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l320/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l320/",
       "source_line_start": 320,
       "source_line_end": 320,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l321/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l321/",
       "source_line_start": 321,
       "source_line_end": 321,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l322/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l322/",
       "source_line_start": 322,
       "source_line_end": 322,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l325/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l325/",
       "source_line_start": 325,
       "source_line_end": 325,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l326/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l326/",
       "source_line_start": 326,
       "source_line_end": 326,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l327/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l327/",
       "source_line_start": 327,
       "source_line_end": 327,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l328/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l328/",
       "source_line_start": 328,
       "source_line_end": 328,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l331/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l331/",
       "source_line_start": 331,
       "source_line_end": 331,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l332/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l332/",
       "source_line_start": 332,
       "source_line_end": 332,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l335/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l335/",
       "source_line_start": 335,
       "source_line_end": 335,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l336/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l336/",
       "source_line_start": 336,
       "source_line_end": 336,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l337/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l337/",
       "source_line_start": 337,
       "source_line_end": 337,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l340/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l340/",
       "source_line_start": 340,
       "source_line_end": 340,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l341/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l341/",
       "source_line_start": 341,
       "source_line_end": 341,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l342/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l342/",
       "source_line_start": 342,
       "source_line_end": 342,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l343/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l343/",
       "source_line_start": 343,
       "source_line_end": 343,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l346/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l346/",
       "source_line_start": 346,
       "source_line_end": 346,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l347/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l347/",
       "source_line_start": 347,
       "source_line_end": 347,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l348/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l348/",
       "source_line_start": 348,
       "source_line_end": 348,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l349/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l349/",
       "source_line_start": 349,
       "source_line_end": 349,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l352/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l352/",
       "source_line_start": 352,
       "source_line_end": 352,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l353/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l353/",
       "source_line_start": 353,
       "source_line_end": 353,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l354/",
+      "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l354/",
       "source_line_start": 354,
       "source_line_end": 356,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -638,7 +770,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -708,71 +840,71 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [forget](/verify/taulib/docs/book-i-logic-boolean-recovery/forget/) | L49-L53 | defined | `I.P13` |
-| `theorem` | [forget_preserves_meet](/verify/taulib/docs/book-i-logic-boolean-recovery/forget-preserves-meet/) | L60-L62 | formalized | — |
-| `theorem` | [forget_preserves_join](/verify/taulib/docs/book-i-logic-boolean-recovery/forget-preserves-join/) | L65-L67 | formalized | — |
-| `theorem` | [forget_conflates_T_B](/verify/taulib/docs/book-i-logic-boolean-recovery/forget-conflates-t-b/) | L78-L78 | formalized | — |
-| `theorem` | [forget_conflates_F_N](/verify/taulib/docs/book-i-logic-boolean-recovery/forget-conflates-f-n/) | L81-L81 | formalized | — |
-| `theorem` | [forget_not_injective](/verify/taulib/docs/book-i-logic-boolean-recovery/forget-not-injective/) | L84-L87 | formalized | — |
-| `theorem` | [forget_preserves_neg](/verify/taulib/docs/book-i-logic-boolean-recovery/forget-preserves-neg/) | L90-L91 | formalized | — |
-| `def` | [forget_pessimistic](/verify/taulib/docs/book-i-logic-boolean-recovery/forget-pessimistic/) | L99-L103 | defined | — |
-| `theorem` | [forget_pessimistic_preserves_meet](/verify/taulib/docs/book-i-logic-boolean-recovery/forget-pessimistic-preserves-meet/) | L106-L109 | formalized | — |
-| `theorem` | [forget_pessimistic_preserves_join](/verify/taulib/docs/book-i-logic-boolean-recovery/forget-pessimistic-preserves-join/) | L112-L115 | formalized | — |
-| `theorem` | [forget_pessimistic_preserves_neg](/verify/taulib/docs/book-i-logic-boolean-recovery/forget-pessimistic-preserves-neg/) | L118-L120 | formalized | — |
-| `theorem` | [dual_forget_injective](/verify/taulib/docs/book-i-logic-boolean-recovery/dual-forget-injective/) | L124-L127 | formalized | — |
-| `theorem` | [dual_forget_is_toBoolPair](/verify/taulib/docs/book-i-logic-boolean-recovery/dual-forget-is-to-bool-pair/) | L130-L132 | formalized | — |
-| `theorem` | [boolean_recovery](/verify/taulib/docs/book-i-logic-boolean-recovery/boolean-recovery/) | L143-L145 | formalized | `I.P13` |
-| `theorem` | [forget_fiber_T_B](/verify/taulib/docs/book-i-logic-boolean-recovery/forget-fiber-t-b/) | L148-L148 | formalized | — |
-| `theorem` | [forget_fiber_F_N](/verify/taulib/docs/book-i-logic-boolean-recovery/forget-fiber-f-n/) | L150-L150 | formalized | — |
-| `theorem` | [forget_never_injective](/verify/taulib/docs/book-i-logic-boolean-recovery/forget-never-injective/) | L153-L159 | formalized | — |
-| `theorem` | [forget_fiber](/verify/taulib/docs/book-i-logic-boolean-recovery/forget-fiber/) | L163-L176 | formalized | `I.D41` |
-| `def` | [omega_true](/verify/taulib/docs/book-i-logic-boolean-recovery/omega-true/) | L179-L179 | defined | — |
-| `def` | [omega_false](/verify/taulib/docs/book-i-logic-boolean-recovery/omega-false/) | L182-L182 | defined | — |
-| `def` | [omega_both](/verify/taulib/docs/book-i-logic-boolean-recovery/omega-both/) | L185-L185 | defined | — |
-| `def` | [omega_neither](/verify/taulib/docs/book-i-logic-boolean-recovery/omega-neither/) | L188-L188 | defined | — |
-| `def` | [Truth4.heyting_impl](/verify/taulib/docs/book-i-logic-boolean-recovery/heyting-impl/) | L204-L214 | defined | — |
-| `theorem` | [heyting_eq_material](/verify/taulib/docs/book-i-logic-boolean-recovery/heyting-eq-material/) | L219-L221 | formalized | — |
-| `theorem` | [heyting_adjunction](/verify/taulib/docs/book-i-logic-boolean-recovery/heyting-adjunction/) | L225-L227 | formalized | — |
-| `theorem` | [heyting_maximality](/verify/taulib/docs/book-i-logic-boolean-recovery/heyting-maximality/) | L230-L234 | formalized | — |
-| `def` | [Truth4.heyting_neg](/verify/taulib/docs/book-i-logic-boolean-recovery/heyting-neg/) | L237-L237 | defined | — |
-| `theorem` | [heyting_neg_eq_neg](/verify/taulib/docs/book-i-logic-boolean-recovery/heyting-neg-eq-neg/) | L240-L242 | formalized | — |
-| `theorem` | [excluded_middle](/verify/taulib/docs/book-i-logic-boolean-recovery/excluded-middle/) | L250-L251 | formalized | — |
-| `theorem` | [double_negation](/verify/taulib/docs/book-i-logic-boolean-recovery/double-negation/) | L254-L255 | formalized | — |
-| `theorem` | [non_contradiction](/verify/taulib/docs/book-i-logic-boolean-recovery/non-contradiction/) | L258-L259 | formalized | — |
-| `theorem` | [truth4_is_boolean](/verify/taulib/docs/book-i-logic-boolean-recovery/truth4-is-boolean/) | L270-L280 | formalized | — |
-| `theorem` | [explosion_is_semantic](/verify/taulib/docs/book-i-logic-boolean-recovery/explosion-is-semantic/) | L291-L297 | formalized | — |
-| `eval` | [#eval L304](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l304/) | L304-L304 | computed | — |
-| `eval` | [#eval L305](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l305/) | L305-L305 | computed | — |
-| `eval` | [#eval L306](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l306/) | L306-L306 | computed | — |
-| `eval` | [#eval L307](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l307/) | L307-L307 | computed | — |
-| `eval` | [#eval L310](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l310/) | L310-L310 | computed | — |
-| `eval` | [#eval L311](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l311/) | L311-L311 | computed | — |
-| `eval` | [#eval L314](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l314/) | L314-L314 | computed | — |
-| `eval` | [#eval L315](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l315/) | L315-L315 | computed | — |
-| `eval` | [#eval L316](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l316/) | L316-L316 | computed | — |
-| `eval` | [#eval L317](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l317/) | L317-L317 | computed | — |
-| `eval` | [#eval L320](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l320/) | L320-L320 | computed | — |
-| `eval` | [#eval L321](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l321/) | L321-L321 | computed | — |
-| `eval` | [#eval L322](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l322/) | L322-L322 | computed | — |
-| `eval` | [#eval L325](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l325/) | L325-L325 | computed | — |
-| `eval` | [#eval L326](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l326/) | L326-L326 | computed | — |
-| `eval` | [#eval L327](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l327/) | L327-L327 | computed | — |
-| `eval` | [#eval L328](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l328/) | L328-L328 | computed | — |
-| `eval` | [#eval L331](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l331/) | L331-L331 | computed | — |
-| `eval` | [#eval L332](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l332/) | L332-L332 | computed | — |
-| `eval` | [#eval L335](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l335/) | L335-L335 | computed | — |
-| `eval` | [#eval L336](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l336/) | L336-L336 | computed | — |
-| `eval` | [#eval L337](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l337/) | L337-L337 | computed | — |
-| `eval` | [#eval L340](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l340/) | L340-L340 | computed | — |
-| `eval` | [#eval L341](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l341/) | L341-L341 | computed | — |
-| `eval` | [#eval L342](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l342/) | L342-L342 | computed | — |
-| `eval` | [#eval L343](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l343/) | L343-L343 | computed | — |
-| `eval` | [#eval L346](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l346/) | L346-L346 | computed | — |
-| `eval` | [#eval L347](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l347/) | L347-L347 | computed | — |
-| `eval` | [#eval L348](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l348/) | L348-L348 | computed | — |
-| `eval` | [#eval L349](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l349/) | L349-L349 | computed | — |
-| `eval` | [#eval L352](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l352/) | L352-L352 | computed | — |
-| `eval` | [#eval L353](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l353/) | L353-L353 | computed | — |
-| `eval` | [#eval L354](/verify/taulib/docs/book-i-logic-boolean-recovery/eval-l354/) | L354-L356 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [forget](/corpus/taulib/docs/book-i-logic-boolean-recovery/forget/) | L49-L53 | definition | definition | `I.P13` |
+| `theorem` | [forget_preserves_meet](/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-preserves-meet/) | L60-L62 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [forget_preserves_join](/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-preserves-join/) | L65-L67 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [forget_conflates_T_B](/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-conflates-t-b/) | L78-L78 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [forget_conflates_F_N](/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-conflates-f-n/) | L81-L81 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [forget_not_injective](/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-not-injective/) | L84-L87 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [forget_preserves_neg](/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-preserves-neg/) | L90-L91 | proof obligation | formal proof obligation checked | — |
+| `def` | [forget_pessimistic](/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-pessimistic/) | L99-L103 | definition | definition | — |
+| `theorem` | [forget_pessimistic_preserves_meet](/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-pessimistic-preserves-meet/) | L106-L109 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [forget_pessimistic_preserves_join](/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-pessimistic-preserves-join/) | L112-L115 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [forget_pessimistic_preserves_neg](/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-pessimistic-preserves-neg/) | L118-L120 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [dual_forget_injective](/corpus/taulib/docs/book-i-logic-boolean-recovery/dual-forget-injective/) | L124-L127 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [dual_forget_is_toBoolPair](/corpus/taulib/docs/book-i-logic-boolean-recovery/dual-forget-is-to-bool-pair/) | L130-L132 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [boolean_recovery](/corpus/taulib/docs/book-i-logic-boolean-recovery/boolean-recovery/) | L143-L145 | proof obligation | formal proof obligation checked | `I.P13` |
+| `theorem` | [forget_fiber_T_B](/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-fiber-t-b/) | L148-L148 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [forget_fiber_F_N](/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-fiber-f-n/) | L150-L150 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [forget_never_injective](/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-never-injective/) | L153-L159 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [forget_fiber](/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-fiber/) | L163-L176 | proof obligation | formal proof obligation checked | `I.D41` |
+| `def` | [omega_true](/corpus/taulib/docs/book-i-logic-boolean-recovery/omega-true/) | L179-L179 | definition | definition | — |
+| `def` | [omega_false](/corpus/taulib/docs/book-i-logic-boolean-recovery/omega-false/) | L182-L182 | definition | definition | — |
+| `def` | [omega_both](/corpus/taulib/docs/book-i-logic-boolean-recovery/omega-both/) | L185-L185 | definition | definition | — |
+| `def` | [omega_neither](/corpus/taulib/docs/book-i-logic-boolean-recovery/omega-neither/) | L188-L188 | definition | definition | — |
+| `def` | [Truth4.heyting_impl](/corpus/taulib/docs/book-i-logic-boolean-recovery/heyting-impl/) | L204-L214 | definition | definition | — |
+| `theorem` | [heyting_eq_material](/corpus/taulib/docs/book-i-logic-boolean-recovery/heyting-eq-material/) | L219-L221 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [heyting_adjunction](/corpus/taulib/docs/book-i-logic-boolean-recovery/heyting-adjunction/) | L225-L227 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [heyting_maximality](/corpus/taulib/docs/book-i-logic-boolean-recovery/heyting-maximality/) | L230-L234 | proof obligation | formal proof obligation checked | — |
+| `def` | [Truth4.heyting_neg](/corpus/taulib/docs/book-i-logic-boolean-recovery/heyting-neg/) | L237-L237 | definition | definition | — |
+| `theorem` | [heyting_neg_eq_neg](/corpus/taulib/docs/book-i-logic-boolean-recovery/heyting-neg-eq-neg/) | L240-L242 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [excluded_middle](/corpus/taulib/docs/book-i-logic-boolean-recovery/excluded-middle/) | L250-L251 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [double_negation](/corpus/taulib/docs/book-i-logic-boolean-recovery/double-negation/) | L254-L255 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [non_contradiction](/corpus/taulib/docs/book-i-logic-boolean-recovery/non-contradiction/) | L258-L259 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [truth4_is_boolean](/corpus/taulib/docs/book-i-logic-boolean-recovery/truth4-is-boolean/) | L270-L280 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [explosion_is_semantic](/corpus/taulib/docs/book-i-logic-boolean-recovery/explosion-is-semantic/) | L291-L297 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L304](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l304/) | L304-L304 | computed check | computed check | — |
+| `eval` | [#eval L305](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l305/) | L305-L305 | computed check | computed check | — |
+| `eval` | [#eval L306](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l306/) | L306-L306 | computed check | computed check | — |
+| `eval` | [#eval L307](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l307/) | L307-L307 | computed check | computed check | — |
+| `eval` | [#eval L310](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l310/) | L310-L310 | computed check | computed check | — |
+| `eval` | [#eval L311](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l311/) | L311-L311 | computed check | computed check | — |
+| `eval` | [#eval L314](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l314/) | L314-L314 | computed check | computed check | — |
+| `eval` | [#eval L315](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l315/) | L315-L315 | computed check | computed check | — |
+| `eval` | [#eval L316](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l316/) | L316-L316 | computed check | computed check | — |
+| `eval` | [#eval L317](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l317/) | L317-L317 | computed check | computed check | — |
+| `eval` | [#eval L320](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l320/) | L320-L320 | computed check | computed check | — |
+| `eval` | [#eval L321](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l321/) | L321-L321 | computed check | computed check | — |
+| `eval` | [#eval L322](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l322/) | L322-L322 | computed check | computed check | — |
+| `eval` | [#eval L325](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l325/) | L325-L325 | computed check | computed check | — |
+| `eval` | [#eval L326](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l326/) | L326-L326 | computed check | computed check | — |
+| `eval` | [#eval L327](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l327/) | L327-L327 | computed check | computed check | — |
+| `eval` | [#eval L328](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l328/) | L328-L328 | computed check | computed check | — |
+| `eval` | [#eval L331](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l331/) | L331-L331 | computed check | computed check | — |
+| `eval` | [#eval L332](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l332/) | L332-L332 | computed check | computed check | — |
+| `eval` | [#eval L335](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l335/) | L335-L335 | computed check | computed check | — |
+| `eval` | [#eval L336](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l336/) | L336-L336 | computed check | computed check | — |
+| `eval` | [#eval L337](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l337/) | L337-L337 | computed check | computed check | — |
+| `eval` | [#eval L340](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l340/) | L340-L340 | computed check | computed check | — |
+| `eval` | [#eval L341](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l341/) | L341-L341 | computed check | computed check | — |
+| `eval` | [#eval L342](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l342/) | L342-L342 | computed check | computed check | — |
+| `eval` | [#eval L343](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l343/) | L343-L343 | computed check | computed check | — |
+| `eval` | [#eval L346](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l346/) | L346-L346 | computed check | computed check | — |
+| `eval` | [#eval L347](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l347/) | L347-L347 | computed check | computed check | — |
+| `eval` | [#eval L348](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l348/) | L348-L348 | computed check | computed check | — |
+| `eval` | [#eval L349](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l349/) | L349-L349 | computed check | computed check | — |
+| `eval` | [#eval L352](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l352/) | L352-L352 | computed check | computed check | — |
+| `eval` | [#eval L353](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l353/) | L353-L353 | computed check | computed check | — |
+| `eval` | [#eval L354](/corpus/taulib/docs/book-i-logic-boolean-recovery/eval-l354/) | L354-L356 | computed check | computed check | — |

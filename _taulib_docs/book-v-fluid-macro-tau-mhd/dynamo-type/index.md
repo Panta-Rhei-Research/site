@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "DynamoType",
-  "permalink": "/verify/taulib/docs/book-v-fluid-macro-tau-mhd/dynamo-type/",
+  "permalink": "/corpus/taulib/docs/book-v-fluid-macro-tau-mhd/dynamo-type/",
   "summary_short": "`inductive` declaration in `TauLib.BookV.FluidMacro.TauMHD`.",
   "declaration_id": "TauLib.BookV.FluidMacro.TauMHD::DynamoType",
   "declaration_slug": "dynamo-type",
   "kind": "inductive",
   "name": "DynamoType",
   "module_name": "TauLib.BookV.FluidMacro.TauMHD",
-  "module_url": "/verify/taulib/docs/book-v-fluid-macro-tau-mhd/",
+  "module_url": "/corpus/taulib/docs/book-v-fluid-macro-tau-mhd/",
   "source_line_start": 160,
   "source_line_end": 167,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/TauMHD.lean#L160-L167",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.FluidMacro.TauMHD",
-        "url": "/verify/taulib/docs/book-v-fluid-macro-tau-mhd/"
+        "url": "/corpus/taulib/docs/book-v-fluid-macro-tau-mhd/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "inductive",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.FluidMacro.TauMHD](/verify/taulib/docs/book-v-fluid-macro-tau-mhd/)
+- Module: [TauLib.BookV.FluidMacro.TauMHD](/corpus/taulib/docs/book-v-fluid-macro-tau-mhd/)
 - Source path: [`TauLib/BookV/FluidMacro/TauMHD.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/FluidMacro/TauMHD.lean#L160-L167)
 - Source range: L160-L167
 - Kind: `inductive`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

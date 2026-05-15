@@ -2600,7 +2600,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N4",
         "title": "N4 — Neutron EDM is exactly zero",
-        "url": "/results/falsifications/n4-neutron-edm-is-exactly-zero/",
+        "url": "/falsifications/n4-neutron-edm-is-exactly-zero/",
         "match_basis": "existing_surface_near_registry_anchor",
         "match_confidence": "high",
         "matched_terms": [
@@ -5735,7 +5735,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N6",
         "title": "N6 — Sum of neutrino masses mν = 0.089 eV",
-        "url": "/results/falsifications/n6-sum-of-neutrino-masses-m-0089/",
+        "url": "/falsifications/n6-sum-of-neutrino-masses-m-0089/",
         "match_basis": "existing_surface_near_registry_anchor",
         "match_confidence": "medium",
         "matched_terms": [
@@ -9223,7 +9223,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N6",
         "title": "N6 — Sum of neutrino masses mν = 0.089 eV",
-        "url": "/results/falsifications/n6-sum-of-neutrino-masses-m-0089/",
+        "url": "/falsifications/n6-sum-of-neutrino-masses-m-0089/",
         "match_basis": "facet_title_summary",
         "match_confidence": "medium",
         "matched_terms": [
@@ -10559,7 +10559,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N11",
         "title": "N11 — First acoustic peak $_1 = 220.6$",
-        "url": "/results/falsifications/n11-first-acoustic-peak-1-2206/",
+        "url": "/falsifications/n11-first-acoustic-peak-1-2206/",
         "match_basis": "facet_title_summary",
         "match_confidence": "high",
         "matched_terms": [
@@ -10608,7 +10608,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N13",
         "title": "N13 — Effective neutrino number N_eff",
-        "url": "/results/falsifications/n13-n-eff/",
+        "url": "/falsifications/n13-n-eff/",
         "match_basis": "facet_title_summary",
         "match_confidence": "high",
         "matched_terms": [
@@ -10620,7 +10620,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N6",
         "title": "N6 — Sum of neutrino masses mν = 0.089 eV",
-        "url": "/results/falsifications/n6-sum-of-neutrino-masses-m-0089/",
+        "url": "/falsifications/n6-sum-of-neutrino-masses-m-0089/",
         "match_basis": "facet_title_summary",
         "match_confidence": "high",
         "matched_terms": [
@@ -11134,7 +11134,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N6",
         "title": "N6 — Sum of neutrino masses mν = 0.089 eV",
-        "url": "/results/falsifications/n6-sum-of-neutrino-masses-m-0089/",
+        "url": "/falsifications/n6-sum-of-neutrino-masses-m-0089/",
         "match_basis": "existing_surface_near_registry_anchor",
         "match_confidence": "medium",
         "matched_terms": [
@@ -11241,7 +11241,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N6",
         "title": "N6 — Sum of neutrino masses mν = 0.089 eV",
-        "url": "/results/falsifications/n6-sum-of-neutrino-masses-m-0089/",
+        "url": "/falsifications/n6-sum-of-neutrino-masses-m-0089/",
         "match_basis": "existing_surface_near_registry_anchor",
         "match_confidence": "medium",
         "matched_terms": [
@@ -11812,7 +11812,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N20",
         "title": "N20 — Dark energy density ΩΛ = 0.6849",
-        "url": "/results/falsifications/n20-dark-energy-density-06849/",
+        "url": "/falsifications/n20-dark-energy-density-06849/",
         "match_basis": "facet_title_summary",
         "match_confidence": "medium",
         "matched_terms": [
@@ -12643,7 +12643,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N13",
         "title": "N13 — Effective neutrino number N_eff",
-        "url": "/results/falsifications/n13-n-eff/",
+        "url": "/falsifications/n13-n-eff/",
         "match_basis": "facet_title_summary",
         "match_confidence": "high",
         "matched_terms": [
@@ -12655,7 +12655,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N6",
         "title": "N6 — Sum of neutrino masses mν = 0.089 eV",
-        "url": "/results/falsifications/n6-sum-of-neutrino-masses-m-0089/",
+        "url": "/falsifications/n6-sum-of-neutrino-masses-m-0089/",
         "match_basis": "facet_title_summary",
         "match_confidence": "high",
         "matched_terms": [
@@ -13501,7 +13501,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N25",
         "title": "N25 — EHT shadow correction $+2.91%$",
-        "url": "/results/falsifications/n25-eht-shadow-correction-291/",
+        "url": "/falsifications/n25-eht-shadow-correction-291/",
         "match_basis": "existing_surface_near_registry_anchor",
         "match_confidence": "medium",
         "matched_terms": [
@@ -13562,7 +13562,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N25",
         "title": "N25 — EHT shadow correction $+2.91%$",
-        "url": "/results/falsifications/n25-eht-shadow-correction-291/",
+        "url": "/falsifications/n25-eht-shadow-correction-291/",
         "match_basis": "facet_title_summary",
         "match_confidence": "high",
         "matched_terms": [
@@ -13721,7 +13721,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N25",
         "title": "N25 — EHT shadow correction $+2.91%$",
-        "url": "/results/falsifications/n25-eht-shadow-correction-291/",
+        "url": "/falsifications/n25-eht-shadow-correction-291/",
         "match_basis": "facet_title_summary",
         "match_confidence": "high",
         "matched_terms": [
@@ -13794,7 +13794,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N25",
         "title": "N25 — EHT shadow correction $+2.91%$",
-        "url": "/results/falsifications/n25-eht-shadow-correction-291/",
+        "url": "/falsifications/n25-eht-shadow-correction-291/",
         "match_basis": "existing_surface_near_registry_anchor",
         "match_confidence": "medium",
         "matched_terms": [
@@ -14361,7 +14361,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N20",
         "title": "N20 — Dark energy density ΩΛ = 0.6849",
-        "url": "/results/falsifications/n20-dark-energy-density-06849/",
+        "url": "/falsifications/n20-dark-energy-density-06849/",
         "match_basis": "facet_title_summary",
         "match_confidence": "medium",
         "matched_terms": [
@@ -14593,7 +14593,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N9",
         "title": "N9 — Tensor-to-scalar ratio $r = _^4 0.0136$",
-        "url": "/results/falsifications/n9-tensor-to-scalar-ratio-r-4-00136/",
+        "url": "/falsifications/n9-tensor-to-scalar-ratio-r-4-00136/",
         "match_basis": "facet_title_summary",
         "match_confidence": "medium",
         "matched_terms": [
@@ -15069,7 +15069,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N25",
         "title": "N25 — EHT shadow correction $+2.91%$",
-        "url": "/results/falsifications/n25-eht-shadow-correction-291/",
+        "url": "/falsifications/n25-eht-shadow-correction-291/",
         "match_basis": "facet_title_summary",
         "match_confidence": "high",
         "matched_terms": [
@@ -15224,7 +15224,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N24",
         "title": "N24 — QNM frequency ratio ιτ⁻¹",
-        "url": "/results/falsifications/n24-qnm-frequency-ratio-1/",
+        "url": "/falsifications/n24-qnm-frequency-ratio-1/",
         "match_basis": "facet_title_summary",
         "match_confidence": "medium",
         "matched_terms": [
@@ -15257,7 +15257,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N26",
         "title": "N26 — GW echo time ratio ιτ⁻²",
-        "url": "/results/falsifications/n26-gw-echo-time-ratio-2/",
+        "url": "/falsifications/n26-gw-echo-time-ratio-2/",
         "match_basis": "existing_surface_near_registry_anchor",
         "match_confidence": "medium",
         "matched_terms": [
@@ -15625,7 +15625,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N12",
         "title": "N12 — B-mode amplitude D80",
-        "url": "/results/falsifications/n12-b-mode-amplitude-d80/",
+        "url": "/falsifications/n12-b-mode-amplitude-d80/",
         "match_basis": "facet_title_summary",
         "match_confidence": "medium",
         "matched_terms": [
@@ -15745,7 +15745,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N25",
         "title": "N25 — EHT shadow correction $+2.91%$",
-        "url": "/results/falsifications/n25-eht-shadow-correction-291/",
+        "url": "/falsifications/n25-eht-shadow-correction-291/",
         "match_basis": "facet_title_summary",
         "match_confidence": "high",
         "matched_terms": [
@@ -15854,7 +15854,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N13",
         "title": "N13 — Effective neutrino number N_eff",
-        "url": "/results/falsifications/n13-n-eff/",
+        "url": "/falsifications/n13-n-eff/",
         "match_basis": "facet_title_summary",
         "match_confidence": "high",
         "matched_terms": [
@@ -15866,7 +15866,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N6",
         "title": "N6 — Sum of neutrino masses mν = 0.089 eV",
-        "url": "/results/falsifications/n6-sum-of-neutrino-masses-m-0089/",
+        "url": "/falsifications/n6-sum-of-neutrino-masses-m-0089/",
         "match_basis": "facet_title_summary",
         "match_confidence": "high",
         "matched_terms": [
@@ -16277,7 +16277,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N11",
         "title": "N11 — First acoustic peak $_1 = 220.6$",
-        "url": "/results/falsifications/n11-first-acoustic-peak-1-2206/",
+        "url": "/falsifications/n11-first-acoustic-peak-1-2206/",
         "match_basis": "facet_title_summary",
         "match_confidence": "medium",
         "matched_terms": [
@@ -17106,7 +17106,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N6",
         "title": "N6 — Sum of neutrino masses mν = 0.089 eV",
-        "url": "/results/falsifications/n6-sum-of-neutrino-masses-m-0089/",
+        "url": "/falsifications/n6-sum-of-neutrino-masses-m-0089/",
         "match_basis": "facet_title_summary",
         "match_confidence": "medium",
         "matched_terms": [
@@ -17417,7 +17417,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N11",
         "title": "N11 — First acoustic peak $_1 = 220.6$",
-        "url": "/results/falsifications/n11-first-acoustic-peak-1-2206/",
+        "url": "/falsifications/n11-first-acoustic-peak-1-2206/",
         "match_basis": "facet_title_summary",
         "match_confidence": "medium",
         "matched_terms": [
@@ -17487,7 +17487,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N16",
         "title": "N16 — Deuterium abundance from $$-native $_B$",
-        "url": "/results/falsifications/n16-deuterium-abundance-from-native-b/",
+        "url": "/falsifications/n16-deuterium-abundance-from-native-b/",
         "match_basis": "facet_title_summary",
         "match_confidence": "medium",
         "matched_terms": [
@@ -17817,7 +17817,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N20",
         "title": "N20 — Dark energy density ΩΛ = 0.6849",
-        "url": "/results/falsifications/n20-dark-energy-density-06849/",
+        "url": "/falsifications/n20-dark-energy-density-06849/",
         "match_basis": "facet_title_summary",
         "match_confidence": "medium",
         "matched_terms": [
@@ -17945,7 +17945,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N21",
         "title": "N21 — Hubble constant $h = 0.6735$",
-        "url": "/results/falsifications/n21-hubble-constant-h-06735/",
+        "url": "/falsifications/n21-hubble-constant-h-06735/",
         "match_basis": "existing_surface_near_registry_anchor",
         "match_confidence": "medium",
         "matched_terms": [
@@ -18119,7 +18119,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N24",
         "title": "N24 — QNM frequency ratio ιτ⁻¹",
-        "url": "/results/falsifications/n24-qnm-frequency-ratio-1/",
+        "url": "/falsifications/n24-qnm-frequency-ratio-1/",
         "match_basis": "facet_title_summary",
         "match_confidence": "medium",
         "matched_terms": [
@@ -18152,7 +18152,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N26",
         "title": "N26 — GW echo time ratio ιτ⁻²",
-        "url": "/results/falsifications/n26-gw-echo-time-ratio-2/",
+        "url": "/falsifications/n26-gw-echo-time-ratio-2/",
         "match_basis": "existing_surface_near_registry_anchor",
         "match_confidence": "medium",
         "matched_terms": [
@@ -18259,7 +18259,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N25",
         "title": "N25 — EHT shadow correction $+2.91%$",
-        "url": "/results/falsifications/n25-eht-shadow-correction-291/",
+        "url": "/falsifications/n25-eht-shadow-correction-291/",
         "match_basis": "facet_title_summary",
         "match_confidence": "high",
         "matched_terms": [
@@ -18441,7 +18441,7 @@
         "surface_type": "falsification_facet",
         "surface_id": "N30",
         "title": "N30 — Fast reconnection rate v_rec",
-        "url": "/results/falsifications/n30-fast-reconnection-rate-v-rec/",
+        "url": "/falsifications/n30-fast-reconnection-rate-v-rec/",
         "match_basis": "facet_title_summary",
         "match_confidence": "medium",
         "matched_terms": []

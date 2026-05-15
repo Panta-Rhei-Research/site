@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "sector_distinction",
-  "permalink": "/verify/taulib/docs/book-v-coda-hermetic-closure/sector-distinction/",
+  "permalink": "/corpus/taulib/docs/book-v-coda-hermetic-closure/sector-distinction/",
   "summary_short": "`def` declaration in `TauLib.BookV.Coda.HermeticClosure`.",
   "declaration_id": "TauLib.BookV.Coda.HermeticClosure::sector_distinction",
   "declaration_slug": "sector-distinction",
   "kind": "def",
   "name": "sector_distinction",
   "module_name": "TauLib.BookV.Coda.HermeticClosure",
-  "module_url": "/verify/taulib/docs/book-v-coda-hermetic-closure/",
+  "module_url": "/corpus/taulib/docs/book-v-coda-hermetic-closure/",
   "source_line_start": 346,
   "source_line_end": 348,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Coda/HermeticClosure.lean#L346-L348",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Coda.HermeticClosure",
-        "url": "/verify/taulib/docs/book-v-coda-hermetic-closure/"
+        "url": "/corpus/taulib/docs/book-v-coda-hermetic-closure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Coda.HermeticClosure](/verify/taulib/docs/book-v-coda-hermetic-closure/)
+- Module: [TauLib.BookV.Coda.HermeticClosure](/corpus/taulib/docs/book-v-coda-hermetic-closure/)
 - Source path: [`TauLib/BookV/Coda/HermeticClosure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Coda/HermeticClosure.lean#L346-L348)
 - Source range: L346-L348
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

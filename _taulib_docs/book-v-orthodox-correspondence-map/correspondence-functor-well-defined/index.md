@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "correspondence_functor_well_defined",
-  "permalink": "/verify/taulib/docs/book-v-orthodox-correspondence-map/correspondence-functor-well-defined/",
+  "permalink": "/corpus/taulib/docs/book-v-orthodox-correspondence-map/correspondence-functor-well-defined/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Orthodox.CorrespondenceMap`.",
   "declaration_id": "TauLib.BookV.Orthodox.CorrespondenceMap::correspondence_functor_well_defined",
   "declaration_slug": "correspondence-functor-well-defined",
   "kind": "theorem",
   "name": "correspondence_functor_well_defined",
   "module_name": "TauLib.BookV.Orthodox.CorrespondenceMap",
-  "module_url": "/verify/taulib/docs/book-v-orthodox-correspondence-map/",
+  "module_url": "/corpus/taulib/docs/book-v-orthodox-correspondence-map/",
   "source_line_start": 231,
   "source_line_end": 232,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/CorrespondenceMap.lean#L231-L232",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Orthodox.CorrespondenceMap",
-        "url": "/verify/taulib/docs/book-v-orthodox-correspondence-map/"
+        "url": "/corpus/taulib/docs/book-v-orthodox-correspondence-map/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Orthodox.CorrespondenceMap](/verify/taulib/docs/book-v-orthodox-correspondence-map/)
+- Module: [TauLib.BookV.Orthodox.CorrespondenceMap](/corpus/taulib/docs/book-v-orthodox-correspondence-map/)
 - Source path: [`TauLib/BookV/Orthodox/CorrespondenceMap.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/CorrespondenceMap.lean#L231-L232)
 - Source range: L231-L232
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

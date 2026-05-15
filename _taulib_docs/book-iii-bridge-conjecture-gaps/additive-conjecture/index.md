@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "AdditiveConjecture",
-  "permalink": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/additive-conjecture/",
+  "permalink": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/additive-conjecture/",
   "summary_short": "`inductive` declaration in `TauLib.BookIII.Bridge.ConjectureGaps`.",
   "declaration_id": "TauLib.BookIII.Bridge.ConjectureGaps::AdditiveConjecture",
   "declaration_slug": "additive-conjecture",
   "kind": "inductive",
   "name": "AdditiveConjecture",
   "module_name": "TauLib.BookIII.Bridge.ConjectureGaps",
-  "module_url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/",
+  "module_url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/",
   "source_line_start": 108,
   "source_line_end": 112,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/ConjectureGaps.lean#L108-L112",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Bridge.ConjectureGaps",
-        "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/"
+        "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "inductive",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Bridge.ConjectureGaps](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/)
+- Module: [TauLib.BookIII.Bridge.ConjectureGaps](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/)
 - Source path: [`TauLib/BookIII/Bridge/ConjectureGaps.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/ConjectureGaps.lean#L108-L112)
 - Source range: L108-L112
 - Kind: `inductive`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

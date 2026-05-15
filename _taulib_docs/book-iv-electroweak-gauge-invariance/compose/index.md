@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TransitionFunction.compose",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance/compose/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance/compose/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Electroweak.GaugeInvariance`.",
   "declaration_id": "TauLib.BookIV.Electroweak.GaugeInvariance::TransitionFunction.compose",
   "declaration_slug": "compose",
   "kind": "def",
   "name": "TransitionFunction.compose",
   "module_name": "TauLib.BookIV.Electroweak.GaugeInvariance",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance/",
   "source_line_start": 121,
   "source_line_end": 125,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/GaugeInvariance.lean#L121-L125",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.GaugeInvariance",
-        "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.GaugeInvariance](/verify/taulib/docs/book-iv-electroweak-gauge-invariance/)
+- Module: [TauLib.BookIV.Electroweak.GaugeInvariance](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance/)
 - Source path: [`TauLib/BookIV/Electroweak/GaugeInvariance.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/GaugeInvariance.lean#L121-L125)
 - Source range: L121-L125
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

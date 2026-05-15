@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Boundary.Bridge.TauRealCongruence",
-  "permalink": "/verify/taulib/docs/book-i-boundary-bridge-tau-real-congruence/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-bridge-tau-real-congruence/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Boundary.Bridge.TauRealCongruence`.",
   "module_name": "TauLib.BookI.Boundary.Bridge.TauRealCongruence",
   "module_slug": "book-i-boundary-bridge-tau-real-congruence",
@@ -38,64 +38,78 @@
     {
       "kind": "theorem",
       "name": "TauReal.add_respects_equiv",
-      "url": "/verify/taulib/docs/book-i-boundary-bridge-tau-real-congruence/add-respects-equiv/",
+      "url": "/corpus/taulib/docs/book-i-boundary-bridge-tau-real-congruence/add-respects-equiv/",
       "source_line_start": 78,
       "source_line_end": 117,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.negate_respects_equiv",
-      "url": "/verify/taulib/docs/book-i-boundary-bridge-tau-real-congruence/negate-respects-equiv/",
+      "url": "/corpus/taulib/docs/book-i-boundary-bridge-tau-real-congruence/negate-respects-equiv/",
       "source_line_start": 127,
       "source_line_end": 143,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.IsCauchy_add",
-      "url": "/verify/taulib/docs/book-i-boundary-bridge-tau-real-congruence/is-cauchy-add/",
+      "url": "/corpus/taulib/docs/book-i-boundary-bridge-tau-real-congruence/is-cauchy-add/",
       "source_line_start": 150,
       "source_line_end": 180,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.IsCauchy_negate",
-      "url": "/verify/taulib/docs/book-i-boundary-bridge-tau-real-congruence/is-cauchy-negate/",
+      "url": "/corpus/taulib/docs/book-i-boundary-bridge-tau-real-congruence/is-cauchy-negate/",
       "source_line_start": 183,
       "source_line_end": 197,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.IsCauchy.bounded",
-      "url": "/verify/taulib/docs/book-i-boundary-bridge-tau-real-congruence/bounded/",
+      "url": "/corpus/taulib/docs/book-i-boundary-bridge-tau-real-congruence/bounded/",
       "source_line_start": 212,
       "source_line_end": 257,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.mul_respects_equiv_under_cauchy",
-      "url": "/verify/taulib/docs/book-i-boundary-bridge-tau-real-congruence/mul-respects-equiv-under-cauchy/",
+      "url": "/corpus/taulib/docs/book-i-boundary-bridge-tau-real-congruence/mul-respects-equiv-under-cauchy/",
       "source_line_start": 272,
       "source_line_end": 293,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.IsCauchy_mul",
-      "url": "/verify/taulib/docs/book-i-boundary-bridge-tau-real-congruence/is-cauchy-mul/",
+      "url": "/corpus/taulib/docs/book-i-boundary-bridge-tau-real-congruence/is-cauchy-mul/",
       "source_line_start": 308,
       "source_line_end": 430,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -107,7 +121,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -181,12 +195,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `theorem` | [TauReal.add_respects_equiv](/verify/taulib/docs/book-i-boundary-bridge-tau-real-congruence/add-respects-equiv/) | L78-L117 | formalized | — |
-| `theorem` | [TauReal.negate_respects_equiv](/verify/taulib/docs/book-i-boundary-bridge-tau-real-congruence/negate-respects-equiv/) | L127-L143 | formalized | — |
-| `theorem` | [TauReal.IsCauchy_add](/verify/taulib/docs/book-i-boundary-bridge-tau-real-congruence/is-cauchy-add/) | L150-L180 | formalized | — |
-| `theorem` | [TauReal.IsCauchy_negate](/verify/taulib/docs/book-i-boundary-bridge-tau-real-congruence/is-cauchy-negate/) | L183-L197 | formalized | — |
-| `theorem` | [TauReal.IsCauchy.bounded](/verify/taulib/docs/book-i-boundary-bridge-tau-real-congruence/bounded/) | L212-L257 | formalized | — |
-| `theorem` | [TauReal.mul_respects_equiv_under_cauchy](/verify/taulib/docs/book-i-boundary-bridge-tau-real-congruence/mul-respects-equiv-under-cauchy/) | L272-L293 | formalized | — |
-| `theorem` | [TauReal.IsCauchy_mul](/verify/taulib/docs/book-i-boundary-bridge-tau-real-congruence/is-cauchy-mul/) | L308-L430 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `theorem` | [TauReal.add_respects_equiv](/corpus/taulib/docs/book-i-boundary-bridge-tau-real-congruence/add-respects-equiv/) | L78-L117 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.negate_respects_equiv](/corpus/taulib/docs/book-i-boundary-bridge-tau-real-congruence/negate-respects-equiv/) | L127-L143 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.IsCauchy_add](/corpus/taulib/docs/book-i-boundary-bridge-tau-real-congruence/is-cauchy-add/) | L150-L180 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.IsCauchy_negate](/corpus/taulib/docs/book-i-boundary-bridge-tau-real-congruence/is-cauchy-negate/) | L183-L197 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.IsCauchy.bounded](/corpus/taulib/docs/book-i-boundary-bridge-tau-real-congruence/bounded/) | L212-L257 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.mul_respects_equiv_under_cauchy](/corpus/taulib/docs/book-i-boundary-bridge-tau-real-congruence/mul-respects-equiv-under-cauchy/) | L272-L293 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.IsCauchy_mul](/corpus/taulib/docs/book-i-boundary-bridge-tau-real-congruence/is-cauchy-mul/) | L308-L430 | proof obligation | formal proof obligation checked | — |

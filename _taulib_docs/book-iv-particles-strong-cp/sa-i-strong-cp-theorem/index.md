@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "sa_i_strong_cp_theorem",
-  "permalink": "/verify/taulib/docs/book-iv-particles-strong-cp/sa-i-strong-cp-theorem/",
+  "permalink": "/corpus/taulib/docs/book-iv-particles-strong-cp/sa-i-strong-cp-theorem/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Particles.StrongCP`.",
   "declaration_id": "TauLib.BookIV.Particles.StrongCP::sa_i_strong_cp_theorem",
   "declaration_slug": "sa-i-strong-cp-theorem",
   "kind": "def",
   "name": "sa_i_strong_cp_theorem",
   "module_name": "TauLib.BookIV.Particles.StrongCP",
-  "module_url": "/verify/taulib/docs/book-iv-particles-strong-cp/",
+  "module_url": "/corpus/taulib/docs/book-iv-particles-strong-cp/",
   "source_line_start": 49,
   "source_line_end": 51,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/StrongCP.lean#L49-L51",
   "formal_status": "defined",
+  "declaration_role": "docstring/data record",
+  "formal_status_label": "docstring/data record",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Particles.StrongCP",
-        "url": "/verify/taulib/docs/book-iv-particles-strong-cp/"
+        "url": "/corpus/taulib/docs/book-iv-particles-strong-cp/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "docstring/data record",
+      "status": "docstring/data record"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Particles.StrongCP](/verify/taulib/docs/book-iv-particles-strong-cp/)
+- Module: [TauLib.BookIV.Particles.StrongCP](/corpus/taulib/docs/book-iv-particles-strong-cp/)
 - Source path: [`TauLib/BookIV/Particles/StrongCP.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/StrongCP.lean#L49-L51)
 - Source range: L49-L51
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `docstring/data record`
+- Formal status hint: `docstring/data record`
 
 ## Registry Links
 

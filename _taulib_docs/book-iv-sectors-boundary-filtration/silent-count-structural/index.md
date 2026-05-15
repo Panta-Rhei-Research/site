@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "silent_count_structural",
-  "permalink": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/silent-count-structural/",
+  "permalink": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/silent-count-structural/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Sectors.BoundaryFiltration`.",
   "declaration_id": "TauLib.BookIV.Sectors.BoundaryFiltration::silent_count_structural",
   "declaration_slug": "silent-count-structural",
   "kind": "theorem",
   "name": "silent_count_structural",
   "module_name": "TauLib.BookIV.Sectors.BoundaryFiltration",
-  "module_url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/",
+  "module_url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/",
   "source_line_start": 244,
   "source_line_end": 245,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Sectors/BoundaryFiltration.lean#L244-L245",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Sectors.BoundaryFiltration",
-        "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/"
+        "url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Sectors.BoundaryFiltration](/verify/taulib/docs/book-iv-sectors-boundary-filtration/)
+- Module: [TauLib.BookIV.Sectors.BoundaryFiltration](/corpus/taulib/docs/book-iv-sectors-boundary-filtration/)
 - Source path: [`TauLib/BookIV/Sectors/BoundaryFiltration.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Sectors/BoundaryFiltration.lean#L244-L245)
 - Source range: L244-L245
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

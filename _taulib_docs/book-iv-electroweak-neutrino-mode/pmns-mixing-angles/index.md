@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "pmns_mixing_angles",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-neutrino-mode/pmns-mixing-angles/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-neutrino-mode/pmns-mixing-angles/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Electroweak.NeutrinoMode`.",
   "declaration_id": "TauLib.BookIV.Electroweak.NeutrinoMode::pmns_mixing_angles",
   "declaration_slug": "pmns-mixing-angles",
   "kind": "def",
   "name": "pmns_mixing_angles",
   "module_name": "TauLib.BookIV.Electroweak.NeutrinoMode",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-neutrino-mode/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-neutrino-mode/",
   "source_line_start": 538,
   "source_line_end": 541,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/NeutrinoMode.lean#L538-L541",
   "formal_status": "defined",
+  "declaration_role": "docstring/data record",
+  "formal_status_label": "docstring/data record",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.NeutrinoMode",
-        "url": "/verify/taulib/docs/book-iv-electroweak-neutrino-mode/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-neutrino-mode/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "docstring/data record",
+      "status": "docstring/data record"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.NeutrinoMode](/verify/taulib/docs/book-iv-electroweak-neutrino-mode/)
+- Module: [TauLib.BookIV.Electroweak.NeutrinoMode](/corpus/taulib/docs/book-iv-electroweak-neutrino-mode/)
 - Source path: [`TauLib/BookIV/Electroweak/NeutrinoMode.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/NeutrinoMode.lean#L538-L541)
 - Source range: L538-L541
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `docstring/data record`
+- Formal status hint: `docstring/data record`
 
 ## Registry Links
 

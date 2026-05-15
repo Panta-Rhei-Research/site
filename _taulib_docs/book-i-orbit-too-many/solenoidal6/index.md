@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "solenoidal6",
-  "permalink": "/verify/taulib/docs/book-i-orbit-too-many/solenoidal6/",
+  "permalink": "/corpus/taulib/docs/book-i-orbit-too-many/solenoidal6/",
   "summary_short": "`def` declaration in `TauLib.BookI.Orbit.TooMany`.",
   "declaration_id": "TauLib.BookI.Orbit.TooMany::solenoidal6",
   "declaration_slug": "solenoidal6",
   "kind": "def",
   "name": "solenoidal6",
   "module_name": "TauLib.BookI.Orbit.TooMany",
-  "module_url": "/verify/taulib/docs/book-i-orbit-too-many/",
+  "module_url": "/corpus/taulib/docs/book-i-orbit-too-many/",
   "source_line_start": 153,
   "source_line_end": 153,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/TooMany.lean#L153-L153",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Orbit.TooMany",
-        "url": "/verify/taulib/docs/book-i-orbit-too-many/"
+        "url": "/corpus/taulib/docs/book-i-orbit-too-many/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Orbit.TooMany](/verify/taulib/docs/book-i-orbit-too-many/)
+- Module: [TauLib.BookI.Orbit.TooMany](/corpus/taulib/docs/book-i-orbit-too-many/)
 - Source path: [`TauLib/BookI/Orbit/TooMany.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/TooMany.lean#L153-L153)
 - Source range: L153-L153
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

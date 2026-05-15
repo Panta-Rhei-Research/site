@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "cyl_compat_check",
-  "permalink": "/verify/taulib/docs/book-ii-domains-hol-implies-cont/cyl-compat-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-domains-hol-implies-cont/cyl-compat-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.Domains.HolImpliesCont`.",
   "declaration_id": "TauLib.BookII.Domains.HolImpliesCont::cyl_compat_check",
   "declaration_slug": "cyl-compat-check",
   "kind": "def",
   "name": "cyl_compat_check",
   "module_name": "TauLib.BookII.Domains.HolImpliesCont",
-  "module_url": "/verify/taulib/docs/book-ii-domains-hol-implies-cont/",
+  "module_url": "/corpus/taulib/docs/book-ii-domains-hol-implies-cont/",
   "source_line_start": 71,
   "source_line_end": 82,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Domains/HolImpliesCont.lean#L71-L82",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Domains.HolImpliesCont",
-        "url": "/verify/taulib/docs/book-ii-domains-hol-implies-cont/"
+        "url": "/corpus/taulib/docs/book-ii-domains-hol-implies-cont/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Domains.HolImpliesCont](/verify/taulib/docs/book-ii-domains-hol-implies-cont/)
+- Module: [TauLib.BookII.Domains.HolImpliesCont](/corpus/taulib/docs/book-ii-domains-hol-implies-cont/)
 - Source path: [`TauLib/BookII/Domains/HolImpliesCont.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Domains/HolImpliesCont.lean#L71-L82)
 - Source range: L71-L82
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

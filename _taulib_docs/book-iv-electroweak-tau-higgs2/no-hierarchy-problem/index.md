@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "no_hierarchy_problem",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-tau-higgs2/no-hierarchy-problem/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs2/no-hierarchy-problem/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Electroweak.TauHiggs2`.",
   "declaration_id": "TauLib.BookIV.Electroweak.TauHiggs2::no_hierarchy_problem",
   "declaration_slug": "no-hierarchy-problem",
   "kind": "theorem",
   "name": "no_hierarchy_problem",
   "module_name": "TauLib.BookIV.Electroweak.TauHiggs2",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs2/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs2/",
   "source_line_start": 216,
   "source_line_end": 220,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/TauHiggs2.lean#L216-L220",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.TauHiggs2",
-        "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs2/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs2/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.TauHiggs2](/verify/taulib/docs/book-iv-electroweak-tau-higgs2/)
+- Module: [TauLib.BookIV.Electroweak.TauHiggs2](/corpus/taulib/docs/book-iv-electroweak-tau-higgs2/)
 - Source path: [`TauLib/BookIV/Electroweak/TauHiggs2.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/TauHiggs2.lean#L216-L220)
 - Source range: L216-L220
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

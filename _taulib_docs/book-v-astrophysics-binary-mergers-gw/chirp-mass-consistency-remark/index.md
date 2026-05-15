@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "chirp_mass_consistency_remark",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/chirp-mass-consistency-remark/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/chirp-mass-consistency-remark/",
   "summary_short": "`def` declaration in `TauLib.BookV.Astrophysics.BinaryMergersGW`.",
   "declaration_id": "TauLib.BookV.Astrophysics.BinaryMergersGW::chirp_mass_consistency_remark",
   "declaration_slug": "chirp-mass-consistency-remark",
   "kind": "def",
   "name": "chirp_mass_consistency_remark",
   "module_name": "TauLib.BookV.Astrophysics.BinaryMergersGW",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/",
   "source_line_start": 328,
   "source_line_end": 330,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/BinaryMergersGW.lean#L328-L330",
   "formal_status": "defined",
+  "declaration_role": "docstring/data record",
+  "formal_status_label": "docstring/data record",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.BinaryMergersGW",
-        "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "docstring/data record",
+      "status": "docstring/data record"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.BinaryMergersGW](/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/)
+- Module: [TauLib.BookV.Astrophysics.BinaryMergersGW](/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/)
 - Source path: [`TauLib/BookV/Astrophysics/BinaryMergersGW.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/BinaryMergersGW.lean#L328-L330)
 - Source range: L328-L330
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `docstring/data record`
+- Formal status hint: `docstring/data record`
 
 ## Registry Links
 

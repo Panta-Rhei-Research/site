@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "tau_arithmetic_is_address_resolution",
-  "permalink": "/verify/taulib/docs/book-i-addressability-address-resolution/tau-arithmetic-is-address-resolution/",
+  "permalink": "/corpus/taulib/docs/book-i-addressability-address-resolution/tau-arithmetic-is-address-resolution/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Addressability.AddressResolution`.",
   "declaration_id": "TauLib.BookI.Addressability.AddressResolution::tau_arithmetic_is_address_resolution",
   "declaration_slug": "tau-arithmetic-is-address-resolution",
   "kind": "theorem",
   "name": "tau_arithmetic_is_address_resolution",
   "module_name": "TauLib.BookI.Addressability.AddressResolution",
-  "module_url": "/verify/taulib/docs/book-i-addressability-address-resolution/",
+  "module_url": "/corpus/taulib/docs/book-i-addressability-address-resolution/",
   "source_line_start": 137,
   "source_line_end": 143,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Addressability/AddressResolution.lean#L137-L143",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Addressability.AddressResolution",
-        "url": "/verify/taulib/docs/book-i-addressability-address-resolution/"
+        "url": "/corpus/taulib/docs/book-i-addressability-address-resolution/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Addressability.AddressResolution](/verify/taulib/docs/book-i-addressability-address-resolution/)
+- Module: [TauLib.BookI.Addressability.AddressResolution](/corpus/taulib/docs/book-i-addressability-address-resolution/)
 - Source path: [`TauLib/BookI/Addressability/AddressResolution.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Addressability/AddressResolution.lean#L137-L143)
 - Source range: L137-L143
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

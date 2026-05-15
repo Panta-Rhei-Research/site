@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "interface_width",
-  "permalink": "/verify/taulib/docs/book-iii-computation-admissibility/interface-width/",
+  "permalink": "/corpus/taulib/docs/book-iii-computation-admissibility/interface-width/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Computation.Admissibility`.",
   "declaration_id": "TauLib.BookIII.Computation.Admissibility::interface_width",
   "declaration_slug": "interface-width",
   "kind": "def",
   "name": "interface_width",
   "module_name": "TauLib.BookIII.Computation.Admissibility",
-  "module_url": "/verify/taulib/docs/book-iii-computation-admissibility/",
+  "module_url": "/corpus/taulib/docs/book-iii-computation-admissibility/",
   "source_line_start": 46,
   "source_line_end": 62,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Computation/Admissibility.lean#L46-L62",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Computation.Admissibility",
-        "url": "/verify/taulib/docs/book-iii-computation-admissibility/"
+        "url": "/corpus/taulib/docs/book-iii-computation-admissibility/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Computation.Admissibility](/verify/taulib/docs/book-iii-computation-admissibility/)
+- Module: [TauLib.BookIII.Computation.Admissibility](/corpus/taulib/docs/book-iii-computation-admissibility/)
 - Source path: [`TauLib/BookIII/Computation/Admissibility.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Computation/Admissibility.lean#L46-L62)
 - Source range: L46-L62
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

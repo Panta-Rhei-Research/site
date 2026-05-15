@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "hierarchy_power_law",
-  "permalink": "/verify/taulib/docs/book-v-coda-galpha-bridge/hierarchy-power-law-l172/",
+  "permalink": "/corpus/taulib/docs/book-v-coda-galpha-bridge/hierarchy-power-law-l172/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Coda.GAlphaBridge`.",
   "declaration_id": "TauLib.BookV.Coda.GAlphaBridge::hierarchy_power_law",
   "declaration_slug": "hierarchy-power-law-l172",
   "kind": "theorem",
   "name": "hierarchy_power_law",
   "module_name": "TauLib.BookV.Coda.GAlphaBridge",
-  "module_url": "/verify/taulib/docs/book-v-coda-galpha-bridge/",
+  "module_url": "/corpus/taulib/docs/book-v-coda-galpha-bridge/",
   "source_line_start": 172,
   "source_line_end": 175,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Coda/GAlphaBridge.lean#L172-L175",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Coda.GAlphaBridge",
-        "url": "/verify/taulib/docs/book-v-coda-galpha-bridge/"
+        "url": "/corpus/taulib/docs/book-v-coda-galpha-bridge/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Coda.GAlphaBridge](/verify/taulib/docs/book-v-coda-galpha-bridge/)
+- Module: [TauLib.BookV.Coda.GAlphaBridge](/corpus/taulib/docs/book-v-coda-galpha-bridge/)
 - Source path: [`TauLib/BookV/Coda/GAlphaBridge.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Coda/GAlphaBridge.lean#L172-L175)
 - Source range: L172-L175
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

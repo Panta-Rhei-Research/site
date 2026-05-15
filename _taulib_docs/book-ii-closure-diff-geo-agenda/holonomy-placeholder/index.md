@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "HolonomyPlaceholder",
-  "permalink": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/holonomy-placeholder/",
+  "permalink": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/holonomy-placeholder/",
   "summary_short": "`structure` declaration in `TauLib.BookII.Closure.DiffGeoAgenda`.",
   "declaration_id": "TauLib.BookII.Closure.DiffGeoAgenda::HolonomyPlaceholder",
   "declaration_slug": "holonomy-placeholder",
   "kind": "structure",
   "name": "HolonomyPlaceholder",
   "module_name": "TauLib.BookII.Closure.DiffGeoAgenda",
-  "module_url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/",
+  "module_url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/",
   "source_line_start": 60,
   "source_line_end": 63,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/DiffGeoAgenda.lean#L60-L63",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Closure.DiffGeoAgenda",
-        "url": "/verify/taulib/docs/book-ii-closure-diff-geo-agenda/"
+        "url": "/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Closure.DiffGeoAgenda](/verify/taulib/docs/book-ii-closure-diff-geo-agenda/)
+- Module: [TauLib.BookII.Closure.DiffGeoAgenda](/corpus/taulib/docs/book-ii-closure-diff-geo-agenda/)
 - Source path: [`TauLib/BookII/Closure/DiffGeoAgenda.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/DiffGeoAgenda.lean#L60-L63)
 - Source range: L60-L63
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

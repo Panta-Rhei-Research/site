@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "problem_gap",
-  "permalink": "/verify/taulib/docs/book-iii-doors-bridge-tightening/problem-gap/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-bridge-tightening/problem-gap/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Doors.BridgeTightening`.",
   "declaration_id": "TauLib.BookIII.Doors.BridgeTightening::problem_gap",
   "declaration_slug": "problem-gap",
   "kind": "def",
   "name": "problem_gap",
   "module_name": "TauLib.BookIII.Doors.BridgeTightening",
-  "module_url": "/verify/taulib/docs/book-iii-doors-bridge-tightening/",
+  "module_url": "/corpus/taulib/docs/book-iii-doors-bridge-tightening/",
   "source_line_start": 225,
   "source_line_end": 234,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/BridgeTightening.lean#L225-L234",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Doors.BridgeTightening",
-        "url": "/verify/taulib/docs/book-iii-doors-bridge-tightening/"
+        "url": "/corpus/taulib/docs/book-iii-doors-bridge-tightening/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Doors.BridgeTightening](/verify/taulib/docs/book-iii-doors-bridge-tightening/)
+- Module: [TauLib.BookIII.Doors.BridgeTightening](/corpus/taulib/docs/book-iii-doors-bridge-tightening/)
 - Source path: [`TauLib/BookIII/Doors/BridgeTightening.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/BridgeTightening.lean#L225-L234)
 - Source range: L225-L234
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

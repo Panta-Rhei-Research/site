@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookII.Topology.DimensionFour",
-  "permalink": "/verify/taulib/docs/book-ii-topology-dimension-four/",
+  "permalink": "/corpus/taulib/docs/book-ii-topology-dimension-four/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookII.Topology.DimensionFour`.",
   "module_name": "TauLib.BookII.Topology.DimensionFour",
   "module_slug": "book-ii-topology-dimension-four",
@@ -35,19 +35,23 @@
     {
       "kind": "def",
       "name": "abcd_coords",
-      "url": "/verify/taulib/docs/book-ii-topology-dimension-four/abcd-coords/",
+      "url": "/corpus/taulib/docs/book-ii-topology-dimension-four/abcd-coords/",
       "source_line_start": 38,
       "source_line_end": 40,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "tau_dim",
-      "url": "/verify/taulib/docs/book-ii-topology-dimension-four/tau-dim/",
+      "url": "/corpus/taulib/docs/book-ii-topology-dimension-four/tau-dim/",
       "source_line_start": 44,
       "source_line_end": 44,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.D15"
       ]
@@ -55,37 +59,45 @@
     {
       "kind": "def",
       "name": "four_suffice_check",
-      "url": "/verify/taulib/docs/book-ii-topology-dimension-four/four-suffice-check/",
+      "url": "/corpus/taulib/docs/book-ii-topology-dimension-four/four-suffice-check/",
       "source_line_start": 52,
       "source_line_end": 62,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "three_insufficient_check",
-      "url": "/verify/taulib/docs/book-ii-topology-dimension-four/three-insufficient-check/",
+      "url": "/corpus/taulib/docs/book-ii-topology-dimension-four/three-insufficient-check/",
       "source_line_start": 71,
       "source_line_end": 84,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "dim_four_check",
-      "url": "/verify/taulib/docs/book-ii-topology-dimension-four/dim-four-check/",
+      "url": "/corpus/taulib/docs/book-ii-topology-dimension-four/dim-four-check/",
       "source_line_start": 87,
       "source_line_end": 88,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "radial_solenoidal_check",
-      "url": "/verify/taulib/docs/book-ii-topology-dimension-four/radial-solenoidal-check/",
+      "url": "/corpus/taulib/docs/book-ii-topology-dimension-four/radial-solenoidal-check/",
       "source_line_start": 101,
       "source_line_end": 113,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.D16"
       ]
@@ -93,127 +105,155 @@
     {
       "kind": "def",
       "name": "pairwise_independent_check",
-      "url": "/verify/taulib/docs/book-ii-topology-dimension-four/pairwise-independent-check/",
+      "url": "/corpus/taulib/docs/book-ii-topology-dimension-four/pairwise-independent-check/",
       "source_line_start": 117,
       "source_line_end": 127,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-topology-dimension-four/eval-l133/",
+      "url": "/corpus/taulib/docs/book-ii-topology-dimension-four/eval-l133/",
       "source_line_start": 133,
       "source_line_end": 133,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-topology-dimension-four/eval-l134/",
+      "url": "/corpus/taulib/docs/book-ii-topology-dimension-four/eval-l134/",
       "source_line_start": 134,
       "source_line_end": 134,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-topology-dimension-four/eval-l135/",
+      "url": "/corpus/taulib/docs/book-ii-topology-dimension-four/eval-l135/",
       "source_line_start": 135,
       "source_line_end": 135,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-topology-dimension-four/eval-l137/",
+      "url": "/corpus/taulib/docs/book-ii-topology-dimension-four/eval-l137/",
       "source_line_start": 137,
       "source_line_end": 137,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-topology-dimension-four/eval-l138/",
+      "url": "/corpus/taulib/docs/book-ii-topology-dimension-four/eval-l138/",
       "source_line_start": 138,
       "source_line_end": 138,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-topology-dimension-four/eval-l139/",
+      "url": "/corpus/taulib/docs/book-ii-topology-dimension-four/eval-l139/",
       "source_line_start": 139,
       "source_line_end": 139,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-topology-dimension-four/eval-l141/",
+      "url": "/corpus/taulib/docs/book-ii-topology-dimension-four/eval-l141/",
       "source_line_start": 141,
       "source_line_end": 141,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-topology-dimension-four/eval-l142/",
+      "url": "/corpus/taulib/docs/book-ii-topology-dimension-four/eval-l142/",
       "source_line_start": 142,
       "source_line_end": 142,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "four_suff_50",
-      "url": "/verify/taulib/docs/book-ii-topology-dimension-four/four-suff-50/",
+      "url": "/corpus/taulib/docs/book-ii-topology-dimension-four/four-suff-50/",
       "source_line_start": 145,
       "source_line_end": 145,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "three_insuff",
-      "url": "/verify/taulib/docs/book-ii-topology-dimension-four/three-insuff/",
+      "url": "/corpus/taulib/docs/book-ii-topology-dimension-four/three-insuff/",
       "source_line_start": 146,
       "source_line_end": 146,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "dim_four_50",
-      "url": "/verify/taulib/docs/book-ii-topology-dimension-four/dim-four-50/",
+      "url": "/corpus/taulib/docs/book-ii-topology-dimension-four/dim-four-50/",
       "source_line_start": 147,
       "source_line_end": 147,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "rad_sol_50",
-      "url": "/verify/taulib/docs/book-ii-topology-dimension-four/rad-sol-50/",
+      "url": "/corpus/taulib/docs/book-ii-topology-dimension-four/rad-sol-50/",
       "source_line_start": 148,
       "source_line_end": 148,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "pairwise_ind",
-      "url": "/verify/taulib/docs/book-ii-topology-dimension-four/pairwise-ind/",
+      "url": "/corpus/taulib/docs/book-ii-topology-dimension-four/pairwise-ind/",
       "source_line_start": 149,
       "source_line_end": 151,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -225,7 +265,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -298,25 +338,25 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [abcd_coords](/verify/taulib/docs/book-ii-topology-dimension-four/abcd-coords/) | L38-L40 | defined | — |
-| `def` | [tau_dim](/verify/taulib/docs/book-ii-topology-dimension-four/tau-dim/) | L44-L44 | defined | `II.D15` |
-| `def` | [four_suffice_check](/verify/taulib/docs/book-ii-topology-dimension-four/four-suffice-check/) | L52-L62 | defined | — |
-| `def` | [three_insufficient_check](/verify/taulib/docs/book-ii-topology-dimension-four/three-insufficient-check/) | L71-L84 | defined | — |
-| `def` | [dim_four_check](/verify/taulib/docs/book-ii-topology-dimension-four/dim-four-check/) | L87-L88 | defined | — |
-| `def` | [radial_solenoidal_check](/verify/taulib/docs/book-ii-topology-dimension-four/radial-solenoidal-check/) | L101-L113 | defined | `II.D16` |
-| `def` | [pairwise_independent_check](/verify/taulib/docs/book-ii-topology-dimension-four/pairwise-independent-check/) | L117-L127 | defined | — |
-| `eval` | [#eval L133](/verify/taulib/docs/book-ii-topology-dimension-four/eval-l133/) | L133-L133 | computed | — |
-| `eval` | [#eval L134](/verify/taulib/docs/book-ii-topology-dimension-four/eval-l134/) | L134-L134 | computed | — |
-| `eval` | [#eval L135](/verify/taulib/docs/book-ii-topology-dimension-four/eval-l135/) | L135-L135 | computed | — |
-| `eval` | [#eval L137](/verify/taulib/docs/book-ii-topology-dimension-four/eval-l137/) | L137-L137 | computed | — |
-| `eval` | [#eval L138](/verify/taulib/docs/book-ii-topology-dimension-four/eval-l138/) | L138-L138 | computed | — |
-| `eval` | [#eval L139](/verify/taulib/docs/book-ii-topology-dimension-four/eval-l139/) | L139-L139 | computed | — |
-| `eval` | [#eval L141](/verify/taulib/docs/book-ii-topology-dimension-four/eval-l141/) | L141-L141 | computed | — |
-| `eval` | [#eval L142](/verify/taulib/docs/book-ii-topology-dimension-four/eval-l142/) | L142-L142 | computed | — |
-| `theorem` | [four_suff_50](/verify/taulib/docs/book-ii-topology-dimension-four/four-suff-50/) | L145-L145 | formalized | — |
-| `theorem` | [three_insuff](/verify/taulib/docs/book-ii-topology-dimension-four/three-insuff/) | L146-L146 | formalized | — |
-| `theorem` | [dim_four_50](/verify/taulib/docs/book-ii-topology-dimension-four/dim-four-50/) | L147-L147 | formalized | — |
-| `theorem` | [rad_sol_50](/verify/taulib/docs/book-ii-topology-dimension-four/rad-sol-50/) | L148-L148 | formalized | — |
-| `theorem` | [pairwise_ind](/verify/taulib/docs/book-ii-topology-dimension-four/pairwise-ind/) | L149-L151 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [abcd_coords](/corpus/taulib/docs/book-ii-topology-dimension-four/abcd-coords/) | L38-L40 | definition | definition | — |
+| `def` | [tau_dim](/corpus/taulib/docs/book-ii-topology-dimension-four/tau-dim/) | L44-L44 | data/computed value | data/computed value | `II.D15` |
+| `def` | [four_suffice_check](/corpus/taulib/docs/book-ii-topology-dimension-four/four-suffice-check/) | L52-L62 | data/computed value | data/computed value | — |
+| `def` | [three_insufficient_check](/corpus/taulib/docs/book-ii-topology-dimension-four/three-insufficient-check/) | L71-L84 | data/computed value | data/computed value | — |
+| `def` | [dim_four_check](/corpus/taulib/docs/book-ii-topology-dimension-four/dim-four-check/) | L87-L88 | data/computed value | data/computed value | — |
+| `def` | [radial_solenoidal_check](/corpus/taulib/docs/book-ii-topology-dimension-four/radial-solenoidal-check/) | L101-L113 | data/computed value | data/computed value | `II.D16` |
+| `def` | [pairwise_independent_check](/corpus/taulib/docs/book-ii-topology-dimension-four/pairwise-independent-check/) | L117-L127 | data/computed value | data/computed value | — |
+| `eval` | [#eval L133](/corpus/taulib/docs/book-ii-topology-dimension-four/eval-l133/) | L133-L133 | computed check | computed check | — |
+| `eval` | [#eval L134](/corpus/taulib/docs/book-ii-topology-dimension-four/eval-l134/) | L134-L134 | computed check | computed check | — |
+| `eval` | [#eval L135](/corpus/taulib/docs/book-ii-topology-dimension-four/eval-l135/) | L135-L135 | computed check | computed check | — |
+| `eval` | [#eval L137](/corpus/taulib/docs/book-ii-topology-dimension-four/eval-l137/) | L137-L137 | computed check | computed check | — |
+| `eval` | [#eval L138](/corpus/taulib/docs/book-ii-topology-dimension-four/eval-l138/) | L138-L138 | computed check | computed check | — |
+| `eval` | [#eval L139](/corpus/taulib/docs/book-ii-topology-dimension-four/eval-l139/) | L139-L139 | computed check | computed check | — |
+| `eval` | [#eval L141](/corpus/taulib/docs/book-ii-topology-dimension-four/eval-l141/) | L141-L141 | computed check | computed check | — |
+| `eval` | [#eval L142](/corpus/taulib/docs/book-ii-topology-dimension-four/eval-l142/) | L142-L142 | computed check | computed check | — |
+| `theorem` | [four_suff_50](/corpus/taulib/docs/book-ii-topology-dimension-four/four-suff-50/) | L145-L145 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [three_insuff](/corpus/taulib/docs/book-ii-topology-dimension-four/three-insuff/) | L146-L146 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [dim_four_50](/corpus/taulib/docs/book-ii-topology-dimension-four/dim-four-50/) | L147-L147 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [rad_sol_50](/corpus/taulib/docs/book-ii-topology-dimension-four/rad-sol-50/) | L148-L148 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [pairwise_ind](/corpus/taulib/docs/book-ii-topology-dimension-four/pairwise-ind/) | L149-L151 | proof obligation | formal proof obligation checked | — |

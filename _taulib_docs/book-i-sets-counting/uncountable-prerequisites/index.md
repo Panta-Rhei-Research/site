@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "UncountablePrerequisites",
-  "permalink": "/verify/taulib/docs/book-i-sets-counting/uncountable-prerequisites/",
+  "permalink": "/corpus/taulib/docs/book-i-sets-counting/uncountable-prerequisites/",
   "summary_short": "`structure` declaration in `TauLib.BookI.Sets.Counting`.",
   "declaration_id": "TauLib.BookI.Sets.Counting::UncountablePrerequisites",
   "declaration_slug": "uncountable-prerequisites",
   "kind": "structure",
   "name": "UncountablePrerequisites",
   "module_name": "TauLib.BookI.Sets.Counting",
-  "module_url": "/verify/taulib/docs/book-i-sets-counting/",
+  "module_url": "/corpus/taulib/docs/book-i-sets-counting/",
   "source_line_start": 114,
   "source_line_end": 125,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Counting.lean#L114-L125",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Sets.Counting",
-        "url": "/verify/taulib/docs/book-i-sets-counting/"
+        "url": "/corpus/taulib/docs/book-i-sets-counting/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Sets.Counting](/verify/taulib/docs/book-i-sets-counting/)
+- Module: [TauLib.BookI.Sets.Counting](/corpus/taulib/docs/book-i-sets-counting/)
 - Source path: [`TauLib/BookI/Sets/Counting.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Counting.lean#L114-L125)
 - Source range: L114-L125
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.Tour.GuidedTour.BookI",
-  "permalink": "/verify/taulib/docs/tour-guided-tour-book-i/",
+  "permalink": "/corpus/taulib/docs/tour-guided-tour-book-i/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.Tour.GuidedTour.BookI`.",
   "module_name": "TauLib.Tour.GuidedTour.BookI",
   "module_slug": "tour-guided-tour-book-i",
@@ -44,7 +44,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -124,6 +124,6 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| — | — | — | — | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| — | — | — | — | — | — |

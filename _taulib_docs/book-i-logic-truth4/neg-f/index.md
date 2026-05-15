@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "Truth4.neg_F",
-  "permalink": "/verify/taulib/docs/book-i-logic-truth4/neg-f/",
+  "permalink": "/corpus/taulib/docs/book-i-logic-truth4/neg-f/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Logic.Truth4`.",
   "declaration_id": "TauLib.BookI.Logic.Truth4::Truth4.neg_F",
   "declaration_slug": "neg-f",
   "kind": "theorem",
   "name": "Truth4.neg_F",
   "module_name": "TauLib.BookI.Logic.Truth4",
-  "module_url": "/verify/taulib/docs/book-i-logic-truth4/",
+  "module_url": "/corpus/taulib/docs/book-i-logic-truth4/",
   "source_line_start": 209,
   "source_line_end": 209,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Logic/Truth4.lean#L209-L209",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Logic.Truth4",
-        "url": "/verify/taulib/docs/book-i-logic-truth4/"
+        "url": "/corpus/taulib/docs/book-i-logic-truth4/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Logic.Truth4](/verify/taulib/docs/book-i-logic-truth4/)
+- Module: [TauLib.BookI.Logic.Truth4](/corpus/taulib/docs/book-i-logic-truth4/)
 - Source path: [`TauLib/BookI/Logic/Truth4.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Logic/Truth4.lean#L209-L209)
 - Source range: L209-L209
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

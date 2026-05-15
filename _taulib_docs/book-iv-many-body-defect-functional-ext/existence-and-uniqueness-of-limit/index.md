@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ExistenceAndUniquenessOfLimit",
-  "permalink": "/verify/taulib/docs/book-iv-many-body-defect-functional-ext/existence-and-uniqueness-of-limit/",
+  "permalink": "/corpus/taulib/docs/book-iv-many-body-defect-functional-ext/existence-and-uniqueness-of-limit/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.ManyBody.DefectFunctionalExt`.",
   "declaration_id": "TauLib.BookIV.ManyBody.DefectFunctionalExt::ExistenceAndUniquenessOfLimit",
   "declaration_slug": "existence-and-uniqueness-of-limit",
   "kind": "structure",
   "name": "ExistenceAndUniquenessOfLimit",
   "module_name": "TauLib.BookIV.ManyBody.DefectFunctionalExt",
-  "module_url": "/verify/taulib/docs/book-iv-many-body-defect-functional-ext/",
+  "module_url": "/corpus/taulib/docs/book-iv-many-body-defect-functional-ext/",
   "source_line_start": 341,
   "source_line_end": 348,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/DefectFunctionalExt.lean#L341-L348",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.ManyBody.DefectFunctionalExt",
-        "url": "/verify/taulib/docs/book-iv-many-body-defect-functional-ext/"
+        "url": "/corpus/taulib/docs/book-iv-many-body-defect-functional-ext/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.ManyBody.DefectFunctionalExt](/verify/taulib/docs/book-iv-many-body-defect-functional-ext/)
+- Module: [TauLib.BookIV.ManyBody.DefectFunctionalExt](/corpus/taulib/docs/book-iv-many-body-defect-functional-ext/)
 - Source path: [`TauLib/BookIV/ManyBody/DefectFunctionalExt.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/DefectFunctionalExt.lean#L341-L348)
 - Source range: L341-L348
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

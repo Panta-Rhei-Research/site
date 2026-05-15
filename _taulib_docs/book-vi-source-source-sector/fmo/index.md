@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "fmo",
-  "permalink": "/verify/taulib/docs/book-vi-source-source-sector/fmo/",
+  "permalink": "/corpus/taulib/docs/book-vi-source-source-sector/fmo/",
   "summary_short": "`def` declaration in `TauLib.BookVI.Source.SourceSector`.",
   "declaration_id": "TauLib.BookVI.Source.SourceSector::fmo",
   "declaration_slug": "fmo",
   "kind": "def",
   "name": "fmo",
   "module_name": "TauLib.BookVI.Source.SourceSector",
-  "module_url": "/verify/taulib/docs/book-vi-source-source-sector/",
+  "module_url": "/corpus/taulib/docs/book-vi-source-source-sector/",
   "source_line_start": 165,
   "source_line_end": 167,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Source/SourceSector.lean#L165-L167",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Source.SourceSector",
-        "url": "/verify/taulib/docs/book-vi-source-source-sector/"
+        "url": "/corpus/taulib/docs/book-vi-source-source-sector/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Source.SourceSector](/verify/taulib/docs/book-vi-source-source-sector/)
+- Module: [TauLib.BookVI.Source.SourceSector](/corpus/taulib/docs/book-vi-source-source-sector/)
 - Source path: [`TauLib/BookVI/Source/SourceSector.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Source/SourceSector.lean#L165-L167)
 - Source range: L165-L167
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -36,7 +36,7 @@ related_public_surfaces:
     surface_type: "falsification_facet"
     surface_id: "N13"
     title: "N13 — Effective neutrino number N_eff"
-    url: "/results/falsifications/n13-n-eff/"
+    url: "/falsifications/n13-n-eff/"
     match_basis: "facet_title_summary"
     match_confidence: "high"
     matched_terms:
@@ -46,7 +46,7 @@ related_public_surfaces:
     surface_type: "falsification_facet"
     surface_id: "N6"
     title: "N6 — Sum of neutrino masses mν = 0.089 eV"
-    url: "/results/falsifications/n6-sum-of-neutrino-masses-m-0089/"
+    url: "/falsifications/n6-sum-of-neutrino-masses-m-0089/"
     match_basis: "facet_title_summary"
     match_confidence: "high"
     matched_terms:
@@ -78,8 +78,8 @@ Bashinsky-Seljak neutrino phase shift φ_ν = 0.191π × N_eff/(N_eff+15/4). For
 ## Related Results surfaces
 
 - [Neutrino mass](/results/problem-ledger-answers/physics/neutrino-mass/)
-- [N13 — Effective neutrino number N_eff](/results/falsifications/n13-n-eff/)
-- [N6 — Sum of neutrino masses mν = 0.089 eV](/results/falsifications/n6-sum-of-neutrino-masses-m-0089/)
+- [N13 — Effective neutrino number N_eff](/falsifications/n13-n-eff/)
+- [N6 — Sum of neutrino masses mν = 0.089 eV](/falsifications/n6-sum-of-neutrino-masses-m-0089/)
 
 ## Reading role
 

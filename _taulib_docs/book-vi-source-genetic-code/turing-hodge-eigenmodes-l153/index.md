@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "turing_hodge_eigenmodes",
-  "permalink": "/verify/taulib/docs/book-vi-source-genetic-code/turing-hodge-eigenmodes-l153/",
+  "permalink": "/corpus/taulib/docs/book-vi-source-genetic-code/turing-hodge-eigenmodes-l153/",
   "summary_short": "`theorem` declaration in `TauLib.BookVI.Source.GeneticCode`.",
   "declaration_id": "TauLib.BookVI.Source.GeneticCode::turing_hodge_eigenmodes",
   "declaration_slug": "turing-hodge-eigenmodes-l153",
   "kind": "theorem",
   "name": "turing_hodge_eigenmodes",
   "module_name": "TauLib.BookVI.Source.GeneticCode",
-  "module_url": "/verify/taulib/docs/book-vi-source-genetic-code/",
+  "module_url": "/corpus/taulib/docs/book-vi-source-genetic-code/",
   "source_line_start": 153,
   "source_line_end": 157,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Source/GeneticCode.lean#L153-L157",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Source.GeneticCode",
-        "url": "/verify/taulib/docs/book-vi-source-genetic-code/"
+        "url": "/corpus/taulib/docs/book-vi-source-genetic-code/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Source.GeneticCode](/verify/taulib/docs/book-vi-source-genetic-code/)
+- Module: [TauLib.BookVI.Source.GeneticCode](/corpus/taulib/docs/book-vi-source-genetic-code/)
 - Source path: [`TauLib/BookVI/Source/GeneticCode.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Source/GeneticCode.lean#L153-L157)
 - Source range: L153-L157
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

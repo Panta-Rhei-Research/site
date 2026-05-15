@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L123",
-  "permalink": "/verify/taulib/docs/tour-foundations/eval-l123/",
+  "permalink": "/corpus/taulib/docs/tour-foundations/eval-l123/",
   "summary_short": "`eval` declaration in `TauLib.Tour.Foundations`.",
   "declaration_id": "TauLib.Tour.Foundations::#eval:123",
   "declaration_slug": "eval-l123",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.Tour.Foundations",
-  "module_url": "/verify/taulib/docs/tour-foundations/",
+  "module_url": "/corpus/taulib/docs/tour-foundations/",
   "source_line_start": 123,
   "source_line_end": 123,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/Tour/Foundations.lean#L123-L123",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.Tour.Foundations",
-        "url": "/verify/taulib/docs/tour-foundations/"
+        "url": "/corpus/taulib/docs/tour-foundations/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.Tour.Foundations](/verify/taulib/docs/tour-foundations/)
+- Module: [TauLib.Tour.Foundations](/corpus/taulib/docs/tour-foundations/)
 - Source path: [`TauLib/Tour/Foundations.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/Tour/Foundations.lean#L123-L123)
 - Source range: L123-L123
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

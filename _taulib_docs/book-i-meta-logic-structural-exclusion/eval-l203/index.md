@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L203",
-  "permalink": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l203/",
+  "permalink": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/eval-l203/",
   "summary_short": "`eval` declaration in `TauLib.BookI.MetaLogic.StructuralExclusion`.",
   "declaration_id": "TauLib.BookI.MetaLogic.StructuralExclusion::#eval:203",
   "declaration_slug": "eval-l203",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.MetaLogic.StructuralExclusion",
-  "module_url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/",
+  "module_url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/",
   "source_line_start": 203,
   "source_line_end": 203,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/StructuralExclusion.lean#L203-L203",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.MetaLogic.StructuralExclusion",
-        "url": "/verify/taulib/docs/book-i-meta-logic-structural-exclusion/"
+        "url": "/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.MetaLogic.StructuralExclusion](/verify/taulib/docs/book-i-meta-logic-structural-exclusion/)
+- Module: [TauLib.BookI.MetaLogic.StructuralExclusion](/corpus/taulib/docs/book-i-meta-logic-structural-exclusion/)
 - Source path: [`TauLib/BookI/MetaLogic/StructuralExclusion.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/StructuralExclusion.lean#L203-L203)
 - Source range: L203-L203
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

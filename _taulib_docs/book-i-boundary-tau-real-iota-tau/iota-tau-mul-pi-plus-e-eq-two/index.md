@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauReal.iota_tau_mul_pi_plus_e_eq_two",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-real-iota-tau/iota-tau-mul-pi-plus-e-eq-two/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-real-iota-tau/iota-tau-mul-pi-plus-e-eq-two/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.TauRealIotaTau`.",
   "declaration_id": "TauLib.BookI.Boundary.TauRealIotaTau::TauReal.iota_tau_mul_pi_plus_e_eq_two",
   "declaration_slug": "iota-tau-mul-pi-plus-e-eq-two",
   "kind": "theorem",
   "name": "TauReal.iota_tau_mul_pi_plus_e_eq_two",
   "module_name": "TauLib.BookI.Boundary.TauRealIotaTau",
-  "module_url": "/verify/taulib/docs/book-i-boundary-tau-real-iota-tau/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-tau-real-iota-tau/",
   "source_line_start": 118,
   "source_line_end": 167,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealIotaTau.lean#L118-L167",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.TauRealIotaTau",
-        "url": "/verify/taulib/docs/book-i-boundary-tau-real-iota-tau/"
+        "url": "/corpus/taulib/docs/book-i-boundary-tau-real-iota-tau/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.TauRealIotaTau](/verify/taulib/docs/book-i-boundary-tau-real-iota-tau/)
+- Module: [TauLib.BookI.Boundary.TauRealIotaTau](/corpus/taulib/docs/book-i-boundary-tau-real-iota-tau/)
 - Source path: [`TauLib/BookI/Boundary/TauRealIotaTau.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealIotaTau.lean#L118-L167)
 - Source range: L118-L167
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

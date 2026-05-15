@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "CoherenceKernel",
-  "permalink": "/verify/taulib/docs/book-iv-arena-coherence-kernel/coherence-kernel/",
+  "permalink": "/corpus/taulib/docs/book-iv-arena-coherence-kernel/coherence-kernel/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Arena.CoherenceKernel`.",
   "declaration_id": "TauLib.BookIV.Arena.CoherenceKernel::CoherenceKernel",
   "declaration_slug": "coherence-kernel",
   "kind": "structure",
   "name": "CoherenceKernel",
   "module_name": "TauLib.BookIV.Arena.CoherenceKernel",
-  "module_url": "/verify/taulib/docs/book-iv-arena-coherence-kernel/",
+  "module_url": "/corpus/taulib/docs/book-iv-arena-coherence-kernel/",
   "source_line_start": 78,
   "source_line_end": 87,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/CoherenceKernel.lean#L78-L87",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Arena.CoherenceKernel",
-        "url": "/verify/taulib/docs/book-iv-arena-coherence-kernel/"
+        "url": "/corpus/taulib/docs/book-iv-arena-coherence-kernel/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Arena.CoherenceKernel](/verify/taulib/docs/book-iv-arena-coherence-kernel/)
+- Module: [TauLib.BookIV.Arena.CoherenceKernel](/corpus/taulib/docs/book-iv-arena-coherence-kernel/)
 - Source path: [`TauLib/BookIV/Arena/CoherenceKernel.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/CoherenceKernel.lean#L78-L87)
 - Source range: L78-L87
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

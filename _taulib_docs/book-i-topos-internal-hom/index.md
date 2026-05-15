@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Topos.InternalHom",
-  "permalink": "/verify/taulib/docs/book-i-topos-internal-hom/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-internal-hom/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Topos.InternalHom`.",
   "module_name": "TauLib.BookI.Topos.InternalHom",
   "module_slug": "book-i-topos-internal-hom",
@@ -33,10 +33,12 @@
     {
       "kind": "def",
       "name": "internal_hom",
-      "url": "/verify/taulib/docs/book-i-topos-internal-hom/internal-hom/",
+      "url": "/corpus/taulib/docs/book-i-topos-internal-hom/internal-hom/",
       "source_line_start": 34,
       "source_line_end": 35,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "I.D64"
       ]
@@ -44,37 +46,45 @@
     {
       "kind": "theorem",
       "name": "ihom_both_true",
-      "url": "/verify/taulib/docs/book-i-topos-internal-hom/ihom-both-true/",
+      "url": "/corpus/taulib/docs/book-i-topos-internal-hom/ihom-both-true/",
       "source_line_start": 38,
       "source_line_end": 41,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ihom_p_false",
-      "url": "/verify/taulib/docs/book-i-topos-internal-hom/ihom-p-false/",
+      "url": "/corpus/taulib/docs/book-i-topos-internal-hom/ihom-p-false/",
       "source_line_start": 44,
       "source_line_end": 47,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ihom_p_true_q_false",
-      "url": "/verify/taulib/docs/book-i-topos-internal-hom/ihom-p-true-q-false/",
+      "url": "/corpus/taulib/docs/book-i-topos-internal-hom/ihom-p-true-q-false/",
       "source_line_start": 50,
       "source_line_end": 53,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "cartesian_closed_adj",
-      "url": "/verify/taulib/docs/book-i-topos-internal-hom/cartesian-closed-adj/",
+      "url": "/corpus/taulib/docs/book-i-topos-internal-hom/cartesian-closed-adj/",
       "source_line_start": 65,
       "source_line_end": 73,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.T28"
       ]
@@ -82,19 +92,23 @@
     {
       "kind": "theorem",
       "name": "eval_morphism",
-      "url": "/verify/taulib/docs/book-i-topos-internal-hom/eval-morphism/",
+      "url": "/corpus/taulib/docs/book-i-topos-internal-hom/eval-morphism/",
       "source_line_start": 76,
       "source_line_end": 80,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "self_enrichment",
-      "url": "/verify/taulib/docs/book-i-topos-internal-hom/self-enrichment/",
+      "url": "/corpus/taulib/docs/book-i-topos-internal-hom/self-enrichment/",
       "source_line_start": 89,
       "source_line_end": 91,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.P28"
       ]
@@ -102,55 +116,67 @@
     {
       "kind": "theorem",
       "name": "ihom_terminal",
-      "url": "/verify/taulib/docs/book-i-topos-internal-hom/ihom-terminal/",
+      "url": "/corpus/taulib/docs/book-i-topos-internal-hom/ihom-terminal/",
       "source_line_start": 94,
       "source_line_end": 96,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ihom_initial",
-      "url": "/verify/taulib/docs/book-i-topos-internal-hom/ihom-initial/",
+      "url": "/corpus/taulib/docs/book-i-topos-internal-hom/ihom-initial/",
       "source_line_start": 99,
       "source_line_end": 101,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ihom_to_terminal",
-      "url": "/verify/taulib/docs/book-i-topos-internal-hom/ihom-to-terminal/",
+      "url": "/corpus/taulib/docs/book-i-topos-internal-hom/ihom-to-terminal/",
       "source_line_start": 104,
       "source_line_end": 106,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-topos-internal-hom/eval-l113/",
+      "url": "/corpus/taulib/docs/book-i-topos-internal-hom/eval-l113/",
       "source_line_start": 113,
       "source_line_end": 113,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-topos-internal-hom/eval-l114/",
+      "url": "/corpus/taulib/docs/book-i-topos-internal-hom/eval-l114/",
       "source_line_start": 114,
       "source_line_end": 114,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-topos-internal-hom/eval-l115/",
+      "url": "/corpus/taulib/docs/book-i-topos-internal-hom/eval-l115/",
       "source_line_start": 115,
       "source_line_end": 117,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -162,7 +188,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -233,18 +259,18 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [internal_hom](/verify/taulib/docs/book-i-topos-internal-hom/internal-hom/) | L34-L35 | defined | `I.D64` |
-| `theorem` | [ihom_both_true](/verify/taulib/docs/book-i-topos-internal-hom/ihom-both-true/) | L38-L41 | formalized | — |
-| `theorem` | [ihom_p_false](/verify/taulib/docs/book-i-topos-internal-hom/ihom-p-false/) | L44-L47 | formalized | — |
-| `theorem` | [ihom_p_true_q_false](/verify/taulib/docs/book-i-topos-internal-hom/ihom-p-true-q-false/) | L50-L53 | formalized | — |
-| `theorem` | [cartesian_closed_adj](/verify/taulib/docs/book-i-topos-internal-hom/cartesian-closed-adj/) | L65-L73 | formalized | `I.T28` |
-| `theorem` | [eval_morphism](/verify/taulib/docs/book-i-topos-internal-hom/eval-morphism/) | L76-L80 | formalized | — |
-| `theorem` | [self_enrichment](/verify/taulib/docs/book-i-topos-internal-hom/self-enrichment/) | L89-L91 | formalized | `I.P28` |
-| `theorem` | [ihom_terminal](/verify/taulib/docs/book-i-topos-internal-hom/ihom-terminal/) | L94-L96 | formalized | — |
-| `theorem` | [ihom_initial](/verify/taulib/docs/book-i-topos-internal-hom/ihom-initial/) | L99-L101 | formalized | — |
-| `theorem` | [ihom_to_terminal](/verify/taulib/docs/book-i-topos-internal-hom/ihom-to-terminal/) | L104-L106 | formalized | — |
-| `eval` | [#eval L113](/verify/taulib/docs/book-i-topos-internal-hom/eval-l113/) | L113-L113 | computed | — |
-| `eval` | [#eval L114](/verify/taulib/docs/book-i-topos-internal-hom/eval-l114/) | L114-L114 | computed | — |
-| `eval` | [#eval L115](/verify/taulib/docs/book-i-topos-internal-hom/eval-l115/) | L115-L117 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [internal_hom](/corpus/taulib/docs/book-i-topos-internal-hom/internal-hom/) | L34-L35 | definition | definition | `I.D64` |
+| `theorem` | [ihom_both_true](/corpus/taulib/docs/book-i-topos-internal-hom/ihom-both-true/) | L38-L41 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [ihom_p_false](/corpus/taulib/docs/book-i-topos-internal-hom/ihom-p-false/) | L44-L47 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [ihom_p_true_q_false](/corpus/taulib/docs/book-i-topos-internal-hom/ihom-p-true-q-false/) | L50-L53 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [cartesian_closed_adj](/corpus/taulib/docs/book-i-topos-internal-hom/cartesian-closed-adj/) | L65-L73 | proof obligation | formal proof obligation checked | `I.T28` |
+| `theorem` | [eval_morphism](/corpus/taulib/docs/book-i-topos-internal-hom/eval-morphism/) | L76-L80 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [self_enrichment](/corpus/taulib/docs/book-i-topos-internal-hom/self-enrichment/) | L89-L91 | proof obligation | formal proof obligation checked | `I.P28` |
+| `theorem` | [ihom_terminal](/corpus/taulib/docs/book-i-topos-internal-hom/ihom-terminal/) | L94-L96 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [ihom_initial](/corpus/taulib/docs/book-i-topos-internal-hom/ihom-initial/) | L99-L101 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [ihom_to_terminal](/corpus/taulib/docs/book-i-topos-internal-hom/ihom-to-terminal/) | L104-L106 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L113](/corpus/taulib/docs/book-i-topos-internal-hom/eval-l113/) | L113-L113 | computed check | computed check | — |
+| `eval` | [#eval L114](/corpus/taulib/docs/book-i-topos-internal-hom/eval-l114/) | L114-L114 | computed check | computed check | — |
+| `eval` | [#eval L115](/corpus/taulib/docs/book-i-topos-internal-hom/eval-l115/) | L115-L117 | computed check | computed check | — |

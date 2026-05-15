@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "vert_comp_idempotent",
-  "permalink": "/verify/taulib/docs/book-ii-enrichment-self-describing/vert-comp-idempotent/",
+  "permalink": "/corpus/taulib/docs/book-ii-enrichment-self-describing/vert-comp-idempotent/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Enrichment.SelfDescribing`.",
   "declaration_id": "TauLib.BookII.Enrichment.SelfDescribing::vert_comp_idempotent",
   "declaration_slug": "vert-comp-idempotent",
   "kind": "theorem",
   "name": "vert_comp_idempotent",
   "module_name": "TauLib.BookII.Enrichment.SelfDescribing",
-  "module_url": "/verify/taulib/docs/book-ii-enrichment-self-describing/",
+  "module_url": "/corpus/taulib/docs/book-ii-enrichment-self-describing/",
   "source_line_start": 247,
   "source_line_end": 249,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/SelfDescribing.lean#L247-L249",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Enrichment.SelfDescribing",
-        "url": "/verify/taulib/docs/book-ii-enrichment-self-describing/"
+        "url": "/corpus/taulib/docs/book-ii-enrichment-self-describing/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Enrichment.SelfDescribing](/verify/taulib/docs/book-ii-enrichment-self-describing/)
+- Module: [TauLib.BookII.Enrichment.SelfDescribing](/corpus/taulib/docs/book-ii-enrichment-self-describing/)
 - Source path: [`TauLib/BookII/Enrichment/SelfDescribing.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/SelfDescribing.lean#L247-L249)
 - Source range: L247-L249
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

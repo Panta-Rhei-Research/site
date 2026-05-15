@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "sgra_shadow_uas",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-ehtreread/sgra-shadow-uas/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-ehtreread/sgra-shadow-uas/",
   "summary_short": "`def` declaration in `TauLib.BookV.Astrophysics.EHTReread`.",
   "declaration_id": "TauLib.BookV.Astrophysics.EHTReread::sgra_shadow_uas",
   "declaration_slug": "sgra-shadow-uas",
   "kind": "def",
   "name": "sgra_shadow_uas",
   "module_name": "TauLib.BookV.Astrophysics.EHTReread",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-ehtreread/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-ehtreread/",
   "source_line_start": 105,
   "source_line_end": 105,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/EHTReread.lean#L105-L105",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.EHTReread",
-        "url": "/verify/taulib/docs/book-v-astrophysics-ehtreread/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-ehtreread/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.EHTReread](/verify/taulib/docs/book-v-astrophysics-ehtreread/)
+- Module: [TauLib.BookV.Astrophysics.EHTReread](/corpus/taulib/docs/book-v-astrophysics-ehtreread/)
 - Source path: [`TauLib/BookV/Astrophysics/EHTReread.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/EHTReread.lean#L105-L105)
 - Source range: L105-L105
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "primes_all_prime",
-  "permalink": "/verify/taulib/docs/book-ii-interior-abcdrigidity/primes-all-prime/",
+  "permalink": "/corpus/taulib/docs/book-ii-interior-abcdrigidity/primes-all-prime/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Interior.ABCDRigidity`.",
   "declaration_id": "TauLib.BookII.Interior.ABCDRigidity::primes_all_prime",
   "declaration_slug": "primes-all-prime",
   "kind": "theorem",
   "name": "primes_all_prime",
   "module_name": "TauLib.BookII.Interior.ABCDRigidity",
-  "module_url": "/verify/taulib/docs/book-ii-interior-abcdrigidity/",
+  "module_url": "/corpus/taulib/docs/book-ii-interior-abcdrigidity/",
   "source_line_start": 149,
   "source_line_end": 151,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Interior/ABCDRigidity.lean#L149-L151",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Interior.ABCDRigidity",
-        "url": "/verify/taulib/docs/book-ii-interior-abcdrigidity/"
+        "url": "/corpus/taulib/docs/book-ii-interior-abcdrigidity/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Interior.ABCDRigidity](/verify/taulib/docs/book-ii-interior-abcdrigidity/)
+- Module: [TauLib.BookII.Interior.ABCDRigidity](/corpus/taulib/docs/book-ii-interior-abcdrigidity/)
 - Source path: [`TauLib/BookII/Interior/ABCDRigidity.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Interior/ABCDRigidity.lean#L149-L151)
 - Source range: L149-L151
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

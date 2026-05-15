@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "kappa_C_positive",
-  "permalink": "/verify/taulib/docs/book-iv-strong-strong-vacuum/kappa-c-positive/",
+  "permalink": "/corpus/taulib/docs/book-iv-strong-strong-vacuum/kappa-c-positive/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Strong.StrongVacuum`.",
   "declaration_id": "TauLib.BookIV.Strong.StrongVacuum::kappa_C_positive",
   "declaration_slug": "kappa-c-positive",
   "kind": "theorem",
   "name": "kappa_C_positive",
   "module_name": "TauLib.BookIV.Strong.StrongVacuum",
-  "module_url": "/verify/taulib/docs/book-iv-strong-strong-vacuum/",
+  "module_url": "/corpus/taulib/docs/book-iv-strong-strong-vacuum/",
   "source_line_start": 400,
   "source_line_end": 402,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/StrongVacuum.lean#L400-L402",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Strong.StrongVacuum",
-        "url": "/verify/taulib/docs/book-iv-strong-strong-vacuum/"
+        "url": "/corpus/taulib/docs/book-iv-strong-strong-vacuum/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Strong.StrongVacuum](/verify/taulib/docs/book-iv-strong-strong-vacuum/)
+- Module: [TauLib.BookIV.Strong.StrongVacuum](/corpus/taulib/docs/book-iv-strong-strong-vacuum/)
 - Source path: [`TauLib/BookIV/Strong/StrongVacuum.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/StrongVacuum.lean#L400-L402)
 - Source range: L400-L402
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

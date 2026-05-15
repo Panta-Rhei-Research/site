@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "alpha_ray_not_64",
-  "permalink": "/verify/taulib/docs/book-ii-transcendentals-lines/alpha-ray-not-64/",
+  "permalink": "/corpus/taulib/docs/book-ii-transcendentals-lines/alpha-ray-not-64/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Transcendentals.Lines`.",
   "declaration_id": "TauLib.BookII.Transcendentals.Lines::alpha_ray_not_64",
   "declaration_slug": "alpha-ray-not-64",
   "kind": "theorem",
   "name": "alpha_ray_not_64",
   "module_name": "TauLib.BookII.Transcendentals.Lines",
-  "module_url": "/verify/taulib/docs/book-ii-transcendentals-lines/",
+  "module_url": "/corpus/taulib/docs/book-ii-transcendentals-lines/",
   "source_line_start": 149,
   "source_line_end": 149,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Transcendentals/Lines.lean#L149-L149",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Transcendentals.Lines",
-        "url": "/verify/taulib/docs/book-ii-transcendentals-lines/"
+        "url": "/corpus/taulib/docs/book-ii-transcendentals-lines/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Transcendentals.Lines](/verify/taulib/docs/book-ii-transcendentals-lines/)
+- Module: [TauLib.BookII.Transcendentals.Lines](/corpus/taulib/docs/book-ii-transcendentals-lines/)
 - Source path: [`TauLib/BookII/Transcendentals/Lines.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Transcendentals/Lines.lean#L149-L149)
 - Source range: L149-L149
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

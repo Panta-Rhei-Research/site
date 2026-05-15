@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Coordinates.HyperfactIsomorphism",
-  "permalink": "/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/",
+  "permalink": "/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Coordinates.HyperfactIsomorphism`.",
   "module_name": "TauLib.BookI.Coordinates.HyperfactIsomorphism",
   "module_slug": "book-i-coordinates-hyperfact-isomorphism",
@@ -34,190 +34,232 @@
     {
       "kind": "theorem",
       "name": "tau_hyperfact_uniqueness",
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/tau-hyperfact-uniqueness/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/tau-hyperfact-uniqueness/",
       "source_line_start": 92,
       "source_line_end": 98,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l105/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l105/",
       "source_line_start": 105,
       "source_line_end": 105,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l108/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l108/",
       "source_line_start": 108,
       "source_line_end": 108,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l111/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l111/",
       "source_line_start": 111,
       "source_line_end": 111,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l114/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l114/",
       "source_line_start": 114,
       "source_line_end": 114,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l117/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l117/",
       "source_line_start": 117,
       "source_line_end": 117,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l121/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l121/",
       "source_line_start": 121,
       "source_line_end": 121,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l122/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l122/",
       "source_line_start": 122,
       "source_line_end": 122,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l123/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l123/",
       "source_line_start": 123,
       "source_line_end": 123,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l124/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l124/",
       "source_line_start": 124,
       "source_line_end": 124,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l125/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l125/",
       "source_line_start": 125,
       "source_line_end": 125,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l126/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l126/",
       "source_line_start": 126,
       "source_line_end": 126,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tau_hyperfact_isomorphism",
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/tau-hyperfact-isomorphism/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/tau-hyperfact-isomorphism/",
       "source_line_start": 147,
       "source_line_end": 149,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tau_abcd_chart_eq_orthodox",
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/tau-abcd-chart-eq-orthodox/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/tau-abcd-chart-eq-orthodox/",
       "source_line_start": 152,
       "source_line_end": 154,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "unified_specialises_to_fta",
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/unified-specialises-to-fta/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/unified-specialises-to-fta/",
       "source_line_start": 168,
       "source_line_end": 171,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "unified_at_twelve",
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/unified-at-twelve/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/unified-at-twelve/",
       "source_line_start": 179,
       "source_line_end": 180,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "unified_at_twenty_four",
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/unified-at-twenty-four/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/unified-at-twenty-four/",
       "source_line_start": 183,
       "source_line_end": 184,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "unified_at_three_sixty",
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/unified-at-three-sixty/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/unified-at-three-sixty/",
       "source_line_start": 187,
       "source_line_end": 188,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "unified_at_kilobyte",
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/unified-at-kilobyte/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/unified-at-kilobyte/",
       "source_line_start": 191,
       "source_line_end": 192,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "unified_at_sixty_four_kilobyte",
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/unified-at-sixty-four-kilobyte/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/unified-at-sixty-four-kilobyte/",
       "source_line_start": 196,
       "source_line_end": 197,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "h1_unified_synthesis",
-      "url": "/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/h1-unified-synthesis/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/h1-unified-synthesis/",
       "source_line_start": 219,
       "source_line_end": 227,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -229,7 +271,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -301,26 +343,26 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `theorem` | [tau_hyperfact_uniqueness](/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/tau-hyperfact-uniqueness/) | L92-L98 | formalized | — |
-| `eval` | [#eval L105](/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l105/) | L105-L105 | computed | — |
-| `eval` | [#eval L108](/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l108/) | L108-L108 | computed | — |
-| `eval` | [#eval L111](/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l111/) | L111-L111 | computed | — |
-| `eval` | [#eval L114](/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l114/) | L114-L114 | computed | — |
-| `eval` | [#eval L117](/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l117/) | L117-L117 | computed | — |
-| `eval` | [#eval L121](/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l121/) | L121-L121 | computed | — |
-| `eval` | [#eval L122](/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l122/) | L122-L122 | computed | — |
-| `eval` | [#eval L123](/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l123/) | L123-L123 | computed | — |
-| `eval` | [#eval L124](/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l124/) | L124-L124 | computed | — |
-| `eval` | [#eval L125](/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l125/) | L125-L125 | computed | — |
-| `eval` | [#eval L126](/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l126/) | L126-L126 | computed | — |
-| `theorem` | [tau_hyperfact_isomorphism](/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/tau-hyperfact-isomorphism/) | L147-L149 | formalized | — |
-| `theorem` | [tau_abcd_chart_eq_orthodox](/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/tau-abcd-chart-eq-orthodox/) | L152-L154 | formalized | — |
-| `theorem` | [unified_specialises_to_fta](/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/unified-specialises-to-fta/) | L168-L171 | formalized | — |
-| `theorem` | [unified_at_twelve](/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/unified-at-twelve/) | L179-L180 | formalized | — |
-| `theorem` | [unified_at_twenty_four](/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/unified-at-twenty-four/) | L183-L184 | formalized | — |
-| `theorem` | [unified_at_three_sixty](/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/unified-at-three-sixty/) | L187-L188 | formalized | — |
-| `theorem` | [unified_at_kilobyte](/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/unified-at-kilobyte/) | L191-L192 | formalized | — |
-| `theorem` | [unified_at_sixty_four_kilobyte](/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/unified-at-sixty-four-kilobyte/) | L196-L197 | formalized | — |
-| `theorem` | [h1_unified_synthesis](/verify/taulib/docs/book-i-coordinates-hyperfact-isomorphism/h1-unified-synthesis/) | L219-L227 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `theorem` | [tau_hyperfact_uniqueness](/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/tau-hyperfact-uniqueness/) | L92-L98 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L105](/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l105/) | L105-L105 | computed check | computed check | — |
+| `eval` | [#eval L108](/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l108/) | L108-L108 | computed check | computed check | — |
+| `eval` | [#eval L111](/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l111/) | L111-L111 | computed check | computed check | — |
+| `eval` | [#eval L114](/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l114/) | L114-L114 | computed check | computed check | — |
+| `eval` | [#eval L117](/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l117/) | L117-L117 | computed check | computed check | — |
+| `eval` | [#eval L121](/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l121/) | L121-L121 | computed check | computed check | — |
+| `eval` | [#eval L122](/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l122/) | L122-L122 | computed check | computed check | — |
+| `eval` | [#eval L123](/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l123/) | L123-L123 | computed check | computed check | — |
+| `eval` | [#eval L124](/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l124/) | L124-L124 | computed check | computed check | — |
+| `eval` | [#eval L125](/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l125/) | L125-L125 | computed check | computed check | — |
+| `eval` | [#eval L126](/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/eval-l126/) | L126-L126 | computed check | computed check | — |
+| `theorem` | [tau_hyperfact_isomorphism](/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/tau-hyperfact-isomorphism/) | L147-L149 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [tau_abcd_chart_eq_orthodox](/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/tau-abcd-chart-eq-orthodox/) | L152-L154 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [unified_specialises_to_fta](/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/unified-specialises-to-fta/) | L168-L171 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [unified_at_twelve](/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/unified-at-twelve/) | L179-L180 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [unified_at_twenty_four](/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/unified-at-twenty-four/) | L183-L184 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [unified_at_three_sixty](/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/unified-at-three-sixty/) | L187-L188 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [unified_at_kilobyte](/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/unified-at-kilobyte/) | L191-L192 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [unified_at_sixty_four_kilobyte](/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/unified-at-sixty-four-kilobyte/) | L196-L197 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [h1_unified_synthesis](/corpus/taulib/docs/book-i-coordinates-hyperfact-isomorphism/h1-unified-synthesis/) | L219-L227 | proof obligation | formal proof obligation checked | — |

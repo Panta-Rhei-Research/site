@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.Astrophysics.CompactObjects",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-compact-objects/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.Astrophysics.CompactObjects`.",
   "module_name": "TauLib.BookV.Astrophysics.CompactObjects",
   "module_slug": "book-v-astrophysics-compact-objects",
@@ -43,10 +43,12 @@
     {
       "kind": "inductive",
       "name": "CompactObjectType",
-      "url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/compact-object-type/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/compact-object-type/",
       "source_line_start": 66,
       "source_line_end": 75,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D124"
       ]
@@ -54,28 +56,34 @@
     {
       "kind": "structure",
       "name": "CompactObjectData",
-      "url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/compact-object-data/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/compact-object-data/",
       "source_line_start": 78,
       "source_line_end": 91,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "chandrasekhar_mass_limit",
-      "url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/chandrasekhar-mass-limit/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/chandrasekhar-mass-limit/",
       "source_line_start": 98,
       "source_line_end": 98,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "wd_mass_limit",
-      "url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/wd-mass-limit/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/wd-mass-limit/",
       "source_line_start": 110,
       "source_line_end": 112,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T86"
       ]
@@ -83,10 +91,12 @@
     {
       "kind": "theorem",
       "name": "ns_eos_from_defect",
-      "url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/ns-eos-from-defect/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/ns-eos-from-defect/",
       "source_line_start": 125,
       "source_line_end": 127,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P71"
       ]
@@ -94,28 +104,34 @@
     {
       "kind": "def",
       "name": "tov_mass_lower",
-      "url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/tov-mass-lower/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/tov-mass-lower/",
       "source_line_start": 134,
       "source_line_end": 134,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "tov_mass_upper",
-      "url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/tov-mass-upper/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/tov-mass-upper/",
       "source_line_start": 135,
       "source_line_end": 135,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tov_maximum_mass",
-      "url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/tov-maximum-mass/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/tov-maximum-mass/",
       "source_line_start": 144,
       "source_line_end": 145,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T87"
       ]
@@ -123,19 +139,23 @@
     {
       "kind": "inductive",
       "name": "PulsarType",
-      "url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/pulsar-type/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/pulsar-type/",
       "source_line_start": 152,
       "source_line_end": 159,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "PulsarData",
-      "url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/pulsar-data/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/pulsar-data/",
       "source_line_start": 166,
       "source_line_end": 179,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D125"
       ]
@@ -143,28 +163,34 @@
     {
       "kind": "def",
       "name": "mass_gap_lower",
-      "url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/mass-gap-lower/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/mass-gap-lower/",
       "source_line_start": 186,
       "source_line_end": 186,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "mass_gap_upper",
-      "url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/mass-gap-upper/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/mass-gap-upper/",
       "source_line_start": 188,
       "source_line_end": 188,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "mass_gap_prediction",
-      "url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/mass-gap-prediction/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/mass-gap-prediction/",
       "source_line_start": 201,
       "source_line_end": 202,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T88"
       ]
@@ -172,10 +198,12 @@
     {
       "kind": "theorem",
       "name": "magnetar_from_vortex",
-      "url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/magnetar-from-vortex/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/magnetar-from-vortex/",
       "source_line_start": 214,
       "source_line_end": 216,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P72"
       ]
@@ -183,55 +211,67 @@
     {
       "kind": "def",
       "name": "crab_pulsar",
-      "url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/crab-pulsar/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/crab-pulsar/",
       "source_line_start": 247,
       "source_line_end": 260,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/eval-l262/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/eval-l262/",
       "source_line_start": 262,
       "source_line_end": 262,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/eval-l263/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/eval-l263/",
       "source_line_start": 263,
       "source_line_end": 263,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/eval-l264/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/eval-l264/",
       "source_line_start": 264,
       "source_line_end": 264,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/eval-l265/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/eval-l265/",
       "source_line_start": 265,
       "source_line_end": 265,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-astrophysics-compact-objects/eval-l266/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-compact-objects/eval-l266/",
       "source_line_start": 266,
       "source_line_end": 268,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -243,7 +283,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -324,25 +364,25 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [CompactObjectType](/verify/taulib/docs/book-v-astrophysics-compact-objects/compact-object-type/) | L66-L75 | defined | `V.D124` |
-| `structure` | [CompactObjectData](/verify/taulib/docs/book-v-astrophysics-compact-objects/compact-object-data/) | L78-L91 | defined | — |
-| `def` | [chandrasekhar_mass_limit](/verify/taulib/docs/book-v-astrophysics-compact-objects/chandrasekhar-mass-limit/) | L98-L98 | defined | — |
-| `theorem` | [wd_mass_limit](/verify/taulib/docs/book-v-astrophysics-compact-objects/wd-mass-limit/) | L110-L112 | formalized | `V.T86` |
-| `theorem` | [ns_eos_from_defect](/verify/taulib/docs/book-v-astrophysics-compact-objects/ns-eos-from-defect/) | L125-L127 | formalized | `V.P71` |
-| `def` | [tov_mass_lower](/verify/taulib/docs/book-v-astrophysics-compact-objects/tov-mass-lower/) | L134-L134 | defined | — |
-| `def` | [tov_mass_upper](/verify/taulib/docs/book-v-astrophysics-compact-objects/tov-mass-upper/) | L135-L135 | defined | — |
-| `theorem` | [tov_maximum_mass](/verify/taulib/docs/book-v-astrophysics-compact-objects/tov-maximum-mass/) | L144-L145 | formalized | `V.T87` |
-| `inductive` | [PulsarType](/verify/taulib/docs/book-v-astrophysics-compact-objects/pulsar-type/) | L152-L159 | defined | — |
-| `structure` | [PulsarData](/verify/taulib/docs/book-v-astrophysics-compact-objects/pulsar-data/) | L166-L179 | defined | `V.D125` |
-| `def` | [mass_gap_lower](/verify/taulib/docs/book-v-astrophysics-compact-objects/mass-gap-lower/) | L186-L186 | defined | — |
-| `def` | [mass_gap_upper](/verify/taulib/docs/book-v-astrophysics-compact-objects/mass-gap-upper/) | L188-L188 | defined | — |
-| `theorem` | [mass_gap_prediction](/verify/taulib/docs/book-v-astrophysics-compact-objects/mass-gap-prediction/) | L201-L202 | formalized | `V.T88` |
-| `theorem` | [magnetar_from_vortex](/verify/taulib/docs/book-v-astrophysics-compact-objects/magnetar-from-vortex/) | L214-L216 | formalized | `V.P72` |
-| `def` | [crab_pulsar](/verify/taulib/docs/book-v-astrophysics-compact-objects/crab-pulsar/) | L247-L260 | defined | — |
-| `eval` | [#eval L262](/verify/taulib/docs/book-v-astrophysics-compact-objects/eval-l262/) | L262-L262 | computed | — |
-| `eval` | [#eval L263](/verify/taulib/docs/book-v-astrophysics-compact-objects/eval-l263/) | L263-L263 | computed | — |
-| `eval` | [#eval L264](/verify/taulib/docs/book-v-astrophysics-compact-objects/eval-l264/) | L264-L264 | computed | — |
-| `eval` | [#eval L265](/verify/taulib/docs/book-v-astrophysics-compact-objects/eval-l265/) | L265-L265 | computed | — |
-| `eval` | [#eval L266](/verify/taulib/docs/book-v-astrophysics-compact-objects/eval-l266/) | L266-L268 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [CompactObjectType](/corpus/taulib/docs/book-v-astrophysics-compact-objects/compact-object-type/) | L66-L75 | type/data schema | type/data schema | `V.D124` |
+| `structure` | [CompactObjectData](/corpus/taulib/docs/book-v-astrophysics-compact-objects/compact-object-data/) | L78-L91 | type/data schema | type/data schema | — |
+| `def` | [chandrasekhar_mass_limit](/corpus/taulib/docs/book-v-astrophysics-compact-objects/chandrasekhar-mass-limit/) | L98-L98 | data/computed value | data/computed value | — |
+| `theorem` | [wd_mass_limit](/corpus/taulib/docs/book-v-astrophysics-compact-objects/wd-mass-limit/) | L110-L112 | proof obligation | formal proof obligation checked | `V.T86` |
+| `theorem` | [ns_eos_from_defect](/corpus/taulib/docs/book-v-astrophysics-compact-objects/ns-eos-from-defect/) | L125-L127 | proof obligation | formal proof obligation checked | `V.P71` |
+| `def` | [tov_mass_lower](/corpus/taulib/docs/book-v-astrophysics-compact-objects/tov-mass-lower/) | L134-L134 | data/computed value | data/computed value | — |
+| `def` | [tov_mass_upper](/corpus/taulib/docs/book-v-astrophysics-compact-objects/tov-mass-upper/) | L135-L135 | data/computed value | data/computed value | — |
+| `theorem` | [tov_maximum_mass](/corpus/taulib/docs/book-v-astrophysics-compact-objects/tov-maximum-mass/) | L144-L145 | proof obligation | formal proof obligation checked | `V.T87` |
+| `inductive` | [PulsarType](/corpus/taulib/docs/book-v-astrophysics-compact-objects/pulsar-type/) | L152-L159 | type/data schema | type/data schema | — |
+| `structure` | [PulsarData](/corpus/taulib/docs/book-v-astrophysics-compact-objects/pulsar-data/) | L166-L179 | type/data schema | type/data schema | `V.D125` |
+| `def` | [mass_gap_lower](/corpus/taulib/docs/book-v-astrophysics-compact-objects/mass-gap-lower/) | L186-L186 | data/computed value | data/computed value | — |
+| `def` | [mass_gap_upper](/corpus/taulib/docs/book-v-astrophysics-compact-objects/mass-gap-upper/) | L188-L188 | data/computed value | data/computed value | — |
+| `theorem` | [mass_gap_prediction](/corpus/taulib/docs/book-v-astrophysics-compact-objects/mass-gap-prediction/) | L201-L202 | proof obligation | formal proof obligation checked | `V.T88` |
+| `theorem` | [magnetar_from_vortex](/corpus/taulib/docs/book-v-astrophysics-compact-objects/magnetar-from-vortex/) | L214-L216 | proof obligation | formal proof obligation checked | `V.P72` |
+| `def` | [crab_pulsar](/corpus/taulib/docs/book-v-astrophysics-compact-objects/crab-pulsar/) | L247-L260 | definition | definition | — |
+| `eval` | [#eval L262](/corpus/taulib/docs/book-v-astrophysics-compact-objects/eval-l262/) | L262-L262 | computed check | computed check | — |
+| `eval` | [#eval L263](/corpus/taulib/docs/book-v-astrophysics-compact-objects/eval-l263/) | L263-L263 | computed check | computed check | — |
+| `eval` | [#eval L264](/corpus/taulib/docs/book-v-astrophysics-compact-objects/eval-l264/) | L264-L264 | computed check | computed check | — |
+| `eval` | [#eval L265](/corpus/taulib/docs/book-v-astrophysics-compact-objects/eval-l265/) | L265-L265 | computed check | computed check | — |
+| `eval` | [#eval L266](/corpus/taulib/docs/book-v-astrophysics-compact-objects/eval-l266/) | L266-L268 | computed check | computed check | — |

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "CharacterType",
-  "permalink": "/verify/taulib/docs/book-iv-arena-boundary-holonomy/character-type/",
+  "permalink": "/corpus/taulib/docs/book-iv-arena-boundary-holonomy/character-type/",
   "summary_short": "`inductive` declaration in `TauLib.BookIV.Arena.BoundaryHolonomy`.",
   "declaration_id": "TauLib.BookIV.Arena.BoundaryHolonomy::CharacterType",
   "declaration_slug": "character-type",
   "kind": "inductive",
   "name": "CharacterType",
   "module_name": "TauLib.BookIV.Arena.BoundaryHolonomy",
-  "module_url": "/verify/taulib/docs/book-iv-arena-boundary-holonomy/",
+  "module_url": "/corpus/taulib/docs/book-iv-arena-boundary-holonomy/",
   "source_line_start": 100,
   "source_line_end": 103,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/BoundaryHolonomy.lean#L100-L103",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Arena.BoundaryHolonomy",
-        "url": "/verify/taulib/docs/book-iv-arena-boundary-holonomy/"
+        "url": "/corpus/taulib/docs/book-iv-arena-boundary-holonomy/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "inductive",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Arena.BoundaryHolonomy](/verify/taulib/docs/book-iv-arena-boundary-holonomy/)
+- Module: [TauLib.BookIV.Arena.BoundaryHolonomy](/corpus/taulib/docs/book-iv-arena-boundary-holonomy/)
 - Source path: [`TauLib/BookIV/Arena/BoundaryHolonomy.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/BoundaryHolonomy.lean#L100-L103)
 - Source range: L100-L103
 - Kind: `inductive`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

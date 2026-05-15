@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "h6_closure_synthesis",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/h6-closure-synthesis/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/h6-closure-synthesis/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Holomorphy.H6SigmaIdemHolEnd`.",
   "declaration_id": "TauLib.BookI.Holomorphy.H6SigmaIdemHolEnd::h6_closure_synthesis",
   "declaration_slug": "h6-closure-synthesis",
   "kind": "theorem",
   "name": "h6_closure_synthesis",
   "module_name": "TauLib.BookI.Holomorphy.H6SigmaIdemHolEnd",
-  "module_url": "/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/",
+  "module_url": "/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/",
   "source_line_start": 339,
   "source_line_end": 362,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/H6SigmaIdemHolEnd.lean#L339-L362",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Holomorphy.H6SigmaIdemHolEnd",
-        "url": "/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/"
+        "url": "/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Holomorphy.H6SigmaIdemHolEnd](/verify/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/)
+- Module: [TauLib.BookI.Holomorphy.H6SigmaIdemHolEnd](/corpus/taulib/docs/book-i-holomorphy-h6-sigma-idem-hol-end/)
 - Source path: [`TauLib/BookI/Holomorphy/H6SigmaIdemHolEnd.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/H6SigmaIdemHolEnd.lean#L339-L362)
 - Source range: L339-L362
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

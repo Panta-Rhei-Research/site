@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.Thermodynamics.HeatEM",
-  "permalink": "/verify/taulib/docs/book-v-thermodynamics-heat-em/",
+  "permalink": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.Thermodynamics.HeatEM`.",
   "module_name": "TauLib.BookV.Thermodynamics.HeatEM",
   "module_slug": "book-v-thermodynamics-heat-em",
@@ -43,10 +43,12 @@
     {
       "kind": "theorem",
       "name": "artificial_trichotomy",
-      "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/artificial-trichotomy/",
+      "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/artificial-trichotomy/",
       "source_line_start": 64,
       "source_line_end": 66,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.R128"
       ]
@@ -54,28 +56,34 @@
     {
       "kind": "inductive",
       "name": "TransportMode",
-      "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/transport-mode/",
+      "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/transport-mode/",
       "source_line_start": 73,
       "source_line_end": 80,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TransportMode.sector",
-      "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/sector/",
+      "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/sector/",
       "source_line_start": 83,
       "source_line_end": 83,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "EMEnergyTransport",
-      "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/emenergy-transport/",
+      "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/emenergy-transport/",
       "source_line_start": 90,
       "source_line_end": 101,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D91"
       ]
@@ -83,19 +91,23 @@
     {
       "kind": "theorem",
       "name": "transport_default_b",
-      "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/transport-default-b/",
+      "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/transport-default-b/",
       "source_line_start": 104,
       "source_line_end": 105,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "radiation_is_b_sector",
-      "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/radiation-is-b-sector/",
+      "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/radiation-is-b-sector/",
       "source_line_start": 115,
       "source_line_end": 116,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P34"
       ]
@@ -103,10 +115,12 @@
     {
       "kind": "theorem",
       "name": "conduction_is_b_sector",
-      "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/conduction-is-b-sector/",
+      "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/conduction-is-b-sector/",
       "source_line_start": 127,
       "source_line_end": 128,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P35"
       ]
@@ -114,10 +128,12 @@
     {
       "kind": "theorem",
       "name": "convection_is_b_sector",
-      "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/convection-is-b-sector/",
+      "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/convection-is-b-sector/",
       "source_line_start": 139,
       "source_line_end": 140,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P36"
       ]
@@ -125,10 +141,12 @@
     {
       "kind": "theorem",
       "name": "alpha_governs_transport",
-      "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/alpha-governs-transport/",
+      "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/alpha-governs-transport/",
       "source_line_start": 154,
       "source_line_end": 156,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T63"
       ]
@@ -136,10 +154,12 @@
     {
       "kind": "theorem",
       "name": "why_alpha_not_iota_sq",
-      "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/why-alpha-not-iota-sq/",
+      "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/why-alpha-not-iota-sq/",
       "source_line_start": 168,
       "source_line_end": 170,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.R129"
       ]
@@ -147,10 +167,12 @@
     {
       "kind": "structure",
       "name": "GeometricRelaxation",
-      "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/geometric-relaxation/",
+      "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/geometric-relaxation/",
       "source_line_start": 183,
       "source_line_end": 196,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D92"
       ]
@@ -158,10 +180,12 @@
     {
       "kind": "structure",
       "name": "TopologicalRelaxation",
-      "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/topological-relaxation/",
+      "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/topological-relaxation/",
       "source_line_start": 208,
       "source_line_end": 217,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D93"
       ]
@@ -169,10 +193,12 @@
     {
       "kind": "theorem",
       "name": "relaxation_hierarchy",
-      "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/relaxation-hierarchy/",
+      "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/relaxation-hierarchy/",
       "source_line_start": 229,
       "source_line_end": 231,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P37"
       ]
@@ -180,10 +206,12 @@
     {
       "kind": "structure",
       "name": "HeatIsEM",
-      "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/heat-is-em/",
+      "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/heat-is-em/",
       "source_line_start": 244,
       "source_line_end": 252,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.T64"
       ]
@@ -191,82 +219,100 @@
     {
       "kind": "theorem",
       "name": "heat_is_em_unified",
-      "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/heat-is-em-unified/",
+      "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/heat-is-em-unified/",
       "source_line_start": 255,
       "source_line_end": 256,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "all_modes_b_sector",
-      "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/all-modes-b-sector/",
+      "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/all-modes-b-sector/",
       "source_line_start": 259,
       "source_line_end": 261,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "example_radiation",
-      "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/example-radiation/",
+      "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/example-radiation/",
       "source_line_start": 268,
       "source_line_end": 272,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/eval-l274/",
+      "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/eval-l274/",
       "source_line_start": 274,
       "source_line_end": 274,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/eval-l275/",
+      "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/eval-l275/",
       "source_line_start": 275,
       "source_line_end": 275,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "example_geo_relax",
-      "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/example-geo-relax/",
+      "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/example-geo-relax/",
       "source_line_start": 278,
       "source_line_end": 283,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/eval-l285/",
+      "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/eval-l285/",
       "source_line_start": 285,
       "source_line_end": 285,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "example_top_relax",
-      "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/example-top-relax/",
+      "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/example-top-relax/",
       "source_line_start": 288,
       "source_line_end": 291,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/eval-l293/",
+      "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/eval-l293/",
       "source_line_start": 293,
       "source_line_end": 295,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -278,7 +324,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -359,28 +405,28 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `theorem` | [artificial_trichotomy](/verify/taulib/docs/book-v-thermodynamics-heat-em/artificial-trichotomy/) | L64-L66 | formalized | `V.R128` |
-| `inductive` | [TransportMode](/verify/taulib/docs/book-v-thermodynamics-heat-em/transport-mode/) | L73-L80 | defined | — |
-| `def` | [TransportMode.sector](/verify/taulib/docs/book-v-thermodynamics-heat-em/sector/) | L83-L83 | defined | — |
-| `structure` | [EMEnergyTransport](/verify/taulib/docs/book-v-thermodynamics-heat-em/emenergy-transport/) | L90-L101 | defined | `V.D91` |
-| `theorem` | [transport_default_b](/verify/taulib/docs/book-v-thermodynamics-heat-em/transport-default-b/) | L104-L105 | formalized | — |
-| `theorem` | [radiation_is_b_sector](/verify/taulib/docs/book-v-thermodynamics-heat-em/radiation-is-b-sector/) | L115-L116 | formalized | `V.P34` |
-| `theorem` | [conduction_is_b_sector](/verify/taulib/docs/book-v-thermodynamics-heat-em/conduction-is-b-sector/) | L127-L128 | formalized | `V.P35` |
-| `theorem` | [convection_is_b_sector](/verify/taulib/docs/book-v-thermodynamics-heat-em/convection-is-b-sector/) | L139-L140 | formalized | `V.P36` |
-| `theorem` | [alpha_governs_transport](/verify/taulib/docs/book-v-thermodynamics-heat-em/alpha-governs-transport/) | L154-L156 | formalized | `V.T63` |
-| `theorem` | [why_alpha_not_iota_sq](/verify/taulib/docs/book-v-thermodynamics-heat-em/why-alpha-not-iota-sq/) | L168-L170 | formalized | `V.R129` |
-| `structure` | [GeometricRelaxation](/verify/taulib/docs/book-v-thermodynamics-heat-em/geometric-relaxation/) | L183-L196 | defined | `V.D92` |
-| `structure` | [TopologicalRelaxation](/verify/taulib/docs/book-v-thermodynamics-heat-em/topological-relaxation/) | L208-L217 | defined | `V.D93` |
-| `theorem` | [relaxation_hierarchy](/verify/taulib/docs/book-v-thermodynamics-heat-em/relaxation-hierarchy/) | L229-L231 | formalized | `V.P37` |
-| `structure` | [HeatIsEM](/verify/taulib/docs/book-v-thermodynamics-heat-em/heat-is-em/) | L244-L252 | defined | `V.T64` |
-| `theorem` | [heat_is_em_unified](/verify/taulib/docs/book-v-thermodynamics-heat-em/heat-is-em-unified/) | L255-L256 | formalized | — |
-| `theorem` | [all_modes_b_sector](/verify/taulib/docs/book-v-thermodynamics-heat-em/all-modes-b-sector/) | L259-L261 | formalized | — |
-| `def` | [example_radiation](/verify/taulib/docs/book-v-thermodynamics-heat-em/example-radiation/) | L268-L272 | defined | — |
-| `eval` | [#eval L274](/verify/taulib/docs/book-v-thermodynamics-heat-em/eval-l274/) | L274-L274 | computed | — |
-| `eval` | [#eval L275](/verify/taulib/docs/book-v-thermodynamics-heat-em/eval-l275/) | L275-L275 | computed | — |
-| `def` | [example_geo_relax](/verify/taulib/docs/book-v-thermodynamics-heat-em/example-geo-relax/) | L278-L283 | defined | — |
-| `eval` | [#eval L285](/verify/taulib/docs/book-v-thermodynamics-heat-em/eval-l285/) | L285-L285 | computed | — |
-| `def` | [example_top_relax](/verify/taulib/docs/book-v-thermodynamics-heat-em/example-top-relax/) | L288-L291 | defined | — |
-| `eval` | [#eval L293](/verify/taulib/docs/book-v-thermodynamics-heat-em/eval-l293/) | L293-L295 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `theorem` | [artificial_trichotomy](/corpus/taulib/docs/book-v-thermodynamics-heat-em/artificial-trichotomy/) | L64-L66 | proof obligation | formal proof obligation checked | `V.R128` |
+| `inductive` | [TransportMode](/corpus/taulib/docs/book-v-thermodynamics-heat-em/transport-mode/) | L73-L80 | type/data schema | type/data schema | — |
+| `def` | [TransportMode.sector](/corpus/taulib/docs/book-v-thermodynamics-heat-em/sector/) | L83-L83 | definition | definition | — |
+| `structure` | [EMEnergyTransport](/corpus/taulib/docs/book-v-thermodynamics-heat-em/emenergy-transport/) | L90-L101 | type/data schema | type/data schema | `V.D91` |
+| `theorem` | [transport_default_b](/corpus/taulib/docs/book-v-thermodynamics-heat-em/transport-default-b/) | L104-L105 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [radiation_is_b_sector](/corpus/taulib/docs/book-v-thermodynamics-heat-em/radiation-is-b-sector/) | L115-L116 | proof obligation | formal proof obligation checked | `V.P34` |
+| `theorem` | [conduction_is_b_sector](/corpus/taulib/docs/book-v-thermodynamics-heat-em/conduction-is-b-sector/) | L127-L128 | proof obligation | formal proof obligation checked | `V.P35` |
+| `theorem` | [convection_is_b_sector](/corpus/taulib/docs/book-v-thermodynamics-heat-em/convection-is-b-sector/) | L139-L140 | proof obligation | formal proof obligation checked | `V.P36` |
+| `theorem` | [alpha_governs_transport](/corpus/taulib/docs/book-v-thermodynamics-heat-em/alpha-governs-transport/) | L154-L156 | proof obligation | formal proof obligation checked | `V.T63` |
+| `theorem` | [why_alpha_not_iota_sq](/corpus/taulib/docs/book-v-thermodynamics-heat-em/why-alpha-not-iota-sq/) | L168-L170 | proof obligation | formal proof obligation checked | `V.R129` |
+| `structure` | [GeometricRelaxation](/corpus/taulib/docs/book-v-thermodynamics-heat-em/geometric-relaxation/) | L183-L196 | type/data schema | type/data schema | `V.D92` |
+| `structure` | [TopologicalRelaxation](/corpus/taulib/docs/book-v-thermodynamics-heat-em/topological-relaxation/) | L208-L217 | type/data schema | type/data schema | `V.D93` |
+| `theorem` | [relaxation_hierarchy](/corpus/taulib/docs/book-v-thermodynamics-heat-em/relaxation-hierarchy/) | L229-L231 | proof obligation | formal proof obligation checked | `V.P37` |
+| `structure` | [HeatIsEM](/corpus/taulib/docs/book-v-thermodynamics-heat-em/heat-is-em/) | L244-L252 | type/data schema | type/data schema | `V.T64` |
+| `theorem` | [heat_is_em_unified](/corpus/taulib/docs/book-v-thermodynamics-heat-em/heat-is-em-unified/) | L255-L256 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [all_modes_b_sector](/corpus/taulib/docs/book-v-thermodynamics-heat-em/all-modes-b-sector/) | L259-L261 | proof obligation | formal proof obligation checked | — |
+| `def` | [example_radiation](/corpus/taulib/docs/book-v-thermodynamics-heat-em/example-radiation/) | L268-L272 | definition | definition | — |
+| `eval` | [#eval L274](/corpus/taulib/docs/book-v-thermodynamics-heat-em/eval-l274/) | L274-L274 | computed check | computed check | — |
+| `eval` | [#eval L275](/corpus/taulib/docs/book-v-thermodynamics-heat-em/eval-l275/) | L275-L275 | computed check | computed check | — |
+| `def` | [example_geo_relax](/corpus/taulib/docs/book-v-thermodynamics-heat-em/example-geo-relax/) | L278-L283 | definition | definition | — |
+| `eval` | [#eval L285](/corpus/taulib/docs/book-v-thermodynamics-heat-em/eval-l285/) | L285-L285 | computed check | computed check | — |
+| `def` | [example_top_relax](/corpus/taulib/docs/book-v-thermodynamics-heat-em/example-top-relax/) | L288-L291 | definition | definition | — |
+| `eval` | [#eval L293](/corpus/taulib/docs/book-v-thermodynamics-heat-em/eval-l293/) | L293-L295 | computed check | computed check | — |

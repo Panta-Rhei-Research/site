@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "RepairBudget",
-  "permalink": "/verify/taulib/docs/book-vi-closure-ecosystem/repair-budget/",
+  "permalink": "/corpus/taulib/docs/book-vi-closure-ecosystem/repair-budget/",
   "summary_short": "`structure` declaration in `TauLib.BookVI.Closure.Ecosystem`.",
   "declaration_id": "TauLib.BookVI.Closure.Ecosystem::RepairBudget",
   "declaration_slug": "repair-budget",
   "kind": "structure",
   "name": "RepairBudget",
   "module_name": "TauLib.BookVI.Closure.Ecosystem",
-  "module_url": "/verify/taulib/docs/book-vi-closure-ecosystem/",
+  "module_url": "/corpus/taulib/docs/book-vi-closure-ecosystem/",
   "source_line_start": 97,
   "source_line_end": 104,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Closure/Ecosystem.lean#L97-L104",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Closure.Ecosystem",
-        "url": "/verify/taulib/docs/book-vi-closure-ecosystem/"
+        "url": "/corpus/taulib/docs/book-vi-closure-ecosystem/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Closure.Ecosystem](/verify/taulib/docs/book-vi-closure-ecosystem/)
+- Module: [TauLib.BookVI.Closure.Ecosystem](/corpus/taulib/docs/book-vi-closure-ecosystem/)
 - Source path: [`TauLib/BookVI/Closure/Ecosystem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Closure/Ecosystem.lean#L97-L104)
 - Source range: L97-L104
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

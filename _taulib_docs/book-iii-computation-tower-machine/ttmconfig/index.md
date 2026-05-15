@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TTMConfig",
-  "permalink": "/verify/taulib/docs/book-iii-computation-tower-machine/ttmconfig/",
+  "permalink": "/corpus/taulib/docs/book-iii-computation-tower-machine/ttmconfig/",
   "summary_short": "`structure` declaration in `TauLib.BookIII.Computation.TowerMachine`.",
   "declaration_id": "TauLib.BookIII.Computation.TowerMachine::TTMConfig",
   "declaration_slug": "ttmconfig",
   "kind": "structure",
   "name": "TTMConfig",
   "module_name": "TauLib.BookIII.Computation.TowerMachine",
-  "module_url": "/verify/taulib/docs/book-iii-computation-tower-machine/",
+  "module_url": "/corpus/taulib/docs/book-iii-computation-tower-machine/",
   "source_line_start": 43,
   "source_line_end": 48,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Computation/TowerMachine.lean#L43-L48",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Computation.TowerMachine",
-        "url": "/verify/taulib/docs/book-iii-computation-tower-machine/"
+        "url": "/corpus/taulib/docs/book-iii-computation-tower-machine/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Computation.TowerMachine](/verify/taulib/docs/book-iii-computation-tower-machine/)
+- Module: [TauLib.BookIII.Computation.TowerMachine](/corpus/taulib/docs/book-iii-computation-tower-machine/)
 - Source path: [`TauLib/BookIII/Computation/TowerMachine.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Computation/TowerMachine.lean#L43-L48)
 - Source range: L43-L48
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

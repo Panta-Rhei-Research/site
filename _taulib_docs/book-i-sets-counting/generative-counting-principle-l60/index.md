@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "generative_counting_principle",
-  "permalink": "/verify/taulib/docs/book-i-sets-counting/generative-counting-principle-l60/",
+  "permalink": "/corpus/taulib/docs/book-i-sets-counting/generative-counting-principle-l60/",
   "summary_short": "`def` declaration in `TauLib.BookI.Sets.Counting`.",
   "declaration_id": "TauLib.BookI.Sets.Counting::generative_counting_principle",
   "declaration_slug": "generative-counting-principle-l60",
   "kind": "def",
   "name": "generative_counting_principle",
   "module_name": "TauLib.BookI.Sets.Counting",
-  "module_url": "/verify/taulib/docs/book-i-sets-counting/",
+  "module_url": "/corpus/taulib/docs/book-i-sets-counting/",
   "source_line_start": 60,
   "source_line_end": 68,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Counting.lean#L60-L68",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Sets.Counting",
-        "url": "/verify/taulib/docs/book-i-sets-counting/"
+        "url": "/corpus/taulib/docs/book-i-sets-counting/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Sets.Counting](/verify/taulib/docs/book-i-sets-counting/)
+- Module: [TauLib.BookI.Sets.Counting](/corpus/taulib/docs/book-i-sets-counting/)
 - Source path: [`TauLib/BookI/Sets/Counting.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Counting.lean#L60-L68)
 - Source range: L60-L68
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

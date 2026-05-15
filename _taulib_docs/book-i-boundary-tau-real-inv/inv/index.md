@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauReal.inv",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-real-inv/inv/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-real-inv/inv/",
   "summary_short": "`def` declaration in `TauLib.BookI.Boundary.TauRealInv`.",
   "declaration_id": "TauLib.BookI.Boundary.TauRealInv::TauReal.inv",
   "declaration_slug": "inv",
   "kind": "def",
   "name": "TauReal.inv",
   "module_name": "TauLib.BookI.Boundary.TauRealInv",
-  "module_url": "/verify/taulib/docs/book-i-boundary-tau-real-inv/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-tau-real-inv/",
   "source_line_start": 112,
   "source_line_end": 114,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealInv.lean#L112-L114",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.TauRealInv",
-        "url": "/verify/taulib/docs/book-i-boundary-tau-real-inv/"
+        "url": "/corpus/taulib/docs/book-i-boundary-tau-real-inv/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.TauRealInv](/verify/taulib/docs/book-i-boundary-tau-real-inv/)
+- Module: [TauLib.BookI.Boundary.TauRealInv](/corpus/taulib/docs/book-i-boundary-tau-real-inv/)
 - Source path: [`TauLib/BookI/Boundary/TauRealInv.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealInv.lean#L112-L114)
 - Source range: L112-L114
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

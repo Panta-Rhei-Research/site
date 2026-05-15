@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "auto_shift",
-  "permalink": "/verify/taulib/docs/book-i-orbit-rigidity/auto-shift/",
+  "permalink": "/corpus/taulib/docs/book-i-orbit-rigidity/auto-shift/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Orbit.Rigidity`.",
   "declaration_id": "TauLib.BookI.Orbit.Rigidity::auto_shift",
   "declaration_slug": "auto-shift",
   "kind": "theorem",
   "name": "auto_shift",
   "module_name": "TauLib.BookI.Orbit.Rigidity",
-  "module_url": "/verify/taulib/docs/book-i-orbit-rigidity/",
+  "module_url": "/corpus/taulib/docs/book-i-orbit-rigidity/",
   "source_line_start": 53,
   "source_line_end": 61,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/Rigidity.lean#L53-L61",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Orbit.Rigidity",
-        "url": "/verify/taulib/docs/book-i-orbit-rigidity/"
+        "url": "/corpus/taulib/docs/book-i-orbit-rigidity/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Orbit.Rigidity](/verify/taulib/docs/book-i-orbit-rigidity/)
+- Module: [TauLib.BookI.Orbit.Rigidity](/corpus/taulib/docs/book-i-orbit-rigidity/)
 - Source path: [`TauLib/BookI/Orbit/Rigidity.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/Rigidity.lean#L53-L61)
 - Source range: L53-L61
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

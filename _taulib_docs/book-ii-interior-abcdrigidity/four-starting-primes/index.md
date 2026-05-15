@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "four_starting_primes",
-  "permalink": "/verify/taulib/docs/book-ii-interior-abcdrigidity/four-starting-primes/",
+  "permalink": "/corpus/taulib/docs/book-ii-interior-abcdrigidity/four-starting-primes/",
   "summary_short": "`def` declaration in `TauLib.BookII.Interior.ABCDRigidity`.",
   "declaration_id": "TauLib.BookII.Interior.ABCDRigidity::four_starting_primes",
   "declaration_slug": "four-starting-primes",
   "kind": "def",
   "name": "four_starting_primes",
   "module_name": "TauLib.BookII.Interior.ABCDRigidity",
-  "module_url": "/verify/taulib/docs/book-ii-interior-abcdrigidity/",
+  "module_url": "/corpus/taulib/docs/book-ii-interior-abcdrigidity/",
   "source_line_start": 93,
   "source_line_end": 93,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Interior/ABCDRigidity.lean#L93-L93",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Interior.ABCDRigidity",
-        "url": "/verify/taulib/docs/book-ii-interior-abcdrigidity/"
+        "url": "/corpus/taulib/docs/book-ii-interior-abcdrigidity/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Interior.ABCDRigidity](/verify/taulib/docs/book-ii-interior-abcdrigidity/)
+- Module: [TauLib.BookII.Interior.ABCDRigidity](/corpus/taulib/docs/book-ii-interior-abcdrigidity/)
 - Source path: [`TauLib/BookII/Interior/ABCDRigidity.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Interior/ABCDRigidity.lean#L93-L93)
 - Source range: L93-L93
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

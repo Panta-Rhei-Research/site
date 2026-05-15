@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "RefinedCoherenceHorizon",
-  "permalink": "/verify/taulib/docs/book-v-thermodynamics-defect-exhaustion/refined-coherence-horizon/",
+  "permalink": "/corpus/taulib/docs/book-v-thermodynamics-defect-exhaustion/refined-coherence-horizon/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Thermodynamics.DefectExhaustion`.",
   "declaration_id": "TauLib.BookV.Thermodynamics.DefectExhaustion::RefinedCoherenceHorizon",
   "declaration_slug": "refined-coherence-horizon",
   "kind": "structure",
   "name": "RefinedCoherenceHorizon",
   "module_name": "TauLib.BookV.Thermodynamics.DefectExhaustion",
-  "module_url": "/verify/taulib/docs/book-v-thermodynamics-defect-exhaustion/",
+  "module_url": "/corpus/taulib/docs/book-v-thermodynamics-defect-exhaustion/",
   "source_line_start": 182,
   "source_line_end": 193,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/DefectExhaustion.lean#L182-L193",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Thermodynamics.DefectExhaustion",
-        "url": "/verify/taulib/docs/book-v-thermodynamics-defect-exhaustion/"
+        "url": "/corpus/taulib/docs/book-v-thermodynamics-defect-exhaustion/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Thermodynamics.DefectExhaustion](/verify/taulib/docs/book-v-thermodynamics-defect-exhaustion/)
+- Module: [TauLib.BookV.Thermodynamics.DefectExhaustion](/corpus/taulib/docs/book-v-thermodynamics-defect-exhaustion/)
 - Source path: [`TauLib/BookV/Thermodynamics/DefectExhaustion.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/DefectExhaustion.lean#L182-L193)
 - Source range: L182-L193
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

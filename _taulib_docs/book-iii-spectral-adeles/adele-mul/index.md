@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "adele_mul",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-adeles/adele-mul/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-adeles/adele-mul/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Spectral.Adeles`.",
   "declaration_id": "TauLib.BookIII.Spectral.Adeles::adele_mul",
   "declaration_slug": "adele-mul",
   "kind": "def",
   "name": "adele_mul",
   "module_name": "TauLib.BookIII.Spectral.Adeles",
-  "module_url": "/verify/taulib/docs/book-iii-spectral-adeles/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectral-adeles/",
   "source_line_start": 64,
   "source_line_end": 76,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/Adeles.lean#L64-L76",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectral.Adeles",
-        "url": "/verify/taulib/docs/book-iii-spectral-adeles/"
+        "url": "/corpus/taulib/docs/book-iii-spectral-adeles/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectral.Adeles](/verify/taulib/docs/book-iii-spectral-adeles/)
+- Module: [TauLib.BookIII.Spectral.Adeles](/corpus/taulib/docs/book-iii-spectral-adeles/)
 - Source path: [`TauLib/BookIII/Spectral/Adeles.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/Adeles.lean#L64-L76)
 - Source range: L64-L76
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

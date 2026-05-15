@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "planck_character_unique_minimum",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge-ext/planck-character-unique-minimum/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge-ext/planck-character-unique-minimum/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Calibration.DimensionalBridgeExt`.",
   "declaration_id": "TauLib.BookIV.Calibration.DimensionalBridgeExt::planck_character_unique_minimum",
   "declaration_slug": "planck-character-unique-minimum",
   "kind": "theorem",
   "name": "planck_character_unique_minimum",
   "module_name": "TauLib.BookIV.Calibration.DimensionalBridgeExt",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge-ext/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge-ext/",
   "source_line_start": 277,
   "source_line_end": 278,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/DimensionalBridgeExt.lean#L277-L278",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.DimensionalBridgeExt",
-        "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge-ext/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge-ext/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.DimensionalBridgeExt](/verify/taulib/docs/book-iv-calibration-dimensional-bridge-ext/)
+- Module: [TauLib.BookIV.Calibration.DimensionalBridgeExt](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge-ext/)
 - Source path: [`TauLib/BookIV/Calibration/DimensionalBridgeExt.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/DimensionalBridgeExt.lean#L277-L278)
 - Source range: L277-L278
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "DefectInverseSystem.intersection_iff",
-  "permalink": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/intersection-iff/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/intersection-iff/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.DefectInverseSystem`.",
   "declaration_id": "TauLib.BookI.Boundary.DefectInverseSystem::DefectInverseSystem.intersection_iff",
   "declaration_slug": "intersection-iff",
   "kind": "theorem",
   "name": "DefectInverseSystem.intersection_iff",
   "module_name": "TauLib.BookI.Boundary.DefectInverseSystem",
-  "module_url": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/",
   "source_line_start": 275,
   "source_line_end": 283,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/DefectInverseSystem.lean#L275-L283",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.DefectInverseSystem",
-        "url": "/verify/taulib/docs/book-i-boundary-defect-inverse-system/"
+        "url": "/corpus/taulib/docs/book-i-boundary-defect-inverse-system/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.DefectInverseSystem](/verify/taulib/docs/book-i-boundary-defect-inverse-system/)
+- Module: [TauLib.BookI.Boundary.DefectInverseSystem](/corpus/taulib/docs/book-i-boundary-defect-inverse-system/)
 - Source path: [`TauLib/BookI/Boundary/DefectInverseSystem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/DefectInverseSystem.lean#L275-L283)
 - Source range: L275-L283
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "example at L85",
-  "permalink": "/verify/taulib/docs/book-i-denotation-growth-escape/example-l85/",
+  "permalink": "/corpus/taulib/docs/book-i-denotation-growth-escape/example-l85/",
   "summary_short": "`example` declaration in `TauLib.BookI.Denotation.GrowthEscape`.",
   "declaration_id": "TauLib.BookI.Denotation.GrowthEscape::#eval:85",
   "declaration_slug": "example-l85",
   "kind": "example",
   "name": null,
   "module_name": "TauLib.BookI.Denotation.GrowthEscape",
-  "module_url": "/verify/taulib/docs/book-i-denotation-growth-escape/",
+  "module_url": "/corpus/taulib/docs/book-i-denotation-growth-escape/",
   "source_line_start": 85,
   "source_line_end": 85,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/GrowthEscape.lean#L85-L85",
   "formal_status": "example",
+  "declaration_role": "example check",
+  "formal_status_label": "example",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Denotation.GrowthEscape",
-        "url": "/verify/taulib/docs/book-i-denotation-growth-escape/"
+        "url": "/corpus/taulib/docs/book-i-denotation-growth-escape/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,6 +43,7 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "example",
+      "role": "example check",
       "status": "example"
     }
   },
@@ -62,10 +65,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Denotation.GrowthEscape](/verify/taulib/docs/book-i-denotation-growth-escape/)
+- Module: [TauLib.BookI.Denotation.GrowthEscape](/corpus/taulib/docs/book-i-denotation-growth-escape/)
 - Source path: [`TauLib/BookI/Denotation/GrowthEscape.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/GrowthEscape.lean#L85-L85)
 - Source range: L85-L85
 - Kind: `example`
+- Public role: `example check`
 - Formal status hint: `example`
 
 ## Registry Links

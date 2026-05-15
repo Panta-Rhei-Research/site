@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "forget_pessimistic_preserves_neg",
-  "permalink": "/verify/taulib/docs/book-i-logic-boolean-recovery/forget-pessimistic-preserves-neg/",
+  "permalink": "/corpus/taulib/docs/book-i-logic-boolean-recovery/forget-pessimistic-preserves-neg/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Logic.BooleanRecovery`.",
   "declaration_id": "TauLib.BookI.Logic.BooleanRecovery::forget_pessimistic_preserves_neg",
   "declaration_slug": "forget-pessimistic-preserves-neg",
   "kind": "theorem",
   "name": "forget_pessimistic_preserves_neg",
   "module_name": "TauLib.BookI.Logic.BooleanRecovery",
-  "module_url": "/verify/taulib/docs/book-i-logic-boolean-recovery/",
+  "module_url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/",
   "source_line_start": 118,
   "source_line_end": 120,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Logic/BooleanRecovery.lean#L118-L120",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Logic.BooleanRecovery",
-        "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/"
+        "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Logic.BooleanRecovery](/verify/taulib/docs/book-i-logic-boolean-recovery/)
+- Module: [TauLib.BookI.Logic.BooleanRecovery](/corpus/taulib/docs/book-i-logic-boolean-recovery/)
 - Source path: [`TauLib/BookI/Logic/BooleanRecovery.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Logic/BooleanRecovery.lean#L118-L120)
 - Source range: L118-L120
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

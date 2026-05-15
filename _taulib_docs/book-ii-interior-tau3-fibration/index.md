@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookII.Interior.Tau3Fibration",
-  "permalink": "/verify/taulib/docs/book-ii-interior-tau3-fibration/",
+  "permalink": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookII.Interior.Tau3Fibration`.",
   "module_name": "TauLib.BookII.Interior.Tau3Fibration",
   "module_slug": "book-ii-interior-tau3-fibration",
@@ -36,10 +36,12 @@
     {
       "kind": "structure",
       "name": "BaseTau1",
-      "url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/base-tau1/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/base-tau1/",
       "source_line_start": 44,
       "source_line_end": 47,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "II.D05"
       ]
@@ -47,19 +49,23 @@
     {
       "kind": "def",
       "name": "BaseTau1.valid",
-      "url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/valid/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/valid/",
       "source_line_start": 50,
       "source_line_end": 51,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "FiberT2",
-      "url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/fiber-t2/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/fiber-t2/",
       "source_line_start": 61,
       "source_line_end": 64,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "II.D06"
       ]
@@ -67,10 +73,12 @@
     {
       "kind": "structure",
       "name": "Tau3",
-      "url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/tau3/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/tau3/",
       "source_line_start": 72,
       "source_line_end": 75,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "II.D07"
       ]
@@ -78,172 +86,210 @@
     {
       "kind": "def",
       "name": "to_tau3",
-      "url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/to-tau3/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/to-tau3/",
       "source_line_start": 78,
       "source_line_end": 79,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "from_tau3",
-      "url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/from-tau3/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/from-tau3/",
       "source_line_start": 82,
       "source_line_end": 83,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "tau3_proj",
-      "url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/tau3-proj/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/tau3-proj/",
       "source_line_start": 86,
       "source_line_end": 86,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "tau3_fiber_proj",
-      "url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/tau3-fiber-proj/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/tau3-fiber-proj/",
       "source_line_start": 89,
       "source_line_end": 89,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tau3_round_trip",
-      "url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/tau3-round-trip/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/tau3-round-trip/",
       "source_line_start": 96,
       "source_line_end": 98,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tau3_round_trip'",
-      "url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/tau3-round-trip-l101/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/tau3-round-trip-l101/",
       "source_line_start": 101,
       "source_line_end": 103,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "proj_surjective_check",
-      "url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/proj-surjective-check/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/proj-surjective-check/",
       "source_line_start": 111,
       "source_line_end": 121,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "non_trivial_check",
-      "url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/non-trivial-check/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/non-trivial-check/",
       "source_line_start": 130,
       "source_line_end": 142,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "faithful_check",
-      "url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/faithful-check/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/faithful-check/",
       "source_line_start": 146,
       "source_line_end": 156,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/eval-l163/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/eval-l163/",
       "source_line_start": 163,
       "source_line_end": 163,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/eval-l164/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/eval-l164/",
       "source_line_start": 164,
       "source_line_end": 164,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/eval-l165/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/eval-l165/",
       "source_line_start": 165,
       "source_line_end": 165,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/eval-l168/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/eval-l168/",
       "source_line_start": 168,
       "source_line_end": 168,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/eval-l169/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/eval-l169/",
       "source_line_start": 169,
       "source_line_end": 169,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/eval-l172/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/eval-l172/",
       "source_line_start": 172,
       "source_line_end": 172,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/eval-l173/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/eval-l173/",
       "source_line_start": 173,
       "source_line_end": 173,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/eval-l174/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/eval-l174/",
       "source_line_start": 174,
       "source_line_end": 174,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "surjective_2_to_20",
-      "url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/surjective-2-to-20/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/surjective-2-to-20/",
       "source_line_start": 177,
       "source_line_end": 177,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "faithful_2_to_50",
-      "url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/faithful-2-to-50/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/faithful-2-to-50/",
       "source_line_start": 178,
       "source_line_end": 180,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -255,7 +301,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -329,28 +375,28 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [BaseTau1](/verify/taulib/docs/book-ii-interior-tau3-fibration/base-tau1/) | L44-L47 | defined | `II.D05` |
-| `def` | [BaseTau1.valid](/verify/taulib/docs/book-ii-interior-tau3-fibration/valid/) | L50-L51 | defined | — |
-| `structure` | [FiberT2](/verify/taulib/docs/book-ii-interior-tau3-fibration/fiber-t2/) | L61-L64 | defined | `II.D06` |
-| `structure` | [Tau3](/verify/taulib/docs/book-ii-interior-tau3-fibration/tau3/) | L72-L75 | defined | `II.D07` |
-| `def` | [to_tau3](/verify/taulib/docs/book-ii-interior-tau3-fibration/to-tau3/) | L78-L79 | defined | — |
-| `def` | [from_tau3](/verify/taulib/docs/book-ii-interior-tau3-fibration/from-tau3/) | L82-L83 | defined | — |
-| `def` | [tau3_proj](/verify/taulib/docs/book-ii-interior-tau3-fibration/tau3-proj/) | L86-L86 | defined | — |
-| `def` | [tau3_fiber_proj](/verify/taulib/docs/book-ii-interior-tau3-fibration/tau3-fiber-proj/) | L89-L89 | defined | — |
-| `theorem` | [tau3_round_trip](/verify/taulib/docs/book-ii-interior-tau3-fibration/tau3-round-trip/) | L96-L98 | formalized | — |
-| `theorem` | [tau3_round_trip'](/verify/taulib/docs/book-ii-interior-tau3-fibration/tau3-round-trip-l101/) | L101-L103 | formalized | — |
-| `def` | [proj_surjective_check](/verify/taulib/docs/book-ii-interior-tau3-fibration/proj-surjective-check/) | L111-L121 | defined | — |
-| `def` | [non_trivial_check](/verify/taulib/docs/book-ii-interior-tau3-fibration/non-trivial-check/) | L130-L142 | defined | — |
-| `def` | [faithful_check](/verify/taulib/docs/book-ii-interior-tau3-fibration/faithful-check/) | L146-L156 | defined | — |
-| `eval` | [#eval L163](/verify/taulib/docs/book-ii-interior-tau3-fibration/eval-l163/) | L163-L163 | computed | — |
-| `eval` | [#eval L164](/verify/taulib/docs/book-ii-interior-tau3-fibration/eval-l164/) | L164-L164 | computed | — |
-| `eval` | [#eval L165](/verify/taulib/docs/book-ii-interior-tau3-fibration/eval-l165/) | L165-L165 | computed | — |
-| `eval` | [#eval L168](/verify/taulib/docs/book-ii-interior-tau3-fibration/eval-l168/) | L168-L168 | computed | — |
-| `eval` | [#eval L169](/verify/taulib/docs/book-ii-interior-tau3-fibration/eval-l169/) | L169-L169 | computed | — |
-| `eval` | [#eval L172](/verify/taulib/docs/book-ii-interior-tau3-fibration/eval-l172/) | L172-L172 | computed | — |
-| `eval` | [#eval L173](/verify/taulib/docs/book-ii-interior-tau3-fibration/eval-l173/) | L173-L173 | computed | — |
-| `eval` | [#eval L174](/verify/taulib/docs/book-ii-interior-tau3-fibration/eval-l174/) | L174-L174 | computed | — |
-| `theorem` | [surjective_2_to_20](/verify/taulib/docs/book-ii-interior-tau3-fibration/surjective-2-to-20/) | L177-L177 | formalized | — |
-| `theorem` | [faithful_2_to_50](/verify/taulib/docs/book-ii-interior-tau3-fibration/faithful-2-to-50/) | L178-L180 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [BaseTau1](/corpus/taulib/docs/book-ii-interior-tau3-fibration/base-tau1/) | L44-L47 | type/data schema | type/data schema | `II.D05` |
+| `def` | [BaseTau1.valid](/corpus/taulib/docs/book-ii-interior-tau3-fibration/valid/) | L50-L51 | data/computed value | data/computed value | — |
+| `structure` | [FiberT2](/corpus/taulib/docs/book-ii-interior-tau3-fibration/fiber-t2/) | L61-L64 | type/data schema | type/data schema | `II.D06` |
+| `structure` | [Tau3](/corpus/taulib/docs/book-ii-interior-tau3-fibration/tau3/) | L72-L75 | type/data schema | type/data schema | `II.D07` |
+| `def` | [to_tau3](/corpus/taulib/docs/book-ii-interior-tau3-fibration/to-tau3/) | L78-L79 | definition | definition | — |
+| `def` | [from_tau3](/corpus/taulib/docs/book-ii-interior-tau3-fibration/from-tau3/) | L82-L83 | definition | definition | — |
+| `def` | [tau3_proj](/corpus/taulib/docs/book-ii-interior-tau3-fibration/tau3-proj/) | L86-L86 | definition | definition | — |
+| `def` | [tau3_fiber_proj](/corpus/taulib/docs/book-ii-interior-tau3-fibration/tau3-fiber-proj/) | L89-L89 | definition | definition | — |
+| `theorem` | [tau3_round_trip](/corpus/taulib/docs/book-ii-interior-tau3-fibration/tau3-round-trip/) | L96-L98 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [tau3_round_trip'](/corpus/taulib/docs/book-ii-interior-tau3-fibration/tau3-round-trip-l101/) | L101-L103 | proof obligation | formal proof obligation checked | — |
+| `def` | [proj_surjective_check](/corpus/taulib/docs/book-ii-interior-tau3-fibration/proj-surjective-check/) | L111-L121 | data/computed value | data/computed value | — |
+| `def` | [non_trivial_check](/corpus/taulib/docs/book-ii-interior-tau3-fibration/non-trivial-check/) | L130-L142 | data/computed value | data/computed value | — |
+| `def` | [faithful_check](/corpus/taulib/docs/book-ii-interior-tau3-fibration/faithful-check/) | L146-L156 | data/computed value | data/computed value | — |
+| `eval` | [#eval L163](/corpus/taulib/docs/book-ii-interior-tau3-fibration/eval-l163/) | L163-L163 | computed check | computed check | — |
+| `eval` | [#eval L164](/corpus/taulib/docs/book-ii-interior-tau3-fibration/eval-l164/) | L164-L164 | computed check | computed check | — |
+| `eval` | [#eval L165](/corpus/taulib/docs/book-ii-interior-tau3-fibration/eval-l165/) | L165-L165 | computed check | computed check | — |
+| `eval` | [#eval L168](/corpus/taulib/docs/book-ii-interior-tau3-fibration/eval-l168/) | L168-L168 | computed check | computed check | — |
+| `eval` | [#eval L169](/corpus/taulib/docs/book-ii-interior-tau3-fibration/eval-l169/) | L169-L169 | computed check | computed check | — |
+| `eval` | [#eval L172](/corpus/taulib/docs/book-ii-interior-tau3-fibration/eval-l172/) | L172-L172 | computed check | computed check | — |
+| `eval` | [#eval L173](/corpus/taulib/docs/book-ii-interior-tau3-fibration/eval-l173/) | L173-L173 | computed check | computed check | — |
+| `eval` | [#eval L174](/corpus/taulib/docs/book-ii-interior-tau3-fibration/eval-l174/) | L174-L174 | computed check | computed check | — |
+| `theorem` | [surjective_2_to_20](/corpus/taulib/docs/book-ii-interior-tau3-fibration/surjective-2-to-20/) | L177-L177 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [faithful_2_to_50](/corpus/taulib/docs/book-ii-interior-tau3-fibration/faithful-2-to-50/) | L178-L180 | proof obligation | formal proof obligation checked | — |

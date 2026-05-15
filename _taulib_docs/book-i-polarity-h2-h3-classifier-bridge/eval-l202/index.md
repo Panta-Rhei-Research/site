@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L202",
-  "permalink": "/verify/taulib/docs/book-i-polarity-h2-h3-classifier-bridge/eval-l202/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-h2-h3-classifier-bridge/eval-l202/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Polarity.H2H3ClassifierBridge`.",
   "declaration_id": "TauLib.BookI.Polarity.H2H3ClassifierBridge::#eval:202",
   "declaration_slug": "eval-l202",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Polarity.H2H3ClassifierBridge",
-  "module_url": "/verify/taulib/docs/book-i-polarity-h2-h3-classifier-bridge/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-h2-h3-classifier-bridge/",
   "source_line_start": 202,
   "source_line_end": 202,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/H2H3ClassifierBridge.lean#L202-L202",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.H2H3ClassifierBridge",
-        "url": "/verify/taulib/docs/book-i-polarity-h2-h3-classifier-bridge/"
+        "url": "/corpus/taulib/docs/book-i-polarity-h2-h3-classifier-bridge/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.H2H3ClassifierBridge](/verify/taulib/docs/book-i-polarity-h2-h3-classifier-bridge/)
+- Module: [TauLib.BookI.Polarity.H2H3ClassifierBridge](/corpus/taulib/docs/book-i-polarity-h2-h3-classifier-bridge/)
 - Source path: [`TauLib/BookI/Polarity/H2H3ClassifierBridge.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/H2H3ClassifierBridge.lean#L202-L202)
 - Source range: L202-L202
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

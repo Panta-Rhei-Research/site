@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "arith_faithful_8_3",
-  "permalink": "/verify/taulib/docs/book-iii-bridge-translation-arith/arith-faithful-8-3/",
+  "permalink": "/corpus/taulib/docs/book-iii-bridge-translation-arith/arith-faithful-8-3/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Bridge.TranslationArith`.",
   "declaration_id": "TauLib.BookIII.Bridge.TranslationArith::arith_faithful_8_3",
   "declaration_slug": "arith-faithful-8-3",
   "kind": "theorem",
   "name": "arith_faithful_8_3",
   "module_name": "TauLib.BookIII.Bridge.TranslationArith",
-  "module_url": "/verify/taulib/docs/book-iii-bridge-translation-arith/",
+  "module_url": "/corpus/taulib/docs/book-iii-bridge-translation-arith/",
   "source_line_start": 229,
   "source_line_end": 230,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/TranslationArith.lean#L229-L230",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Bridge.TranslationArith",
-        "url": "/verify/taulib/docs/book-iii-bridge-translation-arith/"
+        "url": "/corpus/taulib/docs/book-iii-bridge-translation-arith/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Bridge.TranslationArith](/verify/taulib/docs/book-iii-bridge-translation-arith/)
+- Module: [TauLib.BookIII.Bridge.TranslationArith](/corpus/taulib/docs/book-iii-bridge-translation-arith/)
 - Source path: [`TauLib/BookIII/Bridge/TranslationArith.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/TranslationArith.lean#L229-L230)
 - Source range: L229-L230
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

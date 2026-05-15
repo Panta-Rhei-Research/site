@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "spectral_correspondence_O3",
-  "permalink": "/verify/taulib/docs/book-iii-doors-spectral-correspondence/spectral-correspondence-o3/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-spectral-correspondence/spectral-correspondence-o3/",
   "summary_short": "`axiom` declaration in `TauLib.BookIII.Doors.SpectralCorrespondence`.",
   "declaration_id": "TauLib.BookIII.Doors.SpectralCorrespondence::spectral_correspondence_O3",
   "declaration_slug": "spectral-correspondence-o3",
   "kind": "axiom",
   "name": "spectral_correspondence_O3",
   "module_name": "TauLib.BookIII.Doors.SpectralCorrespondence",
-  "module_url": "/verify/taulib/docs/book-iii-doors-spectral-correspondence/",
+  "module_url": "/corpus/taulib/docs/book-iii-doors-spectral-correspondence/",
   "source_line_start": 126,
   "source_line_end": 127,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/SpectralCorrespondence.lean#L126-L127",
   "formal_status": "axiom",
+  "declaration_role": "trusted axiom",
+  "formal_status_label": "axiom",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Doors.SpectralCorrespondence",
-        "url": "/verify/taulib/docs/book-iii-doors-spectral-correspondence/"
+        "url": "/corpus/taulib/docs/book-iii-doors-spectral-correspondence/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,6 +51,7 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "axiom",
+      "role": "trusted axiom",
       "status": "axiom"
     }
   },
@@ -70,10 +73,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Doors.SpectralCorrespondence](/verify/taulib/docs/book-iii-doors-spectral-correspondence/)
+- Module: [TauLib.BookIII.Doors.SpectralCorrespondence](/corpus/taulib/docs/book-iii-doors-spectral-correspondence/)
 - Source path: [`TauLib/BookIII/Doors/SpectralCorrespondence.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/SpectralCorrespondence.lean#L126-L127)
 - Source range: L126-L127
 - Kind: `axiom`
+- Public role: `trusted axiom`
 - Formal status hint: `axiom`
 
 ## Registry Links

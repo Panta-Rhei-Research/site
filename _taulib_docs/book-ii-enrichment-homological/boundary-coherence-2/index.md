@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "boundary_coherence_2",
-  "permalink": "/verify/taulib/docs/book-ii-enrichment-homological/boundary-coherence-2/",
+  "permalink": "/corpus/taulib/docs/book-ii-enrichment-homological/boundary-coherence-2/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Enrichment.Homological`.",
   "declaration_id": "TauLib.BookII.Enrichment.Homological::boundary_coherence_2",
   "declaration_slug": "boundary-coherence-2",
   "kind": "theorem",
   "name": "boundary_coherence_2",
   "module_name": "TauLib.BookII.Enrichment.Homological",
-  "module_url": "/verify/taulib/docs/book-ii-enrichment-homological/",
+  "module_url": "/corpus/taulib/docs/book-ii-enrichment-homological/",
   "source_line_start": 167,
   "source_line_end": 168,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/Homological.lean#L167-L168",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Enrichment.Homological",
-        "url": "/verify/taulib/docs/book-ii-enrichment-homological/"
+        "url": "/corpus/taulib/docs/book-ii-enrichment-homological/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Enrichment.Homological](/verify/taulib/docs/book-ii-enrichment-homological/)
+- Module: [TauLib.BookII.Enrichment.Homological](/corpus/taulib/docs/book-ii-enrichment-homological/)
 - Source path: [`TauLib/BookII/Enrichment/Homological.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/Homological.lean#L167-L168)
 - Source range: L167-L168
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

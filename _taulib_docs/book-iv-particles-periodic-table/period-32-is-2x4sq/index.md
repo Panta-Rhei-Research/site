@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "period_32_is_2x4sq",
-  "permalink": "/verify/taulib/docs/book-iv-particles-periodic-table/period-32-is-2x4sq/",
+  "permalink": "/corpus/taulib/docs/book-iv-particles-periodic-table/period-32-is-2x4sq/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Particles.PeriodicTable`.",
   "declaration_id": "TauLib.BookIV.Particles.PeriodicTable::period_32_is_2x4sq",
   "declaration_slug": "period-32-is-2x4sq",
   "kind": "theorem",
   "name": "period_32_is_2x4sq",
   "module_name": "TauLib.BookIV.Particles.PeriodicTable",
-  "module_url": "/verify/taulib/docs/book-iv-particles-periodic-table/",
+  "module_url": "/corpus/taulib/docs/book-iv-particles-periodic-table/",
   "source_line_start": 191,
   "source_line_end": 191,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/PeriodicTable.lean#L191-L191",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Particles.PeriodicTable",
-        "url": "/verify/taulib/docs/book-iv-particles-periodic-table/"
+        "url": "/corpus/taulib/docs/book-iv-particles-periodic-table/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Particles.PeriodicTable](/verify/taulib/docs/book-iv-particles-periodic-table/)
+- Module: [TauLib.BookIV.Particles.PeriodicTable](/corpus/taulib/docs/book-iv-particles-periodic-table/)
 - Source path: [`TauLib/BookIV/Particles/PeriodicTable.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/PeriodicTable.lean#L191-L191)
 - Source range: L191-L191
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

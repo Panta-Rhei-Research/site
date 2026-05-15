@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ringdown_internal",
-  "permalink": "/verify/taulib/docs/book-v-gravity-schwarzschild/ringdown-internal/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-schwarzschild/ringdown-internal/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Gravity.Schwarzschild`.",
   "declaration_id": "TauLib.BookV.Gravity.Schwarzschild::ringdown_internal",
   "declaration_slug": "ringdown-internal",
   "kind": "theorem",
   "name": "ringdown_internal",
   "module_name": "TauLib.BookV.Gravity.Schwarzschild",
-  "module_url": "/verify/taulib/docs/book-v-gravity-schwarzschild/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-schwarzschild/",
   "source_line_start": 241,
   "source_line_end": 242,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/Schwarzschild.lean#L241-L242",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Gravity.Schwarzschild",
-        "url": "/verify/taulib/docs/book-v-gravity-schwarzschild/"
+        "url": "/corpus/taulib/docs/book-v-gravity-schwarzschild/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Gravity.Schwarzschild](/verify/taulib/docs/book-v-gravity-schwarzschild/)
+- Module: [TauLib.BookV.Gravity.Schwarzschild](/corpus/taulib/docs/book-v-gravity-schwarzschild/)
 - Source path: [`TauLib/BookV/Gravity/Schwarzschild.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/Schwarzschild.lean#L241-L242)
 - Source range: L241-L242
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

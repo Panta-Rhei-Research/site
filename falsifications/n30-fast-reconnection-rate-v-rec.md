@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N30 — Fast reconnection rate v_rec"
-permalink: "/results/falsifications/n30-fast-reconnection-rate-v-rec/"
+permalink: "/falsifications/n30-fast-reconnection-rate-v-rec/"
 lane: "results"
 falsification_id: "N30"
 n_num: 30

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "sector_complete",
-  "permalink": "/verify/taulib/docs/book-ii-interior-bipolar-decomposition/sector-complete/",
+  "permalink": "/corpus/taulib/docs/book-ii-interior-bipolar-decomposition/sector-complete/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Interior.BipolarDecomposition`.",
   "declaration_id": "TauLib.BookII.Interior.BipolarDecomposition::sector_complete",
   "declaration_slug": "sector-complete",
   "kind": "theorem",
   "name": "sector_complete",
   "module_name": "TauLib.BookII.Interior.BipolarDecomposition",
-  "module_url": "/verify/taulib/docs/book-ii-interior-bipolar-decomposition/",
+  "module_url": "/corpus/taulib/docs/book-ii-interior-bipolar-decomposition/",
   "source_line_start": 83,
   "source_line_end": 89,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Interior/BipolarDecomposition.lean#L83-L89",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Interior.BipolarDecomposition",
-        "url": "/verify/taulib/docs/book-ii-interior-bipolar-decomposition/"
+        "url": "/corpus/taulib/docs/book-ii-interior-bipolar-decomposition/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Interior.BipolarDecomposition](/verify/taulib/docs/book-ii-interior-bipolar-decomposition/)
+- Module: [TauLib.BookII.Interior.BipolarDecomposition](/corpus/taulib/docs/book-ii-interior-bipolar-decomposition/)
 - Source path: [`TauLib/BookII/Interior/BipolarDecomposition.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Interior/BipolarDecomposition.lean#L83-L89)
 - Source range: L83-L89
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

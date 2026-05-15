@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauRationalPoint",
-  "permalink": "/verify/taulib/docs/book-iii-arithmetic-rational-points/tau-rational-point/",
+  "permalink": "/corpus/taulib/docs/book-iii-arithmetic-rational-points/tau-rational-point/",
   "summary_short": "`structure` declaration in `TauLib.BookIII.Arithmetic.RationalPoints`.",
   "declaration_id": "TauLib.BookIII.Arithmetic.RationalPoints::TauRationalPoint",
   "declaration_slug": "tau-rational-point",
   "kind": "structure",
   "name": "TauRationalPoint",
   "module_name": "TauLib.BookIII.Arithmetic.RationalPoints",
-  "module_url": "/verify/taulib/docs/book-iii-arithmetic-rational-points/",
+  "module_url": "/corpus/taulib/docs/book-iii-arithmetic-rational-points/",
   "source_line_start": 41,
   "source_line_end": 44,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/RationalPoints.lean#L41-L44",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Arithmetic.RationalPoints",
-        "url": "/verify/taulib/docs/book-iii-arithmetic-rational-points/"
+        "url": "/corpus/taulib/docs/book-iii-arithmetic-rational-points/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Arithmetic.RationalPoints](/verify/taulib/docs/book-iii-arithmetic-rational-points/)
+- Module: [TauLib.BookIII.Arithmetic.RationalPoints](/corpus/taulib/docs/book-iii-arithmetic-rational-points/)
 - Source path: [`TauLib/BookIII/Arithmetic/RationalPoints.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/RationalPoints.lean#L41-L44)
 - Source range: L41-L44
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

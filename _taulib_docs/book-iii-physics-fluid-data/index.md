@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIII.Physics.FluidData",
-  "permalink": "/verify/taulib/docs/book-iii-physics-fluid-data/",
+  "permalink": "/corpus/taulib/docs/book-iii-physics-fluid-data/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIII.Physics.FluidData`.",
   "module_name": "TauLib.BookIII.Physics.FluidData",
   "module_slug": "book-iii-physics-fluid-data",
@@ -35,10 +35,12 @@
     {
       "kind": "structure",
       "name": "FluidData",
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/fluid-data/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/fluid-data/",
       "source_line_start": 46,
       "source_line_end": 49,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "III.D36"
       ]
@@ -46,10 +48,12 @@
     {
       "kind": "def",
       "name": "make_fluid_data",
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/make-fluid-data/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/make-fluid-data/",
       "source_line_start": 53,
       "source_line_end": 56,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "III.D36"
       ]
@@ -57,10 +61,12 @@
     {
       "kind": "def",
       "name": "fluid_data_check",
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/fluid-data-check/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/fluid-data-check/",
       "source_line_start": 60,
       "source_line_end": 79,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D36"
       ]
@@ -68,10 +74,12 @@
     {
       "kind": "def",
       "name": "cylinder_assignment",
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/cylinder-assignment/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/cylinder-assignment/",
       "source_line_start": 87,
       "source_line_end": 90,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "III.D37"
       ]
@@ -79,10 +87,12 @@
     {
       "kind": "def",
       "name": "cylinder_assignment_check",
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/cylinder-assignment-check/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/cylinder-assignment-check/",
       "source_line_start": 94,
       "source_line_end": 108,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D37"
       ]
@@ -90,10 +100,12 @@
     {
       "kind": "structure",
       "name": "ABCDComponents",
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/abcdcomponents/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/abcdcomponents/",
       "source_line_start": 116,
       "source_line_end": 121,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "III.D38"
       ]
@@ -101,10 +113,12 @@
     {
       "kind": "def",
       "name": "abcd_extract",
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/abcd-extract/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/abcd-extract/",
       "source_line_start": 124,
       "source_line_end": 126,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "III.D38"
       ]
@@ -112,10 +126,12 @@
     {
       "kind": "def",
       "name": "abcd_check",
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/abcd-check/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/abcd-check/",
       "source_line_start": 130,
       "source_line_end": 147,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D38"
       ]
@@ -123,10 +139,12 @@
     {
       "kind": "def",
       "name": "cylinder_defect",
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/cylinder-defect/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/cylinder-defect/",
       "source_line_start": 155,
       "source_line_end": 161,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "III.D39"
       ]
@@ -134,10 +152,12 @@
     {
       "kind": "def",
       "name": "defect_functional",
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/defect-functional/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/defect-functional/",
       "source_line_start": 165,
       "source_line_end": 175,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "III.D39"
       ]
@@ -145,10 +165,12 @@
     {
       "kind": "def",
       "name": "defect_monotone_check",
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/defect-monotone-check/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/defect-monotone-check/",
       "source_line_start": 179,
       "source_line_end": 187,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D39"
       ]
@@ -156,127 +178,155 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/eval-l193/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/eval-l193/",
       "source_line_start": 193,
       "source_line_end": 193,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/eval-l194/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/eval-l194/",
       "source_line_start": 194,
       "source_line_end": 194,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/eval-l195/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/eval-l195/",
       "source_line_start": 195,
       "source_line_end": 195,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/eval-l196/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/eval-l196/",
       "source_line_start": 196,
       "source_line_end": 196,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/eval-l197/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/eval-l197/",
       "source_line_start": 197,
       "source_line_end": 197,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/eval-l198/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/eval-l198/",
       "source_line_start": 198,
       "source_line_end": 198,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/eval-l199/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/eval-l199/",
       "source_line_start": 199,
       "source_line_end": 199,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "fluid_data_4",
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/fluid-data-4/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/fluid-data-4/",
       "source_line_start": 205,
       "source_line_end": 206,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "cylinder_assign_15_4",
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/cylinder-assign-15-4/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/cylinder-assign-15-4/",
       "source_line_start": 208,
       "source_line_end": 209,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "abcd_15_4",
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/abcd-15-4/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/abcd-15-4/",
       "source_line_start": 211,
       "source_line_end": 212,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "defect_zero_3",
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/defect-zero-3/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/defect-zero-3/",
       "source_line_start": 214,
       "source_line_end": 215,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "defect_zero_4",
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/defect-zero-4/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/defect-zero-4/",
       "source_line_start": 217,
       "source_line_end": 218,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "defect_monotone_5",
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/defect-monotone-5/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/defect-monotone-5/",
       "source_line_start": 220,
       "source_line_end": 221,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "fluid_data_depth_3",
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/fluid-data-depth-3/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/fluid-data-depth-3/",
       "source_line_start": 228,
       "source_line_end": 229,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D36"
       ]
@@ -284,10 +334,12 @@
     {
       "kind": "theorem",
       "name": "cylinder_assign_0",
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/cylinder-assign-0/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/cylinder-assign-0/",
       "source_line_start": 232,
       "source_line_end": 233,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D37"
       ]
@@ -295,10 +347,12 @@
     {
       "kind": "theorem",
       "name": "abcd_zero_3",
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/abcd-zero-3/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/abcd-zero-3/",
       "source_line_start": 236,
       "source_line_end": 237,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D38"
       ]
@@ -306,10 +360,12 @@
     {
       "kind": "theorem",
       "name": "defect_zero_1",
-      "url": "/verify/taulib/docs/book-iii-physics-fluid-data/defect-zero-1/",
+      "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/defect-zero-1/",
       "source_line_start": 240,
       "source_line_end": 243,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D39"
       ]
@@ -323,7 +379,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -396,33 +452,33 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [FluidData](/verify/taulib/docs/book-iii-physics-fluid-data/fluid-data/) | L46-L49 | defined | `III.D36` |
-| `def` | [make_fluid_data](/verify/taulib/docs/book-iii-physics-fluid-data/make-fluid-data/) | L53-L56 | defined | `III.D36` |
-| `def` | [fluid_data_check](/verify/taulib/docs/book-iii-physics-fluid-data/fluid-data-check/) | L60-L79 | defined | `III.D36` |
-| `def` | [cylinder_assignment](/verify/taulib/docs/book-iii-physics-fluid-data/cylinder-assignment/) | L87-L90 | defined | `III.D37` |
-| `def` | [cylinder_assignment_check](/verify/taulib/docs/book-iii-physics-fluid-data/cylinder-assignment-check/) | L94-L108 | defined | `III.D37` |
-| `structure` | [ABCDComponents](/verify/taulib/docs/book-iii-physics-fluid-data/abcdcomponents/) | L116-L121 | defined | `III.D38` |
-| `def` | [abcd_extract](/verify/taulib/docs/book-iii-physics-fluid-data/abcd-extract/) | L124-L126 | defined | `III.D38` |
-| `def` | [abcd_check](/verify/taulib/docs/book-iii-physics-fluid-data/abcd-check/) | L130-L147 | defined | `III.D38` |
-| `def` | [cylinder_defect](/verify/taulib/docs/book-iii-physics-fluid-data/cylinder-defect/) | L155-L161 | defined | `III.D39` |
-| `def` | [defect_functional](/verify/taulib/docs/book-iii-physics-fluid-data/defect-functional/) | L165-L175 | defined | `III.D39` |
-| `def` | [defect_monotone_check](/verify/taulib/docs/book-iii-physics-fluid-data/defect-monotone-check/) | L179-L187 | defined | `III.D39` |
-| `eval` | [#eval L193](/verify/taulib/docs/book-iii-physics-fluid-data/eval-l193/) | L193-L193 | computed | — |
-| `eval` | [#eval L194](/verify/taulib/docs/book-iii-physics-fluid-data/eval-l194/) | L194-L194 | computed | — |
-| `eval` | [#eval L195](/verify/taulib/docs/book-iii-physics-fluid-data/eval-l195/) | L195-L195 | computed | — |
-| `eval` | [#eval L196](/verify/taulib/docs/book-iii-physics-fluid-data/eval-l196/) | L196-L196 | computed | — |
-| `eval` | [#eval L197](/verify/taulib/docs/book-iii-physics-fluid-data/eval-l197/) | L197-L197 | computed | — |
-| `eval` | [#eval L198](/verify/taulib/docs/book-iii-physics-fluid-data/eval-l198/) | L198-L198 | computed | — |
-| `eval` | [#eval L199](/verify/taulib/docs/book-iii-physics-fluid-data/eval-l199/) | L199-L199 | computed | — |
-| `theorem` | [fluid_data_4](/verify/taulib/docs/book-iii-physics-fluid-data/fluid-data-4/) | L205-L206 | formalized | — |
-| `theorem` | [cylinder_assign_15_4](/verify/taulib/docs/book-iii-physics-fluid-data/cylinder-assign-15-4/) | L208-L209 | formalized | — |
-| `theorem` | [abcd_15_4](/verify/taulib/docs/book-iii-physics-fluid-data/abcd-15-4/) | L211-L212 | formalized | — |
-| `theorem` | [defect_zero_3](/verify/taulib/docs/book-iii-physics-fluid-data/defect-zero-3/) | L214-L215 | formalized | — |
-| `theorem` | [defect_zero_4](/verify/taulib/docs/book-iii-physics-fluid-data/defect-zero-4/) | L217-L218 | formalized | — |
-| `theorem` | [defect_monotone_5](/verify/taulib/docs/book-iii-physics-fluid-data/defect-monotone-5/) | L220-L221 | formalized | — |
-| `theorem` | [fluid_data_depth_3](/verify/taulib/docs/book-iii-physics-fluid-data/fluid-data-depth-3/) | L228-L229 | formalized | `III.D36` |
-| `theorem` | [cylinder_assign_0](/verify/taulib/docs/book-iii-physics-fluid-data/cylinder-assign-0/) | L232-L233 | formalized | `III.D37` |
-| `theorem` | [abcd_zero_3](/verify/taulib/docs/book-iii-physics-fluid-data/abcd-zero-3/) | L236-L237 | formalized | `III.D38` |
-| `theorem` | [defect_zero_1](/verify/taulib/docs/book-iii-physics-fluid-data/defect-zero-1/) | L240-L243 | formalized | `III.D39` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [FluidData](/corpus/taulib/docs/book-iii-physics-fluid-data/fluid-data/) | L46-L49 | type/data schema | type/data schema | `III.D36` |
+| `def` | [make_fluid_data](/corpus/taulib/docs/book-iii-physics-fluid-data/make-fluid-data/) | L53-L56 | definition | definition | `III.D36` |
+| `def` | [fluid_data_check](/corpus/taulib/docs/book-iii-physics-fluid-data/fluid-data-check/) | L60-L79 | data/computed value | data/computed value | `III.D36` |
+| `def` | [cylinder_assignment](/corpus/taulib/docs/book-iii-physics-fluid-data/cylinder-assignment/) | L87-L90 | definition | definition | `III.D37` |
+| `def` | [cylinder_assignment_check](/corpus/taulib/docs/book-iii-physics-fluid-data/cylinder-assignment-check/) | L94-L108 | data/computed value | data/computed value | `III.D37` |
+| `structure` | [ABCDComponents](/corpus/taulib/docs/book-iii-physics-fluid-data/abcdcomponents/) | L116-L121 | type/data schema | type/data schema | `III.D38` |
+| `def` | [abcd_extract](/corpus/taulib/docs/book-iii-physics-fluid-data/abcd-extract/) | L124-L126 | definition | definition | `III.D38` |
+| `def` | [abcd_check](/corpus/taulib/docs/book-iii-physics-fluid-data/abcd-check/) | L130-L147 | data/computed value | data/computed value | `III.D38` |
+| `def` | [cylinder_defect](/corpus/taulib/docs/book-iii-physics-fluid-data/cylinder-defect/) | L155-L161 | definition | definition | `III.D39` |
+| `def` | [defect_functional](/corpus/taulib/docs/book-iii-physics-fluid-data/defect-functional/) | L165-L175 | definition | definition | `III.D39` |
+| `def` | [defect_monotone_check](/corpus/taulib/docs/book-iii-physics-fluid-data/defect-monotone-check/) | L179-L187 | data/computed value | data/computed value | `III.D39` |
+| `eval` | [#eval L193](/corpus/taulib/docs/book-iii-physics-fluid-data/eval-l193/) | L193-L193 | computed check | computed check | — |
+| `eval` | [#eval L194](/corpus/taulib/docs/book-iii-physics-fluid-data/eval-l194/) | L194-L194 | computed check | computed check | — |
+| `eval` | [#eval L195](/corpus/taulib/docs/book-iii-physics-fluid-data/eval-l195/) | L195-L195 | computed check | computed check | — |
+| `eval` | [#eval L196](/corpus/taulib/docs/book-iii-physics-fluid-data/eval-l196/) | L196-L196 | computed check | computed check | — |
+| `eval` | [#eval L197](/corpus/taulib/docs/book-iii-physics-fluid-data/eval-l197/) | L197-L197 | computed check | computed check | — |
+| `eval` | [#eval L198](/corpus/taulib/docs/book-iii-physics-fluid-data/eval-l198/) | L198-L198 | computed check | computed check | — |
+| `eval` | [#eval L199](/corpus/taulib/docs/book-iii-physics-fluid-data/eval-l199/) | L199-L199 | computed check | computed check | — |
+| `theorem` | [fluid_data_4](/corpus/taulib/docs/book-iii-physics-fluid-data/fluid-data-4/) | L205-L206 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [cylinder_assign_15_4](/corpus/taulib/docs/book-iii-physics-fluid-data/cylinder-assign-15-4/) | L208-L209 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [abcd_15_4](/corpus/taulib/docs/book-iii-physics-fluid-data/abcd-15-4/) | L211-L212 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [defect_zero_3](/corpus/taulib/docs/book-iii-physics-fluid-data/defect-zero-3/) | L214-L215 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [defect_zero_4](/corpus/taulib/docs/book-iii-physics-fluid-data/defect-zero-4/) | L217-L218 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [defect_monotone_5](/corpus/taulib/docs/book-iii-physics-fluid-data/defect-monotone-5/) | L220-L221 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [fluid_data_depth_3](/corpus/taulib/docs/book-iii-physics-fluid-data/fluid-data-depth-3/) | L228-L229 | proof obligation | formal proof obligation checked | `III.D36` |
+| `theorem` | [cylinder_assign_0](/corpus/taulib/docs/book-iii-physics-fluid-data/cylinder-assign-0/) | L232-L233 | proof obligation | formal proof obligation checked | `III.D37` |
+| `theorem` | [abcd_zero_3](/corpus/taulib/docs/book-iii-physics-fluid-data/abcd-zero-3/) | L236-L237 | proof obligation | formal proof obligation checked | `III.D38` |
+| `theorem` | [defect_zero_1](/corpus/taulib/docs/book-iii-physics-fluid-data/defect-zero-1/) | L240-L243 | proof obligation | formal proof obligation checked | `III.D39` |

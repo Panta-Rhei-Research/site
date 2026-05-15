@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.Coda.CalibrationChain",
-  "permalink": "/verify/taulib/docs/book-v-coda-calibration-chain/",
+  "permalink": "/corpus/taulib/docs/book-v-coda-calibration-chain/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.Coda.CalibrationChain`.",
   "module_name": "TauLib.BookV.Coda.CalibrationChain",
   "module_slug": "book-v-coda-calibration-chain",
@@ -33,10 +33,12 @@
     {
       "kind": "structure",
       "name": "MassDerivationLayer2",
-      "url": "/verify/taulib/docs/book-v-coda-calibration-chain/mass-derivation-layer2/",
+      "url": "/corpus/taulib/docs/book-v-coda-calibration-chain/mass-derivation-layer2/",
       "source_line_start": 51,
       "source_line_end": 64,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.T156"
       ]
@@ -44,37 +46,45 @@
     {
       "kind": "def",
       "name": "mass_derivation",
-      "url": "/verify/taulib/docs/book-v-coda-calibration-chain/mass-derivation/",
+      "url": "/corpus/taulib/docs/book-v-coda-calibration-chain/mass-derivation/",
       "source_line_start": 67,
       "source_line_end": 71,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "mass_derivation_layer2",
-      "url": "/verify/taulib/docs/book-v-coda-calibration-chain/mass-derivation-layer2-l74/",
+      "url": "/corpus/taulib/docs/book-v-coda-calibration-chain/mass-derivation-layer2-l74/",
       "source_line_start": 74,
       "source_line_end": 79,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "derived_masses_match_layers",
-      "url": "/verify/taulib/docs/book-v-coda-calibration-chain/derived-masses-match-layers/",
+      "url": "/corpus/taulib/docs/book-v-coda-calibration-chain/derived-masses-match-layers/",
       "source_line_start": 82,
       "source_line_end": 84,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "CalibrationSufficiency",
-      "url": "/verify/taulib/docs/book-v-coda-calibration-chain/calibration-sufficiency/",
+      "url": "/corpus/taulib/docs/book-v-coda-calibration-chain/calibration-sufficiency/",
       "source_line_start": 98,
       "source_line_end": 115,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.T157"
       ]
@@ -82,91 +92,111 @@
     {
       "kind": "def",
       "name": "calibration",
-      "url": "/verify/taulib/docs/book-v-coda-calibration-chain/calibration/",
+      "url": "/corpus/taulib/docs/book-v-coda-calibration-chain/calibration/",
       "source_line_start": 118,
       "source_line_end": 124,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "calibration_sufficiency",
-      "url": "/verify/taulib/docs/book-v-coda-calibration-chain/calibration-sufficiency-l127/",
+      "url": "/corpus/taulib/docs/book-v-coda-calibration-chain/calibration-sufficiency-l127/",
       "source_line_start": 127,
       "source_line_end": 132,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "total_inputs",
-      "url": "/verify/taulib/docs/book-v-coda-calibration-chain/total-inputs/",
+      "url": "/corpus/taulib/docs/book-v-coda-calibration-chain/total-inputs/",
       "source_line_start": 135,
       "source_line_end": 137,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "iota_tau_anchor",
-      "url": "/verify/taulib/docs/book-v-coda-calibration-chain/iota-tau-anchor/",
+      "url": "/corpus/taulib/docs/book-v-coda-calibration-chain/iota-tau-anchor/",
       "source_line_start": 140,
       "source_line_end": 140,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-coda-calibration-chain/eval-l146/",
+      "url": "/corpus/taulib/docs/book-v-coda-calibration-chain/eval-l146/",
       "source_line_start": 146,
       "source_line_end": 146,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-coda-calibration-chain/eval-l147/",
+      "url": "/corpus/taulib/docs/book-v-coda-calibration-chain/eval-l147/",
       "source_line_start": 147,
       "source_line_end": 147,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-coda-calibration-chain/eval-l148/",
+      "url": "/corpus/taulib/docs/book-v-coda-calibration-chain/eval-l148/",
       "source_line_start": 148,
       "source_line_end": 148,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-coda-calibration-chain/eval-l149/",
+      "url": "/corpus/taulib/docs/book-v-coda-calibration-chain/eval-l149/",
       "source_line_start": 149,
       "source_line_end": 149,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-coda-calibration-chain/eval-l150/",
+      "url": "/corpus/taulib/docs/book-v-coda-calibration-chain/eval-l150/",
       "source_line_start": 150,
       "source_line_end": 150,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-coda-calibration-chain/eval-l151/",
+      "url": "/corpus/taulib/docs/book-v-coda-calibration-chain/eval-l151/",
       "source_line_start": 151,
       "source_line_end": 153,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -178,7 +208,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -249,20 +279,20 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [MassDerivationLayer2](/verify/taulib/docs/book-v-coda-calibration-chain/mass-derivation-layer2/) | L51-L64 | defined | `V.T156` |
-| `def` | [mass_derivation](/verify/taulib/docs/book-v-coda-calibration-chain/mass-derivation/) | L67-L71 | defined | — |
-| `theorem` | [mass_derivation_layer2](/verify/taulib/docs/book-v-coda-calibration-chain/mass-derivation-layer2-l74/) | L74-L79 | formalized | — |
-| `theorem` | [derived_masses_match_layers](/verify/taulib/docs/book-v-coda-calibration-chain/derived-masses-match-layers/) | L82-L84 | formalized | — |
-| `structure` | [CalibrationSufficiency](/verify/taulib/docs/book-v-coda-calibration-chain/calibration-sufficiency/) | L98-L115 | defined | `V.T157` |
-| `def` | [calibration](/verify/taulib/docs/book-v-coda-calibration-chain/calibration/) | L118-L124 | defined | — |
-| `theorem` | [calibration_sufficiency](/verify/taulib/docs/book-v-coda-calibration-chain/calibration-sufficiency-l127/) | L127-L132 | formalized | — |
-| `theorem` | [total_inputs](/verify/taulib/docs/book-v-coda-calibration-chain/total-inputs/) | L135-L137 | formalized | — |
-| `def` | [iota_tau_anchor](/verify/taulib/docs/book-v-coda-calibration-chain/iota-tau-anchor/) | L140-L140 | defined | — |
-| `eval` | [#eval L146](/verify/taulib/docs/book-v-coda-calibration-chain/eval-l146/) | L146-L146 | computed | — |
-| `eval` | [#eval L147](/verify/taulib/docs/book-v-coda-calibration-chain/eval-l147/) | L147-L147 | computed | — |
-| `eval` | [#eval L148](/verify/taulib/docs/book-v-coda-calibration-chain/eval-l148/) | L148-L148 | computed | — |
-| `eval` | [#eval L149](/verify/taulib/docs/book-v-coda-calibration-chain/eval-l149/) | L149-L149 | computed | — |
-| `eval` | [#eval L150](/verify/taulib/docs/book-v-coda-calibration-chain/eval-l150/) | L150-L150 | computed | — |
-| `eval` | [#eval L151](/verify/taulib/docs/book-v-coda-calibration-chain/eval-l151/) | L151-L153 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [MassDerivationLayer2](/corpus/taulib/docs/book-v-coda-calibration-chain/mass-derivation-layer2/) | L51-L64 | type/data schema | type/data schema | `V.T156` |
+| `def` | [mass_derivation](/corpus/taulib/docs/book-v-coda-calibration-chain/mass-derivation/) | L67-L71 | definition | definition | — |
+| `theorem` | [mass_derivation_layer2](/corpus/taulib/docs/book-v-coda-calibration-chain/mass-derivation-layer2-l74/) | L74-L79 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [derived_masses_match_layers](/corpus/taulib/docs/book-v-coda-calibration-chain/derived-masses-match-layers/) | L82-L84 | proof obligation | formal proof obligation checked | — |
+| `structure` | [CalibrationSufficiency](/corpus/taulib/docs/book-v-coda-calibration-chain/calibration-sufficiency/) | L98-L115 | type/data schema | type/data schema | `V.T157` |
+| `def` | [calibration](/corpus/taulib/docs/book-v-coda-calibration-chain/calibration/) | L118-L124 | definition | definition | — |
+| `theorem` | [calibration_sufficiency](/corpus/taulib/docs/book-v-coda-calibration-chain/calibration-sufficiency-l127/) | L127-L132 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [total_inputs](/corpus/taulib/docs/book-v-coda-calibration-chain/total-inputs/) | L135-L137 | proof obligation | formal proof obligation checked | — |
+| `def` | [iota_tau_anchor](/corpus/taulib/docs/book-v-coda-calibration-chain/iota-tau-anchor/) | L140-L140 | data/computed value | data/computed value | — |
+| `eval` | [#eval L146](/corpus/taulib/docs/book-v-coda-calibration-chain/eval-l146/) | L146-L146 | computed check | computed check | — |
+| `eval` | [#eval L147](/corpus/taulib/docs/book-v-coda-calibration-chain/eval-l147/) | L147-L147 | computed check | computed check | — |
+| `eval` | [#eval L148](/corpus/taulib/docs/book-v-coda-calibration-chain/eval-l148/) | L148-L148 | computed check | computed check | — |
+| `eval` | [#eval L149](/corpus/taulib/docs/book-v-coda-calibration-chain/eval-l149/) | L149-L149 | computed check | computed check | — |
+| `eval` | [#eval L150](/corpus/taulib/docs/book-v-coda-calibration-chain/eval-l150/) | L150-L150 | computed check | computed check | — |
+| `eval` | [#eval L151](/corpus/taulib/docs/book-v-coda-calibration-chain/eval-l151/) | L151-L153 | computed check | computed check | — |

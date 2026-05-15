@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "five_sectors_exhaustive",
-  "permalink": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/five-sectors-exhaustive/",
+  "permalink": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/five-sectors-exhaustive/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Hinge.HingeTheorem`.",
   "declaration_id": "TauLib.BookIII.Hinge.HingeTheorem::five_sectors_exhaustive",
   "declaration_slug": "five-sectors-exhaustive",
   "kind": "theorem",
   "name": "five_sectors_exhaustive",
   "module_name": "TauLib.BookIII.Hinge.HingeTheorem",
-  "module_url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/",
+  "module_url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/",
   "source_line_start": 389,
   "source_line_end": 391,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Hinge/HingeTheorem.lean#L389-L391",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Hinge.HingeTheorem",
-        "url": "/verify/taulib/docs/book-iii-hinge-hinge-theorem/"
+        "url": "/corpus/taulib/docs/book-iii-hinge-hinge-theorem/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Hinge.HingeTheorem](/verify/taulib/docs/book-iii-hinge-hinge-theorem/)
+- Module: [TauLib.BookIII.Hinge.HingeTheorem](/corpus/taulib/docs/book-iii-hinge-hinge-theorem/)
 - Source path: [`TauLib/BookIII/Hinge/HingeTheorem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Hinge/HingeTheorem.lean#L389-L391)
 - Source range: L389-L391
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

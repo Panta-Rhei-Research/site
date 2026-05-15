@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "pvsnp_level",
-  "permalink": "/verify/taulib/docs/book-iii-doors-master-schema/pvsnp-level/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-master-schema/pvsnp-level/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Doors.MasterSchema`.",
   "declaration_id": "TauLib.BookIII.Doors.MasterSchema::pvsnp_level",
   "declaration_slug": "pvsnp-level",
   "kind": "theorem",
   "name": "pvsnp_level",
   "module_name": "TauLib.BookIII.Doors.MasterSchema",
-  "module_url": "/verify/taulib/docs/book-iii-doors-master-schema/",
+  "module_url": "/corpus/taulib/docs/book-iii-doors-master-schema/",
   "source_line_start": 182,
   "source_line_end": 182,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/MasterSchema.lean#L182-L182",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Doors.MasterSchema",
-        "url": "/verify/taulib/docs/book-iii-doors-master-schema/"
+        "url": "/corpus/taulib/docs/book-iii-doors-master-schema/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Doors.MasterSchema](/verify/taulib/docs/book-iii-doors-master-schema/)
+- Module: [TauLib.BookIII.Doors.MasterSchema](/corpus/taulib/docs/book-iii-doors-master-schema/)
 - Source path: [`TauLib/BookIII/Doors/MasterSchema.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/MasterSchema.lean#L182-L182)
 - Source range: L182-L182
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

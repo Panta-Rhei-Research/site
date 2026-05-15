@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "mk_meson",
-  "permalink": "/verify/taulib/docs/book-iv-strong-quarks-gluons/mk-meson/",
+  "permalink": "/corpus/taulib/docs/book-iv-strong-quarks-gluons/mk-meson/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Strong.QuarksGluons`.",
   "declaration_id": "TauLib.BookIV.Strong.QuarksGluons::mk_meson",
   "declaration_slug": "mk-meson",
   "kind": "def",
   "name": "mk_meson",
   "module_name": "TauLib.BookIV.Strong.QuarksGluons",
-  "module_url": "/verify/taulib/docs/book-iv-strong-quarks-gluons/",
+  "module_url": "/corpus/taulib/docs/book-iv-strong-quarks-gluons/",
   "source_line_start": 318,
   "source_line_end": 323,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/QuarksGluons.lean#L318-L323",
   "formal_status": "defined",
+  "declaration_role": "docstring/data record",
+  "formal_status_label": "docstring/data record",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Strong.QuarksGluons",
-        "url": "/verify/taulib/docs/book-iv-strong-quarks-gluons/"
+        "url": "/corpus/taulib/docs/book-iv-strong-quarks-gluons/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "docstring/data record",
+      "status": "docstring/data record"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Strong.QuarksGluons](/verify/taulib/docs/book-iv-strong-quarks-gluons/)
+- Module: [TauLib.BookIV.Strong.QuarksGluons](/corpus/taulib/docs/book-iv-strong-quarks-gluons/)
 - Source path: [`TauLib/BookIV/Strong/QuarksGluons.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/QuarksGluons.lean#L318-L323)
 - Source range: L318-L323
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `docstring/data record`
+- Formal status hint: `docstring/data record`
 
 ## Registry Links
 

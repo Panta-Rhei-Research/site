@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "resonance_rational",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/resonance-rational/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/resonance-rational/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Astrophysics.KeplerSolarSystem`.",
   "declaration_id": "TauLib.BookV.Astrophysics.KeplerSolarSystem::resonance_rational",
   "declaration_slug": "resonance-rational",
   "kind": "theorem",
   "name": "resonance_rational",
   "module_name": "TauLib.BookV.Astrophysics.KeplerSolarSystem",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/",
   "source_line_start": 180,
   "source_line_end": 182,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/KeplerSolarSystem.lean#L180-L182",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.KeplerSolarSystem",
-        "url": "/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.KeplerSolarSystem](/verify/taulib/docs/book-v-astrophysics-kepler-solar-system/)
+- Module: [TauLib.BookV.Astrophysics.KeplerSolarSystem](/corpus/taulib/docs/book-v-astrophysics-kepler-solar-system/)
 - Source path: [`TauLib/BookV/Astrophysics/KeplerSolarSystem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/KeplerSolarSystem.lean#L180-L182)
 - Source range: L180-L182
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

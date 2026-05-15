@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Addressability.AddressResolution",
-  "permalink": "/verify/taulib/docs/book-i-addressability-address-resolution/",
+  "permalink": "/corpus/taulib/docs/book-i-addressability-address-resolution/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Addressability.AddressResolution`.",
   "module_name": "TauLib.BookI.Addressability.AddressResolution",
   "module_slug": "book-i-addressability-address-resolution",
@@ -30,82 +30,100 @@
     {
       "kind": "def",
       "name": "normalizeSeed",
-      "url": "/verify/taulib/docs/book-i-addressability-address-resolution/normalize-seed/",
+      "url": "/corpus/taulib/docs/book-i-addressability-address-resolution/normalize-seed/",
       "source_line_start": 63,
       "source_line_end": 70,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "normalize",
-      "url": "/verify/taulib/docs/book-i-addressability-address-resolution/normalize/",
+      "url": "/corpus/taulib/docs/book-i-addressability-address-resolution/normalize/",
       "source_line_start": 74,
       "source_line_end": 80,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "tauEq",
-      "url": "/verify/taulib/docs/book-i-addressability-address-resolution/tau-eq/",
+      "url": "/corpus/taulib/docs/book-i-addressability-address-resolution/tau-eq/",
       "source_line_start": 88,
       "source_line_end": 92,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tauEq_refl",
-      "url": "/verify/taulib/docs/book-i-addressability-address-resolution/tau-eq-refl/",
+      "url": "/corpus/taulib/docs/book-i-addressability-address-resolution/tau-eq-refl/",
       "source_line_start": 94,
       "source_line_end": 95,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tauEq_symm",
-      "url": "/verify/taulib/docs/book-i-addressability-address-resolution/tau-eq-symm/",
+      "url": "/corpus/taulib/docs/book-i-addressability-address-resolution/tau-eq-symm/",
       "source_line_start": 97,
       "source_line_end": 98,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tauEq_trans",
-      "url": "/verify/taulib/docs/book-i-addressability-address-resolution/tau-eq-trans/",
+      "url": "/corpus/taulib/docs/book-i-addressability-address-resolution/tau-eq-trans/",
       "source_line_start": 100,
       "source_line_end": 102,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "address_resolution_theorem",
-      "url": "/verify/taulib/docs/book-i-addressability-address-resolution/address-resolution-theorem/",
+      "url": "/corpus/taulib/docs/book-i-addressability-address-resolution/address-resolution-theorem/",
       "source_line_start": 117,
       "source_line_end": 120,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tau_arithmetic_is_address_resolution",
-      "url": "/verify/taulib/docs/book-i-addressability-address-resolution/tau-arithmetic-is-address-resolution/",
+      "url": "/corpus/taulib/docs/book-i-addressability-address-resolution/tau-arithmetic-is-address-resolution/",
       "source_line_start": 137,
       "source_line_end": 143,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tauEq_implies_execNF_eq",
-      "url": "/verify/taulib/docs/book-i-addressability-address-resolution/tau-eq-implies-exec-nf-eq/",
+      "url": "/corpus/taulib/docs/book-i-addressability-address-resolution/tau-eq-implies-exec-nf-eq/",
       "source_line_start": 153,
       "source_line_end": 161,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -117,7 +135,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -185,14 +203,14 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [normalizeSeed](/verify/taulib/docs/book-i-addressability-address-resolution/normalize-seed/) | L63-L70 | defined | — |
-| `def` | [normalize](/verify/taulib/docs/book-i-addressability-address-resolution/normalize/) | L74-L80 | defined | — |
-| `def` | [tauEq](/verify/taulib/docs/book-i-addressability-address-resolution/tau-eq/) | L88-L92 | defined | — |
-| `theorem` | [tauEq_refl](/verify/taulib/docs/book-i-addressability-address-resolution/tau-eq-refl/) | L94-L95 | formalized | — |
-| `theorem` | [tauEq_symm](/verify/taulib/docs/book-i-addressability-address-resolution/tau-eq-symm/) | L97-L98 | formalized | — |
-| `theorem` | [tauEq_trans](/verify/taulib/docs/book-i-addressability-address-resolution/tau-eq-trans/) | L100-L102 | formalized | — |
-| `theorem` | [address_resolution_theorem](/verify/taulib/docs/book-i-addressability-address-resolution/address-resolution-theorem/) | L117-L120 | formalized | — |
-| `theorem` | [tau_arithmetic_is_address_resolution](/verify/taulib/docs/book-i-addressability-address-resolution/tau-arithmetic-is-address-resolution/) | L137-L143 | formalized | — |
-| `theorem` | [tauEq_implies_execNF_eq](/verify/taulib/docs/book-i-addressability-address-resolution/tau-eq-implies-exec-nf-eq/) | L153-L161 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [normalizeSeed](/corpus/taulib/docs/book-i-addressability-address-resolution/normalize-seed/) | L63-L70 | definition | definition | — |
+| `def` | [normalize](/corpus/taulib/docs/book-i-addressability-address-resolution/normalize/) | L74-L80 | definition | definition | — |
+| `def` | [tauEq](/corpus/taulib/docs/book-i-addressability-address-resolution/tau-eq/) | L88-L92 | definition | definition | — |
+| `theorem` | [tauEq_refl](/corpus/taulib/docs/book-i-addressability-address-resolution/tau-eq-refl/) | L94-L95 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [tauEq_symm](/corpus/taulib/docs/book-i-addressability-address-resolution/tau-eq-symm/) | L97-L98 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [tauEq_trans](/corpus/taulib/docs/book-i-addressability-address-resolution/tau-eq-trans/) | L100-L102 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [address_resolution_theorem](/corpus/taulib/docs/book-i-addressability-address-resolution/address-resolution-theorem/) | L117-L120 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [tau_arithmetic_is_address_resolution](/corpus/taulib/docs/book-i-addressability-address-resolution/tau-arithmetic-is-address-resolution/) | L137-L143 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [tauEq_implies_execNF_eq](/corpus/taulib/docs/book-i-addressability-address-resolution/tau-eq-implies-exec-nf-eq/) | L153-L161 | proof obligation | formal proof obligation checked | — |

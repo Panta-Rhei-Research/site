@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "mk_omega_one",
-  "permalink": "/verify/taulib/docs/book-i-polarity-omega-ring/mk-omega-one/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-omega-ring/mk-omega-one/",
   "summary_short": "`def` declaration in `TauLib.BookI.Polarity.OmegaRing`.",
   "declaration_id": "TauLib.BookI.Polarity.OmegaRing::mk_omega_one",
   "declaration_slug": "mk-omega-one",
   "kind": "def",
   "name": "mk_omega_one",
   "module_name": "TauLib.BookI.Polarity.OmegaRing",
-  "module_url": "/verify/taulib/docs/book-i-polarity-omega-ring/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-omega-ring/",
   "source_line_start": 233,
   "source_line_end": 233,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/OmegaRing.lean#L233-L233",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.OmegaRing",
-        "url": "/verify/taulib/docs/book-i-polarity-omega-ring/"
+        "url": "/corpus/taulib/docs/book-i-polarity-omega-ring/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.OmegaRing](/verify/taulib/docs/book-i-polarity-omega-ring/)
+- Module: [TauLib.BookI.Polarity.OmegaRing](/corpus/taulib/docs/book-i-polarity-omega-ring/)
 - Source path: [`TauLib/BookI/Polarity/OmegaRing.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/OmegaRing.lean#L233-L233)
 - Source range: L233-L233
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

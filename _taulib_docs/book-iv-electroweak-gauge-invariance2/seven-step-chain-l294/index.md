@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "seven_step_chain",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/seven-step-chain-l294/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/seven-step-chain-l294/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Electroweak.GaugeInvariance2`.",
   "declaration_id": "TauLib.BookIV.Electroweak.GaugeInvariance2::seven_step_chain",
   "declaration_slug": "seven-step-chain-l294",
   "kind": "def",
   "name": "seven_step_chain",
   "module_name": "TauLib.BookIV.Electroweak.GaugeInvariance2",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/",
   "source_line_start": 294,
   "source_line_end": 296,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/GaugeInvariance2.lean#L294-L296",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.GaugeInvariance2",
-        "url": "/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.GaugeInvariance2](/verify/taulib/docs/book-iv-electroweak-gauge-invariance2/)
+- Module: [TauLib.BookIV.Electroweak.GaugeInvariance2](/corpus/taulib/docs/book-iv-electroweak-gauge-invariance2/)
 - Source path: [`TauLib/BookIV/Electroweak/GaugeInvariance2.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/GaugeInvariance2.lean#L294-L296)
 - Source range: L294-L296
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

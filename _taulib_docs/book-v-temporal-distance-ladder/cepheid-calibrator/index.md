@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "CepheidCalibrator",
-  "permalink": "/verify/taulib/docs/book-v-temporal-distance-ladder/cepheid-calibrator/",
+  "permalink": "/corpus/taulib/docs/book-v-temporal-distance-ladder/cepheid-calibrator/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Temporal.DistanceLadder`.",
   "declaration_id": "TauLib.BookV.Temporal.DistanceLadder::CepheidCalibrator",
   "declaration_slug": "cepheid-calibrator",
   "kind": "structure",
   "name": "CepheidCalibrator",
   "module_name": "TauLib.BookV.Temporal.DistanceLadder",
-  "module_url": "/verify/taulib/docs/book-v-temporal-distance-ladder/",
+  "module_url": "/corpus/taulib/docs/book-v-temporal-distance-ladder/",
   "source_line_start": 139,
   "source_line_end": 151,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/DistanceLadder.lean#L139-L151",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Temporal.DistanceLadder",
-        "url": "/verify/taulib/docs/book-v-temporal-distance-ladder/"
+        "url": "/corpus/taulib/docs/book-v-temporal-distance-ladder/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Temporal.DistanceLadder](/verify/taulib/docs/book-v-temporal-distance-ladder/)
+- Module: [TauLib.BookV.Temporal.DistanceLadder](/corpus/taulib/docs/book-v-temporal-distance-ladder/)
 - Source path: [`TauLib/BookV/Temporal/DistanceLadder.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/DistanceLadder.lean#L139-L151)
 - Source range: L139-L151
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

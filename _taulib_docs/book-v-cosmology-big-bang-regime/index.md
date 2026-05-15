@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.Cosmology.BigBangRegime",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.Cosmology.BigBangRegime`.",
   "module_name": "TauLib.BookV.Cosmology.BigBangRegime",
   "module_slug": "book-v-cosmology-big-bang-regime",
@@ -43,10 +43,12 @@
     {
       "kind": "structure",
       "name": "TemporalOpening",
-      "url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/temporal-opening/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/temporal-opening/",
       "source_line_start": 66,
       "source_line_end": 77,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D152"
       ]
@@ -54,37 +56,45 @@
     {
       "kind": "def",
       "name": "canonical_opening",
-      "url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/canonical-opening/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/canonical-opening/",
       "source_line_start": 80,
       "source_line_end": 82,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "opening_first_tick",
-      "url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/opening-first-tick/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/opening-first-tick/",
       "source_line_start": 85,
       "source_line_end": 86,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "inductive",
       "name": "CosmologicalEpoch",
-      "url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/cosmological-epoch/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/cosmological-epoch/",
       "source_line_start": 93,
       "source_line_end": 100,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "PreHadronicRegime",
-      "url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/pre-hadronic-regime/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/pre-hadronic-regime/",
       "source_line_start": 109,
       "source_line_end": 118,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D153"
       ]
@@ -92,10 +102,12 @@
     {
       "kind": "structure",
       "name": "RegimeBoundaryCharacter",
-      "url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/regime-boundary-character/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/regime-boundary-character/",
       "source_line_start": 128,
       "source_line_end": 137,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D154"
       ]
@@ -103,28 +115,34 @@
     {
       "kind": "def",
       "name": "early_character",
-      "url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/early-character/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/early-character/",
       "source_line_start": 140,
       "source_line_end": 143,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "late_character",
-      "url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/late-character/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/late-character/",
       "source_line_start": 146,
       "source_line_end": 149,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "same_equation",
-      "url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/same-equation/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/same-equation/",
       "source_line_start": 160,
       "source_line_end": 162,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P90"
       ]
@@ -132,10 +150,12 @@
     {
       "kind": "theorem",
       "name": "no_singularity_theorem",
-      "url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/no-singularity-theorem/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/no-singularity-theorem/",
       "source_line_start": 178,
       "source_line_end": 182,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T103"
       ]
@@ -143,10 +163,12 @@
     {
       "kind": "theorem",
       "name": "big_bang_opening_regime",
-      "url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/big-bang-opening-regime/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/big-bang-opening-regime/",
       "source_line_start": 193,
       "source_line_end": 195,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T104"
       ]
@@ -154,19 +176,23 @@
     {
       "kind": "theorem",
       "name": "opening_positive",
-      "url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/opening-positive/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/opening-positive/",
       "source_line_start": 198,
       "source_line_end": 199,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/eval-l231/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/eval-l231/",
       "source_line_start": 231,
       "source_line_end": 231,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": [
         "V.R209",
         "V.R210",
@@ -178,55 +204,67 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/eval-l232/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/eval-l232/",
       "source_line_start": 232,
       "source_line_end": 232,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/eval-l233/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/eval-l233/",
       "source_line_start": 233,
       "source_line_end": 233,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/eval-l234/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/eval-l234/",
       "source_line_start": 234,
       "source_line_end": 234,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/eval-l235/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/eval-l235/",
       "source_line_start": 235,
       "source_line_end": 235,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/eval-l236/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/eval-l236/",
       "source_line_start": 236,
       "source_line_end": 236,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/eval-l237/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/eval-l237/",
       "source_line_start": 237,
       "source_line_end": 239,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -238,7 +276,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -319,24 +357,24 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [TemporalOpening](/verify/taulib/docs/book-v-cosmology-big-bang-regime/temporal-opening/) | L66-L77 | defined | `V.D152` |
-| `def` | [canonical_opening](/verify/taulib/docs/book-v-cosmology-big-bang-regime/canonical-opening/) | L80-L82 | defined | — |
-| `theorem` | [opening_first_tick](/verify/taulib/docs/book-v-cosmology-big-bang-regime/opening-first-tick/) | L85-L86 | formalized | — |
-| `inductive` | [CosmologicalEpoch](/verify/taulib/docs/book-v-cosmology-big-bang-regime/cosmological-epoch/) | L93-L100 | defined | — |
-| `structure` | [PreHadronicRegime](/verify/taulib/docs/book-v-cosmology-big-bang-regime/pre-hadronic-regime/) | L109-L118 | defined | `V.D153` |
-| `structure` | [RegimeBoundaryCharacter](/verify/taulib/docs/book-v-cosmology-big-bang-regime/regime-boundary-character/) | L128-L137 | defined | `V.D154` |
-| `def` | [early_character](/verify/taulib/docs/book-v-cosmology-big-bang-regime/early-character/) | L140-L143 | defined | — |
-| `def` | [late_character](/verify/taulib/docs/book-v-cosmology-big-bang-regime/late-character/) | L146-L149 | defined | — |
-| `theorem` | [same_equation](/verify/taulib/docs/book-v-cosmology-big-bang-regime/same-equation/) | L160-L162 | formalized | `V.P90` |
-| `theorem` | [no_singularity_theorem](/verify/taulib/docs/book-v-cosmology-big-bang-regime/no-singularity-theorem/) | L178-L182 | formalized | `V.T103` |
-| `theorem` | [big_bang_opening_regime](/verify/taulib/docs/book-v-cosmology-big-bang-regime/big-bang-opening-regime/) | L193-L195 | formalized | `V.T104` |
-| `theorem` | [opening_positive](/verify/taulib/docs/book-v-cosmology-big-bang-regime/opening-positive/) | L198-L199 | formalized | — |
-| `eval` | [#eval L231](/verify/taulib/docs/book-v-cosmology-big-bang-regime/eval-l231/) | L231-L231 | computed | `V.R209`, `V.R210`, `V.R211`, `V.R212`, `V.R213` |
-| `eval` | [#eval L232](/verify/taulib/docs/book-v-cosmology-big-bang-regime/eval-l232/) | L232-L232 | computed | — |
-| `eval` | [#eval L233](/verify/taulib/docs/book-v-cosmology-big-bang-regime/eval-l233/) | L233-L233 | computed | — |
-| `eval` | [#eval L234](/verify/taulib/docs/book-v-cosmology-big-bang-regime/eval-l234/) | L234-L234 | computed | — |
-| `eval` | [#eval L235](/verify/taulib/docs/book-v-cosmology-big-bang-regime/eval-l235/) | L235-L235 | computed | — |
-| `eval` | [#eval L236](/verify/taulib/docs/book-v-cosmology-big-bang-regime/eval-l236/) | L236-L236 | computed | — |
-| `eval` | [#eval L237](/verify/taulib/docs/book-v-cosmology-big-bang-regime/eval-l237/) | L237-L239 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [TemporalOpening](/corpus/taulib/docs/book-v-cosmology-big-bang-regime/temporal-opening/) | L66-L77 | type/data schema | type/data schema | `V.D152` |
+| `def` | [canonical_opening](/corpus/taulib/docs/book-v-cosmology-big-bang-regime/canonical-opening/) | L80-L82 | definition | definition | — |
+| `theorem` | [opening_first_tick](/corpus/taulib/docs/book-v-cosmology-big-bang-regime/opening-first-tick/) | L85-L86 | proof obligation | formal proof obligation checked | — |
+| `inductive` | [CosmologicalEpoch](/corpus/taulib/docs/book-v-cosmology-big-bang-regime/cosmological-epoch/) | L93-L100 | type/data schema | type/data schema | — |
+| `structure` | [PreHadronicRegime](/corpus/taulib/docs/book-v-cosmology-big-bang-regime/pre-hadronic-regime/) | L109-L118 | type/data schema | type/data schema | `V.D153` |
+| `structure` | [RegimeBoundaryCharacter](/corpus/taulib/docs/book-v-cosmology-big-bang-regime/regime-boundary-character/) | L128-L137 | type/data schema | type/data schema | `V.D154` |
+| `def` | [early_character](/corpus/taulib/docs/book-v-cosmology-big-bang-regime/early-character/) | L140-L143 | definition | definition | — |
+| `def` | [late_character](/corpus/taulib/docs/book-v-cosmology-big-bang-regime/late-character/) | L146-L149 | definition | definition | — |
+| `theorem` | [same_equation](/corpus/taulib/docs/book-v-cosmology-big-bang-regime/same-equation/) | L160-L162 | proof obligation | formal proof obligation checked | `V.P90` |
+| `theorem` | [no_singularity_theorem](/corpus/taulib/docs/book-v-cosmology-big-bang-regime/no-singularity-theorem/) | L178-L182 | proof obligation | formal proof obligation checked | `V.T103` |
+| `theorem` | [big_bang_opening_regime](/corpus/taulib/docs/book-v-cosmology-big-bang-regime/big-bang-opening-regime/) | L193-L195 | proof obligation | formal proof obligation checked | `V.T104` |
+| `theorem` | [opening_positive](/corpus/taulib/docs/book-v-cosmology-big-bang-regime/opening-positive/) | L198-L199 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L231](/corpus/taulib/docs/book-v-cosmology-big-bang-regime/eval-l231/) | L231-L231 | computed check | computed check | `V.R209`, `V.R210`, `V.R211`, `V.R212`, `V.R213` |
+| `eval` | [#eval L232](/corpus/taulib/docs/book-v-cosmology-big-bang-regime/eval-l232/) | L232-L232 | computed check | computed check | — |
+| `eval` | [#eval L233](/corpus/taulib/docs/book-v-cosmology-big-bang-regime/eval-l233/) | L233-L233 | computed check | computed check | — |
+| `eval` | [#eval L234](/corpus/taulib/docs/book-v-cosmology-big-bang-regime/eval-l234/) | L234-L234 | computed check | computed check | — |
+| `eval` | [#eval L235](/corpus/taulib/docs/book-v-cosmology-big-bang-regime/eval-l235/) | L235-L235 | computed check | computed check | — |
+| `eval` | [#eval L236](/corpus/taulib/docs/book-v-cosmology-big-bang-regime/eval-l236/) | L236-L236 | computed check | computed check | — |
+| `eval` | [#eval L237](/corpus/taulib/docs/book-v-cosmology-big-bang-regime/eval-l237/) | L237-L239 | computed check | computed check | — |

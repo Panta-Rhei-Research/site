@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "sector_atlas",
-  "permalink": "/verify/taulib/docs/book-iv-particles-sector-atlas/sector-atlas/",
+  "permalink": "/corpus/taulib/docs/book-iv-particles-sector-atlas/sector-atlas/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Particles.SectorAtlas`.",
   "declaration_id": "TauLib.BookIV.Particles.SectorAtlas::sector_atlas",
   "declaration_slug": "sector-atlas",
   "kind": "def",
   "name": "sector_atlas",
   "module_name": "TauLib.BookIV.Particles.SectorAtlas",
-  "module_url": "/verify/taulib/docs/book-iv-particles-sector-atlas/",
+  "module_url": "/corpus/taulib/docs/book-iv-particles-sector-atlas/",
   "source_line_start": 312,
   "source_line_end": 318,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/SectorAtlas.lean#L312-L318",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Particles.SectorAtlas",
-        "url": "/verify/taulib/docs/book-iv-particles-sector-atlas/"
+        "url": "/corpus/taulib/docs/book-iv-particles-sector-atlas/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Particles.SectorAtlas](/verify/taulib/docs/book-iv-particles-sector-atlas/)
+- Module: [TauLib.BookIV.Particles.SectorAtlas](/corpus/taulib/docs/book-iv-particles-sector-atlas/)
 - Source path: [`TauLib/BookIV/Particles/SectorAtlas.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/SectorAtlas.lean#L312-L318)
 - Source range: L312-L318
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

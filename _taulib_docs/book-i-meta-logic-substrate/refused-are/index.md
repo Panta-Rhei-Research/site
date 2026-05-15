@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "refused_are",
-  "permalink": "/verify/taulib/docs/book-i-meta-logic-substrate/refused-are/",
+  "permalink": "/corpus/taulib/docs/book-i-meta-logic-substrate/refused-are/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.MetaLogic.Substrate`.",
   "declaration_id": "TauLib.BookI.MetaLogic.Substrate::refused_are",
   "declaration_slug": "refused-are",
   "kind": "theorem",
   "name": "refused_are",
   "module_name": "TauLib.BookI.MetaLogic.Substrate",
-  "module_url": "/verify/taulib/docs/book-i-meta-logic-substrate/",
+  "module_url": "/corpus/taulib/docs/book-i-meta-logic-substrate/",
   "source_line_start": 94,
   "source_line_end": 94,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/Substrate.lean#L94-L94",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.MetaLogic.Substrate",
-        "url": "/verify/taulib/docs/book-i-meta-logic-substrate/"
+        "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.MetaLogic.Substrate](/verify/taulib/docs/book-i-meta-logic-substrate/)
+- Module: [TauLib.BookI.MetaLogic.Substrate](/corpus/taulib/docs/book-i-meta-logic-substrate/)
 - Source path: [`TauLib/BookI/MetaLogic/Substrate.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/Substrate.lean#L94-L94)
 - Source range: L94-L94
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

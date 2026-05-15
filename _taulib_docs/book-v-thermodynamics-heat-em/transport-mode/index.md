@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TransportMode",
-  "permalink": "/verify/taulib/docs/book-v-thermodynamics-heat-em/transport-mode/",
+  "permalink": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/transport-mode/",
   "summary_short": "`inductive` declaration in `TauLib.BookV.Thermodynamics.HeatEM`.",
   "declaration_id": "TauLib.BookV.Thermodynamics.HeatEM::TransportMode",
   "declaration_slug": "transport-mode",
   "kind": "inductive",
   "name": "TransportMode",
   "module_name": "TauLib.BookV.Thermodynamics.HeatEM",
-  "module_url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/",
+  "module_url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/",
   "source_line_start": 73,
   "source_line_end": 80,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/HeatEM.lean#L73-L80",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Thermodynamics.HeatEM",
-        "url": "/verify/taulib/docs/book-v-thermodynamics-heat-em/"
+        "url": "/corpus/taulib/docs/book-v-thermodynamics-heat-em/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "inductive",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Thermodynamics.HeatEM](/verify/taulib/docs/book-v-thermodynamics-heat-em/)
+- Module: [TauLib.BookV.Thermodynamics.HeatEM](/corpus/taulib/docs/book-v-thermodynamics-heat-em/)
 - Source path: [`TauLib/BookV/Thermodynamics/HeatEM.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/HeatEM.lean#L73-L80)
 - Source range: L73-L80
 - Kind: `inductive`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "DiagonalLinearCorrespondence",
-  "permalink": "/verify/taulib/docs/book-i-meta-logic-linear-discipline/diagonal-linear-correspondence/",
+  "permalink": "/corpus/taulib/docs/book-i-meta-logic-linear-discipline/diagonal-linear-correspondence/",
   "summary_short": "`structure` declaration in `TauLib.BookI.MetaLogic.LinearDiscipline`.",
   "declaration_id": "TauLib.BookI.MetaLogic.LinearDiscipline::DiagonalLinearCorrespondence",
   "declaration_slug": "diagonal-linear-correspondence",
   "kind": "structure",
   "name": "DiagonalLinearCorrespondence",
   "module_name": "TauLib.BookI.MetaLogic.LinearDiscipline",
-  "module_url": "/verify/taulib/docs/book-i-meta-logic-linear-discipline/",
+  "module_url": "/corpus/taulib/docs/book-i-meta-logic-linear-discipline/",
   "source_line_start": 264,
   "source_line_end": 280,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/LinearDiscipline.lean#L264-L280",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.MetaLogic.LinearDiscipline",
-        "url": "/verify/taulib/docs/book-i-meta-logic-linear-discipline/"
+        "url": "/corpus/taulib/docs/book-i-meta-logic-linear-discipline/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.MetaLogic.LinearDiscipline](/verify/taulib/docs/book-i-meta-logic-linear-discipline/)
+- Module: [TauLib.BookI.MetaLogic.LinearDiscipline](/corpus/taulib/docs/book-i-meta-logic-linear-discipline/)
 - Source path: [`TauLib/BookI/MetaLogic/LinearDiscipline.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/LinearDiscipline.lean#L264-L280)
 - Source range: L264-L280
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

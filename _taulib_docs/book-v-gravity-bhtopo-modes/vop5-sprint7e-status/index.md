@@ -2,16 +2,16 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "vop5_sprint7e_status",
-  "permalink": "/verify/taulib/docs/book-v-gravity-bhtopo-modes/vop5-sprint7e-status/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-bhtopo-modes/vop5-sprint7e-status/",
   "summary_short": "`def` declaration in `TauLib.BookV.Gravity.BHTopoModes`.",
   "declaration_id": "TauLib.BookV.Gravity.BHTopoModes::vop5_sprint7e_status",
   "declaration_slug": "vop5-sprint7e-status",
   "kind": "def",
   "name": "vop5_sprint7e_status",
   "module_name": "TauLib.BookV.Gravity.BHTopoModes",
-  "module_url": "/verify/taulib/docs/book-v-gravity-bhtopo-modes/",
-  "source_line_start": 447,
-  "source_line_end": 450,
+  "module_url": "/corpus/taulib/docs/book-v-gravity-bhtopo-modes/",
+  "source_line_start": 453,
+  "source_line_end": 456,
   "registry_ids": [
     "V.R380"
   ],
@@ -22,17 +22,19 @@
       "url": "/registry/object/V.R380/"
     }
   ],
-  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L447-L450",
+  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L453-L456",
   "formal_status": "defined",
+  "declaration_role": "docstring/data record",
+  "formal_status_label": "docstring/data record",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Gravity.BHTopoModes",
-        "url": "/verify/taulib/docs/book-v-gravity-bhtopo-modes/"
+        "url": "/corpus/taulib/docs/book-v-gravity-bhtopo-modes/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -42,14 +44,15 @@
     "artifacts": [
       {
         "title": "Source on GitHub",
-        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L447-L450",
+        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L453-L456",
         "external": true
       }
     ],
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "docstring/data record",
+      "status": "docstring/data record"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Gravity.BHTopoModes](/verify/taulib/docs/book-v-gravity-bhtopo-modes/)
-- Source path: [`TauLib/BookV/Gravity/BHTopoModes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L447-L450)
-- Source range: L447-L450
+- Module: [TauLib.BookV.Gravity.BHTopoModes](/corpus/taulib/docs/book-v-gravity-bhtopo-modes/)
+- Source path: [`TauLib/BookV/Gravity/BHTopoModes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/BHTopoModes.lean#L453-L456)
+- Source range: L453-L456
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `docstring/data record`
+- Formal status hint: `docstring/data record`
 
 ## Registry Links
 
@@ -84,7 +88,7 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ```lean
 /-- [V.R380] V.OP5 SOLVED: Sprint 7E provides complete observational
-    signature suite for T² BH topology. Three channels (EHT, QNM, GW echo)
+    signature suite for T² BH topology. Three channels (EHT, QNM, GW cycle-delay)
     all derived from ι_τ with zero free parameters. -/
 ```
 
@@ -92,7 +96,7 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ```lean
 def vop5_sprint7e_status : String :=
-  "V.OP5 SOLVED: 3 observational channels (EHT shadow, QNM ratio, GW echoes) " ++
+  "V.OP5 SOLVED: 3 observational channels (EHT shadow, QNM ratio, T² cycle-delay) " ++
   "all from ι_τ = 2/(π+e), zero free parameters. " ++
   "Entropy ratio π·ι_τ = 1.0722 provides mass-independent cross-check."
 ```

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "perturbative_terms",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-mass-ratio-formula/perturbative-terms/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-mass-ratio-formula/perturbative-terms/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Calibration.MassRatioFormula`.",
   "declaration_id": "TauLib.BookIV.Calibration.MassRatioFormula::perturbative_terms",
   "declaration_slug": "perturbative-terms",
   "kind": "def",
   "name": "perturbative_terms",
   "module_name": "TauLib.BookIV.Calibration.MassRatioFormula",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-mass-ratio-formula/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-mass-ratio-formula/",
   "source_line_start": 295,
   "source_line_end": 299,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/MassRatioFormula.lean#L295-L299",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.MassRatioFormula",
-        "url": "/verify/taulib/docs/book-iv-calibration-mass-ratio-formula/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-mass-ratio-formula/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.MassRatioFormula](/verify/taulib/docs/book-iv-calibration-mass-ratio-formula/)
+- Module: [TauLib.BookIV.Calibration.MassRatioFormula](/corpus/taulib/docs/book-iv-calibration-mass-ratio-formula/)
 - Source path: [`TauLib/BookIV/Calibration/MassRatioFormula.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/MassRatioFormula.lean#L295-L299)
 - Source range: L295-L299
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

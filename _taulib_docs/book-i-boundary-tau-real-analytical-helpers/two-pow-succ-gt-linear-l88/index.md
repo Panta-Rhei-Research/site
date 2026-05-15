@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "Rat.two_pow_succ_gt_linear",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-real-analytical-helpers/two-pow-succ-gt-linear-l88/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-real-analytical-helpers/two-pow-succ-gt-linear-l88/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.TauRealAnalyticalHelpers`.",
   "declaration_id": "TauLib.BookI.Boundary.TauRealAnalyticalHelpers::Rat.two_pow_succ_gt_linear",
   "declaration_slug": "two-pow-succ-gt-linear-l88",
   "kind": "theorem",
   "name": "Rat.two_pow_succ_gt_linear",
   "module_name": "TauLib.BookI.Boundary.TauRealAnalyticalHelpers",
-  "module_url": "/verify/taulib/docs/book-i-boundary-tau-real-analytical-helpers/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-tau-real-analytical-helpers/",
   "source_line_start": 88,
   "source_line_end": 96,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealAnalyticalHelpers.lean#L88-L96",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.TauRealAnalyticalHelpers",
-        "url": "/verify/taulib/docs/book-i-boundary-tau-real-analytical-helpers/"
+        "url": "/corpus/taulib/docs/book-i-boundary-tau-real-analytical-helpers/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.TauRealAnalyticalHelpers](/verify/taulib/docs/book-i-boundary-tau-real-analytical-helpers/)
+- Module: [TauLib.BookI.Boundary.TauRealAnalyticalHelpers](/corpus/taulib/docs/book-i-boundary-tau-real-analytical-helpers/)
 - Source path: [`TauLib/BookI/Boundary/TauRealAnalyticalHelpers.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealAnalyticalHelpers.lean#L88-L96)
 - Source range: L88-L96
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "VMQuantumState.is_resolved",
-  "permalink": "/verify/taulib/docs/book-v-orthodox-measurement-unification/is-resolved/",
+  "permalink": "/corpus/taulib/docs/book-v-orthodox-measurement-unification/is-resolved/",
   "summary_short": "`def` declaration in `TauLib.BookV.Orthodox.MeasurementUnification`.",
   "declaration_id": "TauLib.BookV.Orthodox.MeasurementUnification::VMQuantumState.is_resolved",
   "declaration_slug": "is-resolved",
   "kind": "def",
   "name": "VMQuantumState.is_resolved",
   "module_name": "TauLib.BookV.Orthodox.MeasurementUnification",
-  "module_url": "/verify/taulib/docs/book-v-orthodox-measurement-unification/",
+  "module_url": "/corpus/taulib/docs/book-v-orthodox-measurement-unification/",
   "source_line_start": 95,
   "source_line_end": 96,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/MeasurementUnification.lean#L95-L96",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Orthodox.MeasurementUnification",
-        "url": "/verify/taulib/docs/book-v-orthodox-measurement-unification/"
+        "url": "/corpus/taulib/docs/book-v-orthodox-measurement-unification/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Orthodox.MeasurementUnification](/verify/taulib/docs/book-v-orthodox-measurement-unification/)
+- Module: [TauLib.BookV.Orthodox.MeasurementUnification](/corpus/taulib/docs/book-v-orthodox-measurement-unification/)
 - Source path: [`TauLib/BookV/Orthodox/MeasurementUnification.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/MeasurementUnification.lean#L95-L96)
 - Source range: L95-L96
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

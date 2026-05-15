@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "SelfDescIteration",
-  "permalink": "/verify/taulib/docs/book-vii-meta-saturation/self-desc-iteration/",
+  "permalink": "/corpus/taulib/docs/book-vii-meta-saturation/self-desc-iteration/",
   "summary_short": "`structure` declaration in `TauLib.BookVII.Meta.Saturation`.",
   "declaration_id": "TauLib.BookVII.Meta.Saturation::SelfDescIteration",
   "declaration_slug": "self-desc-iteration",
   "kind": "structure",
   "name": "SelfDescIteration",
   "module_name": "TauLib.BookVII.Meta.Saturation",
-  "module_url": "/verify/taulib/docs/book-vii-meta-saturation/",
+  "module_url": "/corpus/taulib/docs/book-vii-meta-saturation/",
   "source_line_start": 265,
   "source_line_end": 269,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Meta/Saturation.lean#L265-L269",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVII.Meta.Saturation",
-        "url": "/verify/taulib/docs/book-vii-meta-saturation/"
+        "url": "/corpus/taulib/docs/book-vii-meta-saturation/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVII.Meta.Saturation](/verify/taulib/docs/book-vii-meta-saturation/)
+- Module: [TauLib.BookVII.Meta.Saturation](/corpus/taulib/docs/book-vii-meta-saturation/)
 - Source path: [`TauLib/BookVII/Meta/Saturation.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Meta/Saturation.lean#L265-L269)
 - Source range: L265-L269
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

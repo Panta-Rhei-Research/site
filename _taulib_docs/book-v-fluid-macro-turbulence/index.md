@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.FluidMacro.Turbulence",
-  "permalink": "/verify/taulib/docs/book-v-fluid-macro-turbulence/",
+  "permalink": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.FluidMacro.Turbulence`.",
   "module_name": "TauLib.BookV.FluidMacro.Turbulence",
   "module_slug": "book-v-fluid-macro-turbulence",
@@ -53,10 +53,12 @@
     {
       "kind": "structure",
       "name": "TauTurbulentFlow",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/tau-turbulent-flow/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/tau-turbulent-flow/",
       "source_line_start": 77,
       "source_line_end": 90,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D99"
       ]
@@ -64,37 +66,45 @@
     {
       "kind": "def",
       "name": "TauTurbulentFlow.inertialWidth",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/inertial-width/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/inertial-width/",
       "source_line_start": 93,
       "source_line_end": 94,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "KolmogorovExponent",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-exponent/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-exponent/",
       "source_line_start": 101,
       "source_line_end": 108,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "kolmogorov_53",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-53/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-53/",
       "source_line_start": 111,
       "source_line_end": 114,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "macro_energy_spectrum",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/macro-energy-spectrum/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/macro-energy-spectrum/",
       "source_line_start": 120,
       "source_line_end": 122,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T72"
       ]
@@ -102,19 +112,23 @@
     {
       "kind": "theorem",
       "name": "kolmogorov_exponent_check",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-exponent-check/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-exponent-check/",
       "source_line_start": 125,
       "source_line_end": 127,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "KolmogorovConstant",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-constant/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-constant/",
       "source_line_start": 137,
       "source_line_end": 142,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.R146"
       ]
@@ -122,19 +136,23 @@
     {
       "kind": "def",
       "name": "kolmogorov_constant",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-constant-l145/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-constant-l145/",
       "source_line_start": 145,
       "source_line_end": 147,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "TauEnstrophy",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/tau-enstrophy/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/tau-enstrophy/",
       "source_line_start": 157,
       "source_line_end": 162,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D100"
       ]
@@ -142,28 +160,34 @@
     {
       "kind": "def",
       "name": "TauEnstrophy.fromTransport",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/from-transport/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/from-transport/",
       "source_line_start": 165,
       "source_line_end": 167,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "inductive",
       "name": "CascadeDirection",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/cascade-direction/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/cascade-direction/",
       "source_line_start": 174,
       "source_line_end": 179,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "DualCascade",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/dual-cascade/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/dual-cascade/",
       "source_line_start": 185,
       "source_line_end": 192,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.P44"
       ]
@@ -171,19 +195,23 @@
     {
       "kind": "theorem",
       "name": "dual_cascade_decomposition",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/dual-cascade-decomposition/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/dual-cascade-decomposition/",
       "source_line_start": 195,
       "source_line_end": 201,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "BatchelorKraichnanSpectrum",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/batchelor-kraichnan-spectrum/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/batchelor-kraichnan-spectrum/",
       "source_line_start": 210,
       "source_line_end": 217,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.R147"
       ]
@@ -191,19 +219,23 @@
     {
       "kind": "def",
       "name": "batchelor_kraichnan",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/batchelor-kraichnan/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/batchelor-kraichnan/",
       "source_line_start": 220,
       "source_line_end": 224,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "vortex_stretching_bound",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/vortex-stretching-bound/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/vortex-stretching-bound/",
       "source_line_start": 235,
       "source_line_end": 237,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P45"
       ]
@@ -211,10 +243,12 @@
     {
       "kind": "structure",
       "name": "FiberCodimension",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/fiber-codimension/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/fiber-codimension/",
       "source_line_start": 248,
       "source_line_end": 257,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D308"
       ]
@@ -222,19 +256,23 @@
     {
       "kind": "def",
       "name": "fiber_codimension",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/fiber-codimension-l260/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/fiber-codimension-l260/",
       "source_line_start": 260,
       "source_line_end": 260,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "SheLevequeDecomposition",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/she-leveque-decomposition/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/she-leveque-decomposition/",
       "source_line_start": 276,
       "source_line_end": 299,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D309"
       ]
@@ -242,19 +280,23 @@
     {
       "kind": "def",
       "name": "she_leveque_decomposition",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/she-leveque-decomposition-l302/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/she-leveque-decomposition-l302/",
       "source_line_start": 302,
       "source_line_end": 302,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "she_leveque_from_tau",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/she-leveque-from-tau/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/she-leveque-from-tau/",
       "source_line_start": 317,
       "source_line_end": 322,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T248"
       ]
@@ -262,10 +304,12 @@
     {
       "kind": "structure",
       "name": "SheLevequeAgreement",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/she-leveque-agreement/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/she-leveque-agreement/",
       "source_line_start": 339,
       "source_line_end": 352,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.T249"
       ]
@@ -273,19 +317,23 @@
     {
       "kind": "def",
       "name": "she_leveque_agreement",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/she-leveque-agreement-l355/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/she-leveque-agreement-l355/",
       "source_line_start": 355,
       "source_line_end": 355,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "zeta_p_experimental_consistency",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/zeta-p-experimental-consistency/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/zeta-p-experimental-consistency/",
       "source_line_start": 366,
       "source_line_end": 367,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P170"
       ]
@@ -293,10 +341,12 @@
     {
       "kind": "structure",
       "name": "KolmogorovDecomposition",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-decomposition/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-decomposition/",
       "source_line_start": 379,
       "source_line_end": 396,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D310"
       ]
@@ -304,19 +354,23 @@
     {
       "kind": "def",
       "name": "kolmogorov_decomposition",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-decomposition-l399/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-decomposition-l399/",
       "source_line_start": 399,
       "source_line_end": 399,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "kolmogorov_53_from_tau",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-53-from-tau/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-53-from-tau/",
       "source_line_start": 410,
       "source_line_end": 414,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T250"
       ]
@@ -324,10 +378,12 @@
     {
       "kind": "structure",
       "name": "KolmogorovConstantDerived",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-constant-derived/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-constant-derived/",
       "source_line_start": 424,
       "source_line_end": 437,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.T251"
       ]
@@ -335,28 +391,34 @@
     {
       "kind": "def",
       "name": "ck_derived",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/ck-derived/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/ck-derived/",
       "source_line_start": 440,
       "source_line_end": 440,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ck_is_three_halves",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/ck-is-three-halves/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/ck-is-three-halves/",
       "source_line_start": 443,
       "source_line_end": 444,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ck_observational_match",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/ck-observational-match/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/ck-observational-match/",
       "source_line_start": 455,
       "source_line_end": 456,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P171"
       ]
@@ -364,46 +426,56 @@
     {
       "kind": "def",
       "name": "example_turbulent",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/example-turbulent/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/example-turbulent/",
       "source_line_start": 483,
       "source_line_end": 497,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/eval-l499/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/eval-l499/",
       "source_line_start": 499,
       "source_line_end": 499,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/eval-l500/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/eval-l500/",
       "source_line_start": 500,
       "source_line_end": 500,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "example_enstrophy",
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/example-enstrophy/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/example-enstrophy/",
       "source_line_start": 503,
       "source_line_end": 503,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-fluid-macro-turbulence/eval-l504/",
+      "url": "/corpus/taulib/docs/book-v-fluid-macro-turbulence/eval-l504/",
       "source_line_start": 504,
       "source_line_end": 506,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -415,7 +487,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -506,41 +578,41 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [TauTurbulentFlow](/verify/taulib/docs/book-v-fluid-macro-turbulence/tau-turbulent-flow/) | L77-L90 | defined | `V.D99` |
-| `def` | [TauTurbulentFlow.inertialWidth](/verify/taulib/docs/book-v-fluid-macro-turbulence/inertial-width/) | L93-L94 | defined | — |
-| `structure` | [KolmogorovExponent](/verify/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-exponent/) | L101-L108 | defined | — |
-| `def` | [kolmogorov_53](/verify/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-53/) | L111-L114 | defined | — |
-| `theorem` | [macro_energy_spectrum](/verify/taulib/docs/book-v-fluid-macro-turbulence/macro-energy-spectrum/) | L120-L122 | formalized | `V.T72` |
-| `theorem` | [kolmogorov_exponent_check](/verify/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-exponent-check/) | L125-L127 | formalized | — |
-| `structure` | [KolmogorovConstant](/verify/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-constant/) | L137-L142 | defined | `V.R146` |
-| `def` | [kolmogorov_constant](/verify/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-constant-l145/) | L145-L147 | defined | — |
-| `structure` | [TauEnstrophy](/verify/taulib/docs/book-v-fluid-macro-turbulence/tau-enstrophy/) | L157-L162 | defined | `V.D100` |
-| `def` | [TauEnstrophy.fromTransport](/verify/taulib/docs/book-v-fluid-macro-turbulence/from-transport/) | L165-L167 | defined | — |
-| `inductive` | [CascadeDirection](/verify/taulib/docs/book-v-fluid-macro-turbulence/cascade-direction/) | L174-L179 | defined | — |
-| `structure` | [DualCascade](/verify/taulib/docs/book-v-fluid-macro-turbulence/dual-cascade/) | L185-L192 | defined | `V.P44` |
-| `theorem` | [dual_cascade_decomposition](/verify/taulib/docs/book-v-fluid-macro-turbulence/dual-cascade-decomposition/) | L195-L201 | formalized | — |
-| `structure` | [BatchelorKraichnanSpectrum](/verify/taulib/docs/book-v-fluid-macro-turbulence/batchelor-kraichnan-spectrum/) | L210-L217 | defined | `V.R147` |
-| `def` | [batchelor_kraichnan](/verify/taulib/docs/book-v-fluid-macro-turbulence/batchelor-kraichnan/) | L220-L224 | defined | — |
-| `theorem` | [vortex_stretching_bound](/verify/taulib/docs/book-v-fluid-macro-turbulence/vortex-stretching-bound/) | L235-L237 | formalized | `V.P45` |
-| `structure` | [FiberCodimension](/verify/taulib/docs/book-v-fluid-macro-turbulence/fiber-codimension/) | L248-L257 | defined | `V.D308` |
-| `def` | [fiber_codimension](/verify/taulib/docs/book-v-fluid-macro-turbulence/fiber-codimension-l260/) | L260-L260 | defined | — |
-| `structure` | [SheLevequeDecomposition](/verify/taulib/docs/book-v-fluid-macro-turbulence/she-leveque-decomposition/) | L276-L299 | defined | `V.D309` |
-| `def` | [she_leveque_decomposition](/verify/taulib/docs/book-v-fluid-macro-turbulence/she-leveque-decomposition-l302/) | L302-L302 | defined | — |
-| `theorem` | [she_leveque_from_tau](/verify/taulib/docs/book-v-fluid-macro-turbulence/she-leveque-from-tau/) | L317-L322 | formalized | `V.T248` |
-| `structure` | [SheLevequeAgreement](/verify/taulib/docs/book-v-fluid-macro-turbulence/she-leveque-agreement/) | L339-L352 | defined | `V.T249` |
-| `def` | [she_leveque_agreement](/verify/taulib/docs/book-v-fluid-macro-turbulence/she-leveque-agreement-l355/) | L355-L355 | defined | — |
-| `theorem` | [zeta_p_experimental_consistency](/verify/taulib/docs/book-v-fluid-macro-turbulence/zeta-p-experimental-consistency/) | L366-L367 | formalized | `V.P170` |
-| `structure` | [KolmogorovDecomposition](/verify/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-decomposition/) | L379-L396 | defined | `V.D310` |
-| `def` | [kolmogorov_decomposition](/verify/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-decomposition-l399/) | L399-L399 | defined | — |
-| `theorem` | [kolmogorov_53_from_tau](/verify/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-53-from-tau/) | L410-L414 | formalized | `V.T250` |
-| `structure` | [KolmogorovConstantDerived](/verify/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-constant-derived/) | L424-L437 | defined | `V.T251` |
-| `def` | [ck_derived](/verify/taulib/docs/book-v-fluid-macro-turbulence/ck-derived/) | L440-L440 | defined | — |
-| `theorem` | [ck_is_three_halves](/verify/taulib/docs/book-v-fluid-macro-turbulence/ck-is-three-halves/) | L443-L444 | formalized | — |
-| `theorem` | [ck_observational_match](/verify/taulib/docs/book-v-fluid-macro-turbulence/ck-observational-match/) | L455-L456 | formalized | `V.P171` |
-| `def` | [example_turbulent](/verify/taulib/docs/book-v-fluid-macro-turbulence/example-turbulent/) | L483-L497 | defined | — |
-| `eval` | [#eval L499](/verify/taulib/docs/book-v-fluid-macro-turbulence/eval-l499/) | L499-L499 | computed | — |
-| `eval` | [#eval L500](/verify/taulib/docs/book-v-fluid-macro-turbulence/eval-l500/) | L500-L500 | computed | — |
-| `def` | [example_enstrophy](/verify/taulib/docs/book-v-fluid-macro-turbulence/example-enstrophy/) | L503-L503 | defined | — |
-| `eval` | [#eval L504](/verify/taulib/docs/book-v-fluid-macro-turbulence/eval-l504/) | L504-L506 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [TauTurbulentFlow](/corpus/taulib/docs/book-v-fluid-macro-turbulence/tau-turbulent-flow/) | L77-L90 | type/data schema | type/data schema | `V.D99` |
+| `def` | [TauTurbulentFlow.inertialWidth](/corpus/taulib/docs/book-v-fluid-macro-turbulence/inertial-width/) | L93-L94 | data/computed value | data/computed value | — |
+| `structure` | [KolmogorovExponent](/corpus/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-exponent/) | L101-L108 | type/data schema | type/data schema | — |
+| `def` | [kolmogorov_53](/corpus/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-53/) | L111-L114 | definition | definition | — |
+| `theorem` | [macro_energy_spectrum](/corpus/taulib/docs/book-v-fluid-macro-turbulence/macro-energy-spectrum/) | L120-L122 | proof obligation | formal proof obligation checked | `V.T72` |
+| `theorem` | [kolmogorov_exponent_check](/corpus/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-exponent-check/) | L125-L127 | proof obligation | formal proof obligation checked | — |
+| `structure` | [KolmogorovConstant](/corpus/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-constant/) | L137-L142 | type/data schema | type/data schema | `V.R146` |
+| `def` | [kolmogorov_constant](/corpus/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-constant-l145/) | L145-L147 | definition | definition | — |
+| `structure` | [TauEnstrophy](/corpus/taulib/docs/book-v-fluid-macro-turbulence/tau-enstrophy/) | L157-L162 | type/data schema | type/data schema | `V.D100` |
+| `def` | [TauEnstrophy.fromTransport](/corpus/taulib/docs/book-v-fluid-macro-turbulence/from-transport/) | L165-L167 | definition | definition | — |
+| `inductive` | [CascadeDirection](/corpus/taulib/docs/book-v-fluid-macro-turbulence/cascade-direction/) | L174-L179 | type/data schema | type/data schema | — |
+| `structure` | [DualCascade](/corpus/taulib/docs/book-v-fluid-macro-turbulence/dual-cascade/) | L185-L192 | type/data schema | type/data schema | `V.P44` |
+| `theorem` | [dual_cascade_decomposition](/corpus/taulib/docs/book-v-fluid-macro-turbulence/dual-cascade-decomposition/) | L195-L201 | proof obligation | formal proof obligation checked | — |
+| `structure` | [BatchelorKraichnanSpectrum](/corpus/taulib/docs/book-v-fluid-macro-turbulence/batchelor-kraichnan-spectrum/) | L210-L217 | type/data schema | type/data schema | `V.R147` |
+| `def` | [batchelor_kraichnan](/corpus/taulib/docs/book-v-fluid-macro-turbulence/batchelor-kraichnan/) | L220-L224 | definition | definition | — |
+| `theorem` | [vortex_stretching_bound](/corpus/taulib/docs/book-v-fluid-macro-turbulence/vortex-stretching-bound/) | L235-L237 | proof obligation | formal proof obligation checked | `V.P45` |
+| `structure` | [FiberCodimension](/corpus/taulib/docs/book-v-fluid-macro-turbulence/fiber-codimension/) | L248-L257 | type/data schema | type/data schema | `V.D308` |
+| `def` | [fiber_codimension](/corpus/taulib/docs/book-v-fluid-macro-turbulence/fiber-codimension-l260/) | L260-L260 | definition | definition | — |
+| `structure` | [SheLevequeDecomposition](/corpus/taulib/docs/book-v-fluid-macro-turbulence/she-leveque-decomposition/) | L276-L299 | type/data schema | type/data schema | `V.D309` |
+| `def` | [she_leveque_decomposition](/corpus/taulib/docs/book-v-fluid-macro-turbulence/she-leveque-decomposition-l302/) | L302-L302 | definition | definition | — |
+| `theorem` | [she_leveque_from_tau](/corpus/taulib/docs/book-v-fluid-macro-turbulence/she-leveque-from-tau/) | L317-L322 | proof obligation | formal proof obligation checked | `V.T248` |
+| `structure` | [SheLevequeAgreement](/corpus/taulib/docs/book-v-fluid-macro-turbulence/she-leveque-agreement/) | L339-L352 | type/data schema | type/data schema | `V.T249` |
+| `def` | [she_leveque_agreement](/corpus/taulib/docs/book-v-fluid-macro-turbulence/she-leveque-agreement-l355/) | L355-L355 | definition | definition | — |
+| `theorem` | [zeta_p_experimental_consistency](/corpus/taulib/docs/book-v-fluid-macro-turbulence/zeta-p-experimental-consistency/) | L366-L367 | proof obligation | formal proof obligation checked | `V.P170` |
+| `structure` | [KolmogorovDecomposition](/corpus/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-decomposition/) | L379-L396 | type/data schema | type/data schema | `V.D310` |
+| `def` | [kolmogorov_decomposition](/corpus/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-decomposition-l399/) | L399-L399 | definition | definition | — |
+| `theorem` | [kolmogorov_53_from_tau](/corpus/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-53-from-tau/) | L410-L414 | proof obligation | formal proof obligation checked | `V.T250` |
+| `structure` | [KolmogorovConstantDerived](/corpus/taulib/docs/book-v-fluid-macro-turbulence/kolmogorov-constant-derived/) | L424-L437 | type/data schema | type/data schema | `V.T251` |
+| `def` | [ck_derived](/corpus/taulib/docs/book-v-fluid-macro-turbulence/ck-derived/) | L440-L440 | definition | definition | — |
+| `theorem` | [ck_is_three_halves](/corpus/taulib/docs/book-v-fluid-macro-turbulence/ck-is-three-halves/) | L443-L444 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [ck_observational_match](/corpus/taulib/docs/book-v-fluid-macro-turbulence/ck-observational-match/) | L455-L456 | proof obligation | formal proof obligation checked | `V.P171` |
+| `def` | [example_turbulent](/corpus/taulib/docs/book-v-fluid-macro-turbulence/example-turbulent/) | L483-L497 | definition | definition | — |
+| `eval` | [#eval L499](/corpus/taulib/docs/book-v-fluid-macro-turbulence/eval-l499/) | L499-L499 | computed check | computed check | — |
+| `eval` | [#eval L500](/corpus/taulib/docs/book-v-fluid-macro-turbulence/eval-l500/) | L500-L500 | computed check | computed check | — |
+| `def` | [example_enstrophy](/corpus/taulib/docs/book-v-fluid-macro-turbulence/example-enstrophy/) | L503-L503 | definition | definition | — |
+| `eval` | [#eval L504](/corpus/taulib/docs/book-v-fluid-macro-turbulence/eval-l504/) | L504-L506 | computed check | computed check | — |

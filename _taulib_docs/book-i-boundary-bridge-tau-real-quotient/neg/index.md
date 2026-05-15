@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "neg",
-  "permalink": "/verify/taulib/docs/book-i-boundary-bridge-tau-real-quotient/neg/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-bridge-tau-real-quotient/neg/",
   "summary_short": "`def` declaration in `TauLib.BookI.Boundary.Bridge.TauRealQuotient`.",
   "declaration_id": "TauLib.BookI.Boundary.Bridge.TauRealQuotient::neg",
   "declaration_slug": "neg",
   "kind": "def",
   "name": "neg",
   "module_name": "TauLib.BookI.Boundary.Bridge.TauRealQuotient",
-  "module_url": "/verify/taulib/docs/book-i-boundary-bridge-tau-real-quotient/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-bridge-tau-real-quotient/",
   "source_line_start": 96,
   "source_line_end": 97,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Bridge/TauRealQuotient.lean#L96-L97",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Bridge.TauRealQuotient",
-        "url": "/verify/taulib/docs/book-i-boundary-bridge-tau-real-quotient/"
+        "url": "/corpus/taulib/docs/book-i-boundary-bridge-tau-real-quotient/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Bridge.TauRealQuotient](/verify/taulib/docs/book-i-boundary-bridge-tau-real-quotient/)
+- Module: [TauLib.BookI.Boundary.Bridge.TauRealQuotient](/corpus/taulib/docs/book-i-boundary-bridge-tau-real-quotient/)
 - Source path: [`TauLib/BookI/Boundary/Bridge/TauRealQuotient.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Bridge/TauRealQuotient.lean#L96-L97)
 - Source range: L96-L97
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

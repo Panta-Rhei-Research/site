@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "Pol_eq_labelInfty_at_seven",
-  "permalink": "/verify/taulib/docs/book-i-polarity-prime-polarity-isomorphism/pol-eq-label-infty-at-seven/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-prime-polarity-isomorphism/pol-eq-label-infty-at-seven/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Polarity.PrimePolarityIsomorphism`.",
   "declaration_id": "TauLib.BookI.Polarity.PrimePolarityIsomorphism::Pol_eq_labelInfty_at_seven",
   "declaration_slug": "pol-eq-label-infty-at-seven",
   "kind": "theorem",
   "name": "Pol_eq_labelInfty_at_seven",
   "module_name": "TauLib.BookI.Polarity.PrimePolarityIsomorphism",
-  "module_url": "/verify/taulib/docs/book-i-polarity-prime-polarity-isomorphism/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-prime-polarity-isomorphism/",
   "source_line_start": 168,
   "source_line_end": 171,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/PrimePolarityIsomorphism.lean#L168-L171",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.PrimePolarityIsomorphism",
-        "url": "/verify/taulib/docs/book-i-polarity-prime-polarity-isomorphism/"
+        "url": "/corpus/taulib/docs/book-i-polarity-prime-polarity-isomorphism/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.PrimePolarityIsomorphism](/verify/taulib/docs/book-i-polarity-prime-polarity-isomorphism/)
+- Module: [TauLib.BookI.Polarity.PrimePolarityIsomorphism](/corpus/taulib/docs/book-i-polarity-prime-polarity-isomorphism/)
 - Source path: [`TauLib/BookI/Polarity/PrimePolarityIsomorphism.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/PrimePolarityIsomorphism.lean#L168-L171)
 - Source range: L168-L171
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

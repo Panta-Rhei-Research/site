@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L261",
-  "permalink": "/verify/taulib/docs/book-iv-many-body-condensed-matter/eval-l261/",
+  "permalink": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/eval-l261/",
   "summary_short": "`eval` declaration in `TauLib.BookIV.ManyBody.CondensedMatter`.",
   "declaration_id": "TauLib.BookIV.ManyBody.CondensedMatter::#eval:261",
   "declaration_slug": "eval-l261",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIV.ManyBody.CondensedMatter",
-  "module_url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/",
+  "module_url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/",
   "source_line_start": 261,
   "source_line_end": 261,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/CondensedMatter.lean#L261-L261",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.ManyBody.CondensedMatter",
-        "url": "/verify/taulib/docs/book-iv-many-body-condensed-matter/"
+        "url": "/corpus/taulib/docs/book-iv-many-body-condensed-matter/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.ManyBody.CondensedMatter](/verify/taulib/docs/book-iv-many-body-condensed-matter/)
+- Module: [TauLib.BookIV.ManyBody.CondensedMatter](/corpus/taulib/docs/book-iv-many-body-condensed-matter/)
 - Source path: [`TauLib/BookIV/ManyBody/CondensedMatter.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/CondensedMatter.lean#L261-L261)
 - Source range: L261-L261
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

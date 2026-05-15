@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "spectral_param_zero",
-  "permalink": "/verify/taulib/docs/book-iii-doors-spectral-correspondence/spectral-param-zero/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-spectral-correspondence/spectral-param-zero/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Doors.SpectralCorrespondence`.",
   "declaration_id": "TauLib.BookIII.Doors.SpectralCorrespondence::spectral_param_zero",
   "declaration_slug": "spectral-param-zero",
   "kind": "theorem",
   "name": "spectral_param_zero",
   "module_name": "TauLib.BookIII.Doors.SpectralCorrespondence",
-  "module_url": "/verify/taulib/docs/book-iii-doors-spectral-correspondence/",
+  "module_url": "/corpus/taulib/docs/book-iii-doors-spectral-correspondence/",
   "source_line_start": 161,
   "source_line_end": 162,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/SpectralCorrespondence.lean#L161-L162",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Doors.SpectralCorrespondence",
-        "url": "/verify/taulib/docs/book-iii-doors-spectral-correspondence/"
+        "url": "/corpus/taulib/docs/book-iii-doors-spectral-correspondence/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Doors.SpectralCorrespondence](/verify/taulib/docs/book-iii-doors-spectral-correspondence/)
+- Module: [TauLib.BookIII.Doors.SpectralCorrespondence](/corpus/taulib/docs/book-iii-doors-spectral-correspondence/)
 - Source path: [`TauLib/BookIII/Doors/SpectralCorrespondence.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/SpectralCorrespondence.lean#L161-L162)
 - Source range: L161-L162
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

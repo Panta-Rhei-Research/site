@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookVI.LifeCore.LayerSep",
-  "permalink": "/verify/taulib/docs/book-vi-life-core-layer-sep/",
+  "permalink": "/corpus/taulib/docs/book-vi-life-core-layer-sep/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookVI.LifeCore.LayerSep`.",
   "module_name": "TauLib.BookVI.LifeCore.LayerSep",
   "module_slug": "book-vi-life-core-layer-sep",
@@ -34,10 +34,12 @@
     {
       "kind": "structure",
       "name": "NSTOVCounterexample",
-      "url": "/verify/taulib/docs/book-vi-life-core-layer-sep/nstovcounterexample/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-layer-sep/nstovcounterexample/",
       "source_line_start": 24,
       "source_line_end": 29,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.L02"
       ]
@@ -45,28 +47,34 @@
     {
       "kind": "def",
       "name": "ns_tov",
-      "url": "/verify/taulib/docs/book-vi-life-core-layer-sep/ns-tov/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-layer-sep/ns-tov/",
       "source_line_start": 31,
       "source_line_end": 33,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ns_tov_counterexample",
-      "url": "/verify/taulib/docs/book-vi-life-core-layer-sep/ns-tov-counterexample/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-layer-sep/ns-tov-counterexample/",
       "source_line_start": 35,
       "source_line_end": 38,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "LayerSeparation",
-      "url": "/verify/taulib/docs/book-vi-life-core-layer-sep/layer-separation/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-layer-sep/layer-separation/",
       "source_line_start": 42,
       "source_line_end": 47,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.T04"
       ]
@@ -74,28 +82,34 @@
     {
       "kind": "def",
       "name": "layer_sep",
-      "url": "/verify/taulib/docs/book-vi-life-core-layer-sep/layer-sep/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-layer-sep/layer-sep/",
       "source_line_start": 49,
       "source_line_end": 49,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "layer_separation_lemma",
-      "url": "/verify/taulib/docs/book-vi-life-core-layer-sep/layer-separation-lemma/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-layer-sep/layer-separation-lemma/",
       "source_line_start": 51,
       "source_line_end": 55,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "LoopFactorization",
-      "url": "/verify/taulib/docs/book-vi-life-core-layer-sep/loop-factorization/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-layer-sep/loop-factorization/",
       "source_line_start": 59,
       "source_line_end": 63,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.L03"
       ]
@@ -103,28 +117,34 @@
     {
       "kind": "def",
       "name": "loop_fact",
-      "url": "/verify/taulib/docs/book-vi-life-core-layer-sep/loop-fact/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-layer-sep/loop-fact/",
       "source_line_start": 65,
       "source_line_end": 67,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "loop_factorization",
-      "url": "/verify/taulib/docs/book-vi-life-core-layer-sep/loop-factorization-l69/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-layer-sep/loop-factorization-l69/",
       "source_line_start": 69,
       "source_line_end": 72,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "LifePhaseBoundary",
-      "url": "/verify/taulib/docs/book-vi-life-core-layer-sep/life-phase-boundary/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-layer-sep/life-phase-boundary/",
       "source_line_start": 75,
       "source_line_end": 78,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.P05"
       ]
@@ -132,19 +152,23 @@
     {
       "kind": "def",
       "name": "phase_boundary",
-      "url": "/verify/taulib/docs/book-vi-life-core-layer-sep/phase-boundary/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-layer-sep/phase-boundary/",
       "source_line_start": 80,
       "source_line_end": 80,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "life_phase_boundary",
-      "url": "/verify/taulib/docs/book-vi-life-core-layer-sep/life-phase-boundary-l82/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-layer-sep/life-phase-boundary-l82/",
       "source_line_start": 82,
       "source_line_end": 87,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -156,7 +180,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -228,17 +252,17 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [NSTOVCounterexample](/verify/taulib/docs/book-vi-life-core-layer-sep/nstovcounterexample/) | L24-L29 | defined | `VI.L02` |
-| `def` | [ns_tov](/verify/taulib/docs/book-vi-life-core-layer-sep/ns-tov/) | L31-L33 | defined | — |
-| `theorem` | [ns_tov_counterexample](/verify/taulib/docs/book-vi-life-core-layer-sep/ns-tov-counterexample/) | L35-L38 | formalized | — |
-| `structure` | [LayerSeparation](/verify/taulib/docs/book-vi-life-core-layer-sep/layer-separation/) | L42-L47 | defined | `VI.T04` |
-| `def` | [layer_sep](/verify/taulib/docs/book-vi-life-core-layer-sep/layer-sep/) | L49-L49 | defined | — |
-| `theorem` | [layer_separation_lemma](/verify/taulib/docs/book-vi-life-core-layer-sep/layer-separation-lemma/) | L51-L55 | formalized | — |
-| `structure` | [LoopFactorization](/verify/taulib/docs/book-vi-life-core-layer-sep/loop-factorization/) | L59-L63 | defined | `VI.L03` |
-| `def` | [loop_fact](/verify/taulib/docs/book-vi-life-core-layer-sep/loop-fact/) | L65-L67 | defined | — |
-| `theorem` | [loop_factorization](/verify/taulib/docs/book-vi-life-core-layer-sep/loop-factorization-l69/) | L69-L72 | formalized | — |
-| `structure` | [LifePhaseBoundary](/verify/taulib/docs/book-vi-life-core-layer-sep/life-phase-boundary/) | L75-L78 | defined | `VI.P05` |
-| `def` | [phase_boundary](/verify/taulib/docs/book-vi-life-core-layer-sep/phase-boundary/) | L80-L80 | defined | — |
-| `theorem` | [life_phase_boundary](/verify/taulib/docs/book-vi-life-core-layer-sep/life-phase-boundary-l82/) | L82-L87 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [NSTOVCounterexample](/corpus/taulib/docs/book-vi-life-core-layer-sep/nstovcounterexample/) | L24-L29 | type/data schema | type/data schema | `VI.L02` |
+| `def` | [ns_tov](/corpus/taulib/docs/book-vi-life-core-layer-sep/ns-tov/) | L31-L33 | definition | definition | — |
+| `theorem` | [ns_tov_counterexample](/corpus/taulib/docs/book-vi-life-core-layer-sep/ns-tov-counterexample/) | L35-L38 | proof obligation | formal proof obligation checked | — |
+| `structure` | [LayerSeparation](/corpus/taulib/docs/book-vi-life-core-layer-sep/layer-separation/) | L42-L47 | type/data schema | type/data schema | `VI.T04` |
+| `def` | [layer_sep](/corpus/taulib/docs/book-vi-life-core-layer-sep/layer-sep/) | L49-L49 | definition | definition | — |
+| `theorem` | [layer_separation_lemma](/corpus/taulib/docs/book-vi-life-core-layer-sep/layer-separation-lemma/) | L51-L55 | proof obligation | formal proof obligation checked | — |
+| `structure` | [LoopFactorization](/corpus/taulib/docs/book-vi-life-core-layer-sep/loop-factorization/) | L59-L63 | type/data schema | type/data schema | `VI.L03` |
+| `def` | [loop_fact](/corpus/taulib/docs/book-vi-life-core-layer-sep/loop-fact/) | L65-L67 | definition | definition | — |
+| `theorem` | [loop_factorization](/corpus/taulib/docs/book-vi-life-core-layer-sep/loop-factorization-l69/) | L69-L72 | proof obligation | formal proof obligation checked | — |
+| `structure` | [LifePhaseBoundary](/corpus/taulib/docs/book-vi-life-core-layer-sep/life-phase-boundary/) | L75-L78 | type/data schema | type/data schema | `VI.P05` |
+| `def` | [phase_boundary](/corpus/taulib/docs/book-vi-life-core-layer-sep/phase-boundary/) | L80-L80 | definition | definition | — |
+| `theorem` | [life_phase_boundary](/corpus/taulib/docs/book-vi-life-core-layer-sep/life-phase-boundary-l82/) | L82-L87 | proof obligation | formal proof obligation checked | — |

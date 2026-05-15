@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "HolEndMorphism",
-  "permalink": "/verify/taulib/docs/book-i-boundary-universal-fixed-scalar/hol-end-morphism/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-universal-fixed-scalar/hol-end-morphism/",
   "summary_short": "`structure` declaration in `TauLib.BookI.Boundary.UniversalFixedScalar`.",
   "declaration_id": "TauLib.BookI.Boundary.UniversalFixedScalar::HolEndMorphism",
   "declaration_slug": "hol-end-morphism",
   "kind": "structure",
   "name": "HolEndMorphism",
   "module_name": "TauLib.BookI.Boundary.UniversalFixedScalar",
-  "module_url": "/verify/taulib/docs/book-i-boundary-universal-fixed-scalar/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-universal-fixed-scalar/",
   "source_line_start": 123,
   "source_line_end": 130,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/UniversalFixedScalar.lean#L123-L130",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.UniversalFixedScalar",
-        "url": "/verify/taulib/docs/book-i-boundary-universal-fixed-scalar/"
+        "url": "/corpus/taulib/docs/book-i-boundary-universal-fixed-scalar/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.UniversalFixedScalar](/verify/taulib/docs/book-i-boundary-universal-fixed-scalar/)
+- Module: [TauLib.BookI.Boundary.UniversalFixedScalar](/corpus/taulib/docs/book-i-boundary-universal-fixed-scalar/)
 - Source path: [`TauLib/BookI/Boundary/UniversalFixedScalar.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/UniversalFixedScalar.lean#L123-L130)
 - Source range: L123-L130
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

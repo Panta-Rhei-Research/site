@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Sets.Powerset",
-  "permalink": "/verify/taulib/docs/book-i-sets-powerset/",
+  "permalink": "/corpus/taulib/docs/book-i-sets-powerset/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Sets.Powerset`.",
   "module_name": "TauLib.BookI.Sets.Powerset",
   "module_slug": "book-i-sets-powerset",
@@ -32,10 +32,12 @@
     {
       "kind": "def",
       "name": "tau_strict_mem",
-      "url": "/verify/taulib/docs/book-i-sets-powerset/tau-strict-mem/",
+      "url": "/corpus/taulib/docs/book-i-sets-powerset/tau-strict-mem/",
       "source_line_start": 39,
       "source_line_end": 39,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "I.D33"
       ]
@@ -43,82 +45,100 @@
     {
       "kind": "theorem",
       "name": "tau_strict_mem_irrefl",
-      "url": "/verify/taulib/docs/book-i-sets-powerset/tau-strict-mem-irrefl/",
+      "url": "/corpus/taulib/docs/book-i-sets-powerset/tau-strict-mem-irrefl/",
       "source_line_start": 42,
       "source_line_end": 43,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tau_strict_mem_trans",
-      "url": "/verify/taulib/docs/book-i-sets-powerset/tau-strict-mem-trans/",
+      "url": "/corpus/taulib/docs/book-i-sets-powerset/tau-strict-mem-trans/",
       "source_line_start": 46,
       "source_line_end": 50,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tau_strict_mem_lt",
-      "url": "/verify/taulib/docs/book-i-sets-powerset/tau-strict-mem-lt/",
+      "url": "/corpus/taulib/docs/book-i-sets-powerset/tau-strict-mem-lt/",
       "source_line_start": 58,
       "source_line_end": 61,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tau_strict_mem_one",
-      "url": "/verify/taulib/docs/book-i-sets-powerset/tau-strict-mem-one/",
+      "url": "/corpus/taulib/docs/book-i-sets-powerset/tau-strict-mem-one/",
       "source_line_start": 64,
       "source_line_end": 65,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tau_strict_mem_bound",
-      "url": "/verify/taulib/docs/book-i-sets-powerset/tau-strict-mem-bound/",
+      "url": "/corpus/taulib/docs/book-i-sets-powerset/tau-strict-mem-bound/",
       "source_line_start": 68,
       "source_line_end": 70,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "strict_mem_sub_lt",
-      "url": "/verify/taulib/docs/book-i-sets-powerset/strict-mem-sub-lt/",
+      "url": "/corpus/taulib/docs/book-i-sets-powerset/strict-mem-sub-lt/",
       "source_line_start": 78,
       "source_line_end": 80,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "tau_strict_mem_nz",
-      "url": "/verify/taulib/docs/book-i-sets-powerset/tau-strict-mem-nz/",
+      "url": "/corpus/taulib/docs/book-i-sets-powerset/tau-strict-mem-nz/",
       "source_line_start": 83,
       "source_line_end": 83,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "strict_mem_nz_sub_lt",
-      "url": "/verify/taulib/docs/book-i-sets-powerset/strict-mem-nz-sub-lt/",
+      "url": "/corpus/taulib/docs/book-i-sets-powerset/strict-mem-nz-sub-lt/",
       "source_line_start": 86,
       "source_line_end": 88,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tau_strict_mem_wf",
-      "url": "/verify/taulib/docs/book-i-sets-powerset/tau-strict-mem-wf/",
+      "url": "/corpus/taulib/docs/book-i-sets-powerset/tau-strict-mem-wf/",
       "source_line_start": 97,
       "source_line_end": 100,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.P12"
       ]
@@ -126,55 +146,67 @@
     {
       "kind": "theorem",
       "name": "tau_strict_mem_induction",
-      "url": "/verify/taulib/docs/book-i-sets-powerset/tau-strict-mem-induction/",
+      "url": "/corpus/taulib/docs/book-i-sets-powerset/tau-strict-mem-induction/",
       "source_line_start": 105,
       "source_line_end": 108,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tau_mem_bounded",
-      "url": "/verify/taulib/docs/book-i-sets-powerset/tau-mem-bounded/",
+      "url": "/corpus/taulib/docs/book-i-sets-powerset/tau-mem-bounded/",
       "source_line_start": 115,
       "source_line_end": 117,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "strict_mem_chain_bound",
-      "url": "/verify/taulib/docs/book-i-sets-powerset/strict-mem-chain-bound/",
+      "url": "/corpus/taulib/docs/book-i-sets-powerset/strict-mem-chain-bound/",
       "source_line_start": 122,
       "source_line_end": 124,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-sets-powerset/example-l131/",
+      "url": "/corpus/taulib/docs/book-i-sets-powerset/example-l131/",
       "source_line_start": 131,
       "source_line_end": 132,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-sets-powerset/example-l135/",
+      "url": "/corpus/taulib/docs/book-i-sets-powerset/example-l135/",
       "source_line_start": 135,
       "source_line_end": 135,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-sets-powerset/example-l138/",
+      "url": "/corpus/taulib/docs/book-i-sets-powerset/example-l138/",
       "source_line_start": 138,
       "source_line_end": 141,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     }
   ],
@@ -186,7 +218,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -256,21 +288,21 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [tau_strict_mem](/verify/taulib/docs/book-i-sets-powerset/tau-strict-mem/) | L39-L39 | defined | `I.D33` |
-| `theorem` | [tau_strict_mem_irrefl](/verify/taulib/docs/book-i-sets-powerset/tau-strict-mem-irrefl/) | L42-L43 | formalized | — |
-| `theorem` | [tau_strict_mem_trans](/verify/taulib/docs/book-i-sets-powerset/tau-strict-mem-trans/) | L46-L50 | formalized | — |
-| `theorem` | [tau_strict_mem_lt](/verify/taulib/docs/book-i-sets-powerset/tau-strict-mem-lt/) | L58-L61 | formalized | — |
-| `theorem` | [tau_strict_mem_one](/verify/taulib/docs/book-i-sets-powerset/tau-strict-mem-one/) | L64-L65 | formalized | — |
-| `theorem` | [tau_strict_mem_bound](/verify/taulib/docs/book-i-sets-powerset/tau-strict-mem-bound/) | L68-L70 | formalized | — |
-| `theorem` | [strict_mem_sub_lt](/verify/taulib/docs/book-i-sets-powerset/strict-mem-sub-lt/) | L78-L80 | formalized | — |
-| `def` | [tau_strict_mem_nz](/verify/taulib/docs/book-i-sets-powerset/tau-strict-mem-nz/) | L83-L83 | defined | — |
-| `theorem` | [strict_mem_nz_sub_lt](/verify/taulib/docs/book-i-sets-powerset/strict-mem-nz-sub-lt/) | L86-L88 | formalized | — |
-| `theorem` | [tau_strict_mem_wf](/verify/taulib/docs/book-i-sets-powerset/tau-strict-mem-wf/) | L97-L100 | formalized | `I.P12` |
-| `theorem` | [tau_strict_mem_induction](/verify/taulib/docs/book-i-sets-powerset/tau-strict-mem-induction/) | L105-L108 | formalized | — |
-| `theorem` | [tau_mem_bounded](/verify/taulib/docs/book-i-sets-powerset/tau-mem-bounded/) | L115-L117 | formalized | — |
-| `theorem` | [strict_mem_chain_bound](/verify/taulib/docs/book-i-sets-powerset/strict-mem-chain-bound/) | L122-L124 | formalized | — |
-| `example` | [#eval L131](/verify/taulib/docs/book-i-sets-powerset/example-l131/) | L131-L132 | example | — |
-| `example` | [#eval L135](/verify/taulib/docs/book-i-sets-powerset/example-l135/) | L135-L135 | example | — |
-| `example` | [#eval L138](/verify/taulib/docs/book-i-sets-powerset/example-l138/) | L138-L141 | example | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [tau_strict_mem](/corpus/taulib/docs/book-i-sets-powerset/tau-strict-mem/) | L39-L39 | definition | definition | `I.D33` |
+| `theorem` | [tau_strict_mem_irrefl](/corpus/taulib/docs/book-i-sets-powerset/tau-strict-mem-irrefl/) | L42-L43 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [tau_strict_mem_trans](/corpus/taulib/docs/book-i-sets-powerset/tau-strict-mem-trans/) | L46-L50 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [tau_strict_mem_lt](/corpus/taulib/docs/book-i-sets-powerset/tau-strict-mem-lt/) | L58-L61 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [tau_strict_mem_one](/corpus/taulib/docs/book-i-sets-powerset/tau-strict-mem-one/) | L64-L65 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [tau_strict_mem_bound](/corpus/taulib/docs/book-i-sets-powerset/tau-strict-mem-bound/) | L68-L70 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [strict_mem_sub_lt](/corpus/taulib/docs/book-i-sets-powerset/strict-mem-sub-lt/) | L78-L80 | proof obligation | formal proof obligation checked | — |
+| `def` | [tau_strict_mem_nz](/corpus/taulib/docs/book-i-sets-powerset/tau-strict-mem-nz/) | L83-L83 | definition | definition | — |
+| `theorem` | [strict_mem_nz_sub_lt](/corpus/taulib/docs/book-i-sets-powerset/strict-mem-nz-sub-lt/) | L86-L88 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [tau_strict_mem_wf](/corpus/taulib/docs/book-i-sets-powerset/tau-strict-mem-wf/) | L97-L100 | proof obligation | formal proof obligation checked | `I.P12` |
+| `theorem` | [tau_strict_mem_induction](/corpus/taulib/docs/book-i-sets-powerset/tau-strict-mem-induction/) | L105-L108 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [tau_mem_bounded](/corpus/taulib/docs/book-i-sets-powerset/tau-mem-bounded/) | L115-L117 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [strict_mem_chain_bound](/corpus/taulib/docs/book-i-sets-powerset/strict-mem-chain-bound/) | L122-L124 | proof obligation | formal proof obligation checked | — |
+| `example` | [#eval L131](/corpus/taulib/docs/book-i-sets-powerset/example-l131/) | L131-L132 | example check | example | — |
+| `example` | [#eval L135](/corpus/taulib/docs/book-i-sets-powerset/example-l135/) | L135-L135 | example check | example | — |
+| `example` | [#eval L138](/corpus/taulib/docs/book-i-sets-powerset/example-l138/) | L138-L141 | example check | example | — |

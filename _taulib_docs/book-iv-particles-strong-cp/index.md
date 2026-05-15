@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.Particles.StrongCP",
-  "permalink": "/verify/taulib/docs/book-iv-particles-strong-cp/",
+  "permalink": "/corpus/taulib/docs/book-iv-particles-strong-cp/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.Particles.StrongCP`.",
   "module_name": "TauLib.BookIV.Particles.StrongCP",
   "module_slug": "book-iv-particles-strong-cp",
@@ -35,55 +35,67 @@
     {
       "kind": "def",
       "name": "sa_i_strong_cp_theorem",
-      "url": "/verify/taulib/docs/book-iv-particles-strong-cp/sa-i-strong-cp-theorem/",
+      "url": "/corpus/taulib/docs/book-iv-particles-strong-cp/sa-i-strong-cp-theorem/",
       "source_line_start": 49,
       "source_line_end": 51,
       "formal_status": "defined",
+      "declaration_role": "docstring/data record",
+      "formal_status_label": "docstring/data record",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "sa_i_forbids_instantons",
-      "url": "/verify/taulib/docs/book-iv-particles-strong-cp/sa-i-forbids-instantons/",
+      "url": "/corpus/taulib/docs/book-iv-particles-strong-cp/sa-i-forbids-instantons/",
       "source_line_start": 57,
       "source_line_end": 58,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "theta_qcd_zero_from_sa_i",
-      "url": "/verify/taulib/docs/book-iv-particles-strong-cp/theta-qcd-zero-from-sa-i/",
+      "url": "/corpus/taulib/docs/book-iv-particles-strong-cp/theta-qcd-zero-from-sa-i/",
       "source_line_start": 73,
       "source_line_end": 73,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "neutron_edm_zero",
-      "url": "/verify/taulib/docs/book-iv-particles-strong-cp/neutron-edm-zero/",
+      "url": "/corpus/taulib/docs/book-iv-particles-strong-cp/neutron-edm-zero/",
       "source_line_start": 87,
       "source_line_end": 87,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "no_axion_required",
-      "url": "/verify/taulib/docs/book-iv-particles-strong-cp/no-axion-required/",
+      "url": "/corpus/taulib/docs/book-iv-particles-strong-cp/no-axion-required/",
       "source_line_start": 102,
       "source_line_end": 105,
       "formal_status": "defined",
+      "declaration_role": "docstring/data record",
+      "formal_status_label": "docstring/data record",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "pq_comparison",
-      "url": "/verify/taulib/docs/book-iv-particles-strong-cp/pq-comparison/",
+      "url": "/corpus/taulib/docs/book-iv-particles-strong-cp/pq-comparison/",
       "source_line_start": 116,
       "source_line_end": 121,
       "formal_status": "defined",
+      "declaration_role": "docstring/data record",
+      "formal_status_label": "docstring/data record",
       "registry_ids": []
     }
   ],
@@ -95,7 +107,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -168,11 +180,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [sa_i_strong_cp_theorem](/verify/taulib/docs/book-iv-particles-strong-cp/sa-i-strong-cp-theorem/) | L49-L51 | defined | — |
-| `theorem` | [sa_i_forbids_instantons](/verify/taulib/docs/book-iv-particles-strong-cp/sa-i-forbids-instantons/) | L57-L58 | formalized | — |
-| `theorem` | [theta_qcd_zero_from_sa_i](/verify/taulib/docs/book-iv-particles-strong-cp/theta-qcd-zero-from-sa-i/) | L73-L73 | formalized | — |
-| `theorem` | [neutron_edm_zero](/verify/taulib/docs/book-iv-particles-strong-cp/neutron-edm-zero/) | L87-L87 | formalized | — |
-| `def` | [no_axion_required](/verify/taulib/docs/book-iv-particles-strong-cp/no-axion-required/) | L102-L105 | defined | — |
-| `def` | [pq_comparison](/verify/taulib/docs/book-iv-particles-strong-cp/pq-comparison/) | L116-L121 | defined | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [sa_i_strong_cp_theorem](/corpus/taulib/docs/book-iv-particles-strong-cp/sa-i-strong-cp-theorem/) | L49-L51 | docstring/data record | docstring/data record | — |
+| `theorem` | [sa_i_forbids_instantons](/corpus/taulib/docs/book-iv-particles-strong-cp/sa-i-forbids-instantons/) | L57-L58 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [theta_qcd_zero_from_sa_i](/corpus/taulib/docs/book-iv-particles-strong-cp/theta-qcd-zero-from-sa-i/) | L73-L73 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [neutron_edm_zero](/corpus/taulib/docs/book-iv-particles-strong-cp/neutron-edm-zero/) | L87-L87 | proof obligation | formal proof obligation checked | — |
+| `def` | [no_axion_required](/corpus/taulib/docs/book-iv-particles-strong-cp/no-axion-required/) | L102-L105 | docstring/data record | docstring/data record | — |
+| `def` | [pq_comparison](/corpus/taulib/docs/book-iv-particles-strong-cp/pq-comparison/) | L116-L121 | docstring/data record | docstring/data record | — |

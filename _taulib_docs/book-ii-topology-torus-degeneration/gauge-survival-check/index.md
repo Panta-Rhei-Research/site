@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "gauge_survival_check",
-  "permalink": "/verify/taulib/docs/book-ii-topology-torus-degeneration/gauge-survival-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-topology-torus-degeneration/gauge-survival-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.Topology.TorusDegeneration`.",
   "declaration_id": "TauLib.BookII.Topology.TorusDegeneration::gauge_survival_check",
   "declaration_slug": "gauge-survival-check",
   "kind": "def",
   "name": "gauge_survival_check",
   "module_name": "TauLib.BookII.Topology.TorusDegeneration",
-  "module_url": "/verify/taulib/docs/book-ii-topology-torus-degeneration/",
+  "module_url": "/corpus/taulib/docs/book-ii-topology-torus-degeneration/",
   "source_line_start": 89,
   "source_line_end": 98,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/TorusDegeneration.lean#L89-L98",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Topology.TorusDegeneration",
-        "url": "/verify/taulib/docs/book-ii-topology-torus-degeneration/"
+        "url": "/corpus/taulib/docs/book-ii-topology-torus-degeneration/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Topology.TorusDegeneration](/verify/taulib/docs/book-ii-topology-torus-degeneration/)
+- Module: [TauLib.BookII.Topology.TorusDegeneration](/corpus/taulib/docs/book-ii-topology-torus-degeneration/)
 - Source path: [`TauLib/BookII/Topology/TorusDegeneration.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/TorusDegeneration.lean#L89-L98)
 - Source range: L89-L98
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

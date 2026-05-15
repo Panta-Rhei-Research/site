@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "count_admissible_at_prime",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-twin-prime-deep/count-admissible-at-prime/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-twin-prime-deep/count-admissible-at-prime/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Spectral.TwinPrimeDeep`.",
   "declaration_id": "TauLib.BookIII.Spectral.TwinPrimeDeep::count_admissible_at_prime",
   "declaration_slug": "count-admissible-at-prime",
   "kind": "def",
   "name": "count_admissible_at_prime",
   "module_name": "TauLib.BookIII.Spectral.TwinPrimeDeep",
-  "module_url": "/verify/taulib/docs/book-iii-spectral-twin-prime-deep/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectral-twin-prime-deep/",
   "source_line_start": 168,
   "source_line_end": 177,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/TwinPrimeDeep.lean#L168-L177",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectral.TwinPrimeDeep",
-        "url": "/verify/taulib/docs/book-iii-spectral-twin-prime-deep/"
+        "url": "/corpus/taulib/docs/book-iii-spectral-twin-prime-deep/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectral.TwinPrimeDeep](/verify/taulib/docs/book-iii-spectral-twin-prime-deep/)
+- Module: [TauLib.BookIII.Spectral.TwinPrimeDeep](/corpus/taulib/docs/book-iii-spectral-twin-prime-deep/)
 - Source path: [`TauLib/BookIII/Spectral/TwinPrimeDeep.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/TwinPrimeDeep.lean#L168-L177)
 - Source range: L168-L177
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

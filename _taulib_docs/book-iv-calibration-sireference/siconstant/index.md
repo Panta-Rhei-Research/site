@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "SIConstant",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-sireference/siconstant/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-sireference/siconstant/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Calibration.SIReference`.",
   "declaration_id": "TauLib.BookIV.Calibration.SIReference::SIConstant",
   "declaration_slug": "siconstant",
   "kind": "structure",
   "name": "SIConstant",
   "module_name": "TauLib.BookIV.Calibration.SIReference",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-sireference/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-sireference/",
   "source_line_start": 51,
   "source_line_end": 62,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/SIReference.lean#L51-L62",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.SIReference",
-        "url": "/verify/taulib/docs/book-iv-calibration-sireference/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-sireference/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.SIReference](/verify/taulib/docs/book-iv-calibration-sireference/)
+- Module: [TauLib.BookIV.Calibration.SIReference](/corpus/taulib/docs/book-iv-calibration-sireference/)
 - Source path: [`TauLib/BookIV/Calibration/SIReference.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/SIReference.lean#L51-L62)
 - Source range: L51-L62
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

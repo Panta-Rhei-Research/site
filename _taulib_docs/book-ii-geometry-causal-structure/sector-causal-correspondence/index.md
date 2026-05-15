@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "sector_causal_correspondence",
-  "permalink": "/verify/taulib/docs/book-ii-geometry-causal-structure/sector-causal-correspondence/",
+  "permalink": "/corpus/taulib/docs/book-ii-geometry-causal-structure/sector-causal-correspondence/",
   "summary_short": "`def` declaration in `TauLib.BookII.Geometry.CausalStructure`.",
   "declaration_id": "TauLib.BookII.Geometry.CausalStructure::sector_causal_correspondence",
   "declaration_slug": "sector-causal-correspondence",
   "kind": "def",
   "name": "sector_causal_correspondence",
   "module_name": "TauLib.BookII.Geometry.CausalStructure",
-  "module_url": "/verify/taulib/docs/book-ii-geometry-causal-structure/",
+  "module_url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/",
   "source_line_start": 160,
   "source_line_end": 166,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Geometry/CausalStructure.lean#L160-L166",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Geometry.CausalStructure",
-        "url": "/verify/taulib/docs/book-ii-geometry-causal-structure/"
+        "url": "/corpus/taulib/docs/book-ii-geometry-causal-structure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Geometry.CausalStructure](/verify/taulib/docs/book-ii-geometry-causal-structure/)
+- Module: [TauLib.BookII.Geometry.CausalStructure](/corpus/taulib/docs/book-ii-geometry-causal-structure/)
 - Source path: [`TauLib/BookII/Geometry/CausalStructure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Geometry/CausalStructure.lean#L160-L166)
 - Source range: L160-L166
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

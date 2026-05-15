@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "spectral_cnf",
-  "permalink": "/verify/taulib/docs/book-iii-spectrum-three-sat/spectral-cnf/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectrum-three-sat/spectral-cnf/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Spectrum.ThreeSAT`.",
   "declaration_id": "TauLib.BookIII.Spectrum.ThreeSAT::spectral_cnf",
   "declaration_slug": "spectral-cnf",
   "kind": "def",
   "name": "spectral_cnf",
   "module_name": "TauLib.BookIII.Spectrum.ThreeSAT",
-  "module_url": "/verify/taulib/docs/book-iii-spectrum-three-sat/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectrum-three-sat/",
   "source_line_start": 114,
   "source_line_end": 115,
   "registry_ids": [
@@ -18,15 +18,17 @@
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectrum/ThreeSAT.lean#L114-L115",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectrum.ThreeSAT",
-        "url": "/verify/taulib/docs/book-iii-spectrum-three-sat/"
+        "url": "/corpus/taulib/docs/book-iii-spectrum-three-sat/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -43,7 +45,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -64,11 +67,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectrum.ThreeSAT](/verify/taulib/docs/book-iii-spectrum-three-sat/)
+- Module: [TauLib.BookIII.Spectrum.ThreeSAT](/corpus/taulib/docs/book-iii-spectrum-three-sat/)
 - Source path: [`TauLib/BookIII/Spectrum/ThreeSAT.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectrum/ThreeSAT.lean#L114-L115)
 - Source range: L114-L115
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

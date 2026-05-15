@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "calibration_structural",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-shared-ontology/calibration-structural/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-shared-ontology/calibration-structural/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Calibration.SharedOntology`.",
   "declaration_id": "TauLib.BookIV.Calibration.SharedOntology::calibration_structural",
   "declaration_slug": "calibration-structural",
   "kind": "theorem",
   "name": "calibration_structural",
   "module_name": "TauLib.BookIV.Calibration.SharedOntology",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-shared-ontology/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-shared-ontology/",
   "source_line_start": 52,
   "source_line_end": 55,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/SharedOntology.lean#L52-L55",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.SharedOntology",
-        "url": "/verify/taulib/docs/book-iv-calibration-shared-ontology/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-shared-ontology/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.SharedOntology](/verify/taulib/docs/book-iv-calibration-shared-ontology/)
+- Module: [TauLib.BookIV.Calibration.SharedOntology](/corpus/taulib/docs/book-iv-calibration-shared-ontology/)
 - Source path: [`TauLib/BookIV/Calibration/SharedOntology.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/SharedOntology.lean#L52-L55)
 - Source range: L52-L55
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

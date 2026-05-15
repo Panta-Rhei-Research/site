@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "HePacking",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-helium-fraction/he-packing/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-helium-fraction/he-packing/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Cosmology.HeliumFraction`.",
   "declaration_id": "TauLib.BookV.Cosmology.HeliumFraction::HePacking",
   "declaration_slug": "he-packing",
   "kind": "structure",
   "name": "HePacking",
   "module_name": "TauLib.BookV.Cosmology.HeliumFraction",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-helium-fraction/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-helium-fraction/",
   "source_line_start": 66,
   "source_line_end": 81,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/HeliumFraction.lean#L66-L81",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.HeliumFraction",
-        "url": "/verify/taulib/docs/book-v-cosmology-helium-fraction/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-helium-fraction/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.HeliumFraction](/verify/taulib/docs/book-v-cosmology-helium-fraction/)
+- Module: [TauLib.BookV.Cosmology.HeliumFraction](/corpus/taulib/docs/book-v-cosmology-helium-fraction/)
 - Source path: [`TauLib/BookV/Cosmology/HeliumFraction.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/HeliumFraction.lean#L66-L81)
 - Source range: L66-L81
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

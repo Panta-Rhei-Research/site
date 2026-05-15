@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "example at L209",
-  "permalink": "/verify/taulib/docs/book-i-polarity-chinese-remainder/example-l209/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/example-l209/",
   "summary_short": "`example` declaration in `TauLib.BookI.Polarity.ChineseRemainder`.",
   "declaration_id": "TauLib.BookI.Polarity.ChineseRemainder::#eval:209",
   "declaration_slug": "example-l209",
   "kind": "example",
   "name": null,
   "module_name": "TauLib.BookI.Polarity.ChineseRemainder",
-  "module_url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/",
   "source_line_start": 209,
   "source_line_end": 209,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/ChineseRemainder.lean#L209-L209",
   "formal_status": "example",
+  "declaration_role": "example check",
+  "formal_status_label": "example",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.ChineseRemainder",
-        "url": "/verify/taulib/docs/book-i-polarity-chinese-remainder/"
+        "url": "/corpus/taulib/docs/book-i-polarity-chinese-remainder/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,6 +43,7 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "example",
+      "role": "example check",
       "status": "example"
     }
   },
@@ -62,10 +65,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.ChineseRemainder](/verify/taulib/docs/book-i-polarity-chinese-remainder/)
+- Module: [TauLib.BookI.Polarity.ChineseRemainder](/corpus/taulib/docs/book-i-polarity-chinese-remainder/)
 - Source path: [`TauLib/BookI/Polarity/ChineseRemainder.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/ChineseRemainder.lean#L209-L209)
 - Source range: L209-L209
 - Kind: `example`
+- Public role: `example check`
 - Formal status hint: `example`
 
 ## Registry Links

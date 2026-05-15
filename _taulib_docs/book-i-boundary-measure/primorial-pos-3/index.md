@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "primorial_pos_3",
-  "permalink": "/verify/taulib/docs/book-i-boundary-measure/primorial-pos-3/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-measure/primorial-pos-3/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.Measure`.",
   "declaration_id": "TauLib.BookI.Boundary.Measure::primorial_pos_3",
   "declaration_slug": "primorial-pos-3",
   "kind": "theorem",
   "name": "primorial_pos_3",
   "module_name": "TauLib.BookI.Boundary.Measure",
-  "module_url": "/verify/taulib/docs/book-i-boundary-measure/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-measure/",
   "source_line_start": 183,
   "source_line_end": 183,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Measure.lean#L183-L183",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Measure",
-        "url": "/verify/taulib/docs/book-i-boundary-measure/"
+        "url": "/corpus/taulib/docs/book-i-boundary-measure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Measure](/verify/taulib/docs/book-i-boundary-measure/)
+- Module: [TauLib.BookI.Boundary.Measure](/corpus/taulib/docs/book-i-boundary-measure/)
 - Source path: [`TauLib/BookI/Boundary/Measure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Measure.lean#L183-L183)
 - Source range: L183-L183
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

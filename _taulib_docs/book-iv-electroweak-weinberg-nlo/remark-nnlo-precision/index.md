@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "remark_nnlo_precision",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/remark-nnlo-precision/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/remark-nnlo-precision/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Electroweak.WeinbergNLO`.",
   "declaration_id": "TauLib.BookIV.Electroweak.WeinbergNLO::remark_nnlo_precision",
   "declaration_slug": "remark-nnlo-precision",
   "kind": "def",
   "name": "remark_nnlo_precision",
   "module_name": "TauLib.BookIV.Electroweak.WeinbergNLO",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/",
   "source_line_start": 282,
   "source_line_end": 284,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/WeinbergNLO.lean#L282-L284",
   "formal_status": "defined",
+  "declaration_role": "docstring/data record",
+  "formal_status_label": "docstring/data record",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.WeinbergNLO",
-        "url": "/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "docstring/data record",
+      "status": "docstring/data record"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.WeinbergNLO](/verify/taulib/docs/book-iv-electroweak-weinberg-nlo/)
+- Module: [TauLib.BookIV.Electroweak.WeinbergNLO](/corpus/taulib/docs/book-iv-electroweak-weinberg-nlo/)
 - Source path: [`TauLib/BookIV/Electroweak/WeinbergNLO.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/WeinbergNLO.lean#L282-L284)
 - Source range: L282-L284
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `docstring/data record`
+- Formal status hint: `docstring/data record`
 
 ## Registry Links
 

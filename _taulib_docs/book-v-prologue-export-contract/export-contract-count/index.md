@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "export_contract_count",
-  "permalink": "/verify/taulib/docs/book-v-prologue-export-contract/export-contract-count/",
+  "permalink": "/corpus/taulib/docs/book-v-prologue-export-contract/export-contract-count/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Prologue.ExportContract`.",
   "declaration_id": "TauLib.BookV.Prologue.ExportContract::export_contract_count",
   "declaration_slug": "export-contract-count",
   "kind": "theorem",
   "name": "export_contract_count",
   "module_name": "TauLib.BookV.Prologue.ExportContract",
-  "module_url": "/verify/taulib/docs/book-v-prologue-export-contract/",
+  "module_url": "/corpus/taulib/docs/book-v-prologue-export-contract/",
   "source_line_start": 102,
   "source_line_end": 103,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Prologue/ExportContract.lean#L102-L103",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Prologue.ExportContract",
-        "url": "/verify/taulib/docs/book-v-prologue-export-contract/"
+        "url": "/corpus/taulib/docs/book-v-prologue-export-contract/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Prologue.ExportContract](/verify/taulib/docs/book-v-prologue-export-contract/)
+- Module: [TauLib.BookV.Prologue.ExportContract](/corpus/taulib/docs/book-v-prologue-export-contract/)
 - Source path: [`TauLib/BookV/Prologue/ExportContract.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Prologue/ExportContract.lean#L102-L103)
 - Source range: L102-L103
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

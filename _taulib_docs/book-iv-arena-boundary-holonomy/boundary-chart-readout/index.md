@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "BoundaryChartReadout",
-  "permalink": "/verify/taulib/docs/book-iv-arena-boundary-holonomy/boundary-chart-readout/",
+  "permalink": "/corpus/taulib/docs/book-iv-arena-boundary-holonomy/boundary-chart-readout/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Arena.BoundaryHolonomy`.",
   "declaration_id": "TauLib.BookIV.Arena.BoundaryHolonomy::BoundaryChartReadout",
   "declaration_slug": "boundary-chart-readout",
   "kind": "structure",
   "name": "BoundaryChartReadout",
   "module_name": "TauLib.BookIV.Arena.BoundaryHolonomy",
-  "module_url": "/verify/taulib/docs/book-iv-arena-boundary-holonomy/",
+  "module_url": "/corpus/taulib/docs/book-iv-arena-boundary-holonomy/",
   "source_line_start": 187,
   "source_line_end": 194,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/BoundaryHolonomy.lean#L187-L194",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Arena.BoundaryHolonomy",
-        "url": "/verify/taulib/docs/book-iv-arena-boundary-holonomy/"
+        "url": "/corpus/taulib/docs/book-iv-arena-boundary-holonomy/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Arena.BoundaryHolonomy](/verify/taulib/docs/book-iv-arena-boundary-holonomy/)
+- Module: [TauLib.BookIV.Arena.BoundaryHolonomy](/corpus/taulib/docs/book-iv-arena-boundary-holonomy/)
 - Source path: [`TauLib/BookIV/Arena/BoundaryHolonomy.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/BoundaryHolonomy.lean#L187-L194)
 - Source range: L187-L194
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

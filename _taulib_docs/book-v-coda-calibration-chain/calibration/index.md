@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "calibration",
-  "permalink": "/verify/taulib/docs/book-v-coda-calibration-chain/calibration/",
+  "permalink": "/corpus/taulib/docs/book-v-coda-calibration-chain/calibration/",
   "summary_short": "`def` declaration in `TauLib.BookV.Coda.CalibrationChain`.",
   "declaration_id": "TauLib.BookV.Coda.CalibrationChain::calibration",
   "declaration_slug": "calibration",
   "kind": "def",
   "name": "calibration",
   "module_name": "TauLib.BookV.Coda.CalibrationChain",
-  "module_url": "/verify/taulib/docs/book-v-coda-calibration-chain/",
+  "module_url": "/corpus/taulib/docs/book-v-coda-calibration-chain/",
   "source_line_start": 118,
   "source_line_end": 124,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Coda/CalibrationChain.lean#L118-L124",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Coda.CalibrationChain",
-        "url": "/verify/taulib/docs/book-v-coda-calibration-chain/"
+        "url": "/corpus/taulib/docs/book-v-coda-calibration-chain/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Coda.CalibrationChain](/verify/taulib/docs/book-v-coda-calibration-chain/)
+- Module: [TauLib.BookV.Coda.CalibrationChain](/corpus/taulib/docs/book-v-coda-calibration-chain/)
 - Source path: [`TauLib/BookV/Coda/CalibrationChain.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Coda/CalibrationChain.lean#L118-L124)
 - Source range: L118-L124
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

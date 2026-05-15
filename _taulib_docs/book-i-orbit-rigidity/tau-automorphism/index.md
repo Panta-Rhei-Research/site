@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauAutomorphism",
-  "permalink": "/verify/taulib/docs/book-i-orbit-rigidity/tau-automorphism/",
+  "permalink": "/corpus/taulib/docs/book-i-orbit-rigidity/tau-automorphism/",
   "summary_short": "`structure` declaration in `TauLib.BookI.Orbit.Rigidity`.",
   "declaration_id": "TauLib.BookI.Orbit.Rigidity::TauAutomorphism",
   "declaration_slug": "tau-automorphism",
   "kind": "structure",
   "name": "TauAutomorphism",
   "module_name": "TauLib.BookI.Orbit.Rigidity",
-  "module_url": "/verify/taulib/docs/book-i-orbit-rigidity/",
+  "module_url": "/corpus/taulib/docs/book-i-orbit-rigidity/",
   "source_line_start": 23,
   "source_line_end": 28,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/Rigidity.lean#L23-L28",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Orbit.Rigidity",
-        "url": "/verify/taulib/docs/book-i-orbit-rigidity/"
+        "url": "/corpus/taulib/docs/book-i-orbit-rigidity/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Orbit.Rigidity](/verify/taulib/docs/book-i-orbit-rigidity/)
+- Module: [TauLib.BookI.Orbit.Rigidity](/corpus/taulib/docs/book-i-orbit-rigidity/)
 - Source path: [`TauLib/BookI/Orbit/Rigidity.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/Rigidity.lean#L23-L28)
 - Source range: L23-L28
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

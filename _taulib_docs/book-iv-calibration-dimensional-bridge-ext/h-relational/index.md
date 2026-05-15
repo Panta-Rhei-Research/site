@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "h_relational",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge-ext/h-relational/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge-ext/h-relational/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Calibration.DimensionalBridgeExt`.",
   "declaration_id": "TauLib.BookIV.Calibration.DimensionalBridgeExt::h_relational",
   "declaration_slug": "h-relational",
   "kind": "def",
   "name": "h_relational",
   "module_name": "TauLib.BookIV.Calibration.DimensionalBridgeExt",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge-ext/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge-ext/",
   "source_line_start": 103,
   "source_line_end": 109,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/DimensionalBridgeExt.lean#L103-L109",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.DimensionalBridgeExt",
-        "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge-ext/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge-ext/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.DimensionalBridgeExt](/verify/taulib/docs/book-iv-calibration-dimensional-bridge-ext/)
+- Module: [TauLib.BookIV.Calibration.DimensionalBridgeExt](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge-ext/)
 - Source path: [`TauLib/BookIV/Calibration/DimensionalBridgeExt.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/DimensionalBridgeExt.lean#L103-L109)
 - Source range: L103-L109
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

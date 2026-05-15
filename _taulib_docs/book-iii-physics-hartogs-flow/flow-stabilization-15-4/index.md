@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "flow_stabilization_15_4",
-  "permalink": "/verify/taulib/docs/book-iii-physics-hartogs-flow/flow-stabilization-15-4/",
+  "permalink": "/corpus/taulib/docs/book-iii-physics-hartogs-flow/flow-stabilization-15-4/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Physics.HartogsFlow`.",
   "declaration_id": "TauLib.BookIII.Physics.HartogsFlow::flow_stabilization_15_4",
   "declaration_slug": "flow-stabilization-15-4",
   "kind": "theorem",
   "name": "flow_stabilization_15_4",
   "module_name": "TauLib.BookIII.Physics.HartogsFlow",
-  "module_url": "/verify/taulib/docs/book-iii-physics-hartogs-flow/",
+  "module_url": "/corpus/taulib/docs/book-iii-physics-hartogs-flow/",
   "source_line_start": 211,
   "source_line_end": 212,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/HartogsFlow.lean#L211-L212",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Physics.HartogsFlow",
-        "url": "/verify/taulib/docs/book-iii-physics-hartogs-flow/"
+        "url": "/corpus/taulib/docs/book-iii-physics-hartogs-flow/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Physics.HartogsFlow](/verify/taulib/docs/book-iii-physics-hartogs-flow/)
+- Module: [TauLib.BookIII.Physics.HartogsFlow](/corpus/taulib/docs/book-iii-physics-hartogs-flow/)
 - Source path: [`TauLib/BookIII/Physics/HartogsFlow.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/HartogsFlow.lean#L211-L212)
 - Source range: L211-L212
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

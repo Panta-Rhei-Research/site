@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "holonomy_covers_all",
-  "permalink": "/verify/taulib/docs/book-v-prologue-hermetic-principle/holonomy-covers-all/",
+  "permalink": "/corpus/taulib/docs/book-v-prologue-hermetic-principle/holonomy-covers-all/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Prologue.HermeticPrinciple`.",
   "declaration_id": "TauLib.BookV.Prologue.HermeticPrinciple::holonomy_covers_all",
   "declaration_slug": "holonomy-covers-all",
   "kind": "theorem",
   "name": "holonomy_covers_all",
   "module_name": "TauLib.BookV.Prologue.HermeticPrinciple",
-  "module_url": "/verify/taulib/docs/book-v-prologue-hermetic-principle/",
+  "module_url": "/corpus/taulib/docs/book-v-prologue-hermetic-principle/",
   "source_line_start": 141,
   "source_line_end": 143,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Prologue/HermeticPrinciple.lean#L141-L143",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Prologue.HermeticPrinciple",
-        "url": "/verify/taulib/docs/book-v-prologue-hermetic-principle/"
+        "url": "/corpus/taulib/docs/book-v-prologue-hermetic-principle/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Prologue.HermeticPrinciple](/verify/taulib/docs/book-v-prologue-hermetic-principle/)
+- Module: [TauLib.BookV.Prologue.HermeticPrinciple](/corpus/taulib/docs/book-v-prologue-hermetic-principle/)
 - Source path: [`TauLib/BookV/Prologue/HermeticPrinciple.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Prologue/HermeticPrinciple.lean#L141-L143)
 - Source range: L141-L143
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

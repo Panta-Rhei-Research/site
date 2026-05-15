@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "taucomplex_conj_involution",
-  "permalink": "/verify/taulib/docs/book-i-boundary-complex-field/taucomplex-conj-involution/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-complex-field/taucomplex-conj-involution/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.ComplexField`.",
   "declaration_id": "TauLib.BookI.Boundary.ComplexField::taucomplex_conj_involution",
   "declaration_slug": "taucomplex-conj-involution",
   "kind": "theorem",
   "name": "taucomplex_conj_involution",
   "module_name": "TauLib.BookI.Boundary.ComplexField",
-  "module_url": "/verify/taulib/docs/book-i-boundary-complex-field/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-complex-field/",
   "source_line_start": 308,
   "source_line_end": 319,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/ComplexField.lean#L308-L319",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.ComplexField",
-        "url": "/verify/taulib/docs/book-i-boundary-complex-field/"
+        "url": "/corpus/taulib/docs/book-i-boundary-complex-field/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.ComplexField](/verify/taulib/docs/book-i-boundary-complex-field/)
+- Module: [TauLib.BookI.Boundary.ComplexField](/corpus/taulib/docs/book-i-boundary-complex-field/)
 - Source path: [`TauLib/BookI/Boundary/ComplexField.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/ComplexField.lean#L308-L319)
 - Source range: L308-L319
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

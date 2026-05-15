@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "SectorExhaustionMap",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-sector-exhaustion/sector-exhaustion-map/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-sector-exhaustion/sector-exhaustion-map/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Astrophysics.SectorExhaustion`.",
   "declaration_id": "TauLib.BookV.Astrophysics.SectorExhaustion::SectorExhaustionMap",
   "declaration_slug": "sector-exhaustion-map",
   "kind": "structure",
   "name": "SectorExhaustionMap",
   "module_name": "TauLib.BookV.Astrophysics.SectorExhaustion",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-sector-exhaustion/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-sector-exhaustion/",
   "source_line_start": 137,
   "source_line_end": 146,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/SectorExhaustion.lean#L137-L146",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.SectorExhaustion",
-        "url": "/verify/taulib/docs/book-v-astrophysics-sector-exhaustion/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-sector-exhaustion/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.SectorExhaustion](/verify/taulib/docs/book-v-astrophysics-sector-exhaustion/)
+- Module: [TauLib.BookV.Astrophysics.SectorExhaustion](/corpus/taulib/docs/book-v-astrophysics-sector-exhaustion/)
 - Source path: [`TauLib/BookV/Astrophysics/SectorExhaustion.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/SectorExhaustion.lean#L137-L146)
 - Source range: L137-L146
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

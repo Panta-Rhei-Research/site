@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L126",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l126/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l126/",
   "summary_short": "`eval` declaration in `TauLib.BookIV.Calibration.DimensionlessCouplings`.",
   "declaration_id": "TauLib.BookIV.Calibration.DimensionlessCouplings::#eval:126",
   "declaration_slug": "eval-l126",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIV.Calibration.DimensionlessCouplings",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/",
   "source_line_start": 126,
   "source_line_end": 126,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/DimensionlessCouplings.lean#L126-L126",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.DimensionlessCouplings",
-        "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.DimensionlessCouplings](/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/)
+- Module: [TauLib.BookIV.Calibration.DimensionlessCouplings](/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/)
 - Source path: [`TauLib/BookIV/Calibration/DimensionlessCouplings.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/DimensionlessCouplings.lean#L126-L126)
 - Source range: L126-L126
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

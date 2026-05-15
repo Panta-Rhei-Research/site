@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "bsd_coherence_5",
-  "permalink": "/verify/taulib/docs/book-iii-arithmetic-bsd/bsd-coherence-5/",
+  "permalink": "/corpus/taulib/docs/book-iii-arithmetic-bsd/bsd-coherence-5/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Arithmetic.BSD`.",
   "declaration_id": "TauLib.BookIII.Arithmetic.BSD::bsd_coherence_5",
   "declaration_slug": "bsd-coherence-5",
   "kind": "theorem",
   "name": "bsd_coherence_5",
   "module_name": "TauLib.BookIII.Arithmetic.BSD",
-  "module_url": "/verify/taulib/docs/book-iii-arithmetic-bsd/",
+  "module_url": "/corpus/taulib/docs/book-iii-arithmetic-bsd/",
   "source_line_start": 131,
   "source_line_end": 132,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/BSD.lean#L131-L132",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Arithmetic.BSD",
-        "url": "/verify/taulib/docs/book-iii-arithmetic-bsd/"
+        "url": "/corpus/taulib/docs/book-iii-arithmetic-bsd/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Arithmetic.BSD](/verify/taulib/docs/book-iii-arithmetic-bsd/)
+- Module: [TauLib.BookIII.Arithmetic.BSD](/corpus/taulib/docs/book-iii-arithmetic-bsd/)
 - Source path: [`TauLib/BookIII/Arithmetic/BSD.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/BSD.lean#L131-L132)
 - Source range: L131-L132
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L158",
-  "permalink": "/verify/taulib/docs/book-i-polarity-prime-polarity-isomorphism/eval-l158/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-prime-polarity-isomorphism/eval-l158/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Polarity.PrimePolarityIsomorphism`.",
   "declaration_id": "TauLib.BookI.Polarity.PrimePolarityIsomorphism::#eval:158",
   "declaration_slug": "eval-l158",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Polarity.PrimePolarityIsomorphism",
-  "module_url": "/verify/taulib/docs/book-i-polarity-prime-polarity-isomorphism/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-prime-polarity-isomorphism/",
   "source_line_start": 158,
   "source_line_end": 158,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/PrimePolarityIsomorphism.lean#L158-L158",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.PrimePolarityIsomorphism",
-        "url": "/verify/taulib/docs/book-i-polarity-prime-polarity-isomorphism/"
+        "url": "/corpus/taulib/docs/book-i-polarity-prime-polarity-isomorphism/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.PrimePolarityIsomorphism](/verify/taulib/docs/book-i-polarity-prime-polarity-isomorphism/)
+- Module: [TauLib.BookI.Polarity.PrimePolarityIsomorphism](/corpus/taulib/docs/book-i-polarity-prime-polarity-isomorphism/)
 - Source path: [`TauLib/BookI/Polarity/PrimePolarityIsomorphism.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/PrimePolarityIsomorphism.lean#L158-L158)
 - Source range: L158-L158
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

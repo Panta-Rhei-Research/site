@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "SelfDescPredicate",
-  "permalink": "/verify/taulib/docs/book-vi-life-core-self-desc/self-desc-predicate/",
+  "permalink": "/corpus/taulib/docs/book-vi-life-core-self-desc/self-desc-predicate/",
   "summary_short": "`structure` declaration in `TauLib.BookVI.LifeCore.SelfDesc`.",
   "declaration_id": "TauLib.BookVI.LifeCore.SelfDesc::SelfDescPredicate",
   "declaration_slug": "self-desc-predicate",
   "kind": "structure",
   "name": "SelfDescPredicate",
   "module_name": "TauLib.BookVI.LifeCore.SelfDesc",
-  "module_url": "/verify/taulib/docs/book-vi-life-core-self-desc/",
+  "module_url": "/corpus/taulib/docs/book-vi-life-core-self-desc/",
   "source_line_start": 25,
   "source_line_end": 31,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/LifeCore/SelfDesc.lean#L25-L31",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.LifeCore.SelfDesc",
-        "url": "/verify/taulib/docs/book-vi-life-core-self-desc/"
+        "url": "/corpus/taulib/docs/book-vi-life-core-self-desc/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.LifeCore.SelfDesc](/verify/taulib/docs/book-vi-life-core-self-desc/)
+- Module: [TauLib.BookVI.LifeCore.SelfDesc](/corpus/taulib/docs/book-vi-life-core-self-desc/)
 - Source path: [`TauLib/BookVI/LifeCore/SelfDesc.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/LifeCore/SelfDesc.lean#L25-L31)
 - Source range: L25-L31
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

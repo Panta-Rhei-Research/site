@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "rho_count_compose",
-  "permalink": "/verify/taulib/docs/book-i-denotation-program-monoid/rho-count-compose/",
+  "permalink": "/corpus/taulib/docs/book-i-denotation-program-monoid/rho-count-compose/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Denotation.ProgramMonoid`.",
   "declaration_id": "TauLib.BookI.Denotation.ProgramMonoid::rho_count_compose",
   "declaration_slug": "rho-count-compose",
   "kind": "theorem",
   "name": "rho_count_compose",
   "module_name": "TauLib.BookI.Denotation.ProgramMonoid",
-  "module_url": "/verify/taulib/docs/book-i-denotation-program-monoid/",
+  "module_url": "/corpus/taulib/docs/book-i-denotation-program-monoid/",
   "source_line_start": 136,
   "source_line_end": 149,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/ProgramMonoid.lean#L136-L149",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Denotation.ProgramMonoid",
-        "url": "/verify/taulib/docs/book-i-denotation-program-monoid/"
+        "url": "/corpus/taulib/docs/book-i-denotation-program-monoid/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Denotation.ProgramMonoid](/verify/taulib/docs/book-i-denotation-program-monoid/)
+- Module: [TauLib.BookI.Denotation.ProgramMonoid](/corpus/taulib/docs/book-i-denotation-program-monoid/)
 - Source path: [`TauLib/BookI/Denotation/ProgramMonoid.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/ProgramMonoid.lean#L136-L149)
 - Source range: L136-L149
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

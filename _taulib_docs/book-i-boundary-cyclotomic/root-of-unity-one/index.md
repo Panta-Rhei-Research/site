@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "root_of_unity_one",
-  "permalink": "/verify/taulib/docs/book-i-boundary-cyclotomic/root-of-unity-one/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-cyclotomic/root-of-unity-one/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.Cyclotomic`.",
   "declaration_id": "TauLib.BookI.Boundary.Cyclotomic::root_of_unity_one",
   "declaration_slug": "root-of-unity-one",
   "kind": "theorem",
   "name": "root_of_unity_one",
   "module_name": "TauLib.BookI.Boundary.Cyclotomic",
-  "module_url": "/verify/taulib/docs/book-i-boundary-cyclotomic/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-cyclotomic/",
   "source_line_start": 58,
   "source_line_end": 59,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Cyclotomic.lean#L58-L59",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Cyclotomic",
-        "url": "/verify/taulib/docs/book-i-boundary-cyclotomic/"
+        "url": "/corpus/taulib/docs/book-i-boundary-cyclotomic/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Cyclotomic](/verify/taulib/docs/book-i-boundary-cyclotomic/)
+- Module: [TauLib.BookI.Boundary.Cyclotomic](/corpus/taulib/docs/book-i-boundary-cyclotomic/)
 - Source path: [`TauLib/BookI/Boundary/Cyclotomic.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Cyclotomic.lean#L58-L59)
 - Source range: L58-L59
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

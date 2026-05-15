@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "w_plus",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-weak-chirality/w-plus/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-weak-chirality/w-plus/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Electroweak.WeakChirality`.",
   "declaration_id": "TauLib.BookIV.Electroweak.WeakChirality::w_plus",
   "declaration_slug": "w-plus",
   "kind": "def",
   "name": "w_plus",
   "module_name": "TauLib.BookIV.Electroweak.WeakChirality",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-weak-chirality/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-weak-chirality/",
   "source_line_start": 153,
   "source_line_end": 153,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/WeakChirality.lean#L153-L153",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.WeakChirality",
-        "url": "/verify/taulib/docs/book-iv-electroweak-weak-chirality/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-weak-chirality/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.WeakChirality](/verify/taulib/docs/book-iv-electroweak-weak-chirality/)
+- Module: [TauLib.BookIV.Electroweak.WeakChirality](/corpus/taulib/docs/book-iv-electroweak-weak-chirality/)
 - Source path: [`TauLib/BookIV/Electroweak/WeakChirality.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/WeakChirality.lean#L153-L153)
 - Source range: L153-L153
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

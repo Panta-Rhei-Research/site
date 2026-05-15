@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "cut_produces_sequent_when_applicable",
-  "permalink": "/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/cut-produces-sequent-when-applicable/",
+  "permalink": "/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/cut-produces-sequent-when-applicable/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.KernelFoundation.GirardLinearEmbedding`.",
   "declaration_id": "TauLib.BookI.KernelFoundation.GirardLinearEmbedding::cut_produces_sequent_when_applicable",
   "declaration_slug": "cut-produces-sequent-when-applicable",
   "kind": "theorem",
   "name": "cut_produces_sequent_when_applicable",
   "module_name": "TauLib.BookI.KernelFoundation.GirardLinearEmbedding",
-  "module_url": "/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/",
+  "module_url": "/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/",
   "source_line_start": 224,
   "source_line_end": 231,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/KernelFoundation/GirardLinearEmbedding.lean#L224-L231",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.KernelFoundation.GirardLinearEmbedding",
-        "url": "/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/"
+        "url": "/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.KernelFoundation.GirardLinearEmbedding](/verify/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/)
+- Module: [TauLib.BookI.KernelFoundation.GirardLinearEmbedding](/corpus/taulib/docs/book-i-kernel-foundation-girard-linear-embedding/)
 - Source path: [`TauLib/BookI/KernelFoundation/GirardLinearEmbedding.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/KernelFoundation/GirardLinearEmbedding.lean#L224-L231)
 - Source range: L224-L231
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

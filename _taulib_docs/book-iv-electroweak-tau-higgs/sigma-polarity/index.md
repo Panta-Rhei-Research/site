@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "SigmaPolarity",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/sigma-polarity/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/sigma-polarity/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Electroweak.TauHiggs`.",
   "declaration_id": "TauLib.BookIV.Electroweak.TauHiggs::SigmaPolarity",
   "declaration_slug": "sigma-polarity",
   "kind": "structure",
   "name": "SigmaPolarity",
   "module_name": "TauLib.BookIV.Electroweak.TauHiggs",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/",
   "source_line_start": 176,
   "source_line_end": 183,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/TauHiggs.lean#L176-L183",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.TauHiggs",
-        "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.TauHiggs](/verify/taulib/docs/book-iv-electroweak-tau-higgs/)
+- Module: [TauLib.BookIV.Electroweak.TauHiggs](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/)
 - Source path: [`TauLib/BookIV/Electroweak/TauHiggs.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/TauHiggs.lean#L176-L183)
 - Source range: L176-L183
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

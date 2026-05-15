@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "FrameClosureDefect",
-  "permalink": "/verify/taulib/docs/book-vi-cosmic-life-bhdist/frame-closure-defect/",
+  "permalink": "/corpus/taulib/docs/book-vi-cosmic-life-bhdist/frame-closure-defect/",
   "summary_short": "`structure` declaration in `TauLib.BookVI.CosmicLife.BHDist`.",
   "declaration_id": "TauLib.BookVI.CosmicLife.BHDist::FrameClosureDefect",
   "declaration_slug": "frame-closure-defect",
   "kind": "structure",
   "name": "FrameClosureDefect",
   "module_name": "TauLib.BookVI.CosmicLife.BHDist",
-  "module_url": "/verify/taulib/docs/book-vi-cosmic-life-bhdist/",
+  "module_url": "/corpus/taulib/docs/book-vi-cosmic-life-bhdist/",
   "source_line_start": 100,
   "source_line_end": 107,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/CosmicLife/BHDist.lean#L100-L107",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.CosmicLife.BHDist",
-        "url": "/verify/taulib/docs/book-vi-cosmic-life-bhdist/"
+        "url": "/corpus/taulib/docs/book-vi-cosmic-life-bhdist/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.CosmicLife.BHDist](/verify/taulib/docs/book-vi-cosmic-life-bhdist/)
+- Module: [TauLib.BookVI.CosmicLife.BHDist](/corpus/taulib/docs/book-vi-cosmic-life-bhdist/)
 - Source path: [`TauLib/BookVI/CosmicLife/BHDist.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/CosmicLife/BHDist.lean#L100-L107)
 - Source range: L100-L107
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

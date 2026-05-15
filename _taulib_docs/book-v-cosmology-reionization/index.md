@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.Cosmology.Reionization",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-reionization/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-reionization/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.Cosmology.Reionization`.",
   "module_name": "TauLib.BookV.Cosmology.Reionization",
   "module_slug": "book-v-cosmology-reionization",
@@ -35,10 +35,12 @@
     {
       "kind": "structure",
       "name": "BrightnessTemp21cm",
-      "url": "/verify/taulib/docs/book-v-cosmology-reionization/brightness-temp21cm/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-reionization/brightness-temp21cm/",
       "source_line_start": 45,
       "source_line_end": 55,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D334"
       ]
@@ -46,10 +48,12 @@
     {
       "kind": "inductive",
       "name": "SpinTempCoupling",
-      "url": "/verify/taulib/docs/book-v-cosmology-reionization/spin-temp-coupling/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-reionization/spin-temp-coupling/",
       "source_line_start": 59,
       "source_line_end": 68,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D335"
       ]
@@ -57,10 +61,12 @@
     {
       "kind": "def",
       "name": "absorption_trough_z17_mK",
-      "url": "/verify/taulib/docs/book-v-cosmology-reionization/absorption-trough-z17-m-k/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-reionization/absorption-trough-z17-m-k/",
       "source_line_start": 77,
       "source_line_end": 77,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "V.T271"
       ]
@@ -68,28 +74,34 @@
     {
       "kind": "def",
       "name": "z_reion",
-      "url": "/verify/taulib/docs/book-v-cosmology-reionization/z-reion/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-reionization/z-reion/",
       "source_line_start": 81,
       "source_line_end": 81,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "z_reion_pos",
-      "url": "/verify/taulib/docs/book-v-cosmology-reionization/z-reion-pos/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-reionization/z-reion-pos/",
       "source_line_start": 84,
       "source_line_end": 84,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "trough_is_absorption",
-      "url": "/verify/taulib/docs/book-v-cosmology-reionization/trough-is-absorption/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-reionization/trough-is-absorption/",
       "source_line_start": 87,
       "source_line_end": 104,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P189",
         "V.R470"
@@ -104,7 +116,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -177,11 +189,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [BrightnessTemp21cm](/verify/taulib/docs/book-v-cosmology-reionization/brightness-temp21cm/) | L45-L55 | defined | `V.D334` |
-| `inductive` | [SpinTempCoupling](/verify/taulib/docs/book-v-cosmology-reionization/spin-temp-coupling/) | L59-L68 | defined | `V.D335` |
-| `def` | [absorption_trough_z17_mK](/verify/taulib/docs/book-v-cosmology-reionization/absorption-trough-z17-m-k/) | L77-L77 | defined | `V.T271` |
-| `def` | [z_reion](/verify/taulib/docs/book-v-cosmology-reionization/z-reion/) | L81-L81 | defined | — |
-| `theorem` | [z_reion_pos](/verify/taulib/docs/book-v-cosmology-reionization/z-reion-pos/) | L84-L84 | formalized | — |
-| `theorem` | [trough_is_absorption](/verify/taulib/docs/book-v-cosmology-reionization/trough-is-absorption/) | L87-L104 | formalized | `V.P189`, `V.R470` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [BrightnessTemp21cm](/corpus/taulib/docs/book-v-cosmology-reionization/brightness-temp21cm/) | L45-L55 | type/data schema | type/data schema | `V.D334` |
+| `inductive` | [SpinTempCoupling](/corpus/taulib/docs/book-v-cosmology-reionization/spin-temp-coupling/) | L59-L68 | type/data schema | type/data schema | `V.D335` |
+| `def` | [absorption_trough_z17_mK](/corpus/taulib/docs/book-v-cosmology-reionization/absorption-trough-z17-m-k/) | L77-L77 | data/computed value | data/computed value | `V.T271` |
+| `def` | [z_reion](/corpus/taulib/docs/book-v-cosmology-reionization/z-reion/) | L81-L81 | data/computed value | data/computed value | — |
+| `theorem` | [z_reion_pos](/corpus/taulib/docs/book-v-cosmology-reionization/z-reion-pos/) | L84-L84 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [trough_is_absorption](/corpus/taulib/docs/book-v-cosmology-reionization/trough-is-absorption/) | L87-L104 | proof obligation | formal proof obligation checked | `V.P189`, `V.R470` |

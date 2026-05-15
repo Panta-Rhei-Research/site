@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "photon_boundary_character",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-photon-mode/photon-boundary-character/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-photon-mode/photon-boundary-character/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Electroweak.PhotonMode`.",
   "declaration_id": "TauLib.BookIV.Electroweak.PhotonMode::photon_boundary_character",
   "declaration_slug": "photon-boundary-character",
   "kind": "theorem",
   "name": "photon_boundary_character",
   "module_name": "TauLib.BookIV.Electroweak.PhotonMode",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-photon-mode/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-photon-mode/",
   "source_line_start": 272,
   "source_line_end": 273,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/PhotonMode.lean#L272-L273",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.PhotonMode",
-        "url": "/verify/taulib/docs/book-iv-electroweak-photon-mode/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-photon-mode/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.PhotonMode](/verify/taulib/docs/book-iv-electroweak-photon-mode/)
+- Module: [TauLib.BookIV.Electroweak.PhotonMode](/corpus/taulib/docs/book-iv-electroweak-photon-mode/)
 - Source path: [`TauLib/BookIV/Electroweak/PhotonMode.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/PhotonMode.lean#L272-L273)
 - Source range: L272-L273
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

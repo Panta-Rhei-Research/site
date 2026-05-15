@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "count_rc_endomorphisms_k1",
-  "permalink": "/verify/taulib/docs/book-ii-enrichment-enrichment-ladder/count-rc-endomorphisms-k1/",
+  "permalink": "/corpus/taulib/docs/book-ii-enrichment-enrichment-ladder/count-rc-endomorphisms-k1/",
   "summary_short": "`def` declaration in `TauLib.BookII.Enrichment.EnrichmentLadder`.",
   "declaration_id": "TauLib.BookII.Enrichment.EnrichmentLadder::count_rc_endomorphisms_k1",
   "declaration_slug": "count-rc-endomorphisms-k1",
   "kind": "def",
   "name": "count_rc_endomorphisms_k1",
   "module_name": "TauLib.BookII.Enrichment.EnrichmentLadder",
-  "module_url": "/verify/taulib/docs/book-ii-enrichment-enrichment-ladder/",
+  "module_url": "/corpus/taulib/docs/book-ii-enrichment-enrichment-ladder/",
   "source_line_start": 115,
   "source_line_end": 115,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/EnrichmentLadder.lean#L115-L115",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Enrichment.EnrichmentLadder",
-        "url": "/verify/taulib/docs/book-ii-enrichment-enrichment-ladder/"
+        "url": "/corpus/taulib/docs/book-ii-enrichment-enrichment-ladder/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Enrichment.EnrichmentLadder](/verify/taulib/docs/book-ii-enrichment-enrichment-ladder/)
+- Module: [TauLib.BookII.Enrichment.EnrichmentLadder](/corpus/taulib/docs/book-ii-enrichment-enrichment-ladder/)
 - Source path: [`TauLib/BookII/Enrichment/EnrichmentLadder.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/EnrichmentLadder.lean#L115-L115)
 - Source range: L115-L115
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

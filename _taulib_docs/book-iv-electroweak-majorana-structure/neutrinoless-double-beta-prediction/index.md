@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "neutrinoless_double_beta_prediction",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-majorana-structure/neutrinoless-double-beta-prediction/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-majorana-structure/neutrinoless-double-beta-prediction/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Electroweak.MajoranaStructure`.",
   "declaration_id": "TauLib.BookIV.Electroweak.MajoranaStructure::neutrinoless_double_beta_prediction",
   "declaration_slug": "neutrinoless-double-beta-prediction",
   "kind": "def",
   "name": "neutrinoless_double_beta_prediction",
   "module_name": "TauLib.BookIV.Electroweak.MajoranaStructure",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-majorana-structure/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-majorana-structure/",
   "source_line_start": 212,
   "source_line_end": 217,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/MajoranaStructure.lean#L212-L217",
   "formal_status": "defined",
+  "declaration_role": "docstring/data record",
+  "formal_status_label": "docstring/data record",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.MajoranaStructure",
-        "url": "/verify/taulib/docs/book-iv-electroweak-majorana-structure/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-majorana-structure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "docstring/data record",
+      "status": "docstring/data record"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.MajoranaStructure](/verify/taulib/docs/book-iv-electroweak-majorana-structure/)
+- Module: [TauLib.BookIV.Electroweak.MajoranaStructure](/corpus/taulib/docs/book-iv-electroweak-majorana-structure/)
 - Source path: [`TauLib/BookIV/Electroweak/MajoranaStructure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/MajoranaStructure.lean#L212-L217)
 - Source range: L212-L217
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `docstring/data record`
+- Formal status hint: `docstring/data record`
 
 ## Registry Links
 

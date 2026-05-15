@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookII.Interior.TauAdmissible",
-  "permalink": "/verify/taulib/docs/book-ii-interior-tau-admissible/",
+  "permalink": "/corpus/taulib/docs/book-ii-interior-tau-admissible/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookII.Interior.TauAdmissible`.",
   "module_name": "TauLib.BookII.Interior.TauAdmissible",
   "module_slug": "book-ii-interior-tau-admissible",
@@ -37,64 +37,78 @@
     {
       "kind": "def",
       "name": "constraint_C1",
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/constraint-c1/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/constraint-c1/",
       "source_line_start": 39,
       "source_line_end": 40,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "largest_prime_factor_aux",
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/largest-prime-factor-aux/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/largest-prime-factor-aux/",
       "source_line_start": 44,
       "source_line_end": 52,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "largest_prime_factor",
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/largest-prime-factor/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/largest-prime-factor/",
       "source_line_start": 55,
       "source_line_end": 57,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "constraint_C3",
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/constraint-c3/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/constraint-c3/",
       "source_line_start": 60,
       "source_line_end": 61,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "constraint_C4",
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/constraint-c4/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/constraint-c4/",
       "source_line_start": 64,
       "source_line_end": 65,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "constraint_C5",
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/constraint-c5/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/constraint-c5/",
       "source_line_start": 68,
       "source_line_end": 73,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "is_tau_admissible",
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/is-tau-admissible/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/is-tau-admissible/",
       "source_line_start": 76,
       "source_line_end": 77,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.D03"
       ]
@@ -102,10 +116,12 @@
     {
       "kind": "structure",
       "name": "TauAdmissiblePoint",
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/tau-admissible-point/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/tau-admissible-point/",
       "source_line_start": 86,
       "source_line_end": 91,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "II.D02"
       ]
@@ -113,325 +129,397 @@
     {
       "kind": "def",
       "name": "from_tau_idx",
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/from-tau-idx/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/from-tau-idx/",
       "source_line_start": 94,
       "source_line_end": 96,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "to_tau_idx",
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/to-tau-idx/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/to-tau-idx/",
       "source_line_start": 99,
       "source_line_end": 100,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TauAdmissiblePoint.valid",
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/valid/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/valid/",
       "source_line_start": 103,
       "source_line_end": 104,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "round_trip_check",
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/round-trip-check/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/round-trip-check/",
       "source_line_start": 112,
       "source_line_end": 113,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "admissible_check",
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/admissible-check/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/admissible-check/",
       "source_line_start": 117,
       "source_line_end": 118,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "batch_verify",
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/batch-verify/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/batch-verify/",
       "source_line_start": 121,
       "source_line_end": 128,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "primorial_witness",
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/primorial-witness/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/primorial-witness/",
       "source_line_start": 135,
       "source_line_end": 141,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "primorial_b_eq_one",
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/primorial-b-eq-one/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/primorial-b-eq-one/",
       "source_line_start": 144,
       "source_line_end": 145,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "primorial_c_eq_one",
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/primorial-c-eq-one/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/primorial-c-eq-one/",
       "source_line_start": 147,
       "source_line_end": 148,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "primorial_a_increasing",
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/primorial-a-increasing/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/primorial-a-increasing/",
       "source_line_start": 151,
       "source_line_end": 153,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l160/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l160/",
       "source_line_start": 160,
       "source_line_end": 160,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l161/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l161/",
       "source_line_start": 161,
       "source_line_end": 161,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l162/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l162/",
       "source_line_start": 162,
       "source_line_end": 162,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l164/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l164/",
       "source_line_start": 164,
       "source_line_end": 164,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l165/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l165/",
       "source_line_start": 165,
       "source_line_end": 165,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l166/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l166/",
       "source_line_start": 166,
       "source_line_end": 166,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l167/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l167/",
       "source_line_start": 167,
       "source_line_end": 167,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l169/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l169/",
       "source_line_start": 169,
       "source_line_end": 169,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l170/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l170/",
       "source_line_start": 170,
       "source_line_end": 170,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l171/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l171/",
       "source_line_start": 171,
       "source_line_end": 171,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l174/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l174/",
       "source_line_start": 174,
       "source_line_end": 174,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l175/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l175/",
       "source_line_start": 175,
       "source_line_end": 175,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l176/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l176/",
       "source_line_start": 176,
       "source_line_end": 176,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l178/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l178/",
       "source_line_start": 178,
       "source_line_end": 178,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l179/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l179/",
       "source_line_start": 179,
       "source_line_end": 179,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l180/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l180/",
       "source_line_start": 180,
       "source_line_end": 180,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l183/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l183/",
       "source_line_start": 183,
       "source_line_end": 183,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l184/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l184/",
       "source_line_start": 184,
       "source_line_end": 184,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l185/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l185/",
       "source_line_start": 185,
       "source_line_end": 185,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l186/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l186/",
       "source_line_start": 186,
       "source_line_end": 186,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l189/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l189/",
       "source_line_start": 189,
       "source_line_end": 189,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l192/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l192/",
       "source_line_start": 192,
       "source_line_end": 192,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l193/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l193/",
       "source_line_start": 193,
       "source_line_end": 193,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l194/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l194/",
       "source_line_start": 194,
       "source_line_end": 194,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l195/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l195/",
       "source_line_start": 195,
       "source_line_end": 195,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "admissible_2_to_20",
-      "url": "/verify/taulib/docs/book-ii-interior-tau-admissible/admissible-2-to-20/",
+      "url": "/corpus/taulib/docs/book-ii-interior-tau-admissible/admissible-2-to-20/",
       "source_line_start": 198,
       "source_line_end": 200,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -443,7 +531,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -518,49 +606,49 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [constraint_C1](/verify/taulib/docs/book-ii-interior-tau-admissible/constraint-c1/) | L39-L40 | defined | — |
-| `def` | [largest_prime_factor_aux](/verify/taulib/docs/book-ii-interior-tau-admissible/largest-prime-factor-aux/) | L44-L52 | defined | — |
-| `def` | [largest_prime_factor](/verify/taulib/docs/book-ii-interior-tau-admissible/largest-prime-factor/) | L55-L57 | defined | — |
-| `def` | [constraint_C3](/verify/taulib/docs/book-ii-interior-tau-admissible/constraint-c3/) | L60-L61 | defined | — |
-| `def` | [constraint_C4](/verify/taulib/docs/book-ii-interior-tau-admissible/constraint-c4/) | L64-L65 | defined | — |
-| `def` | [constraint_C5](/verify/taulib/docs/book-ii-interior-tau-admissible/constraint-c5/) | L68-L73 | defined | — |
-| `def` | [is_tau_admissible](/verify/taulib/docs/book-ii-interior-tau-admissible/is-tau-admissible/) | L76-L77 | defined | `II.D03` |
-| `structure` | [TauAdmissiblePoint](/verify/taulib/docs/book-ii-interior-tau-admissible/tau-admissible-point/) | L86-L91 | defined | `II.D02` |
-| `def` | [from_tau_idx](/verify/taulib/docs/book-ii-interior-tau-admissible/from-tau-idx/) | L94-L96 | defined | — |
-| `def` | [to_tau_idx](/verify/taulib/docs/book-ii-interior-tau-admissible/to-tau-idx/) | L99-L100 | defined | — |
-| `def` | [TauAdmissiblePoint.valid](/verify/taulib/docs/book-ii-interior-tau-admissible/valid/) | L103-L104 | defined | — |
-| `def` | [round_trip_check](/verify/taulib/docs/book-ii-interior-tau-admissible/round-trip-check/) | L112-L113 | defined | — |
-| `def` | [admissible_check](/verify/taulib/docs/book-ii-interior-tau-admissible/admissible-check/) | L117-L118 | defined | — |
-| `def` | [batch_verify](/verify/taulib/docs/book-ii-interior-tau-admissible/batch-verify/) | L121-L128 | defined | — |
-| `def` | [primorial_witness](/verify/taulib/docs/book-ii-interior-tau-admissible/primorial-witness/) | L135-L141 | defined | — |
-| `def` | [primorial_b_eq_one](/verify/taulib/docs/book-ii-interior-tau-admissible/primorial-b-eq-one/) | L144-L145 | defined | — |
-| `def` | [primorial_c_eq_one](/verify/taulib/docs/book-ii-interior-tau-admissible/primorial-c-eq-one/) | L147-L148 | defined | — |
-| `def` | [primorial_a_increasing](/verify/taulib/docs/book-ii-interior-tau-admissible/primorial-a-increasing/) | L151-L153 | defined | — |
-| `eval` | [#eval L160](/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l160/) | L160-L160 | computed | — |
-| `eval` | [#eval L161](/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l161/) | L161-L161 | computed | — |
-| `eval` | [#eval L162](/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l162/) | L162-L162 | computed | — |
-| `eval` | [#eval L164](/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l164/) | L164-L164 | computed | — |
-| `eval` | [#eval L165](/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l165/) | L165-L165 | computed | — |
-| `eval` | [#eval L166](/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l166/) | L166-L166 | computed | — |
-| `eval` | [#eval L167](/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l167/) | L167-L167 | computed | — |
-| `eval` | [#eval L169](/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l169/) | L169-L169 | computed | — |
-| `eval` | [#eval L170](/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l170/) | L170-L170 | computed | — |
-| `eval` | [#eval L171](/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l171/) | L171-L171 | computed | — |
-| `eval` | [#eval L174](/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l174/) | L174-L174 | computed | — |
-| `eval` | [#eval L175](/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l175/) | L175-L175 | computed | — |
-| `eval` | [#eval L176](/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l176/) | L176-L176 | computed | — |
-| `eval` | [#eval L178](/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l178/) | L178-L178 | computed | — |
-| `eval` | [#eval L179](/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l179/) | L179-L179 | computed | — |
-| `eval` | [#eval L180](/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l180/) | L180-L180 | computed | — |
-| `eval` | [#eval L183](/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l183/) | L183-L183 | computed | — |
-| `eval` | [#eval L184](/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l184/) | L184-L184 | computed | — |
-| `eval` | [#eval L185](/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l185/) | L185-L185 | computed | — |
-| `eval` | [#eval L186](/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l186/) | L186-L186 | computed | — |
-| `eval` | [#eval L189](/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l189/) | L189-L189 | computed | — |
-| `eval` | [#eval L192](/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l192/) | L192-L192 | computed | — |
-| `eval` | [#eval L193](/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l193/) | L193-L193 | computed | — |
-| `eval` | [#eval L194](/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l194/) | L194-L194 | computed | — |
-| `eval` | [#eval L195](/verify/taulib/docs/book-ii-interior-tau-admissible/eval-l195/) | L195-L195 | computed | — |
-| `theorem` | [admissible_2_to_20](/verify/taulib/docs/book-ii-interior-tau-admissible/admissible-2-to-20/) | L198-L200 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [constraint_C1](/corpus/taulib/docs/book-ii-interior-tau-admissible/constraint-c1/) | L39-L40 | data/computed value | data/computed value | — |
+| `def` | [largest_prime_factor_aux](/corpus/taulib/docs/book-ii-interior-tau-admissible/largest-prime-factor-aux/) | L44-L52 | data/computed value | data/computed value | — |
+| `def` | [largest_prime_factor](/corpus/taulib/docs/book-ii-interior-tau-admissible/largest-prime-factor/) | L55-L57 | definition | definition | — |
+| `def` | [constraint_C3](/corpus/taulib/docs/book-ii-interior-tau-admissible/constraint-c3/) | L60-L61 | data/computed value | data/computed value | — |
+| `def` | [constraint_C4](/corpus/taulib/docs/book-ii-interior-tau-admissible/constraint-c4/) | L64-L65 | data/computed value | data/computed value | — |
+| `def` | [constraint_C5](/corpus/taulib/docs/book-ii-interior-tau-admissible/constraint-c5/) | L68-L73 | data/computed value | data/computed value | — |
+| `def` | [is_tau_admissible](/corpus/taulib/docs/book-ii-interior-tau-admissible/is-tau-admissible/) | L76-L77 | data/computed value | data/computed value | `II.D03` |
+| `structure` | [TauAdmissiblePoint](/corpus/taulib/docs/book-ii-interior-tau-admissible/tau-admissible-point/) | L86-L91 | type/data schema | type/data schema | `II.D02` |
+| `def` | [from_tau_idx](/corpus/taulib/docs/book-ii-interior-tau-admissible/from-tau-idx/) | L94-L96 | definition | definition | — |
+| `def` | [to_tau_idx](/corpus/taulib/docs/book-ii-interior-tau-admissible/to-tau-idx/) | L99-L100 | definition | definition | — |
+| `def` | [TauAdmissiblePoint.valid](/corpus/taulib/docs/book-ii-interior-tau-admissible/valid/) | L103-L104 | data/computed value | data/computed value | — |
+| `def` | [round_trip_check](/corpus/taulib/docs/book-ii-interior-tau-admissible/round-trip-check/) | L112-L113 | data/computed value | data/computed value | — |
+| `def` | [admissible_check](/corpus/taulib/docs/book-ii-interior-tau-admissible/admissible-check/) | L117-L118 | data/computed value | data/computed value | — |
+| `def` | [batch_verify](/corpus/taulib/docs/book-ii-interior-tau-admissible/batch-verify/) | L121-L128 | data/computed value | data/computed value | — |
+| `def` | [primorial_witness](/corpus/taulib/docs/book-ii-interior-tau-admissible/primorial-witness/) | L135-L141 | data/computed value | data/computed value | — |
+| `def` | [primorial_b_eq_one](/corpus/taulib/docs/book-ii-interior-tau-admissible/primorial-b-eq-one/) | L144-L145 | data/computed value | data/computed value | — |
+| `def` | [primorial_c_eq_one](/corpus/taulib/docs/book-ii-interior-tau-admissible/primorial-c-eq-one/) | L147-L148 | data/computed value | data/computed value | — |
+| `def` | [primorial_a_increasing](/corpus/taulib/docs/book-ii-interior-tau-admissible/primorial-a-increasing/) | L151-L153 | data/computed value | data/computed value | — |
+| `eval` | [#eval L160](/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l160/) | L160-L160 | computed check | computed check | — |
+| `eval` | [#eval L161](/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l161/) | L161-L161 | computed check | computed check | — |
+| `eval` | [#eval L162](/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l162/) | L162-L162 | computed check | computed check | — |
+| `eval` | [#eval L164](/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l164/) | L164-L164 | computed check | computed check | — |
+| `eval` | [#eval L165](/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l165/) | L165-L165 | computed check | computed check | — |
+| `eval` | [#eval L166](/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l166/) | L166-L166 | computed check | computed check | — |
+| `eval` | [#eval L167](/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l167/) | L167-L167 | computed check | computed check | — |
+| `eval` | [#eval L169](/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l169/) | L169-L169 | computed check | computed check | — |
+| `eval` | [#eval L170](/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l170/) | L170-L170 | computed check | computed check | — |
+| `eval` | [#eval L171](/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l171/) | L171-L171 | computed check | computed check | — |
+| `eval` | [#eval L174](/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l174/) | L174-L174 | computed check | computed check | — |
+| `eval` | [#eval L175](/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l175/) | L175-L175 | computed check | computed check | — |
+| `eval` | [#eval L176](/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l176/) | L176-L176 | computed check | computed check | — |
+| `eval` | [#eval L178](/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l178/) | L178-L178 | computed check | computed check | — |
+| `eval` | [#eval L179](/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l179/) | L179-L179 | computed check | computed check | — |
+| `eval` | [#eval L180](/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l180/) | L180-L180 | computed check | computed check | — |
+| `eval` | [#eval L183](/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l183/) | L183-L183 | computed check | computed check | — |
+| `eval` | [#eval L184](/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l184/) | L184-L184 | computed check | computed check | — |
+| `eval` | [#eval L185](/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l185/) | L185-L185 | computed check | computed check | — |
+| `eval` | [#eval L186](/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l186/) | L186-L186 | computed check | computed check | — |
+| `eval` | [#eval L189](/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l189/) | L189-L189 | computed check | computed check | — |
+| `eval` | [#eval L192](/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l192/) | L192-L192 | computed check | computed check | — |
+| `eval` | [#eval L193](/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l193/) | L193-L193 | computed check | computed check | — |
+| `eval` | [#eval L194](/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l194/) | L194-L194 | computed check | computed check | — |
+| `eval` | [#eval L195](/corpus/taulib/docs/book-ii-interior-tau-admissible/eval-l195/) | L195-L195 | computed check | computed check | — |
+| `theorem` | [admissible_2_to_20](/corpus/taulib/docs/book-ii-interior-tau-admissible/admissible-2-to-20/) | L198-L200 | proof obligation | formal proof obligation checked | — |

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "metric_inequality_check",
-  "permalink": "/verify/taulib/docs/book-i-coordinates-abcd/metric-inequality-check/",
+  "permalink": "/corpus/taulib/docs/book-i-coordinates-abcd/metric-inequality-check/",
   "summary_short": "`def` declaration in `TauLib.BookI.Coordinates.ABCD`.",
   "declaration_id": "TauLib.BookI.Coordinates.ABCD::metric_inequality_check",
   "declaration_slug": "metric-inequality-check",
   "kind": "def",
   "name": "metric_inequality_check",
   "module_name": "TauLib.BookI.Coordinates.ABCD",
-  "module_url": "/verify/taulib/docs/book-i-coordinates-abcd/",
+  "module_url": "/corpus/taulib/docs/book-i-coordinates-abcd/",
   "source_line_start": 111,
   "source_line_end": 112,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/ABCD.lean#L111-L112",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Coordinates.ABCD",
-        "url": "/verify/taulib/docs/book-i-coordinates-abcd/"
+        "url": "/corpus/taulib/docs/book-i-coordinates-abcd/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Coordinates.ABCD](/verify/taulib/docs/book-i-coordinates-abcd/)
+- Module: [TauLib.BookI.Coordinates.ABCD](/corpus/taulib/docs/book-i-coordinates-abcd/)
 - Source path: [`TauLib/BookI/Coordinates/ABCD.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/ABCD.lean#L111-L112)
 - Source range: L111-L112
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "segment_construct_check",
-  "permalink": "/verify/taulib/docs/book-ii-geometry-congruence/segment-construct-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-geometry-congruence/segment-construct-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.Geometry.Congruence`.",
   "declaration_id": "TauLib.BookII.Geometry.Congruence::segment_construct_check",
   "declaration_slug": "segment-construct-check",
   "kind": "def",
   "name": "segment_construct_check",
   "module_name": "TauLib.BookII.Geometry.Congruence",
-  "module_url": "/verify/taulib/docs/book-ii-geometry-congruence/",
+  "module_url": "/corpus/taulib/docs/book-ii-geometry-congruence/",
   "source_line_start": 101,
   "source_line_end": 113,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Geometry/Congruence.lean#L101-L113",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Geometry.Congruence",
-        "url": "/verify/taulib/docs/book-ii-geometry-congruence/"
+        "url": "/corpus/taulib/docs/book-ii-geometry-congruence/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Geometry.Congruence](/verify/taulib/docs/book-ii-geometry-congruence/)
+- Module: [TauLib.BookII.Geometry.Congruence](/corpus/taulib/docs/book-ii-geometry-congruence/)
 - Source path: [`TauLib/BookII/Geometry/Congruence.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Geometry/Congruence.lean#L101-L113)
 - Source range: L101-L113
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

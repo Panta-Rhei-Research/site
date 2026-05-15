@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "tau_mem_mul_right",
-  "permalink": "/verify/taulib/docs/book-i-sets-membership/tau-mem-mul-right/",
+  "permalink": "/corpus/taulib/docs/book-i-sets-membership/tau-mem-mul-right/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Sets.Membership`.",
   "declaration_id": "TauLib.BookI.Sets.Membership::tau_mem_mul_right",
   "declaration_slug": "tau-mem-mul-right",
   "kind": "theorem",
   "name": "tau_mem_mul_right",
   "module_name": "TauLib.BookI.Sets.Membership",
-  "module_url": "/verify/taulib/docs/book-i-sets-membership/",
+  "module_url": "/corpus/taulib/docs/book-i-sets-membership/",
   "source_line_start": 126,
   "source_line_end": 130,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Membership.lean#L126-L130",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Sets.Membership",
-        "url": "/verify/taulib/docs/book-i-sets-membership/"
+        "url": "/corpus/taulib/docs/book-i-sets-membership/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Sets.Membership](/verify/taulib/docs/book-i-sets-membership/)
+- Module: [TauLib.BookI.Sets.Membership](/corpus/taulib/docs/book-i-sets-membership/)
 - Source path: [`TauLib/BookI/Sets/Membership.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Membership.lean#L126-L130)
 - Source range: L126-L130
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

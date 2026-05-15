@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "fourier",
-  "permalink": "/verify/taulib/docs/book-i-boundary-fourier/fourier/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-fourier/fourier/",
   "summary_short": "`def` declaration in `TauLib.BookI.Boundary.Fourier`.",
   "declaration_id": "TauLib.BookI.Boundary.Fourier::fourier",
   "declaration_slug": "fourier",
   "kind": "def",
   "name": "fourier",
   "module_name": "TauLib.BookI.Boundary.Fourier",
-  "module_url": "/verify/taulib/docs/book-i-boundary-fourier/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-fourier/",
   "source_line_start": 149,
   "source_line_end": 149,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Fourier.lean#L149-L149",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Fourier",
-        "url": "/verify/taulib/docs/book-i-boundary-fourier/"
+        "url": "/corpus/taulib/docs/book-i-boundary-fourier/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Fourier](/verify/taulib/docs/book-i-boundary-fourier/)
+- Module: [TauLib.BookI.Boundary.Fourier](/corpus/taulib/docs/book-i-boundary-fourier/)
 - Source path: [`TauLib/BookI/Boundary/Fourier.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Fourier.lean#L149-L149)
 - Source range: L149-L149
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

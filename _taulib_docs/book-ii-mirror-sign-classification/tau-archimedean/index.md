@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "tau_archimedean",
-  "permalink": "/verify/taulib/docs/book-ii-mirror-sign-classification/tau-archimedean/",
+  "permalink": "/corpus/taulib/docs/book-ii-mirror-sign-classification/tau-archimedean/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Mirror.SignClassification`.",
   "declaration_id": "TauLib.BookII.Mirror.SignClassification::tau_archimedean",
   "declaration_slug": "tau-archimedean",
   "kind": "theorem",
   "name": "tau_archimedean",
   "module_name": "TauLib.BookII.Mirror.SignClassification",
-  "module_url": "/verify/taulib/docs/book-ii-mirror-sign-classification/",
+  "module_url": "/corpus/taulib/docs/book-ii-mirror-sign-classification/",
   "source_line_start": 292,
   "source_line_end": 293,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Mirror/SignClassification.lean#L292-L293",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Mirror.SignClassification",
-        "url": "/verify/taulib/docs/book-ii-mirror-sign-classification/"
+        "url": "/corpus/taulib/docs/book-ii-mirror-sign-classification/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Mirror.SignClassification](/verify/taulib/docs/book-ii-mirror-sign-classification/)
+- Module: [TauLib.BookII.Mirror.SignClassification](/corpus/taulib/docs/book-ii-mirror-sign-classification/)
 - Source path: [`TauLib/BookII/Mirror/SignClassification.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Mirror/SignClassification.lean#L292-L293)
 - Source range: L292-L293
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

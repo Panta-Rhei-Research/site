@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Denotation.RankTransfer",
-  "permalink": "/verify/taulib/docs/book-i-denotation-rank-transfer/",
+  "permalink": "/corpus/taulib/docs/book-i-denotation-rank-transfer/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Denotation.RankTransfer`.",
   "module_name": "TauLib.BookI.Denotation.RankTransfer",
   "module_slug": "book-i-denotation-rank-transfer",
@@ -31,10 +31,12 @@
     {
       "kind": "def",
       "name": "RT",
-      "url": "/verify/taulib/docs/book-i-denotation-rank-transfer/rt/",
+      "url": "/corpus/taulib/docs/book-i-denotation-rank-transfer/rt/",
       "source_line_start": 31,
       "source_line_end": 31,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "I.D08"
       ]
@@ -42,82 +44,100 @@
     {
       "kind": "def",
       "name": "RT_inv",
-      "url": "/verify/taulib/docs/book-i-denotation-rank-transfer/rt-inv/",
+      "url": "/corpus/taulib/docs/book-i-denotation-rank-transfer/rt-inv/",
       "source_line_start": 34,
       "source_line_end": 34,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "RT_injective",
-      "url": "/verify/taulib/docs/book-i-denotation-rank-transfer/rt-injective/",
+      "url": "/corpus/taulib/docs/book-i-denotation-rank-transfer/rt-injective/",
       "source_line_start": 37,
       "source_line_end": 40,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "RT_surjective",
-      "url": "/verify/taulib/docs/book-i-denotation-rank-transfer/rt-surjective/",
+      "url": "/corpus/taulib/docs/book-i-denotation-rank-transfer/rt-surjective/",
       "source_line_start": 43,
       "source_line_end": 46,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "RT_inv_left",
-      "url": "/verify/taulib/docs/book-i-denotation-rank-transfer/rt-inv-left/",
+      "url": "/corpus/taulib/docs/book-i-denotation-rank-transfer/rt-inv-left/",
       "source_line_start": 49,
       "source_line_end": 51,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "RT_inv_right",
-      "url": "/verify/taulib/docs/book-i-denotation-rank-transfer/rt-inv-right/",
+      "url": "/corpus/taulib/docs/book-i-denotation-rank-transfer/rt-inv-right/",
       "source_line_start": 54,
       "source_line_end": 58,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "RT_rho_comm",
-      "url": "/verify/taulib/docs/book-i-denotation-rank-transfer/rt-rho-comm/",
+      "url": "/corpus/taulib/docs/book-i-denotation-rank-transfer/rt-rho-comm/",
       "source_line_start": 61,
       "source_line_end": 64,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "RT_in_orbit",
-      "url": "/verify/taulib/docs/book-i-denotation-rank-transfer/rt-in-orbit/",
+      "url": "/corpus/taulib/docs/book-i-denotation-rank-transfer/rt-in-orbit/",
       "source_line_start": 67,
       "source_line_end": 69,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "RT_alpha_eq",
-      "url": "/verify/taulib/docs/book-i-denotation-rank-transfer/rt-alpha-eq/",
+      "url": "/corpus/taulib/docs/book-i-denotation-rank-transfer/rt-alpha-eq/",
       "source_line_start": 72,
       "source_line_end": 74,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "RT_sigma",
-      "url": "/verify/taulib/docs/book-i-denotation-rank-transfer/rt-sigma/",
+      "url": "/corpus/taulib/docs/book-i-denotation-rank-transfer/rt-sigma/",
       "source_line_start": 77,
       "source_line_end": 81,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -129,7 +149,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -198,15 +218,15 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [RT](/verify/taulib/docs/book-i-denotation-rank-transfer/rt/) | L31-L31 | defined | `I.D08` |
-| `def` | [RT_inv](/verify/taulib/docs/book-i-denotation-rank-transfer/rt-inv/) | L34-L34 | defined | — |
-| `theorem` | [RT_injective](/verify/taulib/docs/book-i-denotation-rank-transfer/rt-injective/) | L37-L40 | formalized | — |
-| `theorem` | [RT_surjective](/verify/taulib/docs/book-i-denotation-rank-transfer/rt-surjective/) | L43-L46 | formalized | — |
-| `theorem` | [RT_inv_left](/verify/taulib/docs/book-i-denotation-rank-transfer/rt-inv-left/) | L49-L51 | formalized | — |
-| `theorem` | [RT_inv_right](/verify/taulib/docs/book-i-denotation-rank-transfer/rt-inv-right/) | L54-L58 | formalized | — |
-| `theorem` | [RT_rho_comm](/verify/taulib/docs/book-i-denotation-rank-transfer/rt-rho-comm/) | L61-L64 | formalized | — |
-| `theorem` | [RT_in_orbit](/verify/taulib/docs/book-i-denotation-rank-transfer/rt-in-orbit/) | L67-L69 | formalized | — |
-| `theorem` | [RT_alpha_eq](/verify/taulib/docs/book-i-denotation-rank-transfer/rt-alpha-eq/) | L72-L74 | formalized | — |
-| `theorem` | [RT_sigma](/verify/taulib/docs/book-i-denotation-rank-transfer/rt-sigma/) | L77-L81 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [RT](/corpus/taulib/docs/book-i-denotation-rank-transfer/rt/) | L31-L31 | definition | definition | `I.D08` |
+| `def` | [RT_inv](/corpus/taulib/docs/book-i-denotation-rank-transfer/rt-inv/) | L34-L34 | definition | definition | — |
+| `theorem` | [RT_injective](/corpus/taulib/docs/book-i-denotation-rank-transfer/rt-injective/) | L37-L40 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [RT_surjective](/corpus/taulib/docs/book-i-denotation-rank-transfer/rt-surjective/) | L43-L46 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [RT_inv_left](/corpus/taulib/docs/book-i-denotation-rank-transfer/rt-inv-left/) | L49-L51 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [RT_inv_right](/corpus/taulib/docs/book-i-denotation-rank-transfer/rt-inv-right/) | L54-L58 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [RT_rho_comm](/corpus/taulib/docs/book-i-denotation-rank-transfer/rt-rho-comm/) | L61-L64 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [RT_in_orbit](/corpus/taulib/docs/book-i-denotation-rank-transfer/rt-in-orbit/) | L67-L69 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [RT_alpha_eq](/corpus/taulib/docs/book-i-denotation-rank-transfer/rt-alpha-eq/) | L72-L74 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [RT_sigma](/corpus/taulib/docs/book-i-denotation-rank-transfer/rt-sigma/) | L77-L81 | proof obligation | formal proof obligation checked | — |

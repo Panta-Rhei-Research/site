@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookVI.Agency.AgencySector",
-  "permalink": "/verify/taulib/docs/book-vi-agency-agency-sector/",
+  "permalink": "/corpus/taulib/docs/book-vi-agency-agency-sector/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookVI.Agency.AgencySector`.",
   "module_name": "TauLib.BookVI.Agency.AgencySector",
   "module_slug": "book-vi-agency-agency-sector",
@@ -34,10 +34,12 @@
     {
       "kind": "structure",
       "name": "AgencySectorDef",
-      "url": "/verify/taulib/docs/book-vi-agency-agency-sector/agency-sector-def/",
+      "url": "/corpus/taulib/docs/book-vi-agency-agency-sector/agency-sector-def/",
       "source_line_start": 39,
       "source_line_end": 50,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D29"
       ]
@@ -45,28 +47,34 @@
     {
       "kind": "def",
       "name": "agency_def",
-      "url": "/verify/taulib/docs/book-vi-agency-agency-sector/agency-def/",
+      "url": "/corpus/taulib/docs/book-vi-agency-agency-sector/agency-def/",
       "source_line_start": 52,
       "source_line_end": 52,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "agency_generator_match",
-      "url": "/verify/taulib/docs/book-vi-agency-agency-sector/agency-generator-match/",
+      "url": "/corpus/taulib/docs/book-vi-agency-agency-sector/agency-generator-match/",
       "source_line_start": 55,
       "source_line_end": 57,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "SpatialMotilityPredicate",
-      "url": "/verify/taulib/docs/book-vi-agency-agency-sector/spatial-motility-predicate/",
+      "url": "/corpus/taulib/docs/book-vi-agency-agency-sector/spatial-motility-predicate/",
       "source_line_start": 67,
       "source_line_end": 78,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D30"
       ]
@@ -74,37 +82,45 @@
     {
       "kind": "def",
       "name": "spatial_motility",
-      "url": "/verify/taulib/docs/book-vi-agency-agency-sector/spatial-motility/",
+      "url": "/corpus/taulib/docs/book-vi-agency-agency-sector/spatial-motility/",
       "source_line_start": 80,
       "source_line_end": 82,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "motility_three_conditions",
-      "url": "/verify/taulib/docs/book-vi-agency-agency-sector/motility-three-conditions/",
+      "url": "/corpus/taulib/docs/book-vi-agency-agency-sector/motility-three-conditions/",
       "source_line_start": 84,
       "source_line_end": 86,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "motility_all_hold",
-      "url": "/verify/taulib/docs/book-vi-agency-agency-sector/motility-all-hold/",
+      "url": "/corpus/taulib/docs/book-vi-agency-agency-sector/motility-all-hold/",
       "source_line_start": 88,
       "source_line_end": 92,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "AgencyExtension",
-      "url": "/verify/taulib/docs/book-vi-agency-agency-sector/agency-extension/",
+      "url": "/corpus/taulib/docs/book-vi-agency-agency-sector/agency-extension/",
       "source_line_start": 101,
       "source_line_end": 110,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.T18"
       ]
@@ -112,28 +128,34 @@
     {
       "kind": "def",
       "name": "agency_ext",
-      "url": "/verify/taulib/docs/book-vi-agency-agency-sector/agency-ext/",
+      "url": "/corpus/taulib/docs/book-vi-agency-agency-sector/agency-ext/",
       "source_line_start": 112,
       "source_line_end": 114,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "agency_is_pi_extension",
-      "url": "/verify/taulib/docs/book-vi-agency-agency-sector/agency-is-pi-extension/",
+      "url": "/corpus/taulib/docs/book-vi-agency-agency-sector/agency-is-pi-extension/",
       "source_line_start": 116,
       "source_line_end": 120,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "ChemotaxisFunctor",
-      "url": "/verify/taulib/docs/book-vi-agency-agency-sector/chemotaxis-functor/",
+      "url": "/corpus/taulib/docs/book-vi-agency-agency-sector/chemotaxis-functor/",
       "source_line_start": 129,
       "source_line_end": 138,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D31"
       ]
@@ -141,19 +163,23 @@
     {
       "kind": "def",
       "name": "chemotaxis",
-      "url": "/verify/taulib/docs/book-vi-agency-agency-sector/chemotaxis/",
+      "url": "/corpus/taulib/docs/book-vi-agency-agency-sector/chemotaxis/",
       "source_line_start": 140,
       "source_line_end": 140,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "chemotaxis_preserves_distinction",
-      "url": "/verify/taulib/docs/book-vi-agency-agency-sector/chemotaxis-preserves-distinction/",
+      "url": "/corpus/taulib/docs/book-vi-agency-agency-sector/chemotaxis-preserves-distinction/",
       "source_line_start": 142,
       "source_line_end": 145,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -165,7 +191,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -237,18 +263,18 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [AgencySectorDef](/verify/taulib/docs/book-vi-agency-agency-sector/agency-sector-def/) | L39-L50 | defined | `VI.D29` |
-| `def` | [agency_def](/verify/taulib/docs/book-vi-agency-agency-sector/agency-def/) | L52-L52 | defined | — |
-| `theorem` | [agency_generator_match](/verify/taulib/docs/book-vi-agency-agency-sector/agency-generator-match/) | L55-L57 | formalized | — |
-| `structure` | [SpatialMotilityPredicate](/verify/taulib/docs/book-vi-agency-agency-sector/spatial-motility-predicate/) | L67-L78 | defined | `VI.D30` |
-| `def` | [spatial_motility](/verify/taulib/docs/book-vi-agency-agency-sector/spatial-motility/) | L80-L82 | defined | — |
-| `theorem` | [motility_three_conditions](/verify/taulib/docs/book-vi-agency-agency-sector/motility-three-conditions/) | L84-L86 | formalized | — |
-| `theorem` | [motility_all_hold](/verify/taulib/docs/book-vi-agency-agency-sector/motility-all-hold/) | L88-L92 | formalized | — |
-| `structure` | [AgencyExtension](/verify/taulib/docs/book-vi-agency-agency-sector/agency-extension/) | L101-L110 | defined | `VI.T18` |
-| `def` | [agency_ext](/verify/taulib/docs/book-vi-agency-agency-sector/agency-ext/) | L112-L114 | defined | — |
-| `theorem` | [agency_is_pi_extension](/verify/taulib/docs/book-vi-agency-agency-sector/agency-is-pi-extension/) | L116-L120 | formalized | — |
-| `structure` | [ChemotaxisFunctor](/verify/taulib/docs/book-vi-agency-agency-sector/chemotaxis-functor/) | L129-L138 | defined | `VI.D31` |
-| `def` | [chemotaxis](/verify/taulib/docs/book-vi-agency-agency-sector/chemotaxis/) | L140-L140 | defined | — |
-| `theorem` | [chemotaxis_preserves_distinction](/verify/taulib/docs/book-vi-agency-agency-sector/chemotaxis-preserves-distinction/) | L142-L145 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [AgencySectorDef](/corpus/taulib/docs/book-vi-agency-agency-sector/agency-sector-def/) | L39-L50 | type/data schema | type/data schema | `VI.D29` |
+| `def` | [agency_def](/corpus/taulib/docs/book-vi-agency-agency-sector/agency-def/) | L52-L52 | definition | definition | — |
+| `theorem` | [agency_generator_match](/corpus/taulib/docs/book-vi-agency-agency-sector/agency-generator-match/) | L55-L57 | proof obligation | formal proof obligation checked | — |
+| `structure` | [SpatialMotilityPredicate](/corpus/taulib/docs/book-vi-agency-agency-sector/spatial-motility-predicate/) | L67-L78 | type/data schema | type/data schema | `VI.D30` |
+| `def` | [spatial_motility](/corpus/taulib/docs/book-vi-agency-agency-sector/spatial-motility/) | L80-L82 | definition | definition | — |
+| `theorem` | [motility_three_conditions](/corpus/taulib/docs/book-vi-agency-agency-sector/motility-three-conditions/) | L84-L86 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [motility_all_hold](/corpus/taulib/docs/book-vi-agency-agency-sector/motility-all-hold/) | L88-L92 | proof obligation | formal proof obligation checked | — |
+| `structure` | [AgencyExtension](/corpus/taulib/docs/book-vi-agency-agency-sector/agency-extension/) | L101-L110 | type/data schema | type/data schema | `VI.T18` |
+| `def` | [agency_ext](/corpus/taulib/docs/book-vi-agency-agency-sector/agency-ext/) | L112-L114 | definition | definition | — |
+| `theorem` | [agency_is_pi_extension](/corpus/taulib/docs/book-vi-agency-agency-sector/agency-is-pi-extension/) | L116-L120 | proof obligation | formal proof obligation checked | — |
+| `structure` | [ChemotaxisFunctor](/corpus/taulib/docs/book-vi-agency-agency-sector/chemotaxis-functor/) | L129-L138 | type/data schema | type/data schema | `VI.D31` |
+| `def` | [chemotaxis](/corpus/taulib/docs/book-vi-agency-agency-sector/chemotaxis/) | L140-L140 | definition | definition | — |
+| `theorem` | [chemotaxis_preserves_distinction](/corpus/taulib/docs/book-vi-agency-agency-sector/chemotaxis-preserves-distinction/) | L142-L145 | proof obligation | formal proof obligation checked | — |

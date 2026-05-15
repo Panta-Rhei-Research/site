@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauSite",
-  "permalink": "/verify/taulib/docs/book-i-topos-limits-sites/tau-site/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-limits-sites/tau-site/",
   "summary_short": "`structure` declaration in `TauLib.BookI.Topos.LimitsSites`.",
   "declaration_id": "TauLib.BookI.Topos.LimitsSites::TauSite",
   "declaration_slug": "tau-site",
   "kind": "structure",
   "name": "TauSite",
   "module_name": "TauLib.BookI.Topos.LimitsSites",
-  "module_url": "/verify/taulib/docs/book-i-topos-limits-sites/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-limits-sites/",
   "source_line_start": 138,
   "source_line_end": 142,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/LimitsSites.lean#L138-L142",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.LimitsSites",
-        "url": "/verify/taulib/docs/book-i-topos-limits-sites/"
+        "url": "/corpus/taulib/docs/book-i-topos-limits-sites/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.LimitsSites](/verify/taulib/docs/book-i-topos-limits-sites/)
+- Module: [TauLib.BookI.Topos.LimitsSites](/corpus/taulib/docs/book-i-topos-limits-sites/)
 - Source path: [`TauLib/BookI/Topos/LimitsSites.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/LimitsSites.lean#L138-L142)
 - Source range: L138-L142
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "allRules",
-  "permalink": "/verify/taulib/docs/book-i-meta-logic-substrate/all-rules/",
+  "permalink": "/corpus/taulib/docs/book-i-meta-logic-substrate/all-rules/",
   "summary_short": "`def` declaration in `TauLib.BookI.MetaLogic.Substrate`.",
   "declaration_id": "TauLib.BookI.MetaLogic.Substrate::allRules",
   "declaration_slug": "all-rules",
   "kind": "def",
   "name": "allRules",
   "module_name": "TauLib.BookI.MetaLogic.Substrate",
-  "module_url": "/verify/taulib/docs/book-i-meta-logic-substrate/",
+  "module_url": "/corpus/taulib/docs/book-i-meta-logic-substrate/",
   "source_line_start": 74,
   "source_line_end": 74,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/Substrate.lean#L74-L74",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.MetaLogic.Substrate",
-        "url": "/verify/taulib/docs/book-i-meta-logic-substrate/"
+        "url": "/corpus/taulib/docs/book-i-meta-logic-substrate/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.MetaLogic.Substrate](/verify/taulib/docs/book-i-meta-logic-substrate/)
+- Module: [TauLib.BookI.MetaLogic.Substrate](/corpus/taulib/docs/book-i-meta-logic-substrate/)
 - Source path: [`TauLib/BookI/MetaLogic/Substrate.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/Substrate.lean#L74-L74)
 - Source range: L74-L74
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

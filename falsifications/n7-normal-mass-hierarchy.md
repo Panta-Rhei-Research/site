@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N7 — Normal mass hierarchy"
-permalink: "/results/falsifications/n7-normal-mass-hierarchy/"
+permalink: "/falsifications/n7-normal-mass-hierarchy/"
 lane: "results"
 falsification_id: "N7"
 n_num: 7

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "WOmega.trPlus",
-  "permalink": "/verify/taulib/docs/book-i-polarity-split-complex-coupling-lift/tr-plus-l184/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-split-complex-coupling-lift/tr-plus-l184/",
   "summary_short": "`def` declaration in `TauLib.BookI.Polarity.SplitComplexCouplingLift`.",
   "declaration_id": "TauLib.BookI.Polarity.SplitComplexCouplingLift::WOmega.trPlus",
   "declaration_slug": "tr-plus-l184",
   "kind": "def",
   "name": "WOmega.trPlus",
   "module_name": "TauLib.BookI.Polarity.SplitComplexCouplingLift",
-  "module_url": "/verify/taulib/docs/book-i-polarity-split-complex-coupling-lift/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-split-complex-coupling-lift/",
   "source_line_start": 184,
   "source_line_end": 185,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/SplitComplexCouplingLift.lean#L184-L185",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.SplitComplexCouplingLift",
-        "url": "/verify/taulib/docs/book-i-polarity-split-complex-coupling-lift/"
+        "url": "/corpus/taulib/docs/book-i-polarity-split-complex-coupling-lift/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.SplitComplexCouplingLift](/verify/taulib/docs/book-i-polarity-split-complex-coupling-lift/)
+- Module: [TauLib.BookI.Polarity.SplitComplexCouplingLift](/corpus/taulib/docs/book-i-polarity-split-complex-coupling-lift/)
 - Source path: [`TauLib/BookI/Polarity/SplitComplexCouplingLift.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/SplitComplexCouplingLift.lean#L184-L185)
 - Source range: L184-L185
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

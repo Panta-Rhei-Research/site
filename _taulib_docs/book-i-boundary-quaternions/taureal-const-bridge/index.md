@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "taureal_const_bridge",
-  "permalink": "/verify/taulib/docs/book-i-boundary-quaternions/taureal-const-bridge/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-quaternions/taureal-const-bridge/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.Quaternions`.",
   "declaration_id": "TauLib.BookI.Boundary.Quaternions::taureal_const_bridge",
   "declaration_slug": "taureal-const-bridge",
   "kind": "theorem",
   "name": "taureal_const_bridge",
   "module_name": "TauLib.BookI.Boundary.Quaternions",
-  "module_url": "/verify/taulib/docs/book-i-boundary-quaternions/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-quaternions/",
   "source_line_start": 133,
   "source_line_end": 135,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Quaternions.lean#L133-L135",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Quaternions",
-        "url": "/verify/taulib/docs/book-i-boundary-quaternions/"
+        "url": "/corpus/taulib/docs/book-i-boundary-quaternions/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Quaternions](/verify/taulib/docs/book-i-boundary-quaternions/)
+- Module: [TauLib.BookI.Boundary.Quaternions](/corpus/taulib/docs/book-i-boundary-quaternions/)
 - Source path: [`TauLib/BookI/Boundary/Quaternions.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Quaternions.lean#L133-L135)
 - Source range: L133-L135
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

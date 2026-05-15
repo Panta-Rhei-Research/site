@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "all_near_matches_in_range",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-dimensionless-near-match/all-near-matches-in-range/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-dimensionless-near-match/all-near-matches-in-range/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Calibration.DimensionlessNearMatch`.",
   "declaration_id": "TauLib.BookIV.Calibration.DimensionlessNearMatch::all_near_matches_in_range",
   "declaration_slug": "all-near-matches-in-range",
   "kind": "theorem",
   "name": "all_near_matches_in_range",
   "module_name": "TauLib.BookIV.Calibration.DimensionlessNearMatch",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-dimensionless-near-match/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-near-match/",
   "source_line_start": 131,
   "source_line_end": 141,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/DimensionlessNearMatch.lean#L131-L141",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.DimensionlessNearMatch",
-        "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-near-match/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-near-match/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.DimensionlessNearMatch](/verify/taulib/docs/book-iv-calibration-dimensionless-near-match/)
+- Module: [TauLib.BookIV.Calibration.DimensionlessNearMatch](/corpus/taulib/docs/book-iv-calibration-dimensionless-near-match/)
 - Source path: [`TauLib/BookIV/Calibration/DimensionlessNearMatch.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/DimensionlessNearMatch.lean#L131-L141)
 - Source range: L131-L141
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

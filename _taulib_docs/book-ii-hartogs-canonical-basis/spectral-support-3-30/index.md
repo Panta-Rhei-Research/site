@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "spectral_support_3_30",
-  "permalink": "/verify/taulib/docs/book-ii-hartogs-canonical-basis/spectral-support-3-30/",
+  "permalink": "/corpus/taulib/docs/book-ii-hartogs-canonical-basis/spectral-support-3-30/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Hartogs.CanonicalBasis`.",
   "declaration_id": "TauLib.BookII.Hartogs.CanonicalBasis::spectral_support_3_30",
   "declaration_slug": "spectral-support-3-30",
   "kind": "theorem",
   "name": "spectral_support_3_30",
   "module_name": "TauLib.BookII.Hartogs.CanonicalBasis",
-  "module_url": "/verify/taulib/docs/book-ii-hartogs-canonical-basis/",
+  "module_url": "/corpus/taulib/docs/book-ii-hartogs-canonical-basis/",
   "source_line_start": 403,
   "source_line_end": 404,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/CanonicalBasis.lean#L403-L404",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Hartogs.CanonicalBasis",
-        "url": "/verify/taulib/docs/book-ii-hartogs-canonical-basis/"
+        "url": "/corpus/taulib/docs/book-ii-hartogs-canonical-basis/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Hartogs.CanonicalBasis](/verify/taulib/docs/book-ii-hartogs-canonical-basis/)
+- Module: [TauLib.BookII.Hartogs.CanonicalBasis](/corpus/taulib/docs/book-ii-hartogs-canonical-basis/)
 - Source path: [`TauLib/BookII/Hartogs/CanonicalBasis.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/CanonicalBasis.lean#L403-L404)
 - Source range: L403-L404
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

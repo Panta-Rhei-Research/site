@@ -1,22 +1,22 @@
 ---
 layout: "falsification-page"
-title: "N26 — GW echo time ratio ιτ⁻²"
-permalink: "/results/falsifications/n26-gw-echo-time-ratio-2/"
+title: "N26 — GW cycle-delay ratio ιτ⁻²"
+permalink: "/falsifications/n26-gw-echo-time-ratio-2/"
 lane: "results"
 falsification_id: "N26"
 n_num: 26
 tier: "A"
-domain: "particle-physics"
-domain_display: "Particle Physics"
-prediction: "8.57$iota-tau-inv-2 approx 8.57. gravitational wave echoes!prediction pred:n26 Echo time doublet: $t_ = 4GM_^ 1/c^3$; ratio $t_+/t_- = _^-2$ (V.T185). Echoes arise from $T^2$ winding; $S^2$ produces no echoes."
+domain: "black-holes"
+domain_display: "Black Holes"
+prediction: "T² cycle-delay doublet: t_outer = 4GMιτ^-1/c^3 and t_inner = 4GMιτ/c^3; ratio t_outer/t_inner = ιτ^-2 ≈ 8.57 (V.D243). This is not a reflective-surface ECO echo claim."
 experiment: "Einstein Telescope, Cosmic Explorer, LISA"
 timeline: "2032–2040."
 current_status: "consistent"
 seam: "bh-topology-t2-vs-s2"
-registry_id: "V.T185"
+registry_id: "V.D243"
 canonical_books:
   - "V"
-summary_short: "N26: GW echo time ratio ιτ⁻². Einstein Telescope, Cosmic Explorer, LISA."
+summary_short: "N26: GW cycle-delay ratio ιτ⁻². Einstein Telescope, Cosmic Explorer, LISA."
 right_rail:
   toc: false
   related:
@@ -31,7 +31,7 @@ right_rail:
       url: "/results/"
   meta:
     type: "Falsification"
-    domain: "Particle Physics"
+    domain: "Black Holes"
     status: "Consistent"
     experiment: "Einstein Telescope, Cosmic Explorer, LISA"
     updated: "April 2026"
@@ -43,28 +43,29 @@ do_not_edit: true
 
 ## N26: Prediction
 
-≈ 8.57$iota-tau-inv-2 approx 8.57.
-
-Echo time doublet:
-$t_± = 4GMι<sub>τ</sub>^± 1/c^3$;
-ratio $t_+/t_- = ι<sub>τ</sub>^-2$ (V.T185).
-Echoes arise from $T^2$ winding;
-$S^2$ produces no echoes.
+Cycle-delay doublet:
+$t_{\mathrm{outer}} = 4GMι<sub>τ</sub>^{-1}/c^3$ and
+$t_{\mathrm{inner}} = 4GMι<sub>τ</sub>/c^3$;
+ratio
+$t_{\mathrm{outer}}/t_{\mathrm{inner}} = ι<sub>τ</sub>^{-2} ≈ 8.57$
+(V.D243).
+This is a $T^2$ topology-readout candidate, not a reflective-surface
+ECO echo claim.
 *Experiment:* Einstein Telescope, Cosmic Explorer, LISA.
 *Timeline:* 2032–2040.
 
 
 ## Derivation Context
 
-The proton charge radius is set by the Compton wavelength of the
-proton, scaled by the $T^2$ fiber geometry:
+The source derivation defines the two torus-cycle delays and tests the
+dimensionless ratio rather than an absolute late-time template. A robust
+non-detection of this ratio at the required sensitivity would pressure or
+falsify the τ cycle-delay prediction. Detection of unrelated
+reflective-surface ECO echoes would instead test the No Shrink boundary
+claim, not confirm this prediction.
 
-The factor $4 = 2^(τ^3)-1 = 2^2$ counts the two independent
-charge-weighted $T^2$ winding directions
-($2$ polarities $×$ $2$ lobes); the proton charge radius is the
-Compton wavelength times the number of charged pathways on $L$.
+Current public status remains released and consistent, not validated.
 
-Comparison with the CREMA muonic hydrogen measurement:
-
-This resolves the proton radius puzzle (pre-2019 CODATA value
-$0.8768\,fm$) by selecting the muonic hydrogen value as correct.
+Correction record: [ERRATUM-005](/publications/books/book-v/errata/)
+records the 2026-05-15 correction of echo terminology, ratio direction,
+and generated-page contamination for this test surface.

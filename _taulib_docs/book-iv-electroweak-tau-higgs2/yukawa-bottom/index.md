@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "yukawa_bottom",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-tau-higgs2/yukawa-bottom/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs2/yukawa-bottom/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Electroweak.TauHiggs2`.",
   "declaration_id": "TauLib.BookIV.Electroweak.TauHiggs2::yukawa_bottom",
   "declaration_slug": "yukawa-bottom",
   "kind": "def",
   "name": "yukawa_bottom",
   "module_name": "TauLib.BookIV.Electroweak.TauHiggs2",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs2/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs2/",
   "source_line_start": 136,
   "source_line_end": 139,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/TauHiggs2.lean#L136-L139",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.TauHiggs2",
-        "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs2/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs2/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.TauHiggs2](/verify/taulib/docs/book-iv-electroweak-tau-higgs2/)
+- Module: [TauLib.BookIV.Electroweak.TauHiggs2](/corpus/taulib/docs/book-iv-electroweak-tau-higgs2/)
 - Source path: [`TauLib/BookIV/Electroweak/TauHiggs2.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/TauHiggs2.lean#L136-L139)
 - Source range: L136-L139
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

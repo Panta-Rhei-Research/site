@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L150",
-  "permalink": "/verify/taulib/docs/book-i-sets-membership/eval-l150/",
+  "permalink": "/corpus/taulib/docs/book-i-sets-membership/eval-l150/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Sets.Membership`.",
   "declaration_id": "TauLib.BookI.Sets.Membership::#eval:150",
   "declaration_slug": "eval-l150",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Sets.Membership",
-  "module_url": "/verify/taulib/docs/book-i-sets-membership/",
+  "module_url": "/corpus/taulib/docs/book-i-sets-membership/",
   "source_line_start": 150,
   "source_line_end": 152,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Membership.lean#L150-L152",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Sets.Membership",
-        "url": "/verify/taulib/docs/book-i-sets-membership/"
+        "url": "/corpus/taulib/docs/book-i-sets-membership/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Sets.Membership](/verify/taulib/docs/book-i-sets-membership/)
+- Module: [TauLib.BookI.Sets.Membership](/corpus/taulib/docs/book-i-sets-membership/)
 - Source path: [`TauLib/BookI/Sets/Membership.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/Membership.lean#L150-L152)
 - Source range: L150-L152
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.Astrophysics.BinaryMergersGW",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.Astrophysics.BinaryMergersGW`.",
   "module_name": "TauLib.BookV.Astrophysics.BinaryMergersGW",
   "module_slug": "book-v-astrophysics-binary-mergers-gw",
@@ -44,10 +44,12 @@
     {
       "kind": "inductive",
       "name": "BinarySystemType",
-      "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/binary-system-type/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/binary-system-type/",
       "source_line_start": 70,
       "source_line_end": 79,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D133"
       ]
@@ -55,19 +57,23 @@
     {
       "kind": "def",
       "name": "BinarySystemType.canProduceKilonova",
-      "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/can-produce-kilonova/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/can-produce-kilonova/",
       "source_line_start": 82,
       "source_line_end": 85,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "GWSignalData",
-      "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/gwsignal-data/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/gwsignal-data/",
       "source_line_start": 96,
       "source_line_end": 116,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D134"
       ]
@@ -75,10 +81,12 @@
     {
       "kind": "theorem",
       "name": "chirp_mass_formula",
-      "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/chirp-mass-formula/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/chirp-mass-formula/",
       "source_line_start": 129,
       "source_line_end": 131,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T93"
       ]
@@ -86,10 +94,12 @@
     {
       "kind": "theorem",
       "name": "orbital_decay_gw",
-      "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/orbital-decay-gw/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/orbital-decay-gw/",
       "source_line_start": 149,
       "source_line_end": 151,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P80"
       ]
@@ -97,10 +107,12 @@
     {
       "kind": "inductive",
       "name": "MergerOutcome",
-      "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/merger-outcome/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/merger-outcome/",
       "source_line_start": 158,
       "source_line_end": 165,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D135"
       ]
@@ -108,19 +120,23 @@
     {
       "kind": "structure",
       "name": "MergerOutcomeData",
-      "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/merger-outcome-data/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/merger-outcome-data/",
       "source_line_start": 168,
       "source_line_end": 181,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "no_hair_after_merger",
-      "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/no-hair-after-merger/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/no-hair-after-merger/",
       "source_line_start": 193,
       "source_line_end": 195,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T94"
       ]
@@ -128,10 +144,12 @@
     {
       "kind": "structure",
       "name": "KilonovaData",
-      "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/kilonova-data/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/kilonova-data/",
       "source_line_start": 206,
       "source_line_end": 217,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D136"
       ]
@@ -139,10 +157,12 @@
     {
       "kind": "theorem",
       "name": "merger_rate_population",
-      "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/merger-rate-population/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/merger-rate-population/",
       "source_line_start": 231,
       "source_line_end": 233,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P81"
       ]
@@ -150,118 +170,144 @@
     {
       "kind": "def",
       "name": "gw150914",
-      "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/gw150914/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/gw150914/",
       "source_line_start": 264,
       "source_line_end": 274,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "gw170817_kilonova",
-      "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/gw170817-kilonova/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/gw170817-kilonova/",
       "source_line_start": 277,
       "source_line_end": 282,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/eval-l284/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/eval-l284/",
       "source_line_start": 284,
       "source_line_end": 284,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/eval-l285/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/eval-l285/",
       "source_line_start": 285,
       "source_line_end": 285,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/eval-l286/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/eval-l286/",
       "source_line_start": 286,
       "source_line_end": 286,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/eval-l287/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/eval-l287/",
       "source_line_start": 287,
       "source_line_end": 287,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "GWEventComparison",
-      "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/gwevent-comparison/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/gwevent-comparison/",
       "source_line_start": 294,
       "source_line_end": 301,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "gw_event_catalog",
-      "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/gw-event-catalog/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/gw-event-catalog/",
       "source_line_start": 304,
       "source_line_end": 312,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "t2_ringdown_ratio_x1000",
-      "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/t2-ringdown-ratio-x1000/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/t2-ringdown-ratio-x1000/",
       "source_line_start": 315,
       "source_line_end": 315,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "bbh_events_have_final_mass",
-      "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/bbh-events-have-final-mass/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/bbh-events-have-final-mass/",
       "source_line_start": 318,
       "source_line_end": 320,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "bns_no_ringdown",
-      "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/bns-no-ringdown/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/bns-no-ringdown/",
       "source_line_start": 323,
       "source_line_end": 325,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "chirp_mass_consistency_remark",
-      "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/chirp-mass-consistency-remark/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/chirp-mass-consistency-remark/",
       "source_line_start": 328,
       "source_line_end": 330,
       "formal_status": "defined",
+      "declaration_role": "docstring/data record",
+      "formal_status_label": "docstring/data record",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "ligo_comparison_remark",
-      "url": "/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/ligo-comparison-remark/",
+      "url": "/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/ligo-comparison-remark/",
       "source_line_start": 333,
       "source_line_end": 337,
       "formal_status": "defined",
+      "declaration_role": "docstring/data record",
+      "formal_status_label": "docstring/data record",
       "registry_ids": []
     }
   ],
@@ -273,7 +319,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -355,28 +401,28 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [BinarySystemType](/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/binary-system-type/) | L70-L79 | defined | `V.D133` |
-| `def` | [BinarySystemType.canProduceKilonova](/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/can-produce-kilonova/) | L82-L85 | defined | — |
-| `structure` | [GWSignalData](/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/gwsignal-data/) | L96-L116 | defined | `V.D134` |
-| `theorem` | [chirp_mass_formula](/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/chirp-mass-formula/) | L129-L131 | formalized | `V.T93` |
-| `theorem` | [orbital_decay_gw](/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/orbital-decay-gw/) | L149-L151 | formalized | `V.P80` |
-| `inductive` | [MergerOutcome](/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/merger-outcome/) | L158-L165 | defined | `V.D135` |
-| `structure` | [MergerOutcomeData](/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/merger-outcome-data/) | L168-L181 | defined | — |
-| `theorem` | [no_hair_after_merger](/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/no-hair-after-merger/) | L193-L195 | formalized | `V.T94` |
-| `structure` | [KilonovaData](/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/kilonova-data/) | L206-L217 | defined | `V.D136` |
-| `theorem` | [merger_rate_population](/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/merger-rate-population/) | L231-L233 | formalized | `V.P81` |
-| `def` | [gw150914](/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/gw150914/) | L264-L274 | defined | — |
-| `def` | [gw170817_kilonova](/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/gw170817-kilonova/) | L277-L282 | defined | — |
-| `eval` | [#eval L284](/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/eval-l284/) | L284-L284 | computed | — |
-| `eval` | [#eval L285](/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/eval-l285/) | L285-L285 | computed | — |
-| `eval` | [#eval L286](/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/eval-l286/) | L286-L286 | computed | — |
-| `eval` | [#eval L287](/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/eval-l287/) | L287-L287 | computed | — |
-| `structure` | [GWEventComparison](/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/gwevent-comparison/) | L294-L301 | defined | — |
-| `def` | [gw_event_catalog](/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/gw-event-catalog/) | L304-L312 | defined | — |
-| `def` | [t2_ringdown_ratio_x1000](/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/t2-ringdown-ratio-x1000/) | L315-L315 | defined | — |
-| `theorem` | [bbh_events_have_final_mass](/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/bbh-events-have-final-mass/) | L318-L320 | formalized | — |
-| `theorem` | [bns_no_ringdown](/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/bns-no-ringdown/) | L323-L325 | formalized | — |
-| `def` | [chirp_mass_consistency_remark](/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/chirp-mass-consistency-remark/) | L328-L330 | defined | — |
-| `def` | [ligo_comparison_remark](/verify/taulib/docs/book-v-astrophysics-binary-mergers-gw/ligo-comparison-remark/) | L333-L337 | defined | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [BinarySystemType](/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/binary-system-type/) | L70-L79 | type/data schema | type/data schema | `V.D133` |
+| `def` | [BinarySystemType.canProduceKilonova](/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/can-produce-kilonova/) | L82-L85 | definition | definition | — |
+| `structure` | [GWSignalData](/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/gwsignal-data/) | L96-L116 | type/data schema | type/data schema | `V.D134` |
+| `theorem` | [chirp_mass_formula](/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/chirp-mass-formula/) | L129-L131 | proof obligation | formal proof obligation checked | `V.T93` |
+| `theorem` | [orbital_decay_gw](/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/orbital-decay-gw/) | L149-L151 | proof obligation | formal proof obligation checked | `V.P80` |
+| `inductive` | [MergerOutcome](/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/merger-outcome/) | L158-L165 | type/data schema | type/data schema | `V.D135` |
+| `structure` | [MergerOutcomeData](/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/merger-outcome-data/) | L168-L181 | type/data schema | type/data schema | — |
+| `theorem` | [no_hair_after_merger](/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/no-hair-after-merger/) | L193-L195 | proof obligation | formal proof obligation checked | `V.T94` |
+| `structure` | [KilonovaData](/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/kilonova-data/) | L206-L217 | type/data schema | type/data schema | `V.D136` |
+| `theorem` | [merger_rate_population](/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/merger-rate-population/) | L231-L233 | proof obligation | formal proof obligation checked | `V.P81` |
+| `def` | [gw150914](/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/gw150914/) | L264-L274 | definition | definition | — |
+| `def` | [gw170817_kilonova](/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/gw170817-kilonova/) | L277-L282 | definition | definition | — |
+| `eval` | [#eval L284](/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/eval-l284/) | L284-L284 | computed check | computed check | — |
+| `eval` | [#eval L285](/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/eval-l285/) | L285-L285 | computed check | computed check | — |
+| `eval` | [#eval L286](/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/eval-l286/) | L286-L286 | computed check | computed check | — |
+| `eval` | [#eval L287](/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/eval-l287/) | L287-L287 | computed check | computed check | — |
+| `structure` | [GWEventComparison](/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/gwevent-comparison/) | L294-L301 | type/data schema | type/data schema | — |
+| `def` | [gw_event_catalog](/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/gw-event-catalog/) | L304-L312 | data/computed value | data/computed value | — |
+| `def` | [t2_ringdown_ratio_x1000](/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/t2-ringdown-ratio-x1000/) | L315-L315 | data/computed value | data/computed value | — |
+| `theorem` | [bbh_events_have_final_mass](/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/bbh-events-have-final-mass/) | L318-L320 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [bns_no_ringdown](/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/bns-no-ringdown/) | L323-L325 | proof obligation | formal proof obligation checked | — |
+| `def` | [chirp_mass_consistency_remark](/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/chirp-mass-consistency-remark/) | L328-L330 | docstring/data record | docstring/data record | — |
+| `def` | [ligo_comparison_remark](/corpus/taulib/docs/book-v-astrophysics-binary-mergers-gw/ligo-comparison-remark/) | L333-L337 | docstring/data record | docstring/data record | — |

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.Tour.Physics",
-  "permalink": "/verify/taulib/docs/tour-physics/",
+  "permalink": "/corpus/taulib/docs/tour-physics/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.Tour.Physics`.",
   "module_name": "TauLib.Tour.Physics",
   "module_slug": "tour-physics",
@@ -30,181 +30,221 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-physics/eval-l49/",
+      "url": "/corpus/taulib/docs/tour-physics/eval-l49/",
       "source_line_start": 49,
       "source_line_end": 55,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-physics/eval-l56/",
+      "url": "/corpus/taulib/docs/tour-physics/eval-l56/",
       "source_line_start": 56,
       "source_line_end": 56,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-physics/eval-l57/",
+      "url": "/corpus/taulib/docs/tour-physics/eval-l57/",
       "source_line_start": 57,
       "source_line_end": 74,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-physics/eval-l75/",
+      "url": "/corpus/taulib/docs/tour-physics/eval-l75/",
       "source_line_start": 75,
       "source_line_end": 76,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-physics/eval-l79/",
+      "url": "/corpus/taulib/docs/tour-physics/eval-l79/",
       "source_line_start": 79,
       "source_line_end": 83,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-physics/eval-l84/",
+      "url": "/corpus/taulib/docs/tour-physics/eval-l84/",
       "source_line_start": 84,
       "source_line_end": 84,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-physics/eval-l85/",
+      "url": "/corpus/taulib/docs/tour-physics/eval-l85/",
       "source_line_start": 85,
       "source_line_end": 109,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-physics/eval-l110/",
+      "url": "/corpus/taulib/docs/tour-physics/eval-l110/",
       "source_line_start": 110,
       "source_line_end": 110,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-physics/eval-l111/",
+      "url": "/corpus/taulib/docs/tour-physics/eval-l111/",
       "source_line_start": 111,
       "source_line_end": 111,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-physics/eval-l112/",
+      "url": "/corpus/taulib/docs/tour-physics/eval-l112/",
       "source_line_start": 112,
       "source_line_end": 135,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-physics/eval-l139/",
+      "url": "/corpus/taulib/docs/tour-physics/eval-l139/",
       "source_line_start": 139,
       "source_line_end": 150,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-physics/eval-l151/",
+      "url": "/corpus/taulib/docs/tour-physics/eval-l151/",
       "source_line_start": 151,
       "source_line_end": 151,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-physics/eval-l152/",
+      "url": "/corpus/taulib/docs/tour-physics/eval-l152/",
       "source_line_start": 152,
       "source_line_end": 152,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-physics/eval-l153/",
+      "url": "/corpus/taulib/docs/tour-physics/eval-l153/",
       "source_line_start": 153,
       "source_line_end": 153,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-physics/eval-l157/",
+      "url": "/corpus/taulib/docs/tour-physics/eval-l157/",
       "source_line_start": 157,
       "source_line_end": 185,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-physics/eval-l186/",
+      "url": "/corpus/taulib/docs/tour-physics/eval-l186/",
       "source_line_start": 186,
       "source_line_end": 193,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-physics/eval-l194/",
+      "url": "/corpus/taulib/docs/tour-physics/eval-l194/",
       "source_line_start": 194,
       "source_line_end": 194,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-physics/eval-l195/",
+      "url": "/corpus/taulib/docs/tour-physics/eval-l195/",
       "source_line_start": 195,
       "source_line_end": 195,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-physics/eval-l198/",
+      "url": "/corpus/taulib/docs/tour-physics/eval-l198/",
       "source_line_start": 198,
       "source_line_end": 198,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/tour-physics/eval-l199/",
+      "url": "/corpus/taulib/docs/tour-physics/eval-l199/",
       "source_line_start": 199,
       "source_line_end": 199,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -216,7 +256,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -288,25 +328,25 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `eval` | [#eval L49](/verify/taulib/docs/tour-physics/eval-l49/) | L49-L55 | computed | — |
-| `eval` | [#eval L56](/verify/taulib/docs/tour-physics/eval-l56/) | L56-L56 | computed | — |
-| `eval` | [#eval L57](/verify/taulib/docs/tour-physics/eval-l57/) | L57-L74 | computed | — |
-| `eval` | [#eval L75](/verify/taulib/docs/tour-physics/eval-l75/) | L75-L76 | computed | — |
-| `eval` | [#eval L79](/verify/taulib/docs/tour-physics/eval-l79/) | L79-L83 | computed | — |
-| `eval` | [#eval L84](/verify/taulib/docs/tour-physics/eval-l84/) | L84-L84 | computed | — |
-| `eval` | [#eval L85](/verify/taulib/docs/tour-physics/eval-l85/) | L85-L109 | computed | — |
-| `eval` | [#eval L110](/verify/taulib/docs/tour-physics/eval-l110/) | L110-L110 | computed | — |
-| `eval` | [#eval L111](/verify/taulib/docs/tour-physics/eval-l111/) | L111-L111 | computed | — |
-| `eval` | [#eval L112](/verify/taulib/docs/tour-physics/eval-l112/) | L112-L135 | computed | — |
-| `eval` | [#eval L139](/verify/taulib/docs/tour-physics/eval-l139/) | L139-L150 | computed | — |
-| `eval` | [#eval L151](/verify/taulib/docs/tour-physics/eval-l151/) | L151-L151 | computed | — |
-| `eval` | [#eval L152](/verify/taulib/docs/tour-physics/eval-l152/) | L152-L152 | computed | — |
-| `eval` | [#eval L153](/verify/taulib/docs/tour-physics/eval-l153/) | L153-L153 | computed | — |
-| `eval` | [#eval L157](/verify/taulib/docs/tour-physics/eval-l157/) | L157-L185 | computed | — |
-| `eval` | [#eval L186](/verify/taulib/docs/tour-physics/eval-l186/) | L186-L193 | computed | — |
-| `eval` | [#eval L194](/verify/taulib/docs/tour-physics/eval-l194/) | L194-L194 | computed | — |
-| `eval` | [#eval L195](/verify/taulib/docs/tour-physics/eval-l195/) | L195-L195 | computed | — |
-| `eval` | [#eval L198](/verify/taulib/docs/tour-physics/eval-l198/) | L198-L198 | computed | — |
-| `eval` | [#eval L199](/verify/taulib/docs/tour-physics/eval-l199/) | L199-L199 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `eval` | [#eval L49](/corpus/taulib/docs/tour-physics/eval-l49/) | L49-L55 | computed check | computed check | — |
+| `eval` | [#eval L56](/corpus/taulib/docs/tour-physics/eval-l56/) | L56-L56 | computed check | computed check | — |
+| `eval` | [#eval L57](/corpus/taulib/docs/tour-physics/eval-l57/) | L57-L74 | computed check | computed check | — |
+| `eval` | [#eval L75](/corpus/taulib/docs/tour-physics/eval-l75/) | L75-L76 | computed check | computed check | — |
+| `eval` | [#eval L79](/corpus/taulib/docs/tour-physics/eval-l79/) | L79-L83 | computed check | computed check | — |
+| `eval` | [#eval L84](/corpus/taulib/docs/tour-physics/eval-l84/) | L84-L84 | computed check | computed check | — |
+| `eval` | [#eval L85](/corpus/taulib/docs/tour-physics/eval-l85/) | L85-L109 | computed check | computed check | — |
+| `eval` | [#eval L110](/corpus/taulib/docs/tour-physics/eval-l110/) | L110-L110 | computed check | computed check | — |
+| `eval` | [#eval L111](/corpus/taulib/docs/tour-physics/eval-l111/) | L111-L111 | computed check | computed check | — |
+| `eval` | [#eval L112](/corpus/taulib/docs/tour-physics/eval-l112/) | L112-L135 | computed check | computed check | — |
+| `eval` | [#eval L139](/corpus/taulib/docs/tour-physics/eval-l139/) | L139-L150 | computed check | computed check | — |
+| `eval` | [#eval L151](/corpus/taulib/docs/tour-physics/eval-l151/) | L151-L151 | computed check | computed check | — |
+| `eval` | [#eval L152](/corpus/taulib/docs/tour-physics/eval-l152/) | L152-L152 | computed check | computed check | — |
+| `eval` | [#eval L153](/corpus/taulib/docs/tour-physics/eval-l153/) | L153-L153 | computed check | computed check | — |
+| `eval` | [#eval L157](/corpus/taulib/docs/tour-physics/eval-l157/) | L157-L185 | computed check | computed check | — |
+| `eval` | [#eval L186](/corpus/taulib/docs/tour-physics/eval-l186/) | L186-L193 | computed check | computed check | — |
+| `eval` | [#eval L194](/corpus/taulib/docs/tour-physics/eval-l194/) | L194-L194 | computed check | computed check | — |
+| `eval` | [#eval L195](/corpus/taulib/docs/tour-physics/eval-l195/) | L195-L195 | computed check | computed check | — |
+| `eval` | [#eval L198](/corpus/taulib/docs/tour-physics/eval-l198/) | L198-L198 | computed check | computed check | — |
+| `eval` | [#eval L199](/corpus/taulib/docs/tour-physics/eval-l199/) | L199-L199 | computed check | computed check | — |

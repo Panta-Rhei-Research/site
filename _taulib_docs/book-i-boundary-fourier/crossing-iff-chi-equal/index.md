@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "crossing_iff_chi_equal",
-  "permalink": "/verify/taulib/docs/book-i-boundary-fourier/crossing-iff-chi-equal/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-fourier/crossing-iff-chi-equal/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.Fourier`.",
   "declaration_id": "TauLib.BookI.Boundary.Fourier::crossing_iff_chi_equal",
   "declaration_slug": "crossing-iff-chi-equal",
   "kind": "theorem",
   "name": "crossing_iff_chi_equal",
   "module_name": "TauLib.BookI.Boundary.Fourier",
-  "module_url": "/verify/taulib/docs/book-i-boundary-fourier/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-fourier/",
   "source_line_start": 60,
   "source_line_end": 63,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Fourier.lean#L60-L63",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Fourier",
-        "url": "/verify/taulib/docs/book-i-boundary-fourier/"
+        "url": "/corpus/taulib/docs/book-i-boundary-fourier/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Fourier](/verify/taulib/docs/book-i-boundary-fourier/)
+- Module: [TauLib.BookI.Boundary.Fourier](/corpus/taulib/docs/book-i-boundary-fourier/)
 - Source path: [`TauLib/BookI/Boundary/Fourier.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Fourier.lean#L60-L63)
 - Source range: L60-L63
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

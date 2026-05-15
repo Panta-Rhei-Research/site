@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Coordinates.Primes",
-  "permalink": "/verify/taulib/docs/book-i-coordinates-primes/",
+  "permalink": "/corpus/taulib/docs/book-i-coordinates-primes/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Coordinates.Primes`.",
   "module_name": "TauLib.BookI.Coordinates.Primes",
   "module_slug": "book-i-coordinates-primes",
@@ -36,271 +36,331 @@
     {
       "kind": "theorem",
       "name": "nat_dvd_refl",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/nat-dvd-refl/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/nat-dvd-refl/",
       "source_line_start": 26,
       "source_line_end": 26,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "nat_dvd_trans",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/nat-dvd-trans/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/nat-dvd-trans/",
       "source_line_start": 28,
       "source_line_end": 30,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "nat_dvd_mul_right",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/nat-dvd-mul-right/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/nat-dvd-mul-right/",
       "source_line_start": 32,
       "source_line_end": 32,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "nat_dvd_mul_of_dvd",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/nat-dvd-mul-of-dvd/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/nat-dvd-mul-of-dvd/",
       "source_line_start": 34,
       "source_line_end": 36,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "idx_divides",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/idx-divides/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/idx-divides/",
       "source_line_start": 43,
       "source_line_end": 43,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "idx_divides_iff_nat_dvd",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/idx-divides-iff-nat-dvd/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/idx-divides-iff-nat-dvd/",
       "source_line_start": 46,
       "source_line_end": 52,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "idx_divides_refl",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/idx-divides-refl/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/idx-divides-refl/",
       "source_line_start": 58,
       "source_line_end": 59,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "idx_divides_trans",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/idx-divides-trans/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/idx-divides-trans/",
       "source_line_start": 61,
       "source_line_end": 65,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "idx_one_divides",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/idx-one-divides/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/idx-one-divides/",
       "source_line_start": 67,
       "source_line_end": 68,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "idx_divides_zero",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/idx-divides-zero/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/idx-divides-zero/",
       "source_line_start": 70,
       "source_line_end": 71,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "idx_divides_le",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/idx-divides-le/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/idx-divides-le/",
       "source_line_start": 73,
       "source_line_end": 74,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "idx_divides_antisymm",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/idx-divides-antisymm/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/idx-divides-antisymm/",
       "source_line_start": 76,
       "source_line_end": 79,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "idx_prime",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/idx-prime/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/idx-prime/",
       "source_line_start": 86,
       "source_line_end": 87,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "no_factor_below",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/no-factor-below/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/no-factor-below/",
       "source_line_start": 90,
       "source_line_end": 96,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "is_prime_bool",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/is-prime-bool/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/is-prime-bool/",
       "source_line_start": 99,
       "source_line_end": 99,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "exists_prime_divisor",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/exists-prime-divisor/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/exists-prime-divisor/",
       "source_line_start": 106,
       "source_line_end": 135,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "idx_gcd",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/idx-gcd/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/idx-gcd/",
       "source_line_start": 141,
       "source_line_end": 141,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "idx_gcd_dvd_left",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/idx-gcd-dvd-left/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/idx-gcd-dvd-left/",
       "source_line_start": 143,
       "source_line_end": 143,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "idx_gcd_dvd_right",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/idx-gcd-dvd-right/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/idx-gcd-dvd-right/",
       "source_line_start": 144,
       "source_line_end": 144,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "idx_dvd_gcd",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/idx-dvd-gcd/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/idx-dvd-gcd/",
       "source_line_start": 146,
       "source_line_end": 147,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "idx_coprime",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/idx-coprime/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/idx-coprime/",
       "source_line_start": 153,
       "source_line_end": 153,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "prime_coprime_of_not_dvd",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/prime-coprime-of-not-dvd/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/prime-coprime-of-not-dvd/",
       "source_line_start": 155,
       "source_line_end": 161,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "coprime_dvd_of_dvd_mul",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/coprime-dvd-of-dvd-mul/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/coprime-dvd-of-dvd-mul/",
       "source_line_start": 164,
       "source_line_end": 167,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "euclid_lemma",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/euclid-lemma/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/euclid-lemma/",
       "source_line_start": 170,
       "source_line_end": 174,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "idx_factorial",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/idx-factorial/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/idx-factorial/",
       "source_line_start": 180,
       "source_line_end": 182,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "idx_factorial_pos",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/idx-factorial-pos/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/idx-factorial-pos/",
       "source_line_start": 184,
       "source_line_end": 187,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "prime_dvd_factorial",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/prime-dvd-factorial/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/prime-dvd-factorial/",
       "source_line_start": 190,
       "source_line_end": 204,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "not_dvd_succ_of_ge_two",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/not-dvd-succ-of-ge-two/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/not-dvd-succ-of-ge-two/",
       "source_line_start": 207,
       "source_line_end": 223,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "primes_infinite",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/primes-infinite/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/primes-infinite/",
       "source_line_start": 226,
       "source_line_end": 232,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "list_prod",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/list-prod/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/list-prod/",
       "source_line_start": 238,
       "source_line_end": 240,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "I.T09"
       ]
@@ -308,82 +368,100 @@
     {
       "kind": "theorem",
       "name": "prime_product_exists",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/prime-product-exists/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/prime-product-exists/",
       "source_line_start": 243,
       "source_line_end": 273,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "list_prod_pos_of_primes",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/list-prod-pos-of-primes/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/list-prod-pos-of-primes/",
       "source_line_start": 280,
       "source_line_end": 289,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "prod_one_implies_nil",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/prod-one-implies-nil/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/prod-one-implies-nil/",
       "source_line_start": 292,
       "source_line_end": 302,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "prime_mem_of_dvd_prod",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/prime-mem-of-dvd-prod/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/prime-mem-of-dvd-prod/",
       "source_line_start": 305,
       "source_line_end": 320,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "nat_mul_cancel_left",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/nat-mul-cancel-left/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/nat-mul-cancel-left/",
       "source_line_start": 323,
       "source_line_end": 334,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "all_ge",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/all-ge/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/all-ge/",
       "source_line_start": 339,
       "source_line_end": 341,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "mem_ge_of_all_ge",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/mem-ge-of-all-ge/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/mem-ge-of-all-ge/",
       "source_line_start": 343,
       "source_line_end": 350,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "sorted_nd",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/sorted-nd/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/sorted-nd/",
       "source_line_start": 353,
       "source_line_end": 355,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "prime_product_unique",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/prime-product-unique/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/prime-product-unique/",
       "source_line_start": 359,
       "source_line_end": 407,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.T09"
       ]
@@ -391,64 +469,78 @@
     {
       "kind": "def",
       "name": "p_adic_val",
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/p-adic-val/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/p-adic-val/",
       "source_line_start": 414,
       "source_line_end": 424,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/eval-l430/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/eval-l430/",
       "source_line_start": 430,
       "source_line_end": 430,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/eval-l431/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/eval-l431/",
       "source_line_start": 431,
       "source_line_end": 431,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/eval-l432/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/eval-l432/",
       "source_line_start": 432,
       "source_line_end": 432,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/eval-l433/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/eval-l433/",
       "source_line_start": 433,
       "source_line_end": 433,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/eval-l434/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/eval-l434/",
       "source_line_start": 434,
       "source_line_end": 434,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-coordinates-primes/eval-l435/",
+      "url": "/corpus/taulib/docs/book-i-coordinates-primes/eval-l435/",
       "source_line_start": 435,
       "source_line_end": 437,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -460,7 +552,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -534,51 +626,51 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `theorem` | [nat_dvd_refl](/verify/taulib/docs/book-i-coordinates-primes/nat-dvd-refl/) | L26-L26 | formalized | — |
-| `theorem` | [nat_dvd_trans](/verify/taulib/docs/book-i-coordinates-primes/nat-dvd-trans/) | L28-L30 | formalized | — |
-| `theorem` | [nat_dvd_mul_right](/verify/taulib/docs/book-i-coordinates-primes/nat-dvd-mul-right/) | L32-L32 | formalized | — |
-| `theorem` | [nat_dvd_mul_of_dvd](/verify/taulib/docs/book-i-coordinates-primes/nat-dvd-mul-of-dvd/) | L34-L36 | formalized | — |
-| `def` | [idx_divides](/verify/taulib/docs/book-i-coordinates-primes/idx-divides/) | L43-L43 | defined | — |
-| `theorem` | [idx_divides_iff_nat_dvd](/verify/taulib/docs/book-i-coordinates-primes/idx-divides-iff-nat-dvd/) | L46-L52 | formalized | — |
-| `theorem` | [idx_divides_refl](/verify/taulib/docs/book-i-coordinates-primes/idx-divides-refl/) | L58-L59 | formalized | — |
-| `theorem` | [idx_divides_trans](/verify/taulib/docs/book-i-coordinates-primes/idx-divides-trans/) | L61-L65 | formalized | — |
-| `theorem` | [idx_one_divides](/verify/taulib/docs/book-i-coordinates-primes/idx-one-divides/) | L67-L68 | formalized | — |
-| `theorem` | [idx_divides_zero](/verify/taulib/docs/book-i-coordinates-primes/idx-divides-zero/) | L70-L71 | formalized | — |
-| `theorem` | [idx_divides_le](/verify/taulib/docs/book-i-coordinates-primes/idx-divides-le/) | L73-L74 | formalized | — |
-| `theorem` | [idx_divides_antisymm](/verify/taulib/docs/book-i-coordinates-primes/idx-divides-antisymm/) | L76-L79 | formalized | — |
-| `def` | [idx_prime](/verify/taulib/docs/book-i-coordinates-primes/idx-prime/) | L86-L87 | defined | — |
-| `def` | [no_factor_below](/verify/taulib/docs/book-i-coordinates-primes/no-factor-below/) | L90-L96 | defined | — |
-| `def` | [is_prime_bool](/verify/taulib/docs/book-i-coordinates-primes/is-prime-bool/) | L99-L99 | defined | — |
-| `theorem` | [exists_prime_divisor](/verify/taulib/docs/book-i-coordinates-primes/exists-prime-divisor/) | L106-L135 | formalized | — |
-| `def` | [idx_gcd](/verify/taulib/docs/book-i-coordinates-primes/idx-gcd/) | L141-L141 | defined | — |
-| `theorem` | [idx_gcd_dvd_left](/verify/taulib/docs/book-i-coordinates-primes/idx-gcd-dvd-left/) | L143-L143 | formalized | — |
-| `theorem` | [idx_gcd_dvd_right](/verify/taulib/docs/book-i-coordinates-primes/idx-gcd-dvd-right/) | L144-L144 | formalized | — |
-| `theorem` | [idx_dvd_gcd](/verify/taulib/docs/book-i-coordinates-primes/idx-dvd-gcd/) | L146-L147 | formalized | — |
-| `def` | [idx_coprime](/verify/taulib/docs/book-i-coordinates-primes/idx-coprime/) | L153-L153 | defined | — |
-| `theorem` | [prime_coprime_of_not_dvd](/verify/taulib/docs/book-i-coordinates-primes/prime-coprime-of-not-dvd/) | L155-L161 | formalized | — |
-| `theorem` | [coprime_dvd_of_dvd_mul](/verify/taulib/docs/book-i-coordinates-primes/coprime-dvd-of-dvd-mul/) | L164-L167 | formalized | — |
-| `theorem` | [euclid_lemma](/verify/taulib/docs/book-i-coordinates-primes/euclid-lemma/) | L170-L174 | formalized | — |
-| `def` | [idx_factorial](/verify/taulib/docs/book-i-coordinates-primes/idx-factorial/) | L180-L182 | defined | — |
-| `theorem` | [idx_factorial_pos](/verify/taulib/docs/book-i-coordinates-primes/idx-factorial-pos/) | L184-L187 | formalized | — |
-| `theorem` | [prime_dvd_factorial](/verify/taulib/docs/book-i-coordinates-primes/prime-dvd-factorial/) | L190-L204 | formalized | — |
-| `theorem` | [not_dvd_succ_of_ge_two](/verify/taulib/docs/book-i-coordinates-primes/not-dvd-succ-of-ge-two/) | L207-L223 | formalized | — |
-| `theorem` | [primes_infinite](/verify/taulib/docs/book-i-coordinates-primes/primes-infinite/) | L226-L232 | formalized | — |
-| `def` | [list_prod](/verify/taulib/docs/book-i-coordinates-primes/list-prod/) | L238-L240 | defined | `I.T09` |
-| `theorem` | [prime_product_exists](/verify/taulib/docs/book-i-coordinates-primes/prime-product-exists/) | L243-L273 | formalized | — |
-| `theorem` | [list_prod_pos_of_primes](/verify/taulib/docs/book-i-coordinates-primes/list-prod-pos-of-primes/) | L280-L289 | formalized | — |
-| `theorem` | [prod_one_implies_nil](/verify/taulib/docs/book-i-coordinates-primes/prod-one-implies-nil/) | L292-L302 | formalized | — |
-| `theorem` | [prime_mem_of_dvd_prod](/verify/taulib/docs/book-i-coordinates-primes/prime-mem-of-dvd-prod/) | L305-L320 | formalized | — |
-| `theorem` | [nat_mul_cancel_left](/verify/taulib/docs/book-i-coordinates-primes/nat-mul-cancel-left/) | L323-L334 | formalized | — |
-| `def` | [all_ge](/verify/taulib/docs/book-i-coordinates-primes/all-ge/) | L339-L341 | defined | — |
-| `theorem` | [mem_ge_of_all_ge](/verify/taulib/docs/book-i-coordinates-primes/mem-ge-of-all-ge/) | L343-L350 | formalized | — |
-| `def` | [sorted_nd](/verify/taulib/docs/book-i-coordinates-primes/sorted-nd/) | L353-L355 | defined | — |
-| `theorem` | [prime_product_unique](/verify/taulib/docs/book-i-coordinates-primes/prime-product-unique/) | L359-L407 | formalized | `I.T09` |
-| `def` | [p_adic_val](/verify/taulib/docs/book-i-coordinates-primes/p-adic-val/) | L414-L424 | defined | — |
-| `eval` | [#eval L430](/verify/taulib/docs/book-i-coordinates-primes/eval-l430/) | L430-L430 | computed | — |
-| `eval` | [#eval L431](/verify/taulib/docs/book-i-coordinates-primes/eval-l431/) | L431-L431 | computed | — |
-| `eval` | [#eval L432](/verify/taulib/docs/book-i-coordinates-primes/eval-l432/) | L432-L432 | computed | — |
-| `eval` | [#eval L433](/verify/taulib/docs/book-i-coordinates-primes/eval-l433/) | L433-L433 | computed | — |
-| `eval` | [#eval L434](/verify/taulib/docs/book-i-coordinates-primes/eval-l434/) | L434-L434 | computed | — |
-| `eval` | [#eval L435](/verify/taulib/docs/book-i-coordinates-primes/eval-l435/) | L435-L437 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `theorem` | [nat_dvd_refl](/corpus/taulib/docs/book-i-coordinates-primes/nat-dvd-refl/) | L26-L26 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [nat_dvd_trans](/corpus/taulib/docs/book-i-coordinates-primes/nat-dvd-trans/) | L28-L30 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [nat_dvd_mul_right](/corpus/taulib/docs/book-i-coordinates-primes/nat-dvd-mul-right/) | L32-L32 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [nat_dvd_mul_of_dvd](/corpus/taulib/docs/book-i-coordinates-primes/nat-dvd-mul-of-dvd/) | L34-L36 | proof obligation | formal proof obligation checked | — |
+| `def` | [idx_divides](/corpus/taulib/docs/book-i-coordinates-primes/idx-divides/) | L43-L43 | definition | definition | — |
+| `theorem` | [idx_divides_iff_nat_dvd](/corpus/taulib/docs/book-i-coordinates-primes/idx-divides-iff-nat-dvd/) | L46-L52 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [idx_divides_refl](/corpus/taulib/docs/book-i-coordinates-primes/idx-divides-refl/) | L58-L59 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [idx_divides_trans](/corpus/taulib/docs/book-i-coordinates-primes/idx-divides-trans/) | L61-L65 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [idx_one_divides](/corpus/taulib/docs/book-i-coordinates-primes/idx-one-divides/) | L67-L68 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [idx_divides_zero](/corpus/taulib/docs/book-i-coordinates-primes/idx-divides-zero/) | L70-L71 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [idx_divides_le](/corpus/taulib/docs/book-i-coordinates-primes/idx-divides-le/) | L73-L74 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [idx_divides_antisymm](/corpus/taulib/docs/book-i-coordinates-primes/idx-divides-antisymm/) | L76-L79 | proof obligation | formal proof obligation checked | — |
+| `def` | [idx_prime](/corpus/taulib/docs/book-i-coordinates-primes/idx-prime/) | L86-L87 | definition | definition | — |
+| `def` | [no_factor_below](/corpus/taulib/docs/book-i-coordinates-primes/no-factor-below/) | L90-L96 | data/computed value | data/computed value | — |
+| `def` | [is_prime_bool](/corpus/taulib/docs/book-i-coordinates-primes/is-prime-bool/) | L99-L99 | data/computed value | data/computed value | — |
+| `theorem` | [exists_prime_divisor](/corpus/taulib/docs/book-i-coordinates-primes/exists-prime-divisor/) | L106-L135 | proof obligation | formal proof obligation checked | — |
+| `def` | [idx_gcd](/corpus/taulib/docs/book-i-coordinates-primes/idx-gcd/) | L141-L141 | definition | definition | — |
+| `theorem` | [idx_gcd_dvd_left](/corpus/taulib/docs/book-i-coordinates-primes/idx-gcd-dvd-left/) | L143-L143 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [idx_gcd_dvd_right](/corpus/taulib/docs/book-i-coordinates-primes/idx-gcd-dvd-right/) | L144-L144 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [idx_dvd_gcd](/corpus/taulib/docs/book-i-coordinates-primes/idx-dvd-gcd/) | L146-L147 | proof obligation | formal proof obligation checked | — |
+| `def` | [idx_coprime](/corpus/taulib/docs/book-i-coordinates-primes/idx-coprime/) | L153-L153 | definition | definition | — |
+| `theorem` | [prime_coprime_of_not_dvd](/corpus/taulib/docs/book-i-coordinates-primes/prime-coprime-of-not-dvd/) | L155-L161 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [coprime_dvd_of_dvd_mul](/corpus/taulib/docs/book-i-coordinates-primes/coprime-dvd-of-dvd-mul/) | L164-L167 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [euclid_lemma](/corpus/taulib/docs/book-i-coordinates-primes/euclid-lemma/) | L170-L174 | proof obligation | formal proof obligation checked | — |
+| `def` | [idx_factorial](/corpus/taulib/docs/book-i-coordinates-primes/idx-factorial/) | L180-L182 | definition | definition | — |
+| `theorem` | [idx_factorial_pos](/corpus/taulib/docs/book-i-coordinates-primes/idx-factorial-pos/) | L184-L187 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [prime_dvd_factorial](/corpus/taulib/docs/book-i-coordinates-primes/prime-dvd-factorial/) | L190-L204 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [not_dvd_succ_of_ge_two](/corpus/taulib/docs/book-i-coordinates-primes/not-dvd-succ-of-ge-two/) | L207-L223 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [primes_infinite](/corpus/taulib/docs/book-i-coordinates-primes/primes-infinite/) | L226-L232 | proof obligation | formal proof obligation checked | — |
+| `def` | [list_prod](/corpus/taulib/docs/book-i-coordinates-primes/list-prod/) | L238-L240 | data/computed value | data/computed value | `I.T09` |
+| `theorem` | [prime_product_exists](/corpus/taulib/docs/book-i-coordinates-primes/prime-product-exists/) | L243-L273 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [list_prod_pos_of_primes](/corpus/taulib/docs/book-i-coordinates-primes/list-prod-pos-of-primes/) | L280-L289 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [prod_one_implies_nil](/corpus/taulib/docs/book-i-coordinates-primes/prod-one-implies-nil/) | L292-L302 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [prime_mem_of_dvd_prod](/corpus/taulib/docs/book-i-coordinates-primes/prime-mem-of-dvd-prod/) | L305-L320 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [nat_mul_cancel_left](/corpus/taulib/docs/book-i-coordinates-primes/nat-mul-cancel-left/) | L323-L334 | proof obligation | formal proof obligation checked | — |
+| `def` | [all_ge](/corpus/taulib/docs/book-i-coordinates-primes/all-ge/) | L339-L341 | data/computed value | data/computed value | — |
+| `theorem` | [mem_ge_of_all_ge](/corpus/taulib/docs/book-i-coordinates-primes/mem-ge-of-all-ge/) | L343-L350 | proof obligation | formal proof obligation checked | — |
+| `def` | [sorted_nd](/corpus/taulib/docs/book-i-coordinates-primes/sorted-nd/) | L353-L355 | data/computed value | data/computed value | — |
+| `theorem` | [prime_product_unique](/corpus/taulib/docs/book-i-coordinates-primes/prime-product-unique/) | L359-L407 | proof obligation | formal proof obligation checked | `I.T09` |
+| `def` | [p_adic_val](/corpus/taulib/docs/book-i-coordinates-primes/p-adic-val/) | L414-L424 | definition | definition | — |
+| `eval` | [#eval L430](/corpus/taulib/docs/book-i-coordinates-primes/eval-l430/) | L430-L430 | computed check | computed check | — |
+| `eval` | [#eval L431](/corpus/taulib/docs/book-i-coordinates-primes/eval-l431/) | L431-L431 | computed check | computed check | — |
+| `eval` | [#eval L432](/corpus/taulib/docs/book-i-coordinates-primes/eval-l432/) | L432-L432 | computed check | computed check | — |
+| `eval` | [#eval L433](/corpus/taulib/docs/book-i-coordinates-primes/eval-l433/) | L433-L433 | computed check | computed check | — |
+| `eval` | [#eval L434](/corpus/taulib/docs/book-i-coordinates-primes/eval-l434/) | L434-L434 | computed check | computed check | — |
+| `eval` | [#eval L435](/corpus/taulib/docs/book-i-coordinates-primes/eval-l435/) | L435-L437 | computed check | computed check | — |

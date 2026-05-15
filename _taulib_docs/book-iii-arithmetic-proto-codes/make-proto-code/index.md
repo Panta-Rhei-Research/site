@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "make_proto_code",
-  "permalink": "/verify/taulib/docs/book-iii-arithmetic-proto-codes/make-proto-code/",
+  "permalink": "/corpus/taulib/docs/book-iii-arithmetic-proto-codes/make-proto-code/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Arithmetic.ProtoCodes`.",
   "declaration_id": "TauLib.BookIII.Arithmetic.ProtoCodes::make_proto_code",
   "declaration_slug": "make-proto-code",
   "kind": "def",
   "name": "make_proto_code",
   "module_name": "TauLib.BookIII.Arithmetic.ProtoCodes",
-  "module_url": "/verify/taulib/docs/book-iii-arithmetic-proto-codes/",
+  "module_url": "/corpus/taulib/docs/book-iii-arithmetic-proto-codes/",
   "source_line_start": 50,
   "source_line_end": 59,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/ProtoCodes.lean#L50-L59",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Arithmetic.ProtoCodes",
-        "url": "/verify/taulib/docs/book-iii-arithmetic-proto-codes/"
+        "url": "/corpus/taulib/docs/book-iii-arithmetic-proto-codes/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Arithmetic.ProtoCodes](/verify/taulib/docs/book-iii-arithmetic-proto-codes/)
+- Module: [TauLib.BookIII.Arithmetic.ProtoCodes](/corpus/taulib/docs/book-iii-arithmetic-proto-codes/)
 - Source path: [`TauLib/BookIII/Arithmetic/ProtoCodes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/ProtoCodes.lean#L50-L59)
 - Source range: L50-L59
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookVI.Consumer.Reproduction",
-  "permalink": "/verify/taulib/docs/book-vi-consumer-reproduction/",
+  "permalink": "/corpus/taulib/docs/book-vi-consumer-reproduction/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookVI.Consumer.Reproduction`.",
   "module_name": "TauLib.BookVI.Consumer.Reproduction",
   "module_slug": "book-vi-consumer-reproduction",
@@ -32,10 +32,12 @@
     {
       "kind": "structure",
       "name": "RecombinationFunctor",
-      "url": "/verify/taulib/docs/book-vi-consumer-reproduction/recombination-functor/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-reproduction/recombination-functor/",
       "source_line_start": 34,
       "source_line_end": 47,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D49"
       ]
@@ -43,28 +45,34 @@
     {
       "kind": "def",
       "name": "recomb",
-      "url": "/verify/taulib/docs/book-vi-consumer-reproduction/recomb/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-reproduction/recomb/",
       "source_line_start": 49,
       "source_line_end": 53,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "recombination_is_functor",
-      "url": "/verify/taulib/docs/book-vi-consumer-reproduction/recombination-is-functor/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-reproduction/recombination-is-functor/",
       "source_line_start": 55,
       "source_line_end": 60,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "SecondDistinction",
-      "url": "/verify/taulib/docs/book-vi-consumer-reproduction/second-distinction/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-reproduction/second-distinction/",
       "source_line_start": 70,
       "source_line_end": 79,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.T26"
       ]
@@ -72,19 +80,23 @@
     {
       "kind": "def",
       "name": "second_dist",
-      "url": "/verify/taulib/docs/book-vi-consumer-reproduction/second-dist/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-reproduction/second-dist/",
       "source_line_start": 81,
       "source_line_end": 83,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "sex_is_second_distinction",
-      "url": "/verify/taulib/docs/book-vi-consumer-reproduction/sex-is-second-distinction/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-reproduction/sex-is-second-distinction/",
       "source_line_start": 85,
       "source_line_end": 91,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -96,7 +108,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -166,11 +178,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [RecombinationFunctor](/verify/taulib/docs/book-vi-consumer-reproduction/recombination-functor/) | L34-L47 | defined | `VI.D49` |
-| `def` | [recomb](/verify/taulib/docs/book-vi-consumer-reproduction/recomb/) | L49-L53 | defined | — |
-| `theorem` | [recombination_is_functor](/verify/taulib/docs/book-vi-consumer-reproduction/recombination-is-functor/) | L55-L60 | formalized | — |
-| `structure` | [SecondDistinction](/verify/taulib/docs/book-vi-consumer-reproduction/second-distinction/) | L70-L79 | defined | `VI.T26` |
-| `def` | [second_dist](/verify/taulib/docs/book-vi-consumer-reproduction/second-dist/) | L81-L83 | defined | — |
-| `theorem` | [sex_is_second_distinction](/verify/taulib/docs/book-vi-consumer-reproduction/sex-is-second-distinction/) | L85-L91 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [RecombinationFunctor](/corpus/taulib/docs/book-vi-consumer-reproduction/recombination-functor/) | L34-L47 | type/data schema | type/data schema | `VI.D49` |
+| `def` | [recomb](/corpus/taulib/docs/book-vi-consumer-reproduction/recomb/) | L49-L53 | definition | definition | — |
+| `theorem` | [recombination_is_functor](/corpus/taulib/docs/book-vi-consumer-reproduction/recombination-is-functor/) | L55-L60 | proof obligation | formal proof obligation checked | — |
+| `structure` | [SecondDistinction](/corpus/taulib/docs/book-vi-consumer-reproduction/second-distinction/) | L70-L79 | type/data schema | type/data schema | `VI.T26` |
+| `def` | [second_dist](/corpus/taulib/docs/book-vi-consumer-reproduction/second-dist/) | L81-L83 | definition | definition | — |
+| `theorem` | [sex_is_second_distinction](/corpus/taulib/docs/book-vi-consumer-reproduction/sex-is-second-distinction/) | L85-L91 | proof obligation | formal proof obligation checked | — |

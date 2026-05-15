@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "internal_hom",
-  "permalink": "/verify/taulib/docs/book-i-topos-internal-hom/internal-hom/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-internal-hom/internal-hom/",
   "summary_short": "`def` declaration in `TauLib.BookI.Topos.InternalHom`.",
   "declaration_id": "TauLib.BookI.Topos.InternalHom::internal_hom",
   "declaration_slug": "internal-hom",
   "kind": "def",
   "name": "internal_hom",
   "module_name": "TauLib.BookI.Topos.InternalHom",
-  "module_url": "/verify/taulib/docs/book-i-topos-internal-hom/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-internal-hom/",
   "source_line_start": 34,
   "source_line_end": 35,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/InternalHom.lean#L34-L35",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.InternalHom",
-        "url": "/verify/taulib/docs/book-i-topos-internal-hom/"
+        "url": "/corpus/taulib/docs/book-i-topos-internal-hom/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.InternalHom](/verify/taulib/docs/book-i-topos-internal-hom/)
+- Module: [TauLib.BookI.Topos.InternalHom](/corpus/taulib/docs/book-i-topos-internal-hom/)
 - Source path: [`TauLib/BookI/Topos/InternalHom.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/InternalHom.lean#L34-L35)
 - Source range: L34-L35
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

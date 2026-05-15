@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.Sectors.BoundaryFiltration",
-  "permalink": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/",
+  "permalink": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.Sectors.BoundaryFiltration`.",
   "module_name": "TauLib.BookIV.Sectors.BoundaryFiltration",
   "module_slug": "book-iv-sectors-boundary-filtration",
@@ -46,19 +46,23 @@
     {
       "kind": "inductive",
       "name": "GenCarrier",
-      "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/gen-carrier/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/gen-carrier/",
       "source_line_start": 70,
       "source_line_end": 73,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "genCarrier",
-      "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/gen-carrier-l82/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/gen-carrier-l82/",
       "source_line_start": 82,
       "source_line_end": 87,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "IV.D328"
       ]
@@ -66,10 +70,12 @@
     {
       "kind": "def",
       "name": "genPolarity",
-      "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/gen-polarity/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/gen-polarity/",
       "source_line_start": 99,
       "source_line_end": 104,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "IV.D329"
       ]
@@ -77,10 +83,12 @@
     {
       "kind": "def",
       "name": "emActiveStructural",
-      "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/em-active-structural/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/em-active-structural/",
       "source_line_start": 121,
       "source_line_end": 124,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "IV.D330"
       ]
@@ -88,28 +96,34 @@
     {
       "kind": "def",
       "name": "activeModesStructural",
-      "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/active-modes-structural/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/active-modes-structural/",
       "source_line_start": 131,
       "source_line_end": 132,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "silentModesStructural",
-      "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/silent-modes-structural/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/silent-modes-structural/",
       "source_line_start": 135,
       "source_line_end": 136,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "structural_agrees_with_physics",
-      "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/structural-agrees-with-physics/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/structural-agrees-with-physics/",
       "source_line_start": 148,
       "source_line_end": 152,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T130"
       ]
@@ -117,10 +131,12 @@
     {
       "kind": "theorem",
       "name": "census_structural",
-      "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/census-structural/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/census-structural/",
       "source_line_start": 160,
       "source_line_end": 160,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.P178"
       ]
@@ -128,55 +144,67 @@
     {
       "kind": "theorem",
       "name": "silent_structural",
-      "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/silent-structural/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/silent-structural/",
       "source_line_start": 163,
       "source_line_end": 163,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "structural_census_consistent",
-      "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/structural-census-consistent/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/structural-census-consistent/",
       "source_line_start": 166,
       "source_line_end": 167,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "rule1_silences_alpha",
-      "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/rule1-silences-alpha/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/rule1-silences-alpha/",
       "source_line_start": 174,
       "source_line_end": 178,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "rule2_silences_pi_crossing",
-      "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/rule2-silences-pi-crossing/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/rule2-silences-pi-crossing/",
       "source_line_start": 181,
       "source_line_end": 185,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "fiber_generators_fully_active",
-      "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/fiber-generators-fully-active/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/fiber-generators-fully-active/",
       "source_line_start": 188,
       "source_line_end": 198,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "twin_prime_residue",
-      "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/twin-prime-residue/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/twin-prime-residue/",
       "source_line_start": 218,
       "source_line_end": 220,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T131"
       ]
@@ -184,19 +212,23 @@
     {
       "kind": "theorem",
       "name": "sieve_correction_decomposition",
-      "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/sieve-correction-decomposition/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/sieve-correction-decomposition/",
       "source_line_start": 225,
       "source_line_end": 226,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "twin_prime_core_identity",
-      "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/twin-prime-core-identity/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/twin-prime-core-identity/",
       "source_line_start": 231,
       "source_line_end": 232,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.T132"
       ]
@@ -204,73 +236,89 @@
     {
       "kind": "theorem",
       "name": "twin_prime_vanishing",
-      "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/twin-prime-vanishing/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/twin-prime-vanishing/",
       "source_line_start": 236,
       "source_line_end": 237,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "active_count_unit_mod_sn",
-      "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/active-count-unit-mod-sn/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/active-count-unit-mod-sn/",
       "source_line_start": 240,
       "source_line_end": 241,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "silent_count_structural",
-      "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/silent-count-structural/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/silent-count-structural/",
       "source_line_start": 244,
       "source_line_end": 245,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "sn_equals_factorial",
-      "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/sn-equals-factorial/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/sn-equals-factorial/",
       "source_line_start": 248,
       "source_line_end": 249,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "e1_page_arithmetic",
-      "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/e1-page-arithmetic/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/e1-page-arithmetic/",
       "source_line_start": 252,
       "source_line_end": 254,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/eval-l260/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/eval-l260/",
       "source_line_start": 260,
       "source_line_end": 260,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/eval-l261/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/eval-l261/",
       "source_line_start": 261,
       "source_line_end": 261,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-sectors-boundary-filtration/eval-l264/",
+      "url": "/corpus/taulib/docs/book-iv-sectors-boundary-filtration/eval-l264/",
       "source_line_start": 264,
       "source_line_end": 266,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -282,7 +330,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -364,29 +412,29 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [GenCarrier](/verify/taulib/docs/book-iv-sectors-boundary-filtration/gen-carrier/) | L70-L73 | defined | — |
-| `def` | [genCarrier](/verify/taulib/docs/book-iv-sectors-boundary-filtration/gen-carrier-l82/) | L82-L87 | defined | `IV.D328` |
-| `def` | [genPolarity](/verify/taulib/docs/book-iv-sectors-boundary-filtration/gen-polarity/) | L99-L104 | defined | `IV.D329` |
-| `def` | [emActiveStructural](/verify/taulib/docs/book-iv-sectors-boundary-filtration/em-active-structural/) | L121-L124 | defined | `IV.D330` |
-| `def` | [activeModesStructural](/verify/taulib/docs/book-iv-sectors-boundary-filtration/active-modes-structural/) | L131-L132 | defined | — |
-| `def` | [silentModesStructural](/verify/taulib/docs/book-iv-sectors-boundary-filtration/silent-modes-structural/) | L135-L136 | defined | — |
-| `theorem` | [structural_agrees_with_physics](/verify/taulib/docs/book-iv-sectors-boundary-filtration/structural-agrees-with-physics/) | L148-L152 | formalized | `IV.T130` |
-| `theorem` | [census_structural](/verify/taulib/docs/book-iv-sectors-boundary-filtration/census-structural/) | L160-L160 | formalized | `IV.P178` |
-| `theorem` | [silent_structural](/verify/taulib/docs/book-iv-sectors-boundary-filtration/silent-structural/) | L163-L163 | formalized | — |
-| `theorem` | [structural_census_consistent](/verify/taulib/docs/book-iv-sectors-boundary-filtration/structural-census-consistent/) | L166-L167 | formalized | — |
-| `theorem` | [rule1_silences_alpha](/verify/taulib/docs/book-iv-sectors-boundary-filtration/rule1-silences-alpha/) | L174-L178 | formalized | — |
-| `theorem` | [rule2_silences_pi_crossing](/verify/taulib/docs/book-iv-sectors-boundary-filtration/rule2-silences-pi-crossing/) | L181-L185 | formalized | — |
-| `theorem` | [fiber_generators_fully_active](/verify/taulib/docs/book-iv-sectors-boundary-filtration/fiber-generators-fully-active/) | L188-L198 | formalized | — |
-| `theorem` | [twin_prime_residue](/verify/taulib/docs/book-iv-sectors-boundary-filtration/twin-prime-residue/) | L218-L220 | formalized | `IV.T131` |
-| `theorem` | [sieve_correction_decomposition](/verify/taulib/docs/book-iv-sectors-boundary-filtration/sieve-correction-decomposition/) | L225-L226 | formalized | — |
-| `theorem` | [twin_prime_core_identity](/verify/taulib/docs/book-iv-sectors-boundary-filtration/twin-prime-core-identity/) | L231-L232 | formalized | `IV.T132` |
-| `theorem` | [twin_prime_vanishing](/verify/taulib/docs/book-iv-sectors-boundary-filtration/twin-prime-vanishing/) | L236-L237 | formalized | — |
-| `theorem` | [active_count_unit_mod_sn](/verify/taulib/docs/book-iv-sectors-boundary-filtration/active-count-unit-mod-sn/) | L240-L241 | formalized | — |
-| `theorem` | [silent_count_structural](/verify/taulib/docs/book-iv-sectors-boundary-filtration/silent-count-structural/) | L244-L245 | formalized | — |
-| `theorem` | [sn_equals_factorial](/verify/taulib/docs/book-iv-sectors-boundary-filtration/sn-equals-factorial/) | L248-L249 | formalized | — |
-| `theorem` | [e1_page_arithmetic](/verify/taulib/docs/book-iv-sectors-boundary-filtration/e1-page-arithmetic/) | L252-L254 | formalized | — |
-| `eval` | [#eval L260](/verify/taulib/docs/book-iv-sectors-boundary-filtration/eval-l260/) | L260-L260 | computed | — |
-| `eval` | [#eval L261](/verify/taulib/docs/book-iv-sectors-boundary-filtration/eval-l261/) | L261-L261 | computed | — |
-| `eval` | [#eval L264](/verify/taulib/docs/book-iv-sectors-boundary-filtration/eval-l264/) | L264-L266 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [GenCarrier](/corpus/taulib/docs/book-iv-sectors-boundary-filtration/gen-carrier/) | L70-L73 | type/data schema | type/data schema | — |
+| `def` | [genCarrier](/corpus/taulib/docs/book-iv-sectors-boundary-filtration/gen-carrier-l82/) | L82-L87 | definition | definition | `IV.D328` |
+| `def` | [genPolarity](/corpus/taulib/docs/book-iv-sectors-boundary-filtration/gen-polarity/) | L99-L104 | definition | definition | `IV.D329` |
+| `def` | [emActiveStructural](/corpus/taulib/docs/book-iv-sectors-boundary-filtration/em-active-structural/) | L121-L124 | definition | definition | `IV.D330` |
+| `def` | [activeModesStructural](/corpus/taulib/docs/book-iv-sectors-boundary-filtration/active-modes-structural/) | L131-L132 | data/computed value | data/computed value | — |
+| `def` | [silentModesStructural](/corpus/taulib/docs/book-iv-sectors-boundary-filtration/silent-modes-structural/) | L135-L136 | data/computed value | data/computed value | — |
+| `theorem` | [structural_agrees_with_physics](/corpus/taulib/docs/book-iv-sectors-boundary-filtration/structural-agrees-with-physics/) | L148-L152 | proof obligation | formal proof obligation checked | `IV.T130` |
+| `theorem` | [census_structural](/corpus/taulib/docs/book-iv-sectors-boundary-filtration/census-structural/) | L160-L160 | proof obligation | formal proof obligation checked | `IV.P178` |
+| `theorem` | [silent_structural](/corpus/taulib/docs/book-iv-sectors-boundary-filtration/silent-structural/) | L163-L163 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [structural_census_consistent](/corpus/taulib/docs/book-iv-sectors-boundary-filtration/structural-census-consistent/) | L166-L167 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [rule1_silences_alpha](/corpus/taulib/docs/book-iv-sectors-boundary-filtration/rule1-silences-alpha/) | L174-L178 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [rule2_silences_pi_crossing](/corpus/taulib/docs/book-iv-sectors-boundary-filtration/rule2-silences-pi-crossing/) | L181-L185 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [fiber_generators_fully_active](/corpus/taulib/docs/book-iv-sectors-boundary-filtration/fiber-generators-fully-active/) | L188-L198 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [twin_prime_residue](/corpus/taulib/docs/book-iv-sectors-boundary-filtration/twin-prime-residue/) | L218-L220 | proof obligation | formal proof obligation checked | `IV.T131` |
+| `theorem` | [sieve_correction_decomposition](/corpus/taulib/docs/book-iv-sectors-boundary-filtration/sieve-correction-decomposition/) | L225-L226 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [twin_prime_core_identity](/corpus/taulib/docs/book-iv-sectors-boundary-filtration/twin-prime-core-identity/) | L231-L232 | proof obligation | formal proof obligation checked | `IV.T132` |
+| `theorem` | [twin_prime_vanishing](/corpus/taulib/docs/book-iv-sectors-boundary-filtration/twin-prime-vanishing/) | L236-L237 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [active_count_unit_mod_sn](/corpus/taulib/docs/book-iv-sectors-boundary-filtration/active-count-unit-mod-sn/) | L240-L241 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [silent_count_structural](/corpus/taulib/docs/book-iv-sectors-boundary-filtration/silent-count-structural/) | L244-L245 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [sn_equals_factorial](/corpus/taulib/docs/book-iv-sectors-boundary-filtration/sn-equals-factorial/) | L248-L249 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [e1_page_arithmetic](/corpus/taulib/docs/book-iv-sectors-boundary-filtration/e1-page-arithmetic/) | L252-L254 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L260](/corpus/taulib/docs/book-iv-sectors-boundary-filtration/eval-l260/) | L260-L260 | computed check | computed check | — |
+| `eval` | [#eval L261](/corpus/taulib/docs/book-iv-sectors-boundary-filtration/eval-l261/) | L261-L261 | computed check | computed check | — |
+| `eval` | [#eval L264](/corpus/taulib/docs/book-iv-sectors-boundary-filtration/eval-l264/) | L264-L266 | computed check | computed check | — |

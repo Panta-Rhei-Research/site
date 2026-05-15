@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L184",
-  "permalink": "/verify/taulib/docs/tour-guided-tour-book-vii/eval-l184/",
+  "permalink": "/corpus/taulib/docs/tour-guided-tour-book-vii/eval-l184/",
   "summary_short": "`eval` declaration in `TauLib.Tour.GuidedTour.BookVII`.",
   "declaration_id": "TauLib.Tour.GuidedTour.BookVII::#eval:184",
   "declaration_slug": "eval-l184",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.Tour.GuidedTour.BookVII",
-  "module_url": "/verify/taulib/docs/tour-guided-tour-book-vii/",
+  "module_url": "/corpus/taulib/docs/tour-guided-tour-book-vii/",
   "source_line_start": 184,
   "source_line_end": 184,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/Tour/GuidedTour/BookVII.lean#L184-L184",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.Tour.GuidedTour.BookVII",
-        "url": "/verify/taulib/docs/tour-guided-tour-book-vii/"
+        "url": "/corpus/taulib/docs/tour-guided-tour-book-vii/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.Tour.GuidedTour.BookVII](/verify/taulib/docs/tour-guided-tour-book-vii/)
+- Module: [TauLib.Tour.GuidedTour.BookVII](/corpus/taulib/docs/tour-guided-tour-book-vii/)
 - Source path: [`TauLib/Tour/GuidedTour/BookVII.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/Tour/GuidedTour/BookVII.lean#L184-L184)
 - Source range: L184-L184
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

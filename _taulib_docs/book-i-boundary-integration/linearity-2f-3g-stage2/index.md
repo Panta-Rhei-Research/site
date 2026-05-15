@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "linearity_2f_3g_stage2",
-  "permalink": "/verify/taulib/docs/book-i-boundary-integration/linearity-2f-3g-stage2/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-integration/linearity-2f-3g-stage2/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.Integration`.",
   "declaration_id": "TauLib.BookI.Boundary.Integration::linearity_2f_3g_stage2",
   "declaration_slug": "linearity-2f-3g-stage2",
   "kind": "theorem",
   "name": "linearity_2f_3g_stage2",
   "module_name": "TauLib.BookI.Boundary.Integration",
-  "module_url": "/verify/taulib/docs/book-i-boundary-integration/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-integration/",
   "source_line_start": 115,
   "source_line_end": 116,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Integration.lean#L115-L116",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Integration",
-        "url": "/verify/taulib/docs/book-i-boundary-integration/"
+        "url": "/corpus/taulib/docs/book-i-boundary-integration/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Integration](/verify/taulib/docs/book-i-boundary-integration/)
+- Module: [TauLib.BookI.Boundary.Integration](/corpus/taulib/docs/book-i-boundary-integration/)
 - Source path: [`TauLib/BookI/Boundary/Integration.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Integration.lean#L115-L116)
 - Source range: L115-L116
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

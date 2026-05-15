@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "earned_interior_reduced",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-boundary-interior/earned-interior-reduced/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-boundary-interior/earned-interior-reduced/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Holomorphy.BoundaryInterior`.",
   "declaration_id": "TauLib.BookI.Holomorphy.BoundaryInterior::earned_interior_reduced",
   "declaration_slug": "earned-interior-reduced",
   "kind": "theorem",
   "name": "earned_interior_reduced",
   "module_name": "TauLib.BookI.Holomorphy.BoundaryInterior",
-  "module_url": "/verify/taulib/docs/book-i-holomorphy-boundary-interior/",
+  "module_url": "/corpus/taulib/docs/book-i-holomorphy-boundary-interior/",
   "source_line_start": 71,
   "source_line_end": 73,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/BoundaryInterior.lean#L71-L73",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Holomorphy.BoundaryInterior",
-        "url": "/verify/taulib/docs/book-i-holomorphy-boundary-interior/"
+        "url": "/corpus/taulib/docs/book-i-holomorphy-boundary-interior/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Holomorphy.BoundaryInterior](/verify/taulib/docs/book-i-holomorphy-boundary-interior/)
+- Module: [TauLib.BookI.Holomorphy.BoundaryInterior](/corpus/taulib/docs/book-i-holomorphy-boundary-interior/)
 - Source path: [`TauLib/BookI/Holomorphy/BoundaryInterior.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/BoundaryInterior.lean#L71-L73)
 - Source range: L71-L73
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

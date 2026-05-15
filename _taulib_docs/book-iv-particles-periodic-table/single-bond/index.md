@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "single_bond",
-  "permalink": "/verify/taulib/docs/book-iv-particles-periodic-table/single-bond/",
+  "permalink": "/corpus/taulib/docs/book-iv-particles-periodic-table/single-bond/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Particles.PeriodicTable`.",
   "declaration_id": "TauLib.BookIV.Particles.PeriodicTable::single_bond",
   "declaration_slug": "single-bond",
   "kind": "def",
   "name": "single_bond",
   "module_name": "TauLib.BookIV.Particles.PeriodicTable",
-  "module_url": "/verify/taulib/docs/book-iv-particles-periodic-table/",
+  "module_url": "/corpus/taulib/docs/book-iv-particles-periodic-table/",
   "source_line_start": 223,
   "source_line_end": 224,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/PeriodicTable.lean#L223-L224",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Particles.PeriodicTable",
-        "url": "/verify/taulib/docs/book-iv-particles-periodic-table/"
+        "url": "/corpus/taulib/docs/book-iv-particles-periodic-table/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Particles.PeriodicTable](/verify/taulib/docs/book-iv-particles-periodic-table/)
+- Module: [TauLib.BookIV.Particles.PeriodicTable](/corpus/taulib/docs/book-iv-particles-periodic-table/)
 - Source path: [`TauLib/BookIV/Particles/PeriodicTable.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/PeriodicTable.lean#L223-L224)
 - Source range: L223-L224
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

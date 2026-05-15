@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "UniversalBH",
-  "permalink": "/verify/taulib/docs/book-vi-cosmic-life-cross-limit/universal-bh/",
+  "permalink": "/corpus/taulib/docs/book-vi-cosmic-life-cross-limit/universal-bh/",
   "summary_short": "`structure` declaration in `TauLib.BookVI.CosmicLife.CrossLimit`.",
   "declaration_id": "TauLib.BookVI.CosmicLife.CrossLimit::UniversalBH",
   "declaration_slug": "universal-bh",
   "kind": "structure",
   "name": "UniversalBH",
   "module_name": "TauLib.BookVI.CosmicLife.CrossLimit",
-  "module_url": "/verify/taulib/docs/book-vi-cosmic-life-cross-limit/",
+  "module_url": "/corpus/taulib/docs/book-vi-cosmic-life-cross-limit/",
   "source_line_start": 175,
   "source_line_end": 184,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/CosmicLife/CrossLimit.lean#L175-L184",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.CosmicLife.CrossLimit",
-        "url": "/verify/taulib/docs/book-vi-cosmic-life-cross-limit/"
+        "url": "/corpus/taulib/docs/book-vi-cosmic-life-cross-limit/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.CosmicLife.CrossLimit](/verify/taulib/docs/book-vi-cosmic-life-cross-limit/)
+- Module: [TauLib.BookVI.CosmicLife.CrossLimit](/corpus/taulib/docs/book-vi-cosmic-life-cross-limit/)
 - Source path: [`TauLib/BookVI/CosmicLife/CrossLimit.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/CosmicLife/CrossLimit.lean#L175-L184)
 - Source range: L175-L184
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

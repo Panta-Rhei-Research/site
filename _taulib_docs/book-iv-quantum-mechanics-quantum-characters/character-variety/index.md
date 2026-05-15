@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "CharacterVariety",
-  "permalink": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/character-variety/",
+  "permalink": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/character-variety/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.QuantumMechanics.QuantumCharacters`.",
   "declaration_id": "TauLib.BookIV.QuantumMechanics.QuantumCharacters::CharacterVariety",
   "declaration_slug": "character-variety",
   "kind": "structure",
   "name": "CharacterVariety",
   "module_name": "TauLib.BookIV.QuantumMechanics.QuantumCharacters",
-  "module_url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/",
+  "module_url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/",
   "source_line_start": 87,
   "source_line_end": 94,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/QuantumCharacters.lean#L87-L94",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.QuantumMechanics.QuantumCharacters",
-        "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/"
+        "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.QuantumMechanics.QuantumCharacters](/verify/taulib/docs/book-iv-quantum-mechanics-quantum-characters/)
+- Module: [TauLib.BookIV.QuantumMechanics.QuantumCharacters](/corpus/taulib/docs/book-iv-quantum-mechanics-quantum-characters/)
 - Source path: [`TauLib/BookIV/QuantumMechanics/QuantumCharacters.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/QuantumCharacters.lean#L87-L94)
 - Source range: L87-L94
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

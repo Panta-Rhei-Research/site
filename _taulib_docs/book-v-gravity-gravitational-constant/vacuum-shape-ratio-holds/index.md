@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "vacuum_shape_ratio_holds",
-  "permalink": "/verify/taulib/docs/book-v-gravity-gravitational-constant/vacuum-shape-ratio-holds/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/vacuum-shape-ratio-holds/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Gravity.GravitationalConstant`.",
   "declaration_id": "TauLib.BookV.Gravity.GravitationalConstant::vacuum_shape_ratio_holds",
   "declaration_slug": "vacuum-shape-ratio-holds",
   "kind": "theorem",
   "name": "vacuum_shape_ratio_holds",
   "module_name": "TauLib.BookV.Gravity.GravitationalConstant",
-  "module_url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/",
   "source_line_start": 173,
   "source_line_end": 176,
   "registry_ids": [
@@ -18,15 +18,17 @@
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/GravitationalConstant.lean#L173-L176",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Gravity.GravitationalConstant",
-        "url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/"
+        "url": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -43,7 +45,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -64,11 +67,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Gravity.GravitationalConstant](/verify/taulib/docs/book-v-gravity-gravitational-constant/)
+- Module: [TauLib.BookV.Gravity.GravitationalConstant](/corpus/taulib/docs/book-v-gravity-gravitational-constant/)
 - Source path: [`TauLib/BookV/Gravity/GravitationalConstant.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/GravitationalConstant.lean#L173-L176)
 - Source range: L173-L176
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

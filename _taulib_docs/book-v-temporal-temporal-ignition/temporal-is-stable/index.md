@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "temporal_is_stable",
-  "permalink": "/verify/taulib/docs/book-v-temporal-temporal-ignition/temporal-is-stable/",
+  "permalink": "/corpus/taulib/docs/book-v-temporal-temporal-ignition/temporal-is-stable/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Temporal.TemporalIgnition`.",
   "declaration_id": "TauLib.BookV.Temporal.TemporalIgnition::temporal_is_stable",
   "declaration_slug": "temporal-is-stable",
   "kind": "theorem",
   "name": "temporal_is_stable",
   "module_name": "TauLib.BookV.Temporal.TemporalIgnition",
-  "module_url": "/verify/taulib/docs/book-v-temporal-temporal-ignition/",
+  "module_url": "/corpus/taulib/docs/book-v-temporal-temporal-ignition/",
   "source_line_start": 226,
   "source_line_end": 228,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/TemporalIgnition.lean#L226-L228",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Temporal.TemporalIgnition",
-        "url": "/verify/taulib/docs/book-v-temporal-temporal-ignition/"
+        "url": "/corpus/taulib/docs/book-v-temporal-temporal-ignition/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Temporal.TemporalIgnition](/verify/taulib/docs/book-v-temporal-temporal-ignition/)
+- Module: [TauLib.BookV.Temporal.TemporalIgnition](/corpus/taulib/docs/book-v-temporal-temporal-ignition/)
 - Source path: [`TauLib/BookV/Temporal/TemporalIgnition.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/TemporalIgnition.lean#L226-L228)
 - Source range: L226-L228
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

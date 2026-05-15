@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "preyoneda_composition_check",
-  "permalink": "/verify/taulib/docs/book-ii-regularity-pre-yoneda/preyoneda-composition-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-regularity-pre-yoneda/preyoneda-composition-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.Regularity.PreYoneda`.",
   "declaration_id": "TauLib.BookII.Regularity.PreYoneda::preyoneda_composition_check",
   "declaration_slug": "preyoneda-composition-check",
   "kind": "def",
   "name": "preyoneda_composition_check",
   "module_name": "TauLib.BookII.Regularity.PreYoneda",
-  "module_url": "/verify/taulib/docs/book-ii-regularity-pre-yoneda/",
+  "module_url": "/corpus/taulib/docs/book-ii-regularity-pre-yoneda/",
   "source_line_start": 118,
   "source_line_end": 136,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Regularity/PreYoneda.lean#L118-L136",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Regularity.PreYoneda",
-        "url": "/verify/taulib/docs/book-ii-regularity-pre-yoneda/"
+        "url": "/corpus/taulib/docs/book-ii-regularity-pre-yoneda/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Regularity.PreYoneda](/verify/taulib/docs/book-ii-regularity-pre-yoneda/)
+- Module: [TauLib.BookII.Regularity.PreYoneda](/corpus/taulib/docs/book-ii-regularity-pre-yoneda/)
 - Source path: [`TauLib/BookII/Regularity/PreYoneda.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Regularity/PreYoneda.lean#L118-L136)
 - Source range: L118-L136
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

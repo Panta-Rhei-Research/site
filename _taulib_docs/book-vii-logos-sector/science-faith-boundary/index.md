@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "science_faith_boundary",
-  "permalink": "/verify/taulib/docs/book-vii-logos-sector/science-faith-boundary/",
+  "permalink": "/corpus/taulib/docs/book-vii-logos-sector/science-faith-boundary/",
   "summary_short": "`def` declaration in `TauLib.BookVII.Logos.Sector`.",
   "declaration_id": "TauLib.BookVII.Logos.Sector::science_faith_boundary",
   "declaration_slug": "science-faith-boundary",
   "kind": "def",
   "name": "science_faith_boundary",
   "module_name": "TauLib.BookVII.Logos.Sector",
-  "module_url": "/verify/taulib/docs/book-vii-logos-sector/",
+  "module_url": "/corpus/taulib/docs/book-vii-logos-sector/",
   "source_line_start": 511,
   "source_line_end": 518,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Logos/Sector.lean#L511-L518",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVII.Logos.Sector",
-        "url": "/verify/taulib/docs/book-vii-logos-sector/"
+        "url": "/corpus/taulib/docs/book-vii-logos-sector/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVII.Logos.Sector](/verify/taulib/docs/book-vii-logos-sector/)
+- Module: [TauLib.BookVII.Logos.Sector](/corpus/taulib/docs/book-vii-logos-sector/)
 - Source path: [`TauLib/BookVII/Logos/Sector.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Logos/Sector.lean#L511-L518)
 - Source range: L511-L518
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

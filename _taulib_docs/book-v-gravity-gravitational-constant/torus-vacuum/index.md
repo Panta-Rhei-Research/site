@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TorusVacuum",
-  "permalink": "/verify/taulib/docs/book-v-gravity-gravitational-constant/torus-vacuum/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/torus-vacuum/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Gravity.GravitationalConstant`.",
   "declaration_id": "TauLib.BookV.Gravity.GravitationalConstant::TorusVacuum",
   "declaration_slug": "torus-vacuum",
   "kind": "structure",
   "name": "TorusVacuum",
   "module_name": "TauLib.BookV.Gravity.GravitationalConstant",
-  "module_url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/",
   "source_line_start": 74,
   "source_line_end": 91,
   "registry_ids": [
@@ -18,15 +18,17 @@
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/GravitationalConstant.lean#L74-L91",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Gravity.GravitationalConstant",
-        "url": "/verify/taulib/docs/book-v-gravity-gravitational-constant/"
+        "url": "/corpus/taulib/docs/book-v-gravity-gravitational-constant/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -43,7 +45,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -64,11 +67,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Gravity.GravitationalConstant](/verify/taulib/docs/book-v-gravity-gravitational-constant/)
+- Module: [TauLib.BookV.Gravity.GravitationalConstant](/corpus/taulib/docs/book-v-gravity-gravitational-constant/)
 - Source path: [`TauLib/BookV/Gravity/GravitationalConstant.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/GravitationalConstant.lean#L74-L91)
 - Source range: L74-L91
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

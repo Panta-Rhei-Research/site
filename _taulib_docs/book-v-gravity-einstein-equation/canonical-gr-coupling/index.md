@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "canonical_gr_coupling",
-  "permalink": "/verify/taulib/docs/book-v-gravity-einstein-equation/canonical-gr-coupling/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-einstein-equation/canonical-gr-coupling/",
   "summary_short": "`def` declaration in `TauLib.BookV.Gravity.EinsteinEquation`.",
   "declaration_id": "TauLib.BookV.Gravity.EinsteinEquation::canonical_gr_coupling",
   "declaration_slug": "canonical-gr-coupling",
   "kind": "def",
   "name": "canonical_gr_coupling",
   "module_name": "TauLib.BookV.Gravity.EinsteinEquation",
-  "module_url": "/verify/taulib/docs/book-v-gravity-einstein-equation/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-einstein-equation/",
   "source_line_start": 170,
   "source_line_end": 173,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/EinsteinEquation.lean#L170-L173",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Gravity.EinsteinEquation",
-        "url": "/verify/taulib/docs/book-v-gravity-einstein-equation/"
+        "url": "/corpus/taulib/docs/book-v-gravity-einstein-equation/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Gravity.EinsteinEquation](/verify/taulib/docs/book-v-gravity-einstein-equation/)
+- Module: [TauLib.BookV.Gravity.EinsteinEquation](/corpus/taulib/docs/book-v-gravity-einstein-equation/)
 - Source path: [`TauLib/BookV/Gravity/EinsteinEquation.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/EinsteinEquation.lean#L170-L173)
 - Source range: L170-L173
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

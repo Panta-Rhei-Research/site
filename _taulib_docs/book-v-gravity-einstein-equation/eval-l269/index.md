@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L269",
-  "permalink": "/verify/taulib/docs/book-v-gravity-einstein-equation/eval-l269/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-einstein-equation/eval-l269/",
   "summary_short": "`eval` declaration in `TauLib.BookV.Gravity.EinsteinEquation`.",
   "declaration_id": "TauLib.BookV.Gravity.EinsteinEquation::#eval:269",
   "declaration_slug": "eval-l269",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.Gravity.EinsteinEquation",
-  "module_url": "/verify/taulib/docs/book-v-gravity-einstein-equation/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-einstein-equation/",
   "source_line_start": 269,
   "source_line_end": 272,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/EinsteinEquation.lean#L269-L272",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Gravity.EinsteinEquation",
-        "url": "/verify/taulib/docs/book-v-gravity-einstein-equation/"
+        "url": "/corpus/taulib/docs/book-v-gravity-einstein-equation/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Gravity.EinsteinEquation](/verify/taulib/docs/book-v-gravity-einstein-equation/)
+- Module: [TauLib.BookV.Gravity.EinsteinEquation](/corpus/taulib/docs/book-v-gravity-einstein-equation/)
 - Source path: [`TauLib/BookV/Gravity/EinsteinEquation.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Gravity/EinsteinEquation.lean#L269-L272)
 - Source range: L269-L272
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

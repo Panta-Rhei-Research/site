@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TorusIdentity.universal_fixed_scalar_unconditional",
-  "permalink": "/verify/taulib/docs/book-i-boundary-torus-defect-system/universal-fixed-scalar-unconditional/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-torus-defect-system/universal-fixed-scalar-unconditional/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.TorusDefectSystem`.",
   "declaration_id": "TauLib.BookI.Boundary.TorusDefectSystem::TorusIdentity.universal_fixed_scalar_unconditional",
   "declaration_slug": "universal-fixed-scalar-unconditional",
   "kind": "theorem",
   "name": "TorusIdentity.universal_fixed_scalar_unconditional",
   "module_name": "TauLib.BookI.Boundary.TorusDefectSystem",
-  "module_url": "/verify/taulib/docs/book-i-boundary-torus-defect-system/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-torus-defect-system/",
   "source_line_start": 353,
   "source_line_end": 361,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TorusDefectSystem.lean#L353-L361",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.TorusDefectSystem",
-        "url": "/verify/taulib/docs/book-i-boundary-torus-defect-system/"
+        "url": "/corpus/taulib/docs/book-i-boundary-torus-defect-system/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.TorusDefectSystem](/verify/taulib/docs/book-i-boundary-torus-defect-system/)
+- Module: [TauLib.BookI.Boundary.TorusDefectSystem](/corpus/taulib/docs/book-i-boundary-torus-defect-system/)
 - Source path: [`TauLib/BookI/Boundary/TorusDefectSystem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TorusDefectSystem.lean#L353-L361)
 - Source range: L353-L361
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

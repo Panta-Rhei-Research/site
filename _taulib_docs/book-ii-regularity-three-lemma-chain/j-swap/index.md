@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "j_swap",
-  "permalink": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/j-swap/",
+  "permalink": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/j-swap/",
   "summary_short": "`def` declaration in `TauLib.BookII.Regularity.ThreeLemmaChain`.",
   "declaration_id": "TauLib.BookII.Regularity.ThreeLemmaChain::j_swap",
   "declaration_slug": "j-swap",
   "kind": "def",
   "name": "j_swap",
   "module_name": "TauLib.BookII.Regularity.ThreeLemmaChain",
-  "module_url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/",
+  "module_url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/",
   "source_line_start": 165,
   "source_line_end": 166,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Regularity/ThreeLemmaChain.lean#L165-L166",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Regularity.ThreeLemmaChain",
-        "url": "/verify/taulib/docs/book-ii-regularity-three-lemma-chain/"
+        "url": "/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Regularity.ThreeLemmaChain](/verify/taulib/docs/book-ii-regularity-three-lemma-chain/)
+- Module: [TauLib.BookII.Regularity.ThreeLemmaChain](/corpus/taulib/docs/book-ii-regularity-three-lemma-chain/)
 - Source path: [`TauLib/BookII/Regularity/ThreeLemmaChain.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Regularity/ThreeLemmaChain.lean#L165-L166)
 - Source range: L165-L166
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

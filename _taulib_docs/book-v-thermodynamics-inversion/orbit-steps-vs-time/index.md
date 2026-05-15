@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "OrbitStepsVsTime",
-  "permalink": "/verify/taulib/docs/book-v-thermodynamics-inversion/orbit-steps-vs-time/",
+  "permalink": "/corpus/taulib/docs/book-v-thermodynamics-inversion/orbit-steps-vs-time/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Thermodynamics.Inversion`.",
   "declaration_id": "TauLib.BookV.Thermodynamics.Inversion::OrbitStepsVsTime",
   "declaration_slug": "orbit-steps-vs-time",
   "kind": "structure",
   "name": "OrbitStepsVsTime",
   "module_name": "TauLib.BookV.Thermodynamics.Inversion",
-  "module_url": "/verify/taulib/docs/book-v-thermodynamics-inversion/",
+  "module_url": "/corpus/taulib/docs/book-v-thermodynamics-inversion/",
   "source_line_start": 269,
   "source_line_end": 274,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/Inversion.lean#L269-L274",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Thermodynamics.Inversion",
-        "url": "/verify/taulib/docs/book-v-thermodynamics-inversion/"
+        "url": "/corpus/taulib/docs/book-v-thermodynamics-inversion/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Thermodynamics.Inversion](/verify/taulib/docs/book-v-thermodynamics-inversion/)
+- Module: [TauLib.BookV.Thermodynamics.Inversion](/corpus/taulib/docs/book-v-thermodynamics-inversion/)
 - Source path: [`TauLib/BookV/Thermodynamics/Inversion.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/Inversion.lean#L269-L274)
 - Source range: L269-L274
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "IgnitionDepth",
-  "permalink": "/verify/taulib/docs/book-v-temporal-temporal-ignition/ignition-depth/",
+  "permalink": "/corpus/taulib/docs/book-v-temporal-temporal-ignition/ignition-depth/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Temporal.TemporalIgnition`.",
   "declaration_id": "TauLib.BookV.Temporal.TemporalIgnition::IgnitionDepth",
   "declaration_slug": "ignition-depth",
   "kind": "structure",
   "name": "IgnitionDepth",
   "module_name": "TauLib.BookV.Temporal.TemporalIgnition",
-  "module_url": "/verify/taulib/docs/book-v-temporal-temporal-ignition/",
+  "module_url": "/corpus/taulib/docs/book-v-temporal-temporal-ignition/",
   "source_line_start": 90,
   "source_line_end": 99,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/TemporalIgnition.lean#L90-L99",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Temporal.TemporalIgnition",
-        "url": "/verify/taulib/docs/book-v-temporal-temporal-ignition/"
+        "url": "/corpus/taulib/docs/book-v-temporal-temporal-ignition/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Temporal.TemporalIgnition](/verify/taulib/docs/book-v-temporal-temporal-ignition/)
+- Module: [TauLib.BookV.Temporal.TemporalIgnition](/corpus/taulib/docs/book-v-temporal-temporal-ignition/)
 - Source path: [`TauLib/BookV/Temporal/TemporalIgnition.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/TemporalIgnition.lean#L90-L99)
 - Source range: L90-L99
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

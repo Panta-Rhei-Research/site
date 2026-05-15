@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ncg_spectral_triple_instance",
-  "permalink": "/verify/taulib/docs/book-v-orthodox-other-approaches/ncg-spectral-triple-instance/",
+  "permalink": "/corpus/taulib/docs/book-v-orthodox-other-approaches/ncg-spectral-triple-instance/",
   "summary_short": "`def` declaration in `TauLib.BookV.Orthodox.OtherApproaches`.",
   "declaration_id": "TauLib.BookV.Orthodox.OtherApproaches::ncg_spectral_triple_instance",
   "declaration_slug": "ncg-spectral-triple-instance",
   "kind": "def",
   "name": "ncg_spectral_triple_instance",
   "module_name": "TauLib.BookV.Orthodox.OtherApproaches",
-  "module_url": "/verify/taulib/docs/book-v-orthodox-other-approaches/",
+  "module_url": "/corpus/taulib/docs/book-v-orthodox-other-approaches/",
   "source_line_start": 215,
   "source_line_end": 216,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/OtherApproaches.lean#L215-L216",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Orthodox.OtherApproaches",
-        "url": "/verify/taulib/docs/book-v-orthodox-other-approaches/"
+        "url": "/corpus/taulib/docs/book-v-orthodox-other-approaches/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Orthodox.OtherApproaches](/verify/taulib/docs/book-v-orthodox-other-approaches/)
+- Module: [TauLib.BookV.Orthodox.OtherApproaches](/corpus/taulib/docs/book-v-orthodox-other-approaches/)
 - Source path: [`TauLib/BookV/Orthodox/OtherApproaches.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/OtherApproaches.lean#L215-L216)
 - Source range: L215-L216
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "example at L323",
-  "permalink": "/verify/taulib/docs/book-i-boundary-ring/example-l323/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-ring/example-l323/",
   "summary_short": "`example` declaration in `TauLib.BookI.Boundary.Ring`.",
   "declaration_id": "TauLib.BookI.Boundary.Ring::#eval:323",
   "declaration_slug": "example-l323",
   "kind": "example",
   "name": null,
   "module_name": "TauLib.BookI.Boundary.Ring",
-  "module_url": "/verify/taulib/docs/book-i-boundary-ring/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-ring/",
   "source_line_start": 323,
   "source_line_end": 323,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Ring.lean#L323-L323",
   "formal_status": "example",
+  "declaration_role": "example check",
+  "formal_status_label": "example",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Ring",
-        "url": "/verify/taulib/docs/book-i-boundary-ring/"
+        "url": "/corpus/taulib/docs/book-i-boundary-ring/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,6 +43,7 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "example",
+      "role": "example check",
       "status": "example"
     }
   },
@@ -62,10 +65,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Ring](/verify/taulib/docs/book-i-boundary-ring/)
+- Module: [TauLib.BookI.Boundary.Ring](/corpus/taulib/docs/book-i-boundary-ring/)
 - Source path: [`TauLib/BookI/Boundary/Ring.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Ring.lean#L323-L323)
 - Source range: L323-L323
 - Kind: `example`
+- Public role: `example check`
 - Formal status hint: `example`
 
 ## Registry Links

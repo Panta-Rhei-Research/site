@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "count_primes_in",
-  "permalink": "/verify/taulib/docs/book-i-polarity-nth-prime/count-primes-in/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-nth-prime/count-primes-in/",
   "summary_short": "`def` declaration in `TauLib.BookI.Polarity.NthPrime`.",
   "declaration_id": "TauLib.BookI.Polarity.NthPrime::count_primes_in",
   "declaration_slug": "count-primes-in",
   "kind": "def",
   "name": "count_primes_in",
   "module_name": "TauLib.BookI.Polarity.NthPrime",
-  "module_url": "/verify/taulib/docs/book-i-polarity-nth-prime/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-nth-prime/",
   "source_line_start": 31,
   "source_line_end": 34,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/NthPrime.lean#L31-L34",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.NthPrime",
-        "url": "/verify/taulib/docs/book-i-polarity-nth-prime/"
+        "url": "/corpus/taulib/docs/book-i-polarity-nth-prime/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.NthPrime](/verify/taulib/docs/book-i-polarity-nth-prime/)
+- Module: [TauLib.BookI.Polarity.NthPrime](/corpus/taulib/docs/book-i-polarity-nth-prime/)
 - Source path: [`TauLib/BookI/Polarity/NthPrime.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/NthPrime.lean#L31-L34)
 - Source range: L31-L34
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

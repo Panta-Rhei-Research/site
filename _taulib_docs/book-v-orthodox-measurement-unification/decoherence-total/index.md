@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "decoherence_total",
-  "permalink": "/verify/taulib/docs/book-v-orthodox-measurement-unification/decoherence-total/",
+  "permalink": "/corpus/taulib/docs/book-v-orthodox-measurement-unification/decoherence-total/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Orthodox.MeasurementUnification`.",
   "declaration_id": "TauLib.BookV.Orthodox.MeasurementUnification::decoherence_total",
   "declaration_slug": "decoherence-total",
   "kind": "theorem",
   "name": "decoherence_total",
   "module_name": "TauLib.BookV.Orthodox.MeasurementUnification",
-  "module_url": "/verify/taulib/docs/book-v-orthodox-measurement-unification/",
+  "module_url": "/corpus/taulib/docs/book-v-orthodox-measurement-unification/",
   "source_line_start": 235,
   "source_line_end": 236,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/MeasurementUnification.lean#L235-L236",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Orthodox.MeasurementUnification",
-        "url": "/verify/taulib/docs/book-v-orthodox-measurement-unification/"
+        "url": "/corpus/taulib/docs/book-v-orthodox-measurement-unification/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Orthodox.MeasurementUnification](/verify/taulib/docs/book-v-orthodox-measurement-unification/)
+- Module: [TauLib.BookV.Orthodox.MeasurementUnification](/corpus/taulib/docs/book-v-orthodox-measurement-unification/)
 - Source path: [`TauLib/BookV/Orthodox/MeasurementUnification.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/MeasurementUnification.lean#L235-L236)
 - Source range: L235-L236
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

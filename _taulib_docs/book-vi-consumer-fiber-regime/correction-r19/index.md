@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "correction_r19",
-  "permalink": "/verify/taulib/docs/book-vi-consumer-fiber-regime/correction-r19/",
+  "permalink": "/corpus/taulib/docs/book-vi-consumer-fiber-regime/correction-r19/",
   "summary_short": "`def` declaration in `TauLib.BookVI.Consumer.FiberRegime`.",
   "declaration_id": "TauLib.BookVI.Consumer.FiberRegime::correction_r19",
   "declaration_slug": "correction-r19",
   "kind": "def",
   "name": "correction_r19",
   "module_name": "TauLib.BookVI.Consumer.FiberRegime",
-  "module_url": "/verify/taulib/docs/book-vi-consumer-fiber-regime/",
+  "module_url": "/corpus/taulib/docs/book-vi-consumer-fiber-regime/",
   "source_line_start": 79,
   "source_line_end": 79,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Consumer/FiberRegime.lean#L79-L79",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Consumer.FiberRegime",
-        "url": "/verify/taulib/docs/book-vi-consumer-fiber-regime/"
+        "url": "/corpus/taulib/docs/book-vi-consumer-fiber-regime/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Consumer.FiberRegime](/verify/taulib/docs/book-vi-consumer-fiber-regime/)
+- Module: [TauLib.BookVI.Consumer.FiberRegime](/corpus/taulib/docs/book-vi-consumer-fiber-regime/)
 - Source path: [`TauLib/BookVI/Consumer/FiberRegime.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Consumer/FiberRegime.lean#L79-L79)
 - Source range: L79-L79
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

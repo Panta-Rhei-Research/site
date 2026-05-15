@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L362",
-  "permalink": "/verify/taulib/docs/book-i-denotation-structural/eval-l362/",
+  "permalink": "/corpus/taulib/docs/book-i-denotation-structural/eval-l362/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Denotation.Structural`.",
   "declaration_id": "TauLib.BookI.Denotation.Structural::#eval:362",
   "declaration_slug": "eval-l362",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Denotation.Structural",
-  "module_url": "/verify/taulib/docs/book-i-denotation-structural/",
+  "module_url": "/corpus/taulib/docs/book-i-denotation-structural/",
   "source_line_start": 362,
   "source_line_end": 362,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/Structural.lean#L362-L362",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Denotation.Structural",
-        "url": "/verify/taulib/docs/book-i-denotation-structural/"
+        "url": "/corpus/taulib/docs/book-i-denotation-structural/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Denotation.Structural](/verify/taulib/docs/book-i-denotation-structural/)
+- Module: [TauLib.BookI.Denotation.Structural](/corpus/taulib/docs/book-i-denotation-structural/)
 - Source path: [`TauLib/BookI/Denotation/Structural.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/Structural.lean#L362-L362)
 - Source range: L362-L362
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

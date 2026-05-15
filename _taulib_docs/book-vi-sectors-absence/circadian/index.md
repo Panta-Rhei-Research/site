@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "circadian",
-  "permalink": "/verify/taulib/docs/book-vi-sectors-absence/circadian/",
+  "permalink": "/corpus/taulib/docs/book-vi-sectors-absence/circadian/",
   "summary_short": "`def` declaration in `TauLib.BookVI.Sectors.Absence`.",
   "declaration_id": "TauLib.BookVI.Sectors.Absence::circadian",
   "declaration_slug": "circadian",
   "kind": "def",
   "name": "circadian",
   "module_name": "TauLib.BookVI.Sectors.Absence",
-  "module_url": "/verify/taulib/docs/book-vi-sectors-absence/",
+  "module_url": "/corpus/taulib/docs/book-vi-sectors-absence/",
   "source_line_start": 87,
   "source_line_end": 87,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Sectors/Absence.lean#L87-L87",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Sectors.Absence",
-        "url": "/verify/taulib/docs/book-vi-sectors-absence/"
+        "url": "/corpus/taulib/docs/book-vi-sectors-absence/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Sectors.Absence](/verify/taulib/docs/book-vi-sectors-absence/)
+- Module: [TauLib.BookVI.Sectors.Absence](/corpus/taulib/docs/book-vi-sectors-absence/)
 - Source path: [`TauLib/BookVI/Sectors/Absence.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Sectors/Absence.lean#L87-L87)
 - Source range: L87-L87
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

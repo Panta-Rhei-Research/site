@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.KernelFoundation.H8KernelSynthesis",
-  "permalink": "/verify/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/",
+  "permalink": "/corpus/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.KernelFoundation.H8KernelSynthesis`.",
   "module_name": "TauLib.BookI.KernelFoundation.H8KernelSynthesis",
   "module_slug": "book-i-kernel-foundation-h8-kernel-synthesis",
@@ -42,82 +42,100 @@
     {
       "kind": "def",
       "name": "h8_ontic_identity_invariance_witness",
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/h8-ontic-identity-invariance-witness/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/h8-ontic-identity-invariance-witness/",
       "source_line_start": 126,
       "source_line_end": 127,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "h8_diagonal_linear_correspondence_witness",
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/h8-diagonal-linear-correspondence-witness/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/h8-diagonal-linear-correspondence-witness/",
       "source_line_start": 135,
       "source_line_end": 137,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "h8_k5_structural_exclusion_witness",
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/h8-k5-structural-exclusion-witness/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/h8-k5-structural-exclusion-witness/",
       "source_line_start": 144,
       "source_line_end": 145,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "h8_diagonal_resonance_diagnosis_witness",
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/h8-diagonal-resonance-diagnosis-witness/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/h8-diagonal-resonance-diagnosis-witness/",
       "source_line_start": 153,
       "source_line_end": 155,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "h8_reception_instability_witness",
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/h8-reception-instability-witness/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/h8-reception-instability-witness/",
       "source_line_start": 165,
       "source_line_end": 166,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "kernel_foundation_synthesis",
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/kernel-foundation-synthesis/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/kernel-foundation-synthesis/",
       "source_line_start": 186,
       "source_line_end": 201,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "eight_paper_arc_synthesis",
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/eight-paper-arc-synthesis/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/eight-paper-arc-synthesis/",
       "source_line_start": 245,
       "source_line_end": 266,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/eval-l273/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/eval-l273/",
       "source_line_start": 273,
       "source_line_end": 273,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/eval-l276/",
+      "url": "/corpus/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/eval-l276/",
       "source_line_start": 276,
       "source_line_end": 284,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -129,7 +147,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -208,14 +226,14 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [h8_ontic_identity_invariance_witness](/verify/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/h8-ontic-identity-invariance-witness/) | L126-L127 | defined | — |
-| `theorem` | [h8_diagonal_linear_correspondence_witness](/verify/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/h8-diagonal-linear-correspondence-witness/) | L135-L137 | formalized | — |
-| `def` | [h8_k5_structural_exclusion_witness](/verify/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/h8-k5-structural-exclusion-witness/) | L144-L145 | defined | — |
-| `theorem` | [h8_diagonal_resonance_diagnosis_witness](/verify/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/h8-diagonal-resonance-diagnosis-witness/) | L153-L155 | formalized | — |
-| `def` | [h8_reception_instability_witness](/verify/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/h8-reception-instability-witness/) | L165-L166 | defined | — |
-| `theorem` | [kernel_foundation_synthesis](/verify/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/kernel-foundation-synthesis/) | L186-L201 | formalized | — |
-| `theorem` | [eight_paper_arc_synthesis](/verify/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/eight-paper-arc-synthesis/) | L245-L266 | formalized | — |
-| `eval` | [#eval L273](/verify/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/eval-l273/) | L273-L273 | computed | — |
-| `eval` | [#eval L276](/verify/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/eval-l276/) | L276-L284 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [h8_ontic_identity_invariance_witness](/corpus/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/h8-ontic-identity-invariance-witness/) | L126-L127 | definition | definition | — |
+| `theorem` | [h8_diagonal_linear_correspondence_witness](/corpus/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/h8-diagonal-linear-correspondence-witness/) | L135-L137 | proof obligation | formal proof obligation checked | — |
+| `def` | [h8_k5_structural_exclusion_witness](/corpus/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/h8-k5-structural-exclusion-witness/) | L144-L145 | definition | definition | — |
+| `theorem` | [h8_diagonal_resonance_diagnosis_witness](/corpus/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/h8-diagonal-resonance-diagnosis-witness/) | L153-L155 | proof obligation | formal proof obligation checked | — |
+| `def` | [h8_reception_instability_witness](/corpus/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/h8-reception-instability-witness/) | L165-L166 | definition | definition | — |
+| `theorem` | [kernel_foundation_synthesis](/corpus/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/kernel-foundation-synthesis/) | L186-L201 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [eight_paper_arc_synthesis](/corpus/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/eight-paper-arc-synthesis/) | L245-L266 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L273](/corpus/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/eval-l273/) | L273-L273 | computed check | computed check | — |
+| `eval` | [#eval L276](/corpus/taulib/docs/book-i-kernel-foundation-h8-kernel-synthesis/eval-l276/) | L276-L284 | computed check | computed check | — |

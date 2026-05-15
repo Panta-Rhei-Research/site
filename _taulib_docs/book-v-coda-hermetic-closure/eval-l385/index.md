@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L385",
-  "permalink": "/verify/taulib/docs/book-v-coda-hermetic-closure/eval-l385/",
+  "permalink": "/corpus/taulib/docs/book-v-coda-hermetic-closure/eval-l385/",
   "summary_short": "`eval` declaration in `TauLib.BookV.Coda.HermeticClosure`.",
   "declaration_id": "TauLib.BookV.Coda.HermeticClosure::#eval:385",
   "declaration_slug": "eval-l385",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.Coda.HermeticClosure",
-  "module_url": "/verify/taulib/docs/book-v-coda-hermetic-closure/",
+  "module_url": "/corpus/taulib/docs/book-v-coda-hermetic-closure/",
   "source_line_start": 385,
   "source_line_end": 385,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Coda/HermeticClosure.lean#L385-L385",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Coda.HermeticClosure",
-        "url": "/verify/taulib/docs/book-v-coda-hermetic-closure/"
+        "url": "/corpus/taulib/docs/book-v-coda-hermetic-closure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Coda.HermeticClosure](/verify/taulib/docs/book-v-coda-hermetic-closure/)
+- Module: [TauLib.BookV.Coda.HermeticClosure](/corpus/taulib/docs/book-v-coda-hermetic-closure/)
 - Source path: [`TauLib/BookV/Coda/HermeticClosure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Coda/HermeticClosure.lean#L385-L385)
 - Source range: L385-L385
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "spine_check",
-  "permalink": "/verify/taulib/docs/book-i-coordinates-normal-form/spine-check/",
+  "permalink": "/corpus/taulib/docs/book-i-coordinates-normal-form/spine-check/",
   "summary_short": "`def` declaration in `TauLib.BookI.Coordinates.NormalForm`.",
   "declaration_id": "TauLib.BookI.Coordinates.NormalForm::spine_check",
   "declaration_slug": "spine-check",
   "kind": "def",
   "name": "spine_check",
   "module_name": "TauLib.BookI.Coordinates.NormalForm",
-  "module_url": "/verify/taulib/docs/book-i-coordinates-normal-form/",
+  "module_url": "/corpus/taulib/docs/book-i-coordinates-normal-form/",
   "source_line_start": 95,
   "source_line_end": 95,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/NormalForm.lean#L95-L95",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Coordinates.NormalForm",
-        "url": "/verify/taulib/docs/book-i-coordinates-normal-form/"
+        "url": "/corpus/taulib/docs/book-i-coordinates-normal-form/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Coordinates.NormalForm](/verify/taulib/docs/book-i-coordinates-normal-form/)
+- Module: [TauLib.BookI.Coordinates.NormalForm](/corpus/taulib/docs/book-i-coordinates-normal-form/)
 - Source path: [`TauLib/BookI/Coordinates/NormalForm.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/NormalForm.lean#L95-L95)
 - Source range: L95-L95
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

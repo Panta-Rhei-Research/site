@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "dvd_trans'",
-  "permalink": "/verify/taulib/docs/book-i-coordinates-no-tie/dvd-trans/",
+  "permalink": "/corpus/taulib/docs/book-i-coordinates-no-tie/dvd-trans/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Coordinates.NoTie`.",
   "declaration_id": "TauLib.BookI.Coordinates.NoTie::dvd_trans'",
   "declaration_slug": "dvd-trans",
   "kind": "theorem",
   "name": "dvd_trans'",
   "module_name": "TauLib.BookI.Coordinates.NoTie",
-  "module_url": "/verify/taulib/docs/book-i-coordinates-no-tie/",
+  "module_url": "/corpus/taulib/docs/book-i-coordinates-no-tie/",
   "source_line_start": 68,
   "source_line_end": 70,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/NoTie.lean#L68-L70",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Coordinates.NoTie",
-        "url": "/verify/taulib/docs/book-i-coordinates-no-tie/"
+        "url": "/corpus/taulib/docs/book-i-coordinates-no-tie/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Coordinates.NoTie](/verify/taulib/docs/book-i-coordinates-no-tie/)
+- Module: [TauLib.BookI.Coordinates.NoTie](/corpus/taulib/docs/book-i-coordinates-no-tie/)
 - Source path: [`TauLib/BookI/Coordinates/NoTie.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/NoTie.lean#L68-L70)
 - Source range: L68-L70
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

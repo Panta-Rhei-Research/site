@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "falsification_package",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-falsification-pack/falsification-package/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-falsification-pack/falsification-package/",
   "summary_short": "`def` declaration in `TauLib.BookV.Cosmology.FalsificationPack`.",
   "declaration_id": "TauLib.BookV.Cosmology.FalsificationPack::falsification_package",
   "declaration_slug": "falsification-package",
   "kind": "def",
   "name": "falsification_package",
   "module_name": "TauLib.BookV.Cosmology.FalsificationPack",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-falsification-pack/",
-  "source_line_start": 198,
-  "source_line_end": 205,
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-falsification-pack/",
+  "source_line_start": 357,
+  "source_line_end": 367,
   "registry_ids": [],
   "related_registry_items": [],
-  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L198-L205",
+  "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L357-L367",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.FalsificationPack",
-        "url": "/verify/taulib/docs/book-v-cosmology-falsification-pack/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-falsification-pack/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -34,14 +36,15 @@
     "artifacts": [
       {
         "title": "Source on GitHub",
-        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L198-L205",
+        "url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L357-L367",
         "external": true
       }
     ],
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.FalsificationPack](/verify/taulib/docs/book-v-cosmology-falsification-pack/)
-- Source path: [`TauLib/BookV/Cosmology/FalsificationPack.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L198-L205)
-- Source range: L198-L205
+- Module: [TauLib.BookV.Cosmology.FalsificationPack](/corpus/taulib/docs/book-v-cosmology-falsification-pack/)
+- Source path: [`TauLib/BookV/Cosmology/FalsificationPack.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/FalsificationPack.lean#L357-L367)
+- Source range: L357-L367
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 
@@ -84,7 +88,10 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 def falsification_package : FalsificationLevels where
   structural := [pred_no_sixth_force, pred_no_dm_particle,
                  pred_cgw_equals_c, pred_no_gw_echoes]
-  quantitative := [pred_electron_mass, pred_grav_constant, pred_tensor_scalar]
+  quantitative := [pred_electron_mass, pred_grav_constant, pred_tensor_scalar,
+                   pred_lrd_lower_cutoff, pred_lrd_upper_cutoff,
+                   pred_lrd_flat_shape, pred_lrd_sharp_transition,
+                   pred_sgra_outflow_angle, pred_eht_inner_shadow]
   frontier := [pred_torus_shadow, pred_discreteness, pred_no_transplanckian]
   has_structural := by native_decide
   has_quantitative := by native_decide

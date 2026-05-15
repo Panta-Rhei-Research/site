@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "truth4_to_resource",
-  "permalink": "/verify/taulib/docs/book-i-meta-logic-linear-discipline/truth4-to-resource/",
+  "permalink": "/corpus/taulib/docs/book-i-meta-logic-linear-discipline/truth4-to-resource/",
   "summary_short": "`def` declaration in `TauLib.BookI.MetaLogic.LinearDiscipline`.",
   "declaration_id": "TauLib.BookI.MetaLogic.LinearDiscipline::truth4_to_resource",
   "declaration_slug": "truth4-to-resource",
   "kind": "def",
   "name": "truth4_to_resource",
   "module_name": "TauLib.BookI.MetaLogic.LinearDiscipline",
-  "module_url": "/verify/taulib/docs/book-i-meta-logic-linear-discipline/",
+  "module_url": "/corpus/taulib/docs/book-i-meta-logic-linear-discipline/",
   "source_line_start": 167,
   "source_line_end": 171,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/LinearDiscipline.lean#L167-L171",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.MetaLogic.LinearDiscipline",
-        "url": "/verify/taulib/docs/book-i-meta-logic-linear-discipline/"
+        "url": "/corpus/taulib/docs/book-i-meta-logic-linear-discipline/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.MetaLogic.LinearDiscipline](/verify/taulib/docs/book-i-meta-logic-linear-discipline/)
+- Module: [TauLib.BookI.MetaLogic.LinearDiscipline](/corpus/taulib/docs/book-i-meta-logic-linear-discipline/)
 - Source path: [`TauLib/BookI/MetaLogic/LinearDiscipline.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/LinearDiscipline.lean#L167-L171)
 - Source range: L167-L171
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

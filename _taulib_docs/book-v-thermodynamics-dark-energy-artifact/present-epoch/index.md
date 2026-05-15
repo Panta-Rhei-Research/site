@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "present_epoch",
-  "permalink": "/verify/taulib/docs/book-v-thermodynamics-dark-energy-artifact/present-epoch/",
+  "permalink": "/corpus/taulib/docs/book-v-thermodynamics-dark-energy-artifact/present-epoch/",
   "summary_short": "`def` declaration in `TauLib.BookV.Thermodynamics.DarkEnergyArtifact`.",
   "declaration_id": "TauLib.BookV.Thermodynamics.DarkEnergyArtifact::present_epoch",
   "declaration_slug": "present-epoch",
   "kind": "def",
   "name": "present_epoch",
   "module_name": "TauLib.BookV.Thermodynamics.DarkEnergyArtifact",
-  "module_url": "/verify/taulib/docs/book-v-thermodynamics-dark-energy-artifact/",
+  "module_url": "/corpus/taulib/docs/book-v-thermodynamics-dark-energy-artifact/",
   "source_line_start": 288,
   "source_line_end": 292,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/DarkEnergyArtifact.lean#L288-L292",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Thermodynamics.DarkEnergyArtifact",
-        "url": "/verify/taulib/docs/book-v-thermodynamics-dark-energy-artifact/"
+        "url": "/corpus/taulib/docs/book-v-thermodynamics-dark-energy-artifact/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Thermodynamics.DarkEnergyArtifact](/verify/taulib/docs/book-v-thermodynamics-dark-energy-artifact/)
+- Module: [TauLib.BookV.Thermodynamics.DarkEnergyArtifact](/corpus/taulib/docs/book-v-thermodynamics-dark-energy-artifact/)
 - Source path: [`TauLib/BookV/Thermodynamics/DarkEnergyArtifact.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Thermodynamics/DarkEnergyArtifact.lean#L288-L292)
 - Source range: L288-L292
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

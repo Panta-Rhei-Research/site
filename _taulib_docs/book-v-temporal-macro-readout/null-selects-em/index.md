@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "null_selects_em",
-  "permalink": "/verify/taulib/docs/book-v-temporal-macro-readout/null-selects-em/",
+  "permalink": "/corpus/taulib/docs/book-v-temporal-macro-readout/null-selects-em/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Temporal.MacroReadout`.",
   "declaration_id": "TauLib.BookV.Temporal.MacroReadout::null_selects_em",
   "declaration_slug": "null-selects-em",
   "kind": "theorem",
   "name": "null_selects_em",
   "module_name": "TauLib.BookV.Temporal.MacroReadout",
-  "module_url": "/verify/taulib/docs/book-v-temporal-macro-readout/",
+  "module_url": "/corpus/taulib/docs/book-v-temporal-macro-readout/",
   "source_line_start": 82,
   "source_line_end": 83,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/MacroReadout.lean#L82-L83",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Temporal.MacroReadout",
-        "url": "/verify/taulib/docs/book-v-temporal-macro-readout/"
+        "url": "/corpus/taulib/docs/book-v-temporal-macro-readout/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Temporal.MacroReadout](/verify/taulib/docs/book-v-temporal-macro-readout/)
+- Module: [TauLib.BookV.Temporal.MacroReadout](/corpus/taulib/docs/book-v-temporal-macro-readout/)
 - Source path: [`TauLib/BookV/Temporal/MacroReadout.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/MacroReadout.lean#L82-L83)
 - Source range: L82-L83
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

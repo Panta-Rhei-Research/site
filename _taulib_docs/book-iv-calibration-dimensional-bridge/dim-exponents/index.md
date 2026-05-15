@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "DimExponents",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/dim-exponents/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/dim-exponents/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Calibration.DimensionalBridge`.",
   "declaration_id": "TauLib.BookIV.Calibration.DimensionalBridge::DimExponents",
   "declaration_slug": "dim-exponents",
   "kind": "structure",
   "name": "DimExponents",
   "module_name": "TauLib.BookIV.Calibration.DimensionalBridge",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/",
   "source_line_start": 64,
   "source_line_end": 69,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/DimensionalBridge.lean#L64-L69",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.DimensionalBridge",
-        "url": "/verify/taulib/docs/book-iv-calibration-dimensional-bridge/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.DimensionalBridge](/verify/taulib/docs/book-iv-calibration-dimensional-bridge/)
+- Module: [TauLib.BookIV.Calibration.DimensionalBridge](/corpus/taulib/docs/book-iv-calibration-dimensional-bridge/)
 - Source path: [`TauLib/BookIV/Calibration/DimensionalBridge.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/DimensionalBridge.lean#L64-L69)
 - Source range: L64-L69
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

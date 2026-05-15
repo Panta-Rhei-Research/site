@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TripleHolonomy",
-  "permalink": "/verify/taulib/docs/book-iv-physics-holonomy-correction/triple-holonomy/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-holonomy-correction/triple-holonomy/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Physics.HolonomyCorrection`.",
   "declaration_id": "TauLib.BookIV.Physics.HolonomyCorrection::TripleHolonomy",
   "declaration_slug": "triple-holonomy",
   "kind": "structure",
   "name": "TripleHolonomy",
   "module_name": "TauLib.BookIV.Physics.HolonomyCorrection",
-  "module_url": "/verify/taulib/docs/book-iv-physics-holonomy-correction/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-holonomy-correction/",
   "source_line_start": 77,
   "source_line_end": 88,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/HolonomyCorrection.lean#L77-L88",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.HolonomyCorrection",
-        "url": "/verify/taulib/docs/book-iv-physics-holonomy-correction/"
+        "url": "/corpus/taulib/docs/book-iv-physics-holonomy-correction/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.HolonomyCorrection](/verify/taulib/docs/book-iv-physics-holonomy-correction/)
+- Module: [TauLib.BookIV.Physics.HolonomyCorrection](/corpus/taulib/docs/book-iv-physics-holonomy-correction/)
 - Source path: [`TauLib/BookIV/Physics/HolonomyCorrection.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/HolonomyCorrection.lean#L77-L88)
 - Source range: L77-L88
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

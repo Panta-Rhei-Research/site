@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TemporalDirection",
-  "permalink": "/verify/taulib/docs/book-iv-quantum-mechanics-energy-entropy/temporal-direction/",
+  "permalink": "/corpus/taulib/docs/book-iv-quantum-mechanics-energy-entropy/temporal-direction/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.QuantumMechanics.EnergyEntropy`.",
   "declaration_id": "TauLib.BookIV.QuantumMechanics.EnergyEntropy::TemporalDirection",
   "declaration_slug": "temporal-direction",
   "kind": "structure",
   "name": "TemporalDirection",
   "module_name": "TauLib.BookIV.QuantumMechanics.EnergyEntropy",
-  "module_url": "/verify/taulib/docs/book-iv-quantum-mechanics-energy-entropy/",
+  "module_url": "/corpus/taulib/docs/book-iv-quantum-mechanics-energy-entropy/",
   "source_line_start": 171,
   "source_line_end": 175,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/EnergyEntropy.lean#L171-L175",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.QuantumMechanics.EnergyEntropy",
-        "url": "/verify/taulib/docs/book-iv-quantum-mechanics-energy-entropy/"
+        "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-energy-entropy/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.QuantumMechanics.EnergyEntropy](/verify/taulib/docs/book-iv-quantum-mechanics-energy-entropy/)
+- Module: [TauLib.BookIV.QuantumMechanics.EnergyEntropy](/corpus/taulib/docs/book-iv-quantum-mechanics-energy-entropy/)
 - Source path: [`TauLib/BookIV/QuantumMechanics/EnergyEntropy.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/EnergyEntropy.lean#L171-L175)
 - Source range: L171-L175
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

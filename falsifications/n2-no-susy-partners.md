@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N2 — No SUSY partners"
-permalink: "/results/falsifications/n2-no-susy-partners/"
+permalink: "/falsifications/n2-no-susy-partners/"
 lane: "results"
 falsification_id: "N2"
 n_num: 2

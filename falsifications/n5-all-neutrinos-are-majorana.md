@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N5 — All neutrinos are Majorana"
-permalink: "/results/falsifications/n5-all-neutrinos-are-majorana/"
+permalink: "/falsifications/n5-all-neutrinos-are-majorana/"
 lane: "results"
 falsification_id: "N5"
 n_num: 5

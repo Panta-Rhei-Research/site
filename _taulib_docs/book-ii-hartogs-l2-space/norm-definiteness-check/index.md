@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "norm_definiteness_check",
-  "permalink": "/verify/taulib/docs/book-ii-hartogs-l2-space/norm-definiteness-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-hartogs-l2-space/norm-definiteness-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.Hartogs.L2Space`.",
   "declaration_id": "TauLib.BookII.Hartogs.L2Space::norm_definiteness_check",
   "declaration_slug": "norm-definiteness-check",
   "kind": "def",
   "name": "norm_definiteness_check",
   "module_name": "TauLib.BookII.Hartogs.L2Space",
-  "module_url": "/verify/taulib/docs/book-ii-hartogs-l2-space/",
+  "module_url": "/corpus/taulib/docs/book-ii-hartogs-l2-space/",
   "source_line_start": 97,
   "source_line_end": 99,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/L2Space.lean#L97-L99",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Hartogs.L2Space",
-        "url": "/verify/taulib/docs/book-ii-hartogs-l2-space/"
+        "url": "/corpus/taulib/docs/book-ii-hartogs-l2-space/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Hartogs.L2Space](/verify/taulib/docs/book-ii-hartogs-l2-space/)
+- Module: [TauLib.BookII.Hartogs.L2Space](/corpus/taulib/docs/book-ii-hartogs-l2-space/)
 - Source path: [`TauLib/BookII/Hartogs/L2Space.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/L2Space.lean#L97-L99)
 - Source range: L97-L99
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

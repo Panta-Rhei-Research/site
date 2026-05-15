@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "bridge_algebraic_identity",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-confinement-bridge/bridge-algebraic-identity/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-confinement-bridge/bridge-algebraic-identity/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Spectral.ConfinementBridge`.",
   "declaration_id": "TauLib.BookIII.Spectral.ConfinementBridge::bridge_algebraic_identity",
   "declaration_slug": "bridge-algebraic-identity",
   "kind": "theorem",
   "name": "bridge_algebraic_identity",
   "module_name": "TauLib.BookIII.Spectral.ConfinementBridge",
-  "module_url": "/verify/taulib/docs/book-iii-spectral-confinement-bridge/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectral-confinement-bridge/",
   "source_line_start": 105,
   "source_line_end": 117,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/ConfinementBridge.lean#L105-L117",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectral.ConfinementBridge",
-        "url": "/verify/taulib/docs/book-iii-spectral-confinement-bridge/"
+        "url": "/corpus/taulib/docs/book-iii-spectral-confinement-bridge/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectral.ConfinementBridge](/verify/taulib/docs/book-iii-spectral-confinement-bridge/)
+- Module: [TauLib.BookIII.Spectral.ConfinementBridge](/corpus/taulib/docs/book-iii-spectral-confinement-bridge/)
 - Source path: [`TauLib/BookIII/Spectral/ConfinementBridge.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/ConfinementBridge.lean#L105-L117)
 - Source range: L105-L117
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

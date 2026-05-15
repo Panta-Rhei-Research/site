@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "SourceSectorDef",
-  "permalink": "/verify/taulib/docs/book-vi-source-source-sector/source-sector-def/",
+  "permalink": "/corpus/taulib/docs/book-vi-source-source-sector/source-sector-def/",
   "summary_short": "`structure` declaration in `TauLib.BookVI.Source.SourceSector`.",
   "declaration_id": "TauLib.BookVI.Source.SourceSector::SourceSectorDef",
   "declaration_slug": "source-sector-def",
   "kind": "structure",
   "name": "SourceSectorDef",
   "module_name": "TauLib.BookVI.Source.SourceSector",
-  "module_url": "/verify/taulib/docs/book-vi-source-source-sector/",
+  "module_url": "/corpus/taulib/docs/book-vi-source-source-sector/",
   "source_line_start": 42,
   "source_line_end": 53,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Source/SourceSector.lean#L42-L53",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Source.SourceSector",
-        "url": "/verify/taulib/docs/book-vi-source-source-sector/"
+        "url": "/corpus/taulib/docs/book-vi-source-source-sector/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Source.SourceSector](/verify/taulib/docs/book-vi-source-source-sector/)
+- Module: [TauLib.BookVI.Source.SourceSector](/corpus/taulib/docs/book-vi-source-source-sector/)
 - Source path: [`TauLib/BookVI/Source/SourceSector.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Source/SourceSector.lean#L42-L53)
 - Source range: L42-L53
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

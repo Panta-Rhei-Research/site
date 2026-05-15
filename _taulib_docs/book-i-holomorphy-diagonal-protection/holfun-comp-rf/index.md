@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "holfun_comp_rf",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-diagonal-protection/holfun-comp-rf/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-diagonal-protection/holfun-comp-rf/",
   "summary_short": "`def` declaration in `TauLib.BookI.Holomorphy.DiagonalProtection`.",
   "declaration_id": "TauLib.BookI.Holomorphy.DiagonalProtection::holfun_comp_rf",
   "declaration_slug": "holfun-comp-rf",
   "kind": "def",
   "name": "holfun_comp_rf",
   "module_name": "TauLib.BookI.Holomorphy.DiagonalProtection",
-  "module_url": "/verify/taulib/docs/book-i-holomorphy-diagonal-protection/",
+  "module_url": "/corpus/taulib/docs/book-i-holomorphy-diagonal-protection/",
   "source_line_start": 163,
   "source_line_end": 168,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/DiagonalProtection.lean#L163-L168",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Holomorphy.DiagonalProtection",
-        "url": "/verify/taulib/docs/book-i-holomorphy-diagonal-protection/"
+        "url": "/corpus/taulib/docs/book-i-holomorphy-diagonal-protection/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Holomorphy.DiagonalProtection](/verify/taulib/docs/book-i-holomorphy-diagonal-protection/)
+- Module: [TauLib.BookI.Holomorphy.DiagonalProtection](/corpus/taulib/docs/book-i-holomorphy-diagonal-protection/)
 - Source path: [`TauLib/BookI/Holomorphy/DiagonalProtection.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/DiagonalProtection.lean#L163-L168)
 - Source range: L163-L168
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

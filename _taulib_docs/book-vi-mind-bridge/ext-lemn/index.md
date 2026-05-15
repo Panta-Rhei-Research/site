@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ext_lemn",
-  "permalink": "/verify/taulib/docs/book-vi-mind-bridge/ext-lemn/",
+  "permalink": "/corpus/taulib/docs/book-vi-mind-bridge/ext-lemn/",
   "summary_short": "`def` declaration in `TauLib.BookVI.Mind.Bridge`.",
   "declaration_id": "TauLib.BookVI.Mind.Bridge::ext_lemn",
   "declaration_slug": "ext-lemn",
   "kind": "def",
   "name": "ext_lemn",
   "module_name": "TauLib.BookVI.Mind.Bridge",
-  "module_url": "/verify/taulib/docs/book-vi-mind-bridge/",
+  "module_url": "/corpus/taulib/docs/book-vi-mind-bridge/",
   "source_line_start": 81,
   "source_line_end": 83,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Mind/Bridge.lean#L81-L83",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Mind.Bridge",
-        "url": "/verify/taulib/docs/book-vi-mind-bridge/"
+        "url": "/corpus/taulib/docs/book-vi-mind-bridge/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Mind.Bridge](/verify/taulib/docs/book-vi-mind-bridge/)
+- Module: [TauLib.BookVI.Mind.Bridge](/corpus/taulib/docs/book-vi-mind-bridge/)
 - Source path: [`TauLib/BookVI/Mind/Bridge.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Mind/Bridge.lean#L81-L83)
 - Source range: L81-L83
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "IdempotentCharacter",
-  "permalink": "/verify/taulib/docs/book-ii-central-theorem-boundary-characters/idempotent-character/",
+  "permalink": "/corpus/taulib/docs/book-ii-central-theorem-boundary-characters/idempotent-character/",
   "summary_short": "`structure` declaration in `TauLib.BookII.CentralTheorem.BoundaryCharacters`.",
   "declaration_id": "TauLib.BookII.CentralTheorem.BoundaryCharacters::IdempotentCharacter",
   "declaration_slug": "idempotent-character",
   "kind": "structure",
   "name": "IdempotentCharacter",
   "module_name": "TauLib.BookII.CentralTheorem.BoundaryCharacters",
-  "module_url": "/verify/taulib/docs/book-ii-central-theorem-boundary-characters/",
+  "module_url": "/corpus/taulib/docs/book-ii-central-theorem-boundary-characters/",
   "source_line_start": 58,
   "source_line_end": 63,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/BoundaryCharacters.lean#L58-L63",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.CentralTheorem.BoundaryCharacters",
-        "url": "/verify/taulib/docs/book-ii-central-theorem-boundary-characters/"
+        "url": "/corpus/taulib/docs/book-ii-central-theorem-boundary-characters/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.CentralTheorem.BoundaryCharacters](/verify/taulib/docs/book-ii-central-theorem-boundary-characters/)
+- Module: [TauLib.BookII.CentralTheorem.BoundaryCharacters](/corpus/taulib/docs/book-ii-central-theorem-boundary-characters/)
 - Source path: [`TauLib/BookII/CentralTheorem/BoundaryCharacters.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/BoundaryCharacters.lean#L58-L63)
 - Source range: L58-L63
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

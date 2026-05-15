@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L185",
-  "permalink": "/verify/taulib/docs/book-iv-arena-five-sectors/eval-l185/",
+  "permalink": "/corpus/taulib/docs/book-iv-arena-five-sectors/eval-l185/",
   "summary_short": "`eval` declaration in `TauLib.BookIV.Arena.FiveSectors`.",
   "declaration_id": "TauLib.BookIV.Arena.FiveSectors::#eval:185",
   "declaration_slug": "eval-l185",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIV.Arena.FiveSectors",
-  "module_url": "/verify/taulib/docs/book-iv-arena-five-sectors/",
+  "module_url": "/corpus/taulib/docs/book-iv-arena-five-sectors/",
   "source_line_start": 185,
   "source_line_end": 185,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/FiveSectors.lean#L185-L185",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Arena.FiveSectors",
-        "url": "/verify/taulib/docs/book-iv-arena-five-sectors/"
+        "url": "/corpus/taulib/docs/book-iv-arena-five-sectors/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Arena.FiveSectors](/verify/taulib/docs/book-iv-arena-five-sectors/)
+- Module: [TauLib.BookIV.Arena.FiveSectors](/corpus/taulib/docs/book-iv-arena-five-sectors/)
 - Source path: [`TauLib/BookIV/Arena/FiveSectors.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/FiveSectors.lean#L185-L185)
 - Source range: L185-L185
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

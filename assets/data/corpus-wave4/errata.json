@@ -79,6 +79,31 @@
       "source_surface": "site/_data/publications/errata.yml",
       "canonical_url": "/publications/errata/",
       "public_visibility": "public"
+    },
+    {
+      "erratum_id": "ERRATUM-005",
+      "title": "Book V QNM and ringdown terminology correction",
+      "issued": "2026-05-15",
+      "status": "active",
+      "severity": "High",
+      "change_class": "C7",
+      "entry_type": "monograph_erratum",
+      "affected": "Book V Chapters 41, 50, 51, 53, and 56; QNM and cycle-delay Results pages",
+      "book_slug": "book-v",
+      "registry_ids": [
+        "V.T168",
+        "V.T169",
+        "V.T185",
+        "V.T223",
+        "V.D243",
+        "V.P131",
+        "V.R408"
+      ],
+      "summary": "Corrects QNM and ringdown public language. The Kerr primary ringdown depends on remnant mass and spin; the tau prediction is the leading-order T² ratio f_(0,1)/f_(1,0)=ιτ^-1. The former echo/no-echo language is split into two categories: no exotic reflective-surface ECO echoes, but released T² cycle-delay/ringdown observables remain as topology-readout candidates. It also repairs generated-page contamination on QNM and cycle-delay prediction/falsification pages.",
+      "correction": "Update Book V source text, TauLib comments/projection labels, Corpus registry/results data, and public pages so QNM ratio direction, cycle-delay ratio direction, and echo terminology are consistent. Remove CKM/Wolfenstein and proton-radius bleed-through from QNM and cycle-delay pages. Public status remains released-corrected, not hidden or validated.",
+      "source_surface": "corpus/data/governance/errata.yml",
+      "canonical_url": "/publications/books/book-v/errata/",
+      "public_visibility": "public"
     }
   ]
 }

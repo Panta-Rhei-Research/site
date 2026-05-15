@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "no_running_all_sectors",
-  "permalink": "/verify/taulib/docs/book-iv-physics-thermodynamics/no-running-all-sectors/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-thermodynamics/no-running-all-sectors/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Physics.Thermodynamics`.",
   "declaration_id": "TauLib.BookIV.Physics.Thermodynamics::no_running_all_sectors",
   "declaration_slug": "no-running-all-sectors",
   "kind": "theorem",
   "name": "no_running_all_sectors",
   "module_name": "TauLib.BookIV.Physics.Thermodynamics",
-  "module_url": "/verify/taulib/docs/book-iv-physics-thermodynamics/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/",
   "source_line_start": 208,
   "source_line_end": 208,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/Thermodynamics.lean#L208-L208",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.Thermodynamics",
-        "url": "/verify/taulib/docs/book-iv-physics-thermodynamics/"
+        "url": "/corpus/taulib/docs/book-iv-physics-thermodynamics/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.Thermodynamics](/verify/taulib/docs/book-iv-physics-thermodynamics/)
+- Module: [TauLib.BookIV.Physics.Thermodynamics](/corpus/taulib/docs/book-iv-physics-thermodynamics/)
 - Source path: [`TauLib/BookIV/Physics/Thermodynamics.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/Thermodynamics.lean#L208-L208)
 - Source range: L208-L208
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "mass_ratio_internal",
-  "permalink": "/verify/taulib/docs/book-iv-physics-internal-equations/mass-ratio-internal/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-internal-equations/mass-ratio-internal/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Physics.InternalEquations`.",
   "declaration_id": "TauLib.BookIV.Physics.InternalEquations::mass_ratio_internal",
   "declaration_slug": "mass-ratio-internal",
   "kind": "theorem",
   "name": "mass_ratio_internal",
   "module_name": "TauLib.BookIV.Physics.InternalEquations",
-  "module_url": "/verify/taulib/docs/book-iv-physics-internal-equations/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-internal-equations/",
   "source_line_start": 173,
   "source_line_end": 174,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/InternalEquations.lean#L173-L174",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.InternalEquations",
-        "url": "/verify/taulib/docs/book-iv-physics-internal-equations/"
+        "url": "/corpus/taulib/docs/book-iv-physics-internal-equations/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.InternalEquations](/verify/taulib/docs/book-iv-physics-internal-equations/)
+- Module: [TauLib.BookIV.Physics.InternalEquations](/corpus/taulib/docs/book-iv-physics-internal-equations/)
 - Source path: [`TauLib/BookIV/Physics/InternalEquations.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/InternalEquations.lean#L173-L174)
 - Source range: L173-L174
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

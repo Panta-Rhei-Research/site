@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookII.Enrichment.YonedaTheorem",
-  "permalink": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/",
+  "permalink": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookII.Enrichment.YonedaTheorem`.",
   "module_name": "TauLib.BookII.Enrichment.YonedaTheorem",
   "module_slug": "book-ii-enrichment-yoneda-theorem",
@@ -33,10 +33,12 @@
     {
       "kind": "def",
       "name": "is_probe_natural",
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/is-probe-natural/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/is-probe-natural/",
       "source_line_start": 52,
       "source_line_end": 53,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.L11"
       ]
@@ -44,10 +46,12 @@
     {
       "kind": "def",
       "name": "is_yoneda_representable",
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/is-yoneda-representable/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/is-yoneda-representable/",
       "source_line_start": 59,
       "source_line_end": 60,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.L11"
       ]
@@ -55,10 +59,12 @@
     {
       "kind": "def",
       "name": "probe_yoneda_check",
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/probe-yoneda-check/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/probe-yoneda-check/",
       "source_line_start": 65,
       "source_line_end": 90,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.L11"
       ]
@@ -66,10 +72,12 @@
     {
       "kind": "def",
       "name": "yoneda_faithful_check",
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-faithful-check/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-faithful-check/",
       "source_line_start": 103,
       "source_line_end": 120,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.T36"
       ]
@@ -77,10 +85,12 @@
     {
       "kind": "def",
       "name": "yoneda_full_check",
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-full-check/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-full-check/",
       "source_line_start": 133,
       "source_line_end": 149,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.T36"
       ]
@@ -88,28 +98,34 @@
     {
       "kind": "def",
       "name": "hom_b_channel",
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/hom-b-channel/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/hom-b-channel/",
       "source_line_start": 152,
       "source_line_end": 154,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "hom_c_channel",
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/hom-c-channel/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/hom-c-channel/",
       "source_line_start": 157,
       "source_line_end": 159,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "yoneda_bipolar_check",
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-bipolar-check/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-bipolar-check/",
       "source_line_start": 176,
       "source_line_end": 204,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.T36"
       ]
@@ -117,10 +133,12 @@
     {
       "kind": "def",
       "name": "yoneda_roundtrip_check",
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-roundtrip-check/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-roundtrip-check/",
       "source_line_start": 213,
       "source_line_end": 229,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.T36"
       ]
@@ -128,118 +146,144 @@
     {
       "kind": "def",
       "name": "full_yoneda_check",
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/full-yoneda-check/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/full-yoneda-check/",
       "source_line_start": 238,
       "source_line_end": 243,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l250/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l250/",
       "source_line_start": 250,
       "source_line_end": 250,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l251/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l251/",
       "source_line_start": 251,
       "source_line_end": 251,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l252/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l252/",
       "source_line_start": 252,
       "source_line_end": 252,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l255/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l255/",
       "source_line_start": 255,
       "source_line_end": 255,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l256/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l256/",
       "source_line_start": 256,
       "source_line_end": 256,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l259/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l259/",
       "source_line_start": 259,
       "source_line_end": 259,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l262/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l262/",
       "source_line_start": 262,
       "source_line_end": 262,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l265/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l265/",
       "source_line_start": 265,
       "source_line_end": 265,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l268/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l268/",
       "source_line_start": 268,
       "source_line_end": 268,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l271/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l271/",
       "source_line_start": 271,
       "source_line_end": 271,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l274/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l274/",
       "source_line_start": 274,
       "source_line_end": 274,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "probe_yoneda_10_3",
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/probe-yoneda-10-3/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/probe-yoneda-10-3/",
       "source_line_start": 281,
       "source_line_end": 282,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.L11"
       ]
@@ -247,10 +291,12 @@
     {
       "kind": "theorem",
       "name": "yoneda_faithful_10_3",
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-faithful-10-3/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-faithful-10-3/",
       "source_line_start": 285,
       "source_line_end": 286,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.T36"
       ]
@@ -258,10 +304,12 @@
     {
       "kind": "theorem",
       "name": "yoneda_full_10_3",
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-full-10-3/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-full-10-3/",
       "source_line_start": 289,
       "source_line_end": 290,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.T36"
       ]
@@ -269,10 +317,12 @@
     {
       "kind": "theorem",
       "name": "yoneda_bipolar_10_3",
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-bipolar-10-3/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-bipolar-10-3/",
       "source_line_start": 293,
       "source_line_end": 294,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.T36"
       ]
@@ -280,10 +330,12 @@
     {
       "kind": "theorem",
       "name": "yoneda_roundtrip_10_3",
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-roundtrip-10-3/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-roundtrip-10-3/",
       "source_line_start": 297,
       "source_line_end": 298,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.T36"
       ]
@@ -291,19 +343,23 @@
     {
       "kind": "theorem",
       "name": "full_yoneda_10_3",
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/full-yoneda-10-3/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/full-yoneda-10-3/",
       "source_line_start": 301,
       "source_line_end": 302,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "yoneda_faithful_id",
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-faithful-id/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-faithful-id/",
       "source_line_start": 316,
       "source_line_end": 324,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.T36"
       ]
@@ -311,10 +367,12 @@
     {
       "kind": "theorem",
       "name": "yoneda_full_id",
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-full-id/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-full-id/",
       "source_line_start": 331,
       "source_line_end": 334,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.T36"
       ]
@@ -322,10 +380,12 @@
     {
       "kind": "theorem",
       "name": "probe_naturality_structural",
-      "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/probe-naturality-structural/",
+      "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/probe-naturality-structural/",
       "source_line_start": 339,
       "source_line_end": 343,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "II.L11"
       ]
@@ -339,7 +399,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -410,35 +470,35 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [is_probe_natural](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/is-probe-natural/) | L52-L53 | defined | `II.L11` |
-| `def` | [is_yoneda_representable](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/is-yoneda-representable/) | L59-L60 | defined | `II.L11` |
-| `def` | [probe_yoneda_check](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/probe-yoneda-check/) | L65-L90 | defined | `II.L11` |
-| `def` | [yoneda_faithful_check](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-faithful-check/) | L103-L120 | defined | `II.T36` |
-| `def` | [yoneda_full_check](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-full-check/) | L133-L149 | defined | `II.T36` |
-| `def` | [hom_b_channel](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/hom-b-channel/) | L152-L154 | defined | — |
-| `def` | [hom_c_channel](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/hom-c-channel/) | L157-L159 | defined | — |
-| `def` | [yoneda_bipolar_check](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-bipolar-check/) | L176-L204 | defined | `II.T36` |
-| `def` | [yoneda_roundtrip_check](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-roundtrip-check/) | L213-L229 | defined | `II.T36` |
-| `def` | [full_yoneda_check](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/full-yoneda-check/) | L238-L243 | defined | — |
-| `eval` | [#eval L250](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l250/) | L250-L250 | computed | — |
-| `eval` | [#eval L251](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l251/) | L251-L251 | computed | — |
-| `eval` | [#eval L252](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l252/) | L252-L252 | computed | — |
-| `eval` | [#eval L255](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l255/) | L255-L255 | computed | — |
-| `eval` | [#eval L256](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l256/) | L256-L256 | computed | — |
-| `eval` | [#eval L259](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l259/) | L259-L259 | computed | — |
-| `eval` | [#eval L262](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l262/) | L262-L262 | computed | — |
-| `eval` | [#eval L265](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l265/) | L265-L265 | computed | — |
-| `eval` | [#eval L268](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l268/) | L268-L268 | computed | — |
-| `eval` | [#eval L271](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l271/) | L271-L271 | computed | — |
-| `eval` | [#eval L274](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l274/) | L274-L274 | computed | — |
-| `theorem` | [probe_yoneda_10_3](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/probe-yoneda-10-3/) | L281-L282 | formalized | `II.L11` |
-| `theorem` | [yoneda_faithful_10_3](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-faithful-10-3/) | L285-L286 | formalized | `II.T36` |
-| `theorem` | [yoneda_full_10_3](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-full-10-3/) | L289-L290 | formalized | `II.T36` |
-| `theorem` | [yoneda_bipolar_10_3](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-bipolar-10-3/) | L293-L294 | formalized | `II.T36` |
-| `theorem` | [yoneda_roundtrip_10_3](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-roundtrip-10-3/) | L297-L298 | formalized | `II.T36` |
-| `theorem` | [full_yoneda_10_3](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/full-yoneda-10-3/) | L301-L302 | formalized | — |
-| `theorem` | [yoneda_faithful_id](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-faithful-id/) | L316-L324 | formalized | `II.T36` |
-| `theorem` | [yoneda_full_id](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-full-id/) | L331-L334 | formalized | `II.T36` |
-| `theorem` | [probe_naturality_structural](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/probe-naturality-structural/) | L339-L343 | formalized | `II.L11` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [is_probe_natural](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/is-probe-natural/) | L52-L53 | data/computed value | data/computed value | `II.L11` |
+| `def` | [is_yoneda_representable](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/is-yoneda-representable/) | L59-L60 | data/computed value | data/computed value | `II.L11` |
+| `def` | [probe_yoneda_check](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/probe-yoneda-check/) | L65-L90 | data/computed value | data/computed value | `II.L11` |
+| `def` | [yoneda_faithful_check](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-faithful-check/) | L103-L120 | data/computed value | data/computed value | `II.T36` |
+| `def` | [yoneda_full_check](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-full-check/) | L133-L149 | data/computed value | data/computed value | `II.T36` |
+| `def` | [hom_b_channel](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/hom-b-channel/) | L152-L154 | data/computed value | data/computed value | — |
+| `def` | [hom_c_channel](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/hom-c-channel/) | L157-L159 | data/computed value | data/computed value | — |
+| `def` | [yoneda_bipolar_check](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-bipolar-check/) | L176-L204 | data/computed value | data/computed value | `II.T36` |
+| `def` | [yoneda_roundtrip_check](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-roundtrip-check/) | L213-L229 | data/computed value | data/computed value | `II.T36` |
+| `def` | [full_yoneda_check](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/full-yoneda-check/) | L238-L243 | data/computed value | data/computed value | — |
+| `eval` | [#eval L250](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l250/) | L250-L250 | computed check | computed check | — |
+| `eval` | [#eval L251](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l251/) | L251-L251 | computed check | computed check | — |
+| `eval` | [#eval L252](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l252/) | L252-L252 | computed check | computed check | — |
+| `eval` | [#eval L255](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l255/) | L255-L255 | computed check | computed check | — |
+| `eval` | [#eval L256](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l256/) | L256-L256 | computed check | computed check | — |
+| `eval` | [#eval L259](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l259/) | L259-L259 | computed check | computed check | — |
+| `eval` | [#eval L262](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l262/) | L262-L262 | computed check | computed check | — |
+| `eval` | [#eval L265](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l265/) | L265-L265 | computed check | computed check | — |
+| `eval` | [#eval L268](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l268/) | L268-L268 | computed check | computed check | — |
+| `eval` | [#eval L271](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l271/) | L271-L271 | computed check | computed check | — |
+| `eval` | [#eval L274](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/eval-l274/) | L274-L274 | computed check | computed check | — |
+| `theorem` | [probe_yoneda_10_3](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/probe-yoneda-10-3/) | L281-L282 | proof obligation | formal proof obligation checked | `II.L11` |
+| `theorem` | [yoneda_faithful_10_3](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-faithful-10-3/) | L285-L286 | proof obligation | formal proof obligation checked | `II.T36` |
+| `theorem` | [yoneda_full_10_3](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-full-10-3/) | L289-L290 | proof obligation | formal proof obligation checked | `II.T36` |
+| `theorem` | [yoneda_bipolar_10_3](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-bipolar-10-3/) | L293-L294 | proof obligation | formal proof obligation checked | `II.T36` |
+| `theorem` | [yoneda_roundtrip_10_3](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-roundtrip-10-3/) | L297-L298 | proof obligation | formal proof obligation checked | `II.T36` |
+| `theorem` | [full_yoneda_10_3](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/full-yoneda-10-3/) | L301-L302 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [yoneda_faithful_id](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-faithful-id/) | L316-L324 | proof obligation | formal proof obligation checked | `II.T36` |
+| `theorem` | [yoneda_full_id](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/yoneda-full-id/) | L331-L334 | proof obligation | formal proof obligation checked | `II.T36` |
+| `theorem` | [probe_naturality_structural](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/probe-naturality-structural/) | L339-L343 | proof obligation | formal proof obligation checked | `II.L11` |

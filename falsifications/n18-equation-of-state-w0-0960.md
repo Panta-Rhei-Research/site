@@ -1,7 +1,7 @@
 ---
 layout: "falsification-page"
 title: "N18 — Equation of state $w_0 -0.960$"
-permalink: "/results/falsifications/n18-equation-of-state-w0-0960/"
+permalink: "/falsifications/n18-equation-of-state-w0-0960/"
 lane: "results"
 falsification_id: "N18"
 n_num: 18

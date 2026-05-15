@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauRat.sumFromTo_abs_le",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-real-sum/sum-from-to-abs-le/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-real-sum/sum-from-to-abs-le/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.TauRealSum`.",
   "declaration_id": "TauLib.BookI.Boundary.TauRealSum::TauRat.sumFromTo_abs_le",
   "declaration_slug": "sum-from-to-abs-le",
   "kind": "theorem",
   "name": "TauRat.sumFromTo_abs_le",
   "module_name": "TauLib.BookI.Boundary.TauRealSum",
-  "module_url": "/verify/taulib/docs/book-i-boundary-tau-real-sum/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-tau-real-sum/",
   "source_line_start": 158,
   "source_line_end": 192,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealSum.lean#L158-L192",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.TauRealSum",
-        "url": "/verify/taulib/docs/book-i-boundary-tau-real-sum/"
+        "url": "/corpus/taulib/docs/book-i-boundary-tau-real-sum/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.TauRealSum](/verify/taulib/docs/book-i-boundary-tau-real-sum/)
+- Module: [TauLib.BookI.Boundary.TauRealSum](/corpus/taulib/docs/book-i-boundary-tau-real-sum/)
 - Source path: [`TauLib/BookI/Boundary/TauRealSum.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealSum.lean#L158-L192)
 - Source range: L158-L192
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

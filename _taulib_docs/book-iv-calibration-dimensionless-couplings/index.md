@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.Calibration.DimensionlessCouplings",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.Calibration.DimensionlessCouplings`.",
   "module_name": "TauLib.BookIV.Calibration.DimensionlessCouplings",
   "module_slug": "book-iv-calibration-dimensionless-couplings",
@@ -43,10 +43,12 @@
     {
       "kind": "theorem",
       "name": "grav_coupling_value",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/grav-coupling-value/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/grav-coupling-value/",
       "source_line_start": 43,
       "source_line_end": 54,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.D276",
         "IV.P160"
@@ -55,10 +57,12 @@
     {
       "kind": "theorem",
       "name": "weak_coupling_value",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/weak-coupling-value/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/weak-coupling-value/",
       "source_line_start": 57,
       "source_line_end": 68,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.D277",
         "IV.P161"
@@ -67,10 +71,12 @@
     {
       "kind": "theorem",
       "name": "em_coupling_value",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/em-coupling-value/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/em-coupling-value/",
       "source_line_start": 71,
       "source_line_end": 82,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.D278",
         "IV.P162"
@@ -79,10 +85,12 @@
     {
       "kind": "theorem",
       "name": "strong_coupling_value",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/strong-coupling-value/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/strong-coupling-value/",
       "source_line_start": 85,
       "source_line_end": 96,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.D279",
         "IV.P163"
@@ -91,10 +99,12 @@
     {
       "kind": "theorem",
       "name": "omega_coupling_value",
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/omega-coupling-value/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/omega-coupling-value/",
       "source_line_start": 99,
       "source_line_end": 118,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.D280",
         "IV.P164",
@@ -105,55 +115,67 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l124/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l124/",
       "source_line_start": 124,
       "source_line_end": 124,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l125/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l125/",
       "source_line_start": 125,
       "source_line_end": 125,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l126/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l126/",
       "source_line_start": 126,
       "source_line_end": 126,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l127/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l127/",
       "source_line_start": 127,
       "source_line_end": 127,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l128/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l128/",
       "source_line_start": 128,
       "source_line_end": 128,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l129/",
+      "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l129/",
       "source_line_start": 129,
       "source_line_end": 131,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -165,7 +187,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -246,16 +268,16 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `theorem` | [grav_coupling_value](/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/grav-coupling-value/) | L43-L54 | formalized | `IV.D276`, `IV.P160` |
-| `theorem` | [weak_coupling_value](/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/weak-coupling-value/) | L57-L68 | formalized | `IV.D277`, `IV.P161` |
-| `theorem` | [em_coupling_value](/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/em-coupling-value/) | L71-L82 | formalized | `IV.D278`, `IV.P162` |
-| `theorem` | [strong_coupling_value](/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/strong-coupling-value/) | L85-L96 | formalized | `IV.D279`, `IV.P163` |
-| `theorem` | [omega_coupling_value](/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/omega-coupling-value/) | L99-L118 | formalized | `IV.D280`, `IV.P164`, `IV.R247`, `IV.R248` |
-| `eval` | [#eval L124](/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l124/) | L124-L124 | computed | — |
-| `eval` | [#eval L125](/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l125/) | L125-L125 | computed | — |
-| `eval` | [#eval L126](/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l126/) | L126-L126 | computed | — |
-| `eval` | [#eval L127](/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l127/) | L127-L127 | computed | — |
-| `eval` | [#eval L128](/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l128/) | L128-L128 | computed | — |
-| `eval` | [#eval L129](/verify/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l129/) | L129-L131 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `theorem` | [grav_coupling_value](/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/grav-coupling-value/) | L43-L54 | proof obligation | formal proof obligation checked | `IV.D276`, `IV.P160` |
+| `theorem` | [weak_coupling_value](/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/weak-coupling-value/) | L57-L68 | proof obligation | formal proof obligation checked | `IV.D277`, `IV.P161` |
+| `theorem` | [em_coupling_value](/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/em-coupling-value/) | L71-L82 | proof obligation | formal proof obligation checked | `IV.D278`, `IV.P162` |
+| `theorem` | [strong_coupling_value](/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/strong-coupling-value/) | L85-L96 | proof obligation | formal proof obligation checked | `IV.D279`, `IV.P163` |
+| `theorem` | [omega_coupling_value](/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/omega-coupling-value/) | L99-L118 | proof obligation | formal proof obligation checked | `IV.D280`, `IV.P164`, `IV.R247`, `IV.R248` |
+| `eval` | [#eval L124](/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l124/) | L124-L124 | computed check | computed check | — |
+| `eval` | [#eval L125](/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l125/) | L125-L125 | computed check | computed check | — |
+| `eval` | [#eval L126](/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l126/) | L126-L126 | computed check | computed check | — |
+| `eval` | [#eval L127](/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l127/) | L127-L127 | computed check | computed check | — |
+| `eval` | [#eval L128](/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l128/) | L128-L128 | computed check | computed check | — |
+| `eval` | [#eval L129](/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings/eval-l129/) | L129-L131 | computed check | computed check | — |

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "no_regularization_needed",
-  "permalink": "/verify/taulib/docs/book-iv-coda-laws-as-structure/no-regularization-needed/",
+  "permalink": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/no-regularization-needed/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Coda.LawsAsStructure`.",
   "declaration_id": "TauLib.BookIV.Coda.LawsAsStructure::no_regularization_needed",
   "declaration_slug": "no-regularization-needed",
   "kind": "theorem",
   "name": "no_regularization_needed",
   "module_name": "TauLib.BookIV.Coda.LawsAsStructure",
-  "module_url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/",
+  "module_url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/",
   "source_line_start": 217,
   "source_line_end": 221,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Coda/LawsAsStructure.lean#L217-L221",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Coda.LawsAsStructure",
-        "url": "/verify/taulib/docs/book-iv-coda-laws-as-structure/"
+        "url": "/corpus/taulib/docs/book-iv-coda-laws-as-structure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Coda.LawsAsStructure](/verify/taulib/docs/book-iv-coda-laws-as-structure/)
+- Module: [TauLib.BookIV.Coda.LawsAsStructure](/corpus/taulib/docs/book-iv-coda-laws-as-structure/)
 - Source path: [`TauLib/BookIV/Coda/LawsAsStructure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Coda/LawsAsStructure.lean#L217-L221)
 - Source range: L217-L221
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

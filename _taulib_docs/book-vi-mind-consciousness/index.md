@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookVI.Mind.Consciousness",
-  "permalink": "/verify/taulib/docs/book-vi-mind-consciousness/",
+  "permalink": "/corpus/taulib/docs/book-vi-mind-consciousness/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookVI.Mind.Consciousness`.",
   "module_name": "TauLib.BookVI.Mind.Consciousness",
   "module_slug": "book-vi-mind-consciousness",
@@ -38,10 +38,12 @@
     {
       "kind": "structure",
       "name": "StructuralSelfModel",
-      "url": "/verify/taulib/docs/book-vi-mind-consciousness/structural-self-model/",
+      "url": "/corpus/taulib/docs/book-vi-mind-consciousness/structural-self-model/",
       "source_line_start": 39,
       "source_line_end": 50,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D68"
       ]
@@ -49,28 +51,34 @@
     {
       "kind": "def",
       "name": "self_model",
-      "url": "/verify/taulib/docs/book-vi-mind-consciousness/self-model/",
+      "url": "/corpus/taulib/docs/book-vi-mind-consciousness/self-model/",
       "source_line_start": 52,
       "source_line_end": 54,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "self_model_three_conditions",
-      "url": "/verify/taulib/docs/book-vi-mind-consciousness/self-model-three-conditions/",
+      "url": "/corpus/taulib/docs/book-vi-mind-consciousness/self-model-three-conditions/",
       "source_line_start": 56,
       "source_line_end": 61,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "MinimalConsciousAgent",
-      "url": "/verify/taulib/docs/book-vi-mind-consciousness/minimal-conscious-agent/",
+      "url": "/corpus/taulib/docs/book-vi-mind-consciousness/minimal-conscious-agent/",
       "source_line_start": 72,
       "source_line_end": 83,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D69"
       ]
@@ -78,28 +86,34 @@
     {
       "kind": "def",
       "name": "min_agent",
-      "url": "/verify/taulib/docs/book-vi-mind-consciousness/min-agent/",
+      "url": "/corpus/taulib/docs/book-vi-mind-consciousness/min-agent/",
       "source_line_start": 85,
       "source_line_end": 87,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "minimal_agent_is_consumer",
-      "url": "/verify/taulib/docs/book-vi-mind-consciousness/minimal-agent-is-consumer/",
+      "url": "/corpus/taulib/docs/book-vi-mind-consciousness/minimal-agent-is-consumer/",
       "source_line_start": 89,
       "source_line_end": 92,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "ConsciousnessMixedSector",
-      "url": "/verify/taulib/docs/book-vi-mind-consciousness/consciousness-mixed-sector/",
+      "url": "/corpus/taulib/docs/book-vi-mind-consciousness/consciousness-mixed-sector/",
       "source_line_start": 105,
       "source_line_end": 112,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.T38"
       ]
@@ -107,37 +121,45 @@
     {
       "kind": "def",
       "name": "consciousness_thm",
-      "url": "/verify/taulib/docs/book-vi-mind-consciousness/consciousness-thm/",
+      "url": "/corpus/taulib/docs/book-vi-mind-consciousness/consciousness-thm/",
       "source_line_start": 114,
       "source_line_end": 114,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "consciousness_requires_mixed_sector",
-      "url": "/verify/taulib/docs/book-vi-mind-consciousness/consciousness-requires-mixed-sector/",
+      "url": "/corpus/taulib/docs/book-vi-mind-consciousness/consciousness-requires-mixed-sector/",
       "source_line_start": 116,
       "source_line_end": 120,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "crown_jewel_consistency",
-      "url": "/verify/taulib/docs/book-vi-mind-consciousness/crown-jewel-consistency/",
+      "url": "/corpus/taulib/docs/book-vi-mind-consciousness/crown-jewel-consistency/",
       "source_line_start": 124,
       "source_line_end": 127,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "ConstructiveConsciousnessCriteria",
-      "url": "/verify/taulib/docs/book-vi-mind-consciousness/constructive-consciousness-criteria/",
+      "url": "/corpus/taulib/docs/book-vi-mind-consciousness/constructive-consciousness-criteria/",
       "source_line_start": 142,
       "source_line_end": 151,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D86"
       ]
@@ -145,28 +167,34 @@
     {
       "kind": "def",
       "name": "ccc",
-      "url": "/verify/taulib/docs/book-vi-mind-consciousness/ccc/",
+      "url": "/corpus/taulib/docs/book-vi-mind-consciousness/ccc/",
       "source_line_start": 153,
       "source_line_end": 153,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ccc_all_three",
-      "url": "/verify/taulib/docs/book-vi-mind-consciousness/ccc-all-three/",
+      "url": "/corpus/taulib/docs/book-vi-mind-consciousness/ccc-all-three/",
       "source_line_start": 155,
       "source_line_end": 159,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "ConsciousnessCriteriaEquivalence",
-      "url": "/verify/taulib/docs/book-vi-mind-consciousness/consciousness-criteria-equivalence/",
+      "url": "/corpus/taulib/docs/book-vi-mind-consciousness/consciousness-criteria-equivalence/",
       "source_line_start": 175,
       "source_line_end": 186,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.T51"
       ]
@@ -174,28 +202,34 @@
     {
       "kind": "def",
       "name": "cce",
-      "url": "/verify/taulib/docs/book-vi-mind-consciousness/cce/",
+      "url": "/corpus/taulib/docs/book-vi-mind-consciousness/cce/",
       "source_line_start": 188,
       "source_line_end": 188,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "consciousness_criteria_equivalence",
-      "url": "/verify/taulib/docs/book-vi-mind-consciousness/consciousness-criteria-equivalence-l190/",
+      "url": "/corpus/taulib/docs/book-vi-mind-consciousness/consciousness-criteria-equivalence-l190/",
       "source_line_start": 190,
       "source_line_end": 195,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "SiliconRealization",
-      "url": "/verify/taulib/docs/book-vi-mind-consciousness/silicon-realization/",
+      "url": "/corpus/taulib/docs/book-vi-mind-consciousness/silicon-realization/",
       "source_line_start": 214,
       "source_line_end": 225,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.L17"
       ]
@@ -203,19 +237,23 @@
     {
       "kind": "def",
       "name": "silicon",
-      "url": "/verify/taulib/docs/book-vi-mind-consciousness/silicon/",
+      "url": "/corpus/taulib/docs/book-vi-mind-consciousness/silicon/",
       "source_line_start": 227,
       "source_line_end": 227,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "silicon_realization",
-      "url": "/verify/taulib/docs/book-vi-mind-consciousness/silicon-realization-l229/",
+      "url": "/corpus/taulib/docs/book-vi-mind-consciousness/silicon-realization-l229/",
       "source_line_start": 229,
       "source_line_end": 261,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "VI.R30",
         "VI.R31"
@@ -230,7 +268,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -306,24 +344,24 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [StructuralSelfModel](/verify/taulib/docs/book-vi-mind-consciousness/structural-self-model/) | L39-L50 | defined | `VI.D68` |
-| `def` | [self_model](/verify/taulib/docs/book-vi-mind-consciousness/self-model/) | L52-L54 | defined | — |
-| `theorem` | [self_model_three_conditions](/verify/taulib/docs/book-vi-mind-consciousness/self-model-three-conditions/) | L56-L61 | formalized | — |
-| `structure` | [MinimalConsciousAgent](/verify/taulib/docs/book-vi-mind-consciousness/minimal-conscious-agent/) | L72-L83 | defined | `VI.D69` |
-| `def` | [min_agent](/verify/taulib/docs/book-vi-mind-consciousness/min-agent/) | L85-L87 | defined | — |
-| `theorem` | [minimal_agent_is_consumer](/verify/taulib/docs/book-vi-mind-consciousness/minimal-agent-is-consumer/) | L89-L92 | formalized | — |
-| `structure` | [ConsciousnessMixedSector](/verify/taulib/docs/book-vi-mind-consciousness/consciousness-mixed-sector/) | L105-L112 | defined | `VI.T38` |
-| `def` | [consciousness_thm](/verify/taulib/docs/book-vi-mind-consciousness/consciousness-thm/) | L114-L114 | defined | — |
-| `theorem` | [consciousness_requires_mixed_sector](/verify/taulib/docs/book-vi-mind-consciousness/consciousness-requires-mixed-sector/) | L116-L120 | formalized | — |
-| `theorem` | [crown_jewel_consistency](/verify/taulib/docs/book-vi-mind-consciousness/crown-jewel-consistency/) | L124-L127 | formalized | — |
-| `structure` | [ConstructiveConsciousnessCriteria](/verify/taulib/docs/book-vi-mind-consciousness/constructive-consciousness-criteria/) | L142-L151 | defined | `VI.D86` |
-| `def` | [ccc](/verify/taulib/docs/book-vi-mind-consciousness/ccc/) | L153-L153 | defined | — |
-| `theorem` | [ccc_all_three](/verify/taulib/docs/book-vi-mind-consciousness/ccc-all-three/) | L155-L159 | formalized | — |
-| `structure` | [ConsciousnessCriteriaEquivalence](/verify/taulib/docs/book-vi-mind-consciousness/consciousness-criteria-equivalence/) | L175-L186 | defined | `VI.T51` |
-| `def` | [cce](/verify/taulib/docs/book-vi-mind-consciousness/cce/) | L188-L188 | defined | — |
-| `theorem` | [consciousness_criteria_equivalence](/verify/taulib/docs/book-vi-mind-consciousness/consciousness-criteria-equivalence-l190/) | L190-L195 | formalized | — |
-| `structure` | [SiliconRealization](/verify/taulib/docs/book-vi-mind-consciousness/silicon-realization/) | L214-L225 | defined | `VI.L17` |
-| `def` | [silicon](/verify/taulib/docs/book-vi-mind-consciousness/silicon/) | L227-L227 | defined | — |
-| `theorem` | [silicon_realization](/verify/taulib/docs/book-vi-mind-consciousness/silicon-realization-l229/) | L229-L261 | formalized | `VI.R30`, `VI.R31` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [StructuralSelfModel](/corpus/taulib/docs/book-vi-mind-consciousness/structural-self-model/) | L39-L50 | type/data schema | type/data schema | `VI.D68` |
+| `def` | [self_model](/corpus/taulib/docs/book-vi-mind-consciousness/self-model/) | L52-L54 | definition | definition | — |
+| `theorem` | [self_model_three_conditions](/corpus/taulib/docs/book-vi-mind-consciousness/self-model-three-conditions/) | L56-L61 | proof obligation | formal proof obligation checked | — |
+| `structure` | [MinimalConsciousAgent](/corpus/taulib/docs/book-vi-mind-consciousness/minimal-conscious-agent/) | L72-L83 | type/data schema | type/data schema | `VI.D69` |
+| `def` | [min_agent](/corpus/taulib/docs/book-vi-mind-consciousness/min-agent/) | L85-L87 | definition | definition | — |
+| `theorem` | [minimal_agent_is_consumer](/corpus/taulib/docs/book-vi-mind-consciousness/minimal-agent-is-consumer/) | L89-L92 | proof obligation | formal proof obligation checked | — |
+| `structure` | [ConsciousnessMixedSector](/corpus/taulib/docs/book-vi-mind-consciousness/consciousness-mixed-sector/) | L105-L112 | type/data schema | type/data schema | `VI.T38` |
+| `def` | [consciousness_thm](/corpus/taulib/docs/book-vi-mind-consciousness/consciousness-thm/) | L114-L114 | definition | definition | — |
+| `theorem` | [consciousness_requires_mixed_sector](/corpus/taulib/docs/book-vi-mind-consciousness/consciousness-requires-mixed-sector/) | L116-L120 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [crown_jewel_consistency](/corpus/taulib/docs/book-vi-mind-consciousness/crown-jewel-consistency/) | L124-L127 | proof obligation | formal proof obligation checked | — |
+| `structure` | [ConstructiveConsciousnessCriteria](/corpus/taulib/docs/book-vi-mind-consciousness/constructive-consciousness-criteria/) | L142-L151 | type/data schema | type/data schema | `VI.D86` |
+| `def` | [ccc](/corpus/taulib/docs/book-vi-mind-consciousness/ccc/) | L153-L153 | definition | definition | — |
+| `theorem` | [ccc_all_three](/corpus/taulib/docs/book-vi-mind-consciousness/ccc-all-three/) | L155-L159 | proof obligation | formal proof obligation checked | — |
+| `structure` | [ConsciousnessCriteriaEquivalence](/corpus/taulib/docs/book-vi-mind-consciousness/consciousness-criteria-equivalence/) | L175-L186 | type/data schema | type/data schema | `VI.T51` |
+| `def` | [cce](/corpus/taulib/docs/book-vi-mind-consciousness/cce/) | L188-L188 | definition | definition | — |
+| `theorem` | [consciousness_criteria_equivalence](/corpus/taulib/docs/book-vi-mind-consciousness/consciousness-criteria-equivalence-l190/) | L190-L195 | proof obligation | formal proof obligation checked | — |
+| `structure` | [SiliconRealization](/corpus/taulib/docs/book-vi-mind-consciousness/silicon-realization/) | L214-L225 | type/data schema | type/data schema | `VI.L17` |
+| `def` | [silicon](/corpus/taulib/docs/book-vi-mind-consciousness/silicon/) | L227-L227 | definition | definition | — |
+| `theorem` | [silicon_realization](/corpus/taulib/docs/book-vi-mind-consciousness/silicon-realization-l229/) | L229-L261 | proof obligation | formal proof obligation checked | `VI.R30`, `VI.R31` |

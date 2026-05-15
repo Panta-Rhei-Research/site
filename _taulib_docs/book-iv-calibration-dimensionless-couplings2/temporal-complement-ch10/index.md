@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "temporal_complement_ch10",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings2/temporal-complement-ch10/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings2/temporal-complement-ch10/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Calibration.DimensionlessCouplings2`.",
   "declaration_id": "TauLib.BookIV.Calibration.DimensionlessCouplings2::temporal_complement_ch10",
   "declaration_slug": "temporal-complement-ch10",
   "kind": "theorem",
   "name": "temporal_complement_ch10",
   "module_name": "TauLib.BookIV.Calibration.DimensionlessCouplings2",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings2/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings2/",
   "source_line_start": 65,
   "source_line_end": 67,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/DimensionlessCouplings2.lean#L65-L67",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.DimensionlessCouplings2",
-        "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-couplings2/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings2/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.DimensionlessCouplings2](/verify/taulib/docs/book-iv-calibration-dimensionless-couplings2/)
+- Module: [TauLib.BookIV.Calibration.DimensionlessCouplings2](/corpus/taulib/docs/book-iv-calibration-dimensionless-couplings2/)
 - Source path: [`TauLib/BookIV/Calibration/DimensionlessCouplings2.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/DimensionlessCouplings2.lean#L65-L67)
 - Source range: L65-L67
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

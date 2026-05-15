@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "correction_factor",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/correction-factor-l129/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/correction-factor-l129/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Calibration.DimensionlessAlpha`.",
   "declaration_id": "TauLib.BookIV.Calibration.DimensionlessAlpha::correction_factor",
   "declaration_slug": "correction-factor-l129",
   "kind": "def",
   "name": "correction_factor",
   "module_name": "TauLib.BookIV.Calibration.DimensionlessAlpha",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/",
   "source_line_start": 129,
   "source_line_end": 134,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/DimensionlessAlpha.lean#L129-L134",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.DimensionlessAlpha",
-        "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.DimensionlessAlpha](/verify/taulib/docs/book-iv-calibration-dimensionless-alpha/)
+- Module: [TauLib.BookIV.Calibration.DimensionlessAlpha](/corpus/taulib/docs/book-iv-calibration-dimensionless-alpha/)
 - Source path: [`TauLib/BookIV/Calibration/DimensionlessAlpha.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/DimensionlessAlpha.lean#L129-L134)
 - Source range: L129-L134
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

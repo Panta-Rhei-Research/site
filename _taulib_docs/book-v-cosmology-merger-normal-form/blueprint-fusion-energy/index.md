@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "BlueprintFusionEnergy",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-merger-normal-form/blueprint-fusion-energy/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-merger-normal-form/blueprint-fusion-energy/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Cosmology.MergerNormalForm`.",
   "declaration_id": "TauLib.BookV.Cosmology.MergerNormalForm::BlueprintFusionEnergy",
   "declaration_slug": "blueprint-fusion-energy",
   "kind": "structure",
   "name": "BlueprintFusionEnergy",
   "module_name": "TauLib.BookV.Cosmology.MergerNormalForm",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-merger-normal-form/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-merger-normal-form/",
   "source_line_start": 366,
   "source_line_end": 370,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/MergerNormalForm.lean#L366-L370",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.MergerNormalForm",
-        "url": "/verify/taulib/docs/book-v-cosmology-merger-normal-form/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-merger-normal-form/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.MergerNormalForm](/verify/taulib/docs/book-v-cosmology-merger-normal-form/)
+- Module: [TauLib.BookV.Cosmology.MergerNormalForm](/corpus/taulib/docs/book-v-cosmology-merger-normal-form/)
 - Source path: [`TauLib/BookV/Cosmology/MergerNormalForm.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/MergerNormalForm.lean#L366-L370)
 - Source range: L366-L370
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

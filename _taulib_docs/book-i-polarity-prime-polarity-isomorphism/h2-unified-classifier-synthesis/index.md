@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "h2_unified_classifier_synthesis",
-  "permalink": "/verify/taulib/docs/book-i-polarity-prime-polarity-isomorphism/h2-unified-classifier-synthesis/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-prime-polarity-isomorphism/h2-unified-classifier-synthesis/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Polarity.PrimePolarityIsomorphism`.",
   "declaration_id": "TauLib.BookI.Polarity.PrimePolarityIsomorphism::h2_unified_classifier_synthesis",
   "declaration_slug": "h2-unified-classifier-synthesis",
   "kind": "theorem",
   "name": "h2_unified_classifier_synthesis",
   "module_name": "TauLib.BookI.Polarity.PrimePolarityIsomorphism",
-  "module_url": "/verify/taulib/docs/book-i-polarity-prime-polarity-isomorphism/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-prime-polarity-isomorphism/",
   "source_line_start": 236,
   "source_line_end": 245,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/PrimePolarityIsomorphism.lean#L236-L245",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.PrimePolarityIsomorphism",
-        "url": "/verify/taulib/docs/book-i-polarity-prime-polarity-isomorphism/"
+        "url": "/corpus/taulib/docs/book-i-polarity-prime-polarity-isomorphism/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.PrimePolarityIsomorphism](/verify/taulib/docs/book-i-polarity-prime-polarity-isomorphism/)
+- Module: [TauLib.BookI.Polarity.PrimePolarityIsomorphism](/corpus/taulib/docs/book-i-polarity-prime-polarity-isomorphism/)
 - Source path: [`TauLib/BookI/Polarity/PrimePolarityIsomorphism.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/PrimePolarityIsomorphism.lean#L236-L245)
 - Source range: L236-L245
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

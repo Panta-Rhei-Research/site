@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L319",
-  "permalink": "/verify/taulib/docs/book-v-orthodox-other-approaches/eval-l319/",
+  "permalink": "/corpus/taulib/docs/book-v-orthodox-other-approaches/eval-l319/",
   "summary_short": "`eval` declaration in `TauLib.BookV.Orthodox.OtherApproaches`.",
   "declaration_id": "TauLib.BookV.Orthodox.OtherApproaches::#eval:319",
   "declaration_slug": "eval-l319",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.Orthodox.OtherApproaches",
-  "module_url": "/verify/taulib/docs/book-v-orthodox-other-approaches/",
+  "module_url": "/corpus/taulib/docs/book-v-orthodox-other-approaches/",
   "source_line_start": 319,
   "source_line_end": 321,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/OtherApproaches.lean#L319-L321",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Orthodox.OtherApproaches",
-        "url": "/verify/taulib/docs/book-v-orthodox-other-approaches/"
+        "url": "/corpus/taulib/docs/book-v-orthodox-other-approaches/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Orthodox.OtherApproaches](/verify/taulib/docs/book-v-orthodox-other-approaches/)
+- Module: [TauLib.BookV.Orthodox.OtherApproaches](/corpus/taulib/docs/book-v-orthodox-other-approaches/)
 - Source path: [`TauLib/BookV/Orthodox/OtherApproaches.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/OtherApproaches.lean#L319-L321)
 - Source range: L319-L321
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

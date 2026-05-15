@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.Temporal.CosmicAPI",
-  "permalink": "/verify/taulib/docs/book-v-temporal-cosmic-api/",
+  "permalink": "/corpus/taulib/docs/book-v-temporal-cosmic-api/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.Temporal.CosmicAPI`.",
   "module_name": "TauLib.BookV.Temporal.CosmicAPI",
   "module_slug": "book-v-temporal-cosmic-api",
@@ -34,28 +34,34 @@
     {
       "kind": "inductive",
       "name": "APIScope",
-      "url": "/verify/taulib/docs/book-v-temporal-cosmic-api/apiscope/",
+      "url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/apiscope/",
       "source_line_start": 56,
       "source_line_end": 59,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "APIItem",
-      "url": "/verify/taulib/docs/book-v-temporal-cosmic-api/apiitem/",
+      "url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/apiitem/",
       "source_line_start": 66,
       "source_line_end": 73,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "cosmic_stack_api",
-      "url": "/verify/taulib/docs/book-v-temporal-cosmic-api/cosmic-stack-api/",
+      "url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/cosmic-stack-api/",
       "source_line_start": 91,
       "source_line_end": 118,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "V.D40"
       ]
@@ -63,10 +69,12 @@
     {
       "kind": "structure",
       "name": "CosmicStackAPI",
-      "url": "/verify/taulib/docs/book-v-temporal-cosmic-api/cosmic-stack-api-l126/",
+      "url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/cosmic-stack-api-l126/",
       "source_line_start": 126,
       "source_line_end": 135,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D40"
       ]
@@ -74,19 +82,23 @@
     {
       "kind": "def",
       "name": "cosmic_stack_summary",
-      "url": "/verify/taulib/docs/book-v-temporal-cosmic-api/cosmic-stack-summary/",
+      "url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/cosmic-stack-summary/",
       "source_line_start": 138,
       "source_line_end": 142,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "api_item_count",
-      "url": "/verify/taulib/docs/book-v-temporal-cosmic-api/api-item-count/",
+      "url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/api-item-count/",
       "source_line_start": 149,
       "source_line_end": 149,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.D40"
       ]
@@ -94,10 +106,12 @@
     {
       "kind": "theorem",
       "name": "api_scope_distribution",
-      "url": "/verify/taulib/docs/book-v-temporal-cosmic-api/api-scope-distribution/",
+      "url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/api-scope-distribution/",
       "source_line_start": 152,
       "source_line_end": 155,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.R52"
       ]
@@ -105,127 +119,155 @@
     {
       "kind": "theorem",
       "name": "api_complete",
-      "url": "/verify/taulib/docs/book-v-temporal-cosmic-api/api-complete/",
+      "url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/api-complete/",
       "source_line_start": 158,
       "source_line_end": 162,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "summary_matches_list",
-      "url": "/verify/taulib/docs/book-v-temporal-cosmic-api/summary-matches-list/",
+      "url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/summary-matches-list/",
       "source_line_start": 165,
       "source_line_end": 166,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "all_items_have_ids",
-      "url": "/verify/taulib/docs/book-v-temporal-cosmic-api/all-items-have-ids/",
+      "url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/all-items-have-ids/",
       "source_line_start": 169,
       "source_line_end": 170,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "all_items_have_names",
-      "url": "/verify/taulib/docs/book-v-temporal-cosmic-api/all-items-have-names/",
+      "url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/all-items-have-names/",
       "source_line_start": 173,
       "source_line_end": 174,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "conjectural_items_identified",
-      "url": "/verify/taulib/docs/book-v-temporal-cosmic-api/conjectural-items-identified/",
+      "url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/conjectural-items-identified/",
       "source_line_start": 177,
       "source_line_end": 179,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "minimum_id_length",
-      "url": "/verify/taulib/docs/book-v-temporal-cosmic-api/minimum-id-length/",
+      "url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/minimum-id-length/",
       "source_line_start": 182,
       "source_line_end": 183,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-temporal-cosmic-api/eval-l190/",
+      "url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/eval-l190/",
       "source_line_start": 190,
       "source_line_end": 190,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-temporal-cosmic-api/eval-l193/",
+      "url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/eval-l193/",
       "source_line_start": 193,
       "source_line_end": 193,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-temporal-cosmic-api/eval-l194/",
+      "url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/eval-l194/",
       "source_line_start": 194,
       "source_line_end": 194,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-temporal-cosmic-api/eval-l197/",
+      "url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/eval-l197/",
       "source_line_start": 197,
       "source_line_end": 197,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-temporal-cosmic-api/eval-l198/",
+      "url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/eval-l198/",
       "source_line_start": 198,
       "source_line_end": 198,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-temporal-cosmic-api/eval-l199/",
+      "url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/eval-l199/",
       "source_line_start": 199,
       "source_line_end": 199,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-temporal-cosmic-api/eval-l202/",
+      "url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/eval-l202/",
       "source_line_start": 202,
       "source_line_end": 202,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-temporal-cosmic-api/eval-l203/",
+      "url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/eval-l203/",
       "source_line_start": 203,
       "source_line_end": 205,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -237,7 +279,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -309,26 +351,26 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [APIScope](/verify/taulib/docs/book-v-temporal-cosmic-api/apiscope/) | L56-L59 | defined | — |
-| `structure` | [APIItem](/verify/taulib/docs/book-v-temporal-cosmic-api/apiitem/) | L66-L73 | defined | — |
-| `def` | [cosmic_stack_api](/verify/taulib/docs/book-v-temporal-cosmic-api/cosmic-stack-api/) | L91-L118 | defined | `V.D40` |
-| `structure` | [CosmicStackAPI](/verify/taulib/docs/book-v-temporal-cosmic-api/cosmic-stack-api-l126/) | L126-L135 | defined | `V.D40` |
-| `def` | [cosmic_stack_summary](/verify/taulib/docs/book-v-temporal-cosmic-api/cosmic-stack-summary/) | L138-L142 | defined | — |
-| `theorem` | [api_item_count](/verify/taulib/docs/book-v-temporal-cosmic-api/api-item-count/) | L149-L149 | formalized | `V.D40` |
-| `theorem` | [api_scope_distribution](/verify/taulib/docs/book-v-temporal-cosmic-api/api-scope-distribution/) | L152-L155 | formalized | `V.R52` |
-| `theorem` | [api_complete](/verify/taulib/docs/book-v-temporal-cosmic-api/api-complete/) | L158-L162 | formalized | — |
-| `theorem` | [summary_matches_list](/verify/taulib/docs/book-v-temporal-cosmic-api/summary-matches-list/) | L165-L166 | formalized | — |
-| `theorem` | [all_items_have_ids](/verify/taulib/docs/book-v-temporal-cosmic-api/all-items-have-ids/) | L169-L170 | formalized | — |
-| `theorem` | [all_items_have_names](/verify/taulib/docs/book-v-temporal-cosmic-api/all-items-have-names/) | L173-L174 | formalized | — |
-| `theorem` | [conjectural_items_identified](/verify/taulib/docs/book-v-temporal-cosmic-api/conjectural-items-identified/) | L177-L179 | formalized | — |
-| `theorem` | [minimum_id_length](/verify/taulib/docs/book-v-temporal-cosmic-api/minimum-id-length/) | L182-L183 | formalized | — |
-| `eval` | [#eval L190](/verify/taulib/docs/book-v-temporal-cosmic-api/eval-l190/) | L190-L190 | computed | — |
-| `eval` | [#eval L193](/verify/taulib/docs/book-v-temporal-cosmic-api/eval-l193/) | L193-L193 | computed | — |
-| `eval` | [#eval L194](/verify/taulib/docs/book-v-temporal-cosmic-api/eval-l194/) | L194-L194 | computed | — |
-| `eval` | [#eval L197](/verify/taulib/docs/book-v-temporal-cosmic-api/eval-l197/) | L197-L197 | computed | — |
-| `eval` | [#eval L198](/verify/taulib/docs/book-v-temporal-cosmic-api/eval-l198/) | L198-L198 | computed | — |
-| `eval` | [#eval L199](/verify/taulib/docs/book-v-temporal-cosmic-api/eval-l199/) | L199-L199 | computed | — |
-| `eval` | [#eval L202](/verify/taulib/docs/book-v-temporal-cosmic-api/eval-l202/) | L202-L202 | computed | — |
-| `eval` | [#eval L203](/verify/taulib/docs/book-v-temporal-cosmic-api/eval-l203/) | L203-L205 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [APIScope](/corpus/taulib/docs/book-v-temporal-cosmic-api/apiscope/) | L56-L59 | type/data schema | type/data schema | — |
+| `structure` | [APIItem](/corpus/taulib/docs/book-v-temporal-cosmic-api/apiitem/) | L66-L73 | type/data schema | type/data schema | — |
+| `def` | [cosmic_stack_api](/corpus/taulib/docs/book-v-temporal-cosmic-api/cosmic-stack-api/) | L91-L118 | data/computed value | data/computed value | `V.D40` |
+| `structure` | [CosmicStackAPI](/corpus/taulib/docs/book-v-temporal-cosmic-api/cosmic-stack-api-l126/) | L126-L135 | type/data schema | type/data schema | `V.D40` |
+| `def` | [cosmic_stack_summary](/corpus/taulib/docs/book-v-temporal-cosmic-api/cosmic-stack-summary/) | L138-L142 | definition | definition | — |
+| `theorem` | [api_item_count](/corpus/taulib/docs/book-v-temporal-cosmic-api/api-item-count/) | L149-L149 | proof obligation | formal proof obligation checked | `V.D40` |
+| `theorem` | [api_scope_distribution](/corpus/taulib/docs/book-v-temporal-cosmic-api/api-scope-distribution/) | L152-L155 | proof obligation | formal proof obligation checked | `V.R52` |
+| `theorem` | [api_complete](/corpus/taulib/docs/book-v-temporal-cosmic-api/api-complete/) | L158-L162 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [summary_matches_list](/corpus/taulib/docs/book-v-temporal-cosmic-api/summary-matches-list/) | L165-L166 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [all_items_have_ids](/corpus/taulib/docs/book-v-temporal-cosmic-api/all-items-have-ids/) | L169-L170 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [all_items_have_names](/corpus/taulib/docs/book-v-temporal-cosmic-api/all-items-have-names/) | L173-L174 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [conjectural_items_identified](/corpus/taulib/docs/book-v-temporal-cosmic-api/conjectural-items-identified/) | L177-L179 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [minimum_id_length](/corpus/taulib/docs/book-v-temporal-cosmic-api/minimum-id-length/) | L182-L183 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L190](/corpus/taulib/docs/book-v-temporal-cosmic-api/eval-l190/) | L190-L190 | computed check | computed check | — |
+| `eval` | [#eval L193](/corpus/taulib/docs/book-v-temporal-cosmic-api/eval-l193/) | L193-L193 | computed check | computed check | — |
+| `eval` | [#eval L194](/corpus/taulib/docs/book-v-temporal-cosmic-api/eval-l194/) | L194-L194 | computed check | computed check | — |
+| `eval` | [#eval L197](/corpus/taulib/docs/book-v-temporal-cosmic-api/eval-l197/) | L197-L197 | computed check | computed check | — |
+| `eval` | [#eval L198](/corpus/taulib/docs/book-v-temporal-cosmic-api/eval-l198/) | L198-L198 | computed check | computed check | — |
+| `eval` | [#eval L199](/corpus/taulib/docs/book-v-temporal-cosmic-api/eval-l199/) | L199-L199 | computed check | computed check | — |
+| `eval` | [#eval L202](/corpus/taulib/docs/book-v-temporal-cosmic-api/eval-l202/) | L202-L202 | computed check | computed check | — |
+| `eval` | [#eval L203](/corpus/taulib/docs/book-v-temporal-cosmic-api/eval-l203/) | L203-L205 | computed check | computed check | — |

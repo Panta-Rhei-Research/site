@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L187",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-dholomorphic/eval-l187/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-dholomorphic/eval-l187/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Holomorphy.DHolomorphic`.",
   "declaration_id": "TauLib.BookI.Holomorphy.DHolomorphic::#eval:187",
   "declaration_slug": "eval-l187",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Holomorphy.DHolomorphic",
-  "module_url": "/verify/taulib/docs/book-i-holomorphy-dholomorphic/",
+  "module_url": "/corpus/taulib/docs/book-i-holomorphy-dholomorphic/",
   "source_line_start": 187,
   "source_line_end": 187,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/DHolomorphic.lean#L187-L187",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Holomorphy.DHolomorphic",
-        "url": "/verify/taulib/docs/book-i-holomorphy-dholomorphic/"
+        "url": "/corpus/taulib/docs/book-i-holomorphy-dholomorphic/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Holomorphy.DHolomorphic](/verify/taulib/docs/book-i-holomorphy-dholomorphic/)
+- Module: [TauLib.BookI.Holomorphy.DHolomorphic](/corpus/taulib/docs/book-i-holomorphy-dholomorphic/)
 - Source path: [`TauLib/BookI/Holomorphy/DHolomorphic.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/DHolomorphic.lean#L187-L187)
 - Source range: L187-L187
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

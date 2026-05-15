@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "defect_1_is_zero",
-  "permalink": "/verify/taulib/docs/book-iii-physics-positive-regularity/defect-1-is-zero/",
+  "permalink": "/corpus/taulib/docs/book-iii-physics-positive-regularity/defect-1-is-zero/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Physics.PositiveRegularity`.",
   "declaration_id": "TauLib.BookIII.Physics.PositiveRegularity::defect_1_is_zero",
   "declaration_slug": "defect-1-is-zero",
   "kind": "theorem",
   "name": "defect_1_is_zero",
   "module_name": "TauLib.BookIII.Physics.PositiveRegularity",
-  "module_url": "/verify/taulib/docs/book-iii-physics-positive-regularity/",
+  "module_url": "/corpus/taulib/docs/book-iii-physics-positive-regularity/",
   "source_line_start": 227,
   "source_line_end": 228,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/PositiveRegularity.lean#L227-L228",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Physics.PositiveRegularity",
-        "url": "/verify/taulib/docs/book-iii-physics-positive-regularity/"
+        "url": "/corpus/taulib/docs/book-iii-physics-positive-regularity/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Physics.PositiveRegularity](/verify/taulib/docs/book-iii-physics-positive-regularity/)
+- Module: [TauLib.BookIII.Physics.PositiveRegularity](/corpus/taulib/docs/book-iii-physics-positive-regularity/)
 - Source path: [`TauLib/BookIII/Physics/PositiveRegularity.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/PositiveRegularity.lean#L227-L228)
 - Source range: L227-L228
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "krebs_cycle_loop",
-  "permalink": "/verify/taulib/docs/book-vi-agency-metabolic-energy/krebs-cycle-loop-l148/",
+  "permalink": "/corpus/taulib/docs/book-vi-agency-metabolic-energy/krebs-cycle-loop-l148/",
   "summary_short": "`theorem` declaration in `TauLib.BookVI.Agency.MetabolicEnergy`.",
   "declaration_id": "TauLib.BookVI.Agency.MetabolicEnergy::krebs_cycle_loop",
   "declaration_slug": "krebs-cycle-loop-l148",
   "kind": "theorem",
   "name": "krebs_cycle_loop",
   "module_name": "TauLib.BookVI.Agency.MetabolicEnergy",
-  "module_url": "/verify/taulib/docs/book-vi-agency-metabolic-energy/",
+  "module_url": "/corpus/taulib/docs/book-vi-agency-metabolic-energy/",
   "source_line_start": 148,
   "source_line_end": 152,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Agency/MetabolicEnergy.lean#L148-L152",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Agency.MetabolicEnergy",
-        "url": "/verify/taulib/docs/book-vi-agency-metabolic-energy/"
+        "url": "/corpus/taulib/docs/book-vi-agency-metabolic-energy/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Agency.MetabolicEnergy](/verify/taulib/docs/book-vi-agency-metabolic-energy/)
+- Module: [TauLib.BookVI.Agency.MetabolicEnergy](/corpus/taulib/docs/book-vi-agency-metabolic-energy/)
 - Source path: [`TauLib/BookVI/Agency/MetabolicEnergy.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Agency/MetabolicEnergy.lean#L148-L152)
 - Source range: L148-L152
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

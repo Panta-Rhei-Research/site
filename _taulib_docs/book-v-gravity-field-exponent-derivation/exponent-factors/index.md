@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ExponentFactors",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-exponent-derivation/exponent-factors/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-exponent-derivation/exponent-factors/",
   "summary_short": "`structure` declaration in `TauLib.BookV.GravityField.ExponentDerivation`.",
   "declaration_id": "TauLib.BookV.GravityField.ExponentDerivation::ExponentFactors",
   "declaration_slug": "exponent-factors",
   "kind": "structure",
   "name": "ExponentFactors",
   "module_name": "TauLib.BookV.GravityField.ExponentDerivation",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-exponent-derivation/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-exponent-derivation/",
   "source_line_start": 89,
   "source_line_end": 98,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/ExponentDerivation.lean#L89-L98",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.ExponentDerivation",
-        "url": "/verify/taulib/docs/book-v-gravity-field-exponent-derivation/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-exponent-derivation/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.ExponentDerivation](/verify/taulib/docs/book-v-gravity-field-exponent-derivation/)
+- Module: [TauLib.BookV.GravityField.ExponentDerivation](/corpus/taulib/docs/book-v-gravity-field-exponent-derivation/)
 - Source path: [`TauLib/BookV/GravityField/ExponentDerivation.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/ExponentDerivation.lean#L89-L98)
 - Source range: L89-L98
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

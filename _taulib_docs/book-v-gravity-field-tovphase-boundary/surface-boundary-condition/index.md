@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "SurfaceBoundaryCondition",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-tovphase-boundary/surface-boundary-condition/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-tovphase-boundary/surface-boundary-condition/",
   "summary_short": "`structure` declaration in `TauLib.BookV.GravityField.TOVPhaseBoundary`.",
   "declaration_id": "TauLib.BookV.GravityField.TOVPhaseBoundary::SurfaceBoundaryCondition",
   "declaration_slug": "surface-boundary-condition",
   "kind": "structure",
   "name": "SurfaceBoundaryCondition",
   "module_name": "TauLib.BookV.GravityField.TOVPhaseBoundary",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-tovphase-boundary/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-tovphase-boundary/",
   "source_line_start": 175,
   "source_line_end": 184,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/TOVPhaseBoundary.lean#L175-L184",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.TOVPhaseBoundary",
-        "url": "/verify/taulib/docs/book-v-gravity-field-tovphase-boundary/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-tovphase-boundary/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.TOVPhaseBoundary](/verify/taulib/docs/book-v-gravity-field-tovphase-boundary/)
+- Module: [TauLib.BookV.GravityField.TOVPhaseBoundary](/corpus/taulib/docs/book-v-gravity-field-tovphase-boundary/)
 - Source path: [`TauLib/BookV/GravityField/TOVPhaseBoundary.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/TOVPhaseBoundary.lean#L175-L184)
 - Source range: L175-L184
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

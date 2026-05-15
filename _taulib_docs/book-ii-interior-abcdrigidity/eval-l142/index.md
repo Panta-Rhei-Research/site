@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L142",
-  "permalink": "/verify/taulib/docs/book-ii-interior-abcdrigidity/eval-l142/",
+  "permalink": "/corpus/taulib/docs/book-ii-interior-abcdrigidity/eval-l142/",
   "summary_short": "`eval` declaration in `TauLib.BookII.Interior.ABCDRigidity`.",
   "declaration_id": "TauLib.BookII.Interior.ABCDRigidity::#eval:142",
   "declaration_slug": "eval-l142",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookII.Interior.ABCDRigidity",
-  "module_url": "/verify/taulib/docs/book-ii-interior-abcdrigidity/",
+  "module_url": "/corpus/taulib/docs/book-ii-interior-abcdrigidity/",
   "source_line_start": 142,
   "source_line_end": 142,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Interior/ABCDRigidity.lean#L142-L142",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Interior.ABCDRigidity",
-        "url": "/verify/taulib/docs/book-ii-interior-abcdrigidity/"
+        "url": "/corpus/taulib/docs/book-ii-interior-abcdrigidity/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Interior.ABCDRigidity](/verify/taulib/docs/book-ii-interior-abcdrigidity/)
+- Module: [TauLib.BookII.Interior.ABCDRigidity](/corpus/taulib/docs/book-ii-interior-abcdrigidity/)
 - Source path: [`TauLib/BookII/Interior/ABCDRigidity.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Interior/ABCDRigidity.lean#L142-L142)
 - Source range: L142-L142
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

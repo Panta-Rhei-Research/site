@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "primarySectors",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-sector-exhaustion/primary-sectors/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-sector-exhaustion/primary-sectors/",
   "summary_short": "`def` declaration in `TauLib.BookV.Astrophysics.SectorExhaustion`.",
   "declaration_id": "TauLib.BookV.Astrophysics.SectorExhaustion::primarySectors",
   "declaration_slug": "primary-sectors",
   "kind": "def",
   "name": "primarySectors",
   "module_name": "TauLib.BookV.Astrophysics.SectorExhaustion",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-sector-exhaustion/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-sector-exhaustion/",
   "source_line_start": 112,
   "source_line_end": 124,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/SectorExhaustion.lean#L112-L124",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.SectorExhaustion",
-        "url": "/verify/taulib/docs/book-v-astrophysics-sector-exhaustion/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-sector-exhaustion/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.SectorExhaustion](/verify/taulib/docs/book-v-astrophysics-sector-exhaustion/)
+- Module: [TauLib.BookV.Astrophysics.SectorExhaustion](/corpus/taulib/docs/book-v-astrophysics-sector-exhaustion/)
 - Source path: [`TauLib/BookV/Astrophysics/SectorExhaustion.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/SectorExhaustion.lean#L112-L124)
 - Source range: L112-L124
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

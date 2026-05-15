@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "superfluid_signature",
-  "permalink": "/verify/taulib/docs/book-iv-physics-defect-functional/superfluid-signature/",
+  "permalink": "/corpus/taulib/docs/book-iv-physics-defect-functional/superfluid-signature/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Physics.DefectFunctional`.",
   "declaration_id": "TauLib.BookIV.Physics.DefectFunctional::superfluid_signature",
   "declaration_slug": "superfluid-signature",
   "kind": "def",
   "name": "superfluid_signature",
   "module_name": "TauLib.BookIV.Physics.DefectFunctional",
-  "module_url": "/verify/taulib/docs/book-iv-physics-defect-functional/",
+  "module_url": "/corpus/taulib/docs/book-iv-physics-defect-functional/",
   "source_line_start": 221,
   "source_line_end": 228,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/DefectFunctional.lean#L221-L228",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Physics.DefectFunctional",
-        "url": "/verify/taulib/docs/book-iv-physics-defect-functional/"
+        "url": "/corpus/taulib/docs/book-iv-physics-defect-functional/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Physics.DefectFunctional](/verify/taulib/docs/book-iv-physics-defect-functional/)
+- Module: [TauLib.BookIV.Physics.DefectFunctional](/corpus/taulib/docs/book-iv-physics-defect-functional/)
 - Source path: [`TauLib/BookIV/Physics/DefectFunctional.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Physics/DefectFunctional.lean#L221-L228)
 - Source range: L221-L228
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

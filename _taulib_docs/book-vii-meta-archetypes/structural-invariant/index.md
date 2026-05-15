@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "StructuralInvariant",
-  "permalink": "/verify/taulib/docs/book-vii-meta-archetypes/structural-invariant/",
+  "permalink": "/corpus/taulib/docs/book-vii-meta-archetypes/structural-invariant/",
   "summary_short": "`structure` declaration in `TauLib.BookVII.Meta.Archetypes`.",
   "declaration_id": "TauLib.BookVII.Meta.Archetypes::StructuralInvariant",
   "declaration_slug": "structural-invariant",
   "kind": "structure",
   "name": "StructuralInvariant",
   "module_name": "TauLib.BookVII.Meta.Archetypes",
-  "module_url": "/verify/taulib/docs/book-vii-meta-archetypes/",
+  "module_url": "/corpus/taulib/docs/book-vii-meta-archetypes/",
   "source_line_start": 70,
   "source_line_end": 77,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Meta/Archetypes.lean#L70-L77",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVII.Meta.Archetypes",
-        "url": "/verify/taulib/docs/book-vii-meta-archetypes/"
+        "url": "/corpus/taulib/docs/book-vii-meta-archetypes/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVII.Meta.Archetypes](/verify/taulib/docs/book-vii-meta-archetypes/)
+- Module: [TauLib.BookVII.Meta.Archetypes](/corpus/taulib/docs/book-vii-meta-archetypes/)
 - Source path: [`TauLib/BookVII/Meta/Archetypes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Meta/Archetypes.lean#L70-L77)
 - Source range: L70-L77
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Orbit.TooFew",
-  "permalink": "/verify/taulib/docs/book-i-orbit-too-few/",
+  "permalink": "/corpus/taulib/docs/book-i-orbit-too-few/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Orbit.TooFew`.",
   "module_name": "TauLib.BookI.Orbit.TooFew",
   "module_slug": "book-i-orbit-too-few",
@@ -30,118 +30,144 @@
     {
       "kind": "inductive",
       "name": "Gen4",
-      "url": "/verify/taulib/docs/book-i-orbit-too-few/gen4/",
+      "url": "/corpus/taulib/docs/book-i-orbit-too-few/gen4/",
       "source_line_start": 38,
       "source_line_end": 45,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "Gen4.toNat",
-      "url": "/verify/taulib/docs/book-i-orbit-too-few/to-nat/",
+      "url": "/corpus/taulib/docs/book-i-orbit-too-few/to-nat/",
       "source_line_start": 48,
       "source_line_end": 52,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "solenoidal4",
-      "url": "/verify/taulib/docs/book-i-orbit-too-few/solenoidal4/",
+      "url": "/corpus/taulib/docs/book-i-orbit-too-few/solenoidal4/",
       "source_line_start": 59,
       "source_line_end": 59,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "solenoidal4_count",
-      "url": "/verify/taulib/docs/book-i-orbit-too-few/solenoidal4-count/",
+      "url": "/corpus/taulib/docs/book-i-orbit-too-few/solenoidal4-count/",
       "source_line_start": 62,
       "source_line_end": 62,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "inductive",
       "name": "Ladder4Level",
-      "url": "/verify/taulib/docs/book-i-orbit-too-few/ladder4-level/",
+      "url": "/corpus/taulib/docs/book-i-orbit-too-few/ladder4-level/",
       "source_line_start": 65,
       "source_line_end": 70,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "ladder4Channel",
-      "url": "/verify/taulib/docs/book-i-orbit-too-few/ladder4-channel/",
+      "url": "/corpus/taulib/docs/book-i-orbit-too-few/ladder4-channel/",
       "source_line_start": 74,
       "source_line_end": 78,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "four_gen_exp_no_channel",
-      "url": "/verify/taulib/docs/book-i-orbit-too-few/four-gen-exp-no-channel/",
+      "url": "/corpus/taulib/docs/book-i-orbit-too-few/four-gen-exp-no-channel/",
       "source_line_start": 85,
       "source_line_end": 85,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "solenoidal4_deficit",
-      "url": "/verify/taulib/docs/book-i-orbit-too-few/solenoidal4-deficit/",
+      "url": "/corpus/taulib/docs/book-i-orbit-too-few/solenoidal4-deficit/",
       "source_line_start": 88,
       "source_line_end": 88,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "four_gen_ladder_incomplete",
-      "url": "/verify/taulib/docs/book-i-orbit-too-few/four-gen-ladder-incomplete/",
+      "url": "/corpus/taulib/docs/book-i-orbit-too-few/four-gen-ladder-incomplete/",
       "source_line_start": 98,
       "source_line_end": 100,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "Obj4",
-      "url": "/verify/taulib/docs/book-i-orbit-too-few/obj4/",
+      "url": "/corpus/taulib/docs/book-i-orbit-too-few/obj4/",
       "source_line_start": 107,
       "source_line_end": 110,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "rho4",
-      "url": "/verify/taulib/docs/book-i-orbit-too-few/rho4/",
+      "url": "/corpus/taulib/docs/book-i-orbit-too-few/rho4/",
       "source_line_start": 113,
       "source_line_end": 116,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "four_gen_order_rigid",
-      "url": "/verify/taulib/docs/book-i-orbit-too-few/four-gen-order-rigid/",
+      "url": "/corpus/taulib/docs/book-i-orbit-too-few/four-gen-order-rigid/",
       "source_line_start": 122,
       "source_line_end": 162,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "four_gen_rigidity_holds",
-      "url": "/verify/taulib/docs/book-i-orbit-too-few/four-gen-rigidity-holds/",
+      "url": "/corpus/taulib/docs/book-i-orbit-too-few/four-gen-rigidity-holds/",
       "source_line_start": 172,
       "source_line_end": 180,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -153,7 +179,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -223,18 +249,18 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [Gen4](/verify/taulib/docs/book-i-orbit-too-few/gen4/) | L38-L45 | defined | — |
-| `def` | [Gen4.toNat](/verify/taulib/docs/book-i-orbit-too-few/to-nat/) | L48-L52 | defined | — |
-| `def` | [solenoidal4](/verify/taulib/docs/book-i-orbit-too-few/solenoidal4/) | L59-L59 | defined | — |
-| `theorem` | [solenoidal4_count](/verify/taulib/docs/book-i-orbit-too-few/solenoidal4-count/) | L62-L62 | formalized | — |
-| `inductive` | [Ladder4Level](/verify/taulib/docs/book-i-orbit-too-few/ladder4-level/) | L65-L70 | defined | — |
-| `def` | [ladder4Channel](/verify/taulib/docs/book-i-orbit-too-few/ladder4-channel/) | L74-L78 | defined | — |
-| `theorem` | [four_gen_exp_no_channel](/verify/taulib/docs/book-i-orbit-too-few/four-gen-exp-no-channel/) | L85-L85 | formalized | — |
-| `theorem` | [solenoidal4_deficit](/verify/taulib/docs/book-i-orbit-too-few/solenoidal4-deficit/) | L88-L88 | formalized | — |
-| `theorem` | [four_gen_ladder_incomplete](/verify/taulib/docs/book-i-orbit-too-few/four-gen-ladder-incomplete/) | L98-L100 | formalized | — |
-| `structure` | [Obj4](/verify/taulib/docs/book-i-orbit-too-few/obj4/) | L107-L110 | defined | — |
-| `def` | [rho4](/verify/taulib/docs/book-i-orbit-too-few/rho4/) | L113-L116 | defined | — |
-| `theorem` | [four_gen_order_rigid](/verify/taulib/docs/book-i-orbit-too-few/four-gen-order-rigid/) | L122-L162 | formalized | — |
-| `theorem` | [four_gen_rigidity_holds](/verify/taulib/docs/book-i-orbit-too-few/four-gen-rigidity-holds/) | L172-L180 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [Gen4](/corpus/taulib/docs/book-i-orbit-too-few/gen4/) | L38-L45 | type/data schema | type/data schema | — |
+| `def` | [Gen4.toNat](/corpus/taulib/docs/book-i-orbit-too-few/to-nat/) | L48-L52 | definition | definition | — |
+| `def` | [solenoidal4](/corpus/taulib/docs/book-i-orbit-too-few/solenoidal4/) | L59-L59 | data/computed value | data/computed value | — |
+| `theorem` | [solenoidal4_count](/corpus/taulib/docs/book-i-orbit-too-few/solenoidal4-count/) | L62-L62 | proof obligation | formal proof obligation checked | — |
+| `inductive` | [Ladder4Level](/corpus/taulib/docs/book-i-orbit-too-few/ladder4-level/) | L65-L70 | type/data schema | type/data schema | — |
+| `def` | [ladder4Channel](/corpus/taulib/docs/book-i-orbit-too-few/ladder4-channel/) | L74-L78 | definition | definition | — |
+| `theorem` | [four_gen_exp_no_channel](/corpus/taulib/docs/book-i-orbit-too-few/four-gen-exp-no-channel/) | L85-L85 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [solenoidal4_deficit](/corpus/taulib/docs/book-i-orbit-too-few/solenoidal4-deficit/) | L88-L88 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [four_gen_ladder_incomplete](/corpus/taulib/docs/book-i-orbit-too-few/four-gen-ladder-incomplete/) | L98-L100 | proof obligation | formal proof obligation checked | — |
+| `structure` | [Obj4](/corpus/taulib/docs/book-i-orbit-too-few/obj4/) | L107-L110 | type/data schema | type/data schema | — |
+| `def` | [rho4](/corpus/taulib/docs/book-i-orbit-too-few/rho4/) | L113-L116 | definition | definition | — |
+| `theorem` | [four_gen_order_rigid](/corpus/taulib/docs/book-i-orbit-too-few/four-gen-order-rigid/) | L122-L162 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [four_gen_rigidity_holds](/corpus/taulib/docs/book-i-orbit-too-few/four-gen-rigidity-holds/) | L172-L180 | proof obligation | formal proof obligation checked | — |

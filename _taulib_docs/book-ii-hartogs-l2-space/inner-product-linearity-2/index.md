@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "inner_product_linearity_2",
-  "permalink": "/verify/taulib/docs/book-ii-hartogs-l2-space/inner-product-linearity-2/",
+  "permalink": "/corpus/taulib/docs/book-ii-hartogs-l2-space/inner-product-linearity-2/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Hartogs.L2Space`.",
   "declaration_id": "TauLib.BookII.Hartogs.L2Space::inner_product_linearity_2",
   "declaration_slug": "inner-product-linearity-2",
   "kind": "theorem",
   "name": "inner_product_linearity_2",
   "module_name": "TauLib.BookII.Hartogs.L2Space",
-  "module_url": "/verify/taulib/docs/book-ii-hartogs-l2-space/",
+  "module_url": "/corpus/taulib/docs/book-ii-hartogs-l2-space/",
   "source_line_start": 195,
   "source_line_end": 198,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/L2Space.lean#L195-L198",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Hartogs.L2Space",
-        "url": "/verify/taulib/docs/book-ii-hartogs-l2-space/"
+        "url": "/corpus/taulib/docs/book-ii-hartogs-l2-space/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Hartogs.L2Space](/verify/taulib/docs/book-ii-hartogs-l2-space/)
+- Module: [TauLib.BookII.Hartogs.L2Space](/corpus/taulib/docs/book-ii-hartogs-l2-space/)
 - Source path: [`TauLib/BookII/Hartogs/L2Space.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/L2Space.lean#L195-L198)
 - Source range: L195-L198
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

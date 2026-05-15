@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "AccessibilityMorphism",
-  "permalink": "/verify/taulib/docs/book-vii-ethics-ciproof/accessibility-morphism/",
+  "permalink": "/corpus/taulib/docs/book-vii-ethics-ciproof/accessibility-morphism/",
   "summary_short": "`structure` declaration in `TauLib.BookVII.Ethics.CIProof`.",
   "declaration_id": "TauLib.BookVII.Ethics.CIProof::AccessibilityMorphism",
   "declaration_slug": "accessibility-morphism",
   "kind": "structure",
   "name": "AccessibilityMorphism",
   "module_name": "TauLib.BookVII.Ethics.CIProof",
-  "module_url": "/verify/taulib/docs/book-vii-ethics-ciproof/",
+  "module_url": "/corpus/taulib/docs/book-vii-ethics-ciproof/",
   "source_line_start": 815,
   "source_line_end": 822,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Ethics/CIProof.lean#L815-L822",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVII.Ethics.CIProof",
-        "url": "/verify/taulib/docs/book-vii-ethics-ciproof/"
+        "url": "/corpus/taulib/docs/book-vii-ethics-ciproof/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVII.Ethics.CIProof](/verify/taulib/docs/book-vii-ethics-ciproof/)
+- Module: [TauLib.BookVII.Ethics.CIProof](/corpus/taulib/docs/book-vii-ethics-ciproof/)
 - Source path: [`TauLib/BookVII/Ethics/CIProof.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Ethics/CIProof.lean#L815-L822)
 - Source range: L815-L822
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

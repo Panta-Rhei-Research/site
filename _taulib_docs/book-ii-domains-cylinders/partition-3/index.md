@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "partition_3",
-  "permalink": "/verify/taulib/docs/book-ii-domains-cylinders/partition-3/",
+  "permalink": "/corpus/taulib/docs/book-ii-domains-cylinders/partition-3/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Domains.Cylinders`.",
   "declaration_id": "TauLib.BookII.Domains.Cylinders::partition_3",
   "declaration_slug": "partition-3",
   "kind": "theorem",
   "name": "partition_3",
   "module_name": "TauLib.BookII.Domains.Cylinders",
-  "module_url": "/verify/taulib/docs/book-ii-domains-cylinders/",
+  "module_url": "/corpus/taulib/docs/book-ii-domains-cylinders/",
   "source_line_start": 171,
   "source_line_end": 171,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Domains/Cylinders.lean#L171-L171",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Domains.Cylinders",
-        "url": "/verify/taulib/docs/book-ii-domains-cylinders/"
+        "url": "/corpus/taulib/docs/book-ii-domains-cylinders/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Domains.Cylinders](/verify/taulib/docs/book-ii-domains-cylinders/)
+- Module: [TauLib.BookII.Domains.Cylinders](/corpus/taulib/docs/book-ii-domains-cylinders/)
 - Source path: [`TauLib/BookII/Domains/Cylinders.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Domains/Cylinders.lean#L171-L171)
 - Source range: L171-L171
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

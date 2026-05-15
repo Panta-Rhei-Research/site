@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "godel_i_4",
-  "permalink": "/verify/taulib/docs/book-iii-bridge-incompleteness/godel-i-4/",
+  "permalink": "/corpus/taulib/docs/book-iii-bridge-incompleteness/godel-i-4/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Bridge.Incompleteness`.",
   "declaration_id": "TauLib.BookIII.Bridge.Incompleteness::godel_i_4",
   "declaration_slug": "godel-i-4",
   "kind": "theorem",
   "name": "godel_i_4",
   "module_name": "TauLib.BookIII.Bridge.Incompleteness",
-  "module_url": "/verify/taulib/docs/book-iii-bridge-incompleteness/",
+  "module_url": "/corpus/taulib/docs/book-iii-bridge-incompleteness/",
   "source_line_start": 240,
   "source_line_end": 241,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/Incompleteness.lean#L240-L241",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Bridge.Incompleteness",
-        "url": "/verify/taulib/docs/book-iii-bridge-incompleteness/"
+        "url": "/corpus/taulib/docs/book-iii-bridge-incompleteness/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Bridge.Incompleteness](/verify/taulib/docs/book-iii-bridge-incompleteness/)
+- Module: [TauLib.BookIII.Bridge.Incompleteness](/corpus/taulib/docs/book-iii-bridge-incompleteness/)
 - Source path: [`TauLib/BookIII/Bridge/Incompleteness.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/Incompleteness.lean#L240-L241)
 - Source range: L240-L241
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

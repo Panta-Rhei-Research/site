@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "isPrime_3",
-  "permalink": "/verify/taulib/docs/book-i-meta-logic-linearity-audit/is-prime-3/",
+  "permalink": "/corpus/taulib/docs/book-i-meta-logic-linearity-audit/is-prime-3/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.MetaLogic.LinearityAudit`.",
   "declaration_id": "TauLib.BookI.MetaLogic.LinearityAudit::isPrime_3",
   "declaration_slug": "is-prime-3",
   "kind": "theorem",
   "name": "isPrime_3",
   "module_name": "TauLib.BookI.MetaLogic.LinearityAudit",
-  "module_url": "/verify/taulib/docs/book-i-meta-logic-linearity-audit/",
+  "module_url": "/corpus/taulib/docs/book-i-meta-logic-linearity-audit/",
   "source_line_start": 220,
   "source_line_end": 220,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/LinearityAudit.lean#L220-L220",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.MetaLogic.LinearityAudit",
-        "url": "/verify/taulib/docs/book-i-meta-logic-linearity-audit/"
+        "url": "/corpus/taulib/docs/book-i-meta-logic-linearity-audit/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.MetaLogic.LinearityAudit](/verify/taulib/docs/book-i-meta-logic-linearity-audit/)
+- Module: [TauLib.BookI.MetaLogic.LinearityAudit](/corpus/taulib/docs/book-i-meta-logic-linearity-audit/)
 - Source path: [`TauLib/BookI/MetaLogic/LinearityAudit.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/MetaLogic/LinearityAudit.lean#L220-L220)
 - Source range: L220-L220
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

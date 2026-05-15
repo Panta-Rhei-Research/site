@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "flat_connection",
-  "permalink": "/verify/taulib/docs/book-ii-closure-connection/flat-connection/",
+  "permalink": "/corpus/taulib/docs/book-ii-closure-connection/flat-connection/",
   "summary_short": "`def` declaration in `TauLib.BookII.Closure.Connection`.",
   "declaration_id": "TauLib.BookII.Closure.Connection::flat_connection",
   "declaration_slug": "flat-connection",
   "kind": "def",
   "name": "flat_connection",
   "module_name": "TauLib.BookII.Closure.Connection",
-  "module_url": "/verify/taulib/docs/book-ii-closure-connection/",
+  "module_url": "/corpus/taulib/docs/book-ii-closure-connection/",
   "source_line_start": 58,
   "source_line_end": 59,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/Connection.lean#L58-L59",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Closure.Connection",
-        "url": "/verify/taulib/docs/book-ii-closure-connection/"
+        "url": "/corpus/taulib/docs/book-ii-closure-connection/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Closure.Connection](/verify/taulib/docs/book-ii-closure-connection/)
+- Module: [TauLib.BookII.Closure.Connection](/corpus/taulib/docs/book-ii-closure-connection/)
 - Source path: [`TauLib/BookII/Closure/Connection.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/Connection.lean#L58-L59)
 - Source range: L58-L59
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

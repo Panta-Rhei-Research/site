@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "example at L234",
-  "permalink": "/verify/taulib/docs/book-i-polarity-nth-prime/example-l234/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-nth-prime/example-l234/",
   "summary_short": "`example` declaration in `TauLib.BookI.Polarity.NthPrime`.",
   "declaration_id": "TauLib.BookI.Polarity.NthPrime::#eval:234",
   "declaration_slug": "example-l234",
   "kind": "example",
   "name": null,
   "module_name": "TauLib.BookI.Polarity.NthPrime",
-  "module_url": "/verify/taulib/docs/book-i-polarity-nth-prime/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-nth-prime/",
   "source_line_start": 234,
   "source_line_end": 234,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/NthPrime.lean#L234-L234",
   "formal_status": "example",
+  "declaration_role": "example check",
+  "formal_status_label": "example",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.NthPrime",
-        "url": "/verify/taulib/docs/book-i-polarity-nth-prime/"
+        "url": "/corpus/taulib/docs/book-i-polarity-nth-prime/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,6 +43,7 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "example",
+      "role": "example check",
       "status": "example"
     }
   },
@@ -62,10 +65,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.NthPrime](/verify/taulib/docs/book-i-polarity-nth-prime/)
+- Module: [TauLib.BookI.Polarity.NthPrime](/corpus/taulib/docs/book-i-polarity-nth-prime/)
 - Source path: [`TauLib/BookI/Polarity/NthPrime.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/NthPrime.lean#L234-L234)
 - Source range: L234-L234
 - Kind: `example`
+- Public role: `example check`
 - Formal status hint: `example`
 
 ## Registry Links

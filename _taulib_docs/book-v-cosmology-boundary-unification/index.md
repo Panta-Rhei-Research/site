@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.Cosmology.BoundaryUnification",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-boundary-unification/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.Cosmology.BoundaryUnification`.",
   "module_name": "TauLib.BookV.Cosmology.BoundaryUnification",
   "module_slug": "book-v-cosmology-boundary-unification",
@@ -38,55 +38,67 @@
     {
       "kind": "inductive",
       "name": "PrimitiveSector",
-      "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/primitive-sector/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/primitive-sector/",
       "source_line_start": 70,
       "source_line_end": 79,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "SectorPair",
-      "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/sector-pair/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/sector-pair/",
       "source_line_start": 82,
       "source_line_end": 89,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "all_sector_pairs",
-      "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/all-sector-pairs/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/all-sector-pairs/",
       "source_line_start": 92,
       "source_line_end": 98,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "six_pairs",
-      "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/six-pairs/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/six-pairs/",
       "source_line_start": 101,
       "source_line_end": 101,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "four_choose_two",
-      "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/four-choose-two/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/four-choose-two/",
       "source_line_start": 104,
       "source_line_end": 104,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "BoundaryCompleteness",
-      "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/boundary-completeness/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/boundary-completeness/",
       "source_line_start": 119,
       "source_line_end": 128,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.T120"
       ]
@@ -94,19 +106,23 @@
     {
       "kind": "theorem",
       "name": "boundary_completeness",
-      "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/boundary-completeness-l131/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/boundary-completeness-l131/",
       "source_line_start": 131,
       "source_line_end": 132,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "CrossCouplingNaturality",
-      "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/cross-coupling-naturality/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/cross-coupling-naturality/",
       "source_line_start": 144,
       "source_line_end": 155,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.P103"
       ]
@@ -114,19 +130,23 @@
     {
       "kind": "theorem",
       "name": "cross_coupling_naturality",
-      "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/cross-coupling-naturality-l158/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/cross-coupling-naturality-l158/",
       "source_line_start": 158,
       "source_line_end": 160,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "naturality_replaces_gauge",
-      "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/naturality-replaces-gauge/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/naturality-replaces-gauge/",
       "source_line_start": 172,
       "source_line_end": 174,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "V.R246"
       ]
@@ -134,37 +154,45 @@
     {
       "kind": "theorem",
       "name": "naturality_holds",
-      "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/naturality-holds/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/naturality-holds/",
       "source_line_start": 176,
       "source_line_end": 176,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "inductive",
       "name": "CouplingType",
-      "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/coupling-type/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/coupling-type/",
       "source_line_start": 183,
       "source_line_end": 188,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "CouplingEntry",
-      "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/coupling-entry/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/coupling-entry/",
       "source_line_start": 191,
       "source_line_end": 198,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "all_couplings",
-      "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/all-couplings/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/all-couplings/",
       "source_line_start": 205,
       "source_line_end": 217,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "V.P104"
       ]
@@ -172,55 +200,67 @@
     {
       "kind": "theorem",
       "name": "iota_mediates_all",
-      "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/iota-mediates-all/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/iota-mediates-all/",
       "source_line_start": 220,
       "source_line_end": 221,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "self_coupling_count",
-      "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/self-coupling-count/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/self-coupling-count/",
       "source_line_start": 224,
       "source_line_end": 226,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "cross_coupling_count",
-      "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/cross-coupling-count/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/cross-coupling-count/",
       "source_line_start": 229,
       "source_line_end": 231,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "BoundaryUnificationSummary",
-      "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/boundary-unification-summary/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/boundary-unification-summary/",
       "source_line_start": 238,
       "source_line_end": 251,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "unification_summary",
-      "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/unification-summary/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/unification-summary/",
       "source_line_start": 254,
       "source_line_end": 254,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/eval-l278/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/eval-l278/",
       "source_line_start": 278,
       "source_line_end": 278,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": [
         "V.R244",
         "V.R245",
@@ -230,37 +270,45 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/eval-l279/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/eval-l279/",
       "source_line_start": 279,
       "source_line_end": 279,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/eval-l280/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/eval-l280/",
       "source_line_start": 280,
       "source_line_end": 280,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/eval-l281/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/eval-l281/",
       "source_line_start": 281,
       "source_line_end": 281,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/eval-l282/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/eval-l282/",
       "source_line_start": 282,
       "source_line_end": 284,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -272,7 +320,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -348,29 +396,29 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [PrimitiveSector](/verify/taulib/docs/book-v-cosmology-boundary-unification/primitive-sector/) | L70-L79 | defined | — |
-| `structure` | [SectorPair](/verify/taulib/docs/book-v-cosmology-boundary-unification/sector-pair/) | L82-L89 | defined | — |
-| `def` | [all_sector_pairs](/verify/taulib/docs/book-v-cosmology-boundary-unification/all-sector-pairs/) | L92-L98 | defined | — |
-| `theorem` | [six_pairs](/verify/taulib/docs/book-v-cosmology-boundary-unification/six-pairs/) | L101-L101 | formalized | — |
-| `theorem` | [four_choose_two](/verify/taulib/docs/book-v-cosmology-boundary-unification/four-choose-two/) | L104-L104 | formalized | — |
-| `structure` | [BoundaryCompleteness](/verify/taulib/docs/book-v-cosmology-boundary-unification/boundary-completeness/) | L119-L128 | defined | `V.T120` |
-| `theorem` | [boundary_completeness](/verify/taulib/docs/book-v-cosmology-boundary-unification/boundary-completeness-l131/) | L131-L132 | formalized | — |
-| `structure` | [CrossCouplingNaturality](/verify/taulib/docs/book-v-cosmology-boundary-unification/cross-coupling-naturality/) | L144-L155 | defined | `V.P103` |
-| `theorem` | [cross_coupling_naturality](/verify/taulib/docs/book-v-cosmology-boundary-unification/cross-coupling-naturality-l158/) | L158-L160 | formalized | — |
-| `def` | [naturality_replaces_gauge](/verify/taulib/docs/book-v-cosmology-boundary-unification/naturality-replaces-gauge/) | L172-L174 | defined | `V.R246` |
-| `theorem` | [naturality_holds](/verify/taulib/docs/book-v-cosmology-boundary-unification/naturality-holds/) | L176-L176 | formalized | — |
-| `inductive` | [CouplingType](/verify/taulib/docs/book-v-cosmology-boundary-unification/coupling-type/) | L183-L188 | defined | — |
-| `structure` | [CouplingEntry](/verify/taulib/docs/book-v-cosmology-boundary-unification/coupling-entry/) | L191-L198 | defined | — |
-| `def` | [all_couplings](/verify/taulib/docs/book-v-cosmology-boundary-unification/all-couplings/) | L205-L217 | defined | `V.P104` |
-| `theorem` | [iota_mediates_all](/verify/taulib/docs/book-v-cosmology-boundary-unification/iota-mediates-all/) | L220-L221 | formalized | — |
-| `theorem` | [self_coupling_count](/verify/taulib/docs/book-v-cosmology-boundary-unification/self-coupling-count/) | L224-L226 | formalized | — |
-| `theorem` | [cross_coupling_count](/verify/taulib/docs/book-v-cosmology-boundary-unification/cross-coupling-count/) | L229-L231 | formalized | — |
-| `structure` | [BoundaryUnificationSummary](/verify/taulib/docs/book-v-cosmology-boundary-unification/boundary-unification-summary/) | L238-L251 | defined | — |
-| `def` | [unification_summary](/verify/taulib/docs/book-v-cosmology-boundary-unification/unification-summary/) | L254-L254 | defined | — |
-| `eval` | [#eval L278](/verify/taulib/docs/book-v-cosmology-boundary-unification/eval-l278/) | L278-L278 | computed | `V.R244`, `V.R245`, `V.R247` |
-| `eval` | [#eval L279](/verify/taulib/docs/book-v-cosmology-boundary-unification/eval-l279/) | L279-L279 | computed | — |
-| `eval` | [#eval L280](/verify/taulib/docs/book-v-cosmology-boundary-unification/eval-l280/) | L280-L280 | computed | — |
-| `eval` | [#eval L281](/verify/taulib/docs/book-v-cosmology-boundary-unification/eval-l281/) | L281-L281 | computed | — |
-| `eval` | [#eval L282](/verify/taulib/docs/book-v-cosmology-boundary-unification/eval-l282/) | L282-L284 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [PrimitiveSector](/corpus/taulib/docs/book-v-cosmology-boundary-unification/primitive-sector/) | L70-L79 | type/data schema | type/data schema | — |
+| `structure` | [SectorPair](/corpus/taulib/docs/book-v-cosmology-boundary-unification/sector-pair/) | L82-L89 | type/data schema | type/data schema | — |
+| `def` | [all_sector_pairs](/corpus/taulib/docs/book-v-cosmology-boundary-unification/all-sector-pairs/) | L92-L98 | data/computed value | data/computed value | — |
+| `theorem` | [six_pairs](/corpus/taulib/docs/book-v-cosmology-boundary-unification/six-pairs/) | L101-L101 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [four_choose_two](/corpus/taulib/docs/book-v-cosmology-boundary-unification/four-choose-two/) | L104-L104 | proof obligation | formal proof obligation checked | — |
+| `structure` | [BoundaryCompleteness](/corpus/taulib/docs/book-v-cosmology-boundary-unification/boundary-completeness/) | L119-L128 | type/data schema | type/data schema | `V.T120` |
+| `theorem` | [boundary_completeness](/corpus/taulib/docs/book-v-cosmology-boundary-unification/boundary-completeness-l131/) | L131-L132 | proof obligation | formal proof obligation checked | — |
+| `structure` | [CrossCouplingNaturality](/corpus/taulib/docs/book-v-cosmology-boundary-unification/cross-coupling-naturality/) | L144-L155 | type/data schema | type/data schema | `V.P103` |
+| `theorem` | [cross_coupling_naturality](/corpus/taulib/docs/book-v-cosmology-boundary-unification/cross-coupling-naturality-l158/) | L158-L160 | proof obligation | formal proof obligation checked | — |
+| `def` | [naturality_replaces_gauge](/corpus/taulib/docs/book-v-cosmology-boundary-unification/naturality-replaces-gauge/) | L172-L174 | definition | definition | `V.R246` |
+| `theorem` | [naturality_holds](/corpus/taulib/docs/book-v-cosmology-boundary-unification/naturality-holds/) | L176-L176 | proof obligation | formal proof obligation checked | — |
+| `inductive` | [CouplingType](/corpus/taulib/docs/book-v-cosmology-boundary-unification/coupling-type/) | L183-L188 | type/data schema | type/data schema | — |
+| `structure` | [CouplingEntry](/corpus/taulib/docs/book-v-cosmology-boundary-unification/coupling-entry/) | L191-L198 | type/data schema | type/data schema | — |
+| `def` | [all_couplings](/corpus/taulib/docs/book-v-cosmology-boundary-unification/all-couplings/) | L205-L217 | data/computed value | data/computed value | `V.P104` |
+| `theorem` | [iota_mediates_all](/corpus/taulib/docs/book-v-cosmology-boundary-unification/iota-mediates-all/) | L220-L221 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [self_coupling_count](/corpus/taulib/docs/book-v-cosmology-boundary-unification/self-coupling-count/) | L224-L226 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [cross_coupling_count](/corpus/taulib/docs/book-v-cosmology-boundary-unification/cross-coupling-count/) | L229-L231 | proof obligation | formal proof obligation checked | — |
+| `structure` | [BoundaryUnificationSummary](/corpus/taulib/docs/book-v-cosmology-boundary-unification/boundary-unification-summary/) | L238-L251 | type/data schema | type/data schema | — |
+| `def` | [unification_summary](/corpus/taulib/docs/book-v-cosmology-boundary-unification/unification-summary/) | L254-L254 | definition | definition | — |
+| `eval` | [#eval L278](/corpus/taulib/docs/book-v-cosmology-boundary-unification/eval-l278/) | L278-L278 | computed check | computed check | `V.R244`, `V.R245`, `V.R247` |
+| `eval` | [#eval L279](/corpus/taulib/docs/book-v-cosmology-boundary-unification/eval-l279/) | L279-L279 | computed check | computed check | — |
+| `eval` | [#eval L280](/corpus/taulib/docs/book-v-cosmology-boundary-unification/eval-l280/) | L280-L280 | computed check | computed check | — |
+| `eval` | [#eval L281](/corpus/taulib/docs/book-v-cosmology-boundary-unification/eval-l281/) | L281-L281 | computed check | computed check | — |
+| `eval` | [#eval L282](/corpus/taulib/docs/book-v-cosmology-boundary-unification/eval-l282/) | L282-L284 | computed check | computed check | — |

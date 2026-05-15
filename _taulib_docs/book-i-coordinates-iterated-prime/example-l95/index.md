@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "example at L95",
-  "permalink": "/verify/taulib/docs/book-i-coordinates-iterated-prime/example-l95/",
+  "permalink": "/corpus/taulib/docs/book-i-coordinates-iterated-prime/example-l95/",
   "summary_short": "`example` declaration in `TauLib.BookI.Coordinates.IteratedPrime`.",
   "declaration_id": "TauLib.BookI.Coordinates.IteratedPrime::#eval:95",
   "declaration_slug": "example-l95",
   "kind": "example",
   "name": null,
   "module_name": "TauLib.BookI.Coordinates.IteratedPrime",
-  "module_url": "/verify/taulib/docs/book-i-coordinates-iterated-prime/",
+  "module_url": "/corpus/taulib/docs/book-i-coordinates-iterated-prime/",
   "source_line_start": 95,
   "source_line_end": 95,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/IteratedPrime.lean#L95-L95",
   "formal_status": "example",
+  "declaration_role": "example check",
+  "formal_status_label": "example",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Coordinates.IteratedPrime",
-        "url": "/verify/taulib/docs/book-i-coordinates-iterated-prime/"
+        "url": "/corpus/taulib/docs/book-i-coordinates-iterated-prime/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,6 +43,7 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "example",
+      "role": "example check",
       "status": "example"
     }
   },
@@ -62,10 +65,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Coordinates.IteratedPrime](/verify/taulib/docs/book-i-coordinates-iterated-prime/)
+- Module: [TauLib.BookI.Coordinates.IteratedPrime](/corpus/taulib/docs/book-i-coordinates-iterated-prime/)
 - Source path: [`TauLib/BookI/Coordinates/IteratedPrime.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Coordinates/IteratedPrime.lean#L95-L95)
 - Source range: L95-L95
 - Kind: `example`
+- Public role: `example check`
 - Formal status hint: `example`
 
 ## Registry Links

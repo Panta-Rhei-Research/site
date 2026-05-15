@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Topos.CartesianProduct",
-  "permalink": "/verify/taulib/docs/book-i-topos-cartesian-product/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-cartesian-product/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Topos.CartesianProduct`.",
   "module_name": "TauLib.BookI.Topos.CartesianProduct",
   "module_slug": "book-i-topos-cartesian-product",
@@ -36,10 +36,12 @@
     {
       "kind": "def",
       "name": "cat_product",
-      "url": "/verify/taulib/docs/book-i-topos-cartesian-product/cat-product/",
+      "url": "/corpus/taulib/docs/book-i-topos-cartesian-product/cat-product/",
       "source_line_start": 32,
       "source_line_end": 33,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "I.D60"
       ]
@@ -47,28 +49,34 @@
     {
       "kind": "theorem",
       "name": "cat_proj1",
-      "url": "/verify/taulib/docs/book-i-topos-cartesian-product/cat-proj1/",
+      "url": "/corpus/taulib/docs/book-i-topos-cartesian-product/cat-proj1/",
       "source_line_start": 36,
       "source_line_end": 38,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "cat_proj2",
-      "url": "/verify/taulib/docs/book-i-topos-cartesian-product/cat-proj2/",
+      "url": "/corpus/taulib/docs/book-i-topos-cartesian-product/cat-proj2/",
       "source_line_start": 41,
       "source_line_end": 43,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "product_universal",
-      "url": "/verify/taulib/docs/book-i-topos-cartesian-product/product-universal/",
+      "url": "/corpus/taulib/docs/book-i-topos-cartesian-product/product-universal/",
       "source_line_start": 51,
       "source_line_end": 57,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.T26"
       ]
@@ -76,37 +84,45 @@
     {
       "kind": "theorem",
       "name": "product_comm",
-      "url": "/verify/taulib/docs/book-i-topos-cartesian-product/product-comm/",
+      "url": "/corpus/taulib/docs/book-i-topos-cartesian-product/product-comm/",
       "source_line_start": 60,
       "source_line_end": 62,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "product_assoc",
-      "url": "/verify/taulib/docs/book-i-topos-cartesian-product/product-assoc/",
+      "url": "/corpus/taulib/docs/book-i-topos-cartesian-product/product-assoc/",
       "source_line_start": 65,
       "source_line_end": 68,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "product_terminal",
-      "url": "/verify/taulib/docs/book-i-topos-cartesian-product/product-terminal/",
+      "url": "/corpus/taulib/docs/book-i-topos-cartesian-product/product-terminal/",
       "source_line_start": 71,
       "source_line_end": 73,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "CartesianMonoidal",
-      "url": "/verify/taulib/docs/book-i-topos-cartesian-product/cartesian-monoidal/",
+      "url": "/corpus/taulib/docs/book-i-topos-cartesian-product/cartesian-monoidal/",
       "source_line_start": 81,
       "source_line_end": 85,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "I.D61"
       ]
@@ -114,82 +130,100 @@
     {
       "kind": "def",
       "name": "cartesian_monoidal",
-      "url": "/verify/taulib/docs/book-i-topos-cartesian-product/cartesian-monoidal-l88/",
+      "url": "/corpus/taulib/docs/book-i-topos-cartesian-product/cartesian-monoidal-l88/",
       "source_line_start": 88,
       "source_line_end": 88,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "monoidal_left_unit",
-      "url": "/verify/taulib/docs/book-i-topos-cartesian-product/monoidal-left-unit/",
+      "url": "/corpus/taulib/docs/book-i-topos-cartesian-product/monoidal-left-unit/",
       "source_line_start": 91,
       "source_line_end": 93,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "monoidal_right_unit",
-      "url": "/verify/taulib/docs/book-i-topos-cartesian-product/monoidal-right-unit/",
+      "url": "/corpus/taulib/docs/book-i-topos-cartesian-product/monoidal-right-unit/",
       "source_line_start": 96,
       "source_line_end": 98,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "cantor_product_encoding",
-      "url": "/verify/taulib/docs/book-i-topos-cartesian-product/cantor-product-encoding/",
+      "url": "/corpus/taulib/docs/book-i-topos-cartesian-product/cantor-product-encoding/",
       "source_line_start": 105,
       "source_line_end": 106,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-topos-cartesian-product/example-l109/",
+      "url": "/corpus/taulib/docs/book-i-topos-cartesian-product/example-l109/",
       "source_line_start": 109,
       "source_line_end": 109,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-topos-cartesian-product/eval-l116/",
+      "url": "/corpus/taulib/docs/book-i-topos-cartesian-product/eval-l116/",
       "source_line_start": 116,
       "source_line_end": 116,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-topos-cartesian-product/eval-l117/",
+      "url": "/corpus/taulib/docs/book-i-topos-cartesian-product/eval-l117/",
       "source_line_start": 117,
       "source_line_end": 117,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-topos-cartesian-product/eval-l120/",
+      "url": "/corpus/taulib/docs/book-i-topos-cartesian-product/eval-l120/",
       "source_line_start": 120,
       "source_line_end": 120,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-topos-cartesian-product/eval-l121/",
+      "url": "/corpus/taulib/docs/book-i-topos-cartesian-product/eval-l121/",
       "source_line_start": 121,
       "source_line_end": 123,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -201,7 +235,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -275,22 +309,22 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [cat_product](/verify/taulib/docs/book-i-topos-cartesian-product/cat-product/) | L32-L33 | defined | `I.D60` |
-| `theorem` | [cat_proj1](/verify/taulib/docs/book-i-topos-cartesian-product/cat-proj1/) | L36-L38 | formalized | — |
-| `theorem` | [cat_proj2](/verify/taulib/docs/book-i-topos-cartesian-product/cat-proj2/) | L41-L43 | formalized | — |
-| `theorem` | [product_universal](/verify/taulib/docs/book-i-topos-cartesian-product/product-universal/) | L51-L57 | formalized | `I.T26` |
-| `theorem` | [product_comm](/verify/taulib/docs/book-i-topos-cartesian-product/product-comm/) | L60-L62 | formalized | — |
-| `theorem` | [product_assoc](/verify/taulib/docs/book-i-topos-cartesian-product/product-assoc/) | L65-L68 | formalized | — |
-| `theorem` | [product_terminal](/verify/taulib/docs/book-i-topos-cartesian-product/product-terminal/) | L71-L73 | formalized | — |
-| `structure` | [CartesianMonoidal](/verify/taulib/docs/book-i-topos-cartesian-product/cartesian-monoidal/) | L81-L85 | defined | `I.D61` |
-| `def` | [cartesian_monoidal](/verify/taulib/docs/book-i-topos-cartesian-product/cartesian-monoidal-l88/) | L88-L88 | defined | — |
-| `theorem` | [monoidal_left_unit](/verify/taulib/docs/book-i-topos-cartesian-product/monoidal-left-unit/) | L91-L93 | formalized | — |
-| `theorem` | [monoidal_right_unit](/verify/taulib/docs/book-i-topos-cartesian-product/monoidal-right-unit/) | L96-L98 | formalized | — |
-| `theorem` | [cantor_product_encoding](/verify/taulib/docs/book-i-topos-cartesian-product/cantor-product-encoding/) | L105-L106 | formalized | — |
-| `example` | [#eval L109](/verify/taulib/docs/book-i-topos-cartesian-product/example-l109/) | L109-L109 | example | — |
-| `eval` | [#eval L116](/verify/taulib/docs/book-i-topos-cartesian-product/eval-l116/) | L116-L116 | computed | — |
-| `eval` | [#eval L117](/verify/taulib/docs/book-i-topos-cartesian-product/eval-l117/) | L117-L117 | computed | — |
-| `eval` | [#eval L120](/verify/taulib/docs/book-i-topos-cartesian-product/eval-l120/) | L120-L120 | computed | — |
-| `eval` | [#eval L121](/verify/taulib/docs/book-i-topos-cartesian-product/eval-l121/) | L121-L123 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [cat_product](/corpus/taulib/docs/book-i-topos-cartesian-product/cat-product/) | L32-L33 | definition | definition | `I.D60` |
+| `theorem` | [cat_proj1](/corpus/taulib/docs/book-i-topos-cartesian-product/cat-proj1/) | L36-L38 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [cat_proj2](/corpus/taulib/docs/book-i-topos-cartesian-product/cat-proj2/) | L41-L43 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [product_universal](/corpus/taulib/docs/book-i-topos-cartesian-product/product-universal/) | L51-L57 | proof obligation | formal proof obligation checked | `I.T26` |
+| `theorem` | [product_comm](/corpus/taulib/docs/book-i-topos-cartesian-product/product-comm/) | L60-L62 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [product_assoc](/corpus/taulib/docs/book-i-topos-cartesian-product/product-assoc/) | L65-L68 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [product_terminal](/corpus/taulib/docs/book-i-topos-cartesian-product/product-terminal/) | L71-L73 | proof obligation | formal proof obligation checked | — |
+| `structure` | [CartesianMonoidal](/corpus/taulib/docs/book-i-topos-cartesian-product/cartesian-monoidal/) | L81-L85 | type/data schema | type/data schema | `I.D61` |
+| `def` | [cartesian_monoidal](/corpus/taulib/docs/book-i-topos-cartesian-product/cartesian-monoidal-l88/) | L88-L88 | definition | definition | — |
+| `theorem` | [monoidal_left_unit](/corpus/taulib/docs/book-i-topos-cartesian-product/monoidal-left-unit/) | L91-L93 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [monoidal_right_unit](/corpus/taulib/docs/book-i-topos-cartesian-product/monoidal-right-unit/) | L96-L98 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [cantor_product_encoding](/corpus/taulib/docs/book-i-topos-cartesian-product/cantor-product-encoding/) | L105-L106 | proof obligation | formal proof obligation checked | — |
+| `example` | [#eval L109](/corpus/taulib/docs/book-i-topos-cartesian-product/example-l109/) | L109-L109 | example check | example | — |
+| `eval` | [#eval L116](/corpus/taulib/docs/book-i-topos-cartesian-product/eval-l116/) | L116-L116 | computed check | computed check | — |
+| `eval` | [#eval L117](/corpus/taulib/docs/book-i-topos-cartesian-product/eval-l117/) | L117-L117 | computed check | computed check | — |
+| `eval` | [#eval L120](/corpus/taulib/docs/book-i-topos-cartesian-product/eval-l120/) | L120-L120 | computed check | computed check | — |
+| `eval` | [#eval L121](/corpus/taulib/docs/book-i-topos-cartesian-product/eval-l121/) | L121-L123 | computed check | computed check | — |

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookII.Domains.Ultrametric",
-  "permalink": "/verify/taulib/docs/book-ii-domains-ultrametric/",
+  "permalink": "/corpus/taulib/docs/book-ii-domains-ultrametric/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookII.Domains.Ultrametric`.",
   "module_name": "TauLib.BookII.Domains.Ultrametric",
   "module_slug": "book-ii-domains-ultrametric",
@@ -36,10 +36,12 @@
     {
       "kind": "def",
       "name": "disagree_depth",
-      "url": "/verify/taulib/docs/book-ii-domains-ultrametric/disagree-depth/",
+      "url": "/corpus/taulib/docs/book-ii-domains-ultrametric/disagree-depth/",
       "source_line_start": 38,
       "source_line_end": 46,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "II.D12"
       ]
@@ -47,10 +49,12 @@
     {
       "kind": "def",
       "name": "ultra_dist",
-      "url": "/verify/taulib/docs/book-ii-domains-ultrametric/ultra-dist/",
+      "url": "/corpus/taulib/docs/book-ii-domains-ultrametric/ultra-dist/",
       "source_line_start": 56,
       "source_line_end": 57,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "II.D13"
       ]
@@ -58,28 +62,34 @@
     {
       "kind": "def",
       "name": "symmetry_check",
-      "url": "/verify/taulib/docs/book-ii-domains-ultrametric/symmetry-check/",
+      "url": "/corpus/taulib/docs/book-ii-domains-ultrametric/symmetry-check/",
       "source_line_start": 60,
       "source_line_end": 69,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "nondegen_check",
-      "url": "/verify/taulib/docs/book-ii-domains-ultrametric/nondegen-check/",
+      "url": "/corpus/taulib/docs/book-ii-domains-ultrametric/nondegen-check/",
       "source_line_start": 72,
       "source_line_end": 82,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "triangle_check",
-      "url": "/verify/taulib/docs/book-ii-domains-ultrametric/triangle-check/",
+      "url": "/corpus/taulib/docs/book-ii-domains-ultrametric/triangle-check/",
       "source_line_start": 92,
       "source_line_end": 105,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.T05"
       ]
@@ -87,10 +97,12 @@
     {
       "kind": "def",
       "name": "cyl_eq_ball_check",
-      "url": "/verify/taulib/docs/book-ii-domains-ultrametric/cyl-eq-ball-check/",
+      "url": "/corpus/taulib/docs/book-ii-domains-ultrametric/cyl-eq-ball-check/",
       "source_line_start": 113,
       "source_line_end": 123,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "II.P04"
       ]
@@ -98,127 +110,155 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-domains-ultrametric/eval-l129/",
+      "url": "/corpus/taulib/docs/book-ii-domains-ultrametric/eval-l129/",
       "source_line_start": 129,
       "source_line_end": 129,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-domains-ultrametric/eval-l130/",
+      "url": "/corpus/taulib/docs/book-ii-domains-ultrametric/eval-l130/",
       "source_line_start": 130,
       "source_line_end": 130,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-domains-ultrametric/eval-l131/",
+      "url": "/corpus/taulib/docs/book-ii-domains-ultrametric/eval-l131/",
       "source_line_start": 131,
       "source_line_end": 131,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-domains-ultrametric/eval-l132/",
+      "url": "/corpus/taulib/docs/book-ii-domains-ultrametric/eval-l132/",
       "source_line_start": 132,
       "source_line_end": 132,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-domains-ultrametric/eval-l134/",
+      "url": "/corpus/taulib/docs/book-ii-domains-ultrametric/eval-l134/",
       "source_line_start": 134,
       "source_line_end": 134,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-domains-ultrametric/eval-l135/",
+      "url": "/corpus/taulib/docs/book-ii-domains-ultrametric/eval-l135/",
       "source_line_start": 135,
       "source_line_end": 135,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-domains-ultrametric/eval-l136/",
+      "url": "/corpus/taulib/docs/book-ii-domains-ultrametric/eval-l136/",
       "source_line_start": 136,
       "source_line_end": 136,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-domains-ultrametric/eval-l138/",
+      "url": "/corpus/taulib/docs/book-ii-domains-ultrametric/eval-l138/",
       "source_line_start": 138,
       "source_line_end": 138,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-ii-domains-ultrametric/eval-l139/",
+      "url": "/corpus/taulib/docs/book-ii-domains-ultrametric/eval-l139/",
       "source_line_start": 139,
       "source_line_end": 139,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "sym_15",
-      "url": "/verify/taulib/docs/book-ii-domains-ultrametric/sym-15/",
+      "url": "/corpus/taulib/docs/book-ii-domains-ultrametric/sym-15/",
       "source_line_start": 142,
       "source_line_end": 142,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "nondegen_15",
-      "url": "/verify/taulib/docs/book-ii-domains-ultrametric/nondegen-15/",
+      "url": "/corpus/taulib/docs/book-ii-domains-ultrametric/nondegen-15/",
       "source_line_start": 143,
       "source_line_end": 143,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "triangle_8_5",
-      "url": "/verify/taulib/docs/book-ii-domains-ultrametric/triangle-8-5/",
+      "url": "/corpus/taulib/docs/book-ii-domains-ultrametric/triangle-8-5/",
       "source_line_start": 144,
       "source_line_end": 144,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "cyl_ball_k1",
-      "url": "/verify/taulib/docs/book-ii-domains-ultrametric/cyl-ball-k1/",
+      "url": "/corpus/taulib/docs/book-ii-domains-ultrametric/cyl-ball-k1/",
       "source_line_start": 145,
       "source_line_end": 145,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "cyl_ball_k2",
-      "url": "/verify/taulib/docs/book-ii-domains-ultrametric/cyl-ball-k2/",
+      "url": "/corpus/taulib/docs/book-ii-domains-ultrametric/cyl-ball-k2/",
       "source_line_start": 146,
       "source_line_end": 148,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -230,7 +270,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -304,25 +344,25 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [disagree_depth](/verify/taulib/docs/book-ii-domains-ultrametric/disagree-depth/) | L38-L46 | defined | `II.D12` |
-| `def` | [ultra_dist](/verify/taulib/docs/book-ii-domains-ultrametric/ultra-dist/) | L56-L57 | defined | `II.D13` |
-| `def` | [symmetry_check](/verify/taulib/docs/book-ii-domains-ultrametric/symmetry-check/) | L60-L69 | defined | — |
-| `def` | [nondegen_check](/verify/taulib/docs/book-ii-domains-ultrametric/nondegen-check/) | L72-L82 | defined | — |
-| `def` | [triangle_check](/verify/taulib/docs/book-ii-domains-ultrametric/triangle-check/) | L92-L105 | defined | `II.T05` |
-| `def` | [cyl_eq_ball_check](/verify/taulib/docs/book-ii-domains-ultrametric/cyl-eq-ball-check/) | L113-L123 | defined | `II.P04` |
-| `eval` | [#eval L129](/verify/taulib/docs/book-ii-domains-ultrametric/eval-l129/) | L129-L129 | computed | — |
-| `eval` | [#eval L130](/verify/taulib/docs/book-ii-domains-ultrametric/eval-l130/) | L130-L130 | computed | — |
-| `eval` | [#eval L131](/verify/taulib/docs/book-ii-domains-ultrametric/eval-l131/) | L131-L131 | computed | — |
-| `eval` | [#eval L132](/verify/taulib/docs/book-ii-domains-ultrametric/eval-l132/) | L132-L132 | computed | — |
-| `eval` | [#eval L134](/verify/taulib/docs/book-ii-domains-ultrametric/eval-l134/) | L134-L134 | computed | — |
-| `eval` | [#eval L135](/verify/taulib/docs/book-ii-domains-ultrametric/eval-l135/) | L135-L135 | computed | — |
-| `eval` | [#eval L136](/verify/taulib/docs/book-ii-domains-ultrametric/eval-l136/) | L136-L136 | computed | — |
-| `eval` | [#eval L138](/verify/taulib/docs/book-ii-domains-ultrametric/eval-l138/) | L138-L138 | computed | — |
-| `eval` | [#eval L139](/verify/taulib/docs/book-ii-domains-ultrametric/eval-l139/) | L139-L139 | computed | — |
-| `theorem` | [sym_15](/verify/taulib/docs/book-ii-domains-ultrametric/sym-15/) | L142-L142 | formalized | — |
-| `theorem` | [nondegen_15](/verify/taulib/docs/book-ii-domains-ultrametric/nondegen-15/) | L143-L143 | formalized | — |
-| `theorem` | [triangle_8_5](/verify/taulib/docs/book-ii-domains-ultrametric/triangle-8-5/) | L144-L144 | formalized | — |
-| `theorem` | [cyl_ball_k1](/verify/taulib/docs/book-ii-domains-ultrametric/cyl-ball-k1/) | L145-L145 | formalized | — |
-| `theorem` | [cyl_ball_k2](/verify/taulib/docs/book-ii-domains-ultrametric/cyl-ball-k2/) | L146-L148 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [disagree_depth](/corpus/taulib/docs/book-ii-domains-ultrametric/disagree-depth/) | L38-L46 | definition | definition | `II.D12` |
+| `def` | [ultra_dist](/corpus/taulib/docs/book-ii-domains-ultrametric/ultra-dist/) | L56-L57 | definition | definition | `II.D13` |
+| `def` | [symmetry_check](/corpus/taulib/docs/book-ii-domains-ultrametric/symmetry-check/) | L60-L69 | data/computed value | data/computed value | — |
+| `def` | [nondegen_check](/corpus/taulib/docs/book-ii-domains-ultrametric/nondegen-check/) | L72-L82 | data/computed value | data/computed value | — |
+| `def` | [triangle_check](/corpus/taulib/docs/book-ii-domains-ultrametric/triangle-check/) | L92-L105 | data/computed value | data/computed value | `II.T05` |
+| `def` | [cyl_eq_ball_check](/corpus/taulib/docs/book-ii-domains-ultrametric/cyl-eq-ball-check/) | L113-L123 | data/computed value | data/computed value | `II.P04` |
+| `eval` | [#eval L129](/corpus/taulib/docs/book-ii-domains-ultrametric/eval-l129/) | L129-L129 | computed check | computed check | — |
+| `eval` | [#eval L130](/corpus/taulib/docs/book-ii-domains-ultrametric/eval-l130/) | L130-L130 | computed check | computed check | — |
+| `eval` | [#eval L131](/corpus/taulib/docs/book-ii-domains-ultrametric/eval-l131/) | L131-L131 | computed check | computed check | — |
+| `eval` | [#eval L132](/corpus/taulib/docs/book-ii-domains-ultrametric/eval-l132/) | L132-L132 | computed check | computed check | — |
+| `eval` | [#eval L134](/corpus/taulib/docs/book-ii-domains-ultrametric/eval-l134/) | L134-L134 | computed check | computed check | — |
+| `eval` | [#eval L135](/corpus/taulib/docs/book-ii-domains-ultrametric/eval-l135/) | L135-L135 | computed check | computed check | — |
+| `eval` | [#eval L136](/corpus/taulib/docs/book-ii-domains-ultrametric/eval-l136/) | L136-L136 | computed check | computed check | — |
+| `eval` | [#eval L138](/corpus/taulib/docs/book-ii-domains-ultrametric/eval-l138/) | L138-L138 | computed check | computed check | — |
+| `eval` | [#eval L139](/corpus/taulib/docs/book-ii-domains-ultrametric/eval-l139/) | L139-L139 | computed check | computed check | — |
+| `theorem` | [sym_15](/corpus/taulib/docs/book-ii-domains-ultrametric/sym-15/) | L142-L142 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [nondegen_15](/corpus/taulib/docs/book-ii-domains-ultrametric/nondegen-15/) | L143-L143 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [triangle_8_5](/corpus/taulib/docs/book-ii-domains-ultrametric/triangle-8-5/) | L144-L144 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [cyl_ball_k1](/corpus/taulib/docs/book-ii-domains-ultrametric/cyl-ball-k1/) | L145-L145 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [cyl_ball_k2](/corpus/taulib/docs/book-ii-domains-ultrametric/cyl-ball-k2/) | L146-L148 | proof obligation | formal proof obligation checked | — |

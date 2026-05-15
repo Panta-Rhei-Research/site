@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "symmetric_product",
-  "permalink": "/verify/taulib/docs/book-i-cf-window-algebra/symmetric-product/",
+  "permalink": "/corpus/taulib/docs/book-i-cf-window-algebra/symmetric-product/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.CF.WindowAlgebra`.",
   "declaration_id": "TauLib.BookI.CF.WindowAlgebra::symmetric_product",
   "declaration_slug": "symmetric-product",
   "kind": "theorem",
   "name": "symmetric_product",
   "module_name": "TauLib.BookI.CF.WindowAlgebra",
-  "module_url": "/verify/taulib/docs/book-i-cf-window-algebra/",
+  "module_url": "/corpus/taulib/docs/book-i-cf-window-algebra/",
   "source_line_start": 97,
   "source_line_end": 99,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/CF/WindowAlgebra.lean#L97-L99",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.CF.WindowAlgebra",
-        "url": "/verify/taulib/docs/book-i-cf-window-algebra/"
+        "url": "/corpus/taulib/docs/book-i-cf-window-algebra/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.CF.WindowAlgebra](/verify/taulib/docs/book-i-cf-window-algebra/)
+- Module: [TauLib.BookI.CF.WindowAlgebra](/corpus/taulib/docs/book-i-cf-window-algebra/)
 - Source path: [`TauLib/BookI/CF/WindowAlgebra.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/CF/WindowAlgebra.lean#L97-L99)
 - Source range: L97-L99
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

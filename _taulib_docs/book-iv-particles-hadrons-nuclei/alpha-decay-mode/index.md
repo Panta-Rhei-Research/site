@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "alpha_decay_mode",
-  "permalink": "/verify/taulib/docs/book-iv-particles-hadrons-nuclei/alpha-decay-mode/",
+  "permalink": "/corpus/taulib/docs/book-iv-particles-hadrons-nuclei/alpha-decay-mode/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Particles.HadronsNuclei`.",
   "declaration_id": "TauLib.BookIV.Particles.HadronsNuclei::alpha_decay_mode",
   "declaration_slug": "alpha-decay-mode",
   "kind": "def",
   "name": "alpha_decay_mode",
   "module_name": "TauLib.BookIV.Particles.HadronsNuclei",
-  "module_url": "/verify/taulib/docs/book-iv-particles-hadrons-nuclei/",
+  "module_url": "/corpus/taulib/docs/book-iv-particles-hadrons-nuclei/",
   "source_line_start": 346,
   "source_line_end": 347,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/HadronsNuclei.lean#L346-L347",
   "formal_status": "defined",
+  "declaration_role": "docstring/data record",
+  "formal_status_label": "docstring/data record",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Particles.HadronsNuclei",
-        "url": "/verify/taulib/docs/book-iv-particles-hadrons-nuclei/"
+        "url": "/corpus/taulib/docs/book-iv-particles-hadrons-nuclei/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "docstring/data record",
+      "status": "docstring/data record"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Particles.HadronsNuclei](/verify/taulib/docs/book-iv-particles-hadrons-nuclei/)
+- Module: [TauLib.BookIV.Particles.HadronsNuclei](/corpus/taulib/docs/book-iv-particles-hadrons-nuclei/)
 - Source path: [`TauLib/BookIV/Particles/HadronsNuclei.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/HadronsNuclei.lean#L346-L347)
 - Source range: L346-L347
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `docstring/data record`
+- Formal status hint: `docstring/data record`
 
 ## Registry Links
 

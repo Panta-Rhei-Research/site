@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "boundary_to_interior",
-  "permalink": "/verify/taulib/docs/book-iii-sectors-boundary-characters/boundary-to-interior/",
+  "permalink": "/corpus/taulib/docs/book-iii-sectors-boundary-characters/boundary-to-interior/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Sectors.BoundaryCharacters`.",
   "declaration_id": "TauLib.BookIII.Sectors.BoundaryCharacters::boundary_to_interior",
   "declaration_slug": "boundary-to-interior",
   "kind": "def",
   "name": "boundary_to_interior",
   "module_name": "TauLib.BookIII.Sectors.BoundaryCharacters",
-  "module_url": "/verify/taulib/docs/book-iii-sectors-boundary-characters/",
+  "module_url": "/corpus/taulib/docs/book-iii-sectors-boundary-characters/",
   "source_line_start": 104,
   "source_line_end": 106,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Sectors/BoundaryCharacters.lean#L104-L106",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Sectors.BoundaryCharacters",
-        "url": "/verify/taulib/docs/book-iii-sectors-boundary-characters/"
+        "url": "/corpus/taulib/docs/book-iii-sectors-boundary-characters/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Sectors.BoundaryCharacters](/verify/taulib/docs/book-iii-sectors-boundary-characters/)
+- Module: [TauLib.BookIII.Sectors.BoundaryCharacters](/corpus/taulib/docs/book-iii-sectors-boundary-characters/)
 - Source path: [`TauLib/BookIII/Sectors/BoundaryCharacters.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Sectors/BoundaryCharacters.lean#L104-L106)
 - Source range: L104-L106
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

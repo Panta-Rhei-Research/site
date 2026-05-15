@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "L2Inner",
-  "permalink": "/verify/taulib/docs/book-ii-hartogs-l2-space/l2-inner/",
+  "permalink": "/corpus/taulib/docs/book-ii-hartogs-l2-space/l2-inner/",
   "summary_short": "`structure` declaration in `TauLib.BookII.Hartogs.L2Space`.",
   "declaration_id": "TauLib.BookII.Hartogs.L2Space::L2Inner",
   "declaration_slug": "l2-inner",
   "kind": "structure",
   "name": "L2Inner",
   "module_name": "TauLib.BookII.Hartogs.L2Space",
-  "module_url": "/verify/taulib/docs/book-ii-hartogs-l2-space/",
+  "module_url": "/corpus/taulib/docs/book-ii-hartogs-l2-space/",
   "source_line_start": 54,
   "source_line_end": 56,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/L2Space.lean#L54-L56",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Hartogs.L2Space",
-        "url": "/verify/taulib/docs/book-ii-hartogs-l2-space/"
+        "url": "/corpus/taulib/docs/book-ii-hartogs-l2-space/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Hartogs.L2Space](/verify/taulib/docs/book-ii-hartogs-l2-space/)
+- Module: [TauLib.BookII.Hartogs.L2Space](/corpus/taulib/docs/book-ii-hartogs-l2-space/)
 - Source path: [`TauLib/BookII/Hartogs/L2Space.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/L2Space.lean#L54-L56)
 - Source range: L54-L56
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

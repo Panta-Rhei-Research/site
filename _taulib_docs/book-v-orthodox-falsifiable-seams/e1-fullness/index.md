@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "E1Fullness",
-  "permalink": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/e1-fullness/",
+  "permalink": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/e1-fullness/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Orthodox.FalsifiableSeams`.",
   "declaration_id": "TauLib.BookV.Orthodox.FalsifiableSeams::E1Fullness",
   "declaration_slug": "e1-fullness",
   "kind": "structure",
   "name": "E1Fullness",
   "module_name": "TauLib.BookV.Orthodox.FalsifiableSeams",
-  "module_url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/",
+  "module_url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/",
   "source_line_start": 214,
   "source_line_end": 225,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/FalsifiableSeams.lean#L214-L225",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Orthodox.FalsifiableSeams",
-        "url": "/verify/taulib/docs/book-v-orthodox-falsifiable-seams/"
+        "url": "/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Orthodox.FalsifiableSeams](/verify/taulib/docs/book-v-orthodox-falsifiable-seams/)
+- Module: [TauLib.BookV.Orthodox.FalsifiableSeams](/corpus/taulib/docs/book-v-orthodox-falsifiable-seams/)
 - Source path: [`TauLib/BookV/Orthodox/FalsifiableSeams.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Orthodox/FalsifiableSeams.lean#L214-L225)
 - Source range: L214-L225
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

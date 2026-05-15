@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "embed_int_mul",
-  "permalink": "/verify/taulib/docs/book-i-kernel-foundation-scalar-bridges/embed-int-mul/",
+  "permalink": "/corpus/taulib/docs/book-i-kernel-foundation-scalar-bridges/embed-int-mul/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.KernelFoundation.ScalarBridges`.",
   "declaration_id": "TauLib.BookI.KernelFoundation.ScalarBridges::embed_int_mul",
   "declaration_slug": "embed-int-mul",
   "kind": "theorem",
   "name": "embed_int_mul",
   "module_name": "TauLib.BookI.KernelFoundation.ScalarBridges",
-  "module_url": "/verify/taulib/docs/book-i-kernel-foundation-scalar-bridges/",
+  "module_url": "/corpus/taulib/docs/book-i-kernel-foundation-scalar-bridges/",
   "source_line_start": 186,
   "source_line_end": 190,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/KernelFoundation/ScalarBridges.lean#L186-L190",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.KernelFoundation.ScalarBridges",
-        "url": "/verify/taulib/docs/book-i-kernel-foundation-scalar-bridges/"
+        "url": "/corpus/taulib/docs/book-i-kernel-foundation-scalar-bridges/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.KernelFoundation.ScalarBridges](/verify/taulib/docs/book-i-kernel-foundation-scalar-bridges/)
+- Module: [TauLib.BookI.KernelFoundation.ScalarBridges](/corpus/taulib/docs/book-i-kernel-foundation-scalar-bridges/)
 - Source path: [`TauLib/BookI/KernelFoundation/ScalarBridges.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/KernelFoundation/ScalarBridges.lean#L186-L190)
 - Source range: L186-L190
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

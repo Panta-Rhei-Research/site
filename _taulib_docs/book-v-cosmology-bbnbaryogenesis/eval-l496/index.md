@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L496",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-bbnbaryogenesis/eval-l496/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-bbnbaryogenesis/eval-l496/",
   "summary_short": "`eval` declaration in `TauLib.BookV.Cosmology.BBNBaryogenesis`.",
   "declaration_id": "TauLib.BookV.Cosmology.BBNBaryogenesis::#eval:496",
   "declaration_slug": "eval-l496",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.Cosmology.BBNBaryogenesis",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-bbnbaryogenesis/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-bbnbaryogenesis/",
   "source_line_start": 496,
   "source_line_end": 496,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BBNBaryogenesis.lean#L496-L496",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.BBNBaryogenesis",
-        "url": "/verify/taulib/docs/book-v-cosmology-bbnbaryogenesis/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-bbnbaryogenesis/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.BBNBaryogenesis](/verify/taulib/docs/book-v-cosmology-bbnbaryogenesis/)
+- Module: [TauLib.BookV.Cosmology.BBNBaryogenesis](/corpus/taulib/docs/book-v-cosmology-bbnbaryogenesis/)
 - Source path: [`TauLib/BookV/Cosmology/BBNBaryogenesis.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BBNBaryogenesis.lean#L496-L496)
 - Source range: L496-L496
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

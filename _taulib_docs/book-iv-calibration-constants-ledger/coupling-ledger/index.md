@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "coupling_ledger",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-constants-ledger/coupling-ledger/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-constants-ledger/coupling-ledger/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Calibration.ConstantsLedger`.",
   "declaration_id": "TauLib.BookIV.Calibration.ConstantsLedger::coupling_ledger",
   "declaration_slug": "coupling-ledger",
   "kind": "def",
   "name": "coupling_ledger",
   "module_name": "TauLib.BookIV.Calibration.ConstantsLedger",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-constants-ledger/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-constants-ledger/",
   "source_line_start": 87,
   "source_line_end": 98,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/ConstantsLedger.lean#L87-L98",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.ConstantsLedger",
-        "url": "/verify/taulib/docs/book-iv-calibration-constants-ledger/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-constants-ledger/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.ConstantsLedger](/verify/taulib/docs/book-iv-calibration-constants-ledger/)
+- Module: [TauLib.BookIV.Calibration.ConstantsLedger](/corpus/taulib/docs/book-iv-calibration-constants-ledger/)
 - Source path: [`TauLib/BookIV/Calibration/ConstantsLedger.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/ConstantsLedger.lean#L87-L98)
 - Source range: L87-L98
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

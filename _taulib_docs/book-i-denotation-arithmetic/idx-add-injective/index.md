@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "idx_add_injective",
-  "permalink": "/verify/taulib/docs/book-i-denotation-arithmetic/idx-add-injective/",
+  "permalink": "/corpus/taulib/docs/book-i-denotation-arithmetic/idx-add-injective/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Denotation.Arithmetic`.",
   "declaration_id": "TauLib.BookI.Denotation.Arithmetic::idx_add_injective",
   "declaration_slug": "idx-add-injective",
   "kind": "theorem",
   "name": "idx_add_injective",
   "module_name": "TauLib.BookI.Denotation.Arithmetic",
-  "module_url": "/verify/taulib/docs/book-i-denotation-arithmetic/",
+  "module_url": "/corpus/taulib/docs/book-i-denotation-arithmetic/",
   "source_line_start": 197,
   "source_line_end": 201,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/Arithmetic.lean#L197-L201",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Denotation.Arithmetic",
-        "url": "/verify/taulib/docs/book-i-denotation-arithmetic/"
+        "url": "/corpus/taulib/docs/book-i-denotation-arithmetic/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Denotation.Arithmetic](/verify/taulib/docs/book-i-denotation-arithmetic/)
+- Module: [TauLib.BookI.Denotation.Arithmetic](/corpus/taulib/docs/book-i-denotation-arithmetic/)
 - Source path: [`TauLib/BookI/Denotation/Arithmetic.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/Arithmetic.lean#L197-L201)
 - Source range: L197-L201
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

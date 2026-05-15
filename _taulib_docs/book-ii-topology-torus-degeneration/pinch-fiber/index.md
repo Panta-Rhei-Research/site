@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "pinch_fiber",
-  "permalink": "/verify/taulib/docs/book-ii-topology-torus-degeneration/pinch-fiber/",
+  "permalink": "/corpus/taulib/docs/book-ii-topology-torus-degeneration/pinch-fiber/",
   "summary_short": "`def` declaration in `TauLib.BookII.Topology.TorusDegeneration`.",
   "declaration_id": "TauLib.BookII.Topology.TorusDegeneration::pinch_fiber",
   "declaration_slug": "pinch-fiber",
   "kind": "def",
   "name": "pinch_fiber",
   "module_name": "TauLib.BookII.Topology.TorusDegeneration",
-  "module_url": "/verify/taulib/docs/book-ii-topology-torus-degeneration/",
+  "module_url": "/corpus/taulib/docs/book-ii-topology-torus-degeneration/",
   "source_line_start": 47,
   "source_line_end": 50,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/TorusDegeneration.lean#L47-L50",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Topology.TorusDegeneration",
-        "url": "/verify/taulib/docs/book-ii-topology-torus-degeneration/"
+        "url": "/corpus/taulib/docs/book-ii-topology-torus-degeneration/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Topology.TorusDegeneration](/verify/taulib/docs/book-ii-topology-torus-degeneration/)
+- Module: [TauLib.BookII.Topology.TorusDegeneration](/corpus/taulib/docs/book-ii-topology-torus-degeneration/)
 - Source path: [`TauLib/BookII/Topology/TorusDegeneration.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/TorusDegeneration.lean#L47-L50)
 - Source range: L47-L50
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

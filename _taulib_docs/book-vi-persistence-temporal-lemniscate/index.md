@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookVI.Persistence.TemporalLemniscate",
-  "permalink": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/",
+  "permalink": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookVI.Persistence.TemporalLemniscate`.",
   "module_name": "TauLib.BookVI.Persistence.TemporalLemniscate",
   "module_slug": "book-vi-persistence-temporal-lemniscate",
@@ -39,10 +39,12 @@
     {
       "kind": "structure",
       "name": "TemporalLemniscate",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/temporal-lemniscate/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/temporal-lemniscate/",
       "source_line_start": 38,
       "source_line_end": 49,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D27"
       ]
@@ -50,37 +52,45 @@
     {
       "kind": "def",
       "name": "temporal_lem",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/temporal-lem/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/temporal-lem/",
       "source_line_start": 51,
       "source_line_end": 53,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "temporal_lemniscate_two_lobes",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/temporal-lemniscate-two-lobes/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/temporal-lemniscate-two-lobes/",
       "source_line_start": 55,
       "source_line_end": 56,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "temporal_lemniscate_winding_one",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/temporal-lemniscate-winding-one/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/temporal-lemniscate-winding-one/",
       "source_line_start": 58,
       "source_line_end": 59,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "CircadianPoincare",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian-poincare/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian-poincare/",
       "source_line_start": 69,
       "source_line_end": 82,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.T17"
       ]
@@ -88,28 +98,34 @@
     {
       "kind": "def",
       "name": "circadian",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian/",
       "source_line_start": 84,
       "source_line_end": 86,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "circadian_poincare_orbit",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian-poincare-orbit/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian-poincare-orbit/",
       "source_line_start": 88,
       "source_line_end": 93,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "CircadianTau1",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian-tau1/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian-tau1/",
       "source_line_start": 102,
       "source_line_end": 107,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.P09"
       ]
@@ -117,28 +133,34 @@
     {
       "kind": "def",
       "name": "circadian_tau1",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian-tau1-l109/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian-tau1-l109/",
       "source_line_start": 109,
       "source_line_end": 109,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "circadian_tau1_rotation",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian-tau1-rotation/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian-tau1-rotation/",
       "source_line_start": 111,
       "source_line_end": 112,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "Homochirality",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality/",
       "source_line_start": 122,
       "source_line_end": 131,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D28"
       ]
@@ -146,10 +168,12 @@
     {
       "kind": "structure",
       "name": "HomochiralityParityShadow",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality-parity-shadow/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality-parity-shadow/",
       "source_line_start": 136,
       "source_line_end": 143,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.P10"
       ]
@@ -157,28 +181,34 @@
     {
       "kind": "def",
       "name": "homo_parity",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/homo-parity/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/homo-parity/",
       "source_line_start": 145,
       "source_line_end": 145,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "homochirality_parity_shadow",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality-parity-shadow-l147/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality-parity-shadow-l147/",
       "source_line_start": 147,
       "source_line_end": 151,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "EnantiomericExcess",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/enantiomeric-excess/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/enantiomeric-excess/",
       "source_line_start": 161,
       "source_line_end": 170,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D73"
       ]
@@ -186,10 +216,12 @@
     {
       "kind": "structure",
       "name": "StereochemicalSelection",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/stereochemical-selection/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/stereochemical-selection/",
       "source_line_start": 180,
       "source_line_end": 189,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.T42"
       ]
@@ -197,28 +229,34 @@
     {
       "kind": "def",
       "name": "stereochemical_sel",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/stereochemical-sel/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/stereochemical-sel/",
       "source_line_start": 191,
       "source_line_end": 191,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "stereochemical_selection",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/stereochemical-selection-l193/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/stereochemical-selection-l193/",
       "source_line_start": 193,
       "source_line_end": 198,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "EeMonotoneConvergence",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/ee-monotone-convergence/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/ee-monotone-convergence/",
       "source_line_start": 209,
       "source_line_end": 218,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.P21"
       ]
@@ -226,28 +264,34 @@
     {
       "kind": "def",
       "name": "ee_convergence",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/ee-convergence/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/ee-convergence/",
       "source_line_start": 220,
       "source_line_end": 220,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ee_monotone_convergence",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/ee-monotone-convergence-l222/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/ee-monotone-convergence-l222/",
       "source_line_start": 222,
       "source_line_end": 227,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "HomochiralityUniversality",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality-universality/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality-universality/",
       "source_line_start": 238,
       "source_line_end": 247,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.T43"
       ]
@@ -255,28 +299,34 @@
     {
       "kind": "def",
       "name": "homochirality_universality_inst",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality-universality-inst/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality-universality-inst/",
       "source_line_start": 249,
       "source_line_end": 249,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "homochirality_universality",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality-universality-l251/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality-universality-l251/",
       "source_line_start": 251,
       "source_line_end": 255,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "HomochiralityScopeUpgrade",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality-scope-upgrade/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality-scope-upgrade/",
       "source_line_start": 270,
       "source_line_end": 280,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.R26"
       ]
@@ -284,10 +334,12 @@
     {
       "kind": "def",
       "name": "scope_upgrade",
-      "url": "/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/scope-upgrade/",
+      "url": "/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/scope-upgrade/",
       "source_line_start": 282,
       "source_line_end": 286,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     }
   ],
@@ -299,7 +351,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -376,31 +428,31 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [TemporalLemniscate](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/temporal-lemniscate/) | L38-L49 | defined | `VI.D27` |
-| `def` | [temporal_lem](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/temporal-lem/) | L51-L53 | defined | — |
-| `theorem` | [temporal_lemniscate_two_lobes](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/temporal-lemniscate-two-lobes/) | L55-L56 | formalized | — |
-| `theorem` | [temporal_lemniscate_winding_one](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/temporal-lemniscate-winding-one/) | L58-L59 | formalized | — |
-| `structure` | [CircadianPoincare](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian-poincare/) | L69-L82 | defined | `VI.T17` |
-| `def` | [circadian](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian/) | L84-L86 | defined | — |
-| `theorem` | [circadian_poincare_orbit](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian-poincare-orbit/) | L88-L93 | formalized | — |
-| `structure` | [CircadianTau1](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian-tau1/) | L102-L107 | defined | `VI.P09` |
-| `def` | [circadian_tau1](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian-tau1-l109/) | L109-L109 | defined | — |
-| `theorem` | [circadian_tau1_rotation](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian-tau1-rotation/) | L111-L112 | formalized | — |
-| `structure` | [Homochirality](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality/) | L122-L131 | defined | `VI.D28` |
-| `structure` | [HomochiralityParityShadow](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality-parity-shadow/) | L136-L143 | defined | `VI.P10` |
-| `def` | [homo_parity](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/homo-parity/) | L145-L145 | defined | — |
-| `theorem` | [homochirality_parity_shadow](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality-parity-shadow-l147/) | L147-L151 | formalized | — |
-| `structure` | [EnantiomericExcess](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/enantiomeric-excess/) | L161-L170 | defined | `VI.D73` |
-| `structure` | [StereochemicalSelection](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/stereochemical-selection/) | L180-L189 | defined | `VI.T42` |
-| `def` | [stereochemical_sel](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/stereochemical-sel/) | L191-L191 | defined | — |
-| `theorem` | [stereochemical_selection](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/stereochemical-selection-l193/) | L193-L198 | formalized | — |
-| `structure` | [EeMonotoneConvergence](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/ee-monotone-convergence/) | L209-L218 | defined | `VI.P21` |
-| `def` | [ee_convergence](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/ee-convergence/) | L220-L220 | defined | — |
-| `theorem` | [ee_monotone_convergence](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/ee-monotone-convergence-l222/) | L222-L227 | formalized | — |
-| `structure` | [HomochiralityUniversality](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality-universality/) | L238-L247 | defined | `VI.T43` |
-| `def` | [homochirality_universality_inst](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality-universality-inst/) | L249-L249 | defined | — |
-| `theorem` | [homochirality_universality](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality-universality-l251/) | L251-L255 | formalized | — |
-| `structure` | [HomochiralityScopeUpgrade](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality-scope-upgrade/) | L270-L280 | defined | `VI.R26` |
-| `def` | [scope_upgrade](/verify/taulib/docs/book-vi-persistence-temporal-lemniscate/scope-upgrade/) | L282-L286 | defined | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [TemporalLemniscate](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/temporal-lemniscate/) | L38-L49 | type/data schema | type/data schema | `VI.D27` |
+| `def` | [temporal_lem](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/temporal-lem/) | L51-L53 | definition | definition | — |
+| `theorem` | [temporal_lemniscate_two_lobes](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/temporal-lemniscate-two-lobes/) | L55-L56 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [temporal_lemniscate_winding_one](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/temporal-lemniscate-winding-one/) | L58-L59 | proof obligation | formal proof obligation checked | — |
+| `structure` | [CircadianPoincare](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian-poincare/) | L69-L82 | type/data schema | type/data schema | `VI.T17` |
+| `def` | [circadian](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian/) | L84-L86 | definition | definition | — |
+| `theorem` | [circadian_poincare_orbit](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian-poincare-orbit/) | L88-L93 | proof obligation | formal proof obligation checked | — |
+| `structure` | [CircadianTau1](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian-tau1/) | L102-L107 | type/data schema | type/data schema | `VI.P09` |
+| `def` | [circadian_tau1](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian-tau1-l109/) | L109-L109 | definition | definition | — |
+| `theorem` | [circadian_tau1_rotation](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/circadian-tau1-rotation/) | L111-L112 | proof obligation | formal proof obligation checked | — |
+| `structure` | [Homochirality](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality/) | L122-L131 | type/data schema | type/data schema | `VI.D28` |
+| `structure` | [HomochiralityParityShadow](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality-parity-shadow/) | L136-L143 | type/data schema | type/data schema | `VI.P10` |
+| `def` | [homo_parity](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/homo-parity/) | L145-L145 | definition | definition | — |
+| `theorem` | [homochirality_parity_shadow](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality-parity-shadow-l147/) | L147-L151 | proof obligation | formal proof obligation checked | — |
+| `structure` | [EnantiomericExcess](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/enantiomeric-excess/) | L161-L170 | type/data schema | type/data schema | `VI.D73` |
+| `structure` | [StereochemicalSelection](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/stereochemical-selection/) | L180-L189 | type/data schema | type/data schema | `VI.T42` |
+| `def` | [stereochemical_sel](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/stereochemical-sel/) | L191-L191 | definition | definition | — |
+| `theorem` | [stereochemical_selection](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/stereochemical-selection-l193/) | L193-L198 | proof obligation | formal proof obligation checked | — |
+| `structure` | [EeMonotoneConvergence](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/ee-monotone-convergence/) | L209-L218 | type/data schema | type/data schema | `VI.P21` |
+| `def` | [ee_convergence](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/ee-convergence/) | L220-L220 | definition | definition | — |
+| `theorem` | [ee_monotone_convergence](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/ee-monotone-convergence-l222/) | L222-L227 | proof obligation | formal proof obligation checked | — |
+| `structure` | [HomochiralityUniversality](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality-universality/) | L238-L247 | type/data schema | type/data schema | `VI.T43` |
+| `def` | [homochirality_universality_inst](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality-universality-inst/) | L249-L249 | definition | definition | — |
+| `theorem` | [homochirality_universality](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality-universality-l251/) | L251-L255 | proof obligation | formal proof obligation checked | — |
+| `structure` | [HomochiralityScopeUpgrade](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/homochirality-scope-upgrade/) | L270-L280 | type/data schema | type/data schema | `VI.R26` |
+| `def` | [scope_upgrade](/corpus/taulib/docs/book-vi-persistence-temporal-lemniscate/scope-upgrade/) | L282-L286 | definition | definition | — |

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "radical_primorial_deep_check",
-  "permalink": "/verify/taulib/docs/book-iii-arithmetic-abcdeep/radical-primorial-deep-check/",
+  "permalink": "/corpus/taulib/docs/book-iii-arithmetic-abcdeep/radical-primorial-deep-check/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Arithmetic.ABCDeep`.",
   "declaration_id": "TauLib.BookIII.Arithmetic.ABCDeep::radical_primorial_deep_check",
   "declaration_slug": "radical-primorial-deep-check",
   "kind": "def",
   "name": "radical_primorial_deep_check",
   "module_name": "TauLib.BookIII.Arithmetic.ABCDeep",
-  "module_url": "/verify/taulib/docs/book-iii-arithmetic-abcdeep/",
+  "module_url": "/corpus/taulib/docs/book-iii-arithmetic-abcdeep/",
   "source_line_start": 155,
   "source_line_end": 164,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/ABCDeep.lean#L155-L164",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Arithmetic.ABCDeep",
-        "url": "/verify/taulib/docs/book-iii-arithmetic-abcdeep/"
+        "url": "/corpus/taulib/docs/book-iii-arithmetic-abcdeep/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Arithmetic.ABCDeep](/verify/taulib/docs/book-iii-arithmetic-abcdeep/)
+- Module: [TauLib.BookIII.Arithmetic.ABCDeep](/corpus/taulib/docs/book-iii-arithmetic-abcdeep/)
 - Source path: [`TauLib/BookIII/Arithmetic/ABCDeep.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/ABCDeep.lean#L155-L164)
 - Source range: L155-L164
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

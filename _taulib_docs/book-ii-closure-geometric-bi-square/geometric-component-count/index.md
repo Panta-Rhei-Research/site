@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "geometric_component_count",
-  "permalink": "/verify/taulib/docs/book-ii-closure-geometric-bi-square/geometric-component-count/",
+  "permalink": "/corpus/taulib/docs/book-ii-closure-geometric-bi-square/geometric-component-count/",
   "summary_short": "`def` declaration in `TauLib.BookII.Closure.GeometricBiSquare`.",
   "declaration_id": "TauLib.BookII.Closure.GeometricBiSquare::geometric_component_count",
   "declaration_slug": "geometric-component-count",
   "kind": "def",
   "name": "geometric_component_count",
   "module_name": "TauLib.BookII.Closure.GeometricBiSquare",
-  "module_url": "/verify/taulib/docs/book-ii-closure-geometric-bi-square/",
+  "module_url": "/corpus/taulib/docs/book-ii-closure-geometric-bi-square/",
   "source_line_start": 124,
   "source_line_end": 132,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/GeometricBiSquare.lean#L124-L132",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Closure.GeometricBiSquare",
-        "url": "/verify/taulib/docs/book-ii-closure-geometric-bi-square/"
+        "url": "/corpus/taulib/docs/book-ii-closure-geometric-bi-square/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Closure.GeometricBiSquare](/verify/taulib/docs/book-ii-closure-geometric-bi-square/)
+- Module: [TauLib.BookII.Closure.GeometricBiSquare](/corpus/taulib/docs/book-ii-closure-geometric-bi-square/)
 - Source path: [`TauLib/BookII/Closure/GeometricBiSquare.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/GeometricBiSquare.lean#L124-L132)
 - Source range: L124-L132
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

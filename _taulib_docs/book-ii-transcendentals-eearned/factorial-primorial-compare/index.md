@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "factorial_primorial_compare",
-  "permalink": "/verify/taulib/docs/book-ii-transcendentals-eearned/factorial-primorial-compare/",
+  "permalink": "/corpus/taulib/docs/book-ii-transcendentals-eearned/factorial-primorial-compare/",
   "summary_short": "`def` declaration in `TauLib.BookII.Transcendentals.EEarned`.",
   "declaration_id": "TauLib.BookII.Transcendentals.EEarned::factorial_primorial_compare",
   "declaration_slug": "factorial-primorial-compare",
   "kind": "def",
   "name": "factorial_primorial_compare",
   "module_name": "TauLib.BookII.Transcendentals.EEarned",
-  "module_url": "/verify/taulib/docs/book-ii-transcendentals-eearned/",
+  "module_url": "/corpus/taulib/docs/book-ii-transcendentals-eearned/",
   "source_line_start": 128,
   "source_line_end": 129,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Transcendentals/EEarned.lean#L128-L129",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Transcendentals.EEarned",
-        "url": "/verify/taulib/docs/book-ii-transcendentals-eearned/"
+        "url": "/corpus/taulib/docs/book-ii-transcendentals-eearned/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Transcendentals.EEarned](/verify/taulib/docs/book-ii-transcendentals-eearned/)
+- Module: [TauLib.BookII.Transcendentals.EEarned](/corpus/taulib/docs/book-ii-transcendentals-eearned/)
 - Source path: [`TauLib/BookII/Transcendentals/EEarned.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Transcendentals/EEarned.lean#L128-L129)
 - Source range: L128-L129
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L68",
-  "permalink": "/verify/taulib/docs/tour-verify-it-yourself/eval-l68/",
+  "permalink": "/corpus/taulib/docs/tour-verify-it-yourself/eval-l68/",
   "summary_short": "`eval` declaration in `TauLib.Tour.VerifyItYourself`.",
   "declaration_id": "TauLib.Tour.VerifyItYourself::#eval:68",
   "declaration_slug": "eval-l68",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.Tour.VerifyItYourself",
-  "module_url": "/verify/taulib/docs/tour-verify-it-yourself/",
+  "module_url": "/corpus/taulib/docs/tour-verify-it-yourself/",
   "source_line_start": 68,
   "source_line_end": 68,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/Tour/VerifyItYourself.lean#L68-L68",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.Tour.VerifyItYourself",
-        "url": "/verify/taulib/docs/tour-verify-it-yourself/"
+        "url": "/corpus/taulib/docs/tour-verify-it-yourself/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.Tour.VerifyItYourself](/verify/taulib/docs/tour-verify-it-yourself/)
+- Module: [TauLib.Tour.VerifyItYourself](/corpus/taulib/docs/tour-verify-it-yourself/)
 - Source path: [`TauLib/Tour/VerifyItYourself.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/Tour/VerifyItYourself.lean#L68-L68)
 - Source range: L68-L68
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

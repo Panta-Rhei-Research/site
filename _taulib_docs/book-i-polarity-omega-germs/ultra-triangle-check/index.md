@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ultra_triangle_check",
-  "permalink": "/verify/taulib/docs/book-i-polarity-omega-germs/ultra-triangle-check/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-omega-germs/ultra-triangle-check/",
   "summary_short": "`def` declaration in `TauLib.BookI.Polarity.OmegaGerms`.",
   "declaration_id": "TauLib.BookI.Polarity.OmegaGerms::ultra_triangle_check",
   "declaration_slug": "ultra-triangle-check",
   "kind": "def",
   "name": "ultra_triangle_check",
   "module_name": "TauLib.BookI.Polarity.OmegaGerms",
-  "module_url": "/verify/taulib/docs/book-i-polarity-omega-germs/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-omega-germs/",
   "source_line_start": 260,
   "source_line_end": 263,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/OmegaGerms.lean#L260-L263",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.OmegaGerms",
-        "url": "/verify/taulib/docs/book-i-polarity-omega-germs/"
+        "url": "/corpus/taulib/docs/book-i-polarity-omega-germs/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.OmegaGerms](/verify/taulib/docs/book-i-polarity-omega-germs/)
+- Module: [TauLib.BookI.Polarity.OmegaGerms](/corpus/taulib/docs/book-i-polarity-omega-germs/)
 - Source path: [`TauLib/BookI/Polarity/OmegaGerms.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/OmegaGerms.lean#L260-L263)
 - Source range: L260-L263
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

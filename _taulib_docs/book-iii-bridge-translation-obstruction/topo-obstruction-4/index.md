@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "topo_obstruction_4",
-  "permalink": "/verify/taulib/docs/book-iii-bridge-translation-obstruction/topo-obstruction-4/",
+  "permalink": "/corpus/taulib/docs/book-iii-bridge-translation-obstruction/topo-obstruction-4/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Bridge.TranslationObstruction`.",
   "declaration_id": "TauLib.BookIII.Bridge.TranslationObstruction::topo_obstruction_4",
   "declaration_slug": "topo-obstruction-4",
   "kind": "theorem",
   "name": "topo_obstruction_4",
   "module_name": "TauLib.BookIII.Bridge.TranslationObstruction",
-  "module_url": "/verify/taulib/docs/book-iii-bridge-translation-obstruction/",
+  "module_url": "/corpus/taulib/docs/book-iii-bridge-translation-obstruction/",
   "source_line_start": 246,
   "source_line_end": 247,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/TranslationObstruction.lean#L246-L247",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Bridge.TranslationObstruction",
-        "url": "/verify/taulib/docs/book-iii-bridge-translation-obstruction/"
+        "url": "/corpus/taulib/docs/book-iii-bridge-translation-obstruction/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Bridge.TranslationObstruction](/verify/taulib/docs/book-iii-bridge-translation-obstruction/)
+- Module: [TauLib.BookIII.Bridge.TranslationObstruction](/corpus/taulib/docs/book-iii-bridge-translation-obstruction/)
 - Source path: [`TauLib/BookIII/Bridge/TranslationObstruction.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Bridge/TranslationObstruction.lean#L246-L247)
 - Source range: L246-L247
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "quasi_ergodic",
-  "permalink": "/verify/taulib/docs/book-iv-arena-tau3-arena/quasi-ergodic/",
+  "permalink": "/corpus/taulib/docs/book-iv-arena-tau3-arena/quasi-ergodic/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Arena.Tau3Arena`.",
   "declaration_id": "TauLib.BookIV.Arena.Tau3Arena::quasi_ergodic",
   "declaration_slug": "quasi-ergodic",
   "kind": "theorem",
   "name": "quasi_ergodic",
   "module_name": "TauLib.BookIV.Arena.Tau3Arena",
-  "module_url": "/verify/taulib/docs/book-iv-arena-tau3-arena/",
+  "module_url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/",
   "source_line_start": 151,
   "source_line_end": 157,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/Tau3Arena.lean#L151-L157",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Arena.Tau3Arena",
-        "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/"
+        "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Arena.Tau3Arena](/verify/taulib/docs/book-iv-arena-tau3-arena/)
+- Module: [TauLib.BookIV.Arena.Tau3Arena](/corpus/taulib/docs/book-iv-arena-tau3-arena/)
 - Source path: [`TauLib/BookIV/Arena/Tau3Arena.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/Tau3Arena.lean#L151-L157)
 - Source range: L151-L157
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

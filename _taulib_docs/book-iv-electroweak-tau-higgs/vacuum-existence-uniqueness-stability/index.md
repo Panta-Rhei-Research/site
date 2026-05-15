@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "vacuum_existence_uniqueness_stability",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/vacuum-existence-uniqueness-stability/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/vacuum-existence-uniqueness-stability/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Electroweak.TauHiggs`.",
   "declaration_id": "TauLib.BookIV.Electroweak.TauHiggs::vacuum_existence_uniqueness_stability",
   "declaration_slug": "vacuum-existence-uniqueness-stability",
   "kind": "theorem",
   "name": "vacuum_existence_uniqueness_stability",
   "module_name": "TauLib.BookIV.Electroweak.TauHiggs",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/",
   "source_line_start": 221,
   "source_line_end": 225,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/TauHiggs.lean#L221-L225",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.TauHiggs",
-        "url": "/verify/taulib/docs/book-iv-electroweak-tau-higgs/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-tau-higgs/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.TauHiggs](/verify/taulib/docs/book-iv-electroweak-tau-higgs/)
+- Module: [TauLib.BookIV.Electroweak.TauHiggs](/corpus/taulib/docs/book-iv-electroweak-tau-higgs/)
 - Source path: [`TauLib/BookIV/Electroweak/TauHiggs.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/TauHiggs.lean#L221-L225)
 - Source range: L221-L225
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

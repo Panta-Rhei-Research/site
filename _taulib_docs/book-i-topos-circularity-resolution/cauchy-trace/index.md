@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "cauchyTrace",
-  "permalink": "/verify/taulib/docs/book-i-topos-circularity-resolution/cauchy-trace/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-circularity-resolution/cauchy-trace/",
   "summary_short": "`def` declaration in `TauLib.BookI.Topos.CircularityResolution`.",
   "declaration_id": "TauLib.BookI.Topos.CircularityResolution::cauchyTrace",
   "declaration_slug": "cauchy-trace",
   "kind": "def",
   "name": "cauchyTrace",
   "module_name": "TauLib.BookI.Topos.CircularityResolution",
-  "module_url": "/verify/taulib/docs/book-i-topos-circularity-resolution/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-circularity-resolution/",
   "source_line_start": 422,
   "source_line_end": 435,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/CircularityResolution.lean#L422-L435",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.CircularityResolution",
-        "url": "/verify/taulib/docs/book-i-topos-circularity-resolution/"
+        "url": "/corpus/taulib/docs/book-i-topos-circularity-resolution/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.CircularityResolution](/verify/taulib/docs/book-i-topos-circularity-resolution/)
+- Module: [TauLib.BookI.Topos.CircularityResolution](/corpus/taulib/docs/book-i-topos-circularity-resolution/)
 - Source path: [`TauLib/BookI/Topos/CircularityResolution.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/CircularityResolution.lean#L422-L435)
 - Source range: L422-L435
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

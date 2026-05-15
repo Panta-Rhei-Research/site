@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "sector_fun_independent",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-dholomorphic/sector-fun-independent/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-dholomorphic/sector-fun-independent/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Holomorphy.DHolomorphic`.",
   "declaration_id": "TauLib.BookI.Holomorphy.DHolomorphic::sector_fun_independent",
   "declaration_slug": "sector-fun-independent",
   "kind": "theorem",
   "name": "sector_fun_independent",
   "module_name": "TauLib.BookI.Holomorphy.DHolomorphic",
-  "module_url": "/verify/taulib/docs/book-i-holomorphy-dholomorphic/",
+  "module_url": "/corpus/taulib/docs/book-i-holomorphy-dholomorphic/",
   "source_line_start": 72,
   "source_line_end": 78,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/DHolomorphic.lean#L72-L78",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Holomorphy.DHolomorphic",
-        "url": "/verify/taulib/docs/book-i-holomorphy-dholomorphic/"
+        "url": "/corpus/taulib/docs/book-i-holomorphy-dholomorphic/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Holomorphy.DHolomorphic](/verify/taulib/docs/book-i-holomorphy-dholomorphic/)
+- Module: [TauLib.BookI.Holomorphy.DHolomorphic](/corpus/taulib/docs/book-i-holomorphy-dholomorphic/)
 - Source path: [`TauLib/BookI/Holomorphy/DHolomorphic.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/DHolomorphic.lean#L72-L78)
 - Source range: L72-L78
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -44,15 +44,15 @@
     "taulib_modules": [
       {
         "title": "TauLib.BookI.Kernel.Signature",
-        "url": "/corpus/taulib/docs/book-i-kernel-signature/"
+        "url": "/verify/taulib/docs/book-i-kernel-signature/"
       },
       {
         "title": "TauLib.BookI.Kernel.Axioms",
-        "url": "/corpus/taulib/docs/book-i-kernel-axioms/"
+        "url": "/verify/taulib/docs/book-i-kernel-axioms/"
       },
       {
         "title": "TauLib.BookI.Kernel.Diagonal",
-        "url": "/corpus/taulib/docs/book-i-kernel-diagonal/"
+        "url": "/verify/taulib/docs/book-i-kernel-diagonal/"
       }
     ],
     "red_team_questions": [
@@ -104,7 +104,7 @@
     "taulib_modules": [
       {
         "title": "TauLib.BookIII.Spectrum.KernelHinge",
-        "url": "/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/"
+        "url": "/verify/taulib/docs/book-iii-spectrum-kernel-hinge/"
       },
       {
         "title": "Dedicated H1 theorem documentation",
@@ -159,7 +159,7 @@
     "taulib_modules": [
       {
         "title": "TauLib.BookIII.Sectors.BoundaryCharacters",
-        "url": "/corpus/taulib/docs/book-iii-sectors-boundary-characters/"
+        "url": "/verify/taulib/docs/book-iii-sectors-boundary-characters/"
       },
       {
         "title": "Dedicated H2 theorem documentation",
@@ -214,11 +214,11 @@
     "taulib_modules": [
       {
         "title": "TauLib.BookI.Boundary.SplitComplex",
-        "url": "/corpus/taulib/docs/book-i-boundary-split-complex/"
+        "url": "/verify/taulib/docs/book-i-boundary-split-complex/"
       },
       {
         "title": "TauLib.BookI.Boundary.Ring",
-        "url": "/corpus/taulib/docs/book-i-boundary-ring/"
+        "url": "/verify/taulib/docs/book-i-boundary-ring/"
       }
     ],
     "red_team_questions": [
@@ -271,15 +271,15 @@
     "taulib_modules": [
       {
         "title": "TauLib.BookI.Holomorphy.DHolomorphic",
-        "url": "/corpus/taulib/docs/book-i-holomorphy-dholomorphic/"
+        "url": "/verify/taulib/docs/book-i-holomorphy-dholomorphic/"
       },
       {
         "title": "TauLib.BookI.Holomorphy.TauHolomorphic",
-        "url": "/corpus/taulib/docs/book-i-holomorphy-tau-holomorphic/"
+        "url": "/verify/taulib/docs/book-i-holomorphy-tau-holomorphic/"
       },
       {
         "title": "TauLib.BookI.Holomorphy.IdentityTheorem",
-        "url": "/corpus/taulib/docs/book-i-holomorphy-identity-theorem/"
+        "url": "/verify/taulib/docs/book-i-holomorphy-identity-theorem/"
       }
     ],
     "red_team_questions": [
@@ -337,15 +337,15 @@
     "taulib_modules": [
       {
         "title": "TauLib.BookI.Logic.Truth4",
-        "url": "/corpus/taulib/docs/book-i-logic-truth4/"
+        "url": "/verify/taulib/docs/book-i-logic-truth4/"
       },
       {
         "title": "TauLib.BookI.Topos.EarnedTopos",
-        "url": "/corpus/taulib/docs/book-i-topos-earned-topos/"
+        "url": "/verify/taulib/docs/book-i-topos-earned-topos/"
       },
       {
         "title": "TauLib.BookI.Topos.InternalHom",
-        "url": "/corpus/taulib/docs/book-i-topos-internal-hom/"
+        "url": "/verify/taulib/docs/book-i-topos-internal-hom/"
       }
     ],
     "red_team_questions": [
@@ -401,7 +401,7 @@
     "taulib_modules": [
       {
         "title": "TauLib.BookI.Denotation.Arithmetic",
-        "url": "/corpus/taulib/docs/book-i-denotation-arithmetic/"
+        "url": "/verify/taulib/docs/book-i-denotation-arithmetic/"
       },
       {
         "title": "Dedicated H7 theorem documentation",
@@ -457,11 +457,11 @@
     "taulib_modules": [
       {
         "title": "TauLib.BookI.Boundary.Iota",
-        "url": "/corpus/taulib/docs/book-i-boundary-iota/"
+        "url": "/verify/taulib/docs/book-i-boundary-iota/"
       },
       {
         "title": "TauLib.BookI.Boundary.Spectral",
-        "url": "/corpus/taulib/docs/book-i-boundary-spectral/"
+        "url": "/verify/taulib/docs/book-i-boundary-spectral/"
       }
     ],
     "red_team_questions": [

@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIII.Spectral.ConfinementBridge",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-confinement-bridge/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-confinement-bridge/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIII.Spectral.ConfinementBridge`.",
   "module_name": "TauLib.BookIII.Spectral.ConfinementBridge",
   "module_slug": "book-iii-spectral-confinement-bridge",
@@ -35,10 +35,12 @@
     {
       "kind": "theorem",
       "name": "bridge_algebraic_identity",
-      "url": "/verify/taulib/docs/book-iii-spectral-confinement-bridge/bridge-algebraic-identity/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-confinement-bridge/bridge-algebraic-identity/",
       "source_line_start": 105,
       "source_line_end": 117,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.P32"
       ]
@@ -46,10 +48,12 @@
     {
       "kind": "theorem",
       "name": "bridge_reduces_to_E6_near_identity",
-      "url": "/verify/taulib/docs/book-iii-spectral-confinement-bridge/bridge-reduces-to-e6-near-identity/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-confinement-bridge/bridge-reduces-to-e6-near-identity/",
       "source_line_start": 125,
       "source_line_end": 146,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.P32",
         "III.T53"
@@ -58,46 +62,56 @@
     {
       "kind": "def",
       "name": "bridge_lhs_N",
-      "url": "/verify/taulib/docs/book-iii-spectral-confinement-bridge/bridge-lhs-n/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-confinement-bridge/bridge-lhs-n/",
       "source_line_start": 149,
       "source_line_end": 149,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "bridge_lhs_D",
-      "url": "/verify/taulib/docs/book-iii-spectral-confinement-bridge/bridge-lhs-d/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-confinement-bridge/bridge-lhs-d/",
       "source_line_start": 151,
       "source_line_end": 151,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "bridge_rhs_N",
-      "url": "/verify/taulib/docs/book-iii-spectral-confinement-bridge/bridge-rhs-n/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-confinement-bridge/bridge-rhs-n/",
       "source_line_start": 153,
       "source_line_end": 153,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "bridge_rhs_D",
-      "url": "/verify/taulib/docs/book-iii-spectral-confinement-bridge/bridge-rhs-d/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-confinement-bridge/bridge-rhs-d/",
       "source_line_start": 155,
       "source_line_end": 155,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "confinement_bridge_lower",
-      "url": "/verify/taulib/docs/book-iii-spectral-confinement-bridge/confinement-bridge-lower/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-confinement-bridge/confinement-bridge-lower/",
       "source_line_start": 161,
       "source_line_end": 163,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T54"
       ]
@@ -105,19 +119,23 @@
     {
       "kind": "theorem",
       "name": "confinement_bridge_upper",
-      "url": "/verify/taulib/docs/book-iii-spectral-confinement-bridge/confinement-bridge-upper/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-confinement-bridge/confinement-bridge-upper/",
       "source_line_start": 165,
       "source_line_end": 167,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "confinement_bridge",
-      "url": "/verify/taulib/docs/book-iii-spectral-confinement-bridge/confinement-bridge/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-confinement-bridge/confinement-bridge/",
       "source_line_start": 169,
       "source_line_end": 185,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T54"
       ]
@@ -125,46 +143,56 @@
     {
       "kind": "theorem",
       "name": "sdual_exponent_large",
-      "url": "/verify/taulib/docs/book-iii-spectral-confinement-bridge/sdual-exponent-large/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-confinement-bridge/sdual-exponent-large/",
       "source_line_start": 194,
       "source_line_end": 196,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "sduality_E4_sign_positive",
-      "url": "/verify/taulib/docs/book-iii-spectral-confinement-bridge/sduality-e4-sign-positive/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-confinement-bridge/sduality-e4-sign-positive/",
       "source_line_start": 201,
       "source_line_end": 201,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "sduality_E6_sign_negative",
-      "url": "/verify/taulib/docs/book-iii-spectral-confinement-bridge/sduality-e6-sign-negative/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-confinement-bridge/sduality-e6-sign-negative/",
       "source_line_start": 206,
       "source_line_end": 206,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "sign_rule",
-      "url": "/verify/taulib/docs/book-iii-spectral-confinement-bridge/sign-rule/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-confinement-bridge/sign-rule/",
       "source_line_start": 211,
       "source_line_end": 212,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "E4_qcoeff",
-      "url": "/verify/taulib/docs/book-iii-spectral-confinement-bridge/e4-qcoeff/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-confinement-bridge/e4-qcoeff/",
       "source_line_start": 226,
       "source_line_end": 226,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D80"
       ]
@@ -172,55 +200,67 @@
     {
       "kind": "def",
       "name": "E6_qcoeff",
-      "url": "/verify/taulib/docs/book-iii-spectral-confinement-bridge/e6-qcoeff/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-confinement-bridge/e6-qcoeff/",
       "source_line_start": 227,
       "source_line_end": 227,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ratio_coeff_is_744",
-      "url": "/verify/taulib/docs/book-iii-spectral-confinement-bridge/ratio-coeff-is-744/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-confinement-bridge/ratio-coeff-is-744/",
       "source_line_start": 230,
       "source_line_end": 230,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "e8_connection",
-      "url": "/verify/taulib/docs/book-iii-spectral-confinement-bridge/e8-connection/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-confinement-bridge/e8-connection/",
       "source_line_start": 233,
       "source_line_end": 257,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-confinement-bridge/eval-l264/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-confinement-bridge/eval-l264/",
       "source_line_start": 264,
       "source_line_end": 264,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-confinement-bridge/eval-l267/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-confinement-bridge/eval-l267/",
       "source_line_start": 267,
       "source_line_end": 267,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-spectral-confinement-bridge/eval-l270/",
+      "url": "/corpus/taulib/docs/book-iii-spectral-confinement-bridge/eval-l270/",
       "source_line_start": 270,
       "source_line_end": 273,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -232,7 +272,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -305,25 +345,25 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `theorem` | [bridge_algebraic_identity](/verify/taulib/docs/book-iii-spectral-confinement-bridge/bridge-algebraic-identity/) | L105-L117 | formalized | `III.P32` |
-| `theorem` | [bridge_reduces_to_E6_near_identity](/verify/taulib/docs/book-iii-spectral-confinement-bridge/bridge-reduces-to-e6-near-identity/) | L125-L146 | formalized | `III.P32`, `III.T53` |
-| `def` | [bridge_lhs_N](/verify/taulib/docs/book-iii-spectral-confinement-bridge/bridge-lhs-n/) | L149-L149 | defined | — |
-| `def` | [bridge_lhs_D](/verify/taulib/docs/book-iii-spectral-confinement-bridge/bridge-lhs-d/) | L151-L151 | defined | — |
-| `def` | [bridge_rhs_N](/verify/taulib/docs/book-iii-spectral-confinement-bridge/bridge-rhs-n/) | L153-L153 | defined | — |
-| `def` | [bridge_rhs_D](/verify/taulib/docs/book-iii-spectral-confinement-bridge/bridge-rhs-d/) | L155-L155 | defined | — |
-| `theorem` | [confinement_bridge_lower](/verify/taulib/docs/book-iii-spectral-confinement-bridge/confinement-bridge-lower/) | L161-L163 | formalized | `III.T54` |
-| `theorem` | [confinement_bridge_upper](/verify/taulib/docs/book-iii-spectral-confinement-bridge/confinement-bridge-upper/) | L165-L167 | formalized | — |
-| `theorem` | [confinement_bridge](/verify/taulib/docs/book-iii-spectral-confinement-bridge/confinement-bridge/) | L169-L185 | formalized | `III.T54` |
-| `theorem` | [sdual_exponent_large](/verify/taulib/docs/book-iii-spectral-confinement-bridge/sdual-exponent-large/) | L194-L196 | formalized | — |
-| `theorem` | [sduality_E4_sign_positive](/verify/taulib/docs/book-iii-spectral-confinement-bridge/sduality-e4-sign-positive/) | L201-L201 | formalized | — |
-| `theorem` | [sduality_E6_sign_negative](/verify/taulib/docs/book-iii-spectral-confinement-bridge/sduality-e6-sign-negative/) | L206-L206 | formalized | — |
-| `theorem` | [sign_rule](/verify/taulib/docs/book-iii-spectral-confinement-bridge/sign-rule/) | L211-L212 | formalized | — |
-| `def` | [E4_qcoeff](/verify/taulib/docs/book-iii-spectral-confinement-bridge/e4-qcoeff/) | L226-L226 | defined | `III.D80` |
-| `def` | [E6_qcoeff](/verify/taulib/docs/book-iii-spectral-confinement-bridge/e6-qcoeff/) | L227-L227 | defined | — |
-| `theorem` | [ratio_coeff_is_744](/verify/taulib/docs/book-iii-spectral-confinement-bridge/ratio-coeff-is-744/) | L230-L230 | formalized | — |
-| `theorem` | [e8_connection](/verify/taulib/docs/book-iii-spectral-confinement-bridge/e8-connection/) | L233-L257 | formalized | — |
-| `eval` | [#eval L264](/verify/taulib/docs/book-iii-spectral-confinement-bridge/eval-l264/) | L264-L264 | computed | — |
-| `eval` | [#eval L267](/verify/taulib/docs/book-iii-spectral-confinement-bridge/eval-l267/) | L267-L267 | computed | — |
-| `eval` | [#eval L270](/verify/taulib/docs/book-iii-spectral-confinement-bridge/eval-l270/) | L270-L273 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `theorem` | [bridge_algebraic_identity](/corpus/taulib/docs/book-iii-spectral-confinement-bridge/bridge-algebraic-identity/) | L105-L117 | proof obligation | formal proof obligation checked | `III.P32` |
+| `theorem` | [bridge_reduces_to_E6_near_identity](/corpus/taulib/docs/book-iii-spectral-confinement-bridge/bridge-reduces-to-e6-near-identity/) | L125-L146 | proof obligation | formal proof obligation checked | `III.P32`, `III.T53` |
+| `def` | [bridge_lhs_N](/corpus/taulib/docs/book-iii-spectral-confinement-bridge/bridge-lhs-n/) | L149-L149 | data/computed value | data/computed value | — |
+| `def` | [bridge_lhs_D](/corpus/taulib/docs/book-iii-spectral-confinement-bridge/bridge-lhs-d/) | L151-L151 | data/computed value | data/computed value | — |
+| `def` | [bridge_rhs_N](/corpus/taulib/docs/book-iii-spectral-confinement-bridge/bridge-rhs-n/) | L153-L153 | data/computed value | data/computed value | — |
+| `def` | [bridge_rhs_D](/corpus/taulib/docs/book-iii-spectral-confinement-bridge/bridge-rhs-d/) | L155-L155 | data/computed value | data/computed value | — |
+| `theorem` | [confinement_bridge_lower](/corpus/taulib/docs/book-iii-spectral-confinement-bridge/confinement-bridge-lower/) | L161-L163 | proof obligation | formal proof obligation checked | `III.T54` |
+| `theorem` | [confinement_bridge_upper](/corpus/taulib/docs/book-iii-spectral-confinement-bridge/confinement-bridge-upper/) | L165-L167 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [confinement_bridge](/corpus/taulib/docs/book-iii-spectral-confinement-bridge/confinement-bridge/) | L169-L185 | proof obligation | formal proof obligation checked | `III.T54` |
+| `theorem` | [sdual_exponent_large](/corpus/taulib/docs/book-iii-spectral-confinement-bridge/sdual-exponent-large/) | L194-L196 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [sduality_E4_sign_positive](/corpus/taulib/docs/book-iii-spectral-confinement-bridge/sduality-e4-sign-positive/) | L201-L201 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [sduality_E6_sign_negative](/corpus/taulib/docs/book-iii-spectral-confinement-bridge/sduality-e6-sign-negative/) | L206-L206 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [sign_rule](/corpus/taulib/docs/book-iii-spectral-confinement-bridge/sign-rule/) | L211-L212 | proof obligation | formal proof obligation checked | — |
+| `def` | [E4_qcoeff](/corpus/taulib/docs/book-iii-spectral-confinement-bridge/e4-qcoeff/) | L226-L226 | data/computed value | data/computed value | `III.D80` |
+| `def` | [E6_qcoeff](/corpus/taulib/docs/book-iii-spectral-confinement-bridge/e6-qcoeff/) | L227-L227 | data/computed value | data/computed value | — |
+| `theorem` | [ratio_coeff_is_744](/corpus/taulib/docs/book-iii-spectral-confinement-bridge/ratio-coeff-is-744/) | L230-L230 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [e8_connection](/corpus/taulib/docs/book-iii-spectral-confinement-bridge/e8-connection/) | L233-L257 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L264](/corpus/taulib/docs/book-iii-spectral-confinement-bridge/eval-l264/) | L264-L264 | computed check | computed check | — |
+| `eval` | [#eval L267](/corpus/taulib/docs/book-iii-spectral-confinement-bridge/eval-l267/) | L267-L267 | computed check | computed check | — |
+| `eval` | [#eval L270](/corpus/taulib/docs/book-iii-spectral-confinement-bridge/eval-l270/) | L270-L273 | computed check | computed check | — |

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "problem_part",
-  "permalink": "/verify/taulib/docs/book-iii-doors-master-schema/problem-part/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-master-schema/problem-part/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Doors.MasterSchema`.",
   "declaration_id": "TauLib.BookIII.Doors.MasterSchema::problem_part",
   "declaration_slug": "problem-part",
   "kind": "def",
   "name": "problem_part",
   "module_name": "TauLib.BookIII.Doors.MasterSchema",
-  "module_url": "/verify/taulib/docs/book-iii-doors-master-schema/",
+  "module_url": "/corpus/taulib/docs/book-iii-doors-master-schema/",
   "source_line_start": 62,
   "source_line_end": 71,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/MasterSchema.lean#L62-L71",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Doors.MasterSchema",
-        "url": "/verify/taulib/docs/book-iii-doors-master-schema/"
+        "url": "/corpus/taulib/docs/book-iii-doors-master-schema/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Doors.MasterSchema](/verify/taulib/docs/book-iii-doors-master-schema/)
+- Module: [TauLib.BookIII.Doors.MasterSchema](/corpus/taulib/docs/book-iii-doors-master-schema/)
 - Source path: [`TauLib/BookIII/Doors/MasterSchema.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/MasterSchema.lean#L62-L71)
 - Source range: L62-L71
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

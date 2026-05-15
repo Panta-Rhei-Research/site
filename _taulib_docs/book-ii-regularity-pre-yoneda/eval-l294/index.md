@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L294",
-  "permalink": "/verify/taulib/docs/book-ii-regularity-pre-yoneda/eval-l294/",
+  "permalink": "/corpus/taulib/docs/book-ii-regularity-pre-yoneda/eval-l294/",
   "summary_short": "`eval` declaration in `TauLib.BookII.Regularity.PreYoneda`.",
   "declaration_id": "TauLib.BookII.Regularity.PreYoneda::#eval:294",
   "declaration_slug": "eval-l294",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookII.Regularity.PreYoneda",
-  "module_url": "/verify/taulib/docs/book-ii-regularity-pre-yoneda/",
+  "module_url": "/corpus/taulib/docs/book-ii-regularity-pre-yoneda/",
   "source_line_start": 294,
   "source_line_end": 294,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Regularity/PreYoneda.lean#L294-L294",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Regularity.PreYoneda",
-        "url": "/verify/taulib/docs/book-ii-regularity-pre-yoneda/"
+        "url": "/corpus/taulib/docs/book-ii-regularity-pre-yoneda/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Regularity.PreYoneda](/verify/taulib/docs/book-ii-regularity-pre-yoneda/)
+- Module: [TauLib.BookII.Regularity.PreYoneda](/corpus/taulib/docs/book-ii-regularity-pre-yoneda/)
 - Source path: [`TauLib/BookII/Regularity/PreYoneda.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Regularity/PreYoneda.lean#L294-L294)
 - Source range: L294-L294
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

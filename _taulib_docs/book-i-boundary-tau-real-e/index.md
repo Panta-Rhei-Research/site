@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Boundary.TauRealE",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-real-e/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-real-e/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Boundary.TauRealE`.",
   "module_name": "TauLib.BookI.Boundary.TauRealE",
   "module_slug": "book-i-boundary-tau-real-e",
@@ -39,91 +39,111 @@
     {
       "kind": "def",
       "name": "TauRat.e_term",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-e/e-term/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-e/e-term/",
       "source_line_start": 47,
       "source_line_end": 48,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauRat.e_term_toRat",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-e/e-term-to-rat/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-e/e-term-to-rat/",
       "source_line_start": 50,
       "source_line_end": 53,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauRat.e_term_pos",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-e/e-term-pos/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-e/e-term-pos/",
       "source_line_start": 55,
       "source_line_end": 59,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauRat.abs_e_term_toRat",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-e/abs-e-term-to-rat/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-e/abs-e-term-to-rat/",
       "source_line_start": 61,
       "source_line_end": 63,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TauRat.e_partial",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-e/e-partial/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-e/e-partial/",
       "source_line_start": 66,
       "source_line_end": 66,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "TauReal.e",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-e/e/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-e/e/",
       "source_line_start": 69,
       "source_line_end": 69,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauRat.e_term_le_geom",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-e/e-term-le-geom/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-e/e-term-le-geom/",
       "source_line_start": 76,
       "source_line_end": 91,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.sumFromTo_e_term_bound",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-e/sum-from-to-e-term-bound/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-e/sum-from-to-e-term-bound/",
       "source_line_start": 99,
       "source_line_end": 129,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.e_partial_cauchy_bound",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-e/e-partial-cauchy-bound/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-e/e-partial-cauchy-bound/",
       "source_line_start": 135,
       "source_line_end": 171,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "TauReal.e_isCauchy",
-      "url": "/verify/taulib/docs/book-i-boundary-tau-real-e/e-is-cauchy/",
+      "url": "/corpus/taulib/docs/book-i-boundary-tau-real-e/e-is-cauchy/",
       "source_line_start": 178,
       "source_line_end": 208,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -135,7 +155,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -209,15 +229,15 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [TauRat.e_term](/verify/taulib/docs/book-i-boundary-tau-real-e/e-term/) | L47-L48 | defined | — |
-| `theorem` | [TauRat.e_term_toRat](/verify/taulib/docs/book-i-boundary-tau-real-e/e-term-to-rat/) | L50-L53 | formalized | — |
-| `theorem` | [TauRat.e_term_pos](/verify/taulib/docs/book-i-boundary-tau-real-e/e-term-pos/) | L55-L59 | formalized | — |
-| `theorem` | [TauRat.abs_e_term_toRat](/verify/taulib/docs/book-i-boundary-tau-real-e/abs-e-term-to-rat/) | L61-L63 | formalized | — |
-| `def` | [TauRat.e_partial](/verify/taulib/docs/book-i-boundary-tau-real-e/e-partial/) | L66-L66 | defined | — |
-| `def` | [TauReal.e](/verify/taulib/docs/book-i-boundary-tau-real-e/e/) | L69-L69 | defined | — |
-| `theorem` | [TauRat.e_term_le_geom](/verify/taulib/docs/book-i-boundary-tau-real-e/e-term-le-geom/) | L76-L91 | formalized | — |
-| `theorem` | [TauReal.sumFromTo_e_term_bound](/verify/taulib/docs/book-i-boundary-tau-real-e/sum-from-to-e-term-bound/) | L99-L129 | formalized | — |
-| `theorem` | [TauReal.e_partial_cauchy_bound](/verify/taulib/docs/book-i-boundary-tau-real-e/e-partial-cauchy-bound/) | L135-L171 | formalized | — |
-| `theorem` | [TauReal.e_isCauchy](/verify/taulib/docs/book-i-boundary-tau-real-e/e-is-cauchy/) | L178-L208 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [TauRat.e_term](/corpus/taulib/docs/book-i-boundary-tau-real-e/e-term/) | L47-L48 | data/computed value | data/computed value | — |
+| `theorem` | [TauRat.e_term_toRat](/corpus/taulib/docs/book-i-boundary-tau-real-e/e-term-to-rat/) | L50-L53 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauRat.e_term_pos](/corpus/taulib/docs/book-i-boundary-tau-real-e/e-term-pos/) | L55-L59 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauRat.abs_e_term_toRat](/corpus/taulib/docs/book-i-boundary-tau-real-e/abs-e-term-to-rat/) | L61-L63 | proof obligation | formal proof obligation checked | — |
+| `def` | [TauRat.e_partial](/corpus/taulib/docs/book-i-boundary-tau-real-e/e-partial/) | L66-L66 | data/computed value | data/computed value | — |
+| `def` | [TauReal.e](/corpus/taulib/docs/book-i-boundary-tau-real-e/e/) | L69-L69 | definition | definition | — |
+| `theorem` | [TauRat.e_term_le_geom](/corpus/taulib/docs/book-i-boundary-tau-real-e/e-term-le-geom/) | L76-L91 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.sumFromTo_e_term_bound](/corpus/taulib/docs/book-i-boundary-tau-real-e/sum-from-to-e-term-bound/) | L99-L129 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.e_partial_cauchy_bound](/corpus/taulib/docs/book-i-boundary-tau-real-e/e-partial-cauchy-bound/) | L135-L171 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [TauReal.e_isCauchy](/corpus/taulib/docs/book-i-boundary-tau-real-e/e-is-cauchy/) | L178-L208 | proof obligation | formal proof obligation checked | — |

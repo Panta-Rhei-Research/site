@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Holomorphy.SpectralCoefficients",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Holomorphy.SpectralCoefficients`.",
   "module_name": "TauLib.BookI.Holomorphy.SpectralCoefficients",
   "module_slug": "book-i-holomorphy-spectral-coefficients",
@@ -38,10 +38,12 @@
     {
       "kind": "structure",
       "name": "SpectralCoeff",
-      "url": "/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/spectral-coeff/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/spectral-coeff/",
       "source_line_start": 37,
       "source_line_end": 41,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "I.D65"
       ]
@@ -49,28 +51,34 @@
     {
       "kind": "def",
       "name": "spectral_of",
-      "url": "/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/spectral-of/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/spectral-of/",
       "source_line_start": 44,
       "source_line_end": 45,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "spectral_eq_implies_agree",
-      "url": "/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/spectral-eq-implies-agree/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/spectral-eq-implies-agree/",
       "source_line_start": 48,
       "source_line_end": 55,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "restriction",
-      "url": "/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/restriction/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/restriction/",
       "source_line_start": 64,
       "source_line_end": 66,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "I.D66"
       ]
@@ -78,28 +86,34 @@
     {
       "kind": "theorem",
       "name": "restriction_outside",
-      "url": "/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/restriction-outside/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/restriction-outside/",
       "source_line_start": 69,
       "source_line_end": 73,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "restriction_inside",
-      "url": "/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/restriction-inside/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/restriction-inside/",
       "source_line_start": 76,
       "source_line_end": 80,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "spectral_determines",
-      "url": "/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/spectral-determines/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/spectral-determines/",
       "source_line_start": 92,
       "source_line_end": 99,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.T29"
       ]
@@ -107,55 +121,67 @@
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/example-l102/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/example-l102/",
       "source_line_start": 102,
       "source_line_end": 102,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "example",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/example-l105/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/example-l105/",
       "source_line_start": 105,
       "source_line_end": 105,
       "formal_status": "example",
+      "declaration_role": "example check",
+      "formal_status_label": "example",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/eval-l111/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/eval-l111/",
       "source_line_start": 111,
       "source_line_end": 111,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/eval-l112/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/eval-l112/",
       "source_line_start": 112,
       "source_line_end": 112,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/eval-l115/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/eval-l115/",
       "source_line_start": 115,
       "source_line_end": 115,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/eval-l116/",
+      "url": "/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/eval-l116/",
       "source_line_start": 116,
       "source_line_end": 118,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -167,7 +193,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -243,18 +269,18 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [SpectralCoeff](/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/spectral-coeff/) | L37-L41 | defined | `I.D65` |
-| `def` | [spectral_of](/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/spectral-of/) | L44-L45 | defined | — |
-| `theorem` | [spectral_eq_implies_agree](/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/spectral-eq-implies-agree/) | L48-L55 | formalized | — |
-| `def` | [restriction](/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/restriction/) | L64-L66 | defined | `I.D66` |
-| `theorem` | [restriction_outside](/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/restriction-outside/) | L69-L73 | formalized | — |
-| `theorem` | [restriction_inside](/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/restriction-inside/) | L76-L80 | formalized | — |
-| `theorem` | [spectral_determines](/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/spectral-determines/) | L92-L99 | formalized | `I.T29` |
-| `example` | [#eval L102](/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/example-l102/) | L102-L102 | example | — |
-| `example` | [#eval L105](/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/example-l105/) | L105-L105 | example | — |
-| `eval` | [#eval L111](/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/eval-l111/) | L111-L111 | computed | — |
-| `eval` | [#eval L112](/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/eval-l112/) | L112-L112 | computed | — |
-| `eval` | [#eval L115](/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/eval-l115/) | L115-L115 | computed | — |
-| `eval` | [#eval L116](/verify/taulib/docs/book-i-holomorphy-spectral-coefficients/eval-l116/) | L116-L118 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [SpectralCoeff](/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/spectral-coeff/) | L37-L41 | type/data schema | type/data schema | `I.D65` |
+| `def` | [spectral_of](/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/spectral-of/) | L44-L45 | definition | definition | — |
+| `theorem` | [spectral_eq_implies_agree](/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/spectral-eq-implies-agree/) | L48-L55 | proof obligation | formal proof obligation checked | — |
+| `def` | [restriction](/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/restriction/) | L64-L66 | definition | definition | `I.D66` |
+| `theorem` | [restriction_outside](/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/restriction-outside/) | L69-L73 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [restriction_inside](/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/restriction-inside/) | L76-L80 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [spectral_determines](/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/spectral-determines/) | L92-L99 | proof obligation | formal proof obligation checked | `I.T29` |
+| `example` | [#eval L102](/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/example-l102/) | L102-L102 | example check | example | — |
+| `example` | [#eval L105](/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/example-l105/) | L105-L105 | example check | example | — |
+| `eval` | [#eval L111](/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/eval-l111/) | L111-L111 | computed check | computed check | — |
+| `eval` | [#eval L112](/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/eval-l112/) | L112-L112 | computed check | computed check | — |
+| `eval` | [#eval L115](/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/eval-l115/) | L115-L115 | computed check | computed check | — |
+| `eval` | [#eval L116](/corpus/taulib/docs/book-i-holomorphy-spectral-coefficients/eval-l116/) | L116-L118 | computed check | computed check | — |

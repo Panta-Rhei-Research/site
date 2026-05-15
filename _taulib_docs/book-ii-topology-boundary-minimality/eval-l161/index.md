@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L161",
-  "permalink": "/verify/taulib/docs/book-ii-topology-boundary-minimality/eval-l161/",
+  "permalink": "/corpus/taulib/docs/book-ii-topology-boundary-minimality/eval-l161/",
   "summary_short": "`eval` declaration in `TauLib.BookII.Topology.BoundaryMinimality`.",
   "declaration_id": "TauLib.BookII.Topology.BoundaryMinimality::#eval:161",
   "declaration_slug": "eval-l161",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookII.Topology.BoundaryMinimality",
-  "module_url": "/verify/taulib/docs/book-ii-topology-boundary-minimality/",
+  "module_url": "/corpus/taulib/docs/book-ii-topology-boundary-minimality/",
   "source_line_start": 161,
   "source_line_end": 161,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/BoundaryMinimality.lean#L161-L161",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Topology.BoundaryMinimality",
-        "url": "/verify/taulib/docs/book-ii-topology-boundary-minimality/"
+        "url": "/corpus/taulib/docs/book-ii-topology-boundary-minimality/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Topology.BoundaryMinimality](/verify/taulib/docs/book-ii-topology-boundary-minimality/)
+- Module: [TauLib.BookII.Topology.BoundaryMinimality](/corpus/taulib/docs/book-ii-topology-boundary-minimality/)
 - Source path: [`TauLib/BookII/Topology/BoundaryMinimality.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/BoundaryMinimality.lean#L161-L161)
 - Source range: L161-L161
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

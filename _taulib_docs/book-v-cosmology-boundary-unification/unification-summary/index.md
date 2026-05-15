@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "unification_summary",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-boundary-unification/unification-summary/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/unification-summary/",
   "summary_short": "`def` declaration in `TauLib.BookV.Cosmology.BoundaryUnification`.",
   "declaration_id": "TauLib.BookV.Cosmology.BoundaryUnification::unification_summary",
   "declaration_slug": "unification-summary",
   "kind": "def",
   "name": "unification_summary",
   "module_name": "TauLib.BookV.Cosmology.BoundaryUnification",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/",
   "source_line_start": 254,
   "source_line_end": 254,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BoundaryUnification.lean#L254-L254",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.BoundaryUnification",
-        "url": "/verify/taulib/docs/book-v-cosmology-boundary-unification/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-boundary-unification/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.BoundaryUnification](/verify/taulib/docs/book-v-cosmology-boundary-unification/)
+- Module: [TauLib.BookV.Cosmology.BoundaryUnification](/corpus/taulib/docs/book-v-cosmology-boundary-unification/)
 - Source path: [`TauLib/BookV/Cosmology/BoundaryUnification.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BoundaryUnification.lean#L254-L254)
 - Source range: L254-L254
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "level1plus",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-mass-ratio-formula/level1plus/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-mass-ratio-formula/level1plus/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Calibration.MassRatioFormula`.",
   "declaration_id": "TauLib.BookIV.Calibration.MassRatioFormula::level1plus",
   "declaration_slug": "level1plus",
   "kind": "def",
   "name": "level1plus",
   "module_name": "TauLib.BookIV.Calibration.MassRatioFormula",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-mass-ratio-formula/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-mass-ratio-formula/",
   "source_line_start": 284,
   "source_line_end": 284,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/MassRatioFormula.lean#L284-L284",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.MassRatioFormula",
-        "url": "/verify/taulib/docs/book-iv-calibration-mass-ratio-formula/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-mass-ratio-formula/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.MassRatioFormula](/verify/taulib/docs/book-iv-calibration-mass-ratio-formula/)
+- Module: [TauLib.BookIV.Calibration.MassRatioFormula](/corpus/taulib/docs/book-iv-calibration-mass-ratio-formula/)
 - Source path: [`TauLib/BookIV/Calibration/MassRatioFormula.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/MassRatioFormula.lean#L284-L284)
 - Source range: L284-L284
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

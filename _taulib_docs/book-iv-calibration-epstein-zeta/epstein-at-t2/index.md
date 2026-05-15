@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "epstein_at_T2",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-epstein-zeta/epstein-at-t2/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-epstein-zeta/epstein-at-t2/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Calibration.EpsteinZeta`.",
   "declaration_id": "TauLib.BookIV.Calibration.EpsteinZeta::epstein_at_T2",
   "declaration_slug": "epstein-at-t2",
   "kind": "def",
   "name": "epstein_at_T2",
   "module_name": "TauLib.BookIV.Calibration.EpsteinZeta",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-epstein-zeta/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-epstein-zeta/",
   "source_line_start": 88,
   "source_line_end": 92,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/EpsteinZeta.lean#L88-L92",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.EpsteinZeta",
-        "url": "/verify/taulib/docs/book-iv-calibration-epstein-zeta/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-epstein-zeta/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.EpsteinZeta](/verify/taulib/docs/book-iv-calibration-epstein-zeta/)
+- Module: [TauLib.BookIV.Calibration.EpsteinZeta](/corpus/taulib/docs/book-iv-calibration-epstein-zeta/)
 - Source path: [`TauLib/BookIV/Calibration/EpsteinZeta.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/EpsteinZeta.lean#L88-L92)
 - Source range: L88-L92
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

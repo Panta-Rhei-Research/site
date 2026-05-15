@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "extension_from_restriction",
-  "permalink": "/verify/taulib/docs/book-i-holomorphy-thinness/extension-from-restriction/",
+  "permalink": "/corpus/taulib/docs/book-i-holomorphy-thinness/extension-from-restriction/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Holomorphy.Thinness`.",
   "declaration_id": "TauLib.BookI.Holomorphy.Thinness::extension_from_restriction",
   "declaration_slug": "extension-from-restriction",
   "kind": "theorem",
   "name": "extension_from_restriction",
   "module_name": "TauLib.BookI.Holomorphy.Thinness",
-  "module_url": "/verify/taulib/docs/book-i-holomorphy-thinness/",
+  "module_url": "/corpus/taulib/docs/book-i-holomorphy-thinness/",
   "source_line_start": 124,
   "source_line_end": 128,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/Thinness.lean#L124-L128",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Holomorphy.Thinness",
-        "url": "/verify/taulib/docs/book-i-holomorphy-thinness/"
+        "url": "/corpus/taulib/docs/book-i-holomorphy-thinness/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Holomorphy.Thinness](/verify/taulib/docs/book-i-holomorphy-thinness/)
+- Module: [TauLib.BookI.Holomorphy.Thinness](/corpus/taulib/docs/book-i-holomorphy-thinness/)
 - Source path: [`TauLib/BookI/Holomorphy/Thinness.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Holomorphy/Thinness.lean#L124-L128)
 - Source range: L124-L128
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

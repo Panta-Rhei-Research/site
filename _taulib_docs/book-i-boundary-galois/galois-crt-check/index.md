@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "galois_crt_check",
-  "permalink": "/verify/taulib/docs/book-i-boundary-galois/galois-crt-check/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-galois/galois-crt-check/",
   "summary_short": "`def` declaration in `TauLib.BookI.Boundary.Galois`.",
   "declaration_id": "TauLib.BookI.Boundary.Galois::galois_crt_check",
   "declaration_slug": "galois-crt-check",
   "kind": "def",
   "name": "galois_crt_check",
   "module_name": "TauLib.BookI.Boundary.Galois",
-  "module_url": "/verify/taulib/docs/book-i-boundary-galois/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-galois/",
   "source_line_start": 191,
   "source_line_end": 192,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Galois.lean#L191-L192",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Galois",
-        "url": "/verify/taulib/docs/book-i-boundary-galois/"
+        "url": "/corpus/taulib/docs/book-i-boundary-galois/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Galois](/verify/taulib/docs/book-i-boundary-galois/)
+- Module: [TauLib.BookI.Boundary.Galois](/corpus/taulib/docs/book-i-boundary-galois/)
 - Source path: [`TauLib/BookI/Boundary/Galois.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Galois.lean#L191-L192)
 - Source range: L191-L192
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

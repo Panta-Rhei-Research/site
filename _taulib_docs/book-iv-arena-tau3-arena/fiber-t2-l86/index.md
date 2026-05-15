@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "fiber_t2",
-  "permalink": "/verify/taulib/docs/book-iv-arena-tau3-arena/fiber-t2-l86/",
+  "permalink": "/corpus/taulib/docs/book-iv-arena-tau3-arena/fiber-t2-l86/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Arena.Tau3Arena`.",
   "declaration_id": "TauLib.BookIV.Arena.Tau3Arena::fiber_t2",
   "declaration_slug": "fiber-t2-l86",
   "kind": "def",
   "name": "fiber_t2",
   "module_name": "TauLib.BookIV.Arena.Tau3Arena",
-  "module_url": "/verify/taulib/docs/book-iv-arena-tau3-arena/",
+  "module_url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/",
   "source_line_start": 86,
   "source_line_end": 94,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/Tau3Arena.lean#L86-L94",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Arena.Tau3Arena",
-        "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/"
+        "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Arena.Tau3Arena](/verify/taulib/docs/book-iv-arena-tau3-arena/)
+- Module: [TauLib.BookIV.Arena.Tau3Arena](/corpus/taulib/docs/book-iv-arena-tau3-arena/)
 - Source path: [`TauLib/BookIV/Arena/Tau3Arena.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/Tau3Arena.lean#L86-L94)
 - Source range: L86-L94
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

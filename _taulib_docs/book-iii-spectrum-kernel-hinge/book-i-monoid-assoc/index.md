@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "book_i_monoid_assoc",
-  "permalink": "/verify/taulib/docs/book-iii-spectrum-kernel-hinge/book-i-monoid-assoc/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/book-i-monoid-assoc/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Spectrum.KernelHinge`.",
   "declaration_id": "TauLib.BookIII.Spectrum.KernelHinge::book_i_monoid_assoc",
   "declaration_slug": "book-i-monoid-assoc",
   "kind": "theorem",
   "name": "book_i_monoid_assoc",
   "module_name": "TauLib.BookIII.Spectrum.KernelHinge",
-  "module_url": "/verify/taulib/docs/book-iii-spectrum-kernel-hinge/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/",
   "source_line_start": 148,
   "source_line_end": 151,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectrum/KernelHinge.lean#L148-L151",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectrum.KernelHinge",
-        "url": "/verify/taulib/docs/book-iii-spectrum-kernel-hinge/"
+        "url": "/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectrum.KernelHinge](/verify/taulib/docs/book-iii-spectrum-kernel-hinge/)
+- Module: [TauLib.BookIII.Spectrum.KernelHinge](/corpus/taulib/docs/book-iii-spectrum-kernel-hinge/)
 - Source path: [`TauLib/BookIII/Spectrum/KernelHinge.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectrum/KernelHinge.lean#L148-L151)
 - Source range: L148-L151
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

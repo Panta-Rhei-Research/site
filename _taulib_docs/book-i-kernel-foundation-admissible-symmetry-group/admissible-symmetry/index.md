@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "AdmissibleSymmetry",
-  "permalink": "/verify/taulib/docs/book-i-kernel-foundation-admissible-symmetry-group/admissible-symmetry/",
+  "permalink": "/corpus/taulib/docs/book-i-kernel-foundation-admissible-symmetry-group/admissible-symmetry/",
   "summary_short": "`structure` declaration in `TauLib.BookI.KernelFoundation.AdmissibleSymmetryGroup`.",
   "declaration_id": "TauLib.BookI.KernelFoundation.AdmissibleSymmetryGroup::AdmissibleSymmetry",
   "declaration_slug": "admissible-symmetry",
   "kind": "structure",
   "name": "AdmissibleSymmetry",
   "module_name": "TauLib.BookI.KernelFoundation.AdmissibleSymmetryGroup",
-  "module_url": "/verify/taulib/docs/book-i-kernel-foundation-admissible-symmetry-group/",
+  "module_url": "/corpus/taulib/docs/book-i-kernel-foundation-admissible-symmetry-group/",
   "source_line_start": 105,
   "source_line_end": 110,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/KernelFoundation/AdmissibleSymmetryGroup.lean#L105-L110",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.KernelFoundation.AdmissibleSymmetryGroup",
-        "url": "/verify/taulib/docs/book-i-kernel-foundation-admissible-symmetry-group/"
+        "url": "/corpus/taulib/docs/book-i-kernel-foundation-admissible-symmetry-group/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.KernelFoundation.AdmissibleSymmetryGroup](/verify/taulib/docs/book-i-kernel-foundation-admissible-symmetry-group/)
+- Module: [TauLib.BookI.KernelFoundation.AdmissibleSymmetryGroup](/corpus/taulib/docs/book-i-kernel-foundation-admissible-symmetry-group/)
 - Source path: [`TauLib/BookI/KernelFoundation/AdmissibleSymmetryGroup.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/KernelFoundation/AdmissibleSymmetryGroup.lean#L105-L110)
 - Source range: L105-L110
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

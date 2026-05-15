@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "HolEndMorphismFull.preserves_crossingPoint",
-  "permalink": "/verify/taulib/docs/book-i-boundary-universal-fixed-scalar/preserves-crossing-point/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-universal-fixed-scalar/preserves-crossing-point/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.UniversalFixedScalar`.",
   "declaration_id": "TauLib.BookI.Boundary.UniversalFixedScalar::HolEndMorphismFull.preserves_crossingPoint",
   "declaration_slug": "preserves-crossing-point",
   "kind": "theorem",
   "name": "HolEndMorphismFull.preserves_crossingPoint",
   "module_name": "TauLib.BookI.Boundary.UniversalFixedScalar",
-  "module_url": "/verify/taulib/docs/book-i-boundary-universal-fixed-scalar/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-universal-fixed-scalar/",
   "source_line_start": 201,
   "source_line_end": 210,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/UniversalFixedScalar.lean#L201-L210",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.UniversalFixedScalar",
-        "url": "/verify/taulib/docs/book-i-boundary-universal-fixed-scalar/"
+        "url": "/corpus/taulib/docs/book-i-boundary-universal-fixed-scalar/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.UniversalFixedScalar](/verify/taulib/docs/book-i-boundary-universal-fixed-scalar/)
+- Module: [TauLib.BookI.Boundary.UniversalFixedScalar](/corpus/taulib/docs/book-i-boundary-universal-fixed-scalar/)
 - Source path: [`TauLib/BookI/Boundary/UniversalFixedScalar.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/UniversalFixedScalar.lean#L201-L210)
 - Source range: L201-L210
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "hom_b_channel",
-  "permalink": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/hom-b-channel/",
+  "permalink": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/hom-b-channel/",
   "summary_short": "`def` declaration in `TauLib.BookII.Enrichment.YonedaTheorem`.",
   "declaration_id": "TauLib.BookII.Enrichment.YonedaTheorem::hom_b_channel",
   "declaration_slug": "hom-b-channel",
   "kind": "def",
   "name": "hom_b_channel",
   "module_name": "TauLib.BookII.Enrichment.YonedaTheorem",
-  "module_url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/",
+  "module_url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/",
   "source_line_start": 152,
   "source_line_end": 154,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/YonedaTheorem.lean#L152-L154",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Enrichment.YonedaTheorem",
-        "url": "/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/"
+        "url": "/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Enrichment.YonedaTheorem](/verify/taulib/docs/book-ii-enrichment-yoneda-theorem/)
+- Module: [TauLib.BookII.Enrichment.YonedaTheorem](/corpus/taulib/docs/book-ii-enrichment-yoneda-theorem/)
 - Source path: [`TauLib/BookII/Enrichment/YonedaTheorem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/YonedaTheorem.lean#L152-L154)
 - Source range: L152-L154
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

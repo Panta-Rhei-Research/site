@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "TauRat.e_term_toRat",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-real-e/e-term-to-rat/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-real-e/e-term-to-rat/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.TauRealE`.",
   "declaration_id": "TauLib.BookI.Boundary.TauRealE::TauRat.e_term_toRat",
   "declaration_slug": "e-term-to-rat",
   "kind": "theorem",
   "name": "TauRat.e_term_toRat",
   "module_name": "TauLib.BookI.Boundary.TauRealE",
-  "module_url": "/verify/taulib/docs/book-i-boundary-tau-real-e/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-tau-real-e/",
   "source_line_start": 50,
   "source_line_end": 53,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealE.lean#L50-L53",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.TauRealE",
-        "url": "/verify/taulib/docs/book-i-boundary-tau-real-e/"
+        "url": "/corpus/taulib/docs/book-i-boundary-tau-real-e/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.TauRealE](/verify/taulib/docs/book-i-boundary-tau-real-e/)
+- Module: [TauLib.BookI.Boundary.TauRealE](/corpus/taulib/docs/book-i-boundary-tau-real-e/)
 - Source path: [`TauLib/BookI/Boundary/TauRealE.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRealE.lean#L50-L53)
 - Source range: L50-L53
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

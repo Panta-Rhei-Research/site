@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.Tour.LifeFromPhysics",
-  "permalink": "/verify/taulib/docs/tour-life-from-physics/",
+  "permalink": "/corpus/taulib/docs/tour-life-from-physics/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.Tour.LifeFromPhysics`.",
   "module_name": "TauLib.Tour.LifeFromPhysics",
   "module_slug": "tour-life-from-physics",
@@ -32,7 +32,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -103,6 +103,6 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| — | — | — | — | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| — | — | — | — | — | — |

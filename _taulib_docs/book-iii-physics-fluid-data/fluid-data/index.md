@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "FluidData",
-  "permalink": "/verify/taulib/docs/book-iii-physics-fluid-data/fluid-data/",
+  "permalink": "/corpus/taulib/docs/book-iii-physics-fluid-data/fluid-data/",
   "summary_short": "`structure` declaration in `TauLib.BookIII.Physics.FluidData`.",
   "declaration_id": "TauLib.BookIII.Physics.FluidData::FluidData",
   "declaration_slug": "fluid-data",
   "kind": "structure",
   "name": "FluidData",
   "module_name": "TauLib.BookIII.Physics.FluidData",
-  "module_url": "/verify/taulib/docs/book-iii-physics-fluid-data/",
+  "module_url": "/corpus/taulib/docs/book-iii-physics-fluid-data/",
   "source_line_start": 46,
   "source_line_end": 49,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/FluidData.lean#L46-L49",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Physics.FluidData",
-        "url": "/verify/taulib/docs/book-iii-physics-fluid-data/"
+        "url": "/corpus/taulib/docs/book-iii-physics-fluid-data/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Physics.FluidData](/verify/taulib/docs/book-iii-physics-fluid-data/)
+- Module: [TauLib.BookIII.Physics.FluidData](/corpus/taulib/docs/book-iii-physics-fluid-data/)
 - Source path: [`TauLib/BookIII/Physics/FluidData.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/FluidData.lean#L46-L49)
 - Source range: L46-L49
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

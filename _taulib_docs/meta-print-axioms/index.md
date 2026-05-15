@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.Meta.PrintAxioms",
-  "permalink": "/verify/taulib/docs/meta-print-axioms/",
+  "permalink": "/corpus/taulib/docs/meta-print-axioms/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.Meta.PrintAxioms`.",
   "module_name": "TauLib.Meta.PrintAxioms",
   "module_slug": "meta-print-axioms",
@@ -34,7 +34,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -107,6 +107,6 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| — | — | — | — | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| — | — | — | — | — | — |

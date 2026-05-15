@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "massive_cannot_null",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/massive-cannot-null/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/massive-cannot-null/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.GravityField.LorentzNoMinkowski`.",
   "declaration_id": "TauLib.BookV.GravityField.LorentzNoMinkowski::massive_cannot_null",
   "declaration_slug": "massive-cannot-null",
   "kind": "theorem",
   "name": "massive_cannot_null",
   "module_name": "TauLib.BookV.GravityField.LorentzNoMinkowski",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/",
   "source_line_start": 231,
   "source_line_end": 232,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/LorentzNoMinkowski.lean#L231-L232",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.LorentzNoMinkowski",
-        "url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.LorentzNoMinkowski](/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/)
+- Module: [TauLib.BookV.GravityField.LorentzNoMinkowski](/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/)
 - Source path: [`TauLib/BookV/GravityField/LorentzNoMinkowski.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/LorentzNoMinkowski.lean#L231-L232)
 - Source range: L231-L232
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

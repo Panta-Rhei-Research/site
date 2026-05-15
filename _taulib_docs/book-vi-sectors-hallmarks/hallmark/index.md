@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "Hallmark",
-  "permalink": "/verify/taulib/docs/book-vi-sectors-hallmarks/hallmark/",
+  "permalink": "/corpus/taulib/docs/book-vi-sectors-hallmarks/hallmark/",
   "summary_short": "`structure` declaration in `TauLib.BookVI.Sectors.Hallmarks`.",
   "declaration_id": "TauLib.BookVI.Sectors.Hallmarks::Hallmark",
   "declaration_slug": "hallmark",
   "kind": "structure",
   "name": "Hallmark",
   "module_name": "TauLib.BookVI.Sectors.Hallmarks",
-  "module_url": "/verify/taulib/docs/book-vi-sectors-hallmarks/",
+  "module_url": "/corpus/taulib/docs/book-vi-sectors-hallmarks/",
   "source_line_start": 19,
   "source_line_end": 22,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Sectors/Hallmarks.lean#L19-L22",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Sectors.Hallmarks",
-        "url": "/verify/taulib/docs/book-vi-sectors-hallmarks/"
+        "url": "/corpus/taulib/docs/book-vi-sectors-hallmarks/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Sectors.Hallmarks](/verify/taulib/docs/book-vi-sectors-hallmarks/)
+- Module: [TauLib.BookVI.Sectors.Hallmarks](/corpus/taulib/docs/book-vi-sectors-hallmarks/)
 - Source path: [`TauLib/BookVI/Sectors/Hallmarks.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Sectors/Hallmarks.lean#L19-L22)
 - Source range: L19-L22
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "universal_bh_alive",
-  "permalink": "/verify/taulib/docs/book-vi-cosmic-life-cross-limit/universal-bh-alive/",
+  "permalink": "/corpus/taulib/docs/book-vi-cosmic-life-cross-limit/universal-bh-alive/",
   "summary_short": "`theorem` declaration in `TauLib.BookVI.CosmicLife.CrossLimit`.",
   "declaration_id": "TauLib.BookVI.CosmicLife.CrossLimit::universal_bh_alive",
   "declaration_slug": "universal-bh-alive",
   "kind": "theorem",
   "name": "universal_bh_alive",
   "module_name": "TauLib.BookVI.CosmicLife.CrossLimit",
-  "module_url": "/verify/taulib/docs/book-vi-cosmic-life-cross-limit/",
+  "module_url": "/corpus/taulib/docs/book-vi-cosmic-life-cross-limit/",
   "source_line_start": 190,
   "source_line_end": 196,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/CosmicLife/CrossLimit.lean#L190-L196",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.CosmicLife.CrossLimit",
-        "url": "/verify/taulib/docs/book-vi-cosmic-life-cross-limit/"
+        "url": "/corpus/taulib/docs/book-vi-cosmic-life-cross-limit/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.CosmicLife.CrossLimit](/verify/taulib/docs/book-vi-cosmic-life-cross-limit/)
+- Module: [TauLib.BookVI.CosmicLife.CrossLimit](/corpus/taulib/docs/book-vi-cosmic-life-cross-limit/)
 - Source path: [`TauLib/BookVI/CosmicLife/CrossLimit.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/CosmicLife/CrossLimit.lean#L190-L196)
 - Source range: L190-L196
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

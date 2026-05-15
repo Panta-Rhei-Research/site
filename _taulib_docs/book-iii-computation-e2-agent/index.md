@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIII.Computation.E2Agent",
-  "permalink": "/verify/taulib/docs/book-iii-computation-e2-agent/",
+  "permalink": "/corpus/taulib/docs/book-iii-computation-e2-agent/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIII.Computation.E2Agent`.",
   "module_name": "TauLib.BookIII.Computation.E2Agent",
   "module_slug": "book-iii-computation-e2-agent",
@@ -33,10 +33,12 @@
     {
       "kind": "structure",
       "name": "E2Agent",
-      "url": "/verify/taulib/docs/book-iii-computation-e2-agent/e2-agent/",
+      "url": "/corpus/taulib/docs/book-iii-computation-e2-agent/e2-agent/",
       "source_line_start": 37,
       "source_line_end": 41,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "III.D49"
       ]
@@ -44,10 +46,12 @@
     {
       "kind": "def",
       "name": "agent_step",
-      "url": "/verify/taulib/docs/book-iii-computation-e2-agent/agent-step/",
+      "url": "/corpus/taulib/docs/book-iii-computation-e2-agent/agent-step/",
       "source_line_start": 45,
       "source_line_end": 48,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "III.D49"
       ]
@@ -55,10 +59,12 @@
     {
       "kind": "def",
       "name": "agent_iterate",
-      "url": "/verify/taulib/docs/book-iii-computation-e2-agent/agent-iterate/",
+      "url": "/corpus/taulib/docs/book-iii-computation-e2-agent/agent-iterate/",
       "source_line_start": 51,
       "source_line_end": 60,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "III.D49"
       ]
@@ -66,10 +72,12 @@
     {
       "kind": "def",
       "name": "e2_agent_check",
-      "url": "/verify/taulib/docs/book-iii-computation-e2-agent/e2-agent-check/",
+      "url": "/corpus/taulib/docs/book-iii-computation-e2-agent/e2-agent-check/",
       "source_line_start": 64,
       "source_line_end": 85,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D49"
       ]
@@ -77,10 +85,12 @@
     {
       "kind": "def",
       "name": "operational_closure_check",
-      "url": "/verify/taulib/docs/book-iii-computation-e2-agent/operational-closure-check/",
+      "url": "/corpus/taulib/docs/book-iii-computation-e2-agent/operational-closure-check/",
       "source_line_start": 93,
       "source_line_end": 117,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D50"
       ]
@@ -88,10 +98,12 @@
     {
       "kind": "def",
       "name": "cycle_detection_check",
-      "url": "/verify/taulib/docs/book-iii-computation-e2-agent/cycle-detection-check/",
+      "url": "/corpus/taulib/docs/book-iii-computation-e2-agent/cycle-detection-check/",
       "source_line_start": 121,
       "source_line_end": 138,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D50"
       ]
@@ -99,82 +111,100 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-computation-e2-agent/eval-l144/",
+      "url": "/corpus/taulib/docs/book-iii-computation-e2-agent/eval-l144/",
       "source_line_start": 144,
       "source_line_end": 144,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-computation-e2-agent/eval-l145/",
+      "url": "/corpus/taulib/docs/book-iii-computation-e2-agent/eval-l145/",
       "source_line_start": 145,
       "source_line_end": 145,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-computation-e2-agent/eval-l146/",
+      "url": "/corpus/taulib/docs/book-iii-computation-e2-agent/eval-l146/",
       "source_line_start": 146,
       "source_line_end": 146,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-computation-e2-agent/eval-l147/",
+      "url": "/corpus/taulib/docs/book-iii-computation-e2-agent/eval-l147/",
       "source_line_start": 147,
       "source_line_end": 147,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-computation-e2-agent/eval-l148/",
+      "url": "/corpus/taulib/docs/book-iii-computation-e2-agent/eval-l148/",
       "source_line_start": 148,
       "source_line_end": 148,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "e2_agent_5_3",
-      "url": "/verify/taulib/docs/book-iii-computation-e2-agent/e2-agent-5-3/",
+      "url": "/corpus/taulib/docs/book-iii-computation-e2-agent/e2-agent-5-3/",
       "source_line_start": 154,
       "source_line_end": 155,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "operational_closure_5_3",
-      "url": "/verify/taulib/docs/book-iii-computation-e2-agent/operational-closure-5-3/",
+      "url": "/corpus/taulib/docs/book-iii-computation-e2-agent/operational-closure-5-3/",
       "source_line_start": 157,
       "source_line_end": 158,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "cycle_detection_5_3",
-      "url": "/verify/taulib/docs/book-iii-computation-e2-agent/cycle-detection-5-3/",
+      "url": "/corpus/taulib/docs/book-iii-computation-e2-agent/cycle-detection-5-3/",
       "source_line_start": 160,
       "source_line_end": 161,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "agent_step_depth_0",
-      "url": "/verify/taulib/docs/book-iii-computation-e2-agent/agent-step-depth-0/",
+      "url": "/corpus/taulib/docs/book-iii-computation-e2-agent/agent-step-depth-0/",
       "source_line_start": 168,
       "source_line_end": 169,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D49"
       ]
@@ -182,10 +212,12 @@
     {
       "kind": "theorem",
       "name": "agent_step_mod",
-      "url": "/verify/taulib/docs/book-iii-computation-e2-agent/agent-step-mod/",
+      "url": "/corpus/taulib/docs/book-iii-computation-e2-agent/agent-step-mod/",
       "source_line_start": 172,
       "source_line_end": 173,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D49"
       ]
@@ -193,10 +225,12 @@
     {
       "kind": "theorem",
       "name": "identity_decoder",
-      "url": "/verify/taulib/docs/book-iii-computation-e2-agent/identity-decoder/",
+      "url": "/corpus/taulib/docs/book-iii-computation-e2-agent/identity-decoder/",
       "source_line_start": 176,
       "source_line_end": 179,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D50"
       ]
@@ -210,7 +244,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -281,22 +315,22 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [E2Agent](/verify/taulib/docs/book-iii-computation-e2-agent/e2-agent/) | L37-L41 | defined | `III.D49` |
-| `def` | [agent_step](/verify/taulib/docs/book-iii-computation-e2-agent/agent-step/) | L45-L48 | defined | `III.D49` |
-| `def` | [agent_iterate](/verify/taulib/docs/book-iii-computation-e2-agent/agent-iterate/) | L51-L60 | defined | `III.D49` |
-| `def` | [e2_agent_check](/verify/taulib/docs/book-iii-computation-e2-agent/e2-agent-check/) | L64-L85 | defined | `III.D49` |
-| `def` | [operational_closure_check](/verify/taulib/docs/book-iii-computation-e2-agent/operational-closure-check/) | L93-L117 | defined | `III.D50` |
-| `def` | [cycle_detection_check](/verify/taulib/docs/book-iii-computation-e2-agent/cycle-detection-check/) | L121-L138 | defined | `III.D50` |
-| `eval` | [#eval L144](/verify/taulib/docs/book-iii-computation-e2-agent/eval-l144/) | L144-L144 | computed | — |
-| `eval` | [#eval L145](/verify/taulib/docs/book-iii-computation-e2-agent/eval-l145/) | L145-L145 | computed | — |
-| `eval` | [#eval L146](/verify/taulib/docs/book-iii-computation-e2-agent/eval-l146/) | L146-L146 | computed | — |
-| `eval` | [#eval L147](/verify/taulib/docs/book-iii-computation-e2-agent/eval-l147/) | L147-L147 | computed | — |
-| `eval` | [#eval L148](/verify/taulib/docs/book-iii-computation-e2-agent/eval-l148/) | L148-L148 | computed | — |
-| `theorem` | [e2_agent_5_3](/verify/taulib/docs/book-iii-computation-e2-agent/e2-agent-5-3/) | L154-L155 | formalized | — |
-| `theorem` | [operational_closure_5_3](/verify/taulib/docs/book-iii-computation-e2-agent/operational-closure-5-3/) | L157-L158 | formalized | — |
-| `theorem` | [cycle_detection_5_3](/verify/taulib/docs/book-iii-computation-e2-agent/cycle-detection-5-3/) | L160-L161 | formalized | — |
-| `theorem` | [agent_step_depth_0](/verify/taulib/docs/book-iii-computation-e2-agent/agent-step-depth-0/) | L168-L169 | formalized | `III.D49` |
-| `theorem` | [agent_step_mod](/verify/taulib/docs/book-iii-computation-e2-agent/agent-step-mod/) | L172-L173 | formalized | `III.D49` |
-| `theorem` | [identity_decoder](/verify/taulib/docs/book-iii-computation-e2-agent/identity-decoder/) | L176-L179 | formalized | `III.D50` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [E2Agent](/corpus/taulib/docs/book-iii-computation-e2-agent/e2-agent/) | L37-L41 | type/data schema | type/data schema | `III.D49` |
+| `def` | [agent_step](/corpus/taulib/docs/book-iii-computation-e2-agent/agent-step/) | L45-L48 | definition | definition | `III.D49` |
+| `def` | [agent_iterate](/corpus/taulib/docs/book-iii-computation-e2-agent/agent-iterate/) | L51-L60 | definition | definition | `III.D49` |
+| `def` | [e2_agent_check](/corpus/taulib/docs/book-iii-computation-e2-agent/e2-agent-check/) | L64-L85 | data/computed value | data/computed value | `III.D49` |
+| `def` | [operational_closure_check](/corpus/taulib/docs/book-iii-computation-e2-agent/operational-closure-check/) | L93-L117 | data/computed value | data/computed value | `III.D50` |
+| `def` | [cycle_detection_check](/corpus/taulib/docs/book-iii-computation-e2-agent/cycle-detection-check/) | L121-L138 | data/computed value | data/computed value | `III.D50` |
+| `eval` | [#eval L144](/corpus/taulib/docs/book-iii-computation-e2-agent/eval-l144/) | L144-L144 | computed check | computed check | — |
+| `eval` | [#eval L145](/corpus/taulib/docs/book-iii-computation-e2-agent/eval-l145/) | L145-L145 | computed check | computed check | — |
+| `eval` | [#eval L146](/corpus/taulib/docs/book-iii-computation-e2-agent/eval-l146/) | L146-L146 | computed check | computed check | — |
+| `eval` | [#eval L147](/corpus/taulib/docs/book-iii-computation-e2-agent/eval-l147/) | L147-L147 | computed check | computed check | — |
+| `eval` | [#eval L148](/corpus/taulib/docs/book-iii-computation-e2-agent/eval-l148/) | L148-L148 | computed check | computed check | — |
+| `theorem` | [e2_agent_5_3](/corpus/taulib/docs/book-iii-computation-e2-agent/e2-agent-5-3/) | L154-L155 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [operational_closure_5_3](/corpus/taulib/docs/book-iii-computation-e2-agent/operational-closure-5-3/) | L157-L158 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [cycle_detection_5_3](/corpus/taulib/docs/book-iii-computation-e2-agent/cycle-detection-5-3/) | L160-L161 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [agent_step_depth_0](/corpus/taulib/docs/book-iii-computation-e2-agent/agent-step-depth-0/) | L168-L169 | proof obligation | formal proof obligation checked | `III.D49` |
+| `theorem` | [agent_step_mod](/corpus/taulib/docs/book-iii-computation-e2-agent/agent-step-mod/) | L172-L173 | proof obligation | formal proof obligation checked | `III.D49` |
+| `theorem` | [identity_decoder](/corpus/taulib/docs/book-iii-computation-e2-agent/identity-decoder/) | L176-L179 | proof obligation | formal proof obligation checked | `III.D50` |

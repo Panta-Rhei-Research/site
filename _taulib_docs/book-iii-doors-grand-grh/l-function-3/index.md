@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "l_function_3",
-  "permalink": "/verify/taulib/docs/book-iii-doors-grand-grh/l-function-3/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-grand-grh/l-function-3/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Doors.GrandGRH`.",
   "declaration_id": "TauLib.BookIII.Doors.GrandGRH::l_function_3",
   "declaration_slug": "l-function-3",
   "kind": "theorem",
   "name": "l_function_3",
   "module_name": "TauLib.BookIII.Doors.GrandGRH",
-  "module_url": "/verify/taulib/docs/book-iii-doors-grand-grh/",
+  "module_url": "/corpus/taulib/docs/book-iii-doors-grand-grh/",
   "source_line_start": 245,
   "source_line_end": 247,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/GrandGRH.lean#L245-L247",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Doors.GrandGRH",
-        "url": "/verify/taulib/docs/book-iii-doors-grand-grh/"
+        "url": "/corpus/taulib/docs/book-iii-doors-grand-grh/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Doors.GrandGRH](/verify/taulib/docs/book-iii-doors-grand-grh/)
+- Module: [TauLib.BookIII.Doors.GrandGRH](/corpus/taulib/docs/book-iii-doors-grand-grh/)
 - Source path: [`TauLib/BookIII/Doors/GrandGRH.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/GrandGRH.lean#L245-L247)
 - Source range: L245-L247
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "charge_conjugation_instance",
-  "permalink": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/charge-conjugation-instance/",
+  "permalink": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/charge-conjugation-instance/",
   "summary_short": "`def` declaration in `TauLib.BookIV.MassDerivation.HolonomyDetail`.",
   "declaration_id": "TauLib.BookIV.MassDerivation.HolonomyDetail::charge_conjugation_instance",
   "declaration_slug": "charge-conjugation-instance",
   "kind": "def",
   "name": "charge_conjugation_instance",
   "module_name": "TauLib.BookIV.MassDerivation.HolonomyDetail",
-  "module_url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/",
+  "module_url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/",
   "source_line_start": 215,
   "source_line_end": 215,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/MassDerivation/HolonomyDetail.lean#L215-L215",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.MassDerivation.HolonomyDetail",
-        "url": "/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/"
+        "url": "/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.MassDerivation.HolonomyDetail](/verify/taulib/docs/book-iv-mass-derivation-holonomy-detail/)
+- Module: [TauLib.BookIV.MassDerivation.HolonomyDetail](/corpus/taulib/docs/book-iv-mass-derivation-holonomy-detail/)
 - Source path: [`TauLib/BookIV/MassDerivation/HolonomyDetail.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/MassDerivation/HolonomyDetail.lean#L215-L215)
 - Source range: L215-L215
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

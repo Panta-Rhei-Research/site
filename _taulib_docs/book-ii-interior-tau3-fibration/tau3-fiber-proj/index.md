@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "tau3_fiber_proj",
-  "permalink": "/verify/taulib/docs/book-ii-interior-tau3-fibration/tau3-fiber-proj/",
+  "permalink": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/tau3-fiber-proj/",
   "summary_short": "`def` declaration in `TauLib.BookII.Interior.Tau3Fibration`.",
   "declaration_id": "TauLib.BookII.Interior.Tau3Fibration::tau3_fiber_proj",
   "declaration_slug": "tau3-fiber-proj",
   "kind": "def",
   "name": "tau3_fiber_proj",
   "module_name": "TauLib.BookII.Interior.Tau3Fibration",
-  "module_url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/",
+  "module_url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/",
   "source_line_start": 89,
   "source_line_end": 89,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Interior/Tau3Fibration.lean#L89-L89",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Interior.Tau3Fibration",
-        "url": "/verify/taulib/docs/book-ii-interior-tau3-fibration/"
+        "url": "/corpus/taulib/docs/book-ii-interior-tau3-fibration/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Interior.Tau3Fibration](/verify/taulib/docs/book-ii-interior-tau3-fibration/)
+- Module: [TauLib.BookII.Interior.Tau3Fibration](/corpus/taulib/docs/book-ii-interior-tau3-fibration/)
 - Source path: [`TauLib/BookII/Interior/Tau3Fibration.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Interior/Tau3Fibration.lean#L89-L89)
 - Source range: L89-L89
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

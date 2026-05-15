@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "GRTensionFunctional",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-tovstar-builder/grtension-functional/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-tovstar-builder/grtension-functional/",
   "summary_short": "`structure` declaration in `TauLib.BookV.GravityField.TOVStarBuilder`.",
   "declaration_id": "TauLib.BookV.GravityField.TOVStarBuilder::GRTensionFunctional",
   "declaration_slug": "grtension-functional",
   "kind": "structure",
   "name": "GRTensionFunctional",
   "module_name": "TauLib.BookV.GravityField.TOVStarBuilder",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-tovstar-builder/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-tovstar-builder/",
   "source_line_start": 112,
   "source_line_end": 121,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/TOVStarBuilder.lean#L112-L121",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.TOVStarBuilder",
-        "url": "/verify/taulib/docs/book-v-gravity-field-tovstar-builder/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-tovstar-builder/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.TOVStarBuilder](/verify/taulib/docs/book-v-gravity-field-tovstar-builder/)
+- Module: [TauLib.BookV.GravityField.TOVStarBuilder](/corpus/taulib/docs/book-v-gravity-field-tovstar-builder/)
 - Source path: [`TauLib/BookV/GravityField/TOVStarBuilder.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/TOVStarBuilder.lean#L112-L121)
 - Source range: L112-L121
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

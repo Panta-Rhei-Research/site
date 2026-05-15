@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "h_tau_no_elliptic_idempotent",
-  "permalink": "/verify/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-no-elliptic-idempotent/",
+  "permalink": "/corpus/taulib/docs/book-ii-prologue-split-complex-interior/h-tau-no-elliptic-idempotent/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Prologue.SplitComplexInterior`.",
   "declaration_id": "TauLib.BookII.Prologue.SplitComplexInterior::h_tau_no_elliptic_idempotent",
   "declaration_slug": "h-tau-no-elliptic-idempotent",
   "kind": "theorem",
   "name": "h_tau_no_elliptic_idempotent",
   "module_name": "TauLib.BookII.Prologue.SplitComplexInterior",
-  "module_url": "/verify/taulib/docs/book-ii-prologue-split-complex-interior/",
+  "module_url": "/corpus/taulib/docs/book-ii-prologue-split-complex-interior/",
   "source_line_start": 121,
   "source_line_end": 124,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Prologue/SplitComplexInterior.lean#L121-L124",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Prologue.SplitComplexInterior",
-        "url": "/verify/taulib/docs/book-ii-prologue-split-complex-interior/"
+        "url": "/corpus/taulib/docs/book-ii-prologue-split-complex-interior/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Prologue.SplitComplexInterior](/verify/taulib/docs/book-ii-prologue-split-complex-interior/)
+- Module: [TauLib.BookII.Prologue.SplitComplexInterior](/corpus/taulib/docs/book-ii-prologue-split-complex-interior/)
 - Source path: [`TauLib/BookII/Prologue/SplitComplexInterior.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Prologue/SplitComplexInterior.lean#L121-L124)
 - Source range: L121-L124
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

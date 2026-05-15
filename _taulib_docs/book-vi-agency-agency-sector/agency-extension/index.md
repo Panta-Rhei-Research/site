@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "AgencyExtension",
-  "permalink": "/verify/taulib/docs/book-vi-agency-agency-sector/agency-extension/",
+  "permalink": "/corpus/taulib/docs/book-vi-agency-agency-sector/agency-extension/",
   "summary_short": "`structure` declaration in `TauLib.BookVI.Agency.AgencySector`.",
   "declaration_id": "TauLib.BookVI.Agency.AgencySector::AgencyExtension",
   "declaration_slug": "agency-extension",
   "kind": "structure",
   "name": "AgencyExtension",
   "module_name": "TauLib.BookVI.Agency.AgencySector",
-  "module_url": "/verify/taulib/docs/book-vi-agency-agency-sector/",
+  "module_url": "/corpus/taulib/docs/book-vi-agency-agency-sector/",
   "source_line_start": 101,
   "source_line_end": 110,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Agency/AgencySector.lean#L101-L110",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Agency.AgencySector",
-        "url": "/verify/taulib/docs/book-vi-agency-agency-sector/"
+        "url": "/corpus/taulib/docs/book-vi-agency-agency-sector/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Agency.AgencySector](/verify/taulib/docs/book-vi-agency-agency-sector/)
+- Module: [TauLib.BookVI.Agency.AgencySector](/corpus/taulib/docs/book-vi-agency-agency-sector/)
 - Source path: [`TauLib/BookVI/Agency/AgencySector.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Agency/AgencySector.lean#L101-L110)
 - Source range: L101-L110
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

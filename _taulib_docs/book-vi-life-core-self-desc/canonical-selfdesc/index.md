@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "canonical_selfdesc",
-  "permalink": "/verify/taulib/docs/book-vi-life-core-self-desc/canonical-selfdesc/",
+  "permalink": "/corpus/taulib/docs/book-vi-life-core-self-desc/canonical-selfdesc/",
   "summary_short": "`def` declaration in `TauLib.BookVI.LifeCore.SelfDesc`.",
   "declaration_id": "TauLib.BookVI.LifeCore.SelfDesc::canonical_selfdesc",
   "declaration_slug": "canonical-selfdesc",
   "kind": "def",
   "name": "canonical_selfdesc",
   "module_name": "TauLib.BookVI.LifeCore.SelfDesc",
-  "module_url": "/verify/taulib/docs/book-vi-life-core-self-desc/",
+  "module_url": "/corpus/taulib/docs/book-vi-life-core-self-desc/",
   "source_line_start": 33,
   "source_line_end": 35,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/LifeCore/SelfDesc.lean#L33-L35",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.LifeCore.SelfDesc",
-        "url": "/verify/taulib/docs/book-vi-life-core-self-desc/"
+        "url": "/corpus/taulib/docs/book-vi-life-core-self-desc/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.LifeCore.SelfDesc](/verify/taulib/docs/book-vi-life-core-self-desc/)
+- Module: [TauLib.BookVI.LifeCore.SelfDesc](/corpus/taulib/docs/book-vi-life-core-self-desc/)
 - Source path: [`TauLib/BookVI/LifeCore/SelfDesc.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/LifeCore/SelfDesc.lean#L33-L35)
 - Source range: L33-L35
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

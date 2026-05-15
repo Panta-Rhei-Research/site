@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "adelic_embedding_check",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-adeles/adelic-embedding-check/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-adeles/adelic-embedding-check/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Spectral.Adeles`.",
   "declaration_id": "TauLib.BookIII.Spectral.Adeles::adelic_embedding_check",
   "declaration_slug": "adelic-embedding-check",
   "kind": "def",
   "name": "adelic_embedding_check",
   "module_name": "TauLib.BookIII.Spectral.Adeles",
-  "module_url": "/verify/taulib/docs/book-iii-spectral-adeles/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectral-adeles/",
   "source_line_start": 110,
   "source_line_end": 130,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/Adeles.lean#L110-L130",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectral.Adeles",
-        "url": "/verify/taulib/docs/book-iii-spectral-adeles/"
+        "url": "/corpus/taulib/docs/book-iii-spectral-adeles/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectral.Adeles](/verify/taulib/docs/book-iii-spectral-adeles/)
+- Module: [TauLib.BookIII.Spectral.Adeles](/corpus/taulib/docs/book-iii-spectral-adeles/)
 - Source path: [`TauLib/BookIII/Spectral/Adeles.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/Adeles.lean#L110-L130)
 - Source range: L110-L130
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

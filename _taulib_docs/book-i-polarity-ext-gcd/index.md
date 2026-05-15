@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Polarity.ExtGCD",
-  "permalink": "/verify/taulib/docs/book-i-polarity-ext-gcd/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-ext-gcd/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Polarity.ExtGCD`.",
   "module_name": "TauLib.BookI.Polarity.ExtGCD",
   "module_slug": "book-i-polarity-ext-gcd",
@@ -31,73 +31,89 @@
     {
       "kind": "def",
       "name": "ext_gcd",
-      "url": "/verify/taulib/docs/book-i-polarity-ext-gcd/ext-gcd/",
+      "url": "/corpus/taulib/docs/book-i-polarity-ext-gcd/ext-gcd/",
       "source_line_start": 27,
       "source_line_end": 33,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ext_gcd_fst",
-      "url": "/verify/taulib/docs/book-i-polarity-ext-gcd/ext-gcd-fst/",
+      "url": "/corpus/taulib/docs/book-i-polarity-ext-gcd/ext-gcd-fst/",
       "source_line_start": 40,
       "source_line_end": 53,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ext_gcd_bezout",
-      "url": "/verify/taulib/docs/book-i-polarity-ext-gcd/ext-gcd-bezout/",
+      "url": "/corpus/taulib/docs/book-i-polarity-ext-gcd/ext-gcd-bezout/",
       "source_line_start": 56,
       "source_line_end": 78,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "ext_gcd_spec",
-      "url": "/verify/taulib/docs/book-i-polarity-ext-gcd/ext-gcd-spec/",
+      "url": "/corpus/taulib/docs/book-i-polarity-ext-gcd/ext-gcd-spec/",
       "source_line_start": 81,
       "source_line_end": 84,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "mod_inv_exists",
-      "url": "/verify/taulib/docs/book-i-polarity-ext-gcd/mod-inv-exists/",
+      "url": "/corpus/taulib/docs/book-i-polarity-ext-gcd/mod-inv-exists/",
       "source_line_start": 91,
       "source_line_end": 130,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-ext-gcd/eval-l136/",
+      "url": "/corpus/taulib/docs/book-i-polarity-ext-gcd/eval-l136/",
       "source_line_start": 136,
       "source_line_end": 136,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-ext-gcd/eval-l137/",
+      "url": "/corpus/taulib/docs/book-i-polarity-ext-gcd/eval-l137/",
       "source_line_start": 137,
       "source_line_end": 137,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-i-polarity-ext-gcd/eval-l138/",
+      "url": "/corpus/taulib/docs/book-i-polarity-ext-gcd/eval-l138/",
       "source_line_start": 138,
       "source_line_end": 140,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -109,7 +125,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -180,13 +196,13 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [ext_gcd](/verify/taulib/docs/book-i-polarity-ext-gcd/ext-gcd/) | L27-L33 | defined | — |
-| `theorem` | [ext_gcd_fst](/verify/taulib/docs/book-i-polarity-ext-gcd/ext-gcd-fst/) | L40-L53 | formalized | — |
-| `theorem` | [ext_gcd_bezout](/verify/taulib/docs/book-i-polarity-ext-gcd/ext-gcd-bezout/) | L56-L78 | formalized | — |
-| `theorem` | [ext_gcd_spec](/verify/taulib/docs/book-i-polarity-ext-gcd/ext-gcd-spec/) | L81-L84 | formalized | — |
-| `theorem` | [mod_inv_exists](/verify/taulib/docs/book-i-polarity-ext-gcd/mod-inv-exists/) | L91-L130 | formalized | — |
-| `eval` | [#eval L136](/verify/taulib/docs/book-i-polarity-ext-gcd/eval-l136/) | L136-L136 | computed | — |
-| `eval` | [#eval L137](/verify/taulib/docs/book-i-polarity-ext-gcd/eval-l137/) | L137-L137 | computed | — |
-| `eval` | [#eval L138](/verify/taulib/docs/book-i-polarity-ext-gcd/eval-l138/) | L138-L140 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [ext_gcd](/corpus/taulib/docs/book-i-polarity-ext-gcd/ext-gcd/) | L27-L33 | data/computed value | data/computed value | — |
+| `theorem` | [ext_gcd_fst](/corpus/taulib/docs/book-i-polarity-ext-gcd/ext-gcd-fst/) | L40-L53 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [ext_gcd_bezout](/corpus/taulib/docs/book-i-polarity-ext-gcd/ext-gcd-bezout/) | L56-L78 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [ext_gcd_spec](/corpus/taulib/docs/book-i-polarity-ext-gcd/ext-gcd-spec/) | L81-L84 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [mod_inv_exists](/corpus/taulib/docs/book-i-polarity-ext-gcd/mod-inv-exists/) | L91-L130 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L136](/corpus/taulib/docs/book-i-polarity-ext-gcd/eval-l136/) | L136-L136 | computed check | computed check | — |
+| `eval` | [#eval L137](/corpus/taulib/docs/book-i-polarity-ext-gcd/eval-l137/) | L137-L137 | computed check | computed check | — |
+| `eval` | [#eval L138](/corpus/taulib/docs/book-i-polarity-ext-gcd/eval-l138/) | L138-L140 | computed check | computed check | — |

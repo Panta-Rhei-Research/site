@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "nth_prime_go",
-  "permalink": "/verify/taulib/docs/book-i-polarity-mod-arith/nth-prime-go/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-mod-arith/nth-prime-go/",
   "summary_short": "`def` declaration in `TauLib.BookI.Polarity.ModArith`.",
   "declaration_id": "TauLib.BookI.Polarity.ModArith::nth_prime_go",
   "declaration_slug": "nth-prime-go",
   "kind": "def",
   "name": "nth_prime_go",
   "module_name": "TauLib.BookI.Polarity.ModArith",
-  "module_url": "/verify/taulib/docs/book-i-polarity-mod-arith/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-mod-arith/",
   "source_line_start": 30,
   "source_line_end": 39,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/ModArith.lean#L30-L39",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.ModArith",
-        "url": "/verify/taulib/docs/book-i-polarity-mod-arith/"
+        "url": "/corpus/taulib/docs/book-i-polarity-mod-arith/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.ModArith](/verify/taulib/docs/book-i-polarity-mod-arith/)
+- Module: [TauLib.BookI.Polarity.ModArith](/corpus/taulib/docs/book-i-polarity-mod-arith/)
 - Source path: [`TauLib/BookI/Polarity/ModArith.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/ModArith.lean#L30-L39)
 - Source range: L30-L39
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

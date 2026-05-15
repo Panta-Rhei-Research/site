@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "bh_ab_phase",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-merger-normal-form/bh-ab-phase/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-merger-normal-form/bh-ab-phase/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Cosmology.MergerNormalForm`.",
   "declaration_id": "TauLib.BookV.Cosmology.MergerNormalForm::bh_ab_phase",
   "declaration_slug": "bh-ab-phase",
   "kind": "theorem",
   "name": "bh_ab_phase",
   "module_name": "TauLib.BookV.Cosmology.MergerNormalForm",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-merger-normal-form/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-merger-normal-form/",
   "source_line_start": 255,
   "source_line_end": 256,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/MergerNormalForm.lean#L255-L256",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.MergerNormalForm",
-        "url": "/verify/taulib/docs/book-v-cosmology-merger-normal-form/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-merger-normal-form/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.MergerNormalForm](/verify/taulib/docs/book-v-cosmology-merger-normal-form/)
+- Module: [TauLib.BookV.Cosmology.MergerNormalForm](/corpus/taulib/docs/book-v-cosmology-merger-normal-form/)
 - Source path: [`TauLib/BookV/Cosmology/MergerNormalForm.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/MergerNormalForm.lean#L255-L256)
 - Source range: L255-L256
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

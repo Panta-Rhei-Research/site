@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "bisquare_comparison_15_4",
-  "permalink": "/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/bisquare-comparison-15-4/",
+  "permalink": "/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/bisquare-comparison-15-4/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Arithmetic.EnrichedBiSquare`.",
   "declaration_id": "TauLib.BookIII.Arithmetic.EnrichedBiSquare::bisquare_comparison_15_4",
   "declaration_slug": "bisquare-comparison-15-4",
   "kind": "theorem",
   "name": "bisquare_comparison_15_4",
   "module_name": "TauLib.BookIII.Arithmetic.EnrichedBiSquare",
-  "module_url": "/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/",
+  "module_url": "/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/",
   "source_line_start": 155,
   "source_line_end": 156,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/EnrichedBiSquare.lean#L155-L156",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Arithmetic.EnrichedBiSquare",
-        "url": "/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/"
+        "url": "/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Arithmetic.EnrichedBiSquare](/verify/taulib/docs/book-iii-arithmetic-enriched-bi-square/)
+- Module: [TauLib.BookIII.Arithmetic.EnrichedBiSquare](/corpus/taulib/docs/book-iii-arithmetic-enriched-bi-square/)
 - Source path: [`TauLib/BookIII/Arithmetic/EnrichedBiSquare.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Arithmetic/EnrichedBiSquare.lean#L155-L156)
 - Source range: L155-L156
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

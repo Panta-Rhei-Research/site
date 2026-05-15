@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "sfe_enhancement_at_z10",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-galaxy-relational/sfe-enhancement-at-z10/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-galaxy-relational/sfe-enhancement-at-z10/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Astrophysics.GalaxyRelational`.",
   "declaration_id": "TauLib.BookV.Astrophysics.GalaxyRelational::sfe_enhancement_at_z10",
   "declaration_slug": "sfe-enhancement-at-z10",
   "kind": "theorem",
   "name": "sfe_enhancement_at_z10",
   "module_name": "TauLib.BookV.Astrophysics.GalaxyRelational",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-galaxy-relational/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-galaxy-relational/",
   "source_line_start": 306,
   "source_line_end": 307,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/GalaxyRelational.lean#L306-L307",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.GalaxyRelational",
-        "url": "/verify/taulib/docs/book-v-astrophysics-galaxy-relational/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-galaxy-relational/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.GalaxyRelational](/verify/taulib/docs/book-v-astrophysics-galaxy-relational/)
+- Module: [TauLib.BookV.Astrophysics.GalaxyRelational](/corpus/taulib/docs/book-v-astrophysics-galaxy-relational/)
 - Source path: [`TauLib/BookV/Astrophysics/GalaxyRelational.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/GalaxyRelational.lean#L306-L307)
 - Source range: L306-L307
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

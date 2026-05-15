@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "hinge7_integration_synthesis",
-  "permalink": "/verify/taulib/docs/book-i-addressability-hinge-integration/hinge7-integration-synthesis/",
+  "permalink": "/corpus/taulib/docs/book-i-addressability-hinge-integration/hinge7-integration-synthesis/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Addressability.HingeIntegration`.",
   "declaration_id": "TauLib.BookI.Addressability.HingeIntegration::hinge7_integration_synthesis",
   "declaration_slug": "hinge7-integration-synthesis",
   "kind": "theorem",
   "name": "hinge7_integration_synthesis",
   "module_name": "TauLib.BookI.Addressability.HingeIntegration",
-  "module_url": "/verify/taulib/docs/book-i-addressability-hinge-integration/",
+  "module_url": "/corpus/taulib/docs/book-i-addressability-hinge-integration/",
   "source_line_start": 271,
   "source_line_end": 287,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Addressability/HingeIntegration.lean#L271-L287",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Addressability.HingeIntegration",
-        "url": "/verify/taulib/docs/book-i-addressability-hinge-integration/"
+        "url": "/corpus/taulib/docs/book-i-addressability-hinge-integration/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Addressability.HingeIntegration](/verify/taulib/docs/book-i-addressability-hinge-integration/)
+- Module: [TauLib.BookI.Addressability.HingeIntegration](/corpus/taulib/docs/book-i-addressability-hinge-integration/)
 - Source path: [`TauLib/BookI/Addressability/HingeIntegration.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Addressability/HingeIntegration.lean#L271-L287)
 - Source range: L271-L287
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

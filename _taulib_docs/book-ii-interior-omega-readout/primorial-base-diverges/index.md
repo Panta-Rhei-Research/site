@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "primorial_base_diverges",
-  "permalink": "/verify/taulib/docs/book-ii-interior-omega-readout/primorial-base-diverges/",
+  "permalink": "/corpus/taulib/docs/book-ii-interior-omega-readout/primorial-base-diverges/",
   "summary_short": "`def` declaration in `TauLib.BookII.Interior.OmegaReadout`.",
   "declaration_id": "TauLib.BookII.Interior.OmegaReadout::primorial_base_diverges",
   "declaration_slug": "primorial-base-diverges",
   "kind": "def",
   "name": "primorial_base_diverges",
   "module_name": "TauLib.BookII.Interior.OmegaReadout",
-  "module_url": "/verify/taulib/docs/book-ii-interior-omega-readout/",
+  "module_url": "/corpus/taulib/docs/book-ii-interior-omega-readout/",
   "source_line_start": 85,
   "source_line_end": 92,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Interior/OmegaReadout.lean#L85-L92",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Interior.OmegaReadout",
-        "url": "/verify/taulib/docs/book-ii-interior-omega-readout/"
+        "url": "/corpus/taulib/docs/book-ii-interior-omega-readout/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Interior.OmegaReadout](/verify/taulib/docs/book-ii-interior-omega-readout/)
+- Module: [TauLib.BookII.Interior.OmegaReadout](/corpus/taulib/docs/book-ii-interior-omega-readout/)
 - Source path: [`TauLib/BookII/Interior/OmegaReadout.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Interior/OmegaReadout.lean#L85-L92)
 - Source range: L85-L92
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

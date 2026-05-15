@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "FieldTorusVacuum",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-torus-vacuum/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/field-torus-vacuum/",
   "summary_short": "`structure` declaration in `TauLib.BookV.GravityField.TauSchwarzschild`.",
   "declaration_id": "TauLib.BookV.GravityField.TauSchwarzschild::FieldTorusVacuum",
   "declaration_slug": "field-torus-vacuum",
   "kind": "structure",
   "name": "FieldTorusVacuum",
   "module_name": "TauLib.BookV.GravityField.TauSchwarzschild",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/",
   "source_line_start": 65,
   "source_line_end": 72,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/TauSchwarzschild.lean#L65-L72",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.TauSchwarzschild",
-        "url": "/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.TauSchwarzschild](/verify/taulib/docs/book-v-gravity-field-tau-schwarzschild/)
+- Module: [TauLib.BookV.GravityField.TauSchwarzschild](/corpus/taulib/docs/book-v-gravity-field-tau-schwarzschild/)
 - Source path: [`TauLib/BookV/GravityField/TauSchwarzschild.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/TauSchwarzschild.lean#L65-L72)
 - Source range: L65-L72
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "LinearizedEinstein",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-linear-einstein/linearized-einstein/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-linear-einstein/linearized-einstein/",
   "summary_short": "`structure` declaration in `TauLib.BookV.GravityField.LinearEinstein`.",
   "declaration_id": "TauLib.BookV.GravityField.LinearEinstein::LinearizedEinstein",
   "declaration_slug": "linearized-einstein",
   "kind": "structure",
   "name": "LinearizedEinstein",
   "module_name": "TauLib.BookV.GravityField.LinearEinstein",
-  "module_url": "/verify/taulib/docs/book-v-gravity-field-linear-einstein/",
+  "module_url": "/corpus/taulib/docs/book-v-gravity-field-linear-einstein/",
   "source_line_start": 82,
   "source_line_end": 93,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/LinearEinstein.lean#L82-L93",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.GravityField.LinearEinstein",
-        "url": "/verify/taulib/docs/book-v-gravity-field-linear-einstein/"
+        "url": "/corpus/taulib/docs/book-v-gravity-field-linear-einstein/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.GravityField.LinearEinstein](/verify/taulib/docs/book-v-gravity-field-linear-einstein/)
+- Module: [TauLib.BookV.GravityField.LinearEinstein](/corpus/taulib/docs/book-v-gravity-field-linear-einstein/)
 - Source path: [`TauLib/BookV/GravityField/LinearEinstein.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/GravityField/LinearEinstein.lean#L82-L93)
 - Source range: L82-L93
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

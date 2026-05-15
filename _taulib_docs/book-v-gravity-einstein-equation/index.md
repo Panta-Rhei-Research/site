@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.Gravity.EinsteinEquation",
-  "permalink": "/verify/taulib/docs/book-v-gravity-einstein-equation/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-einstein-equation/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.Gravity.EinsteinEquation`.",
   "module_name": "TauLib.BookV.Gravity.EinsteinEquation",
   "module_slug": "book-v-gravity-einstein-equation",
@@ -39,10 +39,12 @@
     {
       "kind": "structure",
       "name": "MatterCharacter",
-      "url": "/verify/taulib/docs/book-v-gravity-einstein-equation/matter-character/",
+      "url": "/corpus/taulib/docs/book-v-gravity-einstein-equation/matter-character/",
       "source_line_start": 86,
       "source_line_end": 97,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D03"
       ]
@@ -50,28 +52,34 @@
     {
       "kind": "def",
       "name": "MatterCharacter.total_numer",
-      "url": "/verify/taulib/docs/book-v-gravity-einstein-equation/total-numer/",
+      "url": "/corpus/taulib/docs/book-v-gravity-einstein-equation/total-numer/",
       "source_line_start": 100,
       "source_line_end": 101,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "MatterCharacter.totalFloat",
-      "url": "/verify/taulib/docs/book-v-gravity-einstein-equation/total-float/",
+      "url": "/corpus/taulib/docs/book-v-gravity-einstein-equation/total-float/",
       "source_line_start": 104,
       "source_line_end": 105,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "CurvatureCharacter",
-      "url": "/verify/taulib/docs/book-v-gravity-einstein-equation/curvature-character/",
+      "url": "/corpus/taulib/docs/book-v-gravity-einstein-equation/curvature-character/",
       "source_line_start": 119,
       "source_line_end": 126,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D04"
       ]
@@ -79,19 +87,23 @@
     {
       "kind": "def",
       "name": "CurvatureCharacter.toFloat",
-      "url": "/verify/taulib/docs/book-v-gravity-einstein-equation/to-float/",
+      "url": "/corpus/taulib/docs/book-v-gravity-einstein-equation/to-float/",
       "source_line_start": 129,
       "source_line_end": 130,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "GRCoupling",
-      "url": "/verify/taulib/docs/book-v-gravity-einstein-equation/grcoupling/",
+      "url": "/corpus/taulib/docs/book-v-gravity-einstein-equation/grcoupling/",
       "source_line_start": 147,
       "source_line_end": 158,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D05"
       ]
@@ -99,28 +111,34 @@
     {
       "kind": "def",
       "name": "GRCoupling.toFloat",
-      "url": "/verify/taulib/docs/book-v-gravity-einstein-equation/to-float-l161/",
+      "url": "/corpus/taulib/docs/book-v-gravity-einstein-equation/to-float-l161/",
       "source_line_start": 161,
       "source_line_end": 162,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "canonical_gr_coupling",
-      "url": "/verify/taulib/docs/book-v-gravity-einstein-equation/canonical-gr-coupling/",
+      "url": "/corpus/taulib/docs/book-v-gravity-einstein-equation/canonical-gr-coupling/",
       "source_line_start": 170,
       "source_line_end": 173,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "TauEinstein",
-      "url": "/verify/taulib/docs/book-v-gravity-einstein-equation/tau-einstein/",
+      "url": "/corpus/taulib/docs/book-v-gravity-einstein-equation/tau-einstein/",
       "source_line_start": 194,
       "source_line_end": 205,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D06"
       ]
@@ -128,10 +146,12 @@
     {
       "kind": "structure",
       "name": "TauBianchi",
-      "url": "/verify/taulib/docs/book-v-gravity-einstein-equation/tau-bianchi/",
+      "url": "/corpus/taulib/docs/book-v-gravity-einstein-equation/tau-bianchi/",
       "source_line_start": 221,
       "source_line_end": 226,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.R01"
       ]
@@ -139,10 +159,12 @@
     {
       "kind": "theorem",
       "name": "kappa_unique",
-      "url": "/verify/taulib/docs/book-v-gravity-einstein-equation/kappa-unique/",
+      "url": "/corpus/taulib/docs/book-v-gravity-einstein-equation/kappa-unique/",
       "source_line_start": 234,
       "source_line_end": 235,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T02"
       ]
@@ -150,64 +172,78 @@
     {
       "kind": "theorem",
       "name": "kappa_sigma_fixed",
-      "url": "/verify/taulib/docs/book-v-gravity-einstein-equation/kappa-sigma-fixed/",
+      "url": "/corpus/taulib/docs/book-v-gravity-einstein-equation/kappa-sigma-fixed/",
       "source_line_start": 238,
       "source_line_end": 239,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "kappa_is_unique",
-      "url": "/verify/taulib/docs/book-v-gravity-einstein-equation/kappa-is-unique/",
+      "url": "/corpus/taulib/docs/book-v-gravity-einstein-equation/kappa-is-unique/",
       "source_line_start": 242,
       "source_line_end": 243,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "matter_three_sectors",
-      "url": "/verify/taulib/docs/book-v-gravity-einstein-equation/matter-three-sectors/",
+      "url": "/corpus/taulib/docs/book-v-gravity-einstein-equation/matter-three-sectors/",
       "source_line_start": 248,
       "source_line_end": 249,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "canonical_coupling_value",
-      "url": "/verify/taulib/docs/book-v-gravity-einstein-equation/canonical-coupling-value/",
+      "url": "/corpus/taulib/docs/book-v-gravity-einstein-equation/canonical-coupling-value/",
       "source_line_start": 252,
       "source_line_end": 255,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "bianchi_is_derived",
-      "url": "/verify/taulib/docs/book-v-gravity-einstein-equation/bianchi-is-derived/",
+      "url": "/corpus/taulib/docs/book-v-gravity-einstein-equation/bianchi-is-derived/",
       "source_line_start": 258,
       "source_line_end": 259,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-einstein-equation/eval-l266/",
+      "url": "/corpus/taulib/docs/book-v-gravity-einstein-equation/eval-l266/",
       "source_line_start": 266,
       "source_line_end": 266,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-einstein-equation/eval-l269/",
+      "url": "/corpus/taulib/docs/book-v-gravity-einstein-equation/eval-l269/",
       "source_line_start": 269,
       "source_line_end": 272,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -219,7 +255,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -291,23 +327,23 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [MatterCharacter](/verify/taulib/docs/book-v-gravity-einstein-equation/matter-character/) | L86-L97 | defined | `V.D03` |
-| `def` | [MatterCharacter.total_numer](/verify/taulib/docs/book-v-gravity-einstein-equation/total-numer/) | L100-L101 | defined | — |
-| `def` | [MatterCharacter.totalFloat](/verify/taulib/docs/book-v-gravity-einstein-equation/total-float/) | L104-L105 | defined | — |
-| `structure` | [CurvatureCharacter](/verify/taulib/docs/book-v-gravity-einstein-equation/curvature-character/) | L119-L126 | defined | `V.D04` |
-| `def` | [CurvatureCharacter.toFloat](/verify/taulib/docs/book-v-gravity-einstein-equation/to-float/) | L129-L130 | defined | — |
-| `structure` | [GRCoupling](/verify/taulib/docs/book-v-gravity-einstein-equation/grcoupling/) | L147-L158 | defined | `V.D05` |
-| `def` | [GRCoupling.toFloat](/verify/taulib/docs/book-v-gravity-einstein-equation/to-float-l161/) | L161-L162 | defined | — |
-| `def` | [canonical_gr_coupling](/verify/taulib/docs/book-v-gravity-einstein-equation/canonical-gr-coupling/) | L170-L173 | defined | — |
-| `structure` | [TauEinstein](/verify/taulib/docs/book-v-gravity-einstein-equation/tau-einstein/) | L194-L205 | defined | `V.D06` |
-| `structure` | [TauBianchi](/verify/taulib/docs/book-v-gravity-einstein-equation/tau-bianchi/) | L221-L226 | defined | `V.R01` |
-| `theorem` | [kappa_unique](/verify/taulib/docs/book-v-gravity-einstein-equation/kappa-unique/) | L234-L235 | formalized | `V.T02` |
-| `theorem` | [kappa_sigma_fixed](/verify/taulib/docs/book-v-gravity-einstein-equation/kappa-sigma-fixed/) | L238-L239 | formalized | — |
-| `theorem` | [kappa_is_unique](/verify/taulib/docs/book-v-gravity-einstein-equation/kappa-is-unique/) | L242-L243 | formalized | — |
-| `theorem` | [matter_three_sectors](/verify/taulib/docs/book-v-gravity-einstein-equation/matter-three-sectors/) | L248-L249 | formalized | — |
-| `theorem` | [canonical_coupling_value](/verify/taulib/docs/book-v-gravity-einstein-equation/canonical-coupling-value/) | L252-L255 | formalized | — |
-| `theorem` | [bianchi_is_derived](/verify/taulib/docs/book-v-gravity-einstein-equation/bianchi-is-derived/) | L258-L259 | formalized | — |
-| `eval` | [#eval L266](/verify/taulib/docs/book-v-gravity-einstein-equation/eval-l266/) | L266-L266 | computed | — |
-| `eval` | [#eval L269](/verify/taulib/docs/book-v-gravity-einstein-equation/eval-l269/) | L269-L272 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [MatterCharacter](/corpus/taulib/docs/book-v-gravity-einstein-equation/matter-character/) | L86-L97 | type/data schema | type/data schema | `V.D03` |
+| `def` | [MatterCharacter.total_numer](/corpus/taulib/docs/book-v-gravity-einstein-equation/total-numer/) | L100-L101 | data/computed value | data/computed value | — |
+| `def` | [MatterCharacter.totalFloat](/corpus/taulib/docs/book-v-gravity-einstein-equation/total-float/) | L104-L105 | data/computed value | data/computed value | — |
+| `structure` | [CurvatureCharacter](/corpus/taulib/docs/book-v-gravity-einstein-equation/curvature-character/) | L119-L126 | type/data schema | type/data schema | `V.D04` |
+| `def` | [CurvatureCharacter.toFloat](/corpus/taulib/docs/book-v-gravity-einstein-equation/to-float/) | L129-L130 | data/computed value | data/computed value | — |
+| `structure` | [GRCoupling](/corpus/taulib/docs/book-v-gravity-einstein-equation/grcoupling/) | L147-L158 | type/data schema | type/data schema | `V.D05` |
+| `def` | [GRCoupling.toFloat](/corpus/taulib/docs/book-v-gravity-einstein-equation/to-float-l161/) | L161-L162 | data/computed value | data/computed value | — |
+| `def` | [canonical_gr_coupling](/corpus/taulib/docs/book-v-gravity-einstein-equation/canonical-gr-coupling/) | L170-L173 | definition | definition | — |
+| `structure` | [TauEinstein](/corpus/taulib/docs/book-v-gravity-einstein-equation/tau-einstein/) | L194-L205 | type/data schema | type/data schema | `V.D06` |
+| `structure` | [TauBianchi](/corpus/taulib/docs/book-v-gravity-einstein-equation/tau-bianchi/) | L221-L226 | type/data schema | type/data schema | `V.R01` |
+| `theorem` | [kappa_unique](/corpus/taulib/docs/book-v-gravity-einstein-equation/kappa-unique/) | L234-L235 | proof obligation | formal proof obligation checked | `V.T02` |
+| `theorem` | [kappa_sigma_fixed](/corpus/taulib/docs/book-v-gravity-einstein-equation/kappa-sigma-fixed/) | L238-L239 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [kappa_is_unique](/corpus/taulib/docs/book-v-gravity-einstein-equation/kappa-is-unique/) | L242-L243 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [matter_three_sectors](/corpus/taulib/docs/book-v-gravity-einstein-equation/matter-three-sectors/) | L248-L249 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [canonical_coupling_value](/corpus/taulib/docs/book-v-gravity-einstein-equation/canonical-coupling-value/) | L252-L255 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [bianchi_is_derived](/corpus/taulib/docs/book-v-gravity-einstein-equation/bianchi-is-derived/) | L258-L259 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L266](/corpus/taulib/docs/book-v-gravity-einstein-equation/eval-l266/) | L266-L266 | computed check | computed check | — |
+| `eval` | [#eval L269](/corpus/taulib/docs/book-v-gravity-einstein-equation/eval-l269/) | L269-L272 | computed check | computed check | — |

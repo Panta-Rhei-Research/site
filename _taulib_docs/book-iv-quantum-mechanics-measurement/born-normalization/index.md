@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "BornNormalization",
-  "permalink": "/verify/taulib/docs/book-iv-quantum-mechanics-measurement/born-normalization/",
+  "permalink": "/corpus/taulib/docs/book-iv-quantum-mechanics-measurement/born-normalization/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.QuantumMechanics.Measurement`.",
   "declaration_id": "TauLib.BookIV.QuantumMechanics.Measurement::BornNormalization",
   "declaration_slug": "born-normalization",
   "kind": "structure",
   "name": "BornNormalization",
   "module_name": "TauLib.BookIV.QuantumMechanics.Measurement",
-  "module_url": "/verify/taulib/docs/book-iv-quantum-mechanics-measurement/",
+  "module_url": "/corpus/taulib/docs/book-iv-quantum-mechanics-measurement/",
   "source_line_start": 106,
   "source_line_end": 116,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/Measurement.lean#L106-L116",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.QuantumMechanics.Measurement",
-        "url": "/verify/taulib/docs/book-iv-quantum-mechanics-measurement/"
+        "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-measurement/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.QuantumMechanics.Measurement](/verify/taulib/docs/book-iv-quantum-mechanics-measurement/)
+- Module: [TauLib.BookIV.QuantumMechanics.Measurement](/corpus/taulib/docs/book-iv-quantum-mechanics-measurement/)
 - Source path: [`TauLib/BookIV/QuantumMechanics/Measurement.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/Measurement.lean#L106-L116)
 - Source range: L106-L116
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "classifier_check",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-bipolar-classifier/classifier-check/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-bipolar-classifier/classifier-check/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Spectral.BipolarClassifier`.",
   "declaration_id": "TauLib.BookIII.Spectral.BipolarClassifier::classifier_check",
   "declaration_slug": "classifier-check",
   "kind": "def",
   "name": "classifier_check",
   "module_name": "TauLib.BookIII.Spectral.BipolarClassifier",
-  "module_url": "/verify/taulib/docs/book-iii-spectral-bipolar-classifier/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectral-bipolar-classifier/",
   "source_line_start": 97,
   "source_line_end": 112,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/BipolarClassifier.lean#L97-L112",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectral.BipolarClassifier",
-        "url": "/verify/taulib/docs/book-iii-spectral-bipolar-classifier/"
+        "url": "/corpus/taulib/docs/book-iii-spectral-bipolar-classifier/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectral.BipolarClassifier](/verify/taulib/docs/book-iii-spectral-bipolar-classifier/)
+- Module: [TauLib.BookIII.Spectral.BipolarClassifier](/corpus/taulib/docs/book-iii-spectral-bipolar-classifier/)
 - Source path: [`TauLib/BookIII/Spectral/BipolarClassifier.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/BipolarClassifier.lean#L97-L112)
 - Source range: L97-L112
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

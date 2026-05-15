@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookVI.Consumer.Identity",
-  "permalink": "/verify/taulib/docs/book-vi-consumer-identity/",
+  "permalink": "/corpus/taulib/docs/book-vi-consumer-identity/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookVI.Consumer.Identity`.",
   "module_name": "TauLib.BookVI.Consumer.Identity",
   "module_slug": "book-vi-consumer-identity",
@@ -33,10 +33,12 @@
     {
       "kind": "structure",
       "name": "SelfDescOverCode",
-      "url": "/verify/taulib/docs/book-vi-consumer-identity/self-desc-over-code/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-identity/self-desc-over-code/",
       "source_line_start": 32,
       "source_line_end": 39,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D53"
       ]
@@ -44,19 +46,23 @@
     {
       "kind": "def",
       "name": "selfdesc_code",
-      "url": "/verify/taulib/docs/book-vi-consumer-identity/selfdesc-code/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-identity/selfdesc-code/",
       "source_line_start": 41,
       "source_line_end": 41,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "SubstrateReplacement",
-      "url": "/verify/taulib/docs/book-vi-consumer-identity/substrate-replacement/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-identity/substrate-replacement/",
       "source_line_start": 52,
       "source_line_end": 61,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.L08"
       ]
@@ -64,37 +70,45 @@
     {
       "kind": "def",
       "name": "substrate_repl",
-      "url": "/verify/taulib/docs/book-vi-consumer-identity/substrate-repl/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-identity/substrate-repl/",
       "source_line_start": 63,
       "source_line_end": 63,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "identity_is_code_not_carrier",
-      "url": "/verify/taulib/docs/book-vi-consumer-identity/identity-is-code-not-carrier/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-identity/identity-is-code-not-carrier/",
       "source_line_start": 65,
       "source_line_end": 68,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "substrate_replacement_preserves_life",
-      "url": "/verify/taulib/docs/book-vi-consumer-identity/substrate-replacement-preserves-life/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-identity/substrate-replacement-preserves-life/",
       "source_line_start": 70,
       "source_line_end": 75,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "SubstrateAbstraction",
-      "url": "/verify/taulib/docs/book-vi-consumer-identity/substrate-abstraction/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-identity/substrate-abstraction/",
       "source_line_start": 91,
       "source_line_end": 102,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.T50"
       ]
@@ -102,19 +116,23 @@
     {
       "kind": "def",
       "name": "substrate_abs",
-      "url": "/verify/taulib/docs/book-vi-consumer-identity/substrate-abs/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-identity/substrate-abs/",
       "source_line_start": 104,
       "source_line_end": 104,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "substrate_abstraction",
-      "url": "/verify/taulib/docs/book-vi-consumer-identity/substrate-abstraction-l106/",
+      "url": "/corpus/taulib/docs/book-vi-consumer-identity/substrate-abstraction-l106/",
       "source_line_start": 106,
       "source_line_end": 125,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "VI.R29"
       ]
@@ -128,7 +146,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -199,14 +217,14 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [SelfDescOverCode](/verify/taulib/docs/book-vi-consumer-identity/self-desc-over-code/) | L32-L39 | defined | `VI.D53` |
-| `def` | [selfdesc_code](/verify/taulib/docs/book-vi-consumer-identity/selfdesc-code/) | L41-L41 | defined | — |
-| `structure` | [SubstrateReplacement](/verify/taulib/docs/book-vi-consumer-identity/substrate-replacement/) | L52-L61 | defined | `VI.L08` |
-| `def` | [substrate_repl](/verify/taulib/docs/book-vi-consumer-identity/substrate-repl/) | L63-L63 | defined | — |
-| `theorem` | [identity_is_code_not_carrier](/verify/taulib/docs/book-vi-consumer-identity/identity-is-code-not-carrier/) | L65-L68 | formalized | — |
-| `theorem` | [substrate_replacement_preserves_life](/verify/taulib/docs/book-vi-consumer-identity/substrate-replacement-preserves-life/) | L70-L75 | formalized | — |
-| `structure` | [SubstrateAbstraction](/verify/taulib/docs/book-vi-consumer-identity/substrate-abstraction/) | L91-L102 | defined | `VI.T50` |
-| `def` | [substrate_abs](/verify/taulib/docs/book-vi-consumer-identity/substrate-abs/) | L104-L104 | defined | — |
-| `theorem` | [substrate_abstraction](/verify/taulib/docs/book-vi-consumer-identity/substrate-abstraction-l106/) | L106-L125 | formalized | `VI.R29` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [SelfDescOverCode](/corpus/taulib/docs/book-vi-consumer-identity/self-desc-over-code/) | L32-L39 | type/data schema | type/data schema | `VI.D53` |
+| `def` | [selfdesc_code](/corpus/taulib/docs/book-vi-consumer-identity/selfdesc-code/) | L41-L41 | definition | definition | — |
+| `structure` | [SubstrateReplacement](/corpus/taulib/docs/book-vi-consumer-identity/substrate-replacement/) | L52-L61 | type/data schema | type/data schema | `VI.L08` |
+| `def` | [substrate_repl](/corpus/taulib/docs/book-vi-consumer-identity/substrate-repl/) | L63-L63 | definition | definition | — |
+| `theorem` | [identity_is_code_not_carrier](/corpus/taulib/docs/book-vi-consumer-identity/identity-is-code-not-carrier/) | L65-L68 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [substrate_replacement_preserves_life](/corpus/taulib/docs/book-vi-consumer-identity/substrate-replacement-preserves-life/) | L70-L75 | proof obligation | formal proof obligation checked | — |
+| `structure` | [SubstrateAbstraction](/corpus/taulib/docs/book-vi-consumer-identity/substrate-abstraction/) | L91-L102 | type/data schema | type/data schema | `VI.T50` |
+| `def` | [substrate_abs](/corpus/taulib/docs/book-vi-consumer-identity/substrate-abs/) | L104-L104 | definition | definition | — |
+| `theorem` | [substrate_abstraction](/corpus/taulib/docs/book-vi-consumer-identity/substrate-abstraction-l106/) | L106-L125 | proof obligation | formal proof obligation checked | `VI.R29` |

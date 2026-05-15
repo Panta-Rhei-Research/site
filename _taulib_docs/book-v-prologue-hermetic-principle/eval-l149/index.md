@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L149",
-  "permalink": "/verify/taulib/docs/book-v-prologue-hermetic-principle/eval-l149/",
+  "permalink": "/corpus/taulib/docs/book-v-prologue-hermetic-principle/eval-l149/",
   "summary_short": "`eval` declaration in `TauLib.BookV.Prologue.HermeticPrinciple`.",
   "declaration_id": "TauLib.BookV.Prologue.HermeticPrinciple::#eval:149",
   "declaration_slug": "eval-l149",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookV.Prologue.HermeticPrinciple",
-  "module_url": "/verify/taulib/docs/book-v-prologue-hermetic-principle/",
+  "module_url": "/corpus/taulib/docs/book-v-prologue-hermetic-principle/",
   "source_line_start": 149,
   "source_line_end": 149,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Prologue/HermeticPrinciple.lean#L149-L149",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Prologue.HermeticPrinciple",
-        "url": "/verify/taulib/docs/book-v-prologue-hermetic-principle/"
+        "url": "/corpus/taulib/docs/book-v-prologue-hermetic-principle/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Prologue.HermeticPrinciple](/verify/taulib/docs/book-v-prologue-hermetic-principle/)
+- Module: [TauLib.BookV.Prologue.HermeticPrinciple](/corpus/taulib/docs/book-v-prologue-hermetic-principle/)
 - Source path: [`TauLib/BookV/Prologue/HermeticPrinciple.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Prologue/HermeticPrinciple.lean#L149-L149)
 - Source range: L149-L149
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

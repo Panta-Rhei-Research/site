@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "curie_is_second_order",
-  "permalink": "/verify/taulib/docs/book-iv-many-body-magnetism/curie-is-second-order/",
+  "permalink": "/corpus/taulib/docs/book-iv-many-body-magnetism/curie-is-second-order/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.ManyBody.Magnetism`.",
   "declaration_id": "TauLib.BookIV.ManyBody.Magnetism::curie_is_second_order",
   "declaration_slug": "curie-is-second-order",
   "kind": "theorem",
   "name": "curie_is_second_order",
   "module_name": "TauLib.BookIV.ManyBody.Magnetism",
-  "module_url": "/verify/taulib/docs/book-iv-many-body-magnetism/",
+  "module_url": "/corpus/taulib/docs/book-iv-many-body-magnetism/",
   "source_line_start": 222,
   "source_line_end": 223,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/Magnetism.lean#L222-L223",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.ManyBody.Magnetism",
-        "url": "/verify/taulib/docs/book-iv-many-body-magnetism/"
+        "url": "/corpus/taulib/docs/book-iv-many-body-magnetism/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.ManyBody.Magnetism](/verify/taulib/docs/book-iv-many-body-magnetism/)
+- Module: [TauLib.BookIV.ManyBody.Magnetism](/corpus/taulib/docs/book-iv-many-body-magnetism/)
 - Source path: [`TauLib/BookIV/ManyBody/Magnetism.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/ManyBody/Magnetism.lean#L222-L223)
 - Source range: L222-L223
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

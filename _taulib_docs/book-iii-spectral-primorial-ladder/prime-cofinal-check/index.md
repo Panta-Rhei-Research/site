@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "prime_cofinal_check",
-  "permalink": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/prime-cofinal-check/",
+  "permalink": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/prime-cofinal-check/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Spectral.PrimorialLadder`.",
   "declaration_id": "TauLib.BookIII.Spectral.PrimorialLadder::prime_cofinal_check",
   "declaration_slug": "prime-cofinal-check",
   "kind": "def",
   "name": "prime_cofinal_check",
   "module_name": "TauLib.BookIII.Spectral.PrimorialLadder",
-  "module_url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/",
+  "module_url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/",
   "source_line_start": 115,
   "source_line_end": 128,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/PrimorialLadder.lean#L115-L128",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Spectral.PrimorialLadder",
-        "url": "/verify/taulib/docs/book-iii-spectral-primorial-ladder/"
+        "url": "/corpus/taulib/docs/book-iii-spectral-primorial-ladder/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Spectral.PrimorialLadder](/verify/taulib/docs/book-iii-spectral-primorial-ladder/)
+- Module: [TauLib.BookIII.Spectral.PrimorialLadder](/corpus/taulib/docs/book-iii-spectral-primorial-ladder/)
 - Source path: [`TauLib/BookIII/Spectral/PrimorialLadder.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Spectral/PrimorialLadder.lean#L115-L128)
 - Source range: L115-L128
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "RefinementRate.toFloat",
-  "permalink": "/verify/taulib/docs/book-v-temporal-high-energy/to-float/",
+  "permalink": "/corpus/taulib/docs/book-v-temporal-high-energy/to-float/",
   "summary_short": "`def` declaration in `TauLib.BookV.Temporal.HighEnergy`.",
   "declaration_id": "TauLib.BookV.Temporal.HighEnergy::RefinementRate.toFloat",
   "declaration_slug": "to-float",
   "kind": "def",
   "name": "RefinementRate.toFloat",
   "module_name": "TauLib.BookV.Temporal.HighEnergy",
-  "module_url": "/verify/taulib/docs/book-v-temporal-high-energy/",
+  "module_url": "/corpus/taulib/docs/book-v-temporal-high-energy/",
   "source_line_start": 194,
   "source_line_end": 195,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/HighEnergy.lean#L194-L195",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Temporal.HighEnergy",
-        "url": "/verify/taulib/docs/book-v-temporal-high-energy/"
+        "url": "/corpus/taulib/docs/book-v-temporal-high-energy/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Temporal.HighEnergy](/verify/taulib/docs/book-v-temporal-high-energy/)
+- Module: [TauLib.BookV.Temporal.HighEnergy](/corpus/taulib/docs/book-v-temporal-high-energy/)
 - Source path: [`TauLib/BookV/Temporal/HighEnergy.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/HighEnergy.lean#L194-L195)
 - Source range: L194-L195
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

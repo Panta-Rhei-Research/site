@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "parity_bridge_theorem",
-  "permalink": "/verify/taulib/docs/book-vi-life-core-parity-bridge/parity-bridge-theorem-l85/",
+  "permalink": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/parity-bridge-theorem-l85/",
   "summary_short": "`theorem` declaration in `TauLib.BookVI.LifeCore.ParityBridge`.",
   "declaration_id": "TauLib.BookVI.LifeCore.ParityBridge::parity_bridge_theorem",
   "declaration_slug": "parity-bridge-theorem-l85",
   "kind": "theorem",
   "name": "parity_bridge_theorem",
   "module_name": "TauLib.BookVI.LifeCore.ParityBridge",
-  "module_url": "/verify/taulib/docs/book-vi-life-core-parity-bridge/",
+  "module_url": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/",
   "source_line_start": 85,
   "source_line_end": 87,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/LifeCore/ParityBridge.lean#L85-L87",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.LifeCore.ParityBridge",
-        "url": "/verify/taulib/docs/book-vi-life-core-parity-bridge/"
+        "url": "/corpus/taulib/docs/book-vi-life-core-parity-bridge/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.LifeCore.ParityBridge](/verify/taulib/docs/book-vi-life-core-parity-bridge/)
+- Module: [TauLib.BookVI.LifeCore.ParityBridge](/corpus/taulib/docs/book-vi-life-core-parity-bridge/)
 - Source path: [`TauLib/BookVI/LifeCore/ParityBridge.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/LifeCore/ParityBridge.lean#L85-L87)
 - Source range: L85-L87
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

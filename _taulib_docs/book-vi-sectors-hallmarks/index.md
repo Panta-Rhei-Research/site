@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookVI.Sectors.Hallmarks",
-  "permalink": "/verify/taulib/docs/book-vi-sectors-hallmarks/",
+  "permalink": "/corpus/taulib/docs/book-vi-sectors-hallmarks/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookVI.Sectors.Hallmarks`.",
   "module_name": "TauLib.BookVI.Sectors.Hallmarks",
   "module_slug": "book-vi-sectors-hallmarks",
@@ -39,19 +39,23 @@
     {
       "kind": "structure",
       "name": "Hallmark",
-      "url": "/verify/taulib/docs/book-vi-sectors-hallmarks/hallmark/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-hallmarks/hallmark/",
       "source_line_start": 19,
       "source_line_end": 22,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "organization",
-      "url": "/verify/taulib/docs/book-vi-sectors-hallmarks/organization/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-hallmarks/organization/",
       "source_line_start": 25,
       "source_line_end": 27,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "VI.T08"
       ]
@@ -59,10 +63,12 @@
     {
       "kind": "def",
       "name": "metabolism",
-      "url": "/verify/taulib/docs/book-vi-sectors-hallmarks/metabolism/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-hallmarks/metabolism/",
       "source_line_start": 30,
       "source_line_end": 32,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "VI.T09"
       ]
@@ -70,10 +76,12 @@
     {
       "kind": "def",
       "name": "homeostasis",
-      "url": "/verify/taulib/docs/book-vi-sectors-hallmarks/homeostasis/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-hallmarks/homeostasis/",
       "source_line_start": 35,
       "source_line_end": 37,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "VI.T10"
       ]
@@ -81,10 +89,12 @@
     {
       "kind": "def",
       "name": "growth",
-      "url": "/verify/taulib/docs/book-vi-sectors-hallmarks/growth/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-hallmarks/growth/",
       "source_line_start": 40,
       "source_line_end": 42,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "VI.T11"
       ]
@@ -92,10 +102,12 @@
     {
       "kind": "def",
       "name": "reproduction",
-      "url": "/verify/taulib/docs/book-vi-sectors-hallmarks/reproduction/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-hallmarks/reproduction/",
       "source_line_start": 45,
       "source_line_end": 47,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "VI.T12"
       ]
@@ -103,10 +115,12 @@
     {
       "kind": "def",
       "name": "response",
-      "url": "/verify/taulib/docs/book-vi-sectors-hallmarks/response/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-hallmarks/response/",
       "source_line_start": 50,
       "source_line_end": 52,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "VI.T13"
       ]
@@ -114,10 +128,12 @@
     {
       "kind": "def",
       "name": "evolution",
-      "url": "/verify/taulib/docs/book-vi-sectors-hallmarks/evolution/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-hallmarks/evolution/",
       "source_line_start": 55,
       "source_line_end": 57,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "VI.T14"
       ]
@@ -125,28 +141,34 @@
     {
       "kind": "def",
       "name": "all_hallmarks",
-      "url": "/verify/taulib/docs/book-vi-sectors-hallmarks/all-hallmarks/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-hallmarks/all-hallmarks/",
       "source_line_start": 59,
       "source_line_end": 60,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "hallmark_count",
-      "url": "/verify/taulib/docs/book-vi-sectors-hallmarks/hallmark-count/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-hallmarks/hallmark-count/",
       "source_line_start": 62,
       "source_line_end": 62,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "ThermodynamicInevitability",
-      "url": "/verify/taulib/docs/book-vi-sectors-hallmarks/thermodynamic-inevitability/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-hallmarks/thermodynamic-inevitability/",
       "source_line_start": 65,
       "source_line_end": 69,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.P08"
       ]
@@ -154,19 +176,23 @@
     {
       "kind": "def",
       "name": "thermo_inev",
-      "url": "/verify/taulib/docs/book-vi-sectors-hallmarks/thermo-inev/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-hallmarks/thermo-inev/",
       "source_line_start": 71,
       "source_line_end": 71,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "thermodynamic_inevitability",
-      "url": "/verify/taulib/docs/book-vi-sectors-hallmarks/thermodynamic-inevitability-l73/",
+      "url": "/corpus/taulib/docs/book-vi-sectors-hallmarks/thermodynamic-inevitability-l73/",
       "source_line_start": 73,
       "source_line_end": 78,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -178,7 +204,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -255,18 +281,18 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [Hallmark](/verify/taulib/docs/book-vi-sectors-hallmarks/hallmark/) | L19-L22 | defined | — |
-| `def` | [organization](/verify/taulib/docs/book-vi-sectors-hallmarks/organization/) | L25-L27 | defined | `VI.T08` |
-| `def` | [metabolism](/verify/taulib/docs/book-vi-sectors-hallmarks/metabolism/) | L30-L32 | defined | `VI.T09` |
-| `def` | [homeostasis](/verify/taulib/docs/book-vi-sectors-hallmarks/homeostasis/) | L35-L37 | defined | `VI.T10` |
-| `def` | [growth](/verify/taulib/docs/book-vi-sectors-hallmarks/growth/) | L40-L42 | defined | `VI.T11` |
-| `def` | [reproduction](/verify/taulib/docs/book-vi-sectors-hallmarks/reproduction/) | L45-L47 | defined | `VI.T12` |
-| `def` | [response](/verify/taulib/docs/book-vi-sectors-hallmarks/response/) | L50-L52 | defined | `VI.T13` |
-| `def` | [evolution](/verify/taulib/docs/book-vi-sectors-hallmarks/evolution/) | L55-L57 | defined | `VI.T14` |
-| `def` | [all_hallmarks](/verify/taulib/docs/book-vi-sectors-hallmarks/all-hallmarks/) | L59-L60 | defined | — |
-| `theorem` | [hallmark_count](/verify/taulib/docs/book-vi-sectors-hallmarks/hallmark-count/) | L62-L62 | formalized | — |
-| `structure` | [ThermodynamicInevitability](/verify/taulib/docs/book-vi-sectors-hallmarks/thermodynamic-inevitability/) | L65-L69 | defined | `VI.P08` |
-| `def` | [thermo_inev](/verify/taulib/docs/book-vi-sectors-hallmarks/thermo-inev/) | L71-L71 | defined | — |
-| `theorem` | [thermodynamic_inevitability](/verify/taulib/docs/book-vi-sectors-hallmarks/thermodynamic-inevitability-l73/) | L73-L78 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [Hallmark](/corpus/taulib/docs/book-vi-sectors-hallmarks/hallmark/) | L19-L22 | type/data schema | type/data schema | — |
+| `def` | [organization](/corpus/taulib/docs/book-vi-sectors-hallmarks/organization/) | L25-L27 | definition | definition | `VI.T08` |
+| `def` | [metabolism](/corpus/taulib/docs/book-vi-sectors-hallmarks/metabolism/) | L30-L32 | definition | definition | `VI.T09` |
+| `def` | [homeostasis](/corpus/taulib/docs/book-vi-sectors-hallmarks/homeostasis/) | L35-L37 | definition | definition | `VI.T10` |
+| `def` | [growth](/corpus/taulib/docs/book-vi-sectors-hallmarks/growth/) | L40-L42 | definition | definition | `VI.T11` |
+| `def` | [reproduction](/corpus/taulib/docs/book-vi-sectors-hallmarks/reproduction/) | L45-L47 | definition | definition | `VI.T12` |
+| `def` | [response](/corpus/taulib/docs/book-vi-sectors-hallmarks/response/) | L50-L52 | definition | definition | `VI.T13` |
+| `def` | [evolution](/corpus/taulib/docs/book-vi-sectors-hallmarks/evolution/) | L55-L57 | definition | definition | `VI.T14` |
+| `def` | [all_hallmarks](/corpus/taulib/docs/book-vi-sectors-hallmarks/all-hallmarks/) | L59-L60 | data/computed value | data/computed value | — |
+| `theorem` | [hallmark_count](/corpus/taulib/docs/book-vi-sectors-hallmarks/hallmark-count/) | L62-L62 | proof obligation | formal proof obligation checked | — |
+| `structure` | [ThermodynamicInevitability](/corpus/taulib/docs/book-vi-sectors-hallmarks/thermodynamic-inevitability/) | L65-L69 | type/data schema | type/data schema | `VI.P08` |
+| `def` | [thermo_inev](/corpus/taulib/docs/book-vi-sectors-hallmarks/thermo-inev/) | L71-L71 | definition | definition | — |
+| `theorem` | [thermodynamic_inevitability](/corpus/taulib/docs/book-vi-sectors-hallmarks/thermodynamic-inevitability-l73/) | L73-L78 | proof obligation | formal proof obligation checked | — |

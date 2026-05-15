@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L338",
-  "permalink": "/verify/taulib/docs/book-i-boundary-ring/eval-l338/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-ring/eval-l338/",
   "summary_short": "`eval` declaration in `TauLib.BookI.Boundary.Ring`.",
   "declaration_id": "TauLib.BookI.Boundary.Ring::#eval:338",
   "declaration_slug": "eval-l338",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookI.Boundary.Ring",
-  "module_url": "/verify/taulib/docs/book-i-boundary-ring/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-ring/",
   "source_line_start": 338,
   "source_line_end": 338,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Ring.lean#L338-L338",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.Ring",
-        "url": "/verify/taulib/docs/book-i-boundary-ring/"
+        "url": "/corpus/taulib/docs/book-i-boundary-ring/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.Ring](/verify/taulib/docs/book-i-boundary-ring/)
+- Module: [TauLib.BookI.Boundary.Ring](/corpus/taulib/docs/book-i-boundary-ring/)
 - Source path: [`TauLib/BookI/Boundary/Ring.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/Ring.lean#L338-L338)
 - Source range: L338-L338
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

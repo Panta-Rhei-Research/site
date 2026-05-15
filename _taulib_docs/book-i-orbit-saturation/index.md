@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Orbit.Saturation",
-  "permalink": "/verify/taulib/docs/book-i-orbit-saturation/",
+  "permalink": "/corpus/taulib/docs/book-i-orbit-saturation/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Orbit.Saturation`.",
   "module_name": "TauLib.BookI.Orbit.Saturation",
   "module_slug": "book-i-orbit-saturation",
@@ -32,82 +32,100 @@
     {
       "kind": "theorem",
       "name": "tetration_non_comm",
-      "url": "/verify/taulib/docs/book-i-orbit-saturation/tetration-non-comm/",
+      "url": "/corpus/taulib/docs/book-i-orbit-saturation/tetration-non-comm/",
       "source_line_start": 38,
       "source_line_end": 39,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tetration_non_assoc",
-      "url": "/verify/taulib/docs/book-i-orbit-saturation/tetration-non-assoc/",
+      "url": "/corpus/taulib/docs/book-i-orbit-saturation/tetration-non-assoc/",
       "source_line_start": 43,
       "source_line_end": 45,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tetration_no_left_identity",
-      "url": "/verify/taulib/docs/book-i-orbit-saturation/tetration-no-left-identity/",
+      "url": "/corpus/taulib/docs/book-i-orbit-saturation/tetration-no-left-identity/",
       "source_line_start": 57,
       "source_line_end": 67,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "lower_ops_have_identities",
-      "url": "/verify/taulib/docs/book-i-orbit-saturation/lower-ops-have-identities/",
+      "url": "/corpus/taulib/docs/book-i-orbit-saturation/lower-ops-have-identities/",
       "source_line_start": 72,
       "source_line_end": 74,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "AlgebraicDegradation",
-      "url": "/verify/taulib/docs/book-i-orbit-saturation/algebraic-degradation/",
+      "url": "/corpus/taulib/docs/book-i-orbit-saturation/algebraic-degradation/",
       "source_line_start": 83,
       "source_line_end": 86,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "tetration_algebraic_degradation",
-      "url": "/verify/taulib/docs/book-i-orbit-saturation/tetration-algebraic-degradation/",
+      "url": "/corpus/taulib/docs/book-i-orbit-saturation/tetration-algebraic-degradation/",
       "source_line_start": 90,
       "source_line_end": 91,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "MinimalAlphabetSpec",
-      "url": "/verify/taulib/docs/book-i-orbit-saturation/minimal-alphabet-spec/",
+      "url": "/corpus/taulib/docs/book-i-orbit-saturation/minimal-alphabet-spec/",
       "source_line_start": 98,
       "source_line_end": 110,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "five_gen_spec",
-      "url": "/verify/taulib/docs/book-i-orbit-saturation/five-gen-spec/",
+      "url": "/corpus/taulib/docs/book-i-orbit-saturation/five-gen-spec/",
       "source_line_start": 113,
       "source_line_end": 119,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "minimal_alphabet",
-      "url": "/verify/taulib/docs/book-i-orbit-saturation/minimal-alphabet/",
+      "url": "/corpus/taulib/docs/book-i-orbit-saturation/minimal-alphabet/",
       "source_line_start": 146,
       "source_line_end": 163,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "I.T09"
       ]
@@ -121,7 +139,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -191,14 +209,14 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `theorem` | [tetration_non_comm](/verify/taulib/docs/book-i-orbit-saturation/tetration-non-comm/) | L38-L39 | formalized | — |
-| `theorem` | [tetration_non_assoc](/verify/taulib/docs/book-i-orbit-saturation/tetration-non-assoc/) | L43-L45 | formalized | — |
-| `theorem` | [tetration_no_left_identity](/verify/taulib/docs/book-i-orbit-saturation/tetration-no-left-identity/) | L57-L67 | formalized | — |
-| `theorem` | [lower_ops_have_identities](/verify/taulib/docs/book-i-orbit-saturation/lower-ops-have-identities/) | L72-L74 | formalized | — |
-| `structure` | [AlgebraicDegradation](/verify/taulib/docs/book-i-orbit-saturation/algebraic-degradation/) | L83-L86 | defined | — |
-| `theorem` | [tetration_algebraic_degradation](/verify/taulib/docs/book-i-orbit-saturation/tetration-algebraic-degradation/) | L90-L91 | formalized | — |
-| `structure` | [MinimalAlphabetSpec](/verify/taulib/docs/book-i-orbit-saturation/minimal-alphabet-spec/) | L98-L110 | defined | — |
-| `theorem` | [five_gen_spec](/verify/taulib/docs/book-i-orbit-saturation/five-gen-spec/) | L113-L119 | formalized | — |
-| `theorem` | [minimal_alphabet](/verify/taulib/docs/book-i-orbit-saturation/minimal-alphabet/) | L146-L163 | formalized | `I.T09` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `theorem` | [tetration_non_comm](/corpus/taulib/docs/book-i-orbit-saturation/tetration-non-comm/) | L38-L39 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [tetration_non_assoc](/corpus/taulib/docs/book-i-orbit-saturation/tetration-non-assoc/) | L43-L45 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [tetration_no_left_identity](/corpus/taulib/docs/book-i-orbit-saturation/tetration-no-left-identity/) | L57-L67 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [lower_ops_have_identities](/corpus/taulib/docs/book-i-orbit-saturation/lower-ops-have-identities/) | L72-L74 | proof obligation | formal proof obligation checked | — |
+| `structure` | [AlgebraicDegradation](/corpus/taulib/docs/book-i-orbit-saturation/algebraic-degradation/) | L83-L86 | type/data schema | type/data schema | — |
+| `theorem` | [tetration_algebraic_degradation](/corpus/taulib/docs/book-i-orbit-saturation/tetration-algebraic-degradation/) | L90-L91 | proof obligation | formal proof obligation checked | — |
+| `structure` | [MinimalAlphabetSpec](/corpus/taulib/docs/book-i-orbit-saturation/minimal-alphabet-spec/) | L98-L110 | type/data schema | type/data schema | — |
+| `theorem` | [five_gen_spec](/corpus/taulib/docs/book-i-orbit-saturation/five-gen-spec/) | L113-L119 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [minimal_alphabet](/corpus/taulib/docs/book-i-orbit-saturation/minimal-alphabet/) | L146-L163 | proof obligation | formal proof obligation checked | `I.T09` |

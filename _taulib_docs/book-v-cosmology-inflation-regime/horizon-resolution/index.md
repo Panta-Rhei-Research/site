@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "horizon_resolution",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-inflation-regime/horizon-resolution/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-inflation-regime/horizon-resolution/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Cosmology.InflationRegime`.",
   "declaration_id": "TauLib.BookV.Cosmology.InflationRegime::horizon_resolution",
   "declaration_slug": "horizon-resolution",
   "kind": "theorem",
   "name": "horizon_resolution",
   "module_name": "TauLib.BookV.Cosmology.InflationRegime",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-inflation-regime/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-inflation-regime/",
   "source_line_start": 203,
   "source_line_end": 205,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/InflationRegime.lean#L203-L205",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.InflationRegime",
-        "url": "/verify/taulib/docs/book-v-cosmology-inflation-regime/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-inflation-regime/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.InflationRegime](/verify/taulib/docs/book-v-cosmology-inflation-regime/)
+- Module: [TauLib.BookV.Cosmology.InflationRegime](/corpus/taulib/docs/book-v-cosmology-inflation-regime/)
 - Source path: [`TauLib/BookV/Cosmology/InflationRegime.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/InflationRegime.lean#L203-L205)
 - Source range: L203-L205
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "NSNoSelfDesc",
-  "permalink": "/verify/taulib/docs/book-vi-sectors-absence/nsno-self-desc/",
+  "permalink": "/corpus/taulib/docs/book-vi-sectors-absence/nsno-self-desc/",
   "summary_short": "`structure` declaration in `TauLib.BookVI.Sectors.Absence`.",
   "declaration_id": "TauLib.BookVI.Sectors.Absence::NSNoSelfDesc",
   "declaration_slug": "nsno-self-desc",
   "kind": "structure",
   "name": "NSNoSelfDesc",
   "module_name": "TauLib.BookVI.Sectors.Absence",
-  "module_url": "/verify/taulib/docs/book-vi-sectors-absence/",
+  "module_url": "/corpus/taulib/docs/book-vi-sectors-absence/",
   "source_line_start": 53,
   "source_line_end": 57,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Sectors/Absence.lean#L53-L57",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Sectors.Absence",
-        "url": "/verify/taulib/docs/book-vi-sectors-absence/"
+        "url": "/corpus/taulib/docs/book-vi-sectors-absence/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Sectors.Absence](/verify/taulib/docs/book-vi-sectors-absence/)
+- Module: [TauLib.BookVI.Sectors.Absence](/corpus/taulib/docs/book-vi-sectors-absence/)
 - Source path: [`TauLib/BookVI/Sectors/Absence.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Sectors/Absence.lean#L53-L57)
 - Source range: L53-L57
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

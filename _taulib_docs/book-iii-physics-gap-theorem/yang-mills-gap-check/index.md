@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "yang_mills_gap_check",
-  "permalink": "/verify/taulib/docs/book-iii-physics-gap-theorem/yang-mills-gap-check/",
+  "permalink": "/corpus/taulib/docs/book-iii-physics-gap-theorem/yang-mills-gap-check/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Physics.GapTheorem`.",
   "declaration_id": "TauLib.BookIII.Physics.GapTheorem::yang_mills_gap_check",
   "declaration_slug": "yang-mills-gap-check",
   "kind": "def",
   "name": "yang_mills_gap_check",
   "module_name": "TauLib.BookIII.Physics.GapTheorem",
-  "module_url": "/verify/taulib/docs/book-iii-physics-gap-theorem/",
+  "module_url": "/corpus/taulib/docs/book-iii-physics-gap-theorem/",
   "source_line_start": 140,
   "source_line_end": 158,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/GapTheorem.lean#L140-L158",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Physics.GapTheorem",
-        "url": "/verify/taulib/docs/book-iii-physics-gap-theorem/"
+        "url": "/corpus/taulib/docs/book-iii-physics-gap-theorem/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Physics.GapTheorem](/verify/taulib/docs/book-iii-physics-gap-theorem/)
+- Module: [TauLib.BookIII.Physics.GapTheorem](/corpus/taulib/docs/book-iii-physics-gap-theorem/)
 - Source path: [`TauLib/BookIII/Physics/GapTheorem.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Physics/GapTheorem.lean#L140-L158)
 - Source range: L140-L158
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

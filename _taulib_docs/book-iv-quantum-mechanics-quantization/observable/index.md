@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "Observable",
-  "permalink": "/verify/taulib/docs/book-iv-quantum-mechanics-quantization/observable/",
+  "permalink": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantization/observable/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.QuantumMechanics.Quantization`.",
   "declaration_id": "TauLib.BookIV.QuantumMechanics.Quantization::Observable",
   "declaration_slug": "observable",
   "kind": "structure",
   "name": "Observable",
   "module_name": "TauLib.BookIV.QuantumMechanics.Quantization",
-  "module_url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantization/",
+  "module_url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantization/",
   "source_line_start": 192,
   "source_line_end": 201,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/Quantization.lean#L192-L201",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.QuantumMechanics.Quantization",
-        "url": "/verify/taulib/docs/book-iv-quantum-mechanics-quantization/"
+        "url": "/corpus/taulib/docs/book-iv-quantum-mechanics-quantization/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.QuantumMechanics.Quantization](/verify/taulib/docs/book-iv-quantum-mechanics-quantization/)
+- Module: [TauLib.BookIV.QuantumMechanics.Quantization](/corpus/taulib/docs/book-iv-quantum-mechanics-quantization/)
 - Source path: [`TauLib/BookIV/QuantumMechanics/Quantization.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/QuantumMechanics/Quantization.lean#L192-L201)
 - Source range: L192-L201
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "reprogramming_refinement_reversal",
-  "permalink": "/verify/taulib/docs/book-vi-source-epigenetics/reprogramming-refinement-reversal/",
+  "permalink": "/corpus/taulib/docs/book-vi-source-epigenetics/reprogramming-refinement-reversal/",
   "summary_short": "`theorem` declaration in `TauLib.BookVI.Source.Epigenetics`.",
   "declaration_id": "TauLib.BookVI.Source.Epigenetics::reprogramming_refinement_reversal",
   "declaration_slug": "reprogramming-refinement-reversal",
   "kind": "theorem",
   "name": "reprogramming_refinement_reversal",
   "module_name": "TauLib.BookVI.Source.Epigenetics",
-  "module_url": "/verify/taulib/docs/book-vi-source-epigenetics/",
+  "module_url": "/corpus/taulib/docs/book-vi-source-epigenetics/",
   "source_line_start": 289,
   "source_line_end": 293,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Source/Epigenetics.lean#L289-L293",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Source.Epigenetics",
-        "url": "/verify/taulib/docs/book-vi-source-epigenetics/"
+        "url": "/corpus/taulib/docs/book-vi-source-epigenetics/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Source.Epigenetics](/verify/taulib/docs/book-vi-source-epigenetics/)
+- Module: [TauLib.BookVI.Source.Epigenetics](/corpus/taulib/docs/book-vi-source-epigenetics/)
 - Source path: [`TauLib/BookVI/Source/Epigenetics.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Source/Epigenetics.lean#L289-L293)
 - Source range: L289-L293
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

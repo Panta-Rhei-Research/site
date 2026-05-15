@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "PoloidalFluxIntegral",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-accretion-jets/poloidal-flux-integral/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-accretion-jets/poloidal-flux-integral/",
   "summary_short": "`structure` declaration in `TauLib.BookV.Astrophysics.AccretionJets`.",
   "declaration_id": "TauLib.BookV.Astrophysics.AccretionJets::PoloidalFluxIntegral",
   "declaration_slug": "poloidal-flux-integral",
   "kind": "structure",
   "name": "PoloidalFluxIntegral",
   "module_name": "TauLib.BookV.Astrophysics.AccretionJets",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-accretion-jets/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-accretion-jets/",
   "source_line_start": 338,
   "source_line_end": 345,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/AccretionJets.lean#L338-L345",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.AccretionJets",
-        "url": "/verify/taulib/docs/book-v-astrophysics-accretion-jets/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-accretion-jets/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.AccretionJets](/verify/taulib/docs/book-v-astrophysics-accretion-jets/)
+- Module: [TauLib.BookV.Astrophysics.AccretionJets](/corpus/taulib/docs/book-v-astrophysics-accretion-jets/)
 - Source path: [`TauLib/BookV/Astrophysics/AccretionJets.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/AccretionJets.lean#L338-L345)
 - Source range: L338-L345
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

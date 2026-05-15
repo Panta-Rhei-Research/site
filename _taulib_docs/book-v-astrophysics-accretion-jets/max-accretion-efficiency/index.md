@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "max_accretion_efficiency",
-  "permalink": "/verify/taulib/docs/book-v-astrophysics-accretion-jets/max-accretion-efficiency/",
+  "permalink": "/corpus/taulib/docs/book-v-astrophysics-accretion-jets/max-accretion-efficiency/",
   "summary_short": "`def` declaration in `TauLib.BookV.Astrophysics.AccretionJets`.",
   "declaration_id": "TauLib.BookV.Astrophysics.AccretionJets::max_accretion_efficiency",
   "declaration_slug": "max-accretion-efficiency",
   "kind": "def",
   "name": "max_accretion_efficiency",
   "module_name": "TauLib.BookV.Astrophysics.AccretionJets",
-  "module_url": "/verify/taulib/docs/book-v-astrophysics-accretion-jets/",
+  "module_url": "/corpus/taulib/docs/book-v-astrophysics-accretion-jets/",
   "source_line_start": 246,
   "source_line_end": 246,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/AccretionJets.lean#L246-L246",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Astrophysics.AccretionJets",
-        "url": "/verify/taulib/docs/book-v-astrophysics-accretion-jets/"
+        "url": "/corpus/taulib/docs/book-v-astrophysics-accretion-jets/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Astrophysics.AccretionJets](/verify/taulib/docs/book-v-astrophysics-accretion-jets/)
+- Module: [TauLib.BookV.Astrophysics.AccretionJets](/corpus/taulib/docs/book-v-astrophysics-accretion-jets/)
 - Source path: [`TauLib/BookV/Astrophysics/AccretionJets.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Astrophysics/AccretionJets.lean#L246-L246)
 - Source range: L246-L246
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

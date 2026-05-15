@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "id_restriction",
-  "permalink": "/verify/taulib/docs/book-ii-enrichment-enrichment-ladder/id-restriction/",
+  "permalink": "/corpus/taulib/docs/book-ii-enrichment-enrichment-ladder/id-restriction/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Enrichment.EnrichmentLadder`.",
   "declaration_id": "TauLib.BookII.Enrichment.EnrichmentLadder::id_restriction",
   "declaration_slug": "id-restriction",
   "kind": "theorem",
   "name": "id_restriction",
   "module_name": "TauLib.BookII.Enrichment.EnrichmentLadder",
-  "module_url": "/verify/taulib/docs/book-ii-enrichment-enrichment-ladder/",
+  "module_url": "/corpus/taulib/docs/book-ii-enrichment-enrichment-ladder/",
   "source_line_start": 244,
   "source_line_end": 247,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/EnrichmentLadder.lean#L244-L247",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Enrichment.EnrichmentLadder",
-        "url": "/verify/taulib/docs/book-ii-enrichment-enrichment-ladder/"
+        "url": "/corpus/taulib/docs/book-ii-enrichment-enrichment-ladder/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Enrichment.EnrichmentLadder](/verify/taulib/docs/book-ii-enrichment-enrichment-ladder/)
+- Module: [TauLib.BookII.Enrichment.EnrichmentLadder](/corpus/taulib/docs/book-ii-enrichment-enrichment-ladder/)
 - Source path: [`TauLib/BookII/Enrichment/EnrichmentLadder.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/EnrichmentLadder.lean#L244-L247)
 - Source range: L244-L247
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

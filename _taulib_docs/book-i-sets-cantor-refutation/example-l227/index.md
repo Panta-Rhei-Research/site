@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "example at L227",
-  "permalink": "/verify/taulib/docs/book-i-sets-cantor-refutation/example-l227/",
+  "permalink": "/corpus/taulib/docs/book-i-sets-cantor-refutation/example-l227/",
   "summary_short": "`example` declaration in `TauLib.BookI.Sets.CantorRefutation`.",
   "declaration_id": "TauLib.BookI.Sets.CantorRefutation::#eval:227",
   "declaration_slug": "example-l227",
   "kind": "example",
   "name": null,
   "module_name": "TauLib.BookI.Sets.CantorRefutation",
-  "module_url": "/verify/taulib/docs/book-i-sets-cantor-refutation/",
+  "module_url": "/corpus/taulib/docs/book-i-sets-cantor-refutation/",
   "source_line_start": 227,
   "source_line_end": 227,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/CantorRefutation.lean#L227-L227",
   "formal_status": "example",
+  "declaration_role": "example check",
+  "formal_status_label": "example",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Sets.CantorRefutation",
-        "url": "/verify/taulib/docs/book-i-sets-cantor-refutation/"
+        "url": "/corpus/taulib/docs/book-i-sets-cantor-refutation/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,6 +43,7 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "example",
+      "role": "example check",
       "status": "example"
     }
   },
@@ -62,10 +65,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Sets.CantorRefutation](/verify/taulib/docs/book-i-sets-cantor-refutation/)
+- Module: [TauLib.BookI.Sets.CantorRefutation](/corpus/taulib/docs/book-i-sets-cantor-refutation/)
 - Source path: [`TauLib/BookI/Sets/CantorRefutation.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Sets/CantorRefutation.lean#L227-L227)
 - Source range: L227-L227
 - Kind: `example`
+- Public role: `example check`
 - Formal status hint: `example`
 
 ## Registry Links

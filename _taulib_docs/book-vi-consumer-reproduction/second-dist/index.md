@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "second_dist",
-  "permalink": "/verify/taulib/docs/book-vi-consumer-reproduction/second-dist/",
+  "permalink": "/corpus/taulib/docs/book-vi-consumer-reproduction/second-dist/",
   "summary_short": "`def` declaration in `TauLib.BookVI.Consumer.Reproduction`.",
   "declaration_id": "TauLib.BookVI.Consumer.Reproduction::second_dist",
   "declaration_slug": "second-dist",
   "kind": "def",
   "name": "second_dist",
   "module_name": "TauLib.BookVI.Consumer.Reproduction",
-  "module_url": "/verify/taulib/docs/book-vi-consumer-reproduction/",
+  "module_url": "/corpus/taulib/docs/book-vi-consumer-reproduction/",
   "source_line_start": 81,
   "source_line_end": 83,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Consumer/Reproduction.lean#L81-L83",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Consumer.Reproduction",
-        "url": "/verify/taulib/docs/book-vi-consumer-reproduction/"
+        "url": "/corpus/taulib/docs/book-vi-consumer-reproduction/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Consumer.Reproduction](/verify/taulib/docs/book-vi-consumer-reproduction/)
+- Module: [TauLib.BookVI.Consumer.Reproduction](/corpus/taulib/docs/book-vi-consumer-reproduction/)
 - Source path: [`TauLib/BookVI/Consumer/Reproduction.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Consumer/Reproduction.lean#L81-L83)
 - Source range: L81-L83
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

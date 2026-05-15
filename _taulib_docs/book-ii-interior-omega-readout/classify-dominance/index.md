@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "classify_dominance",
-  "permalink": "/verify/taulib/docs/book-ii-interior-omega-readout/classify-dominance/",
+  "permalink": "/corpus/taulib/docs/book-ii-interior-omega-readout/classify-dominance/",
   "summary_short": "`def` declaration in `TauLib.BookII.Interior.OmegaReadout`.",
   "declaration_id": "TauLib.BookII.Interior.OmegaReadout::classify_dominance",
   "declaration_slug": "classify-dominance",
   "kind": "def",
   "name": "classify_dominance",
   "module_name": "TauLib.BookII.Interior.OmegaReadout",
-  "module_url": "/verify/taulib/docs/book-ii-interior-omega-readout/",
+  "module_url": "/corpus/taulib/docs/book-ii-interior-omega-readout/",
   "source_line_start": 47,
   "source_line_end": 50,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Interior/OmegaReadout.lean#L47-L50",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Interior.OmegaReadout",
-        "url": "/verify/taulib/docs/book-ii-interior-omega-readout/"
+        "url": "/corpus/taulib/docs/book-ii-interior-omega-readout/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Interior.OmegaReadout](/verify/taulib/docs/book-ii-interior-omega-readout/)
+- Module: [TauLib.BookII.Interior.OmegaReadout](/corpus/taulib/docs/book-ii-interior-omega-readout/)
 - Source path: [`TauLib/BookII/Interior/OmegaReadout.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Interior/OmegaReadout.lean#L47-L50)
 - Source range: L47-L50
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

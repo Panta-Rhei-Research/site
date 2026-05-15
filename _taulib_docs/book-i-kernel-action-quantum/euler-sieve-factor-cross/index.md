@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "euler_sieve_factor_cross",
-  "permalink": "/verify/taulib/docs/book-i-kernel-action-quantum/euler-sieve-factor-cross/",
+  "permalink": "/corpus/taulib/docs/book-i-kernel-action-quantum/euler-sieve-factor-cross/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Kernel.ActionQuantum`.",
   "declaration_id": "TauLib.BookI.Kernel.ActionQuantum::euler_sieve_factor_cross",
   "declaration_slug": "euler-sieve-factor-cross",
   "kind": "theorem",
   "name": "euler_sieve_factor_cross",
   "module_name": "TauLib.BookI.Kernel.ActionQuantum",
-  "module_url": "/verify/taulib/docs/book-i-kernel-action-quantum/",
+  "module_url": "/corpus/taulib/docs/book-i-kernel-action-quantum/",
   "source_line_start": 114,
   "source_line_end": 115,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Kernel/ActionQuantum.lean#L114-L115",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Kernel.ActionQuantum",
-        "url": "/verify/taulib/docs/book-i-kernel-action-quantum/"
+        "url": "/corpus/taulib/docs/book-i-kernel-action-quantum/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Kernel.ActionQuantum](/verify/taulib/docs/book-i-kernel-action-quantum/)
+- Module: [TauLib.BookI.Kernel.ActionQuantum](/corpus/taulib/docs/book-i-kernel-action-quantum/)
 - Source path: [`TauLib/BookI/Kernel/ActionQuantum.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Kernel/ActionQuantum.lean#L114-L115)
 - Source range: L114-L115
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

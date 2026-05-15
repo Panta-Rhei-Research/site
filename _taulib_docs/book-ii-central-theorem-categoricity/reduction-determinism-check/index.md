@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "reduction_determinism_check",
-  "permalink": "/verify/taulib/docs/book-ii-central-theorem-categoricity/reduction-determinism-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-central-theorem-categoricity/reduction-determinism-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.CentralTheorem.Categoricity`.",
   "declaration_id": "TauLib.BookII.CentralTheorem.Categoricity::reduction_determinism_check",
   "declaration_slug": "reduction-determinism-check",
   "kind": "def",
   "name": "reduction_determinism_check",
   "module_name": "TauLib.BookII.CentralTheorem.Categoricity",
-  "module_url": "/verify/taulib/docs/book-ii-central-theorem-categoricity/",
+  "module_url": "/corpus/taulib/docs/book-ii-central-theorem-categoricity/",
   "source_line_start": 162,
   "source_line_end": 176,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/Categoricity.lean#L162-L176",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.CentralTheorem.Categoricity",
-        "url": "/verify/taulib/docs/book-ii-central-theorem-categoricity/"
+        "url": "/corpus/taulib/docs/book-ii-central-theorem-categoricity/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.CentralTheorem.Categoricity](/verify/taulib/docs/book-ii-central-theorem-categoricity/)
+- Module: [TauLib.BookII.CentralTheorem.Categoricity](/corpus/taulib/docs/book-ii-central-theorem-categoricity/)
 - Source path: [`TauLib/BookII/CentralTheorem/Categoricity.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/CentralTheorem/Categoricity.lean#L162-L176)
 - Source range: L162-L176
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

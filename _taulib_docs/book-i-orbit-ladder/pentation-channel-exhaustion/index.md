@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "pentation_channel_exhaustion",
-  "permalink": "/verify/taulib/docs/book-i-orbit-ladder/pentation-channel-exhaustion/",
+  "permalink": "/corpus/taulib/docs/book-i-orbit-ladder/pentation-channel-exhaustion/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Orbit.Ladder`.",
   "declaration_id": "TauLib.BookI.Orbit.Ladder::pentation_channel_exhaustion",
   "declaration_slug": "pentation-channel-exhaustion",
   "kind": "theorem",
   "name": "pentation_channel_exhaustion",
   "module_name": "TauLib.BookI.Orbit.Ladder",
-  "module_url": "/verify/taulib/docs/book-i-orbit-ladder/",
+  "module_url": "/corpus/taulib/docs/book-i-orbit-ladder/",
   "source_line_start": 132,
   "source_line_end": 134,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/Ladder.lean#L132-L134",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Orbit.Ladder",
-        "url": "/verify/taulib/docs/book-i-orbit-ladder/"
+        "url": "/corpus/taulib/docs/book-i-orbit-ladder/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Orbit.Ladder](/verify/taulib/docs/book-i-orbit-ladder/)
+- Module: [TauLib.BookI.Orbit.Ladder](/corpus/taulib/docs/book-i-orbit-ladder/)
 - Source path: [`TauLib/BookI/Orbit/Ladder.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/Ladder.lean#L132-L134)
 - Source range: L132-L134
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

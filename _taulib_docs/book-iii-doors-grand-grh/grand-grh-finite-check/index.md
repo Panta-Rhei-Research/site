@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "grand_grh_finite_check",
-  "permalink": "/verify/taulib/docs/book-iii-doors-grand-grh/grand-grh-finite-check/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-grand-grh/grand-grh-finite-check/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Doors.GrandGRH`.",
   "declaration_id": "TauLib.BookIII.Doors.GrandGRH::grand_grh_finite_check",
   "declaration_slug": "grand-grh-finite-check",
   "kind": "def",
   "name": "grand_grh_finite_check",
   "module_name": "TauLib.BookIII.Doors.GrandGRH",
-  "module_url": "/verify/taulib/docs/book-iii-doors-grand-grh/",
+  "module_url": "/corpus/taulib/docs/book-iii-doors-grand-grh/",
   "source_line_start": 43,
   "source_line_end": 62,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/GrandGRH.lean#L43-L62",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Doors.GrandGRH",
-        "url": "/verify/taulib/docs/book-iii-doors-grand-grh/"
+        "url": "/corpus/taulib/docs/book-iii-doors-grand-grh/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Doors.GrandGRH](/verify/taulib/docs/book-iii-doors-grand-grh/)
+- Module: [TauLib.BookIII.Doors.GrandGRH](/corpus/taulib/docs/book-iii-doors-grand-grh/)
 - Source path: [`TauLib/BookIII/Doors/GrandGRH.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/GrandGRH.lean#L43-L62)
 - Source range: L43-L62
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

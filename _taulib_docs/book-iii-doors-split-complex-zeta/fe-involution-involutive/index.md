@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "fe_involution_involutive",
-  "permalink": "/verify/taulib/docs/book-iii-doors-split-complex-zeta/fe-involution-involutive/",
+  "permalink": "/corpus/taulib/docs/book-iii-doors-split-complex-zeta/fe-involution-involutive/",
   "summary_short": "`theorem` declaration in `TauLib.BookIII.Doors.SplitComplexZeta`.",
   "declaration_id": "TauLib.BookIII.Doors.SplitComplexZeta::fe_involution_involutive",
   "declaration_slug": "fe-involution-involutive",
   "kind": "theorem",
   "name": "fe_involution_involutive",
   "module_name": "TauLib.BookIII.Doors.SplitComplexZeta",
-  "module_url": "/verify/taulib/docs/book-iii-doors-split-complex-zeta/",
+  "module_url": "/corpus/taulib/docs/book-iii-doors-split-complex-zeta/",
   "source_line_start": 188,
   "source_line_end": 190,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/SplitComplexZeta.lean#L188-L190",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Doors.SplitComplexZeta",
-        "url": "/verify/taulib/docs/book-iii-doors-split-complex-zeta/"
+        "url": "/corpus/taulib/docs/book-iii-doors-split-complex-zeta/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Doors.SplitComplexZeta](/verify/taulib/docs/book-iii-doors-split-complex-zeta/)
+- Module: [TauLib.BookIII.Doors.SplitComplexZeta](/corpus/taulib/docs/book-iii-doors-split-complex-zeta/)
 - Source path: [`TauLib/BookIII/Doors/SplitComplexZeta.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Doors/SplitComplexZeta.lean#L188-L190)
 - Source range: L188-L190
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

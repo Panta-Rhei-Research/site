@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Kernel.Signature",
-  "permalink": "/verify/taulib/docs/book-i-kernel-signature/",
+  "permalink": "/corpus/taulib/docs/book-i-kernel-signature/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Kernel.Signature`.",
   "module_name": "TauLib.BookI.Kernel.Signature",
   "module_slug": "book-i-kernel-signature",
@@ -35,10 +35,12 @@
     {
       "kind": "inductive",
       "name": "Generator",
-      "url": "/verify/taulib/docs/book-i-kernel-signature/generator/",
+      "url": "/corpus/taulib/docs/book-i-kernel-signature/generator/",
       "source_line_start": 67,
       "source_line_end": 75,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "I.D01"
       ]
@@ -46,19 +48,23 @@
     {
       "kind": "def",
       "name": "Generator.toNat",
-      "url": "/verify/taulib/docs/book-i-kernel-signature/to-nat/",
+      "url": "/corpus/taulib/docs/book-i-kernel-signature/to-nat/",
       "source_line_start": 78,
       "source_line_end": 91,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "nonOmegaGenerators",
-      "url": "/verify/taulib/docs/book-i-kernel-signature/non-omega-generators/",
+      "url": "/corpus/taulib/docs/book-i-kernel-signature/non-omega-generators/",
       "source_line_start": 94,
       "source_line_end": 94,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "I.D01"
       ]
@@ -66,10 +72,12 @@
     {
       "kind": "structure",
       "name": "TauZero",
-      "url": "/verify/taulib/docs/book-i-kernel-signature/tau-zero/",
+      "url": "/corpus/taulib/docs/book-i-kernel-signature/tau-zero/",
       "source_line_start": 98,
       "source_line_end": 104,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "I.D04"
       ]
@@ -83,7 +91,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -159,9 +167,9 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [Generator](/verify/taulib/docs/book-i-kernel-signature/generator/) | L67-L75 | defined | `I.D01` |
-| `def` | [Generator.toNat](/verify/taulib/docs/book-i-kernel-signature/to-nat/) | L78-L91 | defined | — |
-| `def` | [nonOmegaGenerators](/verify/taulib/docs/book-i-kernel-signature/non-omega-generators/) | L94-L94 | defined | `I.D01` |
-| `structure` | [TauZero](/verify/taulib/docs/book-i-kernel-signature/tau-zero/) | L98-L104 | defined | `I.D04` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [Generator](/corpus/taulib/docs/book-i-kernel-signature/generator/) | L67-L75 | type/data schema | type/data schema | `I.D01` |
+| `def` | [Generator.toNat](/corpus/taulib/docs/book-i-kernel-signature/to-nat/) | L78-L91 | definition | definition | — |
+| `def` | [nonOmegaGenerators](/corpus/taulib/docs/book-i-kernel-signature/non-omega-generators/) | L94-L94 | data/computed value | data/computed value | `I.D01` |
+| `structure` | [TauZero](/corpus/taulib/docs/book-i-kernel-signature/tau-zero/) | L98-L104 | type/data schema | type/data schema | `I.D04` |

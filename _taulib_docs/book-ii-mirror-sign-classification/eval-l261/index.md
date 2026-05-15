@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L261",
-  "permalink": "/verify/taulib/docs/book-ii-mirror-sign-classification/eval-l261/",
+  "permalink": "/corpus/taulib/docs/book-ii-mirror-sign-classification/eval-l261/",
   "summary_short": "`eval` declaration in `TauLib.BookII.Mirror.SignClassification`.",
   "declaration_id": "TauLib.BookII.Mirror.SignClassification::#eval:261",
   "declaration_slug": "eval-l261",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookII.Mirror.SignClassification",
-  "module_url": "/verify/taulib/docs/book-ii-mirror-sign-classification/",
+  "module_url": "/corpus/taulib/docs/book-ii-mirror-sign-classification/",
   "source_line_start": 261,
   "source_line_end": 261,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Mirror/SignClassification.lean#L261-L261",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Mirror.SignClassification",
-        "url": "/verify/taulib/docs/book-ii-mirror-sign-classification/"
+        "url": "/corpus/taulib/docs/book-ii-mirror-sign-classification/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Mirror.SignClassification](/verify/taulib/docs/book-ii-mirror-sign-classification/)
+- Module: [TauLib.BookII.Mirror.SignClassification](/corpus/taulib/docs/book-ii-mirror-sign-classification/)
 - Source path: [`TauLib/BookII/Mirror/SignClassification.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Mirror/SignClassification.lean#L261-L261)
 - Source range: L261-L261
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

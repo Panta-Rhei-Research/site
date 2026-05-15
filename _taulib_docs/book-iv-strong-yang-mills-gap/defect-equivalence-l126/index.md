@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "defect_equivalence",
-  "permalink": "/verify/taulib/docs/book-iv-strong-yang-mills-gap/defect-equivalence-l126/",
+  "permalink": "/corpus/taulib/docs/book-iv-strong-yang-mills-gap/defect-equivalence-l126/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Strong.YangMillsGap`.",
   "declaration_id": "TauLib.BookIV.Strong.YangMillsGap::defect_equivalence",
   "declaration_slug": "defect-equivalence-l126",
   "kind": "def",
   "name": "defect_equivalence",
   "module_name": "TauLib.BookIV.Strong.YangMillsGap",
-  "module_url": "/verify/taulib/docs/book-iv-strong-yang-mills-gap/",
+  "module_url": "/corpus/taulib/docs/book-iv-strong-yang-mills-gap/",
   "source_line_start": 126,
   "source_line_end": 126,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/YangMillsGap.lean#L126-L126",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Strong.YangMillsGap",
-        "url": "/verify/taulib/docs/book-iv-strong-yang-mills-gap/"
+        "url": "/corpus/taulib/docs/book-iv-strong-yang-mills-gap/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Strong.YangMillsGap](/verify/taulib/docs/book-iv-strong-yang-mills-gap/)
+- Module: [TauLib.BookIV.Strong.YangMillsGap](/corpus/taulib/docs/book-iv-strong-yang-mills-gap/)
 - Source path: [`TauLib/BookIV/Strong/YangMillsGap.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Strong/YangMillsGap.lean#L126-L126)
 - Source range: L126-L126
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

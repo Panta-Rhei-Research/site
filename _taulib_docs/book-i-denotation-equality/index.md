@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookI.Denotation.Equality",
-  "permalink": "/verify/taulib/docs/book-i-denotation-equality/",
+  "permalink": "/corpus/taulib/docs/book-i-denotation-equality/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookI.Denotation.Equality`.",
   "module_name": "TauLib.BookI.Denotation.Equality",
   "module_slug": "book-i-denotation-equality",
@@ -30,91 +30,111 @@
     {
       "kind": "def",
       "name": "ontic_eq",
-      "url": "/verify/taulib/docs/book-i-denotation-equality/ontic-eq/",
+      "url": "/corpus/taulib/docs/book-i-denotation-equality/ontic-eq/",
       "source_line_start": 32,
       "source_line_end": 32,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "addr_equiv",
-      "url": "/verify/taulib/docs/book-i-denotation-equality/addr-equiv/",
+      "url": "/corpus/taulib/docs/book-i-denotation-equality/addr-equiv/",
       "source_line_start": 36,
       "source_line_end": 37,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "shadow_eq",
-      "url": "/verify/taulib/docs/book-i-denotation-equality/shadow-eq/",
+      "url": "/corpus/taulib/docs/book-i-denotation-equality/shadow-eq/",
       "source_line_start": 42,
       "source_line_end": 50,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "addr_equiv_refl",
-      "url": "/verify/taulib/docs/book-i-denotation-equality/addr-equiv-refl/",
+      "url": "/corpus/taulib/docs/book-i-denotation-equality/addr-equiv-refl/",
       "source_line_start": 53,
       "source_line_end": 54,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "addr_equiv_symm",
-      "url": "/verify/taulib/docs/book-i-denotation-equality/addr-equiv-symm/",
+      "url": "/corpus/taulib/docs/book-i-denotation-equality/addr-equiv-symm/",
       "source_line_start": 57,
       "source_line_end": 58,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "addr_equiv_trans",
-      "url": "/verify/taulib/docs/book-i-denotation-equality/addr-equiv-trans/",
+      "url": "/corpus/taulib/docs/book-i-denotation-equality/addr-equiv-trans/",
       "source_line_start": 61,
       "source_line_end": 63,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "addr_equiv_nil",
-      "url": "/verify/taulib/docs/book-i-denotation-equality/addr-equiv-nil/",
+      "url": "/corpus/taulib/docs/book-i-denotation-equality/addr-equiv-nil/",
       "source_line_start": 66,
       "source_line_end": 67,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "shadow_implies_ontic",
-      "url": "/verify/taulib/docs/book-i-denotation-equality/shadow-implies-ontic/",
+      "url": "/corpus/taulib/docs/book-i-denotation-equality/shadow-implies-ontic/",
       "source_line_start": 70,
       "source_line_end": 71,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "addr_equiv_compose_left",
-      "url": "/verify/taulib/docs/book-i-denotation-equality/addr-equiv-compose-left/",
+      "url": "/corpus/taulib/docs/book-i-denotation-equality/addr-equiv-compose-left/",
       "source_line_start": 74,
       "source_line_end": 77,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "addr_equiv_compose_right",
-      "url": "/verify/taulib/docs/book-i-denotation-equality/addr-equiv-compose-right/",
+      "url": "/corpus/taulib/docs/book-i-denotation-equality/addr-equiv-compose-right/",
       "source_line_start": 80,
       "source_line_end": 85,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -126,7 +146,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -194,15 +214,15 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [ontic_eq](/verify/taulib/docs/book-i-denotation-equality/ontic-eq/) | L32-L32 | defined | — |
-| `def` | [addr_equiv](/verify/taulib/docs/book-i-denotation-equality/addr-equiv/) | L36-L37 | defined | — |
-| `def` | [shadow_eq](/verify/taulib/docs/book-i-denotation-equality/shadow-eq/) | L42-L50 | defined | — |
-| `theorem` | [addr_equiv_refl](/verify/taulib/docs/book-i-denotation-equality/addr-equiv-refl/) | L53-L54 | formalized | — |
-| `theorem` | [addr_equiv_symm](/verify/taulib/docs/book-i-denotation-equality/addr-equiv-symm/) | L57-L58 | formalized | — |
-| `theorem` | [addr_equiv_trans](/verify/taulib/docs/book-i-denotation-equality/addr-equiv-trans/) | L61-L63 | formalized | — |
-| `theorem` | [addr_equiv_nil](/verify/taulib/docs/book-i-denotation-equality/addr-equiv-nil/) | L66-L67 | formalized | — |
-| `theorem` | [shadow_implies_ontic](/verify/taulib/docs/book-i-denotation-equality/shadow-implies-ontic/) | L70-L71 | formalized | — |
-| `theorem` | [addr_equiv_compose_left](/verify/taulib/docs/book-i-denotation-equality/addr-equiv-compose-left/) | L74-L77 | formalized | — |
-| `theorem` | [addr_equiv_compose_right](/verify/taulib/docs/book-i-denotation-equality/addr-equiv-compose-right/) | L80-L85 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [ontic_eq](/corpus/taulib/docs/book-i-denotation-equality/ontic-eq/) | L32-L32 | definition | definition | — |
+| `def` | [addr_equiv](/corpus/taulib/docs/book-i-denotation-equality/addr-equiv/) | L36-L37 | definition | definition | — |
+| `def` | [shadow_eq](/corpus/taulib/docs/book-i-denotation-equality/shadow-eq/) | L42-L50 | definition | definition | — |
+| `theorem` | [addr_equiv_refl](/corpus/taulib/docs/book-i-denotation-equality/addr-equiv-refl/) | L53-L54 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [addr_equiv_symm](/corpus/taulib/docs/book-i-denotation-equality/addr-equiv-symm/) | L57-L58 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [addr_equiv_trans](/corpus/taulib/docs/book-i-denotation-equality/addr-equiv-trans/) | L61-L63 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [addr_equiv_nil](/corpus/taulib/docs/book-i-denotation-equality/addr-equiv-nil/) | L66-L67 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [shadow_implies_ontic](/corpus/taulib/docs/book-i-denotation-equality/shadow-implies-ontic/) | L70-L71 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [addr_equiv_compose_left](/corpus/taulib/docs/book-i-denotation-equality/addr-equiv-compose-left/) | L74-L77 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [addr_equiv_compose_right](/corpus/taulib/docs/book-i-denotation-equality/addr-equiv-compose-right/) | L80-L85 | proof obligation | formal proof obligation checked | — |

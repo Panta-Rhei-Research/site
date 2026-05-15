@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "NearMatchEntry",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-dimensionless-near-match/near-match-entry/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-dimensionless-near-match/near-match-entry/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Calibration.DimensionlessNearMatch`.",
   "declaration_id": "TauLib.BookIV.Calibration.DimensionlessNearMatch::NearMatchEntry",
   "declaration_slug": "near-match-entry",
   "kind": "structure",
   "name": "NearMatchEntry",
   "module_name": "TauLib.BookIV.Calibration.DimensionlessNearMatch",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-dimensionless-near-match/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-near-match/",
   "source_line_start": 148,
   "source_line_end": 155,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/DimensionlessNearMatch.lean#L148-L155",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.DimensionlessNearMatch",
-        "url": "/verify/taulib/docs/book-iv-calibration-dimensionless-near-match/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-dimensionless-near-match/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.DimensionlessNearMatch](/verify/taulib/docs/book-iv-calibration-dimensionless-near-match/)
+- Module: [TauLib.BookIV.Calibration.DimensionlessNearMatch](/corpus/taulib/docs/book-iv-calibration-dimensionless-near-match/)
 - Source path: [`TauLib/BookIV/Calibration/DimensionlessNearMatch.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/DimensionlessNearMatch.lean#L148-L155)
 - Source range: L148-L155
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

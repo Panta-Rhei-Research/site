@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "sector_lobe",
-  "permalink": "/verify/taulib/docs/book-ii-interior-bipolar-decomposition/sector-lobe/",
+  "permalink": "/corpus/taulib/docs/book-ii-interior-bipolar-decomposition/sector-lobe/",
   "summary_short": "`def` declaration in `TauLib.BookII.Interior.BipolarDecomposition`.",
   "declaration_id": "TauLib.BookII.Interior.BipolarDecomposition::sector_lobe",
   "declaration_slug": "sector-lobe",
   "kind": "def",
   "name": "sector_lobe",
   "module_name": "TauLib.BookII.Interior.BipolarDecomposition",
-  "module_url": "/verify/taulib/docs/book-ii-interior-bipolar-decomposition/",
+  "module_url": "/corpus/taulib/docs/book-ii-interior-bipolar-decomposition/",
   "source_line_start": 93,
   "source_line_end": 94,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Interior/BipolarDecomposition.lean#L93-L94",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Interior.BipolarDecomposition",
-        "url": "/verify/taulib/docs/book-ii-interior-bipolar-decomposition/"
+        "url": "/corpus/taulib/docs/book-ii-interior-bipolar-decomposition/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Interior.BipolarDecomposition](/verify/taulib/docs/book-ii-interior-bipolar-decomposition/)
+- Module: [TauLib.BookII.Interior.BipolarDecomposition](/corpus/taulib/docs/book-ii-interior-bipolar-decomposition/)
 - Source path: [`TauLib/BookII/Interior/BipolarDecomposition.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Interior/BipolarDecomposition.lean#L93-L94)
 - Source range: L93-L94
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

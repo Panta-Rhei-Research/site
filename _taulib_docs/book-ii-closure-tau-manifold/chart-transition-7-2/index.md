@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "chart_transition_7_2",
-  "permalink": "/verify/taulib/docs/book-ii-closure-tau-manifold/chart-transition-7-2/",
+  "permalink": "/corpus/taulib/docs/book-ii-closure-tau-manifold/chart-transition-7-2/",
   "summary_short": "`theorem` declaration in `TauLib.BookII.Closure.TauManifold`.",
   "declaration_id": "TauLib.BookII.Closure.TauManifold::chart_transition_7_2",
   "declaration_slug": "chart-transition-7-2",
   "kind": "theorem",
   "name": "chart_transition_7_2",
   "module_name": "TauLib.BookII.Closure.TauManifold",
-  "module_url": "/verify/taulib/docs/book-ii-closure-tau-manifold/",
+  "module_url": "/corpus/taulib/docs/book-ii-closure-tau-manifold/",
   "source_line_start": 298,
   "source_line_end": 299,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/TauManifold.lean#L298-L299",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Closure.TauManifold",
-        "url": "/verify/taulib/docs/book-ii-closure-tau-manifold/"
+        "url": "/corpus/taulib/docs/book-ii-closure-tau-manifold/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Closure.TauManifold](/verify/taulib/docs/book-ii-closure-tau-manifold/)
+- Module: [TauLib.BookII.Closure.TauManifold](/corpus/taulib/docs/book-ii-closure-tau-manifold/)
 - Source path: [`TauLib/BookII/Closure/TauManifold.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Closure/TauManifold.lean#L298-L299)
 - Source range: L298-L299
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

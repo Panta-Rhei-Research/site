@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "spectral_pi_check",
-  "permalink": "/verify/taulib/docs/book-ii-transcendentals-pi-earned/spectral-pi-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-transcendentals-pi-earned/spectral-pi-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.Transcendentals.PiEarned`.",
   "declaration_id": "TauLib.BookII.Transcendentals.PiEarned::spectral_pi_check",
   "declaration_slug": "spectral-pi-check",
   "kind": "def",
   "name": "spectral_pi_check",
   "module_name": "TauLib.BookII.Transcendentals.PiEarned",
-  "module_url": "/verify/taulib/docs/book-ii-transcendentals-pi-earned/",
+  "module_url": "/corpus/taulib/docs/book-ii-transcendentals-pi-earned/",
   "source_line_start": 107,
   "source_line_end": 111,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Transcendentals/PiEarned.lean#L107-L111",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Transcendentals.PiEarned",
-        "url": "/verify/taulib/docs/book-ii-transcendentals-pi-earned/"
+        "url": "/corpus/taulib/docs/book-ii-transcendentals-pi-earned/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Transcendentals.PiEarned](/verify/taulib/docs/book-ii-transcendentals-pi-earned/)
+- Module: [TauLib.BookII.Transcendentals.PiEarned](/corpus/taulib/docs/book-ii-transcendentals-pi-earned/)
 - Source path: [`TauLib/BookII/Transcendentals/PiEarned.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Transcendentals/PiEarned.lean#L107-L111)
 - Source range: L107-L111
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

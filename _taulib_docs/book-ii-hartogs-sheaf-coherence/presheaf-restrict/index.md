@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "presheaf_restrict",
-  "permalink": "/verify/taulib/docs/book-ii-hartogs-sheaf-coherence/presheaf-restrict/",
+  "permalink": "/corpus/taulib/docs/book-ii-hartogs-sheaf-coherence/presheaf-restrict/",
   "summary_short": "`def` declaration in `TauLib.BookII.Hartogs.SheafCoherence`.",
   "declaration_id": "TauLib.BookII.Hartogs.SheafCoherence::presheaf_restrict",
   "declaration_slug": "presheaf-restrict",
   "kind": "def",
   "name": "presheaf_restrict",
   "module_name": "TauLib.BookII.Hartogs.SheafCoherence",
-  "module_url": "/verify/taulib/docs/book-ii-hartogs-sheaf-coherence/",
+  "module_url": "/corpus/taulib/docs/book-ii-hartogs-sheaf-coherence/",
   "source_line_start": 99,
   "source_line_end": 100,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/SheafCoherence.lean#L99-L100",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Hartogs.SheafCoherence",
-        "url": "/verify/taulib/docs/book-ii-hartogs-sheaf-coherence/"
+        "url": "/corpus/taulib/docs/book-ii-hartogs-sheaf-coherence/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Hartogs.SheafCoherence](/verify/taulib/docs/book-ii-hartogs-sheaf-coherence/)
+- Module: [TauLib.BookII.Hartogs.SheafCoherence](/corpus/taulib/docs/book-ii-hartogs-sheaf-coherence/)
 - Source path: [`TauLib/BookII/Hartogs/SheafCoherence.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/SheafCoherence.lean#L99-L100)
 - Source range: L99-L100
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "sector_coupling",
-  "permalink": "/verify/taulib/docs/book-iii-sectors-parity-bridge/sector-coupling/",
+  "permalink": "/corpus/taulib/docs/book-iii-sectors-parity-bridge/sector-coupling/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Sectors.ParityBridge`.",
   "declaration_id": "TauLib.BookIII.Sectors.ParityBridge::sector_coupling",
   "declaration_slug": "sector-coupling",
   "kind": "def",
   "name": "sector_coupling",
   "module_name": "TauLib.BookIII.Sectors.ParityBridge",
-  "module_url": "/verify/taulib/docs/book-iii-sectors-parity-bridge/",
+  "module_url": "/corpus/taulib/docs/book-iii-sectors-parity-bridge/",
   "source_line_start": 64,
   "source_line_end": 84,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Sectors/ParityBridge.lean#L64-L84",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Sectors.ParityBridge",
-        "url": "/verify/taulib/docs/book-iii-sectors-parity-bridge/"
+        "url": "/corpus/taulib/docs/book-iii-sectors-parity-bridge/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Sectors.ParityBridge](/verify/taulib/docs/book-iii-sectors-parity-bridge/)
+- Module: [TauLib.BookIII.Sectors.ParityBridge](/corpus/taulib/docs/book-iii-sectors-parity-bridge/)
 - Source path: [`TauLib/BookIII/Sectors/ParityBridge.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Sectors/ParityBridge.lean#L64-L84)
 - Source range: L64-L84
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "four_suffice_check",
-  "permalink": "/verify/taulib/docs/book-ii-topology-dimension-four/four-suffice-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-topology-dimension-four/four-suffice-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.Topology.DimensionFour`.",
   "declaration_id": "TauLib.BookII.Topology.DimensionFour::four_suffice_check",
   "declaration_slug": "four-suffice-check",
   "kind": "def",
   "name": "four_suffice_check",
   "module_name": "TauLib.BookII.Topology.DimensionFour",
-  "module_url": "/verify/taulib/docs/book-ii-topology-dimension-four/",
+  "module_url": "/corpus/taulib/docs/book-ii-topology-dimension-four/",
   "source_line_start": 52,
   "source_line_end": 62,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/DimensionFour.lean#L52-L62",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Topology.DimensionFour",
-        "url": "/verify/taulib/docs/book-ii-topology-dimension-four/"
+        "url": "/corpus/taulib/docs/book-ii-topology-dimension-four/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Topology.DimensionFour](/verify/taulib/docs/book-ii-topology-dimension-four/)
+- Module: [TauLib.BookII.Topology.DimensionFour](/corpus/taulib/docs/book-ii-topology-dimension-four/)
 - Source path: [`TauLib/BookII/Topology/DimensionFour.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Topology/DimensionFour.lean#L52-L62)
 - Source range: L52-L62
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

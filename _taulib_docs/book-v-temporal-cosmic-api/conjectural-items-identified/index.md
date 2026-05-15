@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "conjectural_items_identified",
-  "permalink": "/verify/taulib/docs/book-v-temporal-cosmic-api/conjectural-items-identified/",
+  "permalink": "/corpus/taulib/docs/book-v-temporal-cosmic-api/conjectural-items-identified/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Temporal.CosmicAPI`.",
   "declaration_id": "TauLib.BookV.Temporal.CosmicAPI::conjectural_items_identified",
   "declaration_slug": "conjectural-items-identified",
   "kind": "theorem",
   "name": "conjectural_items_identified",
   "module_name": "TauLib.BookV.Temporal.CosmicAPI",
-  "module_url": "/verify/taulib/docs/book-v-temporal-cosmic-api/",
+  "module_url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/",
   "source_line_start": 177,
   "source_line_end": 179,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/CosmicAPI.lean#L177-L179",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Temporal.CosmicAPI",
-        "url": "/verify/taulib/docs/book-v-temporal-cosmic-api/"
+        "url": "/corpus/taulib/docs/book-v-temporal-cosmic-api/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Temporal.CosmicAPI](/verify/taulib/docs/book-v-temporal-cosmic-api/)
+- Module: [TauLib.BookV.Temporal.CosmicAPI](/corpus/taulib/docs/book-v-temporal-cosmic-api/)
 - Source path: [`TauLib/BookV/Temporal/CosmicAPI.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/CosmicAPI.lean#L177-L179)
 - Source range: L177-L179
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

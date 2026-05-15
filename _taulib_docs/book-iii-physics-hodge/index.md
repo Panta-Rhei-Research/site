@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIII.Physics.Hodge",
-  "permalink": "/verify/taulib/docs/book-iii-physics-hodge/",
+  "permalink": "/corpus/taulib/docs/book-iii-physics-hodge/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIII.Physics.Hodge`.",
   "module_name": "TauLib.BookIII.Physics.Hodge",
   "module_slug": "book-iii-physics-hodge",
@@ -37,10 +37,12 @@
     {
       "kind": "def",
       "name": "is_sigma_fixed",
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/is-sigma-fixed/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/is-sigma-fixed/",
       "source_line_start": 56,
       "source_line_end": 57,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D47"
       ]
@@ -48,10 +50,12 @@
     {
       "kind": "def",
       "name": "sigma_fixed_check",
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/sigma-fixed-check/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/sigma-fixed-check/",
       "source_line_start": 61,
       "source_line_end": 81,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D47"
       ]
@@ -59,10 +63,12 @@
     {
       "kind": "def",
       "name": "sigma_fixed_closed_check",
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/sigma-fixed-closed-check/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/sigma-fixed-closed-check/",
       "source_line_start": 85,
       "source_line_end": 107,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D47"
       ]
@@ -70,10 +76,12 @@
     {
       "kind": "def",
       "name": "sector_addressability_check",
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/sector-addressability-check/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/sector-addressability-check/",
       "source_line_start": 115,
       "source_line_end": 130,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D48"
       ]
@@ -81,10 +89,12 @@
     {
       "kind": "def",
       "name": "char_sector_check",
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/char-sector-check/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/char-sector-check/",
       "source_line_start": 138,
       "source_line_end": 156,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.P18"
       ]
@@ -92,10 +102,12 @@
     {
       "kind": "def",
       "name": "nf_addressability_check",
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/nf-addressability-check/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/nf-addressability-check/",
       "source_line_start": 165,
       "source_line_end": 170,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T28"
       ]
@@ -103,10 +115,12 @@
     {
       "kind": "def",
       "name": "hodge_filtration_check",
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/hodge-filtration-check/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/hodge-filtration-check/",
       "source_line_start": 178,
       "source_line_end": 205,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.P19"
       ]
@@ -114,10 +128,12 @@
     {
       "kind": "def",
       "name": "spectral_hodge_check",
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/spectral-hodge-check/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/spectral-hodge-check/",
       "source_line_start": 214,
       "source_line_end": 233,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.P20"
       ]
@@ -125,136 +141,166 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/eval-l239/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/eval-l239/",
       "source_line_start": 239,
       "source_line_end": 239,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/eval-l240/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/eval-l240/",
       "source_line_start": 240,
       "source_line_end": 240,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/eval-l241/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/eval-l241/",
       "source_line_start": 241,
       "source_line_end": 241,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/eval-l242/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/eval-l242/",
       "source_line_start": 242,
       "source_line_end": 242,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/eval-l243/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/eval-l243/",
       "source_line_start": 243,
       "source_line_end": 243,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/eval-l244/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/eval-l244/",
       "source_line_start": 244,
       "source_line_end": 244,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/eval-l245/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/eval-l245/",
       "source_line_start": 245,
       "source_line_end": 245,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "sigma_fixed_4",
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/sigma-fixed-4/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/sigma-fixed-4/",
       "source_line_start": 251,
       "source_line_end": 252,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "sigma_fixed_closed_4",
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/sigma-fixed-closed-4/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/sigma-fixed-closed-4/",
       "source_line_start": 254,
       "source_line_end": 255,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "sector_addr_15_4",
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/sector-addr-15-4/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/sector-addr-15-4/",
       "source_line_start": 257,
       "source_line_end": 258,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "char_sector_4",
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/char-sector-4/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/char-sector-4/",
       "source_line_start": 260,
       "source_line_end": 261,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "nf_addr_15_3",
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/nf-addr-15-3/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/nf-addr-15-3/",
       "source_line_start": 263,
       "source_line_end": 264,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "hodge_filt_4",
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/hodge-filt-4/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/hodge-filt-4/",
       "source_line_start": 266,
       "source_line_end": 267,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "spectral_hodge_5",
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/spectral-hodge-5/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/spectral-hodge-5/",
       "source_line_start": 269,
       "source_line_end": 270,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "zero_is_sigma_fixed",
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/zero-is-sigma-fixed/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/zero-is-sigma-fixed/",
       "source_line_start": 277,
       "source_line_end": 278,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D47"
       ]
@@ -262,10 +308,12 @@
     {
       "kind": "theorem",
       "name": "sigma_fixed_swap_id",
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/sigma-fixed-swap-id/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/sigma-fixed-swap-id/",
       "source_line_start": 281,
       "source_line_end": 283,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D47"
       ]
@@ -273,10 +321,12 @@
     {
       "kind": "theorem",
       "name": "addr_10_1",
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/addr-10-1/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/addr-10-1/",
       "source_line_start": 286,
       "source_line_end": 287,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D48"
       ]
@@ -284,10 +334,12 @@
     {
       "kind": "theorem",
       "name": "nf_addr_10_1",
-      "url": "/verify/taulib/docs/book-iii-physics-hodge/nf-addr-10-1/",
+      "url": "/corpus/taulib/docs/book-iii-physics-hodge/nf-addr-10-1/",
       "source_line_start": 290,
       "source_line_end": 293,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T28"
       ]
@@ -301,7 +353,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -376,31 +428,31 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `def` | [is_sigma_fixed](/verify/taulib/docs/book-iii-physics-hodge/is-sigma-fixed/) | L56-L57 | defined | `III.D47` |
-| `def` | [sigma_fixed_check](/verify/taulib/docs/book-iii-physics-hodge/sigma-fixed-check/) | L61-L81 | defined | `III.D47` |
-| `def` | [sigma_fixed_closed_check](/verify/taulib/docs/book-iii-physics-hodge/sigma-fixed-closed-check/) | L85-L107 | defined | `III.D47` |
-| `def` | [sector_addressability_check](/verify/taulib/docs/book-iii-physics-hodge/sector-addressability-check/) | L115-L130 | defined | `III.D48` |
-| `def` | [char_sector_check](/verify/taulib/docs/book-iii-physics-hodge/char-sector-check/) | L138-L156 | defined | `III.P18` |
-| `def` | [nf_addressability_check](/verify/taulib/docs/book-iii-physics-hodge/nf-addressability-check/) | L165-L170 | defined | `III.T28` |
-| `def` | [hodge_filtration_check](/verify/taulib/docs/book-iii-physics-hodge/hodge-filtration-check/) | L178-L205 | defined | `III.P19` |
-| `def` | [spectral_hodge_check](/verify/taulib/docs/book-iii-physics-hodge/spectral-hodge-check/) | L214-L233 | defined | `III.P20` |
-| `eval` | [#eval L239](/verify/taulib/docs/book-iii-physics-hodge/eval-l239/) | L239-L239 | computed | — |
-| `eval` | [#eval L240](/verify/taulib/docs/book-iii-physics-hodge/eval-l240/) | L240-L240 | computed | — |
-| `eval` | [#eval L241](/verify/taulib/docs/book-iii-physics-hodge/eval-l241/) | L241-L241 | computed | — |
-| `eval` | [#eval L242](/verify/taulib/docs/book-iii-physics-hodge/eval-l242/) | L242-L242 | computed | — |
-| `eval` | [#eval L243](/verify/taulib/docs/book-iii-physics-hodge/eval-l243/) | L243-L243 | computed | — |
-| `eval` | [#eval L244](/verify/taulib/docs/book-iii-physics-hodge/eval-l244/) | L244-L244 | computed | — |
-| `eval` | [#eval L245](/verify/taulib/docs/book-iii-physics-hodge/eval-l245/) | L245-L245 | computed | — |
-| `theorem` | [sigma_fixed_4](/verify/taulib/docs/book-iii-physics-hodge/sigma-fixed-4/) | L251-L252 | formalized | — |
-| `theorem` | [sigma_fixed_closed_4](/verify/taulib/docs/book-iii-physics-hodge/sigma-fixed-closed-4/) | L254-L255 | formalized | — |
-| `theorem` | [sector_addr_15_4](/verify/taulib/docs/book-iii-physics-hodge/sector-addr-15-4/) | L257-L258 | formalized | — |
-| `theorem` | [char_sector_4](/verify/taulib/docs/book-iii-physics-hodge/char-sector-4/) | L260-L261 | formalized | — |
-| `theorem` | [nf_addr_15_3](/verify/taulib/docs/book-iii-physics-hodge/nf-addr-15-3/) | L263-L264 | formalized | — |
-| `theorem` | [hodge_filt_4](/verify/taulib/docs/book-iii-physics-hodge/hodge-filt-4/) | L266-L267 | formalized | — |
-| `theorem` | [spectral_hodge_5](/verify/taulib/docs/book-iii-physics-hodge/spectral-hodge-5/) | L269-L270 | formalized | — |
-| `theorem` | [zero_is_sigma_fixed](/verify/taulib/docs/book-iii-physics-hodge/zero-is-sigma-fixed/) | L277-L278 | formalized | `III.D47` |
-| `theorem` | [sigma_fixed_swap_id](/verify/taulib/docs/book-iii-physics-hodge/sigma-fixed-swap-id/) | L281-L283 | formalized | `III.D47` |
-| `theorem` | [addr_10_1](/verify/taulib/docs/book-iii-physics-hodge/addr-10-1/) | L286-L287 | formalized | `III.D48` |
-| `theorem` | [nf_addr_10_1](/verify/taulib/docs/book-iii-physics-hodge/nf-addr-10-1/) | L290-L293 | formalized | `III.T28` |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `def` | [is_sigma_fixed](/corpus/taulib/docs/book-iii-physics-hodge/is-sigma-fixed/) | L56-L57 | data/computed value | data/computed value | `III.D47` |
+| `def` | [sigma_fixed_check](/corpus/taulib/docs/book-iii-physics-hodge/sigma-fixed-check/) | L61-L81 | data/computed value | data/computed value | `III.D47` |
+| `def` | [sigma_fixed_closed_check](/corpus/taulib/docs/book-iii-physics-hodge/sigma-fixed-closed-check/) | L85-L107 | data/computed value | data/computed value | `III.D47` |
+| `def` | [sector_addressability_check](/corpus/taulib/docs/book-iii-physics-hodge/sector-addressability-check/) | L115-L130 | data/computed value | data/computed value | `III.D48` |
+| `def` | [char_sector_check](/corpus/taulib/docs/book-iii-physics-hodge/char-sector-check/) | L138-L156 | data/computed value | data/computed value | `III.P18` |
+| `def` | [nf_addressability_check](/corpus/taulib/docs/book-iii-physics-hodge/nf-addressability-check/) | L165-L170 | data/computed value | data/computed value | `III.T28` |
+| `def` | [hodge_filtration_check](/corpus/taulib/docs/book-iii-physics-hodge/hodge-filtration-check/) | L178-L205 | data/computed value | data/computed value | `III.P19` |
+| `def` | [spectral_hodge_check](/corpus/taulib/docs/book-iii-physics-hodge/spectral-hodge-check/) | L214-L233 | data/computed value | data/computed value | `III.P20` |
+| `eval` | [#eval L239](/corpus/taulib/docs/book-iii-physics-hodge/eval-l239/) | L239-L239 | computed check | computed check | — |
+| `eval` | [#eval L240](/corpus/taulib/docs/book-iii-physics-hodge/eval-l240/) | L240-L240 | computed check | computed check | — |
+| `eval` | [#eval L241](/corpus/taulib/docs/book-iii-physics-hodge/eval-l241/) | L241-L241 | computed check | computed check | — |
+| `eval` | [#eval L242](/corpus/taulib/docs/book-iii-physics-hodge/eval-l242/) | L242-L242 | computed check | computed check | — |
+| `eval` | [#eval L243](/corpus/taulib/docs/book-iii-physics-hodge/eval-l243/) | L243-L243 | computed check | computed check | — |
+| `eval` | [#eval L244](/corpus/taulib/docs/book-iii-physics-hodge/eval-l244/) | L244-L244 | computed check | computed check | — |
+| `eval` | [#eval L245](/corpus/taulib/docs/book-iii-physics-hodge/eval-l245/) | L245-L245 | computed check | computed check | — |
+| `theorem` | [sigma_fixed_4](/corpus/taulib/docs/book-iii-physics-hodge/sigma-fixed-4/) | L251-L252 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [sigma_fixed_closed_4](/corpus/taulib/docs/book-iii-physics-hodge/sigma-fixed-closed-4/) | L254-L255 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [sector_addr_15_4](/corpus/taulib/docs/book-iii-physics-hodge/sector-addr-15-4/) | L257-L258 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [char_sector_4](/corpus/taulib/docs/book-iii-physics-hodge/char-sector-4/) | L260-L261 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [nf_addr_15_3](/corpus/taulib/docs/book-iii-physics-hodge/nf-addr-15-3/) | L263-L264 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [hodge_filt_4](/corpus/taulib/docs/book-iii-physics-hodge/hodge-filt-4/) | L266-L267 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [spectral_hodge_5](/corpus/taulib/docs/book-iii-physics-hodge/spectral-hodge-5/) | L269-L270 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [zero_is_sigma_fixed](/corpus/taulib/docs/book-iii-physics-hodge/zero-is-sigma-fixed/) | L277-L278 | proof obligation | formal proof obligation checked | `III.D47` |
+| `theorem` | [sigma_fixed_swap_id](/corpus/taulib/docs/book-iii-physics-hodge/sigma-fixed-swap-id/) | L281-L283 | proof obligation | formal proof obligation checked | `III.D47` |
+| `theorem` | [addr_10_1](/corpus/taulib/docs/book-iii-physics-hodge/addr-10-1/) | L286-L287 | proof obligation | formal proof obligation checked | `III.D48` |
+| `theorem` | [nf_addr_10_1](/corpus/taulib/docs/book-iii-physics-hodge/nf-addr-10-1/) | L290-L293 | proof obligation | formal proof obligation checked | `III.T28` |

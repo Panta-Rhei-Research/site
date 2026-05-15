@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "toRat_div",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-rat-inv/to-rat-div/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-rat-inv/to-rat-div/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Boundary.TauRatInv`.",
   "declaration_id": "TauLib.BookI.Boundary.TauRatInv::toRat_div",
   "declaration_slug": "to-rat-div",
   "kind": "theorem",
   "name": "toRat_div",
   "module_name": "TauLib.BookI.Boundary.TauRatInv",
-  "module_url": "/verify/taulib/docs/book-i-boundary-tau-rat-inv/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-tau-rat-inv/",
   "source_line_start": 134,
   "source_line_end": 138,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRatInv.lean#L134-L138",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.TauRatInv",
-        "url": "/verify/taulib/docs/book-i-boundary-tau-rat-inv/"
+        "url": "/corpus/taulib/docs/book-i-boundary-tau-rat-inv/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.TauRatInv](/verify/taulib/docs/book-i-boundary-tau-rat-inv/)
+- Module: [TauLib.BookI.Boundary.TauRatInv](/corpus/taulib/docs/book-i-boundary-tau-rat-inv/)
 - Source path: [`TauLib/BookI/Boundary/TauRatInv.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRatInv.lean#L134-L138)
 - Source range: L134-L138
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

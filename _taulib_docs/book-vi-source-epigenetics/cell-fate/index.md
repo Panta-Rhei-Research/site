@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "CellFate",
-  "permalink": "/verify/taulib/docs/book-vi-source-epigenetics/cell-fate/",
+  "permalink": "/corpus/taulib/docs/book-vi-source-epigenetics/cell-fate/",
   "summary_short": "`structure` declaration in `TauLib.BookVI.Source.Epigenetics`.",
   "declaration_id": "TauLib.BookVI.Source.Epigenetics::CellFate",
   "declaration_slug": "cell-fate",
   "kind": "structure",
   "name": "CellFate",
   "module_name": "TauLib.BookVI.Source.Epigenetics",
-  "module_url": "/verify/taulib/docs/book-vi-source-epigenetics/",
+  "module_url": "/corpus/taulib/docs/book-vi-source-epigenetics/",
   "source_line_start": 220,
   "source_line_end": 229,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Source/Epigenetics.lean#L220-L229",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Source.Epigenetics",
-        "url": "/verify/taulib/docs/book-vi-source-epigenetics/"
+        "url": "/corpus/taulib/docs/book-vi-source-epigenetics/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Source.Epigenetics](/verify/taulib/docs/book-vi-source-epigenetics/)
+- Module: [TauLib.BookVI.Source.Epigenetics](/corpus/taulib/docs/book-vi-source-epigenetics/)
 - Source path: [`TauLib/BookVI/Source/Epigenetics.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Source/Epigenetics.lean#L220-L229)
 - Source range: L220-L229
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

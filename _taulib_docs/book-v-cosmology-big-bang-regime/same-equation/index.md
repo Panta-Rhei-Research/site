@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "same_equation",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/same-equation/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/same-equation/",
   "summary_short": "`theorem` declaration in `TauLib.BookV.Cosmology.BigBangRegime`.",
   "declaration_id": "TauLib.BookV.Cosmology.BigBangRegime::same_equation",
   "declaration_slug": "same-equation",
   "kind": "theorem",
   "name": "same_equation",
   "module_name": "TauLib.BookV.Cosmology.BigBangRegime",
-  "module_url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/",
+  "module_url": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/",
   "source_line_start": 160,
   "source_line_end": 162,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BigBangRegime.lean#L160-L162",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Cosmology.BigBangRegime",
-        "url": "/verify/taulib/docs/book-v-cosmology-big-bang-regime/"
+        "url": "/corpus/taulib/docs/book-v-cosmology-big-bang-regime/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Cosmology.BigBangRegime](/verify/taulib/docs/book-v-cosmology-big-bang-regime/)
+- Module: [TauLib.BookV.Cosmology.BigBangRegime](/corpus/taulib/docs/book-v-cosmology-big-bang-regime/)
 - Source path: [`TauLib/BookV/Cosmology/BigBangRegime.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Cosmology/BigBangRegime.lean#L160-L162)
 - Source range: L160-L162
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

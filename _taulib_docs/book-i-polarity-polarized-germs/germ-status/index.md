@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "germ_status",
-  "permalink": "/verify/taulib/docs/book-i-polarity-polarized-germs/germ-status/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-polarized-germs/germ-status/",
   "summary_short": "`def` declaration in `TauLib.BookI.Polarity.PolarizedGerms`.",
   "declaration_id": "TauLib.BookI.Polarity.PolarizedGerms::germ_status",
   "declaration_slug": "germ-status",
   "kind": "def",
   "name": "germ_status",
   "module_name": "TauLib.BookI.Polarity.PolarizedGerms",
-  "module_url": "/verify/taulib/docs/book-i-polarity-polarized-germs/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-polarized-germs/",
   "source_line_start": 126,
   "source_line_end": 129,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/PolarizedGerms.lean#L126-L129",
   "formal_status": "defined",
+  "declaration_role": "docstring/data record",
+  "formal_status_label": "docstring/data record",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.PolarizedGerms",
-        "url": "/verify/taulib/docs/book-i-polarity-polarized-germs/"
+        "url": "/corpus/taulib/docs/book-i-polarity-polarized-germs/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "docstring/data record",
+      "status": "docstring/data record"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.PolarizedGerms](/verify/taulib/docs/book-i-polarity-polarized-germs/)
+- Module: [TauLib.BookI.Polarity.PolarizedGerms](/corpus/taulib/docs/book-i-polarity-polarized-germs/)
 - Source path: [`TauLib/BookI/Polarity/PolarizedGerms.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/PolarizedGerms.lean#L126-L129)
 - Source range: L126-L129
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `docstring/data record`
+- Formal status hint: `docstring/data record`
 
 ## Registry Links
 

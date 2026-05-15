@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "HartogsBulk",
-  "permalink": "/verify/taulib/docs/book-iii-prologue-hartogs-bulk/hartogs-bulk/",
+  "permalink": "/corpus/taulib/docs/book-iii-prologue-hartogs-bulk/hartogs-bulk/",
   "summary_short": "`structure` declaration in `TauLib.BookIII.Prologue.HartogsBulk`.",
   "declaration_id": "TauLib.BookIII.Prologue.HartogsBulk::HartogsBulk",
   "declaration_slug": "hartogs-bulk",
   "kind": "structure",
   "name": "HartogsBulk",
   "module_name": "TauLib.BookIII.Prologue.HartogsBulk",
-  "module_url": "/verify/taulib/docs/book-iii-prologue-hartogs-bulk/",
+  "module_url": "/corpus/taulib/docs/book-iii-prologue-hartogs-bulk/",
   "source_line_start": 48,
   "source_line_end": 52,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Prologue/HartogsBulk.lean#L48-L52",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Prologue.HartogsBulk",
-        "url": "/verify/taulib/docs/book-iii-prologue-hartogs-bulk/"
+        "url": "/corpus/taulib/docs/book-iii-prologue-hartogs-bulk/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Prologue.HartogsBulk](/verify/taulib/docs/book-iii-prologue-hartogs-bulk/)
+- Module: [TauLib.BookIII.Prologue.HartogsBulk](/corpus/taulib/docs/book-iii-prologue-hartogs-bulk/)
 - Source path: [`TauLib/BookIII/Prologue/HartogsBulk.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Prologue/HartogsBulk.lean#L48-L52)
 - Source range: L48-L52
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

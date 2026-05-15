@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.Arena.Tau3Arena",
-  "permalink": "/verify/taulib/docs/book-iv-arena-tau3-arena/",
+  "permalink": "/corpus/taulib/docs/book-iv-arena-tau3-arena/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.Arena.Tau3Arena`.",
   "module_name": "TauLib.BookIV.Arena.Tau3Arena",
   "module_slug": "book-iv-arena-tau3-arena",
@@ -47,10 +47,12 @@
     {
       "kind": "structure",
       "name": "Tau1Base",
-      "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/tau1-base/",
+      "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/tau1-base/",
       "source_line_start": 41,
       "source_line_end": 52,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D252"
       ]
@@ -58,19 +60,23 @@
     {
       "kind": "def",
       "name": "tau1_base",
-      "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/tau1-base-l55/",
+      "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/tau1-base-l55/",
       "source_line_start": 55,
       "source_line_end": 61,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "FiberT2",
-      "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/fiber-t2/",
+      "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/fiber-t2/",
       "source_line_start": 70,
       "source_line_end": 83,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D253"
       ]
@@ -78,19 +84,23 @@
     {
       "kind": "def",
       "name": "fiber_t2",
-      "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/fiber-t2-l86/",
+      "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/fiber-t2-l86/",
       "source_line_start": 86,
       "source_line_end": 94,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "Tau3Arena",
-      "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/tau3-arena/",
+      "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/tau3-arena/",
       "source_line_start": 102,
       "source_line_end": 110,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D254"
       ]
@@ -98,19 +108,23 @@
     {
       "kind": "def",
       "name": "tau3_arena",
-      "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/tau3-arena-l113/",
+      "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/tau3-arena-l113/",
       "source_line_start": 113,
       "source_line_end": 117,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "MasterConstant",
-      "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/master-constant/",
+      "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/master-constant/",
       "source_line_start": 126,
       "source_line_end": 135,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D255"
       ]
@@ -118,19 +132,23 @@
     {
       "kind": "def",
       "name": "master_constant",
-      "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/master-constant-l138/",
+      "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/master-constant-l138/",
       "source_line_start": 138,
       "source_line_end": 143,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "quasi_ergodic",
-      "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/quasi-ergodic/",
+      "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/quasi-ergodic/",
       "source_line_start": 151,
       "source_line_end": 157,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.P149"
       ]
@@ -138,10 +156,12 @@
     {
       "kind": "theorem",
       "name": "four_dim_earned",
-      "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/four-dim-earned/",
+      "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/four-dim-earned/",
       "source_line_start": 165,
       "source_line_end": 168,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.P150"
       ]
@@ -149,10 +169,12 @@
     {
       "kind": "structure",
       "name": "LemniscateBoundary",
-      "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/lemniscate-boundary/",
+      "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/lemniscate-boundary/",
       "source_line_start": 186,
       "source_line_end": 193,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D256"
       ]
@@ -160,19 +182,23 @@
     {
       "kind": "def",
       "name": "lemniscate",
-      "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/lemniscate/",
+      "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/lemniscate/",
       "source_line_start": 196,
       "source_line_end": 200,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "micro_macro_split",
-      "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/micro-macro-split/",
+      "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/micro-macro-split/",
       "source_line_start": 208,
       "source_line_end": 210,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.P151"
       ]
@@ -180,10 +206,12 @@
     {
       "kind": "structure",
       "name": "ChartReadout",
-      "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/chart-readout/",
+      "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/chart-readout/",
       "source_line_start": 222,
       "source_line_end": 237,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D257"
       ]
@@ -191,73 +219,89 @@
     {
       "kind": "def",
       "name": "chart_readout",
-      "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/chart-readout-l240/",
+      "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/chart-readout-l240/",
       "source_line_start": 240,
       "source_line_end": 249,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/eval-l255/",
+      "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/eval-l255/",
       "source_line_start": 255,
       "source_line_end": 255,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/eval-l256/",
+      "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/eval-l256/",
       "source_line_start": 256,
       "source_line_end": 256,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/eval-l257/",
+      "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/eval-l257/",
       "source_line_start": 257,
       "source_line_end": 257,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/eval-l258/",
+      "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/eval-l258/",
       "source_line_start": 258,
       "source_line_end": 258,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/eval-l259/",
+      "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/eval-l259/",
       "source_line_start": 259,
       "source_line_end": 259,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/eval-l260/",
+      "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/eval-l260/",
       "source_line_start": 260,
       "source_line_end": 260,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/eval-l261/",
+      "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/eval-l261/",
       "source_line_start": 261,
       "source_line_end": 263,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -269,7 +313,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -354,27 +398,27 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [Tau1Base](/verify/taulib/docs/book-iv-arena-tau3-arena/tau1-base/) | L41-L52 | defined | `IV.D252` |
-| `def` | [tau1_base](/verify/taulib/docs/book-iv-arena-tau3-arena/tau1-base-l55/) | L55-L61 | defined | — |
-| `structure` | [FiberT2](/verify/taulib/docs/book-iv-arena-tau3-arena/fiber-t2/) | L70-L83 | defined | `IV.D253` |
-| `def` | [fiber_t2](/verify/taulib/docs/book-iv-arena-tau3-arena/fiber-t2-l86/) | L86-L94 | defined | — |
-| `structure` | [Tau3Arena](/verify/taulib/docs/book-iv-arena-tau3-arena/tau3-arena/) | L102-L110 | defined | `IV.D254` |
-| `def` | [tau3_arena](/verify/taulib/docs/book-iv-arena-tau3-arena/tau3-arena-l113/) | L113-L117 | defined | — |
-| `structure` | [MasterConstant](/verify/taulib/docs/book-iv-arena-tau3-arena/master-constant/) | L126-L135 | defined | `IV.D255` |
-| `def` | [master_constant](/verify/taulib/docs/book-iv-arena-tau3-arena/master-constant-l138/) | L138-L143 | defined | — |
-| `theorem` | [quasi_ergodic](/verify/taulib/docs/book-iv-arena-tau3-arena/quasi-ergodic/) | L151-L157 | formalized | `IV.P149` |
-| `theorem` | [four_dim_earned](/verify/taulib/docs/book-iv-arena-tau3-arena/four-dim-earned/) | L165-L168 | formalized | `IV.P150` |
-| `structure` | [LemniscateBoundary](/verify/taulib/docs/book-iv-arena-tau3-arena/lemniscate-boundary/) | L186-L193 | defined | `IV.D256` |
-| `def` | [lemniscate](/verify/taulib/docs/book-iv-arena-tau3-arena/lemniscate/) | L196-L200 | defined | — |
-| `theorem` | [micro_macro_split](/verify/taulib/docs/book-iv-arena-tau3-arena/micro-macro-split/) | L208-L210 | formalized | `IV.P151` |
-| `structure` | [ChartReadout](/verify/taulib/docs/book-iv-arena-tau3-arena/chart-readout/) | L222-L237 | defined | `IV.D257` |
-| `def` | [chart_readout](/verify/taulib/docs/book-iv-arena-tau3-arena/chart-readout-l240/) | L240-L249 | defined | — |
-| `eval` | [#eval L255](/verify/taulib/docs/book-iv-arena-tau3-arena/eval-l255/) | L255-L255 | computed | — |
-| `eval` | [#eval L256](/verify/taulib/docs/book-iv-arena-tau3-arena/eval-l256/) | L256-L256 | computed | — |
-| `eval` | [#eval L257](/verify/taulib/docs/book-iv-arena-tau3-arena/eval-l257/) | L257-L257 | computed | — |
-| `eval` | [#eval L258](/verify/taulib/docs/book-iv-arena-tau3-arena/eval-l258/) | L258-L258 | computed | — |
-| `eval` | [#eval L259](/verify/taulib/docs/book-iv-arena-tau3-arena/eval-l259/) | L259-L259 | computed | — |
-| `eval` | [#eval L260](/verify/taulib/docs/book-iv-arena-tau3-arena/eval-l260/) | L260-L260 | computed | — |
-| `eval` | [#eval L261](/verify/taulib/docs/book-iv-arena-tau3-arena/eval-l261/) | L261-L263 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [Tau1Base](/corpus/taulib/docs/book-iv-arena-tau3-arena/tau1-base/) | L41-L52 | type/data schema | type/data schema | `IV.D252` |
+| `def` | [tau1_base](/corpus/taulib/docs/book-iv-arena-tau3-arena/tau1-base-l55/) | L55-L61 | definition | definition | — |
+| `structure` | [FiberT2](/corpus/taulib/docs/book-iv-arena-tau3-arena/fiber-t2/) | L70-L83 | type/data schema | type/data schema | `IV.D253` |
+| `def` | [fiber_t2](/corpus/taulib/docs/book-iv-arena-tau3-arena/fiber-t2-l86/) | L86-L94 | definition | definition | — |
+| `structure` | [Tau3Arena](/corpus/taulib/docs/book-iv-arena-tau3-arena/tau3-arena/) | L102-L110 | type/data schema | type/data schema | `IV.D254` |
+| `def` | [tau3_arena](/corpus/taulib/docs/book-iv-arena-tau3-arena/tau3-arena-l113/) | L113-L117 | definition | definition | — |
+| `structure` | [MasterConstant](/corpus/taulib/docs/book-iv-arena-tau3-arena/master-constant/) | L126-L135 | type/data schema | type/data schema | `IV.D255` |
+| `def` | [master_constant](/corpus/taulib/docs/book-iv-arena-tau3-arena/master-constant-l138/) | L138-L143 | definition | definition | — |
+| `theorem` | [quasi_ergodic](/corpus/taulib/docs/book-iv-arena-tau3-arena/quasi-ergodic/) | L151-L157 | proof obligation | formal proof obligation checked | `IV.P149` |
+| `theorem` | [four_dim_earned](/corpus/taulib/docs/book-iv-arena-tau3-arena/four-dim-earned/) | L165-L168 | proof obligation | formal proof obligation checked | `IV.P150` |
+| `structure` | [LemniscateBoundary](/corpus/taulib/docs/book-iv-arena-tau3-arena/lemniscate-boundary/) | L186-L193 | type/data schema | type/data schema | `IV.D256` |
+| `def` | [lemniscate](/corpus/taulib/docs/book-iv-arena-tau3-arena/lemniscate/) | L196-L200 | definition | definition | — |
+| `theorem` | [micro_macro_split](/corpus/taulib/docs/book-iv-arena-tau3-arena/micro-macro-split/) | L208-L210 | proof obligation | formal proof obligation checked | `IV.P151` |
+| `structure` | [ChartReadout](/corpus/taulib/docs/book-iv-arena-tau3-arena/chart-readout/) | L222-L237 | type/data schema | type/data schema | `IV.D257` |
+| `def` | [chart_readout](/corpus/taulib/docs/book-iv-arena-tau3-arena/chart-readout-l240/) | L240-L249 | definition | definition | — |
+| `eval` | [#eval L255](/corpus/taulib/docs/book-iv-arena-tau3-arena/eval-l255/) | L255-L255 | computed check | computed check | — |
+| `eval` | [#eval L256](/corpus/taulib/docs/book-iv-arena-tau3-arena/eval-l256/) | L256-L256 | computed check | computed check | — |
+| `eval` | [#eval L257](/corpus/taulib/docs/book-iv-arena-tau3-arena/eval-l257/) | L257-L257 | computed check | computed check | — |
+| `eval` | [#eval L258](/corpus/taulib/docs/book-iv-arena-tau3-arena/eval-l258/) | L258-L258 | computed check | computed check | — |
+| `eval` | [#eval L259](/corpus/taulib/docs/book-iv-arena-tau3-arena/eval-l259/) | L259-L259 | computed check | computed check | — |
+| `eval` | [#eval L260](/corpus/taulib/docs/book-iv-arena-tau3-arena/eval-l260/) | L260-L260 | computed check | computed check | — |
+| `eval` | [#eval L261](/corpus/taulib/docs/book-iv-arena-tau3-arena/eval-l261/) | L261-L263 | computed check | computed check | — |

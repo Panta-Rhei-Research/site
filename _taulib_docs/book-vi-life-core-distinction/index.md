@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookVI.LifeCore.Distinction",
-  "permalink": "/verify/taulib/docs/book-vi-life-core-distinction/",
+  "permalink": "/corpus/taulib/docs/book-vi-life-core-distinction/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookVI.LifeCore.Distinction`.",
   "module_name": "TauLib.BookVI.LifeCore.Distinction",
   "module_slug": "book-vi-life-core-distinction",
@@ -37,10 +37,12 @@
     {
       "kind": "structure",
       "name": "Distinction",
-      "url": "/verify/taulib/docs/book-vi-life-core-distinction/distinction/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-distinction/distinction/",
       "source_line_start": 27,
       "source_line_end": 35,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D04"
       ]
@@ -48,19 +50,23 @@
     {
       "kind": "def",
       "name": "canonical_distinction",
-      "url": "/verify/taulib/docs/book-vi-life-core-distinction/canonical-distinction/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-distinction/canonical-distinction/",
       "source_line_start": 37,
       "source_line_end": 39,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "FiniteLineageCarrier",
-      "url": "/verify/taulib/docs/book-vi-life-core-distinction/finite-lineage-carrier/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-distinction/finite-lineage-carrier/",
       "source_line_start": 43,
       "source_line_end": 48,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D05"
       ]
@@ -68,10 +74,12 @@
     {
       "kind": "structure",
       "name": "MacroTorusCarrier",
-      "url": "/verify/taulib/docs/book-vi-life-core-distinction/macro-torus-carrier/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-distinction/macro-torus-carrier/",
       "source_line_start": 51,
       "source_line_end": 55,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D06"
       ]
@@ -79,10 +87,12 @@
     {
       "kind": "structure",
       "name": "GalacticCarrier",
-      "url": "/verify/taulib/docs/book-vi-life-core-distinction/galactic-carrier/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-distinction/galactic-carrier/",
       "source_line_start": 58,
       "source_line_end": 62,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.D07"
       ]
@@ -90,10 +100,12 @@
     {
       "kind": "structure",
       "name": "DistinctionWellDefined",
-      "url": "/verify/taulib/docs/book-vi-life-core-distinction/distinction-well-defined/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-distinction/distinction-well-defined/",
       "source_line_start": 66,
       "source_line_end": 70,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "VI.T02"
       ]
@@ -101,28 +113,34 @@
     {
       "kind": "def",
       "name": "distinction_wd",
-      "url": "/verify/taulib/docs/book-vi-life-core-distinction/distinction-wd/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-distinction/distinction-wd/",
       "source_line_start": 72,
       "source_line_end": 72,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "distinction_well_defined",
-      "url": "/verify/taulib/docs/book-vi-life-core-distinction/distinction-well-defined-l74/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-distinction/distinction-well-defined-l74/",
       "source_line_start": 74,
       "source_line_end": 78,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "distinction_has_five_conditions",
-      "url": "/verify/taulib/docs/book-vi-life-core-distinction/distinction-has-five-conditions/",
+      "url": "/corpus/taulib/docs/book-vi-life-core-distinction/distinction-has-five-conditions/",
       "source_line_start": 80,
       "source_line_end": 84,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     }
   ],
@@ -134,7 +152,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -209,14 +227,14 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [Distinction](/verify/taulib/docs/book-vi-life-core-distinction/distinction/) | L27-L35 | defined | `VI.D04` |
-| `def` | [canonical_distinction](/verify/taulib/docs/book-vi-life-core-distinction/canonical-distinction/) | L37-L39 | defined | — |
-| `structure` | [FiniteLineageCarrier](/verify/taulib/docs/book-vi-life-core-distinction/finite-lineage-carrier/) | L43-L48 | defined | `VI.D05` |
-| `structure` | [MacroTorusCarrier](/verify/taulib/docs/book-vi-life-core-distinction/macro-torus-carrier/) | L51-L55 | defined | `VI.D06` |
-| `structure` | [GalacticCarrier](/verify/taulib/docs/book-vi-life-core-distinction/galactic-carrier/) | L58-L62 | defined | `VI.D07` |
-| `structure` | [DistinctionWellDefined](/verify/taulib/docs/book-vi-life-core-distinction/distinction-well-defined/) | L66-L70 | defined | `VI.T02` |
-| `def` | [distinction_wd](/verify/taulib/docs/book-vi-life-core-distinction/distinction-wd/) | L72-L72 | defined | — |
-| `theorem` | [distinction_well_defined](/verify/taulib/docs/book-vi-life-core-distinction/distinction-well-defined-l74/) | L74-L78 | formalized | — |
-| `theorem` | [distinction_has_five_conditions](/verify/taulib/docs/book-vi-life-core-distinction/distinction-has-five-conditions/) | L80-L84 | formalized | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [Distinction](/corpus/taulib/docs/book-vi-life-core-distinction/distinction/) | L27-L35 | type/data schema | type/data schema | `VI.D04` |
+| `def` | [canonical_distinction](/corpus/taulib/docs/book-vi-life-core-distinction/canonical-distinction/) | L37-L39 | definition | definition | — |
+| `structure` | [FiniteLineageCarrier](/corpus/taulib/docs/book-vi-life-core-distinction/finite-lineage-carrier/) | L43-L48 | type/data schema | type/data schema | `VI.D05` |
+| `structure` | [MacroTorusCarrier](/corpus/taulib/docs/book-vi-life-core-distinction/macro-torus-carrier/) | L51-L55 | type/data schema | type/data schema | `VI.D06` |
+| `structure` | [GalacticCarrier](/corpus/taulib/docs/book-vi-life-core-distinction/galactic-carrier/) | L58-L62 | type/data schema | type/data schema | `VI.D07` |
+| `structure` | [DistinctionWellDefined](/corpus/taulib/docs/book-vi-life-core-distinction/distinction-well-defined/) | L66-L70 | type/data schema | type/data schema | `VI.T02` |
+| `def` | [distinction_wd](/corpus/taulib/docs/book-vi-life-core-distinction/distinction-wd/) | L72-L72 | definition | definition | — |
+| `theorem` | [distinction_well_defined](/corpus/taulib/docs/book-vi-life-core-distinction/distinction-well-defined-l74/) | L74-L78 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [distinction_has_five_conditions](/corpus/taulib/docs/book-vi-life-core-distinction/distinction-has-five-conditions/) | L80-L84 | proof obligation | formal proof obligation checked | — |

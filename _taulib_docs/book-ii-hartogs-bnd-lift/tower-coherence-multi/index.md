@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "tower_coherence_multi",
-  "permalink": "/verify/taulib/docs/book-ii-hartogs-bnd-lift/tower-coherence-multi/",
+  "permalink": "/corpus/taulib/docs/book-ii-hartogs-bnd-lift/tower-coherence-multi/",
   "summary_short": "`def` declaration in `TauLib.BookII.Hartogs.BndLift`.",
   "declaration_id": "TauLib.BookII.Hartogs.BndLift::tower_coherence_multi",
   "declaration_slug": "tower-coherence-multi",
   "kind": "def",
   "name": "tower_coherence_multi",
   "module_name": "TauLib.BookII.Hartogs.BndLift",
-  "module_url": "/verify/taulib/docs/book-ii-hartogs-bnd-lift/",
+  "module_url": "/corpus/taulib/docs/book-ii-hartogs-bnd-lift/",
   "source_line_start": 161,
   "source_line_end": 173,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/BndLift.lean#L161-L173",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Hartogs.BndLift",
-        "url": "/verify/taulib/docs/book-ii-hartogs-bnd-lift/"
+        "url": "/corpus/taulib/docs/book-ii-hartogs-bnd-lift/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Hartogs.BndLift](/verify/taulib/docs/book-ii-hartogs-bnd-lift/)
+- Module: [TauLib.BookII.Hartogs.BndLift](/corpus/taulib/docs/book-ii-hartogs-bnd-lift/)
 - Source path: [`TauLib/BookII/Hartogs/BndLift.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Hartogs/BndLift.lean#L161-L173)
 - Source range: L161-L173
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

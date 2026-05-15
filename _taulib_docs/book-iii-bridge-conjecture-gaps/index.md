@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIII.Bridge.ConjectureGaps",
-  "permalink": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/",
+  "permalink": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIII.Bridge.ConjectureGaps`.",
   "module_name": "TauLib.BookIII.Bridge.ConjectureGaps",
   "module_slug": "book-iii-bridge-conjecture-gaps",
@@ -38,10 +38,12 @@
     {
       "kind": "inductive",
       "name": "GapType",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/gap-type/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/gap-type/",
       "source_line_start": 85,
       "source_line_end": 89,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "III.D112"
       ]
@@ -49,10 +51,12 @@
     {
       "kind": "def",
       "name": "GapType.toNat",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/to-nat/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/to-nat/",
       "source_line_start": 92,
       "source_line_end": 95,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "III.D112"
       ]
@@ -60,10 +64,12 @@
     {
       "kind": "def",
       "name": "GapType.name",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/name/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/name/",
       "source_line_start": 98,
       "source_line_end": 101,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "III.D112"
       ]
@@ -71,28 +77,34 @@
     {
       "kind": "inductive",
       "name": "AdditiveConjecture",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/additive-conjecture/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/additive-conjecture/",
       "source_line_start": 108,
       "source_line_end": 112,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "all_conjectures",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/all-conjectures/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/all-conjectures/",
       "source_line_start": 115,
       "source_line_end": 116,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "conjecture_gap_type",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/conjecture-gap-type/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/conjecture-gap-type/",
       "source_line_start": 119,
       "source_line_end": 122,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "III.D112"
       ]
@@ -100,10 +112,12 @@
     {
       "kind": "def",
       "name": "gap_forbidden_move",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/gap-forbidden-move/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/gap-forbidden-move/",
       "source_line_start": 132,
       "source_line_end": 135,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "III.D113"
       ]
@@ -111,10 +125,12 @@
     {
       "kind": "def",
       "name": "gap_violated_axiom",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/gap-violated-axiom/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/gap-violated-axiom/",
       "source_line_start": 138,
       "source_line_end": 139,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": [
         "III.D113"
       ]
@@ -122,37 +138,45 @@
     {
       "kind": "def",
       "name": "conjecture_scope",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/conjecture-scope/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/conjecture-scope/",
       "source_line_start": 146,
       "source_line_end": 149,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "full_conjecture_scope",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/full-conjecture-scope/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/full-conjecture-scope/",
       "source_line_start": 152,
       "source_line_end": 155,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "scope_discipline_check",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/scope-discipline-check/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/scope-discipline-check/",
       "source_line_start": 159,
       "source_line_end": 162,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "tower_decidable_check",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/tower-decidable-check/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/tower-decidable-check/",
       "source_line_start": 173,
       "source_line_end": 182,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.D111"
       ]
@@ -160,10 +184,12 @@
     {
       "kind": "def",
       "name": "bridge_necessary_check",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/bridge-necessary-check/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/bridge-necessary-check/",
       "source_line_start": 193,
       "source_line_end": 198,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T80"
       ]
@@ -171,10 +197,12 @@
     {
       "kind": "def",
       "name": "gap_taxonomy_complete",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/gap-taxonomy-complete/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/gap-taxonomy-complete/",
       "source_line_start": 201,
       "source_line_end": 205,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "III.T80"
       ]
@@ -182,10 +210,12 @@
     {
       "kind": "theorem",
       "name": "tower_finite_decidable",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/tower-finite-decidable/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/tower-finite-decidable/",
       "source_line_start": 213,
       "source_line_end": 214,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T79"
       ]
@@ -193,10 +223,12 @@
     {
       "kind": "theorem",
       "name": "bridge_necessary_insufficient",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/bridge-necessary-insufficient/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/bridge-necessary-insufficient/",
       "source_line_start": 217,
       "source_line_end": 218,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T80"
       ]
@@ -204,10 +236,12 @@
     {
       "kind": "theorem",
       "name": "gap_taxonomy",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/gap-taxonomy/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/gap-taxonomy/",
       "source_line_start": 221,
       "source_line_end": 222,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D112"
       ]
@@ -215,10 +249,12 @@
     {
       "kind": "theorem",
       "name": "all_gaps_exponential",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/all-gaps-exponential/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/all-gaps-exponential/",
       "source_line_start": 225,
       "source_line_end": 228,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D113"
       ]
@@ -226,19 +262,23 @@
     {
       "kind": "theorem",
       "name": "scope_check",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/scope-check/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/scope-check/",
       "source_line_start": 231,
       "source_line_end": 232,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "parity_ne_density",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/parity-ne-density/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/parity-ne-density/",
       "source_line_start": 239,
       "source_line_end": 240,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D112"
       ]
@@ -246,10 +286,12 @@
     {
       "kind": "theorem",
       "name": "gap_indices",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/gap-indices/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/gap-indices/",
       "source_line_start": 243,
       "source_line_end": 247,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D112"
       ]
@@ -257,10 +299,12 @@
     {
       "kind": "theorem",
       "name": "goldbach_gap_parity",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/goldbach-gap-parity/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/goldbach-gap-parity/",
       "source_line_start": 250,
       "source_line_end": 251,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D113"
       ]
@@ -268,10 +312,12 @@
     {
       "kind": "theorem",
       "name": "twin_gap_density",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/twin-gap-density/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/twin-gap-density/",
       "source_line_start": 254,
       "source_line_end": 255,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D113"
       ]
@@ -279,10 +325,12 @@
     {
       "kind": "theorem",
       "name": "abc_gap_structural",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/abc-gap-structural/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/abc-gap-structural/",
       "source_line_start": 258,
       "source_line_end": 259,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D113"
       ]
@@ -290,10 +338,12 @@
     {
       "kind": "theorem",
       "name": "all_gaps_K4",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/all-gaps-k4/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/all-gaps-k4/",
       "source_line_start": 262,
       "source_line_end": 266,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.D113"
       ]
@@ -301,10 +351,12 @@
     {
       "kind": "theorem",
       "name": "exponential_damage",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/exponential-damage/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/exponential-damage/",
       "source_line_start": 269,
       "source_line_end": 270,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "III.T80"
       ]
@@ -312,91 +364,111 @@
     {
       "kind": "theorem",
       "name": "three_conjectures",
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/three-conjectures/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/three-conjectures/",
       "source_line_start": 273,
       "source_line_end": 274,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l280/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l280/",
       "source_line_start": 280,
       "source_line_end": 280,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l281/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l281/",
       "source_line_start": 281,
       "source_line_end": 281,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l282/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l282/",
       "source_line_start": 282,
       "source_line_end": 282,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l283/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l283/",
       "source_line_start": 283,
       "source_line_end": 283,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l284/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l284/",
       "source_line_start": 284,
       "source_line_end": 284,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l285/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l285/",
       "source_line_start": 285,
       "source_line_end": 285,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l286/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l286/",
       "source_line_start": 286,
       "source_line_end": 286,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l287/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l287/",
       "source_line_start": 287,
       "source_line_end": 287,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l288/",
+      "url": "/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l288/",
       "source_line_start": 288,
       "source_line_end": 290,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -408,7 +480,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -484,41 +556,41 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `inductive` | [GapType](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/gap-type/) | L85-L89 | defined | `III.D112` |
-| `def` | [GapType.toNat](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/to-nat/) | L92-L95 | defined | `III.D112` |
-| `def` | [GapType.name](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/name/) | L98-L101 | defined | `III.D112` |
-| `inductive` | [AdditiveConjecture](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/additive-conjecture/) | L108-L112 | defined | — |
-| `def` | [all_conjectures](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/all-conjectures/) | L115-L116 | defined | — |
-| `def` | [conjecture_gap_type](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/conjecture-gap-type/) | L119-L122 | defined | `III.D112` |
-| `def` | [gap_forbidden_move](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/gap-forbidden-move/) | L132-L135 | defined | `III.D113` |
-| `def` | [gap_violated_axiom](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/gap-violated-axiom/) | L138-L139 | defined | `III.D113` |
-| `def` | [conjecture_scope](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/conjecture-scope/) | L146-L149 | defined | — |
-| `def` | [full_conjecture_scope](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/full-conjecture-scope/) | L152-L155 | defined | — |
-| `def` | [scope_discipline_check](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/scope-discipline-check/) | L159-L162 | defined | — |
-| `def` | [tower_decidable_check](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/tower-decidable-check/) | L173-L182 | defined | `III.D111` |
-| `def` | [bridge_necessary_check](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/bridge-necessary-check/) | L193-L198 | defined | `III.T80` |
-| `def` | [gap_taxonomy_complete](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/gap-taxonomy-complete/) | L201-L205 | defined | `III.T80` |
-| `theorem` | [tower_finite_decidable](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/tower-finite-decidable/) | L213-L214 | formalized | `III.T79` |
-| `theorem` | [bridge_necessary_insufficient](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/bridge-necessary-insufficient/) | L217-L218 | formalized | `III.T80` |
-| `theorem` | [gap_taxonomy](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/gap-taxonomy/) | L221-L222 | formalized | `III.D112` |
-| `theorem` | [all_gaps_exponential](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/all-gaps-exponential/) | L225-L228 | formalized | `III.D113` |
-| `theorem` | [scope_check](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/scope-check/) | L231-L232 | formalized | — |
-| `theorem` | [parity_ne_density](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/parity-ne-density/) | L239-L240 | formalized | `III.D112` |
-| `theorem` | [gap_indices](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/gap-indices/) | L243-L247 | formalized | `III.D112` |
-| `theorem` | [goldbach_gap_parity](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/goldbach-gap-parity/) | L250-L251 | formalized | `III.D113` |
-| `theorem` | [twin_gap_density](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/twin-gap-density/) | L254-L255 | formalized | `III.D113` |
-| `theorem` | [abc_gap_structural](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/abc-gap-structural/) | L258-L259 | formalized | `III.D113` |
-| `theorem` | [all_gaps_K4](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/all-gaps-k4/) | L262-L266 | formalized | `III.D113` |
-| `theorem` | [exponential_damage](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/exponential-damage/) | L269-L270 | formalized | `III.T80` |
-| `theorem` | [three_conjectures](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/three-conjectures/) | L273-L274 | formalized | — |
-| `eval` | [#eval L280](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l280/) | L280-L280 | computed | — |
-| `eval` | [#eval L281](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l281/) | L281-L281 | computed | — |
-| `eval` | [#eval L282](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l282/) | L282-L282 | computed | — |
-| `eval` | [#eval L283](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l283/) | L283-L283 | computed | — |
-| `eval` | [#eval L284](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l284/) | L284-L284 | computed | — |
-| `eval` | [#eval L285](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l285/) | L285-L285 | computed | — |
-| `eval` | [#eval L286](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l286/) | L286-L286 | computed | — |
-| `eval` | [#eval L287](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l287/) | L287-L287 | computed | — |
-| `eval` | [#eval L288](/verify/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l288/) | L288-L290 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `inductive` | [GapType](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/gap-type/) | L85-L89 | type/data schema | type/data schema | `III.D112` |
+| `def` | [GapType.toNat](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/to-nat/) | L92-L95 | definition | definition | `III.D112` |
+| `def` | [GapType.name](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/name/) | L98-L101 | definition | definition | `III.D112` |
+| `inductive` | [AdditiveConjecture](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/additive-conjecture/) | L108-L112 | type/data schema | type/data schema | — |
+| `def` | [all_conjectures](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/all-conjectures/) | L115-L116 | data/computed value | data/computed value | — |
+| `def` | [conjecture_gap_type](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/conjecture-gap-type/) | L119-L122 | definition | definition | `III.D112` |
+| `def` | [gap_forbidden_move](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/gap-forbidden-move/) | L132-L135 | definition | definition | `III.D113` |
+| `def` | [gap_violated_axiom](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/gap-violated-axiom/) | L138-L139 | definition | definition | `III.D113` |
+| `def` | [conjecture_scope](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/conjecture-scope/) | L146-L149 | definition | definition | — |
+| `def` | [full_conjecture_scope](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/full-conjecture-scope/) | L152-L155 | definition | definition | — |
+| `def` | [scope_discipline_check](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/scope-discipline-check/) | L159-L162 | data/computed value | data/computed value | — |
+| `def` | [tower_decidable_check](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/tower-decidable-check/) | L173-L182 | data/computed value | data/computed value | `III.D111` |
+| `def` | [bridge_necessary_check](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/bridge-necessary-check/) | L193-L198 | data/computed value | data/computed value | `III.T80` |
+| `def` | [gap_taxonomy_complete](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/gap-taxonomy-complete/) | L201-L205 | data/computed value | data/computed value | `III.T80` |
+| `theorem` | [tower_finite_decidable](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/tower-finite-decidable/) | L213-L214 | proof obligation | formal proof obligation checked | `III.T79` |
+| `theorem` | [bridge_necessary_insufficient](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/bridge-necessary-insufficient/) | L217-L218 | proof obligation | formal proof obligation checked | `III.T80` |
+| `theorem` | [gap_taxonomy](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/gap-taxonomy/) | L221-L222 | proof obligation | formal proof obligation checked | `III.D112` |
+| `theorem` | [all_gaps_exponential](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/all-gaps-exponential/) | L225-L228 | proof obligation | formal proof obligation checked | `III.D113` |
+| `theorem` | [scope_check](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/scope-check/) | L231-L232 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [parity_ne_density](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/parity-ne-density/) | L239-L240 | proof obligation | formal proof obligation checked | `III.D112` |
+| `theorem` | [gap_indices](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/gap-indices/) | L243-L247 | proof obligation | formal proof obligation checked | `III.D112` |
+| `theorem` | [goldbach_gap_parity](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/goldbach-gap-parity/) | L250-L251 | proof obligation | formal proof obligation checked | `III.D113` |
+| `theorem` | [twin_gap_density](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/twin-gap-density/) | L254-L255 | proof obligation | formal proof obligation checked | `III.D113` |
+| `theorem` | [abc_gap_structural](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/abc-gap-structural/) | L258-L259 | proof obligation | formal proof obligation checked | `III.D113` |
+| `theorem` | [all_gaps_K4](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/all-gaps-k4/) | L262-L266 | proof obligation | formal proof obligation checked | `III.D113` |
+| `theorem` | [exponential_damage](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/exponential-damage/) | L269-L270 | proof obligation | formal proof obligation checked | `III.T80` |
+| `theorem` | [three_conjectures](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/three-conjectures/) | L273-L274 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L280](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l280/) | L280-L280 | computed check | computed check | — |
+| `eval` | [#eval L281](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l281/) | L281-L281 | computed check | computed check | — |
+| `eval` | [#eval L282](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l282/) | L282-L282 | computed check | computed check | — |
+| `eval` | [#eval L283](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l283/) | L283-L283 | computed check | computed check | — |
+| `eval` | [#eval L284](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l284/) | L284-L284 | computed check | computed check | — |
+| `eval` | [#eval L285](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l285/) | L285-L285 | computed check | computed check | — |
+| `eval` | [#eval L286](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l286/) | L286-L286 | computed check | computed check | — |
+| `eval` | [#eval L287](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l287/) | L287-L287 | computed check | computed check | — |
+| `eval` | [#eval L288](/corpus/taulib/docs/book-iii-bridge-conjecture-gaps/eval-l288/) | L288-L290 | computed check | computed check | — |

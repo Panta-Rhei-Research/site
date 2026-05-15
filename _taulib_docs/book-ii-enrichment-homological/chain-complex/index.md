@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ChainComplex",
-  "permalink": "/verify/taulib/docs/book-ii-enrichment-homological/chain-complex/",
+  "permalink": "/corpus/taulib/docs/book-ii-enrichment-homological/chain-complex/",
   "summary_short": "`structure` declaration in `TauLib.BookII.Enrichment.Homological`.",
   "declaration_id": "TauLib.BookII.Enrichment.Homological::ChainComplex",
   "declaration_slug": "chain-complex",
   "kind": "structure",
   "name": "ChainComplex",
   "module_name": "TauLib.BookII.Enrichment.Homological",
-  "module_url": "/verify/taulib/docs/book-ii-enrichment-homological/",
+  "module_url": "/corpus/taulib/docs/book-ii-enrichment-homological/",
   "source_line_start": 48,
   "source_line_end": 50,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/Homological.lean#L48-L50",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Enrichment.Homological",
-        "url": "/verify/taulib/docs/book-ii-enrichment-homological/"
+        "url": "/corpus/taulib/docs/book-ii-enrichment-homological/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Enrichment.Homological](/verify/taulib/docs/book-ii-enrichment-homological/)
+- Module: [TauLib.BookII.Enrichment.Homological](/corpus/taulib/docs/book-ii-enrichment-homological/)
 - Source path: [`TauLib/BookII/Enrichment/Homological.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Enrichment/Homological.lean#L48-L50)
 - Source range: L48-L50
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

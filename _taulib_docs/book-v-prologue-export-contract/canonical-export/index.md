@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "canonical_export",
-  "permalink": "/verify/taulib/docs/book-v-prologue-export-contract/canonical-export/",
+  "permalink": "/corpus/taulib/docs/book-v-prologue-export-contract/canonical-export/",
   "summary_short": "`def` declaration in `TauLib.BookV.Prologue.ExportContract`.",
   "declaration_id": "TauLib.BookV.Prologue.ExportContract::canonical_export",
   "declaration_slug": "canonical-export",
   "kind": "def",
   "name": "canonical_export",
   "module_name": "TauLib.BookV.Prologue.ExportContract",
-  "module_url": "/verify/taulib/docs/book-v-prologue-export-contract/",
+  "module_url": "/corpus/taulib/docs/book-v-prologue-export-contract/",
   "source_line_start": 91,
   "source_line_end": 99,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Prologue/ExportContract.lean#L91-L99",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Prologue.ExportContract",
-        "url": "/verify/taulib/docs/book-v-prologue-export-contract/"
+        "url": "/corpus/taulib/docs/book-v-prologue-export-contract/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Prologue.ExportContract](/verify/taulib/docs/book-v-prologue-export-contract/)
+- Module: [TauLib.BookV.Prologue.ExportContract](/corpus/taulib/docs/book-v-prologue-export-contract/)
 - Source path: [`TauLib/BookV/Prologue/ExportContract.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Prologue/ExportContract.lean#L91-L99)
 - Source range: L91-L99
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "DriftBoundedByRepair",
-  "permalink": "/verify/taulib/docs/book-vi-source-epigenetics/drift-bounded-by-repair/",
+  "permalink": "/corpus/taulib/docs/book-vi-source-epigenetics/drift-bounded-by-repair/",
   "summary_short": "`structure` declaration in `TauLib.BookVI.Source.Epigenetics`.",
   "declaration_id": "TauLib.BookVI.Source.Epigenetics::DriftBoundedByRepair",
   "declaration_slug": "drift-bounded-by-repair",
   "kind": "structure",
   "name": "DriftBoundedByRepair",
   "module_name": "TauLib.BookVI.Source.Epigenetics",
-  "module_url": "/verify/taulib/docs/book-vi-source-epigenetics/",
+  "module_url": "/corpus/taulib/docs/book-vi-source-epigenetics/",
   "source_line_start": 361,
   "source_line_end": 370,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Source/Epigenetics.lean#L361-L370",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Source.Epigenetics",
-        "url": "/verify/taulib/docs/book-vi-source-epigenetics/"
+        "url": "/corpus/taulib/docs/book-vi-source-epigenetics/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Source.Epigenetics](/verify/taulib/docs/book-vi-source-epigenetics/)
+- Module: [TauLib.BookVI.Source.Epigenetics](/corpus/taulib/docs/book-vi-source-epigenetics/)
 - Source path: [`TauLib/BookVI/Source/Epigenetics.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Source/Epigenetics.lean#L361-L370)
 - Source range: L361-L370
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

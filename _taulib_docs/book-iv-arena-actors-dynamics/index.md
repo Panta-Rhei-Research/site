@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookIV.Arena.ActorsDynamics",
-  "permalink": "/verify/taulib/docs/book-iv-arena-actors-dynamics/",
+  "permalink": "/corpus/taulib/docs/book-iv-arena-actors-dynamics/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookIV.Arena.ActorsDynamics`.",
   "module_name": "TauLib.BookIV.Arena.ActorsDynamics",
   "module_slug": "book-iv-arena-actors-dynamics",
@@ -51,10 +51,12 @@
     {
       "kind": "structure",
       "name": "DefectBundle",
-      "url": "/verify/taulib/docs/book-iv-arena-actors-dynamics/defect-bundle/",
+      "url": "/corpus/taulib/docs/book-iv-arena-actors-dynamics/defect-bundle/",
       "source_line_start": 47,
       "source_line_end": 54,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D267"
       ]
@@ -62,10 +64,12 @@
     {
       "kind": "structure",
       "name": "RadiationMode",
-      "url": "/verify/taulib/docs/book-iv-arena-actors-dynamics/radiation-mode/",
+      "url": "/corpus/taulib/docs/book-iv-arena-actors-dynamics/radiation-mode/",
       "source_line_start": 62,
       "source_line_end": 69,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D268"
       ]
@@ -73,19 +77,23 @@
     {
       "kind": "def",
       "name": "photon_mode",
-      "url": "/verify/taulib/docs/book-iv-arena-actors-dynamics/photon-mode/",
+      "url": "/corpus/taulib/docs/book-iv-arena-actors-dynamics/photon-mode/",
       "source_line_start": 72,
       "source_line_end": 76,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "VirtualMode",
-      "url": "/verify/taulib/docs/book-iv-arena-actors-dynamics/virtual-mode/",
+      "url": "/corpus/taulib/docs/book-iv-arena-actors-dynamics/virtual-mode/",
       "source_line_start": 84,
       "source_line_end": 91,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D269"
       ]
@@ -93,10 +101,12 @@
     {
       "kind": "def",
       "name": "primary_invariants",
-      "url": "/verify/taulib/docs/book-iv-arena-actors-dynamics/primary-invariants/",
+      "url": "/corpus/taulib/docs/book-iv-arena-actors-dynamics/primary-invariants/",
       "source_line_start": 102,
       "source_line_end": 103,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": [
         "IV.D270"
       ]
@@ -104,19 +114,23 @@
     {
       "kind": "theorem",
       "name": "primary_invariant_count",
-      "url": "/verify/taulib/docs/book-iv-arena-actors-dynamics/primary-invariant-count/",
+      "url": "/corpus/taulib/docs/book-iv-arena-actors-dynamics/primary-invariant-count/",
       "source_line_start": 105,
       "source_line_end": 105,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "second_law_inv",
-      "url": "/verify/taulib/docs/book-iv-arena-actors-dynamics/second-law-inv/",
+      "url": "/corpus/taulib/docs/book-iv-arena-actors-dynamics/second-law-inv/",
       "source_line_start": 114,
       "source_line_end": 121,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.P157"
       ]
@@ -124,10 +138,12 @@
     {
       "kind": "structure",
       "name": "MassFiberStiffness",
-      "url": "/verify/taulib/docs/book-iv-arena-actors-dynamics/mass-fiber-stiffness/",
+      "url": "/corpus/taulib/docs/book-iv-arena-actors-dynamics/mass-fiber-stiffness/",
       "source_line_start": 130,
       "source_line_end": 136,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D271"
       ]
@@ -135,10 +151,12 @@
     {
       "kind": "structure",
       "name": "PropagationOp",
-      "url": "/verify/taulib/docs/book-iv-arena-actors-dynamics/propagation-op/",
+      "url": "/corpus/taulib/docs/book-iv-arena-actors-dynamics/propagation-op/",
       "source_line_start": 147,
       "source_line_end": 152,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "IV.D272"
       ]
@@ -146,10 +164,12 @@
     {
       "kind": "theorem",
       "name": "schrodinger_shadow",
-      "url": "/verify/taulib/docs/book-iv-arena-actors-dynamics/schrodinger-shadow/",
+      "url": "/corpus/taulib/docs/book-iv-arena-actors-dynamics/schrodinger-shadow/",
       "source_line_start": 160,
       "source_line_end": 178,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.D273",
         "IV.P158",
@@ -159,10 +179,12 @@
     {
       "kind": "theorem",
       "name": "heisenberg_ineq",
-      "url": "/verify/taulib/docs/book-iv-arena-actors-dynamics/heisenberg-ineq/",
+      "url": "/corpus/taulib/docs/book-iv-arena-actors-dynamics/heisenberg-ineq/",
       "source_line_start": 181,
       "source_line_end": 202,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "IV.D274",
         "IV.R236",
@@ -172,19 +194,23 @@
     {
       "kind": "theorem",
       "name": "euler_budget",
-      "url": "/verify/taulib/docs/book-iv-arena-actors-dynamics/euler-budget/",
+      "url": "/corpus/taulib/docs/book-iv-arena-actors-dynamics/euler-budget/",
       "source_line_start": 204,
       "source_line_end": 206,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-arena-actors-dynamics/eval-l214/",
+      "url": "/corpus/taulib/docs/book-iv-arena-actors-dynamics/eval-l214/",
       "source_line_start": 214,
       "source_line_end": 214,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": [
         "IV.R237"
       ]
@@ -192,19 +218,23 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-arena-actors-dynamics/eval-l215/",
+      "url": "/corpus/taulib/docs/book-iv-arena-actors-dynamics/eval-l215/",
       "source_line_start": 215,
       "source_line_end": 215,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-iv-arena-actors-dynamics/eval-l216/",
+      "url": "/corpus/taulib/docs/book-iv-arena-actors-dynamics/eval-l216/",
       "source_line_start": 216,
       "source_line_end": 218,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -216,7 +246,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -305,20 +335,20 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [DefectBundle](/verify/taulib/docs/book-iv-arena-actors-dynamics/defect-bundle/) | L47-L54 | defined | `IV.D267` |
-| `structure` | [RadiationMode](/verify/taulib/docs/book-iv-arena-actors-dynamics/radiation-mode/) | L62-L69 | defined | `IV.D268` |
-| `def` | [photon_mode](/verify/taulib/docs/book-iv-arena-actors-dynamics/photon-mode/) | L72-L76 | defined | — |
-| `structure` | [VirtualMode](/verify/taulib/docs/book-iv-arena-actors-dynamics/virtual-mode/) | L84-L91 | defined | `IV.D269` |
-| `def` | [primary_invariants](/verify/taulib/docs/book-iv-arena-actors-dynamics/primary-invariants/) | L102-L103 | defined | `IV.D270` |
-| `theorem` | [primary_invariant_count](/verify/taulib/docs/book-iv-arena-actors-dynamics/primary-invariant-count/) | L105-L105 | formalized | — |
-| `theorem` | [second_law_inv](/verify/taulib/docs/book-iv-arena-actors-dynamics/second-law-inv/) | L114-L121 | formalized | `IV.P157` |
-| `structure` | [MassFiberStiffness](/verify/taulib/docs/book-iv-arena-actors-dynamics/mass-fiber-stiffness/) | L130-L136 | defined | `IV.D271` |
-| `structure` | [PropagationOp](/verify/taulib/docs/book-iv-arena-actors-dynamics/propagation-op/) | L147-L152 | defined | `IV.D272` |
-| `theorem` | [schrodinger_shadow](/verify/taulib/docs/book-iv-arena-actors-dynamics/schrodinger-shadow/) | L160-L178 | formalized | `IV.D273`, `IV.P158`, `IV.T102` |
-| `theorem` | [heisenberg_ineq](/verify/taulib/docs/book-iv-arena-actors-dynamics/heisenberg-ineq/) | L181-L202 | formalized | `IV.D274`, `IV.R236`, `IV.T103` |
-| `theorem` | [euler_budget](/verify/taulib/docs/book-iv-arena-actors-dynamics/euler-budget/) | L204-L206 | formalized | — |
-| `eval` | [#eval L214](/verify/taulib/docs/book-iv-arena-actors-dynamics/eval-l214/) | L214-L214 | computed | `IV.R237` |
-| `eval` | [#eval L215](/verify/taulib/docs/book-iv-arena-actors-dynamics/eval-l215/) | L215-L215 | computed | — |
-| `eval` | [#eval L216](/verify/taulib/docs/book-iv-arena-actors-dynamics/eval-l216/) | L216-L218 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [DefectBundle](/corpus/taulib/docs/book-iv-arena-actors-dynamics/defect-bundle/) | L47-L54 | type/data schema | type/data schema | `IV.D267` |
+| `structure` | [RadiationMode](/corpus/taulib/docs/book-iv-arena-actors-dynamics/radiation-mode/) | L62-L69 | type/data schema | type/data schema | `IV.D268` |
+| `def` | [photon_mode](/corpus/taulib/docs/book-iv-arena-actors-dynamics/photon-mode/) | L72-L76 | definition | definition | — |
+| `structure` | [VirtualMode](/corpus/taulib/docs/book-iv-arena-actors-dynamics/virtual-mode/) | L84-L91 | type/data schema | type/data schema | `IV.D269` |
+| `def` | [primary_invariants](/corpus/taulib/docs/book-iv-arena-actors-dynamics/primary-invariants/) | L102-L103 | data/computed value | data/computed value | `IV.D270` |
+| `theorem` | [primary_invariant_count](/corpus/taulib/docs/book-iv-arena-actors-dynamics/primary-invariant-count/) | L105-L105 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [second_law_inv](/corpus/taulib/docs/book-iv-arena-actors-dynamics/second-law-inv/) | L114-L121 | proof obligation | formal proof obligation checked | `IV.P157` |
+| `structure` | [MassFiberStiffness](/corpus/taulib/docs/book-iv-arena-actors-dynamics/mass-fiber-stiffness/) | L130-L136 | type/data schema | type/data schema | `IV.D271` |
+| `structure` | [PropagationOp](/corpus/taulib/docs/book-iv-arena-actors-dynamics/propagation-op/) | L147-L152 | type/data schema | type/data schema | `IV.D272` |
+| `theorem` | [schrodinger_shadow](/corpus/taulib/docs/book-iv-arena-actors-dynamics/schrodinger-shadow/) | L160-L178 | proof obligation | formal proof obligation checked | `IV.D273`, `IV.P158`, `IV.T102` |
+| `theorem` | [heisenberg_ineq](/corpus/taulib/docs/book-iv-arena-actors-dynamics/heisenberg-ineq/) | L181-L202 | proof obligation | formal proof obligation checked | `IV.D274`, `IV.R236`, `IV.T103` |
+| `theorem` | [euler_budget](/corpus/taulib/docs/book-iv-arena-actors-dynamics/euler-budget/) | L204-L206 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L214](/corpus/taulib/docs/book-iv-arena-actors-dynamics/eval-l214/) | L214-L214 | computed check | computed check | `IV.R237` |
+| `eval` | [#eval L215](/corpus/taulib/docs/book-iv-arena-actors-dynamics/eval-l215/) | L215-L215 | computed check | computed check | — |
+| `eval` | [#eval L216](/corpus/taulib/docs/book-iv-arena-actors-dynamics/eval-l216/) | L216-L218 | computed check | computed check | — |

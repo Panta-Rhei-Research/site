@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ThresholdCrossingInvariant",
-  "permalink": "/verify/taulib/docs/book-vii-meta-archetypes/threshold-crossing-invariant/",
+  "permalink": "/corpus/taulib/docs/book-vii-meta-archetypes/threshold-crossing-invariant/",
   "summary_short": "`structure` declaration in `TauLib.BookVII.Meta.Archetypes`.",
   "declaration_id": "TauLib.BookVII.Meta.Archetypes::ThresholdCrossingInvariant",
   "declaration_slug": "threshold-crossing-invariant",
   "kind": "structure",
   "name": "ThresholdCrossingInvariant",
   "module_name": "TauLib.BookVII.Meta.Archetypes",
-  "module_url": "/verify/taulib/docs/book-vii-meta-archetypes/",
+  "module_url": "/corpus/taulib/docs/book-vii-meta-archetypes/",
   "source_line_start": 229,
   "source_line_end": 238,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Meta/Archetypes.lean#L229-L238",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVII.Meta.Archetypes",
-        "url": "/verify/taulib/docs/book-vii-meta-archetypes/"
+        "url": "/corpus/taulib/docs/book-vii-meta-archetypes/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVII.Meta.Archetypes](/verify/taulib/docs/book-vii-meta-archetypes/)
+- Module: [TauLib.BookVII.Meta.Archetypes](/corpus/taulib/docs/book-vii-meta-archetypes/)
 - Source path: [`TauLib/BookVII/Meta/Archetypes.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Meta/Archetypes.lean#L229-L238)
 - Source range: L229-L238
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

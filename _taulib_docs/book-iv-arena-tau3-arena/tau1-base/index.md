@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "Tau1Base",
-  "permalink": "/verify/taulib/docs/book-iv-arena-tau3-arena/tau1-base/",
+  "permalink": "/corpus/taulib/docs/book-iv-arena-tau3-arena/tau1-base/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Arena.Tau3Arena`.",
   "declaration_id": "TauLib.BookIV.Arena.Tau3Arena::Tau1Base",
   "declaration_slug": "tau1-base",
   "kind": "structure",
   "name": "Tau1Base",
   "module_name": "TauLib.BookIV.Arena.Tau3Arena",
-  "module_url": "/verify/taulib/docs/book-iv-arena-tau3-arena/",
+  "module_url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/",
   "source_line_start": 41,
   "source_line_end": 52,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/Tau3Arena.lean#L41-L52",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Arena.Tau3Arena",
-        "url": "/verify/taulib/docs/book-iv-arena-tau3-arena/"
+        "url": "/corpus/taulib/docs/book-iv-arena-tau3-arena/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Arena.Tau3Arena](/verify/taulib/docs/book-iv-arena-tau3-arena/)
+- Module: [TauLib.BookIV.Arena.Tau3Arena](/corpus/taulib/docs/book-iv-arena-tau3-arena/)
 - Source path: [`TauLib/BookIV/Arena/Tau3Arena.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/Tau3Arena.lean#L41-L52)
 - Source range: L41-L52
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

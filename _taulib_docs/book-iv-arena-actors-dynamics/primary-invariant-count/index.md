@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "primary_invariant_count",
-  "permalink": "/verify/taulib/docs/book-iv-arena-actors-dynamics/primary-invariant-count/",
+  "permalink": "/corpus/taulib/docs/book-iv-arena-actors-dynamics/primary-invariant-count/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Arena.ActorsDynamics`.",
   "declaration_id": "TauLib.BookIV.Arena.ActorsDynamics::primary_invariant_count",
   "declaration_slug": "primary-invariant-count",
   "kind": "theorem",
   "name": "primary_invariant_count",
   "module_name": "TauLib.BookIV.Arena.ActorsDynamics",
-  "module_url": "/verify/taulib/docs/book-iv-arena-actors-dynamics/",
+  "module_url": "/corpus/taulib/docs/book-iv-arena-actors-dynamics/",
   "source_line_start": 105,
   "source_line_end": 105,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/ActorsDynamics.lean#L105-L105",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Arena.ActorsDynamics",
-        "url": "/verify/taulib/docs/book-iv-arena-actors-dynamics/"
+        "url": "/corpus/taulib/docs/book-iv-arena-actors-dynamics/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Arena.ActorsDynamics](/verify/taulib/docs/book-iv-arena-actors-dynamics/)
+- Module: [TauLib.BookIV.Arena.ActorsDynamics](/corpus/taulib/docs/book-iv-arena-actors-dynamics/)
 - Source path: [`TauLib/BookIV/Arena/ActorsDynamics.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Arena/ActorsDynamics.lean#L105-L105)
 - Source range: L105-L105
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

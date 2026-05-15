@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ontic_closure",
-  "permalink": "/verify/taulib/docs/book-i-orbit-closure/ontic-closure/",
+  "permalink": "/corpus/taulib/docs/book-i-orbit-closure/ontic-closure/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Orbit.Closure`.",
   "declaration_id": "TauLib.BookI.Orbit.Closure::ontic_closure",
   "declaration_slug": "ontic-closure",
   "kind": "theorem",
   "name": "ontic_closure",
   "module_name": "TauLib.BookI.Orbit.Closure",
-  "module_url": "/verify/taulib/docs/book-i-orbit-closure/",
+  "module_url": "/corpus/taulib/docs/book-i-orbit-closure/",
   "source_line_start": 36,
   "source_line_end": 43,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/Closure.lean#L36-L43",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Orbit.Closure",
-        "url": "/verify/taulib/docs/book-i-orbit-closure/"
+        "url": "/corpus/taulib/docs/book-i-orbit-closure/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Orbit.Closure](/verify/taulib/docs/book-i-orbit-closure/)
+- Module: [TauLib.BookI.Orbit.Closure](/corpus/taulib/docs/book-i-orbit-closure/)
 - Source path: [`TauLib/BookI/Orbit/Closure.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/Closure.lean#L36-L43)
 - Source range: L36-L43
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

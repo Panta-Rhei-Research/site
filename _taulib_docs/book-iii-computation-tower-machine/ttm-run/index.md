@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ttm_run",
-  "permalink": "/verify/taulib/docs/book-iii-computation-tower-machine/ttm-run/",
+  "permalink": "/corpus/taulib/docs/book-iii-computation-tower-machine/ttm-run/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Computation.TowerMachine`.",
   "declaration_id": "TauLib.BookIII.Computation.TowerMachine::ttm_run",
   "declaration_slug": "ttm-run",
   "kind": "def",
   "name": "ttm_run",
   "module_name": "TauLib.BookIII.Computation.TowerMachine",
-  "module_url": "/verify/taulib/docs/book-iii-computation-tower-machine/",
+  "module_url": "/corpus/taulib/docs/book-iii-computation-tower-machine/",
   "source_line_start": 68,
   "source_line_end": 74,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Computation/TowerMachine.lean#L68-L74",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Computation.TowerMachine",
-        "url": "/verify/taulib/docs/book-iii-computation-tower-machine/"
+        "url": "/corpus/taulib/docs/book-iii-computation-tower-machine/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Computation.TowerMachine](/verify/taulib/docs/book-iii-computation-tower-machine/)
+- Module: [TauLib.BookIII.Computation.TowerMachine](/corpus/taulib/docs/book-iii-computation-tower-machine/)
 - Source path: [`TauLib/BookIII/Computation/TowerMachine.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Computation/TowerMachine.lean#L68-L74)
 - Source range: L68-L74
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

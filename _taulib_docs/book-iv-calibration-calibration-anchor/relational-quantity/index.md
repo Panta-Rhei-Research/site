@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "RelationalQuantity",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/relational-quantity/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/relational-quantity/",
   "summary_short": "`structure` declaration in `TauLib.BookIV.Calibration.CalibrationAnchor`.",
   "declaration_id": "TauLib.BookIV.Calibration.CalibrationAnchor::RelationalQuantity",
   "declaration_slug": "relational-quantity",
   "kind": "structure",
   "name": "RelationalQuantity",
   "module_name": "TauLib.BookIV.Calibration.CalibrationAnchor",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/",
   "source_line_start": 165,
   "source_line_end": 172,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/CalibrationAnchor.lean#L165-L172",
   "formal_status": "defined",
+  "declaration_role": "type/data schema",
+  "formal_status_label": "type/data schema",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.CalibrationAnchor",
-        "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "structure",
-      "status": "defined"
+      "role": "type/data schema",
+      "status": "type/data schema"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.CalibrationAnchor](/verify/taulib/docs/book-iv-calibration-calibration-anchor/)
+- Module: [TauLib.BookIV.Calibration.CalibrationAnchor](/corpus/taulib/docs/book-iv-calibration-calibration-anchor/)
 - Source path: [`TauLib/BookIV/Calibration/CalibrationAnchor.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/CalibrationAnchor.lean#L165-L172)
 - Source range: L165-L172
 - Kind: `structure`
-- Formal status hint: `defined`
+- Public role: `type/data schema`
+- Formal status hint: `type/data schema`
 
 ## Registry Links
 

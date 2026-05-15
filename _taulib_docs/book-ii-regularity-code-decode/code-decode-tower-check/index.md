@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "code_decode_tower_check",
-  "permalink": "/verify/taulib/docs/book-ii-regularity-code-decode/code-decode-tower-check/",
+  "permalink": "/corpus/taulib/docs/book-ii-regularity-code-decode/code-decode-tower-check/",
   "summary_short": "`def` declaration in `TauLib.BookII.Regularity.CodeDecode`.",
   "declaration_id": "TauLib.BookII.Regularity.CodeDecode::code_decode_tower_check",
   "declaration_slug": "code-decode-tower-check",
   "kind": "def",
   "name": "code_decode_tower_check",
   "module_name": "TauLib.BookII.Regularity.CodeDecode",
-  "module_url": "/verify/taulib/docs/book-ii-regularity-code-decode/",
+  "module_url": "/corpus/taulib/docs/book-ii-regularity-code-decode/",
   "source_line_start": 340,
   "source_line_end": 354,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Regularity/CodeDecode.lean#L340-L354",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookII.Regularity.CodeDecode",
-        "url": "/verify/taulib/docs/book-ii-regularity-code-decode/"
+        "url": "/corpus/taulib/docs/book-ii-regularity-code-decode/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookII.Regularity.CodeDecode](/verify/taulib/docs/book-ii-regularity-code-decode/)
+- Module: [TauLib.BookII.Regularity.CodeDecode](/corpus/taulib/docs/book-ii-regularity-code-decode/)
 - Source path: [`TauLib/BookII/Regularity/CodeDecode.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookII/Regularity/CodeDecode.lean#L340-L354)
 - Source range: L340-L354
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "eval at L420",
-  "permalink": "/verify/taulib/docs/book-iv-calibration-calibration-anchor-ext/eval-l420/",
+  "permalink": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor-ext/eval-l420/",
   "summary_short": "`eval` declaration in `TauLib.BookIV.Calibration.CalibrationAnchorExt`.",
   "declaration_id": "TauLib.BookIV.Calibration.CalibrationAnchorExt::#eval:420",
   "declaration_slug": "eval-l420",
   "kind": "eval",
   "name": null,
   "module_name": "TauLib.BookIV.Calibration.CalibrationAnchorExt",
-  "module_url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor-ext/",
+  "module_url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor-ext/",
   "source_line_start": 420,
   "source_line_end": 420,
   "registry_ids": [
@@ -54,15 +54,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/CalibrationAnchorExt.lean#L420-L420",
   "formal_status": "computed",
+  "declaration_role": "computed check",
+  "formal_status_label": "computed check",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Calibration.CalibrationAnchorExt",
-        "url": "/verify/taulib/docs/book-iv-calibration-calibration-anchor-ext/"
+        "url": "/corpus/taulib/docs/book-iv-calibration-calibration-anchor-ext/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -79,7 +81,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "eval",
-      "status": "computed"
+      "role": "computed check",
+      "status": "computed check"
     }
   },
   "layout": "taulib-doc",
@@ -100,11 +103,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Calibration.CalibrationAnchorExt](/verify/taulib/docs/book-iv-calibration-calibration-anchor-ext/)
+- Module: [TauLib.BookIV.Calibration.CalibrationAnchorExt](/corpus/taulib/docs/book-iv-calibration-calibration-anchor-ext/)
 - Source path: [`TauLib/BookIV/Calibration/CalibrationAnchorExt.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Calibration/CalibrationAnchorExt.lean#L420-L420)
 - Source range: L420-L420
 - Kind: `eval`
-- Formal status hint: `computed`
+- Public role: `computed check`
+- Formal status hint: `computed check`
 
 ## Registry Links
 

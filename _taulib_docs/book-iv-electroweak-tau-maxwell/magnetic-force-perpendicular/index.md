@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "magnetic_force_perpendicular",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-tau-maxwell/magnetic-force-perpendicular/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-tau-maxwell/magnetic-force-perpendicular/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Electroweak.TauMaxwell`.",
   "declaration_id": "TauLib.BookIV.Electroweak.TauMaxwell::magnetic_force_perpendicular",
   "declaration_slug": "magnetic-force-perpendicular",
   "kind": "theorem",
   "name": "magnetic_force_perpendicular",
   "module_name": "TauLib.BookIV.Electroweak.TauMaxwell",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-tau-maxwell/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-tau-maxwell/",
   "source_line_start": 441,
   "source_line_end": 443,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/TauMaxwell.lean#L441-L443",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.TauMaxwell",
-        "url": "/verify/taulib/docs/book-iv-electroweak-tau-maxwell/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-tau-maxwell/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.TauMaxwell](/verify/taulib/docs/book-iv-electroweak-tau-maxwell/)
+- Module: [TauLib.BookIV.Electroweak.TauMaxwell](/corpus/taulib/docs/book-iv-electroweak-tau-maxwell/)
 - Source path: [`TauLib/BookIV/Electroweak/TauMaxwell.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/TauMaxwell.lean#L441-L443)
 - Source range: L441-L443
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

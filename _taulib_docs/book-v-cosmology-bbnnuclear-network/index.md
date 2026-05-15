@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.Cosmology.BBNNuclearNetwork",
-  "permalink": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/",
+  "permalink": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.Cosmology.BBNNuclearNetwork`.",
   "module_name": "TauLib.BookV.Cosmology.BBNNuclearNetwork",
   "module_slug": "book-v-cosmology-bbnnuclear-network",
@@ -63,10 +63,12 @@
     {
       "kind": "structure",
       "name": "DeuteriumBottleneck",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/deuterium-bottleneck/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/deuterium-bottleneck/",
       "source_line_start": 90,
       "source_line_end": 95,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D301"
       ]
@@ -74,19 +76,23 @@
     {
       "kind": "def",
       "name": "deuterium_bottleneck",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/deuterium-bottleneck-l98/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/deuterium-bottleneck-l98/",
       "source_line_start": 98,
       "source_line_end": 98,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "inductive",
       "name": "BBNNucleus",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/bbnnucleus/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/bbnnucleus/",
       "source_line_start": 105,
       "source_line_end": 114,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D302"
       ]
@@ -94,28 +100,34 @@
     {
       "kind": "def",
       "name": "BBNNucleus.massNumber",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/mass-number/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/mass-number/",
       "source_line_start": 117,
       "source_line_end": 125,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "bbn_nucleus_count",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/bbn-nucleus-count/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/bbn-nucleus-count/",
       "source_line_start": 128,
       "source_line_end": 130,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "inductive",
       "name": "BBNReaction",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/bbnreaction/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/bbnreaction/",
       "source_line_start": 137,
       "source_line_end": 150,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D303"
       ]
@@ -123,28 +135,34 @@
     {
       "kind": "def",
       "name": "bbn_reactions",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/bbn-reactions/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/bbn-reactions/",
       "source_line_start": 153,
       "source_line_end": 155,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "bbn_reaction_count",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/bbn-reaction-count/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/bbn-reaction-count/",
       "source_line_start": 158,
       "source_line_end": 158,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "inductive",
       "name": "BBNSector",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/bbnsector/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/bbnsector/",
       "source_line_start": 165,
       "source_line_end": 169,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D304"
       ]
@@ -152,55 +170,67 @@
     {
       "kind": "def",
       "name": "reaction_sector",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/reaction-sector/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/reaction-sector/",
       "source_line_start": 172,
       "source_line_end": 184,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "sector_count",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/sector-count/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/sector-count/",
       "source_line_start": 187,
       "source_line_end": 188,
       "formal_status": "defined",
+      "declaration_role": "data/computed value",
+      "formal_status_label": "data/computed value",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "a_sector_count",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/a-sector-count/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/a-sector-count/",
       "source_line_start": 192,
       "source_line_end": 192,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "b_sector_count",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/b-sector-count/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/b-sector-count/",
       "source_line_start": 194,
       "source_line_end": 194,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "c_sector_count",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/c-sector-count/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/c-sector-count/",
       "source_line_start": 196,
       "source_line_end": 196,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "sector_distribution_sum",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/sector-distribution-sum/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/sector-distribution-sum/",
       "source_line_start": 199,
       "source_line_end": 201,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T242"
       ]
@@ -208,19 +238,23 @@
     {
       "kind": "theorem",
       "name": "reaction_9_is_B_sector",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/reaction-9-is-b-sector/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/reaction-9-is-b-sector/",
       "source_line_start": 204,
       "source_line_end": 205,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "FiberHolonomyCorrection",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/fiber-holonomy-correction/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/fiber-holonomy-correction/",
       "source_line_start": 214,
       "source_line_end": 223,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D305"
       ]
@@ -228,19 +262,23 @@
     {
       "kind": "def",
       "name": "fiber_holonomy",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/fiber-holonomy/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/fiber-holonomy/",
       "source_line_start": 226,
       "source_line_end": 227,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "Be7SuppressionFactor",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/be7-suppression-factor/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/be7-suppression-factor/",
       "source_line_start": 236,
       "source_line_end": 245,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D306"
       ]
@@ -248,19 +286,23 @@
     {
       "kind": "def",
       "name": "be7_suppression",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/be7-suppression/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/be7-suppression/",
       "source_line_start": 248,
       "source_line_end": 250,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "suppression_is_one_third",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/suppression-is-one-third/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/suppression-is-one-third/",
       "source_line_start": 254,
       "source_line_end": 256,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T243"
       ]
@@ -268,19 +310,23 @@
     {
       "kind": "theorem",
       "name": "suppression_den_matches_tau3_dim",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/suppression-den-matches-tau3-dim/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/suppression-den-matches-tau3-dim/",
       "source_line_start": 259,
       "source_line_end": 260,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "LithiumResolution",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/lithium-resolution/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/lithium-resolution/",
       "source_line_start": 270,
       "source_line_end": 285,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.T244"
       ]
@@ -288,28 +334,34 @@
     {
       "kind": "def",
       "name": "lithium_resolution",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/lithium-resolution-l288/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/lithium-resolution-l288/",
       "source_line_start": 288,
       "source_line_end": 290,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "lithium_within_1sigma",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/lithium-within-1sigma/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/lithium-within-1sigma/",
       "source_line_start": 293,
       "source_line_end": 298,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "DeuteriumPrediction",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/deuterium-prediction/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/deuterium-prediction/",
       "source_line_start": 307,
       "source_line_end": 316,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.T241"
       ]
@@ -317,19 +369,23 @@
     {
       "kind": "def",
       "name": "deuterium_prediction",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/deuterium-prediction-l319/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/deuterium-prediction-l319/",
       "source_line_start": 319,
       "source_line_end": 319,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "dh_in_range",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/dh-in-range/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/dh-in-range/",
       "source_line_start": 323,
       "source_line_end": 328,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P166"
       ]
@@ -337,10 +393,12 @@
     {
       "kind": "structure",
       "name": "He3Prediction",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/he3-prediction/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/he3-prediction/",
       "source_line_start": 337,
       "source_line_end": 344,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.T247"
       ]
@@ -348,19 +406,23 @@
     {
       "kind": "def",
       "name": "he3_prediction",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/he3-prediction-l347/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/he3-prediction-l347/",
       "source_line_start": 347,
       "source_line_end": 347,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "he3_in_range",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/he3-in-range/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/he3-in-range/",
       "source_line_start": 350,
       "source_line_end": 355,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T247"
       ]
@@ -368,10 +430,12 @@
     {
       "kind": "theorem",
       "name": "yp_preserved",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/yp-preserved/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/yp-preserved/",
       "source_line_start": 364,
       "source_line_end": 372,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T245"
       ]
@@ -379,10 +443,12 @@
     {
       "kind": "theorem",
       "name": "dh_preserved",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/dh-preserved/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/dh-preserved/",
       "source_line_start": 378,
       "source_line_end": 383,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T246"
       ]
@@ -390,10 +456,12 @@
     {
       "kind": "theorem",
       "name": "selectivity_threshold",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/selectivity-threshold/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/selectivity-threshold/",
       "source_line_start": 388,
       "source_line_end": 400,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P168"
       ]
@@ -401,10 +469,12 @@
     {
       "kind": "structure",
       "name": "CompleteBBNTable",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/complete-bbntable/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/complete-bbntable/",
       "source_line_start": 408,
       "source_line_end": 421,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D307"
       ]
@@ -412,19 +482,23 @@
     {
       "kind": "def",
       "name": "complete_bbn_table",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/complete-bbn-table/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/complete-bbn-table/",
       "source_line_start": 424,
       "source_line_end": 424,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "bbn_table_all_within_range",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/bbn-table-all-within-range/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/bbn-table-all-within-range/",
       "source_line_start": 428,
       "source_line_end": 434,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P169"
       ]
@@ -432,10 +506,12 @@
     {
       "kind": "theorem",
       "name": "spite_plateau_consistent",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/spite-plateau-consistent/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/spite-plateau-consistent/",
       "source_line_start": 441,
       "source_line_end": 447,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P167"
       ]
@@ -443,28 +519,34 @@
     {
       "kind": "theorem",
       "name": "dim_tau3_universality",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/dim-tau3-universality/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/dim-tau3-universality/",
       "source_line_start": 455,
       "source_line_end": 460,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "bbn_species_standard",
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/bbn-species-standard/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/bbn-species-standard/",
       "source_line_start": 463,
       "source_line_end": 463,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l519/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l519/",
       "source_line_start": 519,
       "source_line_end": 519,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": [
         "V.R427",
         "V.R428",
@@ -483,118 +565,144 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l520/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l520/",
       "source_line_start": 520,
       "source_line_end": 520,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l521/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l521/",
       "source_line_start": 521,
       "source_line_end": 521,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l522/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l522/",
       "source_line_start": 522,
       "source_line_end": 522,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l523/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l523/",
       "source_line_start": 523,
       "source_line_end": 523,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l524/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l524/",
       "source_line_start": 524,
       "source_line_end": 524,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l525/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l525/",
       "source_line_start": 525,
       "source_line_end": 525,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l526/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l526/",
       "source_line_start": 526,
       "source_line_end": 526,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l527/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l527/",
       "source_line_start": 527,
       "source_line_end": 527,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l528/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l528/",
       "source_line_start": 528,
       "source_line_end": 528,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l529/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l529/",
       "source_line_start": 529,
       "source_line_end": 529,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l530/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l530/",
       "source_line_start": 530,
       "source_line_end": 530,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l531/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l531/",
       "source_line_start": 531,
       "source_line_end": 531,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l532/",
+      "url": "/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l532/",
       "source_line_start": 532,
       "source_line_end": 534,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -606,7 +714,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -707,59 +815,59 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [DeuteriumBottleneck](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/deuterium-bottleneck/) | L90-L95 | defined | `V.D301` |
-| `def` | [deuterium_bottleneck](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/deuterium-bottleneck-l98/) | L98-L98 | defined | — |
-| `inductive` | [BBNNucleus](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/bbnnucleus/) | L105-L114 | defined | `V.D302` |
-| `def` | [BBNNucleus.massNumber](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/mass-number/) | L117-L125 | defined | — |
-| `theorem` | [bbn_nucleus_count](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/bbn-nucleus-count/) | L128-L130 | formalized | — |
-| `inductive` | [BBNReaction](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/bbnreaction/) | L137-L150 | defined | `V.D303` |
-| `def` | [bbn_reactions](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/bbn-reactions/) | L153-L155 | defined | — |
-| `theorem` | [bbn_reaction_count](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/bbn-reaction-count/) | L158-L158 | formalized | — |
-| `inductive` | [BBNSector](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/bbnsector/) | L165-L169 | defined | `V.D304` |
-| `def` | [reaction_sector](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/reaction-sector/) | L172-L184 | defined | — |
-| `def` | [sector_count](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/sector-count/) | L187-L188 | defined | — |
-| `theorem` | [a_sector_count](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/a-sector-count/) | L192-L192 | formalized | — |
-| `theorem` | [b_sector_count](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/b-sector-count/) | L194-L194 | formalized | — |
-| `theorem` | [c_sector_count](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/c-sector-count/) | L196-L196 | formalized | — |
-| `theorem` | [sector_distribution_sum](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/sector-distribution-sum/) | L199-L201 | formalized | `V.T242` |
-| `theorem` | [reaction_9_is_B_sector](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/reaction-9-is-b-sector/) | L204-L205 | formalized | — |
-| `structure` | [FiberHolonomyCorrection](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/fiber-holonomy-correction/) | L214-L223 | defined | `V.D305` |
-| `def` | [fiber_holonomy](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/fiber-holonomy/) | L226-L227 | defined | — |
-| `structure` | [Be7SuppressionFactor](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/be7-suppression-factor/) | L236-L245 | defined | `V.D306` |
-| `def` | [be7_suppression](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/be7-suppression/) | L248-L250 | defined | — |
-| `theorem` | [suppression_is_one_third](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/suppression-is-one-third/) | L254-L256 | formalized | `V.T243` |
-| `theorem` | [suppression_den_matches_tau3_dim](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/suppression-den-matches-tau3-dim/) | L259-L260 | formalized | — |
-| `structure` | [LithiumResolution](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/lithium-resolution/) | L270-L285 | defined | `V.T244` |
-| `def` | [lithium_resolution](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/lithium-resolution-l288/) | L288-L290 | defined | — |
-| `theorem` | [lithium_within_1sigma](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/lithium-within-1sigma/) | L293-L298 | formalized | — |
-| `structure` | [DeuteriumPrediction](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/deuterium-prediction/) | L307-L316 | defined | `V.T241` |
-| `def` | [deuterium_prediction](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/deuterium-prediction-l319/) | L319-L319 | defined | — |
-| `theorem` | [dh_in_range](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/dh-in-range/) | L323-L328 | formalized | `V.P166` |
-| `structure` | [He3Prediction](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/he3-prediction/) | L337-L344 | defined | `V.T247` |
-| `def` | [he3_prediction](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/he3-prediction-l347/) | L347-L347 | defined | — |
-| `theorem` | [he3_in_range](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/he3-in-range/) | L350-L355 | formalized | `V.T247` |
-| `theorem` | [yp_preserved](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/yp-preserved/) | L364-L372 | formalized | `V.T245` |
-| `theorem` | [dh_preserved](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/dh-preserved/) | L378-L383 | formalized | `V.T246` |
-| `theorem` | [selectivity_threshold](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/selectivity-threshold/) | L388-L400 | formalized | `V.P168` |
-| `structure` | [CompleteBBNTable](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/complete-bbntable/) | L408-L421 | defined | `V.D307` |
-| `def` | [complete_bbn_table](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/complete-bbn-table/) | L424-L424 | defined | — |
-| `theorem` | [bbn_table_all_within_range](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/bbn-table-all-within-range/) | L428-L434 | formalized | `V.P169` |
-| `theorem` | [spite_plateau_consistent](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/spite-plateau-consistent/) | L441-L447 | formalized | `V.P167` |
-| `theorem` | [dim_tau3_universality](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/dim-tau3-universality/) | L455-L460 | formalized | — |
-| `theorem` | [bbn_species_standard](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/bbn-species-standard/) | L463-L463 | formalized | — |
-| `eval` | [#eval L519](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l519/) | L519-L519 | computed | `V.R427`, `V.R428`, `V.R429`, `V.R430`, `V.R431`, `V.R432`, `V.R433`, `V.R434`, `V.R435`, `V.R436`, `V.R437`, `V.R438` |
-| `eval` | [#eval L520](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l520/) | L520-L520 | computed | — |
-| `eval` | [#eval L521](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l521/) | L521-L521 | computed | — |
-| `eval` | [#eval L522](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l522/) | L522-L522 | computed | — |
-| `eval` | [#eval L523](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l523/) | L523-L523 | computed | — |
-| `eval` | [#eval L524](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l524/) | L524-L524 | computed | — |
-| `eval` | [#eval L525](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l525/) | L525-L525 | computed | — |
-| `eval` | [#eval L526](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l526/) | L526-L526 | computed | — |
-| `eval` | [#eval L527](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l527/) | L527-L527 | computed | — |
-| `eval` | [#eval L528](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l528/) | L528-L528 | computed | — |
-| `eval` | [#eval L529](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l529/) | L529-L529 | computed | — |
-| `eval` | [#eval L530](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l530/) | L530-L530 | computed | — |
-| `eval` | [#eval L531](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l531/) | L531-L531 | computed | — |
-| `eval` | [#eval L532](/verify/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l532/) | L532-L534 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [DeuteriumBottleneck](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/deuterium-bottleneck/) | L90-L95 | type/data schema | type/data schema | `V.D301` |
+| `def` | [deuterium_bottleneck](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/deuterium-bottleneck-l98/) | L98-L98 | definition | definition | — |
+| `inductive` | [BBNNucleus](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/bbnnucleus/) | L105-L114 | type/data schema | type/data schema | `V.D302` |
+| `def` | [BBNNucleus.massNumber](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/mass-number/) | L117-L125 | definition | definition | — |
+| `theorem` | [bbn_nucleus_count](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/bbn-nucleus-count/) | L128-L130 | proof obligation | formal proof obligation checked | — |
+| `inductive` | [BBNReaction](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/bbnreaction/) | L137-L150 | type/data schema | type/data schema | `V.D303` |
+| `def` | [bbn_reactions](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/bbn-reactions/) | L153-L155 | data/computed value | data/computed value | — |
+| `theorem` | [bbn_reaction_count](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/bbn-reaction-count/) | L158-L158 | proof obligation | formal proof obligation checked | — |
+| `inductive` | [BBNSector](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/bbnsector/) | L165-L169 | type/data schema | type/data schema | `V.D304` |
+| `def` | [reaction_sector](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/reaction-sector/) | L172-L184 | definition | definition | — |
+| `def` | [sector_count](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/sector-count/) | L187-L188 | data/computed value | data/computed value | — |
+| `theorem` | [a_sector_count](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/a-sector-count/) | L192-L192 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [b_sector_count](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/b-sector-count/) | L194-L194 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [c_sector_count](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/c-sector-count/) | L196-L196 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [sector_distribution_sum](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/sector-distribution-sum/) | L199-L201 | proof obligation | formal proof obligation checked | `V.T242` |
+| `theorem` | [reaction_9_is_B_sector](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/reaction-9-is-b-sector/) | L204-L205 | proof obligation | formal proof obligation checked | — |
+| `structure` | [FiberHolonomyCorrection](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/fiber-holonomy-correction/) | L214-L223 | type/data schema | type/data schema | `V.D305` |
+| `def` | [fiber_holonomy](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/fiber-holonomy/) | L226-L227 | definition | definition | — |
+| `structure` | [Be7SuppressionFactor](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/be7-suppression-factor/) | L236-L245 | type/data schema | type/data schema | `V.D306` |
+| `def` | [be7_suppression](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/be7-suppression/) | L248-L250 | definition | definition | — |
+| `theorem` | [suppression_is_one_third](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/suppression-is-one-third/) | L254-L256 | proof obligation | formal proof obligation checked | `V.T243` |
+| `theorem` | [suppression_den_matches_tau3_dim](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/suppression-den-matches-tau3-dim/) | L259-L260 | proof obligation | formal proof obligation checked | — |
+| `structure` | [LithiumResolution](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/lithium-resolution/) | L270-L285 | type/data schema | type/data schema | `V.T244` |
+| `def` | [lithium_resolution](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/lithium-resolution-l288/) | L288-L290 | definition | definition | — |
+| `theorem` | [lithium_within_1sigma](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/lithium-within-1sigma/) | L293-L298 | proof obligation | formal proof obligation checked | — |
+| `structure` | [DeuteriumPrediction](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/deuterium-prediction/) | L307-L316 | type/data schema | type/data schema | `V.T241` |
+| `def` | [deuterium_prediction](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/deuterium-prediction-l319/) | L319-L319 | definition | definition | — |
+| `theorem` | [dh_in_range](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/dh-in-range/) | L323-L328 | proof obligation | formal proof obligation checked | `V.P166` |
+| `structure` | [He3Prediction](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/he3-prediction/) | L337-L344 | type/data schema | type/data schema | `V.T247` |
+| `def` | [he3_prediction](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/he3-prediction-l347/) | L347-L347 | definition | definition | — |
+| `theorem` | [he3_in_range](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/he3-in-range/) | L350-L355 | proof obligation | formal proof obligation checked | `V.T247` |
+| `theorem` | [yp_preserved](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/yp-preserved/) | L364-L372 | proof obligation | formal proof obligation checked | `V.T245` |
+| `theorem` | [dh_preserved](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/dh-preserved/) | L378-L383 | proof obligation | formal proof obligation checked | `V.T246` |
+| `theorem` | [selectivity_threshold](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/selectivity-threshold/) | L388-L400 | proof obligation | formal proof obligation checked | `V.P168` |
+| `structure` | [CompleteBBNTable](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/complete-bbntable/) | L408-L421 | type/data schema | type/data schema | `V.D307` |
+| `def` | [complete_bbn_table](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/complete-bbn-table/) | L424-L424 | definition | definition | — |
+| `theorem` | [bbn_table_all_within_range](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/bbn-table-all-within-range/) | L428-L434 | proof obligation | formal proof obligation checked | `V.P169` |
+| `theorem` | [spite_plateau_consistent](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/spite-plateau-consistent/) | L441-L447 | proof obligation | formal proof obligation checked | `V.P167` |
+| `theorem` | [dim_tau3_universality](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/dim-tau3-universality/) | L455-L460 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [bbn_species_standard](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/bbn-species-standard/) | L463-L463 | proof obligation | formal proof obligation checked | — |
+| `eval` | [#eval L519](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l519/) | L519-L519 | computed check | computed check | `V.R427`, `V.R428`, `V.R429`, `V.R430`, `V.R431`, `V.R432`, `V.R433`, `V.R434`, `V.R435`, `V.R436`, `V.R437`, `V.R438` |
+| `eval` | [#eval L520](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l520/) | L520-L520 | computed check | computed check | — |
+| `eval` | [#eval L521](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l521/) | L521-L521 | computed check | computed check | — |
+| `eval` | [#eval L522](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l522/) | L522-L522 | computed check | computed check | — |
+| `eval` | [#eval L523](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l523/) | L523-L523 | computed check | computed check | — |
+| `eval` | [#eval L524](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l524/) | L524-L524 | computed check | computed check | — |
+| `eval` | [#eval L525](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l525/) | L525-L525 | computed check | computed check | — |
+| `eval` | [#eval L526](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l526/) | L526-L526 | computed check | computed check | — |
+| `eval` | [#eval L527](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l527/) | L527-L527 | computed check | computed check | — |
+| `eval` | [#eval L528](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l528/) | L528-L528 | computed check | computed check | — |
+| `eval` | [#eval L529](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l529/) | L529-L529 | computed check | computed check | — |
+| `eval` | [#eval L530](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l530/) | L530-L530 | computed check | computed check | — |
+| `eval` | [#eval L531](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l531/) | L531-L531 | computed check | computed check | — |
+| `eval` | [#eval L532](/corpus/taulib/docs/book-v-cosmology-bbnnuclear-network/eval-l532/) | L532-L534 | computed check | computed check | — |

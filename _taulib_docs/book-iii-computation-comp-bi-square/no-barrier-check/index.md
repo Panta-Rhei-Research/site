@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "no_barrier_check",
-  "permalink": "/verify/taulib/docs/book-iii-computation-comp-bi-square/no-barrier-check/",
+  "permalink": "/corpus/taulib/docs/book-iii-computation-comp-bi-square/no-barrier-check/",
   "summary_short": "`def` declaration in `TauLib.BookIII.Computation.CompBiSquare`.",
   "declaration_id": "TauLib.BookIII.Computation.CompBiSquare::no_barrier_check",
   "declaration_slug": "no-barrier-check",
   "kind": "def",
   "name": "no_barrier_check",
   "module_name": "TauLib.BookIII.Computation.CompBiSquare",
-  "module_url": "/verify/taulib/docs/book-iii-computation-comp-bi-square/",
+  "module_url": "/corpus/taulib/docs/book-iii-computation-comp-bi-square/",
   "source_line_start": 142,
   "source_line_end": 146,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Computation/CompBiSquare.lean#L142-L146",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIII.Computation.CompBiSquare",
-        "url": "/verify/taulib/docs/book-iii-computation-comp-bi-square/"
+        "url": "/corpus/taulib/docs/book-iii-computation-comp-bi-square/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIII.Computation.CompBiSquare](/verify/taulib/docs/book-iii-computation-comp-bi-square/)
+- Module: [TauLib.BookIII.Computation.CompBiSquare](/corpus/taulib/docs/book-iii-computation-comp-bi-square/)
 - Source path: [`TauLib/BookIII/Computation/CompBiSquare.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIII/Computation/CompBiSquare.lean#L142-L146)
 - Source range: L142-L146
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

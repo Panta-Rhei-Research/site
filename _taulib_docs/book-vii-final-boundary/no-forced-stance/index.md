@@ -2,14 +2,14 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "no_forced_stance",
-  "permalink": "/verify/taulib/docs/book-vii-final-boundary/no-forced-stance/",
+  "permalink": "/corpus/taulib/docs/book-vii-final-boundary/no-forced-stance/",
   "summary_short": "`def` declaration in `TauLib.BookVII.Final.Boundary`.",
   "declaration_id": "TauLib.BookVII.Final.Boundary::no_forced_stance",
   "declaration_slug": "no-forced-stance",
   "kind": "def",
   "name": "no_forced_stance",
   "module_name": "TauLib.BookVII.Final.Boundary",
-  "module_url": "/verify/taulib/docs/book-vii-final-boundary/",
+  "module_url": "/corpus/taulib/docs/book-vii-final-boundary/",
   "source_line_start": 216,
   "source_line_end": 222,
   "registry_ids": [
@@ -24,15 +24,17 @@
   ],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Final/Boundary.lean#L216-L222",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVII.Final.Boundary",
-        "url": "/verify/taulib/docs/book-vii-final-boundary/"
+        "url": "/corpus/taulib/docs/book-vii-final-boundary/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -49,7 +51,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -70,11 +73,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVII.Final.Boundary](/verify/taulib/docs/book-vii-final-boundary/)
+- Module: [TauLib.BookVII.Final.Boundary](/corpus/taulib/docs/book-vii-final-boundary/)
 - Source path: [`TauLib/BookVII/Final/Boundary.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVII/Final/Boundary.lean#L216-L222)
 - Source range: L216-L222
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

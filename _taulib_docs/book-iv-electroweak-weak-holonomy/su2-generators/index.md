@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "su2_generators",
-  "permalink": "/verify/taulib/docs/book-iv-electroweak-weak-holonomy/su2-generators/",
+  "permalink": "/corpus/taulib/docs/book-iv-electroweak-weak-holonomy/su2-generators/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Electroweak.WeakHolonomy`.",
   "declaration_id": "TauLib.BookIV.Electroweak.WeakHolonomy::su2_generators",
   "declaration_slug": "su2-generators",
   "kind": "def",
   "name": "su2_generators",
   "module_name": "TauLib.BookIV.Electroweak.WeakHolonomy",
-  "module_url": "/verify/taulib/docs/book-iv-electroweak-weak-holonomy/",
+  "module_url": "/corpus/taulib/docs/book-iv-electroweak-weak-holonomy/",
   "source_line_start": 83,
   "source_line_end": 83,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/WeakHolonomy.lean#L83-L83",
   "formal_status": "defined",
+  "declaration_role": "data/computed value",
+  "formal_status_label": "data/computed value",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Electroweak.WeakHolonomy",
-        "url": "/verify/taulib/docs/book-iv-electroweak-weak-holonomy/"
+        "url": "/corpus/taulib/docs/book-iv-electroweak-weak-holonomy/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "data/computed value",
+      "status": "data/computed value"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Electroweak.WeakHolonomy](/verify/taulib/docs/book-iv-electroweak-weak-holonomy/)
+- Module: [TauLib.BookIV.Electroweak.WeakHolonomy](/corpus/taulib/docs/book-iv-electroweak-weak-holonomy/)
 - Source path: [`TauLib/BookIV/Electroweak/WeakHolonomy.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Electroweak/WeakHolonomy.lean#L83-L83)
 - Source range: L83-L83
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `data/computed value`
+- Formal status hint: `data/computed value`
 
 ## Registry Links
 

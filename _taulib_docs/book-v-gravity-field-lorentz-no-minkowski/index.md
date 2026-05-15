@@ -2,7 +2,7 @@
 {
   "projection_kind": "taulib_module",
   "title": "TauLib.BookV.GravityField.LorentzNoMinkowski",
-  "permalink": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/",
+  "permalink": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/",
   "summary_short": "Corpus-native TauLib projection for `TauLib.BookV.GravityField.LorentzNoMinkowski`.",
   "module_name": "TauLib.BookV.GravityField.LorentzNoMinkowski",
   "module_slug": "book-v-gravity-field-lorentz-no-minkowski",
@@ -39,10 +39,12 @@
     {
       "kind": "structure",
       "name": "NullIntertwinerField",
-      "url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/null-intertwiner-field/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/null-intertwiner-field/",
       "source_line_start": 75,
       "source_line_end": 86,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D47"
       ]
@@ -50,37 +52,45 @@
     {
       "kind": "def",
       "name": "photon_field",
-      "url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/photon-field/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/photon-field/",
       "source_line_start": 89,
       "source_line_end": 93,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "MetricSignature",
-      "url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/metric-signature/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/metric-signature/",
       "source_line_start": 101,
       "source_line_end": 106,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": []
     },
     {
       "kind": "def",
       "name": "lorentzian_signature",
-      "url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/lorentzian-signature/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/lorentzian-signature/",
       "source_line_start": 109,
       "source_line_end": 111,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "structure",
       "name": "LocalTau3Chart",
-      "url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/local-tau3-chart/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/local-tau3-chart/",
       "source_line_start": 121,
       "source_line_end": 136,
       "formal_status": "defined",
+      "declaration_role": "type/data schema",
+      "formal_status_label": "type/data schema",
       "registry_ids": [
         "V.D48"
       ]
@@ -88,19 +98,23 @@
     {
       "kind": "def",
       "name": "example_chart",
-      "url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/example-chart/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/example-chart/",
       "source_line_start": 139,
       "source_line_end": 145,
       "formal_status": "defined",
+      "declaration_role": "definition",
+      "formal_status_label": "definition",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "null_set_invariant",
-      "url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/null-set-invariant/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/null-set-invariant/",
       "source_line_start": 158,
       "source_line_end": 159,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.C02"
       ]
@@ -108,10 +122,12 @@
     {
       "kind": "theorem",
       "name": "lorentz_from_readout",
-      "url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/lorentz-from-readout/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/lorentz-from-readout/",
       "source_line_start": 176,
       "source_line_end": 180,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T24"
       ]
@@ -119,19 +135,23 @@
     {
       "kind": "theorem",
       "name": "spacetime_dimension",
-      "url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/spacetime-dimension/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/spacetime-dimension/",
       "source_line_start": 183,
       "source_line_end": 185,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": []
     },
     {
       "kind": "theorem",
       "name": "minkowski_from_chart",
-      "url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/minkowski-from-chart/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/minkowski-from-chart/",
       "source_line_start": 200,
       "source_line_end": 202,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.T25"
       ]
@@ -139,10 +159,12 @@
     {
       "kind": "theorem",
       "name": "null_is_readout_invariant",
-      "url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/null-is-readout-invariant/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/null-is-readout-invariant/",
       "source_line_start": 214,
       "source_line_end": 218,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P12"
       ]
@@ -150,10 +172,12 @@
     {
       "kind": "theorem",
       "name": "massive_cannot_null",
-      "url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/massive-cannot-null/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/massive-cannot-null/",
       "source_line_start": 231,
       "source_line_end": 232,
       "formal_status": "formalized",
+      "declaration_role": "proof obligation",
+      "formal_status_label": "formal proof obligation checked",
       "registry_ids": [
         "V.P13"
       ]
@@ -161,10 +185,12 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l247/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l247/",
       "source_line_start": 247,
       "source_line_end": 247,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": [
         "V.R59"
       ]
@@ -172,55 +198,67 @@
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l248/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l248/",
       "source_line_start": 248,
       "source_line_end": 248,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l249/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l249/",
       "source_line_start": 249,
       "source_line_end": 249,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l251/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l251/",
       "source_line_start": 251,
       "source_line_end": 251,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l252/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l252/",
       "source_line_start": 252,
       "source_line_end": 252,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l253/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l253/",
       "source_line_start": 253,
       "source_line_end": 253,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     },
     {
       "kind": "eval",
       "name": null,
-      "url": "/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l255/",
+      "url": "/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l255/",
       "source_line_start": 255,
       "source_line_end": 257,
       "formal_status": "computed",
+      "declaration_role": "computed check",
+      "formal_status_label": "computed check",
       "registry_ids": []
     }
   ],
@@ -232,7 +270,7 @@
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -309,24 +347,24 @@ This page is generated directly from the pinned TauLib Lean source snapshot in `
 
 ## Declarations
 
-| Kind | Name | Source | Status | Registry |
-|---|---|---:|---|---|
-| `structure` | [NullIntertwinerField](/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/null-intertwiner-field/) | L75-L86 | defined | `V.D47` |
-| `def` | [photon_field](/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/photon-field/) | L89-L93 | defined | — |
-| `structure` | [MetricSignature](/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/metric-signature/) | L101-L106 | defined | — |
-| `def` | [lorentzian_signature](/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/lorentzian-signature/) | L109-L111 | defined | — |
-| `structure` | [LocalTau3Chart](/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/local-tau3-chart/) | L121-L136 | defined | `V.D48` |
-| `def` | [example_chart](/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/example-chart/) | L139-L145 | defined | — |
-| `theorem` | [null_set_invariant](/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/null-set-invariant/) | L158-L159 | formalized | `V.C02` |
-| `theorem` | [lorentz_from_readout](/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/lorentz-from-readout/) | L176-L180 | formalized | `V.T24` |
-| `theorem` | [spacetime_dimension](/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/spacetime-dimension/) | L183-L185 | formalized | — |
-| `theorem` | [minkowski_from_chart](/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/minkowski-from-chart/) | L200-L202 | formalized | `V.T25` |
-| `theorem` | [null_is_readout_invariant](/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/null-is-readout-invariant/) | L214-L218 | formalized | `V.P12` |
-| `theorem` | [massive_cannot_null](/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/massive-cannot-null/) | L231-L232 | formalized | `V.P13` |
-| `eval` | [#eval L247](/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l247/) | L247-L247 | computed | `V.R59` |
-| `eval` | [#eval L248](/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l248/) | L248-L248 | computed | — |
-| `eval` | [#eval L249](/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l249/) | L249-L249 | computed | — |
-| `eval` | [#eval L251](/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l251/) | L251-L251 | computed | — |
-| `eval` | [#eval L252](/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l252/) | L252-L252 | computed | — |
-| `eval` | [#eval L253](/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l253/) | L253-L253 | computed | — |
-| `eval` | [#eval L255](/verify/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l255/) | L255-L257 | computed | — |
+| Kind | Name | Source | Role | Status | Registry |
+|---|---|---:|---|---|---|
+| `structure` | [NullIntertwinerField](/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/null-intertwiner-field/) | L75-L86 | type/data schema | type/data schema | `V.D47` |
+| `def` | [photon_field](/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/photon-field/) | L89-L93 | definition | definition | — |
+| `structure` | [MetricSignature](/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/metric-signature/) | L101-L106 | type/data schema | type/data schema | — |
+| `def` | [lorentzian_signature](/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/lorentzian-signature/) | L109-L111 | definition | definition | — |
+| `structure` | [LocalTau3Chart](/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/local-tau3-chart/) | L121-L136 | type/data schema | type/data schema | `V.D48` |
+| `def` | [example_chart](/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/example-chart/) | L139-L145 | definition | definition | — |
+| `theorem` | [null_set_invariant](/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/null-set-invariant/) | L158-L159 | proof obligation | formal proof obligation checked | `V.C02` |
+| `theorem` | [lorentz_from_readout](/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/lorentz-from-readout/) | L176-L180 | proof obligation | formal proof obligation checked | `V.T24` |
+| `theorem` | [spacetime_dimension](/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/spacetime-dimension/) | L183-L185 | proof obligation | formal proof obligation checked | — |
+| `theorem` | [minkowski_from_chart](/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/minkowski-from-chart/) | L200-L202 | proof obligation | formal proof obligation checked | `V.T25` |
+| `theorem` | [null_is_readout_invariant](/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/null-is-readout-invariant/) | L214-L218 | proof obligation | formal proof obligation checked | `V.P12` |
+| `theorem` | [massive_cannot_null](/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/massive-cannot-null/) | L231-L232 | proof obligation | formal proof obligation checked | `V.P13` |
+| `eval` | [#eval L247](/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l247/) | L247-L247 | computed check | computed check | `V.R59` |
+| `eval` | [#eval L248](/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l248/) | L248-L248 | computed check | computed check | — |
+| `eval` | [#eval L249](/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l249/) | L249-L249 | computed check | computed check | — |
+| `eval` | [#eval L251](/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l251/) | L251-L251 | computed check | computed check | — |
+| `eval` | [#eval L252](/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l252/) | L252-L252 | computed check | computed check | — |
+| `eval` | [#eval L253](/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l253/) | L253-L253 | computed check | computed check | — |
+| `eval` | [#eval L255](/corpus/taulib/docs/book-v-gravity-field-lorentz-no-minkowski/eval-l255/) | L255-L257 | computed check | computed check | — |

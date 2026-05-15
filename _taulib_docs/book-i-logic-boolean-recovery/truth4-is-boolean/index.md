@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "truth4_is_boolean",
-  "permalink": "/verify/taulib/docs/book-i-logic-boolean-recovery/truth4-is-boolean/",
+  "permalink": "/corpus/taulib/docs/book-i-logic-boolean-recovery/truth4-is-boolean/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Logic.BooleanRecovery`.",
   "declaration_id": "TauLib.BookI.Logic.BooleanRecovery::truth4_is_boolean",
   "declaration_slug": "truth4-is-boolean",
   "kind": "theorem",
   "name": "truth4_is_boolean",
   "module_name": "TauLib.BookI.Logic.BooleanRecovery",
-  "module_url": "/verify/taulib/docs/book-i-logic-boolean-recovery/",
+  "module_url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/",
   "source_line_start": 270,
   "source_line_end": 280,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Logic/BooleanRecovery.lean#L270-L280",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Logic.BooleanRecovery",
-        "url": "/verify/taulib/docs/book-i-logic-boolean-recovery/"
+        "url": "/corpus/taulib/docs/book-i-logic-boolean-recovery/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Logic.BooleanRecovery](/verify/taulib/docs/book-i-logic-boolean-recovery/)
+- Module: [TauLib.BookI.Logic.BooleanRecovery](/corpus/taulib/docs/book-i-logic-boolean-recovery/)
 - Source path: [`TauLib/BookI/Logic/BooleanRecovery.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Logic/BooleanRecovery.lean#L270-L280)
 - Source range: L270-L280
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

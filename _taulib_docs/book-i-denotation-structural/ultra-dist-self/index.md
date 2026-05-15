@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ultra_dist_self",
-  "permalink": "/verify/taulib/docs/book-i-denotation-structural/ultra-dist-self/",
+  "permalink": "/corpus/taulib/docs/book-i-denotation-structural/ultra-dist-self/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Denotation.Structural`.",
   "declaration_id": "TauLib.BookI.Denotation.Structural::ultra_dist_self",
   "declaration_slug": "ultra-dist-self",
   "kind": "theorem",
   "name": "ultra_dist_self",
   "module_name": "TauLib.BookI.Denotation.Structural",
-  "module_url": "/verify/taulib/docs/book-i-denotation-structural/",
+  "module_url": "/corpus/taulib/docs/book-i-denotation-structural/",
   "source_line_start": 295,
   "source_line_end": 298,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/Structural.lean#L295-L298",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Denotation.Structural",
-        "url": "/verify/taulib/docs/book-i-denotation-structural/"
+        "url": "/corpus/taulib/docs/book-i-denotation-structural/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Denotation.Structural](/verify/taulib/docs/book-i-denotation-structural/)
+- Module: [TauLib.BookI.Denotation.Structural](/corpus/taulib/docs/book-i-denotation-structural/)
 - Source path: [`TauLib/BookI/Denotation/Structural.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Denotation/Structural.lean#L295-L298)
 - Source range: L295-L298
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

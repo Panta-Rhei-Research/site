@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "evolution_is_ppas",
-  "permalink": "/verify/taulib/docs/book-vi-consumer-evolution/evolution-is-ppas/",
+  "permalink": "/corpus/taulib/docs/book-vi-consumer-evolution/evolution-is-ppas/",
   "summary_short": "`theorem` declaration in `TauLib.BookVI.Consumer.Evolution`.",
   "declaration_id": "TauLib.BookVI.Consumer.Evolution::evolution_is_ppas",
   "declaration_slug": "evolution-is-ppas",
   "kind": "theorem",
   "name": "evolution_is_ppas",
   "module_name": "TauLib.BookVI.Consumer.Evolution",
-  "module_url": "/verify/taulib/docs/book-vi-consumer-evolution/",
+  "module_url": "/corpus/taulib/docs/book-vi-consumer-evolution/",
   "source_line_start": 77,
   "source_line_end": 81,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Consumer/Evolution.lean#L77-L81",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookVI.Consumer.Evolution",
-        "url": "/verify/taulib/docs/book-vi-consumer-evolution/"
+        "url": "/corpus/taulib/docs/book-vi-consumer-evolution/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookVI.Consumer.Evolution](/verify/taulib/docs/book-vi-consumer-evolution/)
+- Module: [TauLib.BookVI.Consumer.Evolution](/corpus/taulib/docs/book-vi-consumer-evolution/)
 - Source path: [`TauLib/BookVI/Consumer/Evolution.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookVI/Consumer/Evolution.lean#L77-L81)
 - Source range: L77-L81
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

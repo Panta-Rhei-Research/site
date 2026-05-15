@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "three_decay_types",
-  "permalink": "/verify/taulib/docs/book-iv-particles-hadrons-nuclei/three-decay-types/",
+  "permalink": "/corpus/taulib/docs/book-iv-particles-hadrons-nuclei/three-decay-types/",
   "summary_short": "`theorem` declaration in `TauLib.BookIV.Particles.HadronsNuclei`.",
   "declaration_id": "TauLib.BookIV.Particles.HadronsNuclei::three_decay_types",
   "declaration_slug": "three-decay-types",
   "kind": "theorem",
   "name": "three_decay_types",
   "module_name": "TauLib.BookIV.Particles.HadronsNuclei",
-  "module_url": "/verify/taulib/docs/book-iv-particles-hadrons-nuclei/",
+  "module_url": "/corpus/taulib/docs/book-iv-particles-hadrons-nuclei/",
   "source_line_start": 399,
   "source_line_end": 399,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/HadronsNuclei.lean#L399-L399",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Particles.HadronsNuclei",
-        "url": "/verify/taulib/docs/book-iv-particles-hadrons-nuclei/"
+        "url": "/corpus/taulib/docs/book-iv-particles-hadrons-nuclei/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Particles.HadronsNuclei](/verify/taulib/docs/book-iv-particles-hadrons-nuclei/)
+- Module: [TauLib.BookIV.Particles.HadronsNuclei](/corpus/taulib/docs/book-iv-particles-hadrons-nuclei/)
 - Source path: [`TauLib/BookIV/Particles/HadronsNuclei.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Particles/HadronsNuclei.lean#L399-L399)
 - Source range: L399-L399
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

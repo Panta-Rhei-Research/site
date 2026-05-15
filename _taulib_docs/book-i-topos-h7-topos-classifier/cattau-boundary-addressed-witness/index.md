@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "cattau_boundary_addressed_witness",
-  "permalink": "/verify/taulib/docs/book-i-topos-h7-topos-classifier/cattau-boundary-addressed-witness/",
+  "permalink": "/corpus/taulib/docs/book-i-topos-h7-topos-classifier/cattau-boundary-addressed-witness/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Topos.H7ToposClassifier`.",
   "declaration_id": "TauLib.BookI.Topos.H7ToposClassifier::cattau_boundary_addressed_witness",
   "declaration_slug": "cattau-boundary-addressed-witness",
   "kind": "theorem",
   "name": "cattau_boundary_addressed_witness",
   "module_name": "TauLib.BookI.Topos.H7ToposClassifier",
-  "module_url": "/verify/taulib/docs/book-i-topos-h7-topos-classifier/",
+  "module_url": "/corpus/taulib/docs/book-i-topos-h7-topos-classifier/",
   "source_line_start": 189,
   "source_line_end": 191,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/H7ToposClassifier.lean#L189-L191",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Topos.H7ToposClassifier",
-        "url": "/verify/taulib/docs/book-i-topos-h7-topos-classifier/"
+        "url": "/corpus/taulib/docs/book-i-topos-h7-topos-classifier/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Topos.H7ToposClassifier](/verify/taulib/docs/book-i-topos-h7-topos-classifier/)
+- Module: [TauLib.BookI.Topos.H7ToposClassifier](/corpus/taulib/docs/book-i-topos-h7-topos-classifier/)
 - Source path: [`TauLib/BookI/Topos/H7ToposClassifier.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Topos/H7ToposClassifier.lean#L189-L191)
 - Source range: L189-L191
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

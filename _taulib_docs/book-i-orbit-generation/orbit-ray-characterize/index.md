@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "orbit_ray_characterize",
-  "permalink": "/verify/taulib/docs/book-i-orbit-generation/orbit-ray-characterize/",
+  "permalink": "/corpus/taulib/docs/book-i-orbit-generation/orbit-ray-characterize/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Orbit.Generation`.",
   "declaration_id": "TauLib.BookI.Orbit.Generation::orbit_ray_characterize",
   "declaration_slug": "orbit-ray-characterize",
   "kind": "theorem",
   "name": "orbit_ray_characterize",
   "module_name": "TauLib.BookI.Orbit.Generation",
-  "module_url": "/verify/taulib/docs/book-i-orbit-generation/",
+  "module_url": "/corpus/taulib/docs/book-i-orbit-generation/",
   "source_line_start": 105,
   "source_line_end": 111,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/Generation.lean#L105-L111",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Orbit.Generation",
-        "url": "/verify/taulib/docs/book-i-orbit-generation/"
+        "url": "/corpus/taulib/docs/book-i-orbit-generation/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Orbit.Generation](/verify/taulib/docs/book-i-orbit-generation/)
+- Module: [TauLib.BookI.Orbit.Generation](/corpus/taulib/docs/book-i-orbit-generation/)
 - Source path: [`TauLib/BookI/Orbit/Generation.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Orbit/Generation.lean#L105-L111)
 - Source range: L105-L111
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 

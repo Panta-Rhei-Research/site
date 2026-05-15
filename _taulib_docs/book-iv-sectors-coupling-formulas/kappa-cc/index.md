@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "kappa_CC",
-  "permalink": "/verify/taulib/docs/book-iv-sectors-coupling-formulas/kappa-cc/",
+  "permalink": "/corpus/taulib/docs/book-iv-sectors-coupling-formulas/kappa-cc/",
   "summary_short": "`def` declaration in `TauLib.BookIV.Sectors.CouplingFormulas`.",
   "declaration_id": "TauLib.BookIV.Sectors.CouplingFormulas::kappa_CC",
   "declaration_slug": "kappa-cc",
   "kind": "def",
   "name": "kappa_CC",
   "module_name": "TauLib.BookIV.Sectors.CouplingFormulas",
-  "module_url": "/verify/taulib/docs/book-iv-sectors-coupling-formulas/",
+  "module_url": "/corpus/taulib/docs/book-iv-sectors-coupling-formulas/",
   "source_line_start": 128,
   "source_line_end": 133,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Sectors/CouplingFormulas.lean#L128-L133",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookIV.Sectors.CouplingFormulas",
-        "url": "/verify/taulib/docs/book-iv-sectors-coupling-formulas/"
+        "url": "/corpus/taulib/docs/book-iv-sectors-coupling-formulas/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookIV.Sectors.CouplingFormulas](/verify/taulib/docs/book-iv-sectors-coupling-formulas/)
+- Module: [TauLib.BookIV.Sectors.CouplingFormulas](/corpus/taulib/docs/book-iv-sectors-coupling-formulas/)
 - Source path: [`TauLib/BookIV/Sectors/CouplingFormulas.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookIV/Sectors/CouplingFormulas.lean#L128-L133)
 - Source range: L128-L133
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

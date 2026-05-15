@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "DistanceLadderRung.log10_parsec",
-  "permalink": "/verify/taulib/docs/book-v-temporal-distance-ladder/log10-parsec/",
+  "permalink": "/corpus/taulib/docs/book-v-temporal-distance-ladder/log10-parsec/",
   "summary_short": "`def` declaration in `TauLib.BookV.Temporal.DistanceLadder`.",
   "declaration_id": "TauLib.BookV.Temporal.DistanceLadder::DistanceLadderRung.log10_parsec",
   "declaration_slug": "log10-parsec",
   "kind": "def",
   "name": "DistanceLadderRung.log10_parsec",
   "module_name": "TauLib.BookV.Temporal.DistanceLadder",
-  "module_url": "/verify/taulib/docs/book-v-temporal-distance-ladder/",
+  "module_url": "/corpus/taulib/docs/book-v-temporal-distance-ladder/",
   "source_line_start": 123,
   "source_line_end": 128,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/DistanceLadder.lean#L123-L128",
   "formal_status": "defined",
+  "declaration_role": "definition",
+  "formal_status_label": "definition",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookV.Temporal.DistanceLadder",
-        "url": "/verify/taulib/docs/book-v-temporal-distance-ladder/"
+        "url": "/corpus/taulib/docs/book-v-temporal-distance-ladder/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "def",
-      "status": "defined"
+      "role": "definition",
+      "status": "definition"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookV.Temporal.DistanceLadder](/verify/taulib/docs/book-v-temporal-distance-ladder/)
+- Module: [TauLib.BookV.Temporal.DistanceLadder](/corpus/taulib/docs/book-v-temporal-distance-ladder/)
 - Source path: [`TauLib/BookV/Temporal/DistanceLadder.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookV/Temporal/DistanceLadder.lean#L123-L128)
 - Source range: L123-L128
 - Kind: `def`
-- Formal status hint: `defined`
+- Public role: `definition`
+- Formal status hint: `definition`
 
 ## Registry Links
 

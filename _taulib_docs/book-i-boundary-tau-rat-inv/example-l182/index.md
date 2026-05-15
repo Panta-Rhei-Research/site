@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "example at L182",
-  "permalink": "/verify/taulib/docs/book-i-boundary-tau-rat-inv/example-l182/",
+  "permalink": "/corpus/taulib/docs/book-i-boundary-tau-rat-inv/example-l182/",
   "summary_short": "`example` declaration in `TauLib.BookI.Boundary.TauRatInv`.",
   "declaration_id": "TauLib.BookI.Boundary.TauRatInv::#eval:182",
   "declaration_slug": "example-l182",
   "kind": "example",
   "name": null,
   "module_name": "TauLib.BookI.Boundary.TauRatInv",
-  "module_url": "/verify/taulib/docs/book-i-boundary-tau-rat-inv/",
+  "module_url": "/corpus/taulib/docs/book-i-boundary-tau-rat-inv/",
   "source_line_start": 182,
   "source_line_end": 190,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRatInv.lean#L182-L190",
   "formal_status": "example",
+  "declaration_role": "example check",
+  "formal_status_label": "example",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Boundary.TauRatInv",
-        "url": "/verify/taulib/docs/book-i-boundary-tau-rat-inv/"
+        "url": "/corpus/taulib/docs/book-i-boundary-tau-rat-inv/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,6 +43,7 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "example",
+      "role": "example check",
       "status": "example"
     }
   },
@@ -62,10 +65,11 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Boundary.TauRatInv](/verify/taulib/docs/book-i-boundary-tau-rat-inv/)
+- Module: [TauLib.BookI.Boundary.TauRatInv](/corpus/taulib/docs/book-i-boundary-tau-rat-inv/)
 - Source path: [`TauLib/BookI/Boundary/TauRatInv.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Boundary/TauRatInv.lean#L182-L190)
 - Source range: L182-L190
 - Kind: `example`
+- Public role: `example check`
 - Formal status hint: `example`
 
 ## Registry Links

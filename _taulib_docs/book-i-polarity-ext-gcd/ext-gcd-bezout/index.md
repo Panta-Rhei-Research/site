@@ -2,29 +2,31 @@
 {
   "projection_kind": "taulib_declaration",
   "title": "ext_gcd_bezout",
-  "permalink": "/verify/taulib/docs/book-i-polarity-ext-gcd/ext-gcd-bezout/",
+  "permalink": "/corpus/taulib/docs/book-i-polarity-ext-gcd/ext-gcd-bezout/",
   "summary_short": "`theorem` declaration in `TauLib.BookI.Polarity.ExtGCD`.",
   "declaration_id": "TauLib.BookI.Polarity.ExtGCD::ext_gcd_bezout",
   "declaration_slug": "ext-gcd-bezout",
   "kind": "theorem",
   "name": "ext_gcd_bezout",
   "module_name": "TauLib.BookI.Polarity.ExtGCD",
-  "module_url": "/verify/taulib/docs/book-i-polarity-ext-gcd/",
+  "module_url": "/corpus/taulib/docs/book-i-polarity-ext-gcd/",
   "source_line_start": 56,
   "source_line_end": 78,
   "registry_ids": [],
   "related_registry_items": [],
   "upstream_url": "https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/ExtGCD.lean#L56-L78",
   "formal_status": "formalized",
+  "declaration_role": "proof obligation",
+  "formal_status_label": "formal proof obligation checked",
   "right_rail": {
     "related": [
       {
         "title": "TauLib.BookI.Polarity.ExtGCD",
-        "url": "/verify/taulib/docs/book-i-polarity-ext-gcd/"
+        "url": "/corpus/taulib/docs/book-i-polarity-ext-gcd/"
       },
       {
         "title": "TauLib Projection Index",
-        "url": "/verify/taulib/docs/"
+        "url": "/corpus/taulib/docs/"
       },
       {
         "title": "Formalization Status",
@@ -41,7 +43,8 @@
     "meta": {
       "type": "TauLib Declaration",
       "kind": "theorem",
-      "status": "formalized"
+      "role": "proof obligation",
+      "status": "formal proof obligation checked"
     }
   },
   "layout": "taulib-doc",
@@ -62,11 +65,12 @@ This page is generated directly from the pinned TauLib Lean source snapshot. The
 
 ## Source Provenance
 
-- Module: [TauLib.BookI.Polarity.ExtGCD](/verify/taulib/docs/book-i-polarity-ext-gcd/)
+- Module: [TauLib.BookI.Polarity.ExtGCD](/corpus/taulib/docs/book-i-polarity-ext-gcd/)
 - Source path: [`TauLib/BookI/Polarity/ExtGCD.lean`](https://github.com/Panta-Rhei-Research/taulib/blob/cb5e83015b54dd72eba560953fe2461820078757/TauLib/BookI/Polarity/ExtGCD.lean#L56-L78)
 - Source range: L56-L78
 - Kind: `theorem`
-- Formal status hint: `formalized`
+- Public role: `proof obligation`
+- Formal status hint: `formal proof obligation checked`
 
 ## Registry Links
 
