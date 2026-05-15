@@ -72,16 +72,29 @@ jobs:
       - name: Install Python QA dependencies
         run: python3 -m pip install PyYAML beautifulsoup4
 
+      - name: Setup Typst
+        uses: typst-community/setup-typst@v4
+        with:
+          typst-version: 0.14.2
+
       - name: Check manifest-owned release metrics
         run: |
           python3 scripts/check_release_manifest_parity.py --site-root .
           python3 scripts/check_hardcoded_release_numbers.py .
+
+      - name: Prepare dossier export proxies
+        run: npm run dossier:prepare
 
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl ""
         env:
           JEKYLL_ENV: production
           PANTA_RHEI_GENERATE_OG_CARDS: "0"
+
+      - name: Build and check dossier exports
+        run: |
+          npm run dossier:build
+          npm run dossier:check
 
       - name: Check social previews are separated from normal build
         run: python3 scripts/assert_social_preview_separation.py _site
@@ -98,6 +111,9 @@ jobs:
 
       - name: Check v4 mobile shell
         run: python3 scripts/assert_v4_mobile_shell.py _site
+
+      - name: Check v4 dossier exports
+        run: python3 scripts/assert_v4_dossier_exports.py _site
 
       - name: Check v2 shell migration
         run: npm run qa:v2-shell
@@ -135,6 +151,19 @@ jobs:
       #   run: |
       #     chmod +x .github/scripts/link-check.sh
       #     .github/scripts/link-check.sh _site
+
+      - name: Upload dossier review artifacts
+        uses: actions/upload-artifact@v7
+        with:
+          name: dossier-export-artifacts
+          path: |
+            _site/exports/markdown/
+            _site/exports/typst/
+            _site/exports/pdf/
+            _site/assets/dossier-manifest.json
+            _site/assets/dossier-build-report.json
+          if-no-files-found: error
+          retention-days: 14
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5

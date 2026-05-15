@@ -11,11 +11,11 @@
   Required:  include.variant
   Optional:  include.label  (overrides page.page_tools_label, default "THIS PAGE")
 
-  Frontmatter contract — auto-detected, no migration required:
-    Dossier PDF row visible when ANY of:
-      page.dossier_pdf_path, page.pdf, page.pdf_url, page.pdf_path, page.dossier_pdf
-    Markdown row visible when ANY of:
-      page.markdown_export_path, page.markdown, page.markdown_url, page.markdown_path
+  Dossier export contract:
+    Dossier PDF / Markdown rows are visible only when the generated
+    _data/dossier_manifest.yml contains the current page route. Plain Jekyll
+    builds without `npm run dossier:prepare` therefore do not render dead
+    export links.
 
   Pages may opt out via `page_tools: false` (default true).
   Pages may override the section label via `page_tools_label: "THIS OBJECT"`.
@@ -24,21 +24,24 @@
 {%- assign _variant = include.variant | default: "rail" -%}
 {%- assign _label = include.label | default: page.page_tools_label | default: "THIS PAGE" -%}
 
-{%- assign _dossier_pdf = page.dossier_pdf_path
-                          | default: page.pdf
-                          | default: page.pdf_url
-                          | default: page.pdf_path
-                          | default: page.dossier_pdf -%}
-{%- assign _markdown_export = page.markdown_export_path
-                              | default: page.markdown
-                              | default: page.markdown_url
-                              | default: page.markdown_path -%}
+{%- assign _dossier_entry = nil -%}
+{%- if site.data.dossier_manifest and site.data.dossier_manifest.entries_by_path -%}
+  {%- assign _dossier_entry = site.data.dossier_manifest.entries_by_path[page.url] -%}
+{%- endif -%}
+{%- assign _dossier_pdf = "" -%}
+{%- assign _markdown_export = "" -%}
+{%- if _dossier_entry -%}
+  {%- assign _dossier_pdf = _dossier_entry.pdf_path -%}
+  {%- assign _markdown_export = _dossier_entry.markdown_path -%}
+{%- endif -%}
+{%- assign _dossier_pdf_size = _dossier_pdf | size -%}
+{%- assign _markdown_export_size = _markdown_export | size -%}
 
 {%- assign _page_url    = page.url | absolute_url -%}
 {%- assign _page_title  = page.title | default: site.title -%}
 {%- assign _page_desc   = page.summary_short | default: page.description | default: site.description -%}
-{%- assign _status      = page.dossier_status | default: page.status | default: "Public research page" -%}
-{%- assign _angle       = page.dossier_review_angle | default: "General inspection" -%}
+{%- assign _status      = _dossier_entry.status | default: page.dossier_status | default: page.status | default: "Public research page" -%}
+{%- assign _angle       = _dossier_entry.review_angle | default: page.dossier_review_angle | default: "General inspection" -%}
 
 {%- comment -%}
   Reviewer-note GitHub-Issues fallback: pre-fills the Issues form for the
@@ -113,7 +116,7 @@ Best,
        data-review-angle="{{ _angle | escape }}">
   <div class="page-tools__section-label">{{ _label }}</div>
   <ul class="page-tools__rows" role="list">
-    {% if _dossier_pdf %}
+    {% if _dossier_pdf_size > 0 %}
     <li><a class="page-tools__row" href="{{ _dossier_pdf | relative_url }}" download>
       <span class="page-tools__icon" aria-hidden="true">↓</span>
       <span class="page-tools__label-stack">
@@ -122,7 +125,7 @@ Best,
       </span>
     </a></li>
     {% endif %}
-    {% if _markdown_export %}
+    {% if _markdown_export_size > 0 %}
     <li><a class="page-tools__row" href="{{ _markdown_export | relative_url }}" download>
       <span class="page-tools__icon" aria-hidden="true">⌘</span>
       <span class="page-tools__label-stack">
@@ -156,13 +159,13 @@ Best,
     <p>Download a portable dossier, copy a reviewer note, or send this page to someone who can inspect it.</p>
   </div>
   <div class="page-tools__bottom-actions">
-    {% if _dossier_pdf %}
+    {% if _dossier_pdf_size > 0 %}
     <a class="page-tools__chip" href="{{ _dossier_pdf | relative_url }}" download>
       <span class="page-tools__icon" aria-hidden="true">↓</span>
       <span>Download dossier PDF</span>
     </a>
     {% endif %}
-    {% if _markdown_export %}
+    {% if _markdown_export_size > 0 %}
     <a class="page-tools__chip" href="{{ _markdown_export | relative_url }}" download>
       <span class="page-tools__icon" aria-hidden="true">⌘</span>
       <span>Download Markdown</span>
@@ -205,18 +208,11 @@ Best,
          aria-labelledby="page-drawer-tools-title">
   <div class="page-drawer-section-title page-tools__section-label" id="page-drawer-tools-title">{{ _label }}</div>
   {%- comment -%}
-    Per atlas/website/briefings/v4/29_v4_-media-faq-polish-briefing.md §2 +
-    briefing 27 §9: do not render disabled "pending" placeholder rows for
-    Dossier PDF / Markdown when the page lacks the corresponding export.
-    The dispatch hooks data-page-action="dossier-pdf" / "markdown" are not
-    required by the mobile-shell assertion gate after #160 made them
-    permissive — Share, Copy link, Reviewer note, and Copy citation remain
-    the unconditional set. Future activation: the conditional Liquid blocks
-    below already serve as the gate; an export row reappears as soon as a
-    page declares `dossier_pdf_path`, `pdf`, `markdown_export_path`, etc.
-    (see auto-detect chain at the top of this file).
+    Do not render disabled "pending" placeholder rows for Dossier PDF /
+    Markdown when the page lacks a generated dossier-manifest entry. Share,
+    Copy link, Reviewer note, and Copy citation remain the unconditional set.
   {%- endcomment -%}
-  {% if _dossier_pdf %}
+  {% if _dossier_pdf_size > 0 %}
   <a class="page-tools__row page-tool-row" href="{{ _dossier_pdf | relative_url }}" download data-page-action="dossier-pdf">
     <span class="page-tools__icon page-tool-icon" aria-hidden="true">↓</span>
     <span class="page-tools__label-stack">
@@ -225,7 +221,7 @@ Best,
     </span>
   </a>
   {% endif %}
-  {% if _markdown_export %}
+  {% if _markdown_export_size > 0 %}
   <a class="page-tools__row page-tool-row" href="{{ _markdown_export | relative_url }}" download data-page-action="markdown">
     <span class="page-tools__icon page-tool-icon" aria-hidden="true">⌘</span>
     <span class="page-tools__label-stack">

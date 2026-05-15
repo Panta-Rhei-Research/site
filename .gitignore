@@ -1,4 +1,6 @@
 _site/
+_dossier_exports/
+_data/dossier_manifest.yml
 .jekyll-cache/
 .jekyll-metadata
 .sass-cache/

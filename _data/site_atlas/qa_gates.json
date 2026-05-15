@@ -77,6 +77,13 @@
       "severity": "required",
       "title": "Release state and reopen ledger",
       "type": "mechanical"
+    },
+    {
+      "command": "python3 site-atlas/scripts/site_atlas_check_release_metric_parity.py --corpus-root <clean-corpus> --site-root <clean-site> --taulib-root <clean-taulib>",
+      "gate_key": "release_metric_parity",
+      "severity": "required",
+      "title": "Corpus release metric parity",
+      "type": "mechanical"
     }
   ],
   "manifest_type": "site-atlas-qa-gates",
