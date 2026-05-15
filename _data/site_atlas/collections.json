@@ -300,7 +300,7 @@
     "publications_artifacts": {
       "collection_id": "c0000d",
       "collection_key": "publications_artifacts",
-      "expected_item_count": 77,
+      "expected_item_count": 78,
       "grouping": [
         {
           "expected_item_count": 7,
@@ -318,7 +318,7 @@
           "title": "Research Papers"
         },
         {
-          "expected_item_count": 6,
+          "expected_item_count": 7,
           "key": "research_notes",
           "title": "Research Notes"
         },
@@ -935,7 +935,7 @@
     {
       "collection_id": "c0000d",
       "collection_key": "publications_artifacts",
-      "expected_item_count": 77,
+      "expected_item_count": 78,
       "grouping": [
         {
           "expected_item_count": 7,
@@ -953,7 +953,7 @@
           "title": "Research Papers"
         },
         {
-          "expected_item_count": 6,
+          "expected_item_count": 7,
           "key": "research_notes",
           "title": "Research Notes"
         },
