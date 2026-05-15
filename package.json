@@ -4,6 +4,10 @@
   "type": "module",
   "scripts": {
     "build": "bundle exec jekyll build --baseurl \"\"",
+    "dossier:prepare": "python3 scripts/materialize_dossier_proxies.py",
+    "dossier:build": "python3 scripts/build_dossiers.py",
+    "dossier:check": "python3 scripts/check_dossier_artifacts.py",
+    "dossier:all": "npm run dossier:prepare && PANTA_RHEI_GENERATE_OG_CARDS=0 npm run build && npm run dossier:build && npm run dossier:check",
     "og:build": "python3 scripts/fetch_material_symbols.py --check-existing && python3 scripts/generate_og_images.py --png --webp --gallery",
     "og:check": "python3 scripts/generate_og_images.py --check",
     "build:social-previews": "npm run og:build",

@@ -1,0 +1,64 @@
+schema_version: "1.0"
+scope_id: v1-construction-spine
+title: Construction Spine dossier pilot
+public_site_url: https://panta-rhei.site
+artifact_policy: ci_generated
+notes:
+  - V1 dossier exports are enabled only for the Construction Spine landing page and the ten canonical non-redirect step pages.
+  - Generated Markdown, Typst, and PDF files are build artifacts and are not committed to git.
+entries:
+  - route: /corpus/construction-spine/
+    source: corpus/construction-spine/index.md
+    kind: Construction Spine index
+    review_angle: Corpus construction overview
+    priority: 0
+  - route: /corpus/construction-spine/build-the-kernel/
+    source: corpus/construction-spine/build-the-kernel/index.md
+    kind: Construction Spine step
+    review_angle: Mathematics / kernel
+    priority: 10
+  - route: /corpus/construction-spine/recover-core-mathematics/
+    source: corpus/construction-spine/recover-core-mathematics/index.md
+    kind: Construction Spine step
+    review_angle: Mathematics / bridges
+    priority: 20
+  - route: /corpus/construction-spine/internalize-self-enrichment/
+    source: corpus/construction-spine/internalize-self-enrichment/index.md
+    kind: Construction Spine step
+    review_angle: Logic / self-enrichment
+    priority: 30
+  - route: /corpus/construction-spine/identify-physical-carrier/
+    source: corpus/construction-spine/identify-physical-carrier/index.md
+    kind: Construction Spine step
+    review_angle: Physics / carrier
+    priority: 40
+  - route: /corpus/construction-spine/recover-internal-physical-grammar/
+    source: corpus/construction-spine/recover-internal-physical-grammar/index.md
+    kind: Construction Spine step
+    review_angle: Physics / grammar
+    priority: 50
+  - route: /corpus/construction-spine/measurement-empirical-bridges/
+    source: corpus/construction-spine/measurement-empirical-bridges/index.md
+    kind: Construction Spine step
+    review_angle: Empirical bridges
+    priority: 60
+  - route: /corpus/construction-spine/recover-life/
+    source: corpus/construction-spine/recover-life/index.md
+    kind: Construction Spine step
+    review_angle: Life / structure
+    priority: 70
+  - route: /corpus/construction-spine/recover-reflective-structure/
+    source: corpus/construction-spine/recover-reflective-structure/index.md
+    kind: Construction Spine step
+    review_angle: Reflection / mind
+    priority: 80
+  - route: /corpus/construction-spine/self-host-formal-systems/
+    source: corpus/construction-spine/self-host-formal-systems/index.md
+    kind: Construction Spine step
+    review_angle: Formal systems
+    priority: 90
+  - route: /corpus/construction-spine/test-ontic-closure/
+    source: corpus/construction-spine/test-ontic-closure/index.md
+    kind: Construction Spine step
+    review_angle: Ontic closure
+    priority: 100

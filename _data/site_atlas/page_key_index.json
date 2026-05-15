@@ -3124,7 +3124,7 @@
     "route": "/program/about/red-team-faq/",
     "source": "program/about/red-team-faq.md",
     "status": "canonical",
-    "title": "Red-team FAQ — The Ten Hardest Questions, Answered"
+    "title": "Red-team FAQ — The Hardest Questions, Answered"
   },
   "program.related_approaches": {
     "atlas_id": "00001e",
@@ -3665,30 +3665,32 @@
     "title": "Research Papers"
   },
   "publications.white_papers": {
+    "archive_rationale": "Current site source renders this route as a redirect to /publications/anchor-documents/; Pack D's canonical White Papers classification is superseded by the post-Pack-D publications IA state.",
     "atlas_id": "000082",
-    "browse_role": "canonical",
-    "canonical_role": "doctrine_page",
+    "browse_role": "alternate",
+    "canonical_replacement": "publications.anchor_documents",
+    "canonical_role": "compatibility_redirect",
     "children": [],
-    "ia_path": "07-06",
-    "lane": "publications",
-    "layout": "program-doc",
+    "ia_path": "90-42",
+    "lane": "archive",
+    "layout": "redirect",
     "level": 2,
-    "page_class": "canonical",
+    "page_class": "redirect",
     "page_key": "publications.white_papers",
     "parent_key": "publications.index",
     "release": {
-      "certification_report": "site-atlas/release/2026-05-v4-public-launch/wave-2/wave2-editorial-review.md",
-      "certified_at": "2026-05-07",
-      "launch_critical": true,
+      "certification_report": "site-atlas/release/2026-05-v4-public-launch/g4-pages.md",
+      "certified_at": null,
+      "launch_critical": false,
       "open_gates": [],
       "reopened_by": null,
       "scope": "public-launch-v4",
-      "status": "release-candidate"
+      "status": "deprecated"
     },
     "route": "/publications/white-papers/",
     "source": "publications/white-papers/index.md",
-    "status": "canonical",
-    "title": "White Papers"
+    "status": "redirected",
+    "title": "White Papers moved to Anchor Documents"
   },
   "results.additional_derived_results": {
     "atlas_id": "000050",

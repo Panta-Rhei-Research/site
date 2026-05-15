@@ -1,0 +1,25 @@
+---
+layout: null
+---
+# {{ page.dossier_title }}
+
+{% if page.dossier_description %}{{ page.dossier_description | strip }}
+
+{% endif %}Canonical URL: {{ page.dossier_canonical_url }}
+Status: {{ page.dossier_status | default: "Canonical" }}
+Review angle: {{ page.dossier_review_angle | default: "General review" }}
+Source path: {{ page.dossier_source_path }}
+Generated: {{ site.time | date_to_xmlschema }}
+
+---
+
+{{ content | strip }}
+
+---
+
+Continue exploring:
+- Canonical page: {{ page.dossier_canonical_url }}
+- Panta Rhei Research Program: {{ site.url }}/
+
+Citation and provenance:
+This dossier is a generated export of the public Panta Rhei website route above. Prefer the canonical URL for citation unless a release package specifies otherwise.
