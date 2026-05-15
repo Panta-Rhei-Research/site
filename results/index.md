@@ -176,6 +176,11 @@ Every result should be read with its status markers. An internally addressed res
     <span>Results-side projection of the canonical Structural Challenge Ledger — current τ response, evidence route, verification route, and external-review boundary for each structural challenge.</span>
   </a>
 
+  <a class="v2-tile" href="{{ '/publications/research-notes/thirty-open-problems-tau-readout-surfaces/' | relative_url }}">
+    <strong>Open Problem Answer-Shape Map</strong>
+    <span>A Research Note stress test that reads thirty familiar open-problem surfaces as differentiated answer-shapes, not solved or validated results.</span>
+  </a>
+
   <a class="v2-tile" href="{{ '/results/core-semantics-status/' | relative_url }}">
     <strong>Core Semantics Status</strong>
     <span>Current Core Semantics status against declared language, structure, and recovery/refusal obligations.</span>

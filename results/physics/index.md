@@ -57,6 +57,11 @@ This hub is the entry point. From here you can browse the {% include release-met
     <span>Current τ responses to those challenges, with status, evidence route, prediction/falsification anchors, and verification boundary.</span>
   </a>
 
+  <a class="v2-tile" href="{{ '/publications/research-notes/thirty-open-problems-tau-readout-surfaces/' | relative_url }}">
+    <strong>Thirty Open Problems Probe</strong>
+    <span>An expressiveness stress test over quantum, particle, gravity, black-hole, and cosmology problem surfaces: answer-shapes, not validation claims.</span>
+  </a>
+
 </div>
 
 ## What is the τ-framework saying about physics?
