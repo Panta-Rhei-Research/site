@@ -1,0 +1,6 @@
+---
+layout: null
+permalink: /assets/dossier-manifest.json
+sitemap: false
+---
+{{ site.data.dossier_manifest | jsonify }}

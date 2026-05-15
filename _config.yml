@@ -65,6 +65,8 @@ collections:
   core_semantics:
     output: true
     permalink: /agenda/core-semantics/:path/
+  dossier_exports:
+    output: true
 
 collections_dir: .
 

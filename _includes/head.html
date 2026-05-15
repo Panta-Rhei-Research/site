@@ -101,6 +101,16 @@
 <title>{{ computed_title }}</title>
 <meta name="description" content="{{ seo_description }}">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
+{%- assign _dossier_head_entry = nil -%}
+{%- if site.data.dossier_manifest and site.data.dossier_manifest.entries_by_path -%}
+  {%- assign _dossier_head_entry = site.data.dossier_manifest.entries_by_path[page.url] -%}
+{%- endif -%}
+{%- assign _dossier_head_pdf_size = _dossier_head_entry.pdf_path | size -%}
+{%- assign _dossier_head_markdown_size = _dossier_head_entry.markdown_path | size -%}
+{%- if _dossier_head_pdf_size > 0 and _dossier_head_markdown_size > 0 -%}
+<link rel="alternate" type="application/pdf" href="{{ _dossier_head_entry.pdf_path | relative_url }}" title="{{ raw_page_title | default: site.title }} dossier PDF">
+<link rel="alternate" type="text/markdown" href="{{ _dossier_head_entry.markdown_path | relative_url }}" title="{{ raw_page_title | default: site.title }} Markdown export">
+{%- endif -%}
 <meta name="robots" content="{{ robots_directive }}">
 <meta name="generator" content="Jekyll">
 <meta name="author" content="{{ social_author_content }}">
