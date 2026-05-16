@@ -73,6 +73,37 @@ def assert_file(path: Path, min_size: int = 500) -> None:
         fail(f"file is too small to be valid: {path.relative_to(ROOT)}")
 
 
+def collect_sitemap_routes() -> list[str]:
+    data = yaml.safe_load((ROOT / "_data/sitemap_v4.yml").read_text(encoding="utf-8")) or {}
+    routes: list[str] = []
+    seen: set[str] = set()
+
+    def add(url: object) -> None:
+        if not isinstance(url, str):
+            return
+        if not url.startswith("/") or url.startswith("//") or url == "/sitemap.xml":
+            return
+        if url in seen:
+            return
+        seen.add(url)
+        routes.append(url)
+
+    def walk_cards(cards: object) -> None:
+        if isinstance(cards, dict):
+            cards = [cards]
+        for card in cards or []:
+            if not isinstance(card, dict):
+                continue
+            add(card.get("root_url"))
+            for link in card.get("links", []) or []:
+                if isinstance(link, dict):
+                    add(link.get("url"))
+
+    for group_name in ("primary_lanes", "support_cards", "support_card", "secondary_cards", "support_sections"):
+        walk_cards(data.get(group_name))
+    return routes
+
+
 def main() -> int:
     if len(sys.argv) != 2:
         fail("usage: assert_og_pipeline.py <built-site-root>")
@@ -84,6 +115,7 @@ def main() -> int:
         ROOT / "_data/og/icon-token-map.yml",
         ROOT / "_data/og/template-geometry.yml",
         ROOT / "_data/og/pages.yml",
+        ROOT / "_data/og/sitemap_pages.yml",
         ROOT / "_data/og/generated_cards.yml",
         ROOT / "scripts/generate_og_images.py",
         ROOT / "assets/og/backgrounds/og-background-dark-standard.svg",
@@ -100,8 +132,14 @@ def main() -> int:
 
     manifest = yaml.safe_load((ROOT / "_data/og/generated_cards.yml").read_text(encoding="utf-8"))
     cards = manifest.get("cards", {})
-    if len(cards) < 120:
-        fail(f"expected at least 120 generated cards, found {len(cards)}")
+    if len(cards) < 190:
+        fail(f"expected at least 190 generated cards after sitemap coverage, found {len(cards)}")
+
+    cards_by_route = {card.get("route"): slug for slug, card in cards.items()}
+    sitemap_routes = collect_sitemap_routes()
+    missing_sitemap_cards = [route for route in sitemap_routes if route not in cards_by_route]
+    if missing_sitemap_cards:
+        fail("sitemap-linked routes missing generated cards: " + ", ".join(missing_sitemap_cards[:30]))
 
     generator_source = (ROOT / "scripts/generate_og_images.py").read_text(encoding="utf-8", errors="ignore")
     if ">π</text>" in generator_source or "Independent open research program</text>" in generator_source:
@@ -140,6 +178,10 @@ def main() -> int:
             assert_file(ROOT / rel.lstrip("/"))
         if not card.get("alt"):
             fail(f"{slug} missing alt text")
+        icon = card.get("icon")
+        if not icon:
+            fail(f"{slug} missing icon token in generated manifest")
+        assert_file(ROOT / "assets" / "og" / "icons" / "material-symbols" / f"{icon}.svg", min_size=80)
 
         svg_text = (ROOT / card["svg"].lstrip("/")).read_text(encoding="utf-8", errors="ignore")
         if "canonical-lockup" not in svg_text:
@@ -172,11 +214,11 @@ def main() -> int:
     if legacy_metadata_offenders:
         fail("legacy /assets/og-image.png metadata references remain: " + ", ".join(legacy_metadata_offenders[:20]))
 
-    sample_routes = sorted(set(launch_routes + ["/", "/program/", "/agenda/", "/impact/", "/engage/"]))
+    sample_routes = sorted(set(sitemap_routes + launch_routes + ["/", "/program/", "/agenda/", "/impact/", "/engage/"]))
     for route in sample_routes:
-        slug = slug_for(route)
+        slug = cards_by_route.get(route) or slug_for(route)
         card = cards.get(slug)
-        if not card:
+        if not card or card.get("route") != route:
             fail(f"{route} missing generated card")
         html_path = route_html(built, route)
         if not html_path.exists():

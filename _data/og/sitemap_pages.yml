@@ -1,0 +1,418 @@
+schema_version: 1
+description: >
+  Generated-card overrides for local routes linked from /sitemap/ that are not
+  already covered by launch-critical Site Atlas pages or curated OG cards.
+
+defaults:
+  template: og-dark-standard
+  variant: dark
+  status: canonical
+
+pages:
+  - route: /program/about/why-this-program-exists/
+    icon: flag
+    lane: program
+    canonical_role: doctrine_page
+    eyebrow: "PROGRAM · DOCTRINE"
+    title: "Why This Research Program Exists"
+    subtitle: "The motive and public burden behind the Panta Rhei Research Program."
+  - route: /program/about/scope-status-and-scrutiny/
+    icon: policy
+    lane: program
+    canonical_role: doctrine_page
+    eyebrow: "PROGRAM · SCRUTINY"
+    title: "Scope, Status, and Scrutiny"
+    subtitle: "What the program claims, what it does not claim, and how it invites inspection."
+  - route: /program/about/independence-scope-and-scrutiny/
+    icon: balance
+    lane: program
+    canonical_role: doctrine_page
+    eyebrow: "PROGRAM · INDEPENDENCE"
+    title: "Independence, Scope, and Scrutiny"
+    subtitle: "The independence posture and boundaries for reading the work responsibly."
+  - route: /program/about/coherent-theory-of-reality/
+    icon: hub
+    lane: program
+    canonical_role: doctrine_page
+    eyebrow: "PROGRAM · DOCTRINE"
+    title: "Coherent Theory of Reality"
+    subtitle: "What coherent theory of reality means inside the program's public doctrine."
+  - route: /program/about/inspection-observatory/
+    icon: visibility
+    lane: program
+    canonical_role: doctrine_page
+    eyebrow: "PROGRAM · OBSERVATORY"
+    title: "Inspection Observatory"
+    subtitle: "Why the website is structured as an inspectable research observatory."
+  - route: /program/about/related-approaches/
+    icon: compare_arrows
+    lane: program
+    canonical_role: doctrine_page
+    eyebrow: "PROGRAM · POSITIONING"
+    title: "Related Approaches"
+    subtitle: "A positioning map for neighboring theories, not a takedown surface."
+  - route: /program/about/red-team-faq/
+    icon: quiz
+    lane: program
+    canonical_role: doctrine_page
+    eyebrow: "PROGRAM · RED TEAM"
+    title: "Red-team FAQ"
+    subtitle: "The hardest first objections, answered without overclaiming."
+
+  - route: /agenda/structural-challenge-ledger/mathematics/
+    icon: architecture
+    lane: agenda
+    canonical_role: domain_hub
+    eyebrow: "AGENDA · MATHEMATICS"
+    title: "Mathematics Structural Challenge Ledger"
+    subtitle: "Mathematical obligations that the construction must face and answer."
+  - route: /agenda/structural-challenge-ledger/physics/
+    icon: orbit
+    lane: agenda
+    canonical_role: domain_hub
+    eyebrow: "AGENDA · PHYSICS"
+    title: "Physics Structural Challenge Ledger"
+    subtitle: "Physical obligations and bridges that the program must make accountable."
+  - route: /agenda/structural-challenge-ledger/life/
+    icon: genetics
+    lane: agenda
+    canonical_role: domain_hub
+    eyebrow: "AGENDA · LIFE"
+    title: "Life Structural Challenge Ledger"
+    subtitle: "Life-facing obligations for recovery, interpretation, and inspection."
+  - route: /agenda/structural-challenge-ledger/metaphysics/
+    icon: owl
+    lane: agenda
+    canonical_role: domain_hub
+    eyebrow: "AGENDA · METAPHYSICS"
+    title: "Metaphysics Structural Challenge Ledger"
+    subtitle: "Metaphysical obligations that must remain explicit and inspectable."
+
+  - route: /corpus/foundational-hinges/master-constant-iota-tau/
+    icon: functions
+    lane: corpus
+    canonical_role: corpus_hinge
+    eyebrow: "CORPUS · FOUNDATIONAL HINGE"
+    title: "The Master Constant iota_tau"
+    subtitle: "A foundational hinge page for the master constant inside the corpus."
+  - route: /corpus/foundational-hinges/tau-kernel-foundational-architecture/
+    icon: hub
+    lane: corpus
+    canonical_role: corpus_hinge
+    eyebrow: "CORPUS · FOUNDATIONAL HINGE"
+    title: "τ-Kernel Foundational Architecture"
+    subtitle: "A hinge page for the τ-kernel as architectural foundation."
+  - route: /corpus/taulib/modules/
+    icon: view_module
+    lane: corpus
+    canonical_role: projection_hub
+    eyebrow: "CORPUS · TAULIB"
+    title: "TauLib Module Explorer"
+    subtitle: "Module-level access to the formal library projection."
+  - route: /corpus/taulib/docs/
+    icon: code
+    lane: corpus
+    canonical_role: projection_hub
+    eyebrow: "CORPUS · TAULIB"
+    title: "TauLib Docs"
+    subtitle: "Documentation projection for TauLib's formal library surface."
+  - route: /corpus/taulib/status/
+    icon: fact_check
+    lane: corpus
+    canonical_role: projection_hub
+    eyebrow: "CORPUS · TAULIB"
+    title: "TauLib Projection Status"
+    subtitle: "Status, counts, and release posture for the TauLib projection."
+  - route: /corpus/taulib/architecture/
+    icon: deployed_code
+    lane: corpus
+    canonical_role: projection_hub
+    eyebrow: "CORPUS · TAULIB"
+    title: "TauLib Architecture"
+    subtitle: "Architecture notes for the formal-library projection."
+
+  - route: /corpus/monographs/book-i/
+    icon: architecture
+    lane: corpus
+    canonical_role: monograph_root
+    eyebrow: "CORPUS · BOOK I"
+    title: "Book I: Categorical Foundations"
+    subtitle: "The first monograph root in the corpus construction sequence."
+  - route: /corpus/monographs/book-ii/
+    icon: hub
+    lane: corpus
+    canonical_role: monograph_root
+    eyebrow: "CORPUS · BOOK II"
+    title: "Book II: Categorical Holomorphy"
+    subtitle: "The second monograph root in the corpus construction sequence."
+  - route: /corpus/monographs/book-iii/
+    icon: orbit
+    lane: corpus
+    canonical_role: monograph_root
+    eyebrow: "CORPUS · BOOK III"
+    title: "Book III: Categorical Spectrum"
+    subtitle: "The third monograph root in the corpus construction sequence."
+  - route: /corpus/monographs/book-iv/
+    icon: science
+    lane: corpus
+    canonical_role: monograph_root
+    eyebrow: "CORPUS · BOOK IV"
+    title: "Book IV: Categorical Microcosm"
+    subtitle: "The fourth monograph root in the corpus construction sequence."
+  - route: /corpus/monographs/book-v/
+    icon: public
+    lane: corpus
+    canonical_role: monograph_root
+    eyebrow: "CORPUS · BOOK V"
+    title: "Book V: Categorical Macrocosm"
+    subtitle: "The fifth monograph root in the corpus construction sequence."
+  - route: /corpus/monographs/book-vi/
+    icon: genetics
+    lane: corpus
+    canonical_role: monograph_root
+    eyebrow: "CORPUS · BOOK VI"
+    title: "Book VI: Categorical Life"
+    subtitle: "The sixth monograph root in the corpus construction sequence."
+  - route: /corpus/monographs/book-vii/
+    icon: owl
+    lane: corpus
+    canonical_role: monograph_root
+    eyebrow: "CORPUS · BOOK VII"
+    title: "Book VII: Categorical Metaphysics"
+    subtitle: "The seventh monograph root in the corpus construction sequence."
+
+  - route: /results/mathematics/
+    icon: architecture
+    lane: results
+    canonical_role: domain_hub
+    eyebrow: "RESULTS · MATHEMATICS"
+    title: "Mathematics Results Hub"
+    subtitle: "Mathematics-facing results routed from construction into inspection."
+  - route: /results/physics/
+    icon: orbit
+    lane: results
+    canonical_role: domain_hub
+    eyebrow: "RESULTS · PHYSICS"
+    title: "Physics Results Hub"
+    subtitle: "Physics-facing results routed from construction into inspection."
+  - route: /results/life/
+    icon: genetics
+    lane: results
+    canonical_role: domain_hub
+    eyebrow: "RESULTS · LIFE"
+    title: "Life Results Hub"
+    subtitle: "Life-facing results routed from construction into inspection."
+  - route: /results/metaphysics/
+    icon: owl
+    lane: results
+    canonical_role: domain_hub
+    eyebrow: "RESULTS · METAPHYSICS"
+    title: "Metaphysics Results Hub"
+    subtitle: "Metaphysics-facing results routed from construction into inspection."
+  - route: /results/world-readout/mathematics/
+    icon: architecture
+    lane: results
+    canonical_role: domain_hub
+    eyebrow: "RESULTS · WORLD READOUT"
+    title: "Mathematics World-Readout"
+    subtitle: "A domain readout for mathematical consequences of the built corpus."
+  - route: /results/world-readout/physics/
+    icon: orbit
+    lane: results
+    canonical_role: domain_hub
+    eyebrow: "RESULTS · WORLD READOUT"
+    title: "Physics World-Readout"
+    subtitle: "A domain readout for physical consequences of the built corpus."
+  - route: /results/world-readout/life/
+    icon: genetics
+    lane: results
+    canonical_role: domain_hub
+    eyebrow: "RESULTS · WORLD READOUT"
+    title: "Life World-Readout"
+    subtitle: "A domain readout for life-facing consequences of the built corpus."
+  - route: /results/world-readout/metaphysics/
+    icon: owl
+    lane: results
+    canonical_role: domain_hub
+    eyebrow: "RESULTS · WORLD READOUT"
+    title: "Metaphysics World-Readout"
+    subtitle: "A domain readout for metaphysical consequences of the built corpus."
+  - route: /results/challenge-responses/mathematics/
+    icon: architecture
+    lane: results
+    canonical_role: domain_hub
+    eyebrow: "RESULTS · CHALLENGE RESPONSES"
+    title: "Mathematics Challenge Responses"
+    subtitle: "Mathematics-side answers to public structural challenges."
+  - route: /results/challenge-responses/physics/
+    icon: orbit
+    lane: results
+    canonical_role: domain_hub
+    eyebrow: "RESULTS · CHALLENGE RESPONSES"
+    title: "Physics Challenge Responses"
+    subtitle: "Physics-side answers to public structural challenges."
+  - route: /results/challenge-responses/life/
+    icon: genetics
+    lane: results
+    canonical_role: domain_hub
+    eyebrow: "RESULTS · CHALLENGE RESPONSES"
+    title: "Life Challenge Responses"
+    subtitle: "Life-side answers to public structural challenges."
+  - route: /results/challenge-responses/metaphysics/
+    icon: owl
+    lane: results
+    canonical_role: domain_hub
+    eyebrow: "RESULTS · CHALLENGE RESPONSES"
+    title: "Metaphysics Challenge Responses"
+    subtitle: "Metaphysics-side answers to public structural challenges."
+  - route: /results/predictions/timing/
+    icon: timer
+    lane: results
+    canonical_role: prediction_hub
+    eyebrow: "RESULTS · PREDICTIONS"
+    title: "Prediction Timing"
+    subtitle: "A priori prediction and post-diction timing distinctions."
+
+  - route: /verify/domain-verification/mathematics/
+    icon: architecture
+    lane: verify
+    canonical_role: domain_hub
+    eyebrow: "VERIFY · MATHEMATICS"
+    title: "Mathematics Verification"
+    subtitle: "Domain verification routes for mathematics-facing claims."
+  - route: /verify/domain-verification/physics/
+    icon: orbit
+    lane: verify
+    canonical_role: domain_hub
+    eyebrow: "VERIFY · PHYSICS"
+    title: "Physics Verification"
+    subtitle: "Domain verification routes for physics-facing claims."
+  - route: /verify/domain-verification/life/
+    icon: genetics
+    lane: verify
+    canonical_role: domain_hub
+    eyebrow: "VERIFY · LIFE"
+    title: "Life Verification"
+    subtitle: "Domain verification routes for life-facing claims."
+  - route: /verify/domain-verification/metaphysics/
+    icon: owl
+    lane: verify
+    canonical_role: domain_hub
+    eyebrow: "VERIFY · METAPHYSICS"
+    title: "Metaphysics Verification"
+    subtitle: "Domain verification routes for metaphysics-facing claims."
+  - route: /verify/predictions-and-falsification/falsification-paths/
+    icon: route
+    lane: verify
+    canonical_role: verification_page
+    eyebrow: "VERIFY · FALSIFICATION"
+    title: "Falsification Paths"
+    subtitle: "Routes by which predictions and claims could be narrowed or retired."
+  - route: /verify/predictions-and-falsification/falsification-packs/
+    icon: track_changes
+    lane: verify
+    canonical_role: verification_page
+    eyebrow: "VERIFY · FALSIFICATION"
+    title: "Falsification Packs"
+    subtitle: "Packaged falsification handles for public inspection."
+  - route: /verify/assessment-protocols/manual/
+    icon: rule
+    lane: verify
+    canonical_role: protocol_page
+    eyebrow: "VERIFY · PROTOCOL"
+    title: "Manual Protocols"
+    subtitle: "Manual review protocols for structured assessment."
+  - route: /verify/assessment-protocols/llm-assisted/
+    icon: psychology
+    lane: verify
+    canonical_role: protocol_page
+    eyebrow: "VERIFY · PROTOCOL"
+    title: "LLM-Assisted Protocols"
+    subtitle: "Structured use of LLM-assisted assessment without replacing review."
+
+  - route: /impact/global-public-good/agriculture/
+    icon: agriculture
+    lane: impact
+    canonical_role: portfolio_page
+    eyebrow: "IMPACT · PUBLIC GOOD"
+    title: "Agriculture"
+    subtitle: "A conditional public-good portfolio for agriculture-facing relevance."
+  - route: /impact/global-public-good/biodiversity-restoration/
+    icon: forest
+    lane: impact
+    canonical_role: portfolio_page
+    eyebrow: "IMPACT · PUBLIC GOOD"
+    title: "Biodiversity / Restoration"
+    subtitle: "A conditional public-good portfolio for biodiversity and restoration."
+  - route: /impact/global-public-good/climate/
+    icon: co2
+    lane: impact
+    canonical_role: portfolio_page
+    eyebrow: "IMPACT · PUBLIC GOOD"
+    title: "Climate"
+    subtitle: "A conditional public-good portfolio for climate-facing relevance."
+  - route: /impact/global-public-good/disaster/
+    icon: crisis_alert
+    lane: impact
+    canonical_role: portfolio_page
+    eyebrow: "IMPACT · PUBLIC GOOD"
+    title: "Disaster Resilience"
+    subtitle: "A conditional public-good portfolio for anticipatory resilience."
+  - route: /impact/global-public-good/energy/
+    icon: bolt
+    lane: impact
+    canonical_role: portfolio_page
+    eyebrow: "IMPACT · PUBLIC GOOD"
+    title: "Energy"
+    subtitle: "A conditional public-good portfolio for energy-facing relevance."
+  - route: /impact/global-public-good/ocean/
+    icon: waves
+    lane: impact
+    canonical_role: portfolio_page
+    eyebrow: "IMPACT · PUBLIC GOOD"
+    title: "Ocean"
+    subtitle: "A conditional public-good portfolio for ocean-facing relevance."
+  - route: /impact/global-public-good/one-health/
+    icon: health_and_safety
+    lane: impact
+    canonical_role: portfolio_page
+    eyebrow: "IMPACT · PUBLIC GOOD"
+    title: "One Health"
+    subtitle: "A conditional public-good portfolio for One Health relevance."
+  - route: /impact/global-public-good/pollution-circularity/
+    icon: recycling
+    lane: impact
+    canonical_role: portfolio_page
+    eyebrow: "IMPACT · PUBLIC GOOD"
+    title: "Pollution / Circularity"
+    subtitle: "A conditional public-good portfolio for pollution and circularity."
+  - route: /impact/global-public-good/solar/
+    icon: solar_power
+    lane: impact
+    canonical_role: portfolio_page
+    eyebrow: "IMPACT · PUBLIC GOOD"
+    title: "Solar"
+    subtitle: "A conditional public-good portfolio for solar-facing relevance."
+  - route: /impact/global-public-good/water-wash/
+    icon: water_drop
+    lane: impact
+    canonical_role: portfolio_page
+    eyebrow: "IMPACT · PUBLIC GOOD"
+    title: "Water / WASH"
+    subtitle: "A conditional public-good portfolio for water and WASH."
+  - route: /impact/global-public-good/weather/
+    icon: thunderstorm
+    lane: impact
+    canonical_role: portfolio_page
+    eyebrow: "IMPACT · PUBLIC GOOD"
+    title: "Weather"
+    subtitle: "A conditional public-good portfolio for weather-facing relevance."
+  - route: /publications/research-briefings/public-good/
+    icon: note_stack
+    lane: publications
+    canonical_role: doctrine_page
+    variant: light
+    template: og-light-standard
+    eyebrow: "PUBLICATIONS · PUBLIC GOOD"
+    title: "Public-Good Briefings"
+    subtitle: "Released public-good briefing artifacts and portfolio entry points."

@@ -18,6 +18,10 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 TOKEN_MAP = ROOT / "_data" / "og" / "icon-token-map.yml"
+OG_OVERRIDE_FILES = [
+    ROOT / "_data" / "og" / "pages.yml",
+    ROOT / "_data" / "og" / "sitemap_pages.yml",
+]
 OUT_DIR = ROOT / "assets" / "og" / "icons" / "material-symbols"
 RAW_BASE = (
     "https://raw.githubusercontent.com/google/material-design-icons/master/"
@@ -56,6 +60,13 @@ def collect_tokens() -> list[str]:
             tokens.add(token)
 
     walk(data)
+    for override_file in OG_OVERRIDE_FILES:
+        if not override_file.exists():
+            continue
+        override_data = yaml.safe_load(override_file.read_text(encoding="utf-8")) or {}
+        for item in override_data.get("pages", []) or []:
+            if isinstance(item, dict) and isinstance(item.get("icon"), str):
+                tokens.add(item["icon"].strip())
     return sorted(tokens)
 
 
