@@ -19,6 +19,10 @@ const CACHE_POLICIES = [
     value: "public, max-age=3600, must-revalidate"
   },
   {
+    test: (url) => isResearchNotePdf(url),
+    value: "public, max-age=3600, must-revalidate"
+  },
+  {
     test: (url) => url.pathname === "/assets/site.webmanifest",
     value: "public, max-age=604800"
   },
@@ -44,8 +48,12 @@ const CACHE_POLICIES = [
 // from sibling sites (taulib.site, future poster microsites, partner programs).
 // Content remains CC BY 4.0; cross-site GET is explicitly allowed.
 const CORS_PATH_PREFIXES = ["/api/"];
-const EDGE_CACHE_BYPASS_PREFIXES = ["/assets/pdfs/research-briefings/public-good/"];
+const EDGE_CACHE_BYPASS_PREFIXES = [
+  "/assets/pdfs/research-briefings/public-good/",
+  "/assets/pdfs/research-notes/"
+];
 const PUBLIC_GOOD_PDF_ORIGIN_VERSION = "2026-05-02-template-polish";
+const RESEARCH_NOTE_PDF_ORIGIN_VERSION = "2026-05-16-rn002-title-polish";
 
 const PERMANENT_REDIRECTS = new Map([
   ["/agenda", "/program/research-agenda/"],
@@ -72,6 +80,10 @@ function isPublicGoodDossierPdf(url) {
   );
 }
 
+function isResearchNotePdf(url) {
+  return url.pathname.startsWith("/assets/pdfs/research-notes/") && url.pathname.endsWith(".pdf");
+}
+
 function cachePolicyFor(url, response) {
   const policy = CACHE_POLICIES.find((candidate) => candidate.test(url, response));
   return policy?.value;
@@ -96,12 +108,17 @@ export function fetchOptionsFor(request) {
 export function originRequestFor(request) {
   const url = new URL(typeof request === "string" ? request : request.url);
 
-  if (!isPublicGoodDossierPdf(url)) {
-    return request;
+  if (isPublicGoodDossierPdf(url)) {
+    url.searchParams.set("__prr_pdf_release", PUBLIC_GOOD_PDF_ORIGIN_VERSION);
+    return typeof request === "string" ? new Request(url.toString()) : new Request(url.toString(), request);
   }
 
-  url.searchParams.set("__prr_pdf_release", PUBLIC_GOOD_PDF_ORIGIN_VERSION);
-  return typeof request === "string" ? new Request(url.toString()) : new Request(url.toString(), request);
+  if (isResearchNotePdf(url)) {
+    url.searchParams.set("__prr_pdf_release", RESEARCH_NOTE_PDF_ORIGIN_VERSION);
+    return typeof request === "string" ? new Request(url.toString()) : new Request(url.toString(), request);
+  }
+
+  return request;
 }
 
 function shouldEnableCors(url) {

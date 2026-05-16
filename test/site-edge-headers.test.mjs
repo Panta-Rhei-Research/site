@@ -47,6 +47,11 @@ const cases = [
     "application/pdf",
     "public, max-age=3600, must-revalidate"
   ],
+  [
+    "/assets/pdfs/research-notes/research-note-2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity.pdf",
+    "application/pdf",
+    "public, max-age=3600, must-revalidate"
+  ],
   ["/assets/css/site.css", "text/css", "public, max-age=31536000, immutable"],
   ["/assets/site.webmanifest", "application/manifest+json", "public, max-age=604800"],
   ["/pagefind/pagefind.js", "text/javascript", "public, max-age=31536000, immutable"],
@@ -94,10 +99,17 @@ assert.equal(corsPreflightResponse(new URL("https://panta-rhei.site/")), null, "
 {
   const publicGoodPdf =
     "/assets/pdfs/research-briefings/public-good/public-good-impact-dossier-2026-05-02-solar-synchronized-flexible-demand-grid-logistics.pdf";
+  const researchNotePdf =
+    "/assets/pdfs/research-notes/research-note-2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity.pdf";
   assert.deepEqual(
     fetchOptionsFor(`https://panta-rhei.site${publicGoodPdf}`),
     { cf: { cacheTtl: 0, cacheEverything: false } },
     "Public-good PDFs should bypass Cloudflare's stale edge cache"
+  );
+  assert.deepEqual(
+    fetchOptionsFor(`https://panta-rhei.site${researchNotePdf}`),
+    { cf: { cacheTtl: 0, cacheEverything: false } },
+    "Research-note PDFs should bypass Cloudflare's stale edge cache"
   );
   assert.equal(fetchOptionsFor("https://panta-rhei.site/assets/css/site.css"), undefined);
 
@@ -106,6 +118,12 @@ assert.equal(corsPreflightResponse(new URL("https://panta-rhei.site/")), null, "
     new URL(originRequest.url).searchParams.get("__prr_pdf_release"),
     "2026-05-02-template-polish",
     "Public-good PDF origin fetches should use a release-specific cache key"
+  );
+  const researchNoteOriginRequest = originRequestFor(`https://panta-rhei.site${researchNotePdf}`);
+  assert.equal(
+    new URL(researchNoteOriginRequest.url).searchParams.get("__prr_pdf_release"),
+    "2026-05-16-rn002-title-polish",
+    "Research-note PDF origin fetches should use a release-specific cache key"
   );
   assert.equal(originRequestFor("https://panta-rhei.site/assets/css/site.css"), "https://panta-rhei.site/assets/css/site.css");
 }
@@ -168,4 +186,4 @@ assert.equal(edgeRedirectFor("https://panta-rhei.site/publications/monograph-sup
 assert.equal(edgeRedirectFor("https://panta-rhei.site/publications/books/book-i/"), null);
 assert.equal(edgeRedirectFor("https://panta-rhei.site/verify/taulib/docs/"), null);
 
-console.log(`site-edge-headers: ${cases.length} header cases, 5 CORS assertions, 4 CORS-negative cases, 4 preflight assertions, 2 fetch-option assertions, 2 origin-request assertions, and 26 redirect cases passed`);
+console.log(`site-edge-headers: ${cases.length} header cases, 5 CORS assertions, 4 CORS-negative cases, 4 preflight assertions, 3 fetch-option assertions, 3 origin-request assertions, and 26 redirect cases passed`);
