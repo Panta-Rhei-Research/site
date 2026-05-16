@@ -56,7 +56,7 @@
   OG image resolution chain:
     1. _data/og/generated_cards.yml (production OG/Twitter card pipeline)
     2. page.og_image (explicit/scientific-plate override)
-    3. /assets/og-image.png (site-wide fallback)
+    3. /assets/og/png/index.png (v4 generated site-wide fallback)
 
   The page-slug derivation must mirror scripts/generate_og_images.py:
   drop the leading slash, drop the trailing slash, replace path separators with
@@ -84,7 +84,7 @@
   {%- assign twitter_image = page.twitter_image | default: og_image -%}
   {%- assign og_image_alt = page.og_image_alt | default: site.title -%}
 {%- else -%}
-  {%- assign og_image = '/assets/og-image.png' -%}
+  {%- assign og_image = '/assets/og/png/index.png' -%}
   {%- assign twitter_image = page.twitter_image | default: og_image -%}
   {%- assign og_image_alt = page.og_image_alt | default: site.title -%}
 {%- endif -%}

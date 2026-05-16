@@ -941,16 +941,6 @@ cards:
     width: 1200
     height: 630
     webp: /assets/og/webp/publications__research-papers.webp
-  publications__white-papers:
-    route: /publications/white-papers/
-    page_key: publications.white_papers
-    title: White Papers
-    image: /assets/og/png/publications__white-papers.png
-    svg: /assets/og/svg/publications__white-papers.svg
-    alt: Panta Rhei preview card for White Papers.
-    width: 1200
-    height: 630
-    webp: /assets/og/webp/publications__white-papers.webp
   results:
     route: /results/
     page_key: results.index
