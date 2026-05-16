@@ -1,0 +1,89 @@
+---
+layout: "program-doc"
+title: "Step 045 — Self-description on the T^2 fiber"
+title_plain: "Step 045 — Self-description on the T^2 fiber"
+permalink: "/corpus/construction-spine/steps/045-self-description-on-the-t-2-fiber/"
+lane: "corpus"
+v2_lane: "corpus"
+section: "construction-spine"
+type: "Construction Step"
+status: "Scaffolded"
+summary_short: "Book IV develops physics as the carrier's self-description on its own T^2-boundary fiber."
+construction_step_id: "S045"
+construction_step_number: 45
+macro_step_id: "CS-05"
+macro_step_title: "Recover Internal Physical Grammar"
+book: "Book IV"
+layer: "E1"
+short_route: "https://prrp.site/s45"
+padded_short_route: "https://prrp.site/s045"
+do_not_edit: true
+right_rail:
+  feedback: true
+  related:
+    -
+      title: "100-Step Routing Ledger"
+      url: "/corpus/construction-spine/steps/"
+    -
+      title: "Construction Spine"
+      url: "/corpus/construction-spine/"
+    -
+      title: "Recover Internal Physical Grammar"
+      url: "/corpus/construction-spine/recover-internal-physical-grammar/"
+    -
+      title: "Verify the Construction Spine"
+      url: "/verify/construction-spine-verification/"
+  meta:
+    type: "Construction Step"
+    status: "Scaffolded from RC3"
+    book: "Book IV"
+    layer: "E1"
+---
+
+> Book IV develops physics as the carrier's self-description on its own T^2-boundary fiber.
+
+<div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
+
+**Book / layer.** Book IV · E1<br>
+**Macro step.** [CS-05 — Recover Internal Physical Grammar](/corpus/construction-spine/recover-internal-physical-grammar/)<br>
+**Short routes.** `https://prrp.site/s45` · `https://prrp.site/s045`<br>
+**Status tags.** `readout`
+
+## Construction role
+
+Book IV develops physics as the carrier's self-description on its own
+T^2-boundary fiber. Microphysical content arises from how the carrier reads
+itself through bipolar character channels, the four-atom idempotent grammar,
+and the sector holonomies inherited from Book III. Proto-time is explicitly
+not part of this fiber analysis: temporal progression, worldlines, and proper
+time live on the τ^1 base and are developed in Book V.
+
+## What this step earns
+
+Self-description on the T^2 fiber is made addressable as Step 045 in the fine-grained Construction Spine routing layer.
+
+## What this step does not yet establish
+
+This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.
+
+## Source anchors
+
+- Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:665)
+
+**Manuscript extraction state:** `pending-source-anchor`.
+
+## Formalization and verification
+
+**Registry links:** _Registry extraction pending._
+
+**TauLib modules:** _TauLib module extraction pending._
+
+## Dependencies
+
+- Previous: [Step 044 — No stage/actor split](/corpus/construction-spine/steps/044-no-stage-actor-split/)
+- Next: [Step 046 — Defect-bundle formalism](/corpus/construction-spine/steps/046-defect-bundle-formalism/)
+
+## Navigate
+
+- [100-Step Routing Ledger](/corpus/construction-spine/steps/)
+- [Ten-step Construction Spine](/corpus/construction-spine/)

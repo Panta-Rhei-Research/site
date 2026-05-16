@@ -778,6 +778,11 @@ def sync_foundations() -> None:
         CORPUS_EXPORTS / "construction-spine.json",
         SITE_ROOT / "_data" / "construction_spine" / "construction-spine-data.json",
     )
+    for filename in ("construction-spine-100.json", "construction-spine-100.ndjson", "construction-spine-100.csv"):
+        source = CORPUS_EXPORTS / filename
+        if source.exists():
+            copy_file(source, SITE_ROOT / "_data" / "construction_spine" / filename)
+            copy_file(source, SITE_ROOT / "assets" / "data" / "construction-spine" / filename)
 
     for filename in ("foundational-hinges.json", "foundational-hinges.ndjson", "foundational-hinges.csv"):
         source = CORPUS_EXPORTS / filename
@@ -789,6 +794,9 @@ def sync_foundations() -> None:
     )
 
     copy_tree(CORPUS_EXPORTS / "construction-spine" / "steps", SITE_ROOT / "corpus" / "construction-spine")
+    steps_100_source = CORPUS_EXPORTS / "construction-spine" / "steps-100"
+    if steps_100_source.exists():
+        copy_tree(steps_100_source, SITE_ROOT / "corpus" / "construction-spine" / "steps")
     copy_tree(CORPUS_EXPORTS / "foundational-hinges", SITE_ROOT / "corpus" / "foundational-hinges")
 
 

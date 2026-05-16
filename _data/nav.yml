@@ -167,6 +167,8 @@ lane_nav:
           - title: "Construction Spine"
             url: "/corpus/construction-spine/"
             children:
+              - title: "100-Step Routing Ledger"
+                url: "/corpus/construction-spine/steps/"
               - title: "1. Build the τ-Kernel"
                 url: "/corpus/construction-spine/build-the-kernel/"
               - title: "2. Recover Core Mathematics"

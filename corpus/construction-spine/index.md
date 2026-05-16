@@ -15,6 +15,8 @@ hero_ctas:
   - label: "Step 1: Build the τ-Kernel"
     url: /corpus/construction-spine/build-the-kernel/
     primary: true
+  - label: "100-Step Ledger"
+    url: /corpus/construction-spine/steps/
   - label: "Review Packet"
     url: /corpus/foundational-hinges/
   - label: "Construction Roadmap"
@@ -26,6 +28,8 @@ right_rail:
   related:
     - title: "Verify the Construction Spine"
       url: /verify/construction-spine-verification/
+    - title: "100-Step Routing Ledger"
+      url: /corpus/construction-spine/steps/
     - title: "Construction Review Packet"
       url: /corpus/foundational-hinges/
     - title: "Bi-Square Motif"
@@ -42,7 +46,7 @@ right_rail:
       url: /program/about/related-approaches/
   meta:
     type: "Corpus Index"
-    scope: "10 construction steps"
+    scope: "10 macro steps + 100-step routing ledger"
     status: "Canonical"
     updated: "May 2026"
 ---
@@ -102,6 +106,20 @@ The first three construction steps are supported by a construction review packet
   </li>
 {% endfor %}
 </ol>
+
+## The 100-Step Routing Ledger
+
+The ten construction steps are the macro build order. The [100-step routing ledger]({{ '/corpus/construction-spine/steps/' | relative_url }}) is the inspection layer beneath them.
+
+Each numbered route links the compressed Full Construction Spine release-candidate construction to a stable Corpus address. The pages are scaffolded from the RC3 whitepaper and intentionally mark deeper manuscript, Registry, and TauLib anchors as pending until the source-map extraction pass promotes them.
+
+<div class="btn-group section-ctas">
+  <a class="btn-secondary" href="{{ '/corpus/construction-spine/steps/' | relative_url }}">Open the 100-Step Ledger</a>
+  <a class="btn-ghost" href="{{ '/corpus/construction-spine/steps/001-non-import-discipline/' | relative_url }}">S001</a>
+  <a class="btn-ghost" href="{{ '/corpus/construction-spine/steps/042-hinge-theorem-export/' | relative_url }}">S042</a>
+  <a class="btn-ghost" href="{{ '/corpus/construction-spine/steps/064-tau-einstein-identity/' | relative_url }}">S064</a>
+  <a class="btn-ghost" href="{{ '/corpus/construction-spine/steps/100-logos-boundary-and-ontic-closure-burden/' | relative_url }}">S100</a>
+</div>
 
 ## End-to-end construction view
 

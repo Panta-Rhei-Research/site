@@ -1,0 +1,87 @@
+---
+layout: "program-doc"
+title: "Step 081 — Boundary and energy coupling"
+title_plain: "Step 081 — Boundary and energy coupling"
+permalink: "/corpus/construction-spine/steps/081-boundary-and-energy-coupling/"
+lane: "corpus"
+v2_lane: "corpus"
+section: "construction-spine"
+type: "Construction Step"
+status: "Scaffolded"
+summary_short: "The membrane is the concrete biological boundary: it separates self/non-self and makes gradients possible."
+construction_step_id: "S081"
+construction_step_number: 81
+macro_step_id: "CS-07"
+macro_step_title: "Recover Life as a Structural Class"
+book: "Book VI"
+layer: "E2"
+short_route: "https://prrp.site/s81"
+padded_short_route: "https://prrp.site/s081"
+do_not_edit: true
+right_rail:
+  feedback: true
+  related:
+    -
+      title: "100-Step Routing Ledger"
+      url: "/corpus/construction-spine/steps/"
+    -
+      title: "Construction Spine"
+      url: "/corpus/construction-spine/"
+    -
+      title: "Recover Life as a Structural Class"
+      url: "/corpus/construction-spine/recover-life/"
+    -
+      title: "Verify the Construction Spine"
+      url: "/verify/construction-spine-verification/"
+  meta:
+    type: "Construction Step"
+    status: "Scaffolded from RC3"
+    book: "Book VI"
+    layer: "E2"
+---
+
+> The membrane is the concrete biological boundary: it separates self/non-self and makes gradients possible.
+
+<div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
+
+**Book / layer.** Book VI · E2<br>
+**Macro step.** [CS-07 — Recover Life as a Structural Class](/corpus/construction-spine/recover-life/)<br>
+**Short routes.** `https://prrp.site/s81` · `https://prrp.site/s081`<br>
+**Status tags.** `bridge`
+
+## Construction role
+
+The membrane is the concrete biological boundary: it separates self/non-self
+and makes gradients possible. Chemiosmosis ties boundary, proton gradient, ATP
+synthase, ATP, and agency into one construction chain: the material route by
+which E_2 boundary maintenance and energy coupling become one grammar.
+
+## What this step earns
+
+Boundary and energy coupling is made addressable as Step 081 in the fine-grained Construction Spine routing layer.
+
+## What this step does not yet establish
+
+This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.
+
+## Source anchors
+
+- Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:1094)
+
+**Manuscript extraction state:** `pending-source-anchor`.
+
+## Formalization and verification
+
+**Registry links:** _Registry extraction pending._
+
+**TauLib modules:** _TauLib module extraction pending._
+
+## Dependencies
+
+- Previous: [Step 080 — Life Loop and metabolic closure](/corpus/construction-spine/steps/080-life-loop-and-metabolic-closure/)
+- Next: [Step 082 — Code, genotype, and heredity](/corpus/construction-spine/steps/082-code-genotype-and-heredity/)
+
+## Navigate
+
+- [100-Step Routing Ledger](/corpus/construction-spine/steps/)
+- [Ten-step Construction Spine](/corpus/construction-spine/)
