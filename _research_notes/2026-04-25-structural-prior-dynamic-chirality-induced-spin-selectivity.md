@@ -1,9 +1,9 @@
 ---
 title: "A Structural Prior for Dynamic Chirality-Induced Spin Selectivity"
-subtitle: "The Parity Bridge Theorem meets Paltiel et al. on a vibronic CISS mechanism"
+subtitle: "A symmetry-class bridge between Book VI's parity slot and Paltiel et al.'s dynamic CISS mechanism"
 slug: "structural-prior-dynamic-chirality-induced-spin-selectivity"
 permalink: /publications/research-notes/structural-prior-dynamic-chirality-induced-spin-selectivity/
-date: 2026-04-25
+date: 2026-05-16
 type: "Research Note"
 publication_type: "Research Note"
 status: "Published"
@@ -13,26 +13,27 @@ domain: "Life"
 secondary_domains:
   - Physics
   - Verification
-summary_short: "A PDF-backed response note connecting Book VI's Parity Bridge slot to the Paltiel et al. dynamic CISS mechanism."
-summary: "This note identifies the Paltiel et al. vibronic spin-orbit pseudoscalar as a possible filler for the non-thermal homochirality-amplification slot already exposed by the Book VI Parity Bridge theorem."
-abstract: "The note argues for a calibrated slot-filler comparison: Panta Rhei Book VI had already placed a non-thermal amplification requirement for biological homochirality on the public record, while Paltiel et al. provide an independent proposed mechanism for dynamic chirality-induced spin selectivity. The web page records the note's status, claim boundary, and verification routes; the PDF remains the citable artifact."
+summary_short: "A PDF-backed response note reading Paltiel et al.'s dynamic CISS mechanism as a guarded symmetry-class bridge for Book VI's Parity Bridge slot."
+summary: "This note reads Paltiel et al.'s Science Advances paper on dynamic chirality-induced spin selectivity and enantiomeric excess as a guarded external readout surface for Book VI's homochirality / parity-bridge architecture."
+abstract: "The note does not claim that Paltiel et al. validate Category τ, nor that Panta Rhei predicted their detailed molecular mechanism. Its narrower claim is a prior structural-slot record: Book VI had already articulated the need for a non-thermal, parity-sensitive amplification channel relevant to biological homochirality, and the Paltiel et al. mechanism appears to match that slot at the level of symmetry class and amplification role."
 anchor_paper: "Paltiel et al., Dynamic breaking of mirror symmetry in spin-dependent electron transport through chiral media, Science Advances, 2026."
 anchor:
   title: "Dynamic CISS mechanism"
   description: "The anchor paper proposes a vibronic, time-even pseudoscalar spin-orbit coupling mechanism for enantiomer-distinguishing electron transport through chiral media."
-  relation: "Identified as a candidate filler of the Parity Bridge amplification slot, not claimed as a mechanism predicted in detail."
+  relation: "Read as an admissible candidate realization of the Parity Bridge amplification slot at the level of symmetry class and amplification role, not claimed as a mechanism predicted in detail."
 pdf: "/assets/pdfs/research-notes/research-note-2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity.pdf"
 pdf_url: "/assets/pdfs/research-notes/research-note-2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity.pdf"
 pdf_available: true
 claims:
-  core: "Book VI's Parity Bridge gives a structural prior for a non-thermal, parity-odd channel between weak-sector chirality and biological handedness; the Paltiel et al. operator is a candidate realization of that channel."
+  core: "Book VI's Parity Bridge records a prior structural slot for a non-thermal, parity-odd, time-even, weak-EM amplification channel between the weak-sector chirality seed and biological handedness; the Paltiel et al. dynamic CISS mechanism is an admissible candidate realization of that slot at the level of symmetry class and amplification role."
   does_not_claim:
-    - "It does not claim that Panta Rhei predicted the exact vibronic operator or transport asymmetries."
+    - "It does not claim that Panta Rhei derived or predicted Paltiel et al.'s vibronic spin-orbit mechanism, molecular angular structure, or reported transport asymmetries."
+    - "It does not claim that Paltiel et al. validate Category τ or Book VI."
     - "It does not establish that the Paltiel et al. mechanism is empirically final."
     - "It does not replace independent chemical, biophysical, or experimental validation."
   falsification_surface:
-    - "Failure of the proposed operator to preserve the required parity/sign structure."
-    - "Experimental refutation of the CISS mechanism as the relevant amplification channel."
+    - "Failure of the proposed operator to preserve the required parity/time/sign structure."
+    - "Experimental refutation of dynamic CISS as the relevant amplification channel."
     - "Failure of the Book VI Parity Bridge interpretation under formal or semantic review."
 verification:
   status: "pending_external_review"
@@ -101,9 +102,9 @@ right_rail:
   meta:
     type: "Research Note"
     status: "Published"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
 ## Reading Note
 
-The PDF contains the full argument. This web page records the public metadata, claim boundary, verification posture, and related site surfaces for the citable Research Note artifact.
+The PDF contains the full v1.0 argument. This web page records the public metadata, claim boundary, verification posture, and related site surfaces for the citable Research Note artifact.
