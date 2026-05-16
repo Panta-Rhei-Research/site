@@ -88,6 +88,8 @@ def main() -> int:
         ROOT / "scripts/generate_og_images.py",
         ROOT / "assets/og/backgrounds/og-background-dark-standard.svg",
         ROOT / "assets/og/backgrounds/og-background-light-standard.svg",
+        ROOT / "assets/og/logo/logo-og-lockup.svg",
+        ROOT / "assets/og/logo/logo-og-lockup-light.svg",
         ROOT / "assets/og/fonts-local/EBGaramond-Regular.ttf",
         ROOT / "assets/og/fonts-local/SourceSans3-Regular.ttf",
         ROOT / "assets/og/fonts-local/SourceCodePro-Regular.ttf",
@@ -100,6 +102,10 @@ def main() -> int:
     cards = manifest.get("cards", {})
     if len(cards) < 120:
         fail(f"expected at least 120 generated cards, found {len(cards)}")
+
+    generator_source = (ROOT / "scripts/generate_og_images.py").read_text(encoding="utf-8", errors="ignore")
+    if ">π</text>" in generator_source or "Independent open research program</text>" in generator_source:
+        fail("OG generator still contains the old ad hoc text lockup fallback")
 
     site_atlas = json.loads((ROOT / "_data/site_atlas/pages.json").read_text(encoding="utf-8"))
     launch_routes = [
@@ -135,15 +141,36 @@ def main() -> int:
         if not card.get("alt"):
             fail(f"{slug} missing alt text")
 
+        svg_text = (ROOT / card["svg"].lstrip("/")).read_text(encoding="utf-8", errors="ignore")
+        if "canonical-lockup" not in svg_text:
+            fail(f"{slug} generated SVG missing canonical-lockup marker")
+        if "π ρ wordmark" in svg_text or "Independent open research program</text>" in svg_text:
+            fail(f"{slug} generated SVG contains the old ad hoc wordmark construction")
+
+    index_png = ROOT / "assets/og/png/index.png"
+    for legacy_fallback in [ROOT / "assets/og-image.png", ROOT / "assets/brand/og-image.png"]:
+        assert_file(legacy_fallback)
+        if legacy_fallback.read_bytes() != index_png.read_bytes():
+            fail(f"{legacy_fallback.relative_to(ROOT)} should match the v4 generated fallback card")
+
     offenders: list[str] = []
+    legacy_metadata_offenders: list[str] = []
     for html_path in built.rglob("*.html"):
         text = html_path.read_text(encoding="utf-8", errors="ignore")
         if "/assets/og-cards/" in text:
             offenders.append(str(html_path.relative_to(built)))
             if len(offenders) >= 20:
                 break
+        if (
+            'property="og:image" content="https://panta-rhei.site/assets/og-image.png"' in text
+            or 'name="twitter:image" content="https://panta-rhei.site/assets/og-image.png"' in text
+            or '"https://panta-rhei.site/assets/og-image.png"' in text
+        ):
+            legacy_metadata_offenders.append(str(html_path.relative_to(built)))
     if offenders:
         fail("legacy /assets/og-cards references remain: " + ", ".join(offenders))
+    if legacy_metadata_offenders:
+        fail("legacy /assets/og-image.png metadata references remain: " + ", ".join(legacy_metadata_offenders[:20]))
 
     sample_routes = sorted(set(launch_routes + ["/", "/program/", "/agenda/", "/impact/", "/engage/"]))
     for route in sample_routes:
@@ -213,6 +240,16 @@ def main() -> int:
             fail(f"{route} missing social metadata JSON-LD graph")
         if '"datePublished"' not in html or '"dateModified"' not in html:
             fail(f"{route} missing JSON-LD date fields")
+
+    fallback_html = built / "404.html"
+    if fallback_html.exists():
+        parser = MetaParser()
+        parser.feed(fallback_html.read_text(encoding="utf-8", errors="ignore"))
+        fallback_expected = f"{SITE_HOST}/assets/og/png/index.png"
+        if meta(parser, "property", "og:image") != fallback_expected:
+            fail("404 fallback og:image should use the v4 generated fallback card")
+        if meta(parser, "name", "twitter:image") != fallback_expected:
+            fail("404 fallback twitter:image should use the v4 generated fallback card")
 
     plate_data = (built / "api" / "plates.json").read_text(encoding="utf-8", errors="ignore")
     if "/assets/images/plates/plate-01-public-research-observatory-og.jpg" not in plate_data:

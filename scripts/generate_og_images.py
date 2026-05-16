@@ -47,7 +47,7 @@ LOCKUP_SVG_LIGHT = ASSETS_DIR / "logo" / "logo-og-lockup-light.svg"
 #   - a design bump invalidates downstream CDN edge caches deterministically
 #     (the SVG/PNG/WEBP bytes change, ETags change, edges revalidate)
 # Format: vN where N is incremented on each design wave.
-CARD_DESIGN_VERSION = "v2"
+CARD_DESIGN_VERSION = "v3"
 
 
 LANE_ICONS = {
@@ -382,15 +382,7 @@ def render_lockup(color: str, variant: str = "dark") -> str:
         _LOCKUP_CACHE[key] = _load_lockup_payload(path)
     inner, src_w = _LOCKUP_CACHE[key]
     if not inner or src_w <= 0:
-        # Defensive fallback to the previous text lockup if the SVG goes missing.
-        return f"""
-      <g transform="translate(785 26)" fill="{color}">
-        <text x="0" y="44" font-family="EB Garamond OG, Georgia, serif" font-size="52" font-weight="400">π</text>
-        <text x="31" y="67" font-family="EB Garamond OG, Georgia, serif" font-size="52" font-style="italic" font-weight="400">ρ</text>
-        <text x="86" y="36" font-family="Source Sans 3 OG, Inter, Arial, sans-serif" font-size="25" font-weight="700">Panta Rhei Research</text>
-        <text x="86" y="67" font-family="Source Sans 3 OG, Inter, Arial, sans-serif" font-size="21" opacity="0.82">Independent open research program</text>
-      </g>
-    """
+        fail(f"official OG logo lockup could not be loaded for {key} card variant")
     # Layout: place the lockup chip in the upper-right of the 1200x630 card.
     # Target width 280 px; scale from each SVG's intrinsic viewBox width.
     # Origin x = 1200 - 280 - 48 (right margin) = 872, y = 28 (top margin).

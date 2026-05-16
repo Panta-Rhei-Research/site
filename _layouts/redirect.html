@@ -27,7 +27,7 @@
     {%- assign og_image = page.og_image -%}
     {%- assign og_image_alt = page.og_image_alt | default: site.title -%}
   {%- else -%}
-    {%- assign og_image = '/assets/og-image.png' -%}
+    {%- assign og_image = '/assets/og/png/index.png' -%}
     {%- assign og_image_alt = page.og_image_alt | default: site.title -%}
   {%- endif -%}
   {%- assign social_author_content = page.author_display | default: page.author | default: site.site_author | default: site.author.name -%}

@@ -25,7 +25,7 @@
 {%- capture json_description -%}{{ seo_description | strip_html | replace: '"', '\"' | replace: '\', '\\' | strip_newlines }}{%- endcapture -%}
 
 {%- capture json_title -%}{{ page.title_plain | default: page.title | default: site.title | strip_html | replace: '"', '\"' }}{%- endcapture -%}
-{%- assign schema_image = og_image | default: site.image | default: '/assets/og-image.png' -%}
+{%- assign schema_image = og_image | default: site.image | default: '/assets/og/png/index.png' -%}
 {%- assign schema_published_time = social_published_time_xml | default: site.default_published_date -%}
 {%- assign schema_modified_time = social_modified_time_xml | default: site.default_modified_date -%}
 {%- assign social_schema_type = 'WebPage' -%}
@@ -166,7 +166,7 @@
   "url": "{{ page.url | absolute_url }}",
   "inLanguage": "en",
   "isPartOf": { "@type": "WebSite", "@id": "{{ site.url }}/#website" },
-  "primaryImageOfPage": { "@type": "ImageObject", "url": "{{ '/assets/og-image.png' | absolute_url }}" },
+  "primaryImageOfPage": { "@type": "ImageObject", "url": "{{ schema_image | absolute_url }}" },
   "mainEntity": {
     "@type": "ResearchOrganization",
     "name": "Panta Rhei Research Program",
@@ -524,7 +524,7 @@
   "description": {{ json_description | jsonify }},
   "url": "{{ page.url | absolute_url }}",
   "inLanguage": "en",
-  "image": "{{ '/assets/og-image.png' | absolute_url }}",
+  "image": "{{ schema_image | absolute_url }}",
   "author": [
     { "@type": "Person", "name": "Thorsten Fuchs", "sameAs": "https://orcid.org/0009-0007-0718-1042" },
     { "@type": "Person", "name": "Anna-Sophie Fuchs", "sameAs": "https://orcid.org/0009-0007-3495-7416" }
@@ -533,7 +533,7 @@
     "@type": "Organization",
     "name": "Panta Rhei Research Program",
     "url": "{{ site.url }}",
-    "logo": { "@type": "ImageObject", "url": "{{ '/assets/og-image.png' | absolute_url }}" }
+    "logo": { "@type": "ImageObject", "url": "{{ schema_image | absolute_url }}" }
   }{% if page.date %},
   "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
   "dateModified": {{ page.date | date_to_xmlschema | jsonify }}{% endif %}{% if page.topics %},

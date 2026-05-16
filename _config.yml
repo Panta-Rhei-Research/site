@@ -4,7 +4,7 @@ url: "https://panta-rhei.site"
 baseurl: ""
 
 # Social / SEO metadata
-image: /assets/og-image.png
+image: /assets/og/png/index.png
 author:
   name: "Thorsten Fuchs & Anna-Sophie Fuchs"
 site_author: "Thorsten Fuchs and Anna-Sophie Fuchs"
