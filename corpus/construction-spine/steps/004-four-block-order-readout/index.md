@@ -8,9 +8,10 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "In order-readout, the kernel is not a single generated ray. It is a typed four-block stack O_α O_π O_γ O_η ω ."
+summary_short: "In order-readout, the kernel is not a single generated ray."
 construction_step_id: "S004"
 construction_step_number: 4
+construction_step_short_title: "Four-block order readout"
 macro_step_id: "CS-01"
 macro_step_title: "Build the τ-Kernel"
 book: "Book I"
@@ -40,13 +41,17 @@ right_rail:
     layer: "E0"
 ---
 
-> In order-readout, the kernel is not a single generated ray. It is a typed four-block stack O_α O_π O_γ O_η ω .
+> In order-readout, the kernel is not a single generated ray.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
+
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/build-the-kernel/">CS-01 — Build the τ-Kernel</a></div>
 
 **Book / layer.** Book I · E0<br>
 **Macro step.** [CS-01 — Build the τ-Kernel](/corpus/construction-spine/build-the-kernel/)<br>
 **Short routes.** `https://prrp.site/s4` · `https://prrp.site/s004`<br>
+**Formula checkpoints.** <math xmlns="http://www.w3.org/1998/Math/MathML" alttext="O_α ≺ O_π ≺ O_γ ≺ O_η ≺ ω"><semantics><msub><mi>O</mi><mi>α</mi></msub><mo>≺</mo><msub><mi>O</mi><mi>π</mi></msub><mo>≺</mo><msub><mi>O</mi><mi>γ</mi></msub><mo>≺</mo><msub><mi>O</mi><mi>η</mi></msub><mo>≺</mo><mi>ω</mi><annotation encoding="text/plain">O_α ≺ O_π ≺ O_γ ≺ O_η ≺ ω</annotation></semantics></math><br>
+
 **Status tags.** `hinge`
 
 ## Construction role
@@ -54,7 +59,7 @@ right_rail:
 In order-readout, the kernel is not a single generated ray. It is a typed
 four-block stack
 
-O_α O_π O_γ O_η ω .
+<math xmlns="http://www.w3.org/1998/Math/MathML" alttext="O_α ≺ O_π ≺ O_γ ≺ O_η ≺ ω"><semantics><msub><mi>O</mi><mi>α</mi></msub><mo>≺</mo><msub><mi>O</mi><mi>π</mi></msub><mo>≺</mo><msub><mi>O</mi><mi>γ</mi></msub><mo>≺</mo><msub><mi>O</mi><mi>η</mi></msub><mo>≺</mo><mi>ω</mi><annotation encoding="text/plain">O_α ≺ O_π ≺ O_γ ≺ O_η ≺ ω</annotation></semantics></math> .
 
 This shape is an order-readout analogy, not imported ordinal theory. The
 classical ordinal ω would correspond only to the first post-α
@@ -67,6 +72,8 @@ the E0 precursor of the later 4+1 sector template.
 
 Four-block order readout is made addressable as Step 004 in the fine-grained Construction Spine routing layer.
 
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
+
 ## What this step does not yet establish
 
 This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.
@@ -75,7 +82,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:182)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

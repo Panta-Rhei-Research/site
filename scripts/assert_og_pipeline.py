@@ -145,6 +145,10 @@ def main() -> int:
     if ">π</text>" in generator_source or "Independent open research program</text>" in generator_source:
         fail("OG generator still contains the old ad hoc text lockup fallback")
 
+    generator_source = (ROOT / "scripts/generate_og_images.py").read_text(encoding="utf-8", errors="ignore")
+    if ">π</text>" in generator_source or "Independent open research program</text>" in generator_source:
+        fail("OG generator still contains the old ad hoc text lockup fallback")
+
     site_atlas = json.loads((ROOT / "_data/site_atlas/pages.json").read_text(encoding="utf-8"))
     launch_routes = [
         page["route"]
@@ -182,6 +186,18 @@ def main() -> int:
         if not icon:
             fail(f"{slug} missing icon token in generated manifest")
         assert_file(ROOT / "assets" / "og" / "icons" / "material-symbols" / f"{icon}.svg", min_size=80)
+
+        svg_text = (ROOT / card["svg"].lstrip("/")).read_text(encoding="utf-8", errors="ignore")
+        if "canonical-lockup" not in svg_text:
+            fail(f"{slug} generated SVG missing canonical-lockup marker")
+        if "π ρ wordmark" in svg_text or "Independent open research program</text>" in svg_text:
+            fail(f"{slug} generated SVG contains the old ad hoc wordmark construction")
+
+    index_png = ROOT / "assets/og/png/index.png"
+    for legacy_fallback in [ROOT / "assets/og-image.png", ROOT / "assets/brand/og-image.png"]:
+        assert_file(legacy_fallback)
+        if legacy_fallback.read_bytes() != index_png.read_bytes():
+            fail(f"{legacy_fallback.relative_to(ROOT)} should match the v4 generated fallback card")
 
         svg_text = (ROOT / card["svg"].lstrip("/")).read_text(encoding="utf-8", errors="ignore")
         if "canonical-lockup" not in svg_text:

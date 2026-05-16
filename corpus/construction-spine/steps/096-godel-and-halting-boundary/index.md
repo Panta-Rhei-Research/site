@@ -8,9 +8,10 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "Book VII does not refute Gödel and does not bypass incompleteness by slogan. It restricts the conditions under which unrestricted diagonal self-reference is available."
+summary_short: "Book VII does not refute Gödel and does not bypass incompleteness by slogan."
 construction_step_id: "S096"
 construction_step_number: 96
+construction_step_short_title: "Gödel and halting boundary"
 macro_step_id: "CS-09"
 macro_step_title: "Self-Host Formal Systems and the Kernel Itself"
 book: "Book VII"
@@ -40,13 +41,16 @@ right_rail:
     layer: "E3"
 ---
 
-> Book VII does not refute Gödel and does not bypass incompleteness by slogan. It restricts the conditions under which unrestricted diagonal self-reference is available.
+> Book VII does not refute Gödel and does not bypass incompleteness by slogan.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
+
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/self-host-formal-systems/">CS-09 — Self-Host Formal Systems and the Kernel Itself</a></div>
 
 **Book / layer.** Book VII · E3<br>
 **Macro step.** [CS-09 — Self-Host Formal Systems and the Kernel Itself](/corpus/construction-spine/self-host-formal-systems/)<br>
 **Short routes.** `https://prrp.site/s96` · `https://prrp.site/s096`<br>
+
 **Status tags.** `formal` `bridge`
 
 ## Construction role
@@ -61,6 +65,8 @@ coherence kernel with layered witness discipline.
 
 Gödel and halting boundary is made addressable as Step 096 in the fine-grained Construction Spine routing layer.
 
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
+
 ## What this step does not yet establish
 
 This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.
@@ -69,7 +75,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:1218)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

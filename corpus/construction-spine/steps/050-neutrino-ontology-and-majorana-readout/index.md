@@ -8,9 +8,10 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "Neutrinos differ ontologically from photons. A neutrino is not a null-transport mode but an ontic weak-sector eigenmode with in-transit reality: it carries weak-sector structure while remaining electrically neutral and colorless."
+summary_short: "Neutrinos differ ontologically from photons."
 construction_step_id: "S050"
 construction_step_number: 50
+construction_step_short_title: "Neutrino ontology and Majorana readout"
 macro_step_id: "CS-05"
 macro_step_title: "Recover Internal Physical Grammar"
 book: "Book IV"
@@ -40,13 +41,16 @@ right_rail:
     layer: "E1"
 ---
 
-> Neutrinos differ ontologically from photons. A neutrino is not a null-transport mode but an ontic weak-sector eigenmode with in-transit reality: it carries weak-sector structure while remaining electrically neutral and colorless.
+> Neutrinos differ ontologically from photons.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
+
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/recover-internal-physical-grammar/">CS-05 — Recover Internal Physical Grammar</a></div>
 
 **Book / layer.** Book IV · E1<br>
 **Macro step.** [CS-05 — Recover Internal Physical Grammar](/corpus/construction-spine/recover-internal-physical-grammar/)<br>
 **Short routes.** `https://prrp.site/s50` · `https://prrp.site/s050`<br>
+
 **Status tags.** `readout` `external-validation-seam`
 
 ## Construction role
@@ -54,7 +58,7 @@ right_rail:
 Neutrinos differ ontologically from photons. A neutrino is not a null-transport
 mode but an ontic weak-sector eigenmode with in-transit reality: it carries
 weak-sector structure while remaining electrically neutral and colorless. The
-three flavor modes _e,_,_τ are read as weak eigenmodes of the
+three flavor modes _e,_μ,_τ are read as weak eigenmodes of the
 carrier grammar. In the current τ-readout, zero-holonomy neutrino modes
 satisfy the Majorana condition; the particle/antiparticle distinction is
 therefore read through helicity / propagation orientation rather than an
@@ -65,6 +69,8 @@ the final quantity-semantics appendix.
 
 Neutrino ontology and Majorana readout is made addressable as Step 050 in the fine-grained Construction Spine routing layer.
 
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
+
 ## What this step does not yet establish
 
 This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.
@@ -73,7 +79,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:715)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

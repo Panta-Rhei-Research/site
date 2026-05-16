@@ -8,9 +8,10 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "Generation structure is read from the topology of the T^2-fiber rather than postulated as a repeated particle table."
+summary_short: "Generation structure is read from the topology of the T²-fiber rather than postulated as a repeated particle table."
 construction_step_id: "S056"
 construction_step_number: 56
+construction_step_short_title: "Three generations from topology"
 macro_step_id: "CS-05"
 macro_step_title: "Recover Internal Physical Grammar"
 book: "Book IV"
@@ -40,28 +41,33 @@ right_rail:
     layer: "E1"
 ---
 
-> Generation structure is read from the topology of the T^2-fiber rather than postulated as a repeated particle table.
+> Generation structure is read from the topology of the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math>-fiber rather than postulated as a repeated particle table.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
+
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/recover-internal-physical-grammar/">CS-05 — Recover Internal Physical Grammar</a></div>
 
 **Book / layer.** Book IV · E1<br>
 **Macro step.** [CS-05 — Recover Internal Physical Grammar](/corpus/construction-spine/recover-internal-physical-grammar/)<br>
 **Short routes.** `https://prrp.site/s56` · `https://prrp.site/s056`<br>
+
 **Status tags.** `bridge` `readout`
 
 ## Construction role
 
-Generation structure is read from the topology of the T^2-fiber rather than
+Generation structure is read from the topology of the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math>-fiber rather than
 postulated as a repeated particle table. The three generations correspond to
 the admissible fundamental-cycle structure of the fiber-mode grammar; a fourth
 generation would require a topology the carrier does not supply. The inspection
 question is not whether other topologies could be imagined, but whether any
-admissible τ-internal variation of the earned T^2-fiber changes the
+admissible τ-internal variation of the earned <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math>-fiber changes the
 generation count.
 
 ## What this step earns
 
 Three generations from topology is made addressable as Step 056 in the fine-grained Construction Spine routing layer.
+
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
 
 ## What this step does not yet establish
 
@@ -71,7 +77,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:777)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

@@ -8,9 +8,10 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "The local domains of τ^3 are not open sets chosen from an external space. They are ABCD-prefix cylinders: refinement classes of address tails."
+summary_short: "The local domains of τ³ are not open sets chosen from an external space."
 construction_step_id: "S019"
 construction_step_number: 19
+construction_step_short_title: "Cylinders and ultrametric topology"
 macro_step_id: "CS-02"
 macro_step_title: "Recover Core Mathematics"
 book: "Book II"
@@ -40,23 +41,26 @@ right_rail:
     layer: "E0"
 ---
 
-> The local domains of τ^3 are not open sets chosen from an external space. They are ABCD-prefix cylinders: refinement classes of address tails.
+> The local domains of <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>3</mn></msup></math> are not open sets chosen from an external space.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
+
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/recover-core-mathematics/">CS-02 — Recover Core Mathematics</a></div>
 
 **Book / layer.** Book II · E0<br>
 **Macro step.** [CS-02 — Recover Core Mathematics](/corpus/construction-spine/recover-core-mathematics/)<br>
 **Short routes.** `https://prrp.site/s19` · `https://prrp.site/s019`<br>
+
 **Status tags.** `formal`
 
 ## Construction role
 
-The local domains of τ^3 are not open sets chosen from an external
+The local domains of <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>3</mn></msup></math> are not open sets chosen from an external
 space. They are ABCD-prefix cylinders: refinement classes of address tails.
 Two points are close when their generated address data agree for a long initial
-segment; their first-disagreement depth (t,t') defines the ultrametric
+segment; their first-disagreement depth δ(t,t') defines the ultrametric
 
-d(t,t')=2^-(t,t').
+d(t,t')=2^-δ(t,t').
 
 Thus locality is earned from prefix agreement. The topology is the topology of
 address resolution, not a topology imposed on an already spatial object.
@@ -64,6 +68,8 @@ address resolution, not a topology imposed on an already spatial object.
 ## What this step earns
 
 Cylinders and ultrametric topology is made addressable as Step 019 in the fine-grained Construction Spine routing layer.
+
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
 
 ## What this step does not yet establish
 
@@ -73,7 +79,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:305)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 
@@ -83,7 +89,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 ## Dependencies
 
-- Previous: [Step 018 — τ^3 as geometric readout τ^1×_f T^2](/corpus/construction-spine/steps/018-tau-3-as-geometric-readout-tau-1-x-f-t-2/)
+- Previous: [Step 018 — τ³ as geometric readout τ¹×_f T²](/corpus/construction-spine/steps/018-tau-3-as-geometric-readout-tau-1-x-f-t-2/)
 - Next: [Step 020 — Stone/profinite shape and two-readout principle](/corpus/construction-spine/steps/020-stone-profinite-shape-and-two-readout-principle/)
 
 ## Navigate

@@ -31,7 +31,7 @@ right_rail:
 
 The ten Construction Spine pages are the macro build order. This 100-step ledger is the inspection layer beneath them: each step turns the Full Construction Spine RC3 whitepaper into a stable Corpus route.
 
-<div class="notice note"><strong>Ledger status.</strong> These routes are scaffolded from the Full Construction Spine RC3. They are public-facing routing surfaces, not final manuscript source maps; unresolved manuscript anchors are explicitly marked <code>pending-source-anchor</code>.</div>
+<div class="notice note"><strong>Ledger status.</strong> These routes are scaffolded from the Full Construction Spine RC3. They are public-facing routing surfaces, not final manuscript source maps. Detailed source anchors are pending extraction.</div>
 
 ## Filter Index
 
@@ -76,13 +76,13 @@ The ten Construction Spine pages are the macro build order. This 100-step ledger
 | Step | Title | Book | Layer | Short route |
 | --- | --- | --- | --- | --- |
 | S017 | [Boundary-first inversion](/corpus/construction-spine/steps/017-boundary-first-inversion/) | Book II | E0 | `https://prrp.site/s17` |
-| S018 | [τ^3 as geometric readout τ^1×_f T^2](/corpus/construction-spine/steps/018-tau-3-as-geometric-readout-tau-1-x-f-t-2/) | Book II | E0 | `https://prrp.site/s18` |
+| S018 | [τ³ as geometric readout τ¹×_f T²](/corpus/construction-spine/steps/018-tau-3-as-geometric-readout-tau-1-x-f-t-2/) | Book II | E0 | `https://prrp.site/s18` |
 | S019 | [Cylinders and ultrametric topology](/corpus/construction-spine/steps/019-cylinders-and-ultrametric-topology/) | Book II | E0 | `https://prrp.site/s19` |
 | S020 | [Stone/profinite shape and two-readout principle](/corpus/construction-spine/steps/020-stone-profinite-shape-and-two-readout-principle/) | Book II | E0 | `https://prrp.site/s20` |
 | S021 | [Geometric lemniscate at ω](/corpus/construction-spine/steps/021-geometric-lemniscate-at-omega/) | Book II | E0 | `https://prrp.site/s21` |
 | S022 | [Tarski geometry and wave-type causal precursor](/corpus/construction-spine/steps/022-tarski-geometry-and-wave-type-causal-precursor/) | Book II | E0 | `https://prrp.site/s22` |
-| S023 | [Earned constants pi_tau,e_tau,j](/corpus/construction-spine/steps/023-earned-constants-pi-tau-e-tau-j/) | Book II | E0 | `https://prrp.site/s23` |
-| S024 | [Master constant iota_tau](/corpus/construction-spine/steps/024-master-constant-iota-tau/) | Book II | E0 | `https://prrp.site/s24` |
+| S023 | [Earned constants π_τ,e_τ,j](/corpus/construction-spine/steps/023-earned-constants-pi-tau-e-tau-j/) | Book II | E0 | `https://prrp.site/s23` |
+| S024 | [Master constant ι_τ](/corpus/construction-spine/steps/024-master-constant-iota-tau/) | Book II | E0 | `https://prrp.site/s24` |
 | S025 | [Local Hartogs and mutual determination](/corpus/construction-spine/steps/025-local-hartogs-and-mutual-determination/) | Book II | E0 | `https://prrp.site/s25` |
 | S026 | [Regularity and finite spectral support](/corpus/construction-spine/steps/026-regularity-and-finite-spectral-support/) | Book II | E0 | `https://prrp.site/s26` |
 
@@ -99,9 +99,9 @@ The ten Construction Spine pages are the macro build order. This 100-step ledger
 
 | Step | Title | Book | Layer | Short route |
 | --- | --- | --- | --- | --- |
-| S031 | [E_0 is not yet physics](/corpus/construction-spine/steps/031-e0-is-not-yet-physics/) | Book III | E1 | `https://prrp.site/s31` |
+| S031 | [E₀ is not yet physics](/corpus/construction-spine/steps/031-e0-is-not-yet-physics/) | Book III | E1 | `https://prrp.site/s31` |
 | S032 | [No bare-point ontology](/corpus/construction-spine/steps/032-no-bare-point-ontology/) | Book III | E1 | `https://prrp.site/s32` |
-| S033 | [E_1 hom-object loci](/corpus/construction-spine/steps/033-e1-hom-object-loci/) | Book III | E1 | `https://prrp.site/s33` |
+| S033 | [E₁ hom-object loci](/corpus/construction-spine/steps/033-e1-hom-object-loci/) | Book III | E1 | `https://prrp.site/s33` |
 | S034 | [Central-Theorem constraint on physical loci](/corpus/construction-spine/steps/034-central-theorem-constraint-on-physical-loci/) | Book III | E1 | `https://prrp.site/s34` |
 | S035 | [Hartogs bulk projection](/corpus/construction-spine/steps/035-hartogs-bulk-projection/) | Book III | E1 | `https://prrp.site/s35` |
 | S036 | [Local-to-global gluing burden](/corpus/construction-spine/steps/036-local-to-global-gluing-burden/) | Book III | E1 | `https://prrp.site/s36` |
@@ -118,7 +118,7 @@ The ten Construction Spine pages are the macro build order. This 100-step ledger
 | --- | --- | --- | --- | --- |
 | S043 | [Layered equivalence](/corpus/construction-spine/steps/043-layered-equivalence/) | Book IV | E1 | `https://prrp.site/s43` |
 | S044 | [No stage/actor split](/corpus/construction-spine/steps/044-no-stage-actor-split/) | Book IV | E1 | `https://prrp.site/s44` |
-| S045 | [Self-description on the T^2 fiber](/corpus/construction-spine/steps/045-self-description-on-the-t-2-fiber/) | Book IV | E1 | `https://prrp.site/s45` |
+| S045 | [Self-description on the T² fiber](/corpus/construction-spine/steps/045-self-description-on-the-t-2-fiber/) | Book IV | E1 | `https://prrp.site/s45` |
 | S046 | [Defect-bundle formalism](/corpus/construction-spine/steps/046-defect-bundle-formalism/) | Book IV | E1 | `https://prrp.site/s46` |
 | S047 | [Photon as null transport](/corpus/construction-spine/steps/047-photon-as-null-transport/) | Book IV | E1 | `https://prrp.site/s47` |
 | S048 | [Neutron as minimal stable defect](/corpus/construction-spine/steps/048-neutron-as-minimal-stable-defect/) | Book IV | E1 | `https://prrp.site/s48` |
@@ -143,7 +143,7 @@ The ten Construction Spine pages are the macro build order. This 100-step ledger
 | S062 | [Redshift and Hubble readout](/corpus/construction-spine/steps/062-redshift-and-hubble-readout/) | Book V | E1 | `https://prrp.site/s62` |
 | S063 | [Gravity as frame holonomy](/corpus/construction-spine/steps/063-gravity-as-frame-holonomy/) | Book V | E1 | `https://prrp.site/s63` |
 | S064 | [τ-Einstein identity](/corpus/construction-spine/steps/064-tau-einstein-identity/) | Book V | E1 | `https://prrp.site/s64` |
-| S065 | [Lorentzian signature from j^2=+1](/corpus/construction-spine/steps/065-lorentzian-signature-from-j-2-plus-1/) | Book V | E1 | `https://prrp.site/s65` |
+| S065 | [Lorentzian signature from j²=+1](/corpus/construction-spine/steps/065-lorentzian-signature-from-j-2-plus-1/) | Book V | E1 | `https://prrp.site/s65` |
 | S066 | [Thermodynamic inversion](/corpus/construction-spine/steps/066-thermodynamic-inversion/) | Book V | E1 | `https://prrp.site/s66` |
 | S067 | [Heat, temperature, vacuum, and dark-energy readout](/corpus/construction-spine/steps/067-heat-temperature-vacuum-and-dark-energy-readout/) | Book V | E1 | `https://prrp.site/s67` |
 | S068 | [Macro defect lift and collective dynamics](/corpus/construction-spine/steps/068-macro-defect-lift-and-collective-dynamics/) | Book V | E1 | `https://prrp.site/s68` |
@@ -154,13 +154,13 @@ The ten Construction Spine pages are the macro build order. This 100-step ledger
 | S073 | [Cosmic web as Wilson-loop carrier channels](/corpus/construction-spine/steps/073-cosmic-web-as-wilson-loop-carrier-channels/) | Book V | E1 | `https://prrp.site/s73` |
 | S074 | [Big Bang, threshold ladder, and endstate](/corpus/construction-spine/steps/074-big-bang-threshold-ladder-and-endstate/) | Book V | E1 | `https://prrp.site/s74` |
 | S075 | [Book V late-stage synthesis and macrocosm export surface](/corpus/construction-spine/steps/075-book-v-late-stage-synthesis-and-macrocosm-export-surface/) | Book V | E1 | `https://prrp.site/s75` |
-| S076 | [E_1 physics complete](/corpus/construction-spine/steps/076-e1-physics-complete/) | Book V | E1 | `https://prrp.site/s76` |
+| S076 | [E₁ physics complete](/corpus/construction-spine/steps/076-e1-physics-complete/) | Book V | E1 | `https://prrp.site/s76` |
 
 ### CS-07 — Recover Life as a Structural Class
 
 | Step | Title | Book | Layer | Short route |
 | --- | --- | --- | --- | --- |
-| S077 | [E_1 to E_2: life as predicate layer](/corpus/construction-spine/steps/077-e1-to-e2-life-as-predicate-layer/) | Book VI | E2 | `https://prrp.site/s77` |
+| S077 | [E₁ → E₂: life as predicate layer](/corpus/construction-spine/steps/077-e1-to-e2-life-as-predicate-layer/) | Book VI | E2 | `https://prrp.site/s77` |
 | S078 | [Distinction plus SelfDesc](/corpus/construction-spine/steps/078-distinction-plus-selfdesc/) | Book VI | E2 | `https://prrp.site/s78` |
 | S079 | [Layer separation from physics](/corpus/construction-spine/steps/079-layer-separation-from-physics/) | Book VI | E2 | `https://prrp.site/s79` |
 | S080 | [Life Loop and metabolic closure](/corpus/construction-spine/steps/080-life-loop-and-metabolic-closure/) | Book VI | E2 | `https://prrp.site/s80` |
@@ -173,13 +173,13 @@ The ten Construction Spine pages are the macro build order. This 100-step ledger
 | S087 | [Neural bridge to self-modeling](/corpus/construction-spine/steps/087-neural-bridge-to-self-modeling/) | Book VI | E2 | `https://prrp.site/s87` |
 | S088 | [Structural self-modeling boundary](/corpus/construction-spine/steps/088-structural-self-modeling-boundary/) | Book VI | E2 | `https://prrp.site/s88` |
 | S089 | [Language as extended lemniscate](/corpus/construction-spine/steps/089-language-as-extended-lemniscate/) | Book VI | E2 | `https://prrp.site/s89` |
-| S090 | [E_2 export to E_3](/corpus/construction-spine/steps/090-e2-export-to-e3/) | Book VI | E2 | `https://prrp.site/s90` |
+| S090 | [E₂ export to E₃](/corpus/construction-spine/steps/090-e2-export-to-e3/) | Book VI | E2 | `https://prrp.site/s90` |
 
 ### CS-08 — Recover Reflective Structure
 
 | Step | Title | Book | Layer | Short route |
 | --- | --- | --- | --- | --- |
-| S091 | [E_2 to E_3: reflective structure](/corpus/construction-spine/steps/091-e2-to-e3-reflective-structure/) | Book VII | E3 | `https://prrp.site/s91` |
+| S091 | [E₂ → E₃: reflective structure](/corpus/construction-spine/steps/091-e2-to-e3-reflective-structure/) | Book VII | E3 | `https://prrp.site/s91` |
 | S092 | [MetaDecode and SelfDesc-of-SelfDesc](/corpus/construction-spine/steps/092-metadecode-and-selfdesc-of-selfdesc/) | Book VII | E3 | `https://prrp.site/s92` |
 | S093 | [Four registers of reason](/corpus/construction-spine/steps/093-four-registers-of-reason/) | Book VII | E3 | `https://prrp.site/s93` |
 | S094 | [Reflective 4+1 register template](/corpus/construction-spine/steps/094-reflective-4-plus-1-register-template/) | Book VII | E3 | `https://prrp.site/s94` |

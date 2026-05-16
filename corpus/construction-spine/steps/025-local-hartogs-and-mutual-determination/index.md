@@ -8,9 +8,10 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "The boundary grammar now becomes a local continuation principle. The bounded-lift operator BndLift_n certifies that, at each finite depth, refinement tails, spectral tails, ω-germs, boundary characters, and Hartogs continuation are mutually determined."
+summary_short: "The boundary grammar now becomes a local continuation principle."
 construction_step_id: "S025"
 construction_step_number: 25
+construction_step_short_title: "Local Hartogs and mutual determination"
 macro_step_id: "CS-02"
 macro_step_title: "Recover Core Mathematics"
 book: "Book II"
@@ -40,13 +41,16 @@ right_rail:
     layer: "E0"
 ---
 
-> The boundary grammar now becomes a local continuation principle. The bounded-lift operator BndLift_n certifies that, at each finite depth, refinement tails, spectral tails, ω-germs, boundary characters, and Hartogs continuation are mutually determined.
+> The boundary grammar now becomes a local continuation principle.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
+
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/recover-core-mathematics/">CS-02 — Recover Core Mathematics</a></div>
 
 **Book / layer.** Book II · E0<br>
 **Macro step.** [CS-02 — Recover Core Mathematics](/corpus/construction-spine/recover-core-mathematics/)<br>
 **Short routes.** `https://prrp.site/s25` · `https://prrp.site/s025`<br>
+
 **Status tags.** `formal`
 
 ## Construction role
@@ -65,6 +69,8 @@ interior data freely once boundary data are fixed.
 
 Local Hartogs and mutual determination is made addressable as Step 025 in the fine-grained Construction Spine routing layer.
 
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
+
 ## What this step does not yet establish
 
 This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.
@@ -73,7 +79,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:373)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 
@@ -83,7 +89,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 ## Dependencies
 
-- Previous: [Step 024 — Master constant iota_tau](/corpus/construction-spine/steps/024-master-constant-iota-tau/)
+- Previous: [Step 024 — Master constant ι_τ](/corpus/construction-spine/steps/024-master-constant-iota-tau/)
 - Next: [Step 026 — Regularity and finite spectral support](/corpus/construction-spine/steps/026-regularity-and-finite-spectral-support/)
 
 ## Navigate

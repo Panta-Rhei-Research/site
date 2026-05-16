@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: "The admissible maps of Step 25 must also be regular in a finite, inspectable sense."
 construction_step_id: "S026"
 construction_step_number: 26
+construction_step_short_title: "Regularity and finite spectral support"
 macro_step_id: "CS-02"
 macro_step_title: "Recover Core Mathematics"
 book: "Book II"
@@ -44,9 +45,12 @@ right_rail:
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/recover-core-mathematics/">CS-02 — Recover Core Mathematics</a></div>
+
 **Book / layer.** Book II · E0<br>
 **Macro step.** [CS-02 — Recover Core Mathematics](/corpus/construction-spine/recover-core-mathematics/)<br>
 **Short routes.** `https://prrp.site/s26` · `https://prrp.site/s026`<br>
+
 **Status tags.** `formal`
 
 ## Construction role
@@ -64,6 +68,8 @@ earned boundary/evolution grammar.
 
 Regularity and finite spectral support is made addressable as Step 026 in the fine-grained Construction Spine routing layer.
 
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
+
 ## What this step does not yet establish
 
 This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.
@@ -72,7 +78,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:384)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

@@ -8,9 +8,10 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "The neutron is the minimal stable defect-bundle equivalence class on the carrier: the lightest defect regime whose internal address and holonomy structure closes under the E_1 microphysical grammar."
+summary_short: "The neutron is the minimal stable defect-bundle equivalence class on the carrier: the lightest defect regime whose internal address and holonomy structure closes under the E₁ microphysical grammar."
 construction_step_id: "S048"
 construction_step_number: 48
+construction_step_short_title: "Neutron as minimal stable defect"
 macro_step_id: "CS-05"
 macro_step_title: "Recover Internal Physical Grammar"
 book: "Book IV"
@@ -40,20 +41,23 @@ right_rail:
     layer: "E1"
 ---
 
-> The neutron is the minimal stable defect-bundle equivalence class on the carrier: the lightest defect regime whose internal address and holonomy structure closes under the E_1 microphysical grammar.
+> The neutron is the minimal stable defect-bundle equivalence class on the carrier: the lightest defect regime whose internal address and holonomy structure closes under the <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> microphysical grammar.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
+
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/recover-internal-physical-grammar/">CS-05 — Recover Internal Physical Grammar</a></div>
 
 **Book / layer.** Book IV · E1<br>
 **Macro step.** [CS-05 — Recover Internal Physical Grammar](/corpus/construction-spine/recover-internal-physical-grammar/)<br>
 **Short routes.** `https://prrp.site/s48` · `https://prrp.site/s048`<br>
+
 **Status tags.** `bridge` `readout`
 
 ## Construction role
 
 The neutron is the minimal stable defect-bundle equivalence class on the
 carrier: the lightest defect regime whose internal address and holonomy
-structure closes under the E_1 microphysical grammar. Beyond being one
+structure closes under the <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> microphysical grammar. Beyond being one
 particle among others, it is the parent carrier regime from which atomic matter
 differentiates. Its mass supplies the sole dimensional SI calibration anchor:
 one dimensional scale-setting parameter that connects the dimensionless
@@ -63,6 +67,8 @@ one dimensional scale-setting parameter that connects the dimensionless
 
 Neutron as minimal stable defect is made addressable as Step 048 in the fine-grained Construction Spine routing layer.
 
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
+
 ## What this step does not yet establish
 
 This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.
@@ -71,7 +77,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:694)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

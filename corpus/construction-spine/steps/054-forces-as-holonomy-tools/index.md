@@ -8,9 +8,10 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "sectors are not primitive actors. Electromagnetism is the B-sector U(1)-curvature / boundary-transport grammar on the lemniscate topology; the weak sector is the A-sector junction-orientation / chirality grammar; the ω-mediator supplies the Higgs/mass cross..."
+summary_short: "The gauge sectors are not primitive actors."
 construction_step_id: "S054"
 construction_step_number: 54
+construction_step_short_title: "Forces as holonomy tools"
 macro_step_id: "CS-05"
 macro_step_title: "Recover Internal Physical Grammar"
 book: "Book IV"
@@ -40,13 +41,16 @@ right_rail:
     layer: "E1"
 ---
 
-> sectors are not primitive actors. Electromagnetism is the B-sector U(1)-curvature / boundary-transport grammar on the lemniscate topology; the weak sector is the A-sector junction-orientation / chirality grammar; the ω-mediator supplies the Higgs/mass cross...
+> The gauge sectors are not primitive actors.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
+
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/recover-internal-physical-grammar/">CS-05 — Recover Internal Physical Grammar</a></div>
 
 **Book / layer.** Book IV · E1<br>
 **Macro step.** [CS-05 — Recover Internal Physical Grammar](/corpus/construction-spine/recover-internal-physical-grammar/)<br>
 **Short routes.** `https://prrp.site/s54` · `https://prrp.site/s054`<br>
+
 **Status tags.** `bridge` `readout`
 
 ## Construction role
@@ -55,13 +59,15 @@ The gauge sectors are not primitive actors. Electromagnetism is the B-sector
 U(1)-curvature / boundary-transport grammar on the lemniscate topology;
 the weak sector is the A-sector junction-orientation / chirality grammar; the
 ω-mediator supplies the Higgs/mass crossing. The coupling readouts are
-functions of iota_tau and sector depth, not independent knobs. These
+functions of <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>ι</mi><mi>τ</mi></msub></math> and sector depth, not independent knobs. These
 structures are tools by which the carrier organizes defect regimes, not forces
 added to a stage.
 
 ## What this step earns
 
 Forces as holonomy tools is made addressable as Step 054 in the fine-grained Construction Spine routing layer.
+
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
 
 ## What this step does not yet establish
 
@@ -71,7 +77,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:758)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

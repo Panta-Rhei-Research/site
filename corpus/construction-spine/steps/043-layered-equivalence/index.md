@@ -8,9 +8,10 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "The enrichment ladder changes what \"the same\" can mean. At E_0, sameness is identity of generated objects, addresses, and normal forms."
+summary_short: "The enrichment ladder changes what \"the same\" can mean."
 construction_step_id: "S043"
 construction_step_number: 43
+construction_step_short_title: "Layered equivalence"
 macro_step_id: "CS-05"
 macro_step_title: "Recover Internal Physical Grammar"
 book: "Book IV"
@@ -40,30 +41,35 @@ right_rail:
     layer: "E1"
 ---
 
-> The enrichment ladder changes what "the same" can mean. At E_0, sameness is identity of generated objects, addresses, and normal forms.
+> The enrichment ladder changes what "the same" can mean.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
+
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/recover-internal-physical-grammar/">CS-05 — Recover Internal Physical Grammar</a></div>
 
 **Book / layer.** Book IV · E1<br>
 **Macro step.** [CS-05 — Recover Internal Physical Grammar](/corpus/construction-spine/recover-internal-physical-grammar/)<br>
 **Short routes.** `https://prrp.site/s43` · `https://prrp.site/s043`<br>
+
 **Status tags.** `readout`
 
 ## Construction role
 
-The enrichment ladder changes what "the same" can mean. At E_0, sameness
-is identity of generated objects, addresses, and normal forms. At E_1,
+The enrichment ladder changes what "the same" can mean. At <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>0</mi></msub></math>, sameness
+is identity of generated objects, addresses, and normal forms. At <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math>,
 physics introduces physical-kind equivalence: two distinct carrier realizations
 count as the same particle or mode when they preserve the same defect-bundle,
 holonomy, charge, mass, spin, and transport invariants under admissible readout.
 Thus "this is a neutron" does not assert numerical identity of substrate
 pieces; it asserts membership in the neutron equivalence class. Higher-layer
-analogues -- code equivalence at E_2, semantic/proof equivalence at E_3
+analogues -- code equivalence at <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>2</mi></msub></math>, semantic/proof equivalence at <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>3</mi></msub></math>
  -- appear below as the construction continues into Books VI -- VII.
 
 ## What this step earns
 
 Layered equivalence is made addressable as Step 043 in the fine-grained Construction Spine routing layer.
+
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
 
 ## What this step does not yet establish
 
@@ -73,7 +79,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:643)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: "The membrane is the concrete biological boundary: it separates self/non-self and makes gradients possible."
 construction_step_id: "S081"
 construction_step_number: 81
+construction_step_short_title: "Boundary and energy coupling"
 macro_step_id: "CS-07"
 macro_step_title: "Recover Life as a Structural Class"
 book: "Book VI"
@@ -44,9 +45,12 @@ right_rail:
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/recover-life/">CS-07 — Recover Life as a Structural Class</a></div>
+
 **Book / layer.** Book VI · E2<br>
 **Macro step.** [CS-07 — Recover Life as a Structural Class](/corpus/construction-spine/recover-life/)<br>
 **Short routes.** `https://prrp.site/s81` · `https://prrp.site/s081`<br>
+
 **Status tags.** `bridge`
 
 ## Construction role
@@ -54,11 +58,13 @@ right_rail:
 The membrane is the concrete biological boundary: it separates self/non-self
 and makes gradients possible. Chemiosmosis ties boundary, proton gradient, ATP
 synthase, ATP, and agency into one construction chain: the material route by
-which E_2 boundary maintenance and energy coupling become one grammar.
+which <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>2</mi></msub></math> boundary maintenance and energy coupling become one grammar.
 
 ## What this step earns
 
 Boundary and energy coupling is made addressable as Step 081 in the fine-grained Construction Spine routing layer.
+
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
 
 ## What this step does not yet establish
 
@@ -68,7 +74,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:1094)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

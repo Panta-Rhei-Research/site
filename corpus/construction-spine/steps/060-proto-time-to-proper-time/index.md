@@ -8,9 +8,10 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "The progression depth available in the kernel is not yet physical time. Book V turns this proto-temporal ordering into proper-time readout on the τ^1-base."
+summary_short: "The progression depth available in the kernel is not yet physical time."
 construction_step_id: "S060"
 construction_step_number: 60
+construction_step_short_title: "Proto-time to proper time"
 macro_step_id: "CS-06"
 macro_step_title: "Build Measurement, Prediction, and Empirical Bridges"
 book: "Book V"
@@ -40,27 +41,32 @@ right_rail:
     layer: "E1"
 ---
 
-> The progression depth available in the kernel is not yet physical time. Book V turns this proto-temporal ordering into proper-time readout on the τ^1-base.
+> The progression depth available in the kernel is not yet physical time.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
+
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/measurement-empirical-bridges/">CS-06 — Build Measurement, Prediction, and Empirical Bridges</a></div>
 
 **Book / layer.** Book V · E1<br>
 **Macro step.** [CS-06 — Build Measurement, Prediction, and Empirical Bridges](/corpus/construction-spine/measurement-empirical-bridges/)<br>
 **Short routes.** `https://prrp.site/s60` · `https://prrp.site/s060`<br>
+
 **Status tags.** `readout`
 
 ## Construction role
 
 The progression depth available in the kernel is not yet physical time. Book V
 turns this proto-temporal ordering into proper-time readout on the
-τ^1-base. The base supplies ordered traces, worldline structure, and the
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>1</mn></msup></math>-base. The base supplies ordered traces, worldline structure, and the
 direction along which physical events can be compared. Proper time is therefore
 not imported as a coordinate; it is the temporal readout of the base geometry
-after the E_1 carrier has been constructed.
+after the <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> carrier has been constructed.
 
 ## What this step earns
 
 Proto-time to proper time is made addressable as Step 060 in the fine-grained Construction Spine routing layer.
+
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
 
 ## What this step does not yet establish
 
@@ -70,7 +76,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:846)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

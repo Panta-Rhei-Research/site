@@ -8,9 +8,10 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "Once boundary atoms exist, the next burden is not to allow arbitrary maps. The construction must earn a class of admissible transformations from the boundary grammar itself."
+summary_short: "Once boundary atoms exist, the next burden is not to allow arbitrary maps."
 construction_step_id: "S013"
 construction_step_number: 13
+construction_step_short_title: "τ-holomorphy as ω-germ transformer"
 macro_step_id: "CS-01"
 macro_step_title: "Build the τ-Kernel"
 book: "Book I"
@@ -40,13 +41,16 @@ right_rail:
     layer: "E0"
 ---
 
-> Once boundary atoms exist, the next burden is not to allow arbitrary maps. The construction must earn a class of admissible transformations from the boundary grammar itself.
+> Once boundary atoms exist, the next burden is not to allow arbitrary maps.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
+
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/build-the-kernel/">CS-01 — Build the τ-Kernel</a></div>
 
 **Book / layer.** Book I · E0<br>
 **Macro step.** [CS-01 — Build the τ-Kernel](/corpus/construction-spine/build-the-kernel/)<br>
 **Short routes.** `https://prrp.site/s13` · `https://prrp.site/s013`<br>
+
 **Status tags.** `hinge`
 
 ## Construction role
@@ -60,13 +64,15 @@ Cartesian product, or prior external codomain. The diagonal discipline structura
 precludes ordinary function-graph constructions; idempotent collapse to
 elliptic C is impossible. Its components satisfy split-complex
 Cauchy -- Riemann equations and the hyperbolic wave equation, not the elliptic
-Laplacian, because j^2=+1. This earns analytic structure without importing
+Laplacian, because <math xmlns="http://www.w3.org/1998/Math/MathML" alttext="j² = +1"><semantics><msup><mi>j</mi><mn>2</mn></msup><mo>=</mo><mo>+</mo><mn>1</mn><annotation encoding="text/plain">j² = +1</annotation></semantics></math>. This earns analytic structure without importing
 complex analysis, and it supplies the admissible-map grammar that Book II will
 use to derive continuity and topology.
 
 ## What this step earns
 
 τ-holomorphy as ω-germ transformer is made addressable as Step 013 in the fine-grained Construction Spine routing layer.
+
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
 
 ## What this step does not yet establish
 
@@ -76,7 +82,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:238)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

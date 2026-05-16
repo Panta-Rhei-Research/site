@@ -1,7 +1,7 @@
 ---
 layout: "program-doc"
-title: "Step 065 — Lorentzian signature from j^2=+1"
-title_plain: "Step 065 — Lorentzian signature from j^2=+1"
+title: "Step 065 — Lorentzian signature from j²=+1"
+title_plain: "Step 065 — Lorentzian signature from j²=+1"
 permalink: "/corpus/construction-spine/steps/065-lorentzian-signature-from-j-2-plus-1/"
 lane: "corpus"
 v2_lane: "corpus"
@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: "The Lorentzian / Minkowski signature is read from the split-complex hyperbolicity already earned in Book I -- II."
 construction_step_id: "S065"
 construction_step_number: 65
+construction_step_short_title: "Lorentzian signature from j²=+1"
 macro_step_id: "CS-06"
 macro_step_title: "Build Measurement, Prediction, and Empirical Bridges"
 book: "Book V"
@@ -44,15 +45,19 @@ right_rail:
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/measurement-empirical-bridges/">CS-06 — Build Measurement, Prediction, and Empirical Bridges</a></div>
+
 **Book / layer.** Book V · E1<br>
 **Macro step.** [CS-06 — Build Measurement, Prediction, and Empirical Bridges](/corpus/construction-spine/measurement-empirical-bridges/)<br>
 **Short routes.** `https://prrp.site/s65` · `https://prrp.site/s065`<br>
+**Formula checkpoints.** <math xmlns="http://www.w3.org/1998/Math/MathML" alttext="j² = +1"><semantics><msup><mi>j</mi><mn>2</mn></msup><mo>=</mo><mo>+</mo><mn>1</mn><annotation encoding="text/plain">j² = +1</annotation></semantics></math><br>
+
 **Status tags.** `readout` `external-validation-seam`
 
 ## Construction role
 
 The Lorentzian / Minkowski signature is read from the split-complex
-hyperbolicity already earned in Book I -- II. Because j^2=+1, the carrier
+hyperbolicity already earned in Book I -- II. Because <math xmlns="http://www.w3.org/1998/Math/MathML" alttext="j² = +1"><semantics><msup><mi>j</mi><mn>2</mn></msup><mo>=</mo><mo>+</mo><mn>1</mn><annotation encoding="text/plain">j² = +1</annotation></semantics></math>, the carrier
 grammar carries null directions and causal cones before an external Lorentzian
 metric is imposed. Light cones are therefore the causal cones of the
 split-complex carrier readout. The remaining bridge question is physical:
@@ -61,7 +66,9 @@ regime.
 
 ## What this step earns
 
-Lorentzian signature from j^2=+1 is made addressable as Step 065 in the fine-grained Construction Spine routing layer.
+Lorentzian signature from <math xmlns="http://www.w3.org/1998/Math/MathML" alttext="j² = +1"><semantics><msup><mi>j</mi><mn>2</mn></msup><mo>=</mo><mo>+</mo><mn>1</mn><annotation encoding="text/plain">j² = +1</annotation></semantics></math> is made addressable as Step 065 in the fine-grained Construction Spine routing layer.
+
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
 
 ## What this step does not yet establish
 
@@ -71,7 +78,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:896)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

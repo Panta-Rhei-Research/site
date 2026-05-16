@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: "In multicellular consumers, the immune system operationalizes Distinction at molecular and cellular scales."
 construction_step_id: "S086"
 construction_step_number: 86
+construction_step_short_title: "Immunity and species boundaries"
 macro_step_id: "CS-07"
 macro_step_title: "Recover Life as a Structural Class"
 book: "Book VI"
@@ -44,22 +45,27 @@ right_rail:
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/recover-life/">CS-07 — Recover Life as a Structural Class</a></div>
+
 **Book / layer.** Book VI · E2<br>
 **Macro step.** [CS-07 — Recover Life as a Structural Class](/corpus/construction-spine/recover-life/)<br>
 **Short routes.** `https://prrp.site/s86` · `https://prrp.site/s086`<br>
+
 **Status tags.** `bridge`
 
 ## Construction role
 
 In multicellular consumers, the immune system operationalizes Distinction at
 molecular and cellular scales. At population scale, speciation forms boundary
-conditions between reproductive basins. Both extend the E_2 question: which
+conditions between reproductive basins. Both extend the <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>2</mi></msub></math> question: which
 differences preserve a living boundary, and which mark a different
 self-maintaining basin?
 
 ## What this step earns
 
 Immunity and species boundaries is made addressable as Step 086 in the fine-grained Construction Spine routing layer.
+
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
 
 ## What this step does not yet establish
 
@@ -69,7 +75,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:1128)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

@@ -8,9 +8,10 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "The Central Theorem assembles the preceding machinery into the bulk -- boundary correspondence: (τ^3)\\;≅\\;A_spec()."
+summary_short: "The Central Theorem assembles the preceding machinery into the bulk -- boundary correspondence: 𝒪(τ³) ≅ A_spec(𝕃)."
 construction_step_id: "S028"
 construction_step_number: 28
+construction_step_short_title: "Central Theorem route"
 macro_step_id: "CS-03"
 macro_step_title: "Internalize Self-Enrichment"
 book: "Book II"
@@ -40,13 +41,16 @@ right_rail:
     layer: "E0"
 ---
 
-> The Central Theorem assembles the preceding machinery into the bulk -- boundary correspondence: (τ^3)\;≅\;A_spec().
+> The Central Theorem assembles the preceding machinery into the bulk -- boundary correspondence: 𝒪(<math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>3</mn></msup></math>) ≅ A_spec(𝕃).
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
+
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/internalize-self-enrichment/">CS-03 — Internalize Self-Enrichment</a></div>
 
 **Book / layer.** Book II · E0<br>
 **Macro step.** [CS-03 — Internalize Self-Enrichment](/corpus/construction-spine/internalize-self-enrichment/)<br>
 **Short routes.** `https://prrp.site/s28` · `https://prrp.site/s028`<br>
+
 **Status tags.** `formal` `hinge`
 
 ## Construction role
@@ -54,11 +58,11 @@ right_rail:
 The Central Theorem assembles the preceding machinery into the bulk -- boundary
 correspondence:
 
-(τ^3)\;≅\;A_spec().
+𝒪(<math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>3</mn></msup></math>) ≅ A_spec(𝕃).
 
 The holomorphic interior, the boundary character ring, and the spectral algebra
 are not three independent objects; under the theorem they determine one another
-through a calibrated split-complex isomorphism. Its iota_tau-calibration
+through a calibrated split-complex isomorphism. Its <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>ι</mi><mi>τ</mi></msub></math>-calibration
 property transports the already-earned H3/II.T25 master-constant calibration
 from boundary data into the interior; it does not rederive the closed form. The finite rank-(3,15) Lean check and
 the exact registry dependencies live in the internal source ledger; the main point
@@ -69,6 +73,8 @@ one rigid object.
 
 Central Theorem route is made addressable as Step 028 in the fine-grained Construction Spine routing layer.
 
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
+
 ## What this step does not yet establish
 
 This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.
@@ -77,7 +83,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:410)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

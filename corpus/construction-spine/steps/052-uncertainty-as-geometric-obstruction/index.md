@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: "Uncertainty is the geometric obstruction to simultaneous resolution of incompatible carrier addresses."
 construction_step_id: "S052"
 construction_step_number: 52
+construction_step_short_title: "Uncertainty as geometric obstruction"
 macro_step_id: "CS-05"
 macro_step_title: "Recover Internal Physical Grammar"
 book: "Book IV"
@@ -44,9 +45,12 @@ right_rail:
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/recover-internal-physical-grammar/">CS-05 — Recover Internal Physical Grammar</a></div>
+
 **Book / layer.** Book IV · E1<br>
 **Macro step.** [CS-05 — Recover Internal Physical Grammar](/corpus/construction-spine/recover-internal-physical-grammar/)<br>
 **Short routes.** `https://prrp.site/s52` · `https://prrp.site/s052`<br>
+
 **Status tags.** `readout`
 
 ## Construction role
@@ -56,15 +60,17 @@ incompatible carrier addresses. The primary conjugate pairs are
 localization/momentum and energy/proper-time; velocity alone is not the
 localization-conjugate invariant. Thus relations such as
 
- x\, p \;\; ℏ_τ,
- E\, t \;\; ℏ_τ
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Δx</mi><mi>Δp</mi><mo>≳</mo><msub><mi>ℏ</mi><mi>τ</mi></msub></math>,
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ΔE</mi><mi>Δt</mi><mo>≳</mo><msub><mi>ℏ</mi><mi>τ</mi></msub></math>
 
-express address/transport incompatibility in the E_1 carrier, not merely
+express address/transport incompatibility in the <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> carrier, not merely
 epistemic ignorance.
 
 ## What this step earns
 
 Uncertainty as geometric obstruction is made addressable as Step 052 in the fine-grained Construction Spine routing layer.
+
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
 
 ## What this step does not yet establish
 
@@ -74,7 +80,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:736)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

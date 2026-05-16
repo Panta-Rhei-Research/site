@@ -64,6 +64,20 @@ The Construction Spine is the Corpus-side realization of the Agenda's Constructi
 
 The ten construction steps show how the Corpus is built: not as a timeline or sprint plan, but as a logical build order from the formal kernel to ontic-closure testing.
 
+## The 100-Step Routing Ledger
+
+Open the full [100-step routing layer]({{ '/corpus/construction-spine/steps/' | relative_url }}) from the Full Construction Spine whitepaper.
+
+Each numbered route links the compressed Full Construction Spine release-candidate construction to a stable Corpus address. The pages are scaffolded from the RC3 whitepaper and intentionally mark deeper manuscript, Registry, and TauLib anchors as pending until the source-map extraction pass promotes them.
+
+<div class="btn-group section-ctas">
+  <a class="btn-secondary" href="{{ '/corpus/construction-spine/steps/' | relative_url }}">Open the 100-Step Ledger</a>
+  <a class="btn-ghost" href="{{ '/corpus/construction-spine/steps/001-non-import-discipline/' | relative_url }}">S001</a>
+  <a class="btn-ghost" href="{{ '/corpus/construction-spine/steps/042-hinge-theorem-export/' | relative_url }}">S042</a>
+  <a class="btn-ghost" href="{{ '/corpus/construction-spine/steps/064-tau-einstein-identity/' | relative_url }}">S064</a>
+  <a class="btn-ghost" href="{{ '/corpus/construction-spine/steps/100-logos-boundary-and-ontic-closure-burden/' | relative_url }}">S100</a>
+</div>
+
 ## One spine, several projections
 
 - [Registry]({{ '/corpus/registry/' | relative_url }}) is the atomic item projection.
@@ -106,20 +120,6 @@ The first three construction steps are supported by a construction review packet
   </li>
 {% endfor %}
 </ol>
-
-## The 100-Step Routing Ledger
-
-The ten construction steps are the macro build order. The [100-step routing ledger]({{ '/corpus/construction-spine/steps/' | relative_url }}) is the inspection layer beneath them.
-
-Each numbered route links the compressed Full Construction Spine release-candidate construction to a stable Corpus address. The pages are scaffolded from the RC3 whitepaper and intentionally mark deeper manuscript, Registry, and TauLib anchors as pending until the source-map extraction pass promotes them.
-
-<div class="btn-group section-ctas">
-  <a class="btn-secondary" href="{{ '/corpus/construction-spine/steps/' | relative_url }}">Open the 100-Step Ledger</a>
-  <a class="btn-ghost" href="{{ '/corpus/construction-spine/steps/001-non-import-discipline/' | relative_url }}">S001</a>
-  <a class="btn-ghost" href="{{ '/corpus/construction-spine/steps/042-hinge-theorem-export/' | relative_url }}">S042</a>
-  <a class="btn-ghost" href="{{ '/corpus/construction-spine/steps/064-tau-einstein-identity/' | relative_url }}">S064</a>
-  <a class="btn-ghost" href="{{ '/corpus/construction-spine/steps/100-logos-boundary-and-ontic-closure-burden/' | relative_url }}">S100</a>
-</div>
 
 ## End-to-end construction view
 

@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: "Prime polarity cannot remain a bare classification of fold strata: it must be given an algebra in which the two polar orientations can be projected, compared, and later transported."
 construction_step_id: "S012"
 construction_step_number: 12
+construction_step_short_title: "Split-complex boundary algebra"
 macro_step_id: "CS-01"
 macro_step_title: "Build the τ-Kernel"
 book: "Book I"
@@ -44,9 +45,12 @@ right_rail:
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/build-the-kernel/">CS-01 — Build the τ-Kernel</a></div>
+
 **Book / layer.** Book I · E0<br>
 **Macro step.** [CS-01 — Build the τ-Kernel](/corpus/construction-spine/build-the-kernel/)<br>
 **Short routes.** `https://prrp.site/s12` · `https://prrp.site/s012`<br>
+
 **Status tags.** `hinge`
 
 ## Construction role
@@ -56,18 +60,18 @@ given an algebra in which the two polar orientations can be projected, compared,
 and later transported. The construction therefore passes to the bipolar boundary
 algebra
 
-_τ=R_τ jR_τ, j^2=+1 ,
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>𝔻</mi><mi>τ</mi></msub><mo>=</mo><msub><mi>R</mi><mi>τ</mi></msub><mo>⊕</mo><mi>j</mi><msub><mi>R</mi><mi>τ</mi></msub></math>, <math xmlns="http://www.w3.org/1998/Math/MathML" alttext="j² = +1"><semantics><msup><mi>j</mi><mn>2</mn></msup><mo>=</mo><mo>+</mo><mn>1</mn><annotation encoding="text/plain">j² = +1</annotation></semantics></math> ,
 
 where R_τ denotes the earned scalar/readout algebra available at this
 stage, not an imported real line.
 Its idempotents
 
-e_=2
+e_±=(1± j)/(2)
 
 split boundary behavior into orthogonal channels, and the
--equivariant Boolean sublattice
+σ-equivariant Boolean sublattice
 
-B_(D)=\0,e_+,e_-,1\
+B_σ(D)=0,e_+,e_-,1
 
 gives the first four-atom boundary grammar. At this stage the atoms are not
 physical sectors; they are pre-physical channel eigenstates with the
@@ -80,6 +84,8 @@ carrier and sector readout are constructed.
 
 Split-complex boundary algebra is made addressable as Step 012 in the fine-grained Construction Spine routing layer.
 
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
+
 ## What this step does not yet establish
 
 This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.
@@ -88,7 +94,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:212)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

@@ -8,9 +8,10 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "The Big Bang is read as the opening regime of τ^1-base dynamics, not as an externally imposed singular creation event."
+summary_short: "The Big Bang is read as the opening regime of τ¹-base dynamics, not as an externally imposed singular creation event."
 construction_step_id: "S074"
 construction_step_number: 74
+construction_step_short_title: "Big Bang, threshold ladder, and endstate"
 macro_step_id: "CS-06"
 macro_step_title: "Build Measurement, Prediction, and Empirical Bridges"
 book: "Book V"
@@ -40,18 +41,21 @@ right_rail:
     layer: "E1"
 ---
 
-> The Big Bang is read as the opening regime of τ^1-base dynamics, not as an externally imposed singular creation event.
+> The Big Bang is read as the opening regime of <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>1</mn></msup></math>-base dynamics, not as an externally imposed singular creation event.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
+
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/measurement-empirical-bridges/">CS-06 — Build Measurement, Prediction, and Empirical Bridges</a></div>
 
 **Book / layer.** Book V · E1<br>
 **Macro step.** [CS-06 — Build Measurement, Prediction, and Empirical Bridges](/corpus/construction-spine/measurement-empirical-bridges/)<br>
 **Short routes.** `https://prrp.site/s74` · `https://prrp.site/s074`<br>
+
 **Status tags.** `readout` `external-validation-seam`
 
 ## Construction role
 
-The Big Bang is read as the opening regime of τ^1-base dynamics, not as
+The Big Bang is read as the opening regime of <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>1</mn></msup></math>-base dynamics, not as
 an externally imposed singular creation event. Inflation is a
 refinement-sector saturation regime rather than an added inflaton sector. The
 threshold ladder
@@ -60,12 +64,14 @@ L_EW to L_B to L_N to L_nuc to L_H to L_γ
 
 marks successive sector decouplings and readout transitions. The endstate is
 boundary circulation / defect exhaustion rather than heat death in a void. This
-is the physical macrocosm closure of the E_1 carrier, with empirical
+is the physical macrocosm closure of the <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> carrier, with empirical
 adequacy left to cosmological observation.
 
 ## What this step earns
 
 Big Bang, threshold ladder, and endstate is made addressable as Step 074 in the fine-grained Construction Spine routing layer.
+
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
 
 ## What this step does not yet establish
 
@@ -75,7 +81,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:983)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

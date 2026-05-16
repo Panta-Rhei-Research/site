@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: " character grammar, CRT reconstruction, tower coherence, and the τ-Identity Theorem now support Global Hartogs: τ-holomorphic data on L K, for primordially thin K, extends uniquely to L, so coherent ω-tail data determine the finite-stage values they project..."
 construction_step_id: "S016"
 construction_step_number: 16
+construction_step_short_title: "Global Hartogs"
 macro_step_id: "CS-01"
 macro_step_title: "Build the τ-Kernel"
 book: "Book I"
@@ -44,9 +45,12 @@ right_rail:
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/build-the-kernel/">CS-01 — Build the τ-Kernel</a></div>
+
 **Book / layer.** Book I · E0<br>
 **Macro step.** [CS-01 — Build the τ-Kernel](/corpus/construction-spine/build-the-kernel/)<br>
 **Short routes.** `https://prrp.site/s16` · `https://prrp.site/s016`<br>
+
 **Status tags.** `hinge`
 
 ## Construction role
@@ -57,6 +61,8 @@ The spectral character grammar, CRT reconstruction, tower coherence, and the τ-
 
 Global Hartogs is made addressable as Step 016 in the fine-grained Construction Spine routing layer.
 
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
+
 ## What this step does not yet establish
 
 This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.
@@ -65,7 +71,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:256)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

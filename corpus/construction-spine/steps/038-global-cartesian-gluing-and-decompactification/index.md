@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: "When the carrier guarantees hold, the local Hartogs bulks assemble into a coherent global three-dimensional Cartesian readout."
 construction_step_id: "S038"
 construction_step_number: 38
+construction_step_short_title: "Global Cartesian gluing and decompactification"
 macro_step_id: "CS-04"
 macro_step_title: "Identify the Physical Carrier"
 book: "Book III"
@@ -44,27 +45,32 @@ right_rail:
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/identify-physical-carrier/">CS-04 — Identify the Physical Carrier</a></div>
+
 **Book / layer.** Book III · E1<br>
 **Macro step.** [CS-04 — Identify the Physical Carrier](/corpus/construction-spine/identify-physical-carrier/)<br>
 **Short routes.** `https://prrp.site/s38` · `https://prrp.site/s038`<br>
+
 **Status tags.** `bridge`
 
 ## Construction role
 
 When the carrier guarantees hold, the local Hartogs bulks assemble into a
 coherent global three-dimensional Cartesian readout. The residual
-τ^3_R structure decompactifies at human scales into an R^3
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msubsup><mi>τ</mi><mi>R</mi><mn>3</mn></msubsup></math> structure decompactifies at human scales into an <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>ℝ</mi><mn>3</mn></msup></math>
 readout. Thus ordinary three-dimensional space is not an input to the theory:
 it is the large-scale readout of globally glued Hartogs interiors. The step is
 bridge-pending on the disclosed Book III custom axioms, but its construction
-role is clear: this is where canonical τ^3-geometry becomes an
-E_1 spatial carrier. Here III.T50 refers to the corpus/manuscript Global
+role is clear: this is where canonical <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>3</mn></msup></math>-geometry becomes an
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> spatial carrier. Here III.T50 refers to the corpus/manuscript Global
 Cartesian Gluing theorem; it is manuscript/registry-backed, not claimed here as
 the current TauLib label/module.
 
 ## What this step earns
 
 Global Cartesian gluing and decompactification is made addressable as Step 038 in the fine-grained Construction Spine routing layer.
+
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
 
 ## What this step does not yet establish
 
@@ -74,7 +80,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:561)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

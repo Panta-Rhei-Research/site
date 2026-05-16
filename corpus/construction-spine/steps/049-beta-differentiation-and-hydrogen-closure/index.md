@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: "Beta decay is the weak-sector rearrangement of the neutron regime, not the breakup of an already ordinary particle into independent primitive actors."
 construction_step_id: "S049"
 construction_step_number: 49
+construction_step_short_title: "Beta differentiation and hydrogen closure"
 macro_step_id: "CS-05"
 macro_step_title: "Recover Internal Physical Grammar"
 book: "Book IV"
@@ -44,9 +45,12 @@ right_rail:
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/recover-internal-physical-grammar/">CS-05 — Recover Internal Physical Grammar</a></div>
+
 **Book / layer.** Book IV · E1<br>
 **Macro step.** [CS-05 — Recover Internal Physical Grammar](/corpus/construction-spine/recover-internal-physical-grammar/)<br>
 **Short routes.** `https://prrp.site/s49` · `https://prrp.site/s049`<br>
+
 **Status tags.** `bridge` `readout`
 
 ## Construction role
@@ -55,7 +59,7 @@ Beta decay is the weak-sector rearrangement of the neutron regime, not the
 breakup of an already ordinary particle into independent primitive actors. It
 generates the proton, electron, and neutrino readouts: the proton is the residual
 bulk/core mode of the neutron regime, the electron is the corresponding
-surface/co-rotor mode, and the τ^1 time-mode, carrying the beta-minus
+surface/co-rotor mode, and the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>1</mn></msup></math> time-mode, carrying the beta-minus
 antineutrino label before the Majorana/helicity readout of Step 50, is emitted
 along the base direction. Hydrogen is then the first stable coupled proton -- electron
 unit: the first atomic co-rotor regime rather than a mere aggregate of two
@@ -66,6 +70,8 @@ to the Book-IV/Book-V source map.
 
 Beta differentiation and hydrogen closure is made addressable as Step 049 in the fine-grained Construction Spine routing layer.
 
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
+
 ## What this step does not yet establish
 
 This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.
@@ -74,7 +80,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:703)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

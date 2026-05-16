@@ -8,9 +8,10 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "The fibered shape already separates the base τ^1 from the T^2-fiber. After global Cartesian gluing, the T^2-derived bulk supplies the spatial readout, while the τ^1-base supplies the temporal direction that Book V will develop as proper time."
+summary_short: "The fibered shape already separates the base τ¹ from the T²-fiber."
 construction_step_id: "S039"
 construction_step_number: 39
+construction_step_short_title: "3+1 spacetime signature"
 macro_step_id: "CS-04"
 macro_step_title: "Identify the Physical Carrier"
 book: "Book III"
@@ -40,28 +41,33 @@ right_rail:
     layer: "E1"
 ---
 
-> The fibered shape already separates the base τ^1 from the T^2-fiber. After global Cartesian gluing, the T^2-derived bulk supplies the spatial readout, while the τ^1-base supplies the temporal direction that Book V will develop as proper time.
+> The fibered shape already separates the base <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>1</mn></msup></math> from the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math>-fiber.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
+
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/identify-physical-carrier/">CS-04 — Identify the Physical Carrier</a></div>
 
 **Book / layer.** Book III · E1<br>
 **Macro step.** [CS-04 — Identify the Physical Carrier](/corpus/construction-spine/identify-physical-carrier/)<br>
 **Short routes.** `https://prrp.site/s39` · `https://prrp.site/s039`<br>
+
 **Status tags.** `bridge`
 
 ## Construction role
 
-The fibered shape already separates the base τ^1 from the T^2-fiber.
-After global Cartesian gluing, the T^2-derived bulk supplies the spatial
-readout, while the τ^1-base supplies the temporal direction that Book V
+The fibered shape already separates the base <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>1</mn></msup></math> from the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math>-fiber.
+After global Cartesian gluing, the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math>-derived bulk supplies the spatial
+readout, while the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>1</mn></msup></math>-base supplies the temporal direction that Book V
 will develop as proper time. The resulting 3+1 signature is therefore not
 chosen as a background Lorentzian metric. It is the structural signature of the
 carrier: three spatial directions from the Hartogs bulk, one temporal base
-direction from τ^1.
+direction from <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>1</mn></msup></math>.
 
 ## What this step earns
 
 3+1 spacetime signature is made addressable as Step 039 in the fine-grained Construction Spine routing layer.
+
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
 
 ## What this step does not yet establish
 
@@ -71,7 +77,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:573)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

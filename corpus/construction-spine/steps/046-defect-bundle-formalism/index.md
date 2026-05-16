@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: "A physical entity is defined as a localized persistent defect bundle: a stable, structured deviation from the vacuum torus / carrier state."
 construction_step_id: "S046"
 construction_step_number: 46
+construction_step_short_title: "Defect-bundle formalism"
 macro_step_id: "CS-05"
 macro_step_title: "Recover Internal Physical Grammar"
 book: "Book IV"
@@ -44,9 +45,12 @@ right_rail:
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/recover-internal-physical-grammar/">CS-05 — Recover Internal Physical Grammar</a></div>
+
 **Book / layer.** Book IV · E1<br>
 **Macro step.** [CS-05 — Recover Internal Physical Grammar](/corpus/construction-spine/recover-internal-physical-grammar/)<br>
 **Short routes.** `https://prrp.site/s46` · `https://prrp.site/s046`<br>
+
 **Status tags.** `readout`
 
 ## Construction role
@@ -55,13 +59,15 @@ A physical entity is defined as a localized persistent defect bundle: a stable,
 structured deviation from the vacuum torus / carrier state. The defect bundle
 is the constructive replacement for "particle on a stage". Its persistence is
 not postulated externally; it is the preservation of address, holonomy, charge,
-mass, spin, and transport invariants under the admissible E_1 readout. A
+mass, spin, and transport invariants under the admissible <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> readout. A
 particle kind is therefore an equivalence class of stable defect-bundle
 realizations, not a numerically identical substrate piece.
 
 ## What this step earns
 
 Defect-bundle formalism is made addressable as Step 046 in the fine-grained Construction Spine routing layer.
+
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
 
 ## What this step does not yet establish
 
@@ -71,7 +77,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:674)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 
@@ -81,7 +87,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 ## Dependencies
 
-- Previous: [Step 045 — Self-description on the T^2 fiber](/corpus/construction-spine/steps/045-self-description-on-the-t-2-fiber/)
+- Previous: [Step 045 — Self-description on the T² fiber](/corpus/construction-spine/steps/045-self-description-on-the-t-2-fiber/)
 - Next: [Step 047 — Photon as null transport](/corpus/construction-spine/steps/047-photon-as-null-transport/)
 
 ## Navigate

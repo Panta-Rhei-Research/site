@@ -8,9 +8,10 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "The photon is not a persistent material defect bundle. It is the B-sector null-transport mode of the carrier boundary: a degenerate fiber character (m,n)=(0,0) with zero mass, no fiber obstruction, limiting-speed propagation, and no rest frame."
+summary_short: "The photon is not a persistent material defect bundle."
 construction_step_id: "S047"
 construction_step_number: 47
+construction_step_short_title: "Photon as null transport"
 macro_step_id: "CS-05"
 macro_step_title: "Recover Internal Physical Grammar"
 book: "Book IV"
@@ -40,13 +41,16 @@ right_rail:
     layer: "E1"
 ---
 
-> The photon is not a persistent material defect bundle. It is the B-sector null-transport mode of the carrier boundary: a degenerate fiber character (m,n)=(0,0) with zero mass, no fiber obstruction, limiting-speed propagation, and no rest frame.
+> The photon is not a persistent material defect bundle.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
+
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/recover-internal-physical-grammar/">CS-05 — Recover Internal Physical Grammar</a></div>
 
 **Book / layer.** Book IV · E1<br>
 **Macro step.** [CS-05 — Recover Internal Physical Grammar](/corpus/construction-spine/recover-internal-physical-grammar/)<br>
 **Short routes.** `https://prrp.site/s47` · `https://prrp.site/s047`<br>
+
 **Status tags.** `readout`
 
 ## Construction role
@@ -57,12 +61,14 @@ null-transport mode of the carrier boundary: a degenerate fiber character
 propagation, and no rest frame. Its in-transit reality is transport-real rather
 than persistent-object-real: the mode is localized at emission/absorption or
 measurement interfaces, not as a free-standing object observed from the side.
-Nullness is structural -- a consequence of the j^2=+1 idempotent geometry
+Nullness is structural -- a consequence of the <math xmlns="http://www.w3.org/1998/Math/MathML" alttext="j² = +1"><semantics><msup><mi>j</mi><mn>2</mn></msup><mo>=</mo><mo>+</mo><mn>1</mn><annotation encoding="text/plain">j² = +1</annotation></semantics></math> idempotent geometry
 and B-sector transport grammar -- not a primitive kinematic postulate.
 
 ## What this step earns
 
 Photon as null transport is made addressable as Step 047 in the fine-grained Construction Spine routing layer.
+
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
 
 ## What this step does not yet establish
 
@@ -72,7 +78,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:684)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

@@ -8,9 +8,10 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "The algebraic lemniscate of Book I now receives a geometric body. At the ω-boundary, the T^2-fiber degenerates into a wedge locus whose two lobes correspond to the B-polar and C-polar character channels."
+summary_short: "The algebraic lemniscate of Book I now receives a geometric body."
 construction_step_id: "S021"
 construction_step_number: 21
+construction_step_short_title: "Geometric lemniscate at ω"
 macro_step_id: "CS-02"
 macro_step_title: "Recover Core Mathematics"
 book: "Book II"
@@ -40,19 +41,22 @@ right_rail:
     layer: "E0"
 ---
 
-> The algebraic lemniscate of Book I now receives a geometric body. At the ω-boundary, the T^2-fiber degenerates into a wedge locus whose two lobes correspond to the B-polar and C-polar character channels.
+> The algebraic lemniscate of Book I now receives a geometric body.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
+
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/recover-core-mathematics/">CS-02 — Recover Core Mathematics</a></div>
 
 **Book / layer.** Book II · E0<br>
 **Macro step.** [CS-02 — Recover Core Mathematics](/corpus/construction-spine/recover-core-mathematics/)<br>
 **Short routes.** `https://prrp.site/s21` · `https://prrp.site/s021`<br>
+
 **Status tags.** `hinge`
 
 ## Construction role
 
 The algebraic lemniscate of Book I now receives a geometric body. At the
-ω-boundary, the T^2-fiber degenerates into a wedge locus whose two
+ω-boundary, the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math>-fiber degenerates into a wedge locus whose two
 lobes correspond to the B-polar and C-polar character channels. Boundary,
 wedge, and character-ring residence coincide at this locus. The point is not
 decorative: the same bipolar grammar that organized split-complex boundary
@@ -62,6 +66,8 @@ characters now appears as the limiting geometry of the fiber.
 
 Geometric lemniscate at ω is made addressable as Step 021 in the fine-grained Construction Spine routing layer.
 
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
+
 ## What this step does not yet establish
 
 This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.
@@ -70,7 +76,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:330)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 
