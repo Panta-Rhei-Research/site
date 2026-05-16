@@ -5,6 +5,7 @@ cards:
     route: /
     page_key: home
     title: Panta Rhei Research Program
+    icon: explore
     image: /assets/og/png/index.png
     svg: /assets/og/svg/index.svg
     alt: Panta Rhei preview card for Panta Rhei Research Program.
@@ -15,6 +16,7 @@ cards:
     route: /agenda/
     page_key: agenda.index
     title: Agenda
+    icon: checklist
     image: /assets/og/png/agenda.png
     svg: /assets/og/svg/agenda.svg
     alt: Panta Rhei preview card for Agenda.
@@ -25,6 +27,7 @@ cards:
     route: /agenda/construction-roadmap/
     page_key: agenda.construction_roadmap
     title: Construction Roadmap
+    icon: checklist
     image: /assets/og/png/agenda__construction-roadmap.png
     svg: /assets/og/svg/agenda__construction-roadmap.svg
     alt: Panta Rhei preview card for Construction Roadmap.
@@ -35,6 +38,7 @@ cards:
     route: /agenda/core-design-principles/
     page_key: agenda.core_design_principles
     title: Core Design Principles
+    icon: checklist
     image: /assets/og/png/agenda__core-design-principles.png
     svg: /assets/og/svg/agenda__core-design-principles.svg
     alt: Panta Rhei preview card for Core Design Principles.
@@ -45,6 +49,7 @@ cards:
     route: /agenda/core-semantics/
     page_key: agenda.core_semantics
     title: Core Semantics
+    icon: checklist
     image: /assets/og/png/agenda__core-semantics.png
     svg: /assets/og/svg/agenda__core-semantics.svg
     alt: Panta Rhei preview card for Core Semantics.
@@ -55,6 +60,7 @@ cards:
     route: /agenda/foundational-discipline/
     page_key: agenda.foundational_discipline
     title: Foundational Discipline
+    icon: checklist
     image: /assets/og/png/agenda__foundational-discipline.png
     svg: /assets/og/svg/agenda__foundational-discipline.svg
     alt: Panta Rhei preview card for Foundational Discipline.
@@ -65,6 +71,7 @@ cards:
     route: /agenda/historical-context/
     page_key: agenda.historical_context
     title: Historical Context
+    icon: checklist
     image: /assets/og/png/agenda__historical-context.png
     svg: /assets/og/svg/agenda__historical-context.svg
     alt: Panta Rhei preview card for Historical Context.
@@ -75,6 +82,7 @@ cards:
     route: /agenda/kernel-model-reality/
     page_key: agenda.kernel_model_reality
     title: Kernel, Model & Reality
+    icon: checklist
     image: /assets/og/png/agenda__kernel-model-reality.png
     svg: /assets/og/svg/agenda__kernel-model-reality.svg
     alt: Panta Rhei preview card for Kernel, Model & Reality.
@@ -85,6 +93,7 @@ cards:
     route: /agenda/research-aim-and-desiderata/
     page_key: agenda.research_aim_and_desiderata
     title: Research Aim and Desiderata
+    icon: checklist
     image: /assets/og/png/agenda__research-aim-and-desiderata.png
     svg: /assets/og/svg/agenda__research-aim-and-desiderata.svg
     alt: Panta Rhei preview card for Research Aim and Desiderata.
@@ -95,6 +104,7 @@ cards:
     route: /agenda/result-criteria/
     page_key: agenda.result_criteria
     title: Result Criteria
+    icon: checklist
     image: /assets/og/png/agenda__result-criteria.png
     svg: /assets/og/svg/agenda__result-criteria.svg
     alt: Panta Rhei preview card for Result Criteria.
@@ -105,6 +115,7 @@ cards:
     route: /agenda/roadmap/
     page_key: agenda.work_roadmap
     title: Work Roadmap
+    icon: checklist
     image: /assets/og/png/agenda__roadmap.png
     svg: /assets/og/svg/agenda__roadmap.svg
     alt: Panta Rhei preview card for Work Roadmap.
@@ -115,6 +126,7 @@ cards:
     route: /agenda/science-humanities-and-coherence/
     page_key: agenda.science_humanities_coherence
     title: Science, Humanities, and Coherence
+    icon: checklist
     image: /assets/og/png/agenda__science-humanities-and-coherence.png
     svg: /assets/og/svg/agenda__science-humanities-and-coherence.svg
     alt: Panta Rhei preview card for Science, Humanities, and Coherence.
@@ -125,16 +137,62 @@ cards:
     route: /agenda/structural-challenge-ledger/
     page_key: agenda.structural_challenge_ledger
     title: Structural Challenge Ledger
+    icon: checklist
     image: /assets/og/png/agenda__structural-challenge-ledger.png
     svg: /assets/og/svg/agenda__structural-challenge-ledger.svg
     alt: Panta Rhei preview card for Structural Challenge Ledger.
     width: 1200
     height: 630
     webp: /assets/og/webp/agenda__structural-challenge-ledger.webp
+  agenda__structural-challenge-ledger__life:
+    route: /agenda/structural-challenge-ledger/life/
+    page_key: agenda.structural_challenge_ledger.life
+    title: Life Structural Challenge Ledger
+    icon: genetics
+    image: /assets/og/png/agenda__structural-challenge-ledger__life.png
+    svg: /assets/og/svg/agenda__structural-challenge-ledger__life.svg
+    alt: Panta Rhei preview card for Life Structural Challenge Ledger.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/agenda__structural-challenge-ledger__life.webp
+  agenda__structural-challenge-ledger__mathematics:
+    route: /agenda/structural-challenge-ledger/mathematics/
+    page_key: agenda.structural_challenge_ledger.mathematics
+    title: Mathematics Structural Challenge Ledger
+    icon: architecture
+    image: /assets/og/png/agenda__structural-challenge-ledger__mathematics.png
+    svg: /assets/og/svg/agenda__structural-challenge-ledger__mathematics.svg
+    alt: Panta Rhei preview card for Mathematics Structural Challenge Ledger.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/agenda__structural-challenge-ledger__mathematics.webp
+  agenda__structural-challenge-ledger__metaphysics:
+    route: /agenda/structural-challenge-ledger/metaphysics/
+    page_key: agenda.structural_challenge_ledger.metaphysics
+    title: Metaphysics Structural Challenge Ledger
+    icon: owl
+    image: /assets/og/png/agenda__structural-challenge-ledger__metaphysics.png
+    svg: /assets/og/svg/agenda__structural-challenge-ledger__metaphysics.svg
+    alt: Panta Rhei preview card for Metaphysics Structural Challenge Ledger.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/agenda__structural-challenge-ledger__metaphysics.webp
+  agenda__structural-challenge-ledger__physics:
+    route: /agenda/structural-challenge-ledger/physics/
+    page_key: agenda.structural_challenge_ledger.physics
+    title: Physics Structural Challenge Ledger
+    icon: orbit
+    image: /assets/og/png/agenda__structural-challenge-ledger__physics.png
+    svg: /assets/og/svg/agenda__structural-challenge-ledger__physics.svg
+    alt: Panta Rhei preview card for Physics Structural Challenge Ledger.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/agenda__structural-challenge-ledger__physics.webp
   agenda__structural-challenge-ledger__source-policy:
     route: /agenda/structural-challenge-ledger/source-policy/
     page_key: agenda.structural_challenge_source_policy
     title: Structural Challenge Ledger Source Policy
+    icon: checklist
     image: /assets/og/png/agenda__structural-challenge-ledger__source-policy.png
     svg: /assets/og/svg/agenda__structural-challenge-ledger__source-policy.svg
     alt: Panta Rhei preview card for Structural Challenge Ledger Source Policy.
@@ -145,6 +203,7 @@ cards:
     route: /agenda/what-the-program-refuses/
     page_key: agenda.what_the_program_refuses
     title: What the Program Refuses
+    icon: checklist
     image: /assets/og/png/agenda__what-the-program-refuses.png
     svg: /assets/og/svg/agenda__what-the-program-refuses.svg
     alt: Panta Rhei preview card for What the Program Refuses.
@@ -155,6 +214,7 @@ cards:
     route: /agenda/why-the-tau-framework/
     page_key: agenda.why_the_tau_framework
     title: Why the Tau Framework
+    icon: checklist
     image: /assets/og/png/agenda__why-the-tau-framework.png
     svg: /assets/og/svg/agenda__why-the-tau-framework.svg
     alt: Panta Rhei preview card for Why the Tau Framework.
@@ -165,6 +225,7 @@ cards:
     route: /cite/
     page_key: publications.cite
     title: Cite
+    icon: library_books
     image: /assets/og/png/cite.png
     svg: /assets/og/svg/cite.svg
     alt: Panta Rhei preview card for Cite.
@@ -175,6 +236,7 @@ cards:
     route: /corpus/
     page_key: corpus.index
     title: Corpus
+    icon: deployed_code
     image: /assets/og/png/corpus.png
     svg: /assets/og/svg/corpus.svg
     alt: Panta Rhei preview card for Corpus.
@@ -185,6 +247,7 @@ cards:
     route: /corpus/bi-square/
     page_key: corpus.bi_square
     title: The Bi-Square Motif
+    icon: deployed_code
     image: /assets/og/png/corpus__bi-square.png
     svg: /assets/og/svg/corpus__bi-square.svg
     alt: Panta Rhei preview card for The Bi-Square Motif.
@@ -195,6 +258,7 @@ cards:
     route: /corpus/construction-spine/
     page_key: corpus.construction_spine
     title: Construction Spine
+    icon: deployed_code
     image: /assets/og/png/corpus__construction-spine.png
     svg: /assets/og/svg/corpus__construction-spine.svg
     alt: Panta Rhei preview card for Construction Spine.
@@ -205,16 +269,40 @@ cards:
     route: /corpus/foundational-hinges/
     page_key: corpus.foundational_hinges
     title: Construction Steps 1-3 Review Packet
+    icon: deployed_code
     image: /assets/og/png/corpus__foundational-hinges.png
     svg: /assets/og/svg/corpus__foundational-hinges.svg
     alt: Panta Rhei preview card for Construction Steps 1-3 Review Packet.
     width: 1200
     height: 630
     webp: /assets/og/webp/corpus__foundational-hinges.webp
+  corpus__foundational-hinges__master-constant-iota-tau:
+    route: /corpus/foundational-hinges/master-constant-iota-tau/
+    page_key: null
+    title: The Master Constant iota_tau
+    icon: functions
+    image: /assets/og/png/corpus__foundational-hinges__master-constant-iota-tau.png
+    svg: /assets/og/svg/corpus__foundational-hinges__master-constant-iota-tau.svg
+    alt: Panta Rhei preview card for The Master Constant iota_tau.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/corpus__foundational-hinges__master-constant-iota-tau.webp
+  corpus__foundational-hinges__tau-kernel-foundational-architecture:
+    route: /corpus/foundational-hinges/tau-kernel-foundational-architecture/
+    page_key: null
+    title: τ-Kernel Foundational Architecture
+    icon: hub
+    image: /assets/og/png/corpus__foundational-hinges__tau-kernel-foundational-architecture.png
+    svg: /assets/og/svg/corpus__foundational-hinges__tau-kernel-foundational-architecture.svg
+    alt: Panta Rhei preview card for τ-Kernel Foundational Architecture.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/corpus__foundational-hinges__tau-kernel-foundational-architecture.webp
   corpus__graph:
     route: /corpus/graph/
     page_key: corpus.construction_map
     title: Corpus Graph
+    icon: deployed_code
     image: /assets/og/png/corpus__graph.png
     svg: /assets/og/svg/corpus__graph.svg
     alt: Panta Rhei preview card for Corpus Graph.
@@ -225,6 +313,7 @@ cards:
     route: /corpus/how-to-read/
     page_key: corpus.how_to_read
     title: How to Read the Corpus
+    icon: deployed_code
     image: /assets/og/png/corpus__how-to-read.png
     svg: /assets/og/svg/corpus__how-to-read.svg
     alt: Panta Rhei preview card for How to Read the Corpus.
@@ -235,16 +324,95 @@ cards:
     route: /corpus/monograph-corpus/
     page_key: corpus.monograph_corpus
     title: Monograph Corpus
+    icon: deployed_code
     image: /assets/og/png/corpus__monograph-corpus.png
     svg: /assets/og/svg/corpus__monograph-corpus.svg
     alt: Panta Rhei preview card for Monograph Corpus.
     width: 1200
     height: 630
     webp: /assets/og/webp/corpus__monograph-corpus.webp
+  corpus__monographs__book-i:
+    route: /corpus/monographs/book-i/
+    page_key: null
+    title: 'Book I: Categorical Foundations'
+    icon: architecture
+    image: /assets/og/png/corpus__monographs__book-i.png
+    svg: /assets/og/svg/corpus__monographs__book-i.svg
+    alt: 'Panta Rhei preview card for Book I: Categorical Foundations.'
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/corpus__monographs__book-i.webp
+  corpus__monographs__book-ii:
+    route: /corpus/monographs/book-ii/
+    page_key: null
+    title: 'Book II: Categorical Holomorphy'
+    icon: hub
+    image: /assets/og/png/corpus__monographs__book-ii.png
+    svg: /assets/og/svg/corpus__monographs__book-ii.svg
+    alt: 'Panta Rhei preview card for Book II: Categorical Holomorphy.'
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/corpus__monographs__book-ii.webp
+  corpus__monographs__book-iii:
+    route: /corpus/monographs/book-iii/
+    page_key: null
+    title: 'Book III: Categorical Spectrum'
+    icon: orbit
+    image: /assets/og/png/corpus__monographs__book-iii.png
+    svg: /assets/og/svg/corpus__monographs__book-iii.svg
+    alt: 'Panta Rhei preview card for Book III: Categorical Spectrum.'
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/corpus__monographs__book-iii.webp
+  corpus__monographs__book-iv:
+    route: /corpus/monographs/book-iv/
+    page_key: null
+    title: 'Book IV: Categorical Microcosm'
+    icon: science
+    image: /assets/og/png/corpus__monographs__book-iv.png
+    svg: /assets/og/svg/corpus__monographs__book-iv.svg
+    alt: 'Panta Rhei preview card for Book IV: Categorical Microcosm.'
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/corpus__monographs__book-iv.webp
+  corpus__monographs__book-v:
+    route: /corpus/monographs/book-v/
+    page_key: null
+    title: 'Book V: Categorical Macrocosm'
+    icon: public
+    image: /assets/og/png/corpus__monographs__book-v.png
+    svg: /assets/og/svg/corpus__monographs__book-v.svg
+    alt: 'Panta Rhei preview card for Book V: Categorical Macrocosm.'
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/corpus__monographs__book-v.webp
+  corpus__monographs__book-vi:
+    route: /corpus/monographs/book-vi/
+    page_key: null
+    title: 'Book VI: Categorical Life'
+    icon: genetics
+    image: /assets/og/png/corpus__monographs__book-vi.png
+    svg: /assets/og/svg/corpus__monographs__book-vi.svg
+    alt: 'Panta Rhei preview card for Book VI: Categorical Life.'
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/corpus__monographs__book-vi.webp
+  corpus__monographs__book-vii:
+    route: /corpus/monographs/book-vii/
+    page_key: null
+    title: 'Book VII: Categorical Metaphysics'
+    icon: owl
+    image: /assets/og/png/corpus__monographs__book-vii.png
+    svg: /assets/og/svg/corpus__monographs__book-vii.svg
+    alt: 'Panta Rhei preview card for Book VII: Categorical Metaphysics.'
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/corpus__monographs__book-vii.webp
   corpus__registry:
     route: /corpus/registry/
     page_key: corpus.registry
     title: Registry
+    icon: deployed_code
     image: /assets/og/png/corpus__registry.png
     svg: /assets/og/svg/corpus__registry.svg
     alt: Panta Rhei preview card for Registry.
@@ -255,16 +423,62 @@ cards:
     route: /corpus/taulib/
     page_key: corpus.taulib
     title: TauLib
+    icon: deployed_code
     image: /assets/og/png/corpus__taulib.png
     svg: /assets/og/svg/corpus__taulib.svg
     alt: Panta Rhei preview card for TauLib.
     width: 1200
     height: 630
     webp: /assets/og/webp/corpus__taulib.webp
+  corpus__taulib__architecture:
+    route: /corpus/taulib/architecture/
+    page_key: null
+    title: TauLib Architecture
+    icon: deployed_code
+    image: /assets/og/png/corpus__taulib__architecture.png
+    svg: /assets/og/svg/corpus__taulib__architecture.svg
+    alt: Panta Rhei preview card for TauLib Architecture.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/corpus__taulib__architecture.webp
+  corpus__taulib__docs:
+    route: /corpus/taulib/docs/
+    page_key: null
+    title: TauLib Docs
+    icon: code
+    image: /assets/og/png/corpus__taulib__docs.png
+    svg: /assets/og/svg/corpus__taulib__docs.svg
+    alt: Panta Rhei preview card for TauLib Docs.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/corpus__taulib__docs.webp
+  corpus__taulib__modules:
+    route: /corpus/taulib/modules/
+    page_key: null
+    title: TauLib Module Explorer
+    icon: view_module
+    image: /assets/og/png/corpus__taulib__modules.png
+    svg: /assets/og/svg/corpus__taulib__modules.svg
+    alt: Panta Rhei preview card for TauLib Module Explorer.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/corpus__taulib__modules.webp
+  corpus__taulib__status:
+    route: /corpus/taulib/status/
+    page_key: null
+    title: TauLib Projection Status
+    icon: fact_check
+    image: /assets/og/png/corpus__taulib__status.png
+    svg: /assets/og/svg/corpus__taulib__status.svg
+    alt: Panta Rhei preview card for TauLib Projection Status.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/corpus__taulib__status.webp
   corpus__types:
     route: /corpus/types/
     page_key: corpus.types
     title: Corpus Types
+    icon: deployed_code
     image: /assets/og/png/corpus__types.png
     svg: /assets/og/svg/corpus__types.svg
     alt: Panta Rhei preview card for Corpus Types.
@@ -275,6 +489,7 @@ cards:
     route: /corpus/versioning/
     page_key: corpus.versioning
     title: Corpus Versioning
+    icon: deployed_code
     image: /assets/og/png/corpus__versioning.png
     svg: /assets/og/svg/corpus__versioning.svg
     alt: Panta Rhei preview card for Corpus Versioning.
@@ -285,6 +500,7 @@ cards:
     route: /discover/
     page_key: discover.index
     title: Discover
+    icon: explore
     image: /assets/og/png/discover.png
     svg: /assets/og/svg/discover.svg
     alt: Panta Rhei preview card for Discover.
@@ -295,6 +511,7 @@ cards:
     route: /discover/ai-assisted-discovery/
     page_key: discover.ai_assisted_discovery
     title: AI-Assisted Discovery
+    icon: explore
     image: /assets/og/png/discover__ai-assisted-discovery.png
     svg: /assets/og/svg/discover__ai-assisted-discovery.svg
     alt: Panta Rhei preview card for AI-Assisted Discovery.
@@ -305,6 +522,7 @@ cards:
     route: /discover/big-questions/
     page_key: discover.big_questions
     title: Big Questions
+    icon: explore
     image: /assets/og/png/discover__big-questions.png
     svg: /assets/og/svg/discover__big-questions.svg
     alt: Panta Rhei preview card for Big Questions.
@@ -315,6 +533,7 @@ cards:
     route: /discover/entry-routes/
     page_key: discover.entry_routes
     title: Entry Routes
+    icon: explore
     image: /assets/og/png/discover__entry-routes.png
     svg: /assets/og/svg/discover__entry-routes.svg
     alt: Panta Rhei preview card for Entry Routes.
@@ -325,6 +544,7 @@ cards:
     route: /discover/follow-the-research/
     page_key: discover.follow_the_research
     title: Publication Notifications
+    icon: explore
     image: /assets/og/png/discover__follow-the-research.png
     svg: /assets/og/svg/discover__follow-the-research.svg
     alt: Panta Rhei preview card for Publication Notifications.
@@ -335,6 +555,7 @@ cards:
     route: /discover/guided-tours/
     page_key: discover.guided_tours
     title: Guided Tours
+    icon: explore
     image: /assets/og/png/discover__guided-tours.png
     svg: /assets/og/svg/discover__guided-tours.svg
     alt: Panta Rhei preview card for Guided Tours.
@@ -345,6 +566,7 @@ cards:
     route: /discover/how-the-system-works/
     page_key: discover.how_the_system_works
     title: How the System Works
+    icon: explore
     image: /assets/og/png/discover__how-the-system-works.png
     svg: /assets/og/svg/discover__how-the-system-works.svg
     alt: Panta Rhei preview card for How the System Works.
@@ -355,6 +577,7 @@ cards:
     route: /discover/key-results/
     page_key: discover.key_results
     title: Key Results
+    icon: explore
     image: /assets/og/png/discover__key-results.png
     svg: /assets/og/svg/discover__key-results.svg
     alt: Panta Rhei preview card for Key Results.
@@ -365,6 +588,7 @@ cards:
     route: /discover/start-here/
     page_key: discover.start_here
     title: Start Here
+    icon: explore
     image: /assets/og/png/discover__start-here.png
     svg: /assets/og/svg/discover__start-here.svg
     alt: Panta Rhei preview card for Start Here.
@@ -375,6 +599,7 @@ cards:
     route: /discover/what-to-read-first/
     page_key: discover.what_to_read_first
     title: What to Read First
+    icon: explore
     image: /assets/og/png/discover__what-to-read-first.png
     svg: /assets/og/svg/discover__what-to-read-first.svg
     alt: Panta Rhei preview card for What to Read First.
@@ -385,6 +610,7 @@ cards:
     route: /engage/
     page_key: engage.index
     title: Engage
+    icon: handshake
     image: /assets/og/png/engage.png
     svg: /assets/og/svg/engage.svg
     alt: Panta Rhei preview card for Engage.
@@ -395,6 +621,7 @@ cards:
     route: /engage/collaborate/
     page_key: engage.collaborate
     title: Collaborate
+    icon: handshake
     image: /assets/og/png/engage__collaborate.png
     svg: /assets/og/svg/engage__collaborate.svg
     alt: Panta Rhei preview card for Collaborate.
@@ -405,6 +632,7 @@ cards:
     route: /engage/contact/
     page_key: engage.contact
     title: Contact
+    icon: handshake
     image: /assets/og/png/engage__contact.png
     svg: /assets/og/svg/engage__contact.svg
     alt: Panta Rhei preview card for Contact.
@@ -415,6 +643,7 @@ cards:
     route: /engage/critique-challenge/
     page_key: engage.critique_challenge
     title: Critique & Challenge
+    icon: handshake
     image: /assets/og/png/engage__critique-challenge.png
     svg: /assets/og/svg/engage__critique-challenge.svg
     alt: Panta Rhei preview card for Critique & Challenge.
@@ -425,6 +654,7 @@ cards:
     route: /engage/discussions/
     page_key: engage.discussions
     title: Public Discussions
+    icon: handshake
     image: /assets/og/png/engage__discussions.png
     svg: /assets/og/svg/engage__discussions.svg
     alt: Panta Rhei preview card for Public Discussions.
@@ -435,6 +665,7 @@ cards:
     route: /engage/follow-the-research/
     page_key: engage.follow_the_research
     title: Publication Notifications
+    icon: handshake
     image: /assets/og/png/engage__follow-the-research.png
     svg: /assets/og/svg/engage__follow-the-research.svg
     alt: Panta Rhei preview card for Publication Notifications.
@@ -445,6 +676,7 @@ cards:
     route: /engage/for-engineering-contributors/
     page_key: engage.engineering_contributors
     title: For Engineering Contributors
+    icon: handshake
     image: /assets/og/png/engage__for-engineering-contributors.png
     svg: /assets/og/svg/engage__for-engineering-contributors.svg
     alt: Panta Rhei preview card for For Engineering Contributors.
@@ -455,6 +687,7 @@ cards:
     route: /engage/how-to-engage/
     page_key: engage.how_to_engage
     title: How to Engage
+    icon: handshake
     image: /assets/og/png/engage__how-to-engage.png
     svg: /assets/og/svg/engage__how-to-engage.svg
     alt: Panta Rhei preview card for How to Engage.
@@ -465,6 +698,7 @@ cards:
     route: /engage/inspect-verify/
     page_key: engage.inspect_verify
     title: Inspect & Verify
+    icon: handshake
     image: /assets/og/png/engage__inspect-verify.png
     svg: /assets/og/svg/engage__inspect-verify.svg
     alt: Panta Rhei preview card for Inspect & Verify.
@@ -475,6 +709,7 @@ cards:
     route: /engage/media/
     page_key: engage.media
     title: Media
+    icon: handshake
     image: /assets/og/png/engage__media.png
     svg: /assets/og/svg/engage__media.svg
     alt: Panta Rhei preview card for Media.
@@ -485,6 +720,7 @@ cards:
     route: /engage/read-explore/
     page_key: engage.read_explore
     title: Read & Explore
+    icon: handshake
     image: /assets/og/png/engage__read-explore.png
     svg: /assets/og/svg/engage__read-explore.svg
     alt: Panta Rhei preview card for Read & Explore.
@@ -495,6 +731,7 @@ cards:
     route: /engage/review-the-work/
     page_key: engage.review_the_work
     title: Review the Work
+    icon: handshake
     image: /assets/og/png/engage__review-the-work.png
     svg: /assets/og/svg/engage__review-the-work.svg
     alt: Panta Rhei preview card for Review the Work.
@@ -505,6 +742,7 @@ cards:
     route: /engage/seminars-and-guided-sessions/
     page_key: engage.seminars_guided_sessions
     title: Seminars & Guided Sessions
+    icon: handshake
     image: /assets/og/png/engage__seminars-and-guided-sessions.png
     svg: /assets/og/svg/engage__seminars-and-guided-sessions.svg
     alt: Panta Rhei preview card for Seminars & Guided Sessions.
@@ -515,6 +753,7 @@ cards:
     route: /engage/support-the-research/
     page_key: engage.support_the_research
     title: Support the Research
+    icon: handshake
     image: /assets/og/png/engage__support-the-research.png
     svg: /assets/og/svg/engage__support-the-research.svg
     alt: Panta Rhei preview card for Support the Research.
@@ -525,6 +764,7 @@ cards:
     route: /impact/
     page_key: impact.index
     title: Impact
+    icon: public
     image: /assets/og/png/impact.png
     svg: /assets/og/svg/impact.svg
     alt: Panta Rhei preview card for Impact.
@@ -535,6 +775,7 @@ cards:
     route: /impact/applied-science-and-research/
     page_key: impact.applied_science_and_research
     title: Applied Science & Research
+    icon: public
     image: /assets/og/png/impact__applied-science-and-research.png
     svg: /assets/og/svg/impact__applied-science-and-research.svg
     alt: Panta Rhei preview card for Applied Science & Research.
@@ -545,6 +786,7 @@ cards:
     route: /impact/by-domain/
     page_key: impact.by_domain
     title: Impact by Domain
+    icon: public
     image: /assets/og/png/impact__by-domain.png
     svg: /assets/og/svg/impact__by-domain.svg
     alt: Panta Rhei preview card for Impact by Domain.
@@ -555,6 +797,7 @@ cards:
     route: /impact/by-horizon/
     page_key: impact.by_horizon
     title: Impact by Horizon
+    icon: public
     image: /assets/og/png/impact__by-horizon.png
     svg: /assets/og/svg/impact__by-horizon.svg
     alt: Panta Rhei preview card for Impact by Horizon.
@@ -565,6 +808,7 @@ cards:
     route: /impact/by-portfolio/
     page_key: impact.by_portfolio
     title: Impact by Portfolio
+    icon: public
     image: /assets/og/png/impact__by-portfolio.png
     svg: /assets/og/svg/impact__by-portfolio.svg
     alt: Panta Rhei preview card for Impact by Portfolio.
@@ -575,6 +819,7 @@ cards:
     route: /impact/existential-orientation/
     page_key: impact.existential_orientation
     title: Existential Orientation
+    icon: public
     image: /assets/og/png/impact__existential-orientation.png
     svg: /assets/og/svg/impact__existential-orientation.svg
     alt: Panta Rhei preview card for Existential Orientation.
@@ -585,6 +830,7 @@ cards:
     route: /impact/foundational-science/
     page_key: impact.foundational_science
     title: Foundational Science
+    icon: public
     image: /assets/og/png/impact__foundational-science.png
     svg: /assets/og/svg/impact__foundational-science.svg
     alt: Panta Rhei preview card for Foundational Science.
@@ -595,6 +841,7 @@ cards:
     route: /impact/global-education/
     page_key: impact.global_education
     title: Global Education
+    icon: public
     image: /assets/og/png/impact__global-education.png
     svg: /assets/og/svg/impact__global-education.svg
     alt: Panta Rhei preview card for Global Education.
@@ -605,16 +852,139 @@ cards:
     route: /impact/global-public-good/
     page_key: impact.global_public_good
     title: Global Public Good
+    icon: public
     image: /assets/og/png/impact__global-public-good.png
     svg: /assets/og/svg/impact__global-public-good.svg
     alt: Panta Rhei preview card for Global Public Good.
     width: 1200
     height: 630
     webp: /assets/og/webp/impact__global-public-good.webp
+  impact__global-public-good__agriculture:
+    route: /impact/global-public-good/agriculture/
+    page_key: null
+    title: Agriculture
+    icon: agriculture
+    image: /assets/og/png/impact__global-public-good__agriculture.png
+    svg: /assets/og/svg/impact__global-public-good__agriculture.svg
+    alt: Panta Rhei preview card for Agriculture.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/impact__global-public-good__agriculture.webp
+  impact__global-public-good__biodiversity-restoration:
+    route: /impact/global-public-good/biodiversity-restoration/
+    page_key: null
+    title: Biodiversity / Restoration
+    icon: forest
+    image: /assets/og/png/impact__global-public-good__biodiversity-restoration.png
+    svg: /assets/og/svg/impact__global-public-good__biodiversity-restoration.svg
+    alt: Panta Rhei preview card for Biodiversity / Restoration.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/impact__global-public-good__biodiversity-restoration.webp
+  impact__global-public-good__climate:
+    route: /impact/global-public-good/climate/
+    page_key: null
+    title: Climate
+    icon: co2
+    image: /assets/og/png/impact__global-public-good__climate.png
+    svg: /assets/og/svg/impact__global-public-good__climate.svg
+    alt: Panta Rhei preview card for Climate.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/impact__global-public-good__climate.webp
+  impact__global-public-good__disaster:
+    route: /impact/global-public-good/disaster/
+    page_key: null
+    title: Disaster Resilience
+    icon: crisis_alert
+    image: /assets/og/png/impact__global-public-good__disaster.png
+    svg: /assets/og/svg/impact__global-public-good__disaster.svg
+    alt: Panta Rhei preview card for Disaster Resilience.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/impact__global-public-good__disaster.webp
+  impact__global-public-good__energy:
+    route: /impact/global-public-good/energy/
+    page_key: null
+    title: Energy
+    icon: bolt
+    image: /assets/og/png/impact__global-public-good__energy.png
+    svg: /assets/og/svg/impact__global-public-good__energy.svg
+    alt: Panta Rhei preview card for Energy.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/impact__global-public-good__energy.webp
+  impact__global-public-good__ocean:
+    route: /impact/global-public-good/ocean/
+    page_key: null
+    title: Ocean
+    icon: waves
+    image: /assets/og/png/impact__global-public-good__ocean.png
+    svg: /assets/og/svg/impact__global-public-good__ocean.svg
+    alt: Panta Rhei preview card for Ocean.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/impact__global-public-good__ocean.webp
+  impact__global-public-good__one-health:
+    route: /impact/global-public-good/one-health/
+    page_key: null
+    title: One Health
+    icon: health_and_safety
+    image: /assets/og/png/impact__global-public-good__one-health.png
+    svg: /assets/og/svg/impact__global-public-good__one-health.svg
+    alt: Panta Rhei preview card for One Health.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/impact__global-public-good__one-health.webp
+  impact__global-public-good__pollution-circularity:
+    route: /impact/global-public-good/pollution-circularity/
+    page_key: null
+    title: Pollution / Circularity
+    icon: recycling
+    image: /assets/og/png/impact__global-public-good__pollution-circularity.png
+    svg: /assets/og/svg/impact__global-public-good__pollution-circularity.svg
+    alt: Panta Rhei preview card for Pollution / Circularity.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/impact__global-public-good__pollution-circularity.webp
+  impact__global-public-good__solar:
+    route: /impact/global-public-good/solar/
+    page_key: null
+    title: Solar
+    icon: solar_power
+    image: /assets/og/png/impact__global-public-good__solar.png
+    svg: /assets/og/svg/impact__global-public-good__solar.svg
+    alt: Panta Rhei preview card for Solar.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/impact__global-public-good__solar.webp
+  impact__global-public-good__water-wash:
+    route: /impact/global-public-good/water-wash/
+    page_key: null
+    title: Water / WASH
+    icon: water_drop
+    image: /assets/og/png/impact__global-public-good__water-wash.png
+    svg: /assets/og/svg/impact__global-public-good__water-wash.svg
+    alt: Panta Rhei preview card for Water / WASH.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/impact__global-public-good__water-wash.webp
+  impact__global-public-good__weather:
+    route: /impact/global-public-good/weather/
+    page_key: null
+    title: Weather
+    icon: thunderstorm
+    image: /assets/og/png/impact__global-public-good__weather.png
+    svg: /assets/og/svg/impact__global-public-good__weather.svg
+    alt: Panta Rhei preview card for Weather.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/impact__global-public-good__weather.webp
   impact__impact-framework:
     route: /impact/impact-framework/
     page_key: impact.framework
     title: Impact Framework
+    icon: public
     image: /assets/og/png/impact__impact-framework.png
     svg: /assets/og/svg/impact__impact-framework.svg
     alt: Panta Rhei preview card for Impact Framework.
@@ -625,6 +995,7 @@ cards:
     route: /impact/papers/
     page_key: impact.papers
     title: Public-Good Briefing Full Texts
+    icon: public
     image: /assets/og/png/impact__papers.png
     svg: /assets/og/svg/impact__papers.svg
     alt: Panta Rhei preview card for Public-Good Briefing Full Texts.
@@ -635,6 +1006,7 @@ cards:
     route: /impact/societal-coherence/
     page_key: impact.societal_coherence
     title: Societal Coherence
+    icon: public
     image: /assets/og/png/impact__societal-coherence.png
     svg: /assets/og/svg/impact__societal-coherence.svg
     alt: Panta Rhei preview card for Societal Coherence.
@@ -645,6 +1017,7 @@ cards:
     route: /media/
     page_key: support.media
     title: Media Kit
+    icon: route
     image: /assets/og/png/media.png
     svg: /assets/og/svg/media.svg
     alt: Panta Rhei preview card for Media Kit.
@@ -655,6 +1028,7 @@ cards:
     route: /media/journalist-faq/
     page_key: support.media.journalist_faq
     title: Journalist FAQ
+    icon: forum
     image: /assets/og/png/media__journalist-faq.png
     svg: /assets/og/svg/media__journalist-faq.svg
     alt: Panta Rhei preview card for Journalist FAQ.
@@ -665,6 +1039,7 @@ cards:
     route: /media/open-research-brief/
     page_key: support.media.open_research_brief
     title: Open Research Brief
+    icon: description
     image: /assets/og/png/media__open-research-brief.png
     svg: /assets/og/svg/media__open-research-brief.svg
     alt: Panta Rhei preview card for Open Research Brief.
@@ -675,6 +1050,7 @@ cards:
     route: /media/public-research-observatory-brief/
     page_key: support.media.public_research_observatory_brief
     title: Public Research Observatory Brief
+    icon: description
     image: /assets/og/png/media__public-research-observatory-brief.png
     svg: /assets/og/svg/media__public-research-observatory-brief.svg
     alt: Panta Rhei preview card for Public Research Observatory Brief.
@@ -685,6 +1061,7 @@ cards:
     route: /media/social-media-kit/
     page_key: support.media.social_media_kit
     title: Social Media Kit
+    icon: note_stack
     image: /assets/og/png/media__social-media-kit.png
     svg: /assets/og/svg/media__social-media-kit.svg
     alt: Panta Rhei preview card for Social Media Kit.
@@ -695,6 +1072,7 @@ cards:
     route: /media/story-angles/
     page_key: support.media.story_angles
     title: Story Angles for Journalists
+    icon: article
     image: /assets/og/png/media__story-angles.png
     svg: /assets/og/svg/media__story-angles.svg
     alt: Panta Rhei preview card for Story Angles for Journalists.
@@ -705,6 +1083,7 @@ cards:
     route: /media/theory-of-reality-brief/
     page_key: support.media.theory_of_reality_brief
     title: Theory of Reality Brief
+    icon: description
     image: /assets/og/png/media__theory-of-reality-brief.png
     svg: /assets/og/svg/media__theory-of-reality-brief.svg
     alt: Panta Rhei preview card for Theory of Reality Brief.
@@ -715,6 +1094,7 @@ cards:
     route: /program/
     page_key: program.index
     title: Program
+    icon: account_balance
     image: /assets/og/png/program.png
     svg: /assets/og/svg/program.svg
     alt: Panta Rhei preview card for Program.
@@ -725,26 +1105,106 @@ cards:
     route: /program/about/
     page_key: program.about
     title: About the Program
+    icon: account_balance
     image: /assets/og/png/program__about.png
     svg: /assets/og/svg/program__about.svg
     alt: Panta Rhei preview card for About the Program.
     width: 1200
     height: 630
     webp: /assets/og/webp/program__about.webp
+  program__about__coherent-theory-of-reality:
+    route: /program/about/coherent-theory-of-reality/
+    page_key: program.coherent_theory_of_reality
+    title: Coherent Theory of Reality
+    icon: hub
+    image: /assets/og/png/program__about__coherent-theory-of-reality.png
+    svg: /assets/og/svg/program__about__coherent-theory-of-reality.svg
+    alt: Panta Rhei preview card for Coherent Theory of Reality.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/program__about__coherent-theory-of-reality.webp
   program__about__founders:
     route: /program/about/founders/
     page_key: program.founders
     title: Founders
+    icon: groups
     image: /assets/og/png/program__about__founders.png
     svg: /assets/og/svg/program__about__founders.svg
     alt: Panta Rhei preview card for Founders.
     width: 1200
     height: 630
     webp: /assets/og/webp/program__about__founders.webp
+  program__about__independence-scope-and-scrutiny:
+    route: /program/about/independence-scope-and-scrutiny/
+    page_key: program.independence_scope_and_scrutiny
+    title: Independence, Scope, and Scrutiny
+    icon: balance
+    image: /assets/og/png/program__about__independence-scope-and-scrutiny.png
+    svg: /assets/og/svg/program__about__independence-scope-and-scrutiny.svg
+    alt: Panta Rhei preview card for Independence, Scope, and Scrutiny.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/program__about__independence-scope-and-scrutiny.webp
+  program__about__inspection-observatory:
+    route: /program/about/inspection-observatory/
+    page_key: program.inspection_observatory
+    title: Inspection Observatory
+    icon: visibility
+    image: /assets/og/png/program__about__inspection-observatory.png
+    svg: /assets/og/svg/program__about__inspection-observatory.svg
+    alt: Panta Rhei preview card for Inspection Observatory.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/program__about__inspection-observatory.webp
+  program__about__red-team-faq:
+    route: /program/about/red-team-faq/
+    page_key: program.red_team_faq
+    title: Red-team FAQ
+    icon: quiz
+    image: /assets/og/png/program__about__red-team-faq.png
+    svg: /assets/og/svg/program__about__red-team-faq.svg
+    alt: Panta Rhei preview card for Red-team FAQ.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/program__about__red-team-faq.webp
+  program__about__related-approaches:
+    route: /program/about/related-approaches/
+    page_key: program.related_approaches
+    title: Related Approaches
+    icon: compare_arrows
+    image: /assets/og/png/program__about__related-approaches.png
+    svg: /assets/og/svg/program__about__related-approaches.svg
+    alt: Panta Rhei preview card for Related Approaches.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/program__about__related-approaches.webp
+  program__about__scope-status-and-scrutiny:
+    route: /program/about/scope-status-and-scrutiny/
+    page_key: program.scope_status_and_scrutiny
+    title: Scope, Status, and Scrutiny
+    icon: policy
+    image: /assets/og/png/program__about__scope-status-and-scrutiny.png
+    svg: /assets/og/svg/program__about__scope-status-and-scrutiny.svg
+    alt: Panta Rhei preview card for Scope, Status, and Scrutiny.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/program__about__scope-status-and-scrutiny.webp
+  program__about__why-this-program-exists:
+    route: /program/about/why-this-program-exists/
+    page_key: program.why_this_program_exists
+    title: Why This Research Program Exists
+    icon: flag
+    image: /assets/og/png/program__about__why-this-program-exists.png
+    svg: /assets/og/svg/program__about__why-this-program-exists.svg
+    alt: Panta Rhei preview card for Why This Research Program Exists.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/program__about__why-this-program-exists.webp
   program__why-this-work-matters:
     route: /program/why-this-work-matters/
     page_key: program.why_this_work_matters
     title: Why This Work Matters
+    icon: account_balance
     image: /assets/og/png/program__why-this-work-matters.png
     svg: /assets/og/svg/program__why-this-work-matters.svg
     alt: Panta Rhei preview card for Why This Work Matters.
@@ -755,6 +1215,7 @@ cards:
     route: /publications/
     page_key: publications.index
     title: Publications
+    icon: library_books
     image: /assets/og/png/publications.png
     svg: /assets/og/svg/publications.svg
     alt: Panta Rhei preview card for Publications.
@@ -765,6 +1226,7 @@ cards:
     route: /publications/anchor-documents/
     page_key: null
     title: publications/anchor-documents
+    icon: history_edu
     image: /assets/og/png/publications__anchor-documents.png
     svg: /assets/og/svg/publications__anchor-documents.svg
     alt: Panta Rhei preview card for publications/anchor-documents.
@@ -775,6 +1237,7 @@ cards:
     route: /publications/anchor-documents/c001-standing-in-the-inquiry-of-being/
     page_key: null
     title: C001 · Standing in the Inquiry of Being
+    icon: history_edu
     image: /assets/og/png/publications__anchor-documents__c001-standing-in-the-inquiry-of-being.png
     svg: /assets/og/svg/publications__anchor-documents__c001-standing-in-the-inquiry-of-being.svg
     alt: Panta Rhei preview card for C001 · Standing in the Inquiry of Being.
@@ -785,6 +1248,7 @@ cards:
     route: /publications/anchor-documents/wp000-panta-rhei-at-a-glance/
     page_key: null
     title: WP000 · Panta Rhei at a Glance
+    icon: explore
     image: /assets/og/png/publications__anchor-documents__wp000-panta-rhei-at-a-glance.png
     svg: /assets/og/svg/publications__anchor-documents__wp000-panta-rhei-at-a-glance.svg
     alt: Panta Rhei preview card for WP000 · Panta Rhei at a Glance.
@@ -795,6 +1259,7 @@ cards:
     route: /publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/
     page_key: null
     title: WP001 · Executive Overview
+    icon: account_balance
     image: /assets/og/png/publications__anchor-documents__wp001-panta-rhei-research-program-executive-overview.png
     svg: /assets/og/svg/publications__anchor-documents__wp001-panta-rhei-research-program-executive-overview.svg
     alt: Panta Rhei preview card for WP001 · Executive Overview.
@@ -805,6 +1270,7 @@ cards:
     route: /publications/anchor-documents/wp002-t-theory-executive-synopsis/
     page_key: null
     title: WP002 · T-Theory Executive Synopsis
+    icon: deployed_code
     image: /assets/og/png/publications__anchor-documents__wp002-t-theory-executive-synopsis.png
     svg: /assets/og/svg/publications__anchor-documents__wp002-t-theory-executive-synopsis.svg
     alt: Panta Rhei preview card for WP002 · T-Theory Executive Synopsis.
@@ -815,6 +1281,7 @@ cards:
     route: /publications/anchor-documents/wp003-taulib-technical-overview/
     page_key: null
     title: WP003 · TauLib Technical Overview
+    icon: code
     image: /assets/og/png/publications__anchor-documents__wp003-taulib-technical-overview.png
     svg: /assets/og/svg/publications__anchor-documents__wp003-taulib-technical-overview.svg
     alt: Panta Rhei preview card for WP003 · TauLib Technical Overview.
@@ -825,6 +1292,7 @@ cards:
     route: /publications/anchor-documents/wp004-public-research-observatory-blueprint/
     page_key: null
     title: WP004 · Public Research Observatory Blueprint
+    icon: hub
     image: /assets/og/png/publications__anchor-documents__wp004-public-research-observatory-blueprint.png
     svg: /assets/og/svg/publications__anchor-documents__wp004-public-research-observatory-blueprint.svg
     alt: Panta Rhei preview card for WP004 · Public Research Observatory Blueprint.
@@ -835,6 +1303,7 @@ cards:
     route: /publications/anchor-documents/wp005-global-public-good-impact-overview/
     page_key: null
     title: WP005 · Global Public Good Impact Overview
+    icon: public
     image: /assets/og/png/publications__anchor-documents__wp005-global-public-good-impact-overview.png
     svg: /assets/og/svg/publications__anchor-documents__wp005-global-public-good-impact-overview.svg
     alt: Panta Rhei preview card for WP005 · Global Public Good Impact Overview.
@@ -845,6 +1314,7 @@ cards:
     route: /publications/bibliography/
     page_key: publications.bibliography
     title: Bibliography
+    icon: library_books
     image: /assets/og/png/publications__bibliography.png
     svg: /assets/og/svg/publications__bibliography.svg
     alt: Panta Rhei preview card for Bibliography.
@@ -855,6 +1325,7 @@ cards:
     route: /publications/conspectus/
     page_key: publications.conspectus
     title: The Panta Rhei Conspectus
+    icon: library_books
     image: /assets/og/png/publications__conspectus.png
     svg: /assets/og/svg/publications__conspectus.svg
     alt: Panta Rhei preview card for The Panta Rhei Conspectus.
@@ -865,6 +1336,7 @@ cards:
     route: /publications/errata/
     page_key: publications.errata
     title: Errata
+    icon: library_books
     image: /assets/og/png/publications__errata.png
     svg: /assets/og/svg/publications__errata.svg
     alt: Panta Rhei preview card for Errata.
@@ -875,6 +1347,7 @@ cards:
     route: /publications/guided-tours/
     page_key: publications.guided_tours
     title: Guided Tours
+    icon: library_books
     image: /assets/og/png/publications__guided-tours.png
     svg: /assets/og/svg/publications__guided-tours.svg
     alt: Panta Rhei preview card for Guided Tours.
@@ -885,6 +1358,7 @@ cards:
     route: /publications/monograph-supplements/
     page_key: publications.monograph_supplements
     title: Monograph Supplements
+    icon: library_books
     image: /assets/og/png/publications__monograph-supplements.png
     svg: /assets/og/svg/publications__monograph-supplements.svg
     alt: Panta Rhei preview card for Monograph Supplements.
@@ -895,6 +1369,7 @@ cards:
     route: /publications/release-artifacts/
     page_key: publications.release_artifacts
     title: Release Artifacts
+    icon: library_books
     image: /assets/og/png/publications__release-artifacts.png
     svg: /assets/og/svg/publications__release-artifacts.svg
     alt: Panta Rhei preview card for Release Artifacts.
@@ -905,16 +1380,29 @@ cards:
     route: /publications/research-briefings/
     page_key: publications.research_briefings
     title: Research Briefings
+    icon: library_books
     image: /assets/og/png/publications__research-briefings.png
     svg: /assets/og/svg/publications__research-briefings.svg
     alt: Panta Rhei preview card for Research Briefings.
     width: 1200
     height: 630
     webp: /assets/og/webp/publications__research-briefings.webp
+  publications__research-briefings__public-good:
+    route: /publications/research-briefings/public-good/
+    page_key: publications.research_briefings.public_good
+    title: Public-Good Briefings
+    icon: note_stack
+    image: /assets/og/png/publications__research-briefings__public-good.png
+    svg: /assets/og/svg/publications__research-briefings__public-good.svg
+    alt: Panta Rhei preview card for Public-Good Briefings.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/publications__research-briefings__public-good.webp
   publications__research-monographs:
     route: /publications/research-monographs/
     page_key: publications.research_monographs
     title: Research Monographs
+    icon: library_books
     image: /assets/og/png/publications__research-monographs.png
     svg: /assets/og/svg/publications__research-monographs.svg
     alt: Panta Rhei preview card for Research Monographs.
@@ -925,6 +1413,7 @@ cards:
     route: /publications/research-notes/
     page_key: publications.research_notes
     title: Research Notes
+    icon: library_books
     image: /assets/og/png/publications__research-notes.png
     svg: /assets/og/svg/publications__research-notes.svg
     alt: Panta Rhei preview card for Research Notes.
@@ -935,6 +1424,7 @@ cards:
     route: /publications/research-papers/
     page_key: publications.research_papers
     title: Research Papers
+    icon: library_books
     image: /assets/og/png/publications__research-papers.png
     svg: /assets/og/svg/publications__research-papers.svg
     alt: Panta Rhei preview card for Research Papers.
@@ -945,6 +1435,7 @@ cards:
     route: /results/
     page_key: results.index
     title: Results
+    icon: inventory_2
     image: /assets/og/png/results.png
     svg: /assets/og/svg/results.svg
     alt: Panta Rhei preview card for Results.
@@ -955,6 +1446,7 @@ cards:
     route: /results/additional-derived-results/
     page_key: results.additional_derived_results
     title: Additional Derived Results
+    icon: inventory_2
     image: /assets/og/png/results__additional-derived-results.png
     svg: /assets/og/svg/results__additional-derived-results.svg
     alt: Panta Rhei preview card for Additional Derived Results.
@@ -965,6 +1457,7 @@ cards:
     route: /results/additional-noteworthy-results/
     page_key: results.additional_noteworthy_results
     title: Additional Noteworthy Results
+    icon: inventory_2
     image: /assets/og/png/results__additional-noteworthy-results.png
     svg: /assets/og/svg/results__additional-noteworthy-results.svg
     alt: Panta Rhei preview card for Additional Noteworthy Results.
@@ -975,6 +1468,7 @@ cards:
     route: /results/browse/
     page_key: results.browse
     title: Browse All Results
+    icon: inventory_2
     image: /assets/og/png/results__browse.png
     svg: /assets/og/svg/results__browse.svg
     alt: Panta Rhei preview card for Browse All Results.
@@ -985,6 +1479,7 @@ cards:
     route: /results/by-book/
     page_key: results.by_book
     title: Results by Book
+    icon: inventory_2
     image: /assets/og/png/results__by-book.png
     svg: /assets/og/svg/results__by-book.svg
     alt: Panta Rhei preview card for Results by Book.
@@ -995,6 +1490,7 @@ cards:
     route: /results/by-domain/
     page_key: results.by_domain
     title: Results by Domain
+    icon: inventory_2
     image: /assets/og/png/results__by-domain.png
     svg: /assets/og/svg/results__by-domain.svg
     alt: Panta Rhei preview card for Results by Domain.
@@ -1005,16 +1501,62 @@ cards:
     route: /results/challenge-responses/
     page_key: results.challenge_responses
     title: Challenge Responses
+    icon: inventory_2
     image: /assets/og/png/results__challenge-responses.png
     svg: /assets/og/svg/results__challenge-responses.svg
     alt: Panta Rhei preview card for Challenge Responses.
     width: 1200
     height: 630
     webp: /assets/og/webp/results__challenge-responses.webp
+  results__challenge-responses__life:
+    route: /results/challenge-responses/life/
+    page_key: results.challenge_responses.life
+    title: Life Challenge Responses
+    icon: genetics
+    image: /assets/og/png/results__challenge-responses__life.png
+    svg: /assets/og/svg/results__challenge-responses__life.svg
+    alt: Panta Rhei preview card for Life Challenge Responses.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/results__challenge-responses__life.webp
+  results__challenge-responses__mathematics:
+    route: /results/challenge-responses/mathematics/
+    page_key: results.challenge_responses.mathematics
+    title: Mathematics Challenge Responses
+    icon: architecture
+    image: /assets/og/png/results__challenge-responses__mathematics.png
+    svg: /assets/og/svg/results__challenge-responses__mathematics.svg
+    alt: Panta Rhei preview card for Mathematics Challenge Responses.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/results__challenge-responses__mathematics.webp
+  results__challenge-responses__metaphysics:
+    route: /results/challenge-responses/metaphysics/
+    page_key: results.challenge_responses.metaphysics
+    title: Metaphysics Challenge Responses
+    icon: owl
+    image: /assets/og/png/results__challenge-responses__metaphysics.png
+    svg: /assets/og/svg/results__challenge-responses__metaphysics.svg
+    alt: Panta Rhei preview card for Metaphysics Challenge Responses.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/results__challenge-responses__metaphysics.webp
+  results__challenge-responses__physics:
+    route: /results/challenge-responses/physics/
+    page_key: results.challenge_responses.physics
+    title: Physics Challenge Responses
+    icon: orbit
+    image: /assets/og/png/results__challenge-responses__physics.png
+    svg: /assets/og/svg/results__challenge-responses__physics.svg
+    alt: Panta Rhei preview card for Physics Challenge Responses.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/results__challenge-responses__physics.webp
   results__classifications:
     route: /results/classifications/
     page_key: results.classifications
     title: Result Classifications
+    icon: inventory_2
     image: /assets/og/png/results__classifications.png
     svg: /assets/og/svg/results__classifications.svg
     alt: Panta Rhei preview card for Result Classifications.
@@ -1025,6 +1567,7 @@ cards:
     route: /results/core-semantics-status/
     page_key: results.core_semantics_status
     title: Core Semantics Status
+    icon: inventory_2
     image: /assets/og/png/results__core-semantics-status.png
     svg: /assets/og/svg/results__core-semantics-status.svg
     alt: Panta Rhei preview card for Core Semantics Status.
@@ -1035,6 +1578,7 @@ cards:
     route: /results/cross-domain/
     page_key: results.cross_domain
     title: Cross-Domain Edges
+    icon: inventory_2
     image: /assets/og/png/results__cross-domain.png
     svg: /assets/og/svg/results__cross-domain.svg
     alt: Panta Rhei preview card for Cross-Domain Edges.
@@ -1045,6 +1589,7 @@ cards:
     route: /results/falsifications/
     page_key: results.falsifications
     title: Falsifications
+    icon: inventory_2
     image: /assets/og/png/results__falsifications.png
     svg: /assets/og/svg/results__falsifications.svg
     alt: Panta Rhei preview card for Falsifications.
@@ -1055,6 +1600,7 @@ cards:
     route: /results/glossary-onboarding/
     page_key: results.glossary_onboarding
     title: Glossary Onboarding
+    icon: inventory_2
     image: /assets/og/png/results__glossary-onboarding.png
     svg: /assets/og/svg/results__glossary-onboarding.svg
     alt: Panta Rhei preview card for Glossary Onboarding.
@@ -1065,6 +1611,7 @@ cards:
     route: /results/how-to-read-a-result-page/
     page_key: results.how_to_read_result
     title: How to Read a Result Page
+    icon: inventory_2
     image: /assets/og/png/results__how-to-read-a-result-page.png
     svg: /assets/og/svg/results__how-to-read-a-result-page.svg
     alt: Panta Rhei preview card for How to Read a Result Page.
@@ -1075,26 +1622,84 @@ cards:
     route: /results/landmark-results/
     page_key: results.landmark_results
     title: Landmark Results
+    icon: inventory_2
     image: /assets/og/png/results__landmark-results.png
     svg: /assets/og/svg/results__landmark-results.svg
     alt: Panta Rhei preview card for Landmark Results.
     width: 1200
     height: 630
     webp: /assets/og/webp/results__landmark-results.webp
+  results__life:
+    route: /results/life/
+    page_key: results.domain.life
+    title: Life Results Hub
+    icon: genetics
+    image: /assets/og/png/results__life.png
+    svg: /assets/og/svg/results__life.svg
+    alt: Panta Rhei preview card for Life Results Hub.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/results__life.webp
+  results__mathematics:
+    route: /results/mathematics/
+    page_key: results.domain.mathematics
+    title: Mathematics Results Hub
+    icon: architecture
+    image: /assets/og/png/results__mathematics.png
+    svg: /assets/og/svg/results__mathematics.svg
+    alt: Panta Rhei preview card for Mathematics Results Hub.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/results__mathematics.webp
+  results__metaphysics:
+    route: /results/metaphysics/
+    page_key: results.domain.metaphysics
+    title: Metaphysics Results Hub
+    icon: owl
+    image: /assets/og/png/results__metaphysics.png
+    svg: /assets/og/svg/results__metaphysics.svg
+    alt: Panta Rhei preview card for Metaphysics Results Hub.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/results__metaphysics.webp
+  results__physics:
+    route: /results/physics/
+    page_key: results.domain.physics
+    title: Physics Results Hub
+    icon: orbit
+    image: /assets/og/png/results__physics.png
+    svg: /assets/og/svg/results__physics.svg
+    alt: Panta Rhei preview card for Physics Results Hub.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/results__physics.webp
   results__predictions:
     route: /results/predictions/
     page_key: results.predictions
     title: Predictions
+    icon: inventory_2
     image: /assets/og/png/results__predictions.png
     svg: /assets/og/svg/results__predictions.svg
     alt: Panta Rhei preview card for Predictions.
     width: 1200
     height: 630
     webp: /assets/og/webp/results__predictions.webp
+  results__predictions__timing:
+    route: /results/predictions/timing/
+    page_key: null
+    title: Prediction Timing
+    icon: timer
+    image: /assets/og/png/results__predictions__timing.png
+    svg: /assets/og/svg/results__predictions__timing.svg
+    alt: Panta Rhei preview card for Prediction Timing.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/results__predictions__timing.webp
   results__progress-against-agenda:
     route: /results/progress-against-agenda/
     page_key: results.progress_against_agenda
     title: Progress Against Agenda
+    icon: inventory_2
     image: /assets/og/png/results__progress-against-agenda.png
     svg: /assets/og/svg/results__progress-against-agenda.svg
     alt: Panta Rhei preview card for Progress Against Agenda.
@@ -1105,6 +1710,7 @@ cards:
     route: /results/prologue/
     page_key: results.prologue
     title: Results Introduction
+    icon: inventory_2
     image: /assets/og/png/results__prologue.png
     svg: /assets/og/svg/results__prologue.svg
     alt: Panta Rhei preview card for Results Introduction.
@@ -1115,6 +1721,7 @@ cards:
     route: /results/status-and-claim-typing/
     page_key: results.status_and_claim_typing
     title: Status and Claim Typing
+    icon: inventory_2
     image: /assets/og/png/results__status-and-claim-typing.png
     svg: /assets/og/svg/results__status-and-claim-typing.svg
     alt: Panta Rhei preview card for Status and Claim Typing.
@@ -1125,6 +1732,7 @@ cards:
     route: /results/why-so-many-results/
     page_key: results.why_so_many_results
     title: Why So Many Results Are Possible
+    icon: inventory_2
     image: /assets/og/png/results__why-so-many-results.png
     svg: /assets/og/svg/results__why-so-many-results.svg
     alt: Panta Rhei preview card for Why So Many Results Are Possible.
@@ -1135,16 +1743,62 @@ cards:
     route: /results/world-readout/
     page_key: results.world_readout
     title: World Readout
+    icon: inventory_2
     image: /assets/og/png/results__world-readout.png
     svg: /assets/og/svg/results__world-readout.svg
     alt: Panta Rhei preview card for World Readout.
     width: 1200
     height: 630
     webp: /assets/og/webp/results__world-readout.webp
+  results__world-readout__life:
+    route: /results/world-readout/life/
+    page_key: results.world_readout.life
+    title: Life World-Readout
+    icon: genetics
+    image: /assets/og/png/results__world-readout__life.png
+    svg: /assets/og/svg/results__world-readout__life.svg
+    alt: Panta Rhei preview card for Life World-Readout.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/results__world-readout__life.webp
+  results__world-readout__mathematics:
+    route: /results/world-readout/mathematics/
+    page_key: results.world_readout.mathematics
+    title: Mathematics World-Readout
+    icon: architecture
+    image: /assets/og/png/results__world-readout__mathematics.png
+    svg: /assets/og/svg/results__world-readout__mathematics.svg
+    alt: Panta Rhei preview card for Mathematics World-Readout.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/results__world-readout__mathematics.webp
+  results__world-readout__metaphysics:
+    route: /results/world-readout/metaphysics/
+    page_key: results.world_readout.metaphysics
+    title: Metaphysics World-Readout
+    icon: owl
+    image: /assets/og/png/results__world-readout__metaphysics.png
+    svg: /assets/og/svg/results__world-readout__metaphysics.svg
+    alt: Panta Rhei preview card for Metaphysics World-Readout.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/results__world-readout__metaphysics.webp
+  results__world-readout__physics:
+    route: /results/world-readout/physics/
+    page_key: results.world_readout.physics
+    title: Physics World-Readout
+    icon: orbit
+    image: /assets/og/png/results__world-readout__physics.png
+    svg: /assets/og/svg/results__world-readout__physics.svg
+    alt: Panta Rhei preview card for Physics World-Readout.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/results__world-readout__physics.webp
   search:
     route: /search/
     page_key: support.search
     title: Search
+    icon: route
     image: /assets/og/png/search.png
     svg: /assets/og/svg/search.svg
     alt: Panta Rhei preview card for Search.
@@ -1155,6 +1809,7 @@ cards:
     route: /sitemap/
     page_key: support.sitemap
     title: Sitemap
+    icon: route
     image: /assets/og/png/sitemap.png
     svg: /assets/og/svg/sitemap.svg
     alt: Panta Rhei preview card for Sitemap.
@@ -1165,6 +1820,7 @@ cards:
     route: /verify/
     page_key: verify.index
     title: Verify
+    icon: fact_check
     image: /assets/og/png/verify.png
     svg: /assets/og/svg/verify.svg
     alt: Panta Rhei preview card for Verify.
@@ -1175,16 +1831,40 @@ cards:
     route: /verify/assessment-protocols/
     page_key: verify.assessment_protocols
     title: Assessment Protocols
+    icon: fact_check
     image: /assets/og/png/verify__assessment-protocols.png
     svg: /assets/og/svg/verify__assessment-protocols.svg
     alt: Panta Rhei preview card for Assessment Protocols.
     width: 1200
     height: 630
     webp: /assets/og/webp/verify__assessment-protocols.webp
+  verify__assessment-protocols__llm-assisted:
+    route: /verify/assessment-protocols/llm-assisted/
+    page_key: null
+    title: LLM-Assisted Protocols
+    icon: psychology
+    image: /assets/og/png/verify__assessment-protocols__llm-assisted.png
+    svg: /assets/og/svg/verify__assessment-protocols__llm-assisted.svg
+    alt: Panta Rhei preview card for LLM-Assisted Protocols.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/verify__assessment-protocols__llm-assisted.webp
+  verify__assessment-protocols__manual:
+    route: /verify/assessment-protocols/manual/
+    page_key: null
+    title: Manual Protocols
+    icon: rule
+    image: /assets/og/png/verify__assessment-protocols__manual.png
+    svg: /assets/og/svg/verify__assessment-protocols__manual.svg
+    alt: Panta Rhei preview card for Manual Protocols.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/verify__assessment-protocols__manual.webp
   verify__assessments:
     route: /verify/assessments/
     page_key: verify.assessments
     title: AI-Assisted First-Pass Assessment
+    icon: fact_check
     image: /assets/og/png/verify__assessments.png
     svg: /assets/og/svg/verify__assessments.svg
     alt: Panta Rhei preview card for AI-Assisted First-Pass Assessment.
@@ -1195,6 +1875,7 @@ cards:
     route: /verify/bridge-verification/
     page_key: verify.bridge_verification
     title: Bridge Verification
+    icon: fact_check
     image: /assets/og/png/verify__bridge-verification.png
     svg: /assets/og/svg/verify__bridge-verification.svg
     alt: Panta Rhei preview card for Bridge Verification.
@@ -1205,6 +1886,7 @@ cards:
     route: /verify/construction-spine-verification/
     page_key: verify.construction_spine_verification
     title: Verify the Construction Spine
+    icon: fact_check
     image: /assets/og/png/verify__construction-spine-verification.png
     svg: /assets/og/svg/verify__construction-spine-verification.svg
     alt: Panta Rhei preview card for Verify the Construction Spine.
@@ -1215,6 +1897,7 @@ cards:
     route: /verify/custom-axioms/
     page_key: verify.custom_axioms
     title: Custom Axiom Inventory — The Compute-Then-Axiomatize Pattern
+    icon: fact_check
     image: /assets/og/png/verify__custom-axioms.png
     svg: /assets/og/svg/verify__custom-axioms.svg
     alt: Panta Rhei preview card for Custom Axiom Inventory — The Compute-Then-Axiomatize
@@ -1226,16 +1909,62 @@ cards:
     route: /verify/domain-verification/
     page_key: verify.domain_verification
     title: Domain Verification
+    icon: fact_check
     image: /assets/og/png/verify__domain-verification.png
     svg: /assets/og/svg/verify__domain-verification.svg
     alt: Panta Rhei preview card for Domain Verification.
     width: 1200
     height: 630
     webp: /assets/og/webp/verify__domain-verification.webp
+  verify__domain-verification__life:
+    route: /verify/domain-verification/life/
+    page_key: verify.domain_verification.life
+    title: Life Verification
+    icon: genetics
+    image: /assets/og/png/verify__domain-verification__life.png
+    svg: /assets/og/svg/verify__domain-verification__life.svg
+    alt: Panta Rhei preview card for Life Verification.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/verify__domain-verification__life.webp
+  verify__domain-verification__mathematics:
+    route: /verify/domain-verification/mathematics/
+    page_key: verify.domain_verification.mathematics
+    title: Mathematics Verification
+    icon: architecture
+    image: /assets/og/png/verify__domain-verification__mathematics.png
+    svg: /assets/og/svg/verify__domain-verification__mathematics.svg
+    alt: Panta Rhei preview card for Mathematics Verification.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/verify__domain-verification__mathematics.webp
+  verify__domain-verification__metaphysics:
+    route: /verify/domain-verification/metaphysics/
+    page_key: verify.domain_verification.metaphysics
+    title: Metaphysics Verification
+    icon: owl
+    image: /assets/og/png/verify__domain-verification__metaphysics.png
+    svg: /assets/og/svg/verify__domain-verification__metaphysics.svg
+    alt: Panta Rhei preview card for Metaphysics Verification.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/verify__domain-verification__metaphysics.webp
+  verify__domain-verification__physics:
+    route: /verify/domain-verification/physics/
+    page_key: verify.domain_verification.physics
+    title: Physics Verification
+    icon: orbit
+    image: /assets/og/png/verify__domain-verification__physics.png
+    svg: /assets/og/svg/verify__domain-verification__physics.svg
+    alt: Panta Rhei preview card for Physics Verification.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/verify__domain-verification__physics.webp
   verify__filter-rules:
     route: /verify/filter-rules/
     page_key: verify.filter_rules
     title: Filter Rules — Which Count Means What
+    icon: fact_check
     image: /assets/og/png/verify__filter-rules.png
     svg: /assets/og/svg/verify__filter-rules.svg
     alt: Panta Rhei preview card for Filter Rules — Which Count Means What.
@@ -1246,6 +1975,7 @@ cards:
     route: /verify/formal-verification-stack/
     page_key: verify.formal_verification_stack
     title: Formal Verification Stack
+    icon: fact_check
     image: /assets/og/png/verify__formal-verification-stack.png
     svg: /assets/og/svg/verify__formal-verification-stack.svg
     alt: Panta Rhei preview card for Formal Verification Stack.
@@ -1256,6 +1986,7 @@ cards:
     route: /verify/how-to-verify-by-role/
     page_key: verify.how_to_verify_by_role
     title: How to Verify by Reviewer Role
+    icon: fact_check
     image: /assets/og/png/verify__how-to-verify-by-role.png
     svg: /assets/og/svg/verify__how-to-verify-by-role.svg
     alt: Panta Rhei preview card for How to Verify by Reviewer Role.
@@ -1266,6 +1997,7 @@ cards:
     route: /verify/how-to-verify/
     page_key: verify.how_to_verify
     title: How to Verify
+    icon: fact_check
     image: /assets/og/png/verify__how-to-verify.png
     svg: /assets/og/svg/verify__how-to-verify.svg
     alt: Panta Rhei preview card for How to Verify.
@@ -1276,6 +2008,7 @@ cards:
     route: /verify/meta-verification-frontier/
     page_key: verify.meta_verification_frontier
     title: Meta-Verification Frontier
+    icon: fact_check
     image: /assets/og/png/verify__meta-verification-frontier.png
     svg: /assets/og/svg/verify__meta-verification-frontier.svg
     alt: Panta Rhei preview card for Meta-Verification Frontier.
@@ -1286,16 +2019,40 @@ cards:
     route: /verify/predictions-and-falsification/
     page_key: verify.predictions_and_falsification
     title: Predictions & Falsification
+    icon: fact_check
     image: /assets/og/png/verify__predictions-and-falsification.png
     svg: /assets/og/svg/verify__predictions-and-falsification.svg
     alt: Panta Rhei preview card for Predictions & Falsification.
     width: 1200
     height: 630
     webp: /assets/og/webp/verify__predictions-and-falsification.webp
+  verify__predictions-and-falsification__falsification-packs:
+    route: /verify/predictions-and-falsification/falsification-packs/
+    page_key: null
+    title: Falsification Packs
+    icon: track_changes
+    image: /assets/og/png/verify__predictions-and-falsification__falsification-packs.png
+    svg: /assets/og/svg/verify__predictions-and-falsification__falsification-packs.svg
+    alt: Panta Rhei preview card for Falsification Packs.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/verify__predictions-and-falsification__falsification-packs.webp
+  verify__predictions-and-falsification__falsification-paths:
+    route: /verify/predictions-and-falsification/falsification-paths/
+    page_key: null
+    title: Falsification Paths
+    icon: route
+    image: /assets/og/png/verify__predictions-and-falsification__falsification-paths.png
+    svg: /assets/og/svg/verify__predictions-and-falsification__falsification-paths.svg
+    alt: Panta Rhei preview card for Falsification Paths.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/verify__predictions-and-falsification__falsification-paths.webp
   verify__predictions-and-falsification__predictions:
     route: /verify/predictions-and-falsification/predictions/
     page_key: null
     title: Predictions and Falsification
+    icon: track_changes
     image: /assets/og/png/verify__predictions-and-falsification__predictions.png
     svg: /assets/og/svg/verify__predictions-and-falsification__predictions.svg
     alt: Panta Rhei preview card for Predictions and Falsification.
@@ -1306,6 +2063,7 @@ cards:
     route: /verify/release-manifest/
     page_key: verify.release_manifest
     title: Release Manifest
+    icon: fact_check
     image: /assets/og/png/verify__release-manifest.png
     svg: /assets/og/svg/verify__release-manifest.svg
     alt: Panta Rhei preview card for Release Manifest.
@@ -1316,6 +2074,7 @@ cards:
     route: /verify/scientific-rigor/
     page_key: verify.scientific_rigor
     title: Scientific Rigor
+    icon: fact_check
     image: /assets/og/png/verify__scientific-rigor.png
     svg: /assets/og/svg/verify__scientific-rigor.svg
     alt: Panta Rhei preview card for Scientific Rigor.
@@ -1326,6 +2085,7 @@ cards:
     route: /verify/taulib/
     page_key: verify.taulib
     title: TauLib Inspection Bridge
+    icon: fact_check
     image: /assets/og/png/verify__taulib.png
     svg: /assets/og/svg/verify__taulib.svg
     alt: Panta Rhei preview card for TauLib Inspection Bridge.
@@ -1336,6 +2096,7 @@ cards:
     route: /verify/tcb/
     page_key: verify.tcb
     title: Trust Budget and TCB Disclosure
+    icon: fact_check
     image: /assets/og/png/verify__tcb.png
     svg: /assets/og/svg/verify__tcb.svg
     alt: Panta Rhei preview card for Trust Budget and TCB Disclosure.
@@ -1346,6 +2107,7 @@ cards:
     route: /verify/verification-framework/
     page_key: verify.verification_framework
     title: Verification Framework
+    icon: fact_check
     image: /assets/og/png/verify__verification-framework.png
     svg: /assets/og/svg/verify__verification-framework.svg
     alt: Panta Rhei preview card for Verification Framework.

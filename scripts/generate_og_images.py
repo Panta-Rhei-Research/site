@@ -29,6 +29,8 @@ CARD_HEIGHT = 630
 DATA_DIR = ROOT / "_data" / "og"
 SITE_ATLAS_PAGES = ROOT / "_data" / "site_atlas" / "pages.json"
 PAGES_OVERRIDES = DATA_DIR / "pages.yml"
+SITEMAP_PAGES_OVERRIDES = DATA_DIR / "sitemap_pages.yml"
+OG_OVERRIDE_FILES = [SITEMAP_PAGES_OVERRIDES, PAGES_OVERRIDES]
 GENERATED_MANIFEST = DATA_DIR / "generated_cards.yml"
 
 ASSETS_DIR = ROOT / "assets" / "og"
@@ -218,16 +220,29 @@ def load_site_atlas_pages() -> list[dict[str, Any]]:
     return data.get("pages", [])
 
 
-def load_overrides() -> tuple[dict[str, Any], dict[str, dict[str, Any]]]:
-    if not PAGES_OVERRIDES.exists():
+def load_override_file(path: Path) -> tuple[dict[str, Any], dict[str, dict[str, Any]]]:
+    if not path.exists():
         return {}, {}
-    data = yaml.safe_load(PAGES_OVERRIDES.read_text(encoding="utf-8")) or {}
+    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
     defaults = data.get("defaults", {}) if isinstance(data.get("defaults"), dict) else {}
-    pages = {}
+    pages: dict[str, dict[str, Any]] = {}
     for item in data.get("pages", []) or []:
         if isinstance(item, dict) and item.get("route"):
             route = str(item["route"])
             pages[route] = {**defaults, **item}
+    return defaults, pages
+
+
+def load_overrides() -> tuple[dict[str, Any], dict[str, dict[str, Any]]]:
+    # Sitemap coverage loads first; curated page overrides load second and
+    # therefore retain precedence for pages already hand-authored by the OG
+    # pipeline.
+    defaults: dict[str, Any] = {}
+    pages: dict[str, dict[str, Any]] = {}
+    for path in OG_OVERRIDE_FILES:
+        file_defaults, file_pages = load_override_file(path)
+        defaults.update(file_defaults)
+        pages.update(file_pages)
     return defaults, pages
 
 
@@ -324,13 +339,11 @@ def background_svg(variant: str) -> str:
 def icon_markup(token: str, color: str, opacity: str) -> str:
     path = ICON_DIR / f"{token}.svg"
     if not path.exists():
-        path = ICON_DIR / "route.svg"
-    if not path.exists():
-        return ""
+        fail(f"missing vendored Material Symbol SVG for icon token: {token}")
     svg_text = path.read_text(encoding="utf-8", errors="ignore")
     paths = re.findall(r'<path[^>]*\sd="([^"]+)"', svg_text)
     if not paths:
-        return ""
+        fail(f"vendored Material Symbol SVG contains no path data: {path.relative_to(ROOT)}")
     body = "\n".join(f'<path d="{xml(path_d)}" fill="{color}"/>' for path_d in paths)
     return f"""
       <svg x="835" y="220" width="300" height="300" viewBox="0 -960 960 960" opacity="{opacity}" aria-hidden="true">
@@ -481,6 +494,7 @@ def write_manifest(records: list[dict[str, Any]], include_webp: bool) -> None:
             "route": record["route"],
             "page_key": record.get("page_key"),
             "title": record["title"],
+            "icon": record["icon"],
             "image": f"/assets/og/png/{slug}.png",
             "svg": f"/assets/og/svg/{slug}.svg",
             "alt": record["alt"],
