@@ -9,19 +9,19 @@ publications:
   route_status: reserved
   release_date: '2026-05-16'
   version: v1.0
-  title: A Structural Prior for Dynamic Chirality-Induced Spin Selectivity
-  subtitle: ''
-  short_title: A Structural Prior for Dynamic Chirality-Induced Spin Selectivity
+  title: Dynamic Chirality-Induced Spin Selectivity as a Symmetry-Class Bridge
+  subtitle: Book VI's parity slot and Paltiel et al.'s dynamic CISS mechanism
+  short_title: Dynamic Chirality-Induced Spin Selectivity as a Symmetry-Class Bridge
   authors:
   - person_key: thorsten_fuchs
     name: Thorsten Fuchs
   - person_key: anna_sophie_fuchs
     name: Anna-Sophie Fuchs
-  abstract: A Structural Prior for Dynamic Chirality-Induced Spin Selectivity reads Paltiel et al.'s Science Advances paper
-    on dynamic chirality-induced spin selectivity and enantiomeric excess as a guarded external readout surface for Book VI's
-    homochirality / parity-bridge architecture. The note does not claim that Paltiel et al. validate Category τ, nor that
-    Panta Rhei predicted their detailed molecular mechanism. Its narrower claim is a prior structural-slot record and a symmetry-class
-    bridge.
+  abstract: Dynamic Chirality-Induced Spin Selectivity as a Symmetry-Class Bridge reads Paltiel et al.'s Science Advances
+    paper on dynamic chirality-induced spin selectivity and enantiomeric excess as a guarded external readout surface for
+    Book VI's homochirality / parity-bridge architecture. The note does not claim that Paltiel et al. validate Category τ,
+    nor that Panta Rhei predicted their detailed molecular mechanism. Its narrower claim is a prior structural-slot record
+    and a symmetry-class bridge.
   summary_short: The note reads Paltiel et al.'s dynamic CISS mechanism as a guarded symmetry-class bridge for Book VI's homochirality
     / parity-bridge architecture, while keeping mechanism-level priority with Paltiel et al. and limiting the Panta Rhei claim
     to a prior structural-slot record.
@@ -108,7 +108,7 @@ publications:
     bibtex_key: ''
   scholar:
     include_meta_tags: true
-    citation_title: A Structural Prior for Dynamic Chirality-Induced Spin Selectivity
+    citation_title: Dynamic Chirality-Induced Spin Selectivity as a Symmetry-Class Bridge
     citation_author:
     - Thorsten Fuchs
     - Anna-Sophie Fuchs
@@ -117,9 +117,9 @@ publications:
     citation_doi: ''
     citation_technical_report_institution: Panta Rhei Research Program
   integrity:
-    bytes: 224191
-    sha256: b6d0a6087bb84d8bf32e623b677a997777e79c721e8933a9cf7310be46d58c96
-    sha512: 4afe9520570028fdc774cc8a5e1f3d99f56855fdb512d4fbb9b3c50c5a3a2804da390054509593d5360fa55084eca442c04114f6ec2bdca04aae3780b017ad65
+    bytes: 223948
+    sha256: 53a530b80c24ec26a1452de991c14d68f427a833dd09e8a069c52e8e5dc3dd6b
+    sha512: 6363db7a47827adc3bc525ff19278de0340214e4b3791346c3eb4f5cdad2f2a2ca33d1f0209674e7322f22b9e947ad407c1d1e43ccb87eae91c6d8f5a8320a6b
     ots_status: pending
   metadata_sources:
     publications_catalog: publications/catalog/publications.json

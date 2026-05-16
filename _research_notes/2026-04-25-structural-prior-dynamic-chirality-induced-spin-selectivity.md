@@ -1,6 +1,6 @@
 ---
-title: "A Structural Prior for Dynamic Chirality-Induced Spin Selectivity"
-subtitle: "A symmetry-class bridge between Book VI's parity slot and Paltiel et al.'s dynamic CISS mechanism"
+title: "Dynamic Chirality-Induced Spin Selectivity as a Symmetry-Class Bridge"
+subtitle: "Book VI's parity slot and Paltiel et al.'s dynamic CISS mechanism"
 slug: "structural-prior-dynamic-chirality-induced-spin-selectivity"
 permalink: /publications/research-notes/structural-prior-dynamic-chirality-induced-spin-selectivity/
 date: 2026-05-16
