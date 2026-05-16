@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: "A physical entity is defined as a localized persistent defect bundle: a stable, structured deviation from the vacuum torus / carrier state."
 construction_step_id: "S046"
 construction_step_number: 46
+construction_step_short_title: "Defect-bundle formalism"
 macro_step_id: "CS-05"
 macro_step_title: "Recover Internal Physical Grammar"
 book: "Book IV"
@@ -44,9 +45,12 @@ right_rail:
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/recover-internal-physical-grammar/">CS-05 — Recover Internal Physical Grammar</a></div>
+
 **Book / layer.** Book IV · E1<br>
 **Macro step.** [CS-05 — Recover Internal Physical Grammar](/corpus/construction-spine/recover-internal-physical-grammar/)<br>
 **Short routes.** `https://prrp.site/s46` · `https://prrp.site/s046`<br>
+
 **Status tags.** `readout`
 
 ## Construction role
@@ -63,6 +67,8 @@ realizations, not a numerically identical substrate piece.
 
 Defect-bundle formalism is made addressable as Step 046 in the fine-grained Construction Spine routing layer.
 
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
+
 ## What this step does not yet establish
 
 This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.
@@ -71,7 +77,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:674)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

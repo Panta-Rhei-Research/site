@@ -1,7 +1,7 @@
 ---
 layout: "program-doc"
-title: "Step 091 — E₂ to E₃: reflective structure"
-title_plain: "Step 091 — E₂ to E₃: reflective structure"
+title: "Step 091 — E₂ → E₃: reflective structure"
+title_plain: "Step 091 — E₂ → E₃: reflective structure"
 permalink: "/corpus/construction-spine/steps/091-e2-to-e3-reflective-structure/"
 lane: "corpus"
 v2_lane: "corpus"
@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: "Book VII begins where the consumer/self-modeling capacity is internalized as an object of study."
 construction_step_id: "S091"
 construction_step_number: 91
+construction_step_short_title: "Reflective structure"
 macro_step_id: "CS-08"
 macro_step_title: "Recover Reflective Structure"
 book: "Book VII"
@@ -44,9 +45,13 @@ right_rail:
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/recover-reflective-structure/">CS-08 — Recover Reflective Structure</a></div>
+
 **Book / layer.** Book VII · E3<br>
 **Macro step.** [CS-08 — Recover Reflective Structure](/corpus/construction-spine/recover-reflective-structure/)<br>
 **Short routes.** `https://prrp.site/s91` · `https://prrp.site/s091`<br>
+**Formula checkpoints.** <math xmlns="http://www.w3.org/1998/Math/MathML" alttext="E₂ → E₃"><semantics><msub><mi>E</mi><mi>2</mi></msub><mo>→</mo><msub><mi>E</mi><mi>3</mi></msub><annotation encoding="text/plain">E₂ → E₃</annotation></semantics></math><br>
+
 **Status tags.** `bridge`
 
 ## Construction role
@@ -59,7 +64,9 @@ function, not a poetic description of intelligence.
 
 ## What this step earns
 
-<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>2</mi></msub></math> to <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>3</mi></msub></math>: reflective structure is made addressable as Step 091 in the fine-grained Construction Spine routing layer.
+Reflective structure is made addressable as Step 091 in the fine-grained Construction Spine routing layer.
+
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
 
 ## What this step does not yet establish
 
@@ -69,7 +76,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:1181)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

@@ -3,6 +3,8 @@
     "id": "S001",
     "step_number": 1,
     "title": "Non-import discipline",
+    "short_title": "Non-import discipline",
+    "earned_label": "Non-import discipline",
     "slug": "001-non-import-discipline",
     "canonical_path": "/corpus/construction-spine/steps/001-non-import-discipline/",
     "short_route": "https://prrp.site/s1",
@@ -30,7 +32,11 @@
     "previous_step_id": null,
     "next_step_id": "S002",
     "what_is_earned": "Non-import discipline is made addressable as Step 001 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [
+      "This step earns the non-import discipline, the metalanguage/object-language asymmetry, and the burden that later objects, operations, and readouts must be generated rather than borrowed."
+    ],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -67,6 +73,8 @@
     "id": "S002",
     "step_number": 2,
     "title": "Coherence kernel",
+    "short_title": "Coherence kernel",
+    "earned_label": "Coherence kernel",
     "slug": "002-coherence-kernel",
     "canonical_path": "/corpus/construction-spine/steps/002-coherence-kernel/",
     "short_route": "https://prrp.site/s2",
@@ -96,7 +104,9 @@
     "previous_step_id": "S001",
     "next_step_id": "S003",
     "what_is_earned": "Coherence kernel is made addressable as Step 002 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -133,6 +143,8 @@
     "id": "S003",
     "step_number": 3,
     "title": "Orbit architecture",
+    "short_title": "Orbit architecture",
+    "earned_label": "Orbit architecture",
     "slug": "003-orbit-architecture",
     "canonical_path": "/corpus/construction-spine/steps/003-orbit-architecture/",
     "short_route": "https://prrp.site/s3",
@@ -162,7 +174,9 @@
     "previous_step_id": "S002",
     "next_step_id": "S004",
     "what_is_earned": "Orbit architecture is made addressable as Step 003 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -199,6 +213,8 @@
     "id": "S004",
     "step_number": 4,
     "title": "Four-block order readout",
+    "short_title": "Four-block order readout",
+    "earned_label": "Four-block order readout",
     "slug": "004-four-block-order-readout",
     "canonical_path": "/corpus/construction-spine/steps/004-four-block-order-readout/",
     "short_route": "https://prrp.site/s4",
@@ -228,7 +244,11 @@
     "previous_step_id": "S003",
     "next_step_id": "S005",
     "what_is_earned": "Four-block order readout is made addressable as Step 004 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [
+      "O_α ≺ O_π ≺ O_γ ≺ O_η ≺ ω"
+    ],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -265,6 +285,8 @@
     "id": "S005",
     "step_number": 5,
     "title": "Nonredundant fold strata",
+    "short_title": "Nonredundant fold strata",
+    "earned_label": "Nonredundant fold strata",
     "slug": "005-nonredundant-fold-strata",
     "canonical_path": "/corpus/construction-spine/steps/005-nonredundant-fold-strata/",
     "short_route": "https://prrp.site/s5",
@@ -294,7 +316,9 @@
     "previous_step_id": "S004",
     "next_step_id": "S006",
     "what_is_earned": "Nonredundant fold strata is made addressable as Step 005 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -331,6 +355,8 @@
     "id": "S006",
     "step_number": 6,
     "title": "Counting as construction",
+    "short_title": "Counting as construction",
+    "earned_label": "Counting as construction",
     "slug": "006-counting-as-construction",
     "canonical_path": "/corpus/construction-spine/steps/006-counting-as-construction/",
     "short_route": "https://prrp.site/s6",
@@ -360,7 +386,9 @@
     "previous_step_id": "S005",
     "next_step_id": "S007",
     "what_is_earned": "Counting as construction is made addressable as Step 006 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -397,6 +425,8 @@
     "id": "S007",
     "step_number": 7,
     "title": "Iterator ladder",
+    "short_title": "Iterator ladder",
+    "earned_label": "Iterator ladder",
     "slug": "007-iterator-ladder",
     "canonical_path": "/corpus/construction-spine/steps/007-iterator-ladder/",
     "short_route": "https://prrp.site/s7",
@@ -426,7 +456,9 @@
     "previous_step_id": "S006",
     "next_step_id": "S008",
     "what_is_earned": "Iterator ladder is made addressable as Step 007 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -463,6 +495,8 @@
     "id": "S008",
     "step_number": 8,
     "title": "Address resolution, not calculation",
+    "short_title": "Address resolution, not calculation",
+    "earned_label": "Address resolution, not calculation",
     "slug": "008-address-resolution-not-calculation",
     "canonical_path": "/corpus/construction-spine/steps/008-address-resolution-not-calculation/",
     "short_route": "https://prrp.site/s8",
@@ -493,7 +527,9 @@
     "previous_step_id": "S007",
     "next_step_id": "S009",
     "what_is_earned": "Address resolution, not calculation is made addressable as Step 008 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -531,6 +567,8 @@
     "id": "S009",
     "step_number": 9,
     "title": "Hyperfactorization and ABCD chart",
+    "short_title": "Hyperfactorization and ABCD chart",
+    "earned_label": "Hyperfactorization and ABCD chart",
     "slug": "009-hyperfactorization-and-abcd-chart",
     "canonical_path": "/corpus/construction-spine/steps/009-hyperfactorization-and-abcd-chart/",
     "short_route": "https://prrp.site/s9",
@@ -561,7 +599,9 @@
     "previous_step_id": "S008",
     "next_step_id": "S010",
     "what_is_earned": "Hyperfactorization and ABCD chart is made addressable as Step 009 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -599,6 +639,8 @@
     "id": "S010",
     "step_number": 10,
     "title": "Prime polarity",
+    "short_title": "Prime polarity",
+    "earned_label": "Prime polarity",
     "slug": "010-prime-polarity",
     "canonical_path": "/corpus/construction-spine/steps/010-prime-polarity/",
     "short_route": "https://prrp.site/s10",
@@ -628,7 +670,9 @@
     "previous_step_id": "S009",
     "next_step_id": "S011",
     "what_is_earned": "Prime polarity is made addressable as Step 010 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -665,6 +709,8 @@
     "id": "S011",
     "step_number": 11,
     "title": "Internal set theory",
+    "short_title": "Internal set theory",
+    "earned_label": "Internal set theory",
     "slug": "011-internal-set-theory",
     "canonical_path": "/corpus/construction-spine/steps/011-internal-set-theory/",
     "short_route": "https://prrp.site/s11",
@@ -694,7 +740,9 @@
     "previous_step_id": "S010",
     "next_step_id": "S012",
     "what_is_earned": "Internal set theory is made addressable as Step 011 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -731,6 +779,8 @@
     "id": "S012",
     "step_number": 12,
     "title": "Split-complex boundary algebra",
+    "short_title": "Split-complex boundary algebra",
+    "earned_label": "Split-complex boundary algebra",
     "slug": "012-split-complex-boundary-algebra",
     "canonical_path": "/corpus/construction-spine/steps/012-split-complex-boundary-algebra/",
     "short_route": "https://prrp.site/s12",
@@ -760,7 +810,9 @@
     "previous_step_id": "S011",
     "next_step_id": "S013",
     "what_is_earned": "Split-complex boundary algebra is made addressable as Step 012 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -797,6 +849,8 @@
     "id": "S013",
     "step_number": 13,
     "title": "τ-holomorphy as ω-germ transformer",
+    "short_title": "τ-holomorphy as ω-germ transformer",
+    "earned_label": "τ-holomorphy as ω-germ transformer",
     "slug": "013-tau-holomorphy-as-omega-germ-transformer",
     "canonical_path": "/corpus/construction-spine/steps/013-tau-holomorphy-as-omega-germ-transformer/",
     "short_route": "https://prrp.site/s13",
@@ -826,7 +880,9 @@
     "previous_step_id": "S012",
     "next_step_id": "S014",
     "what_is_earned": "τ-holomorphy as ω-germ transformer is made addressable as Step 013 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -863,6 +919,8 @@
     "id": "S014",
     "step_number": 14,
     "title": "Four-valued τ-topos",
+    "short_title": "Four-valued τ-topos",
+    "earned_label": "Four-valued τ-topos",
     "slug": "014-four-valued-tau-topos",
     "canonical_path": "/corpus/construction-spine/steps/014-four-valued-tau-topos/",
     "short_route": "https://prrp.site/s14",
@@ -892,7 +950,9 @@
     "previous_step_id": "S013",
     "next_step_id": "S015",
     "what_is_earned": "Four-valued τ-topos is made addressable as Step 014 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -929,6 +989,8 @@
     "id": "S015",
     "step_number": 15,
     "title": "Lemniscate characters",
+    "short_title": "Lemniscate characters",
+    "earned_label": "Lemniscate characters",
     "slug": "015-lemniscate-characters",
     "canonical_path": "/corpus/construction-spine/steps/015-lemniscate-characters/",
     "short_route": "https://prrp.site/s15",
@@ -958,7 +1020,9 @@
     "previous_step_id": "S014",
     "next_step_id": "S016",
     "what_is_earned": "Lemniscate characters is made addressable as Step 015 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -995,6 +1059,8 @@
     "id": "S016",
     "step_number": 16,
     "title": "Global Hartogs",
+    "short_title": "Global Hartogs",
+    "earned_label": "Global Hartogs",
     "slug": "016-global-hartogs",
     "canonical_path": "/corpus/construction-spine/steps/016-global-hartogs/",
     "short_route": "https://prrp.site/s16",
@@ -1024,7 +1090,9 @@
     "previous_step_id": "S015",
     "next_step_id": "S017",
     "what_is_earned": "Global Hartogs is made addressable as Step 016 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -1061,6 +1129,8 @@
     "id": "S017",
     "step_number": 17,
     "title": "Boundary-first inversion",
+    "short_title": "Boundary-first inversion",
+    "earned_label": "Boundary-first inversion",
     "slug": "017-boundary-first-inversion",
     "canonical_path": "/corpus/construction-spine/steps/017-boundary-first-inversion/",
     "short_route": "https://prrp.site/s17",
@@ -1090,7 +1160,9 @@
     "previous_step_id": "S016",
     "next_step_id": "S018",
     "what_is_earned": "Boundary-first inversion is made addressable as Step 017 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -1127,6 +1199,8 @@
     "id": "S018",
     "step_number": 18,
     "title": "τ³ as geometric readout τ¹×_f T²",
+    "short_title": "τ^3 as geometric readout τ^1×_f T^2",
+    "earned_label": "τ^3 as geometric readout τ^1×_f T^2",
     "slug": "018-tau-3-as-geometric-readout-tau-1-x-f-t-2",
     "canonical_path": "/corpus/construction-spine/steps/018-tau-3-as-geometric-readout-tau-1-x-f-t-2/",
     "short_route": "https://prrp.site/s18",
@@ -1157,7 +1231,12 @@
     "previous_step_id": "S017",
     "next_step_id": "S019",
     "what_is_earned": "τ³ as geometric readout τ¹×_f T² is made addressable as Step 018 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [
+      "τ³ = τ¹ ×_f T²",
+      "τ³ ≅ τ¹ × T²"
+    ],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -1195,6 +1274,8 @@
     "id": "S019",
     "step_number": 19,
     "title": "Cylinders and ultrametric topology",
+    "short_title": "Cylinders and ultrametric topology",
+    "earned_label": "Cylinders and ultrametric topology",
     "slug": "019-cylinders-and-ultrametric-topology",
     "canonical_path": "/corpus/construction-spine/steps/019-cylinders-and-ultrametric-topology/",
     "short_route": "https://prrp.site/s19",
@@ -1224,7 +1305,9 @@
     "previous_step_id": "S018",
     "next_step_id": "S020",
     "what_is_earned": "Cylinders and ultrametric topology is made addressable as Step 019 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -1261,6 +1344,8 @@
     "id": "S020",
     "step_number": 20,
     "title": "Stone/profinite shape and two-readout principle",
+    "short_title": "Stone/profinite shape and two-readout principle",
+    "earned_label": "Stone/profinite shape and two-readout principle",
     "slug": "020-stone-profinite-shape-and-two-readout-principle",
     "canonical_path": "/corpus/construction-spine/steps/020-stone-profinite-shape-and-two-readout-principle/",
     "short_route": "https://prrp.site/s20",
@@ -1290,7 +1375,9 @@
     "previous_step_id": "S019",
     "next_step_id": "S021",
     "what_is_earned": "Stone/profinite shape and two-readout principle is made addressable as Step 020 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -1327,6 +1414,8 @@
     "id": "S021",
     "step_number": 21,
     "title": "Geometric lemniscate at ω",
+    "short_title": "Geometric lemniscate at ω",
+    "earned_label": "Geometric lemniscate at ω",
     "slug": "021-geometric-lemniscate-at-omega",
     "canonical_path": "/corpus/construction-spine/steps/021-geometric-lemniscate-at-omega/",
     "short_route": "https://prrp.site/s21",
@@ -1356,7 +1445,9 @@
     "previous_step_id": "S020",
     "next_step_id": "S022",
     "what_is_earned": "Geometric lemniscate at ω is made addressable as Step 021 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -1393,6 +1484,8 @@
     "id": "S022",
     "step_number": 22,
     "title": "Tarski geometry and wave-type causal precursor",
+    "short_title": "Tarski geometry and wave-type causal precursor",
+    "earned_label": "Tarski geometry and wave-type causal precursor",
     "slug": "022-tarski-geometry-and-wave-type-causal-precursor",
     "canonical_path": "/corpus/construction-spine/steps/022-tarski-geometry-and-wave-type-causal-precursor/",
     "short_route": "https://prrp.site/s22",
@@ -1422,7 +1515,9 @@
     "previous_step_id": "S021",
     "next_step_id": "S023",
     "what_is_earned": "Tarski geometry and wave-type causal precursor is made addressable as Step 022 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -1459,6 +1554,8 @@
     "id": "S023",
     "step_number": 23,
     "title": "Earned constants π_τ,e_τ,j",
+    "short_title": "Earned constants π_τ, e_τ, j",
+    "earned_label": "Earned constants π_τ, e_τ, j",
     "slug": "023-earned-constants-pi-tau-e-tau-j",
     "canonical_path": "/corpus/construction-spine/steps/023-earned-constants-pi-tau-e-tau-j/",
     "short_route": "https://prrp.site/s23",
@@ -1488,8 +1585,15 @@
     ],
     "previous_step_id": "S022",
     "next_step_id": "S024",
-    "what_is_earned": "Earned constants π_τ,e_τ,j is made addressable as Step 023 in the fine-grained Construction Spine routing layer.",
+    "what_is_earned": "Earned constants π_τ, e_τ, j is made addressable as Step 023 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [
+      "π_τ",
+      "e_τ",
+      "j",
+      "2_τ"
+    ],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -1527,6 +1631,8 @@
     "id": "S024",
     "step_number": 24,
     "title": "Master constant ι_τ",
+    "short_title": "Master constant ι_τ",
+    "earned_label": "Master constant ι_τ",
     "slug": "024-master-constant-iota-tau",
     "canonical_path": "/corpus/construction-spine/steps/024-master-constant-iota-tau/",
     "short_route": "https://prrp.site/s24",
@@ -1546,7 +1652,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "The three earned ingredients π_τ,e_τ, and the dyadic refinement scalar 2_τ meet in the ω-limit as the master coupling ι_τ=π_τ+e_τ.",
+    "summary": "The three earned ingredients π_τ,e_τ, and the dyadic refinement scalar 2_τ meet in the ω-limit as the master coupling ι_τ=(2_τ)/(π_τ+e_τ).",
     "input_dependencies": [
       "S023"
     ],
@@ -1556,7 +1662,13 @@
     "previous_step_id": "S023",
     "next_step_id": "S025",
     "what_is_earned": "Master constant ι_τ is made addressable as Step 024 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [
+      "ι_τ = 2_τ/(π_τ + e_τ)",
+      "ι_τ(π_τ + e_τ) ≡ 2_τ",
+      "ι_τ ≈ 0.341"
+    ],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -1593,6 +1705,8 @@
     "id": "S025",
     "step_number": 25,
     "title": "Local Hartogs and mutual determination",
+    "short_title": "Local Hartogs and mutual determination",
+    "earned_label": "Local Hartogs and mutual determination",
     "slug": "025-local-hartogs-and-mutual-determination",
     "canonical_path": "/corpus/construction-spine/steps/025-local-hartogs-and-mutual-determination/",
     "short_route": "https://prrp.site/s25",
@@ -1622,7 +1736,9 @@
     "previous_step_id": "S024",
     "next_step_id": "S026",
     "what_is_earned": "Local Hartogs and mutual determination is made addressable as Step 025 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -1659,6 +1775,8 @@
     "id": "S026",
     "step_number": 26,
     "title": "Regularity and finite spectral support",
+    "short_title": "Regularity and finite spectral support",
+    "earned_label": "Regularity and finite spectral support",
     "slug": "026-regularity-and-finite-spectral-support",
     "canonical_path": "/corpus/construction-spine/steps/026-regularity-and-finite-spectral-support/",
     "short_route": "https://prrp.site/s26",
@@ -1688,7 +1806,9 @@
     "previous_step_id": "S025",
     "next_step_id": "S027",
     "what_is_earned": "Regularity and finite spectral support is made addressable as Step 026 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -1725,6 +1845,8 @@
     "id": "S027",
     "step_number": 27,
     "title": "Sheaf coherence, self-enrichment, Yoneda",
+    "short_title": "Sheaf coherence, self-enrichment, Yoneda",
+    "earned_label": "Sheaf coherence, self-enrichment, Yoneda",
     "slug": "027-sheaf-coherence-self-enrichment-yoneda",
     "canonical_path": "/corpus/construction-spine/steps/027-sheaf-coherence-self-enrichment-yoneda/",
     "short_route": "https://prrp.site/s27",
@@ -1754,7 +1876,9 @@
     "previous_step_id": "S026",
     "next_step_id": "S028",
     "what_is_earned": "Sheaf coherence, self-enrichment, Yoneda is made addressable as Step 027 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -1791,6 +1915,8 @@
     "id": "S028",
     "step_number": 28,
     "title": "Central Theorem route",
+    "short_title": "Central Theorem route",
+    "earned_label": "Central Theorem route",
     "slug": "028-central-theorem-route",
     "canonical_path": "/corpus/construction-spine/steps/028-central-theorem-route/",
     "short_route": "https://prrp.site/s28",
@@ -1821,7 +1947,9 @@
     "previous_step_id": "S027",
     "next_step_id": "S029",
     "what_is_earned": "Central Theorem route is made addressable as Step 028 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -1859,6 +1987,8 @@
     "id": "S029",
     "step_number": 29,
     "title": "τ-manifold and Book III handoff",
+    "short_title": "τ-manifold and Book III handoff",
+    "earned_label": "τ-manifold and Book III handoff",
     "slug": "029-tau-manifold-and-book-iii-handoff",
     "canonical_path": "/corpus/construction-spine/steps/029-tau-manifold-and-book-iii-handoff/",
     "short_route": "https://prrp.site/s29",
@@ -1888,7 +2018,9 @@
     "previous_step_id": "S028",
     "next_step_id": "S030",
     "what_is_earned": "τ-manifold and Book III handoff is made addressable as Step 029 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -1925,6 +2057,8 @@
     "id": "S030",
     "step_number": 30,
     "title": "Kernel minimality and categoricity",
+    "short_title": "Kernel minimality and categoricity",
+    "earned_label": "Kernel minimality and categoricity",
     "slug": "030-kernel-minimality-and-categoricity",
     "canonical_path": "/corpus/construction-spine/steps/030-kernel-minimality-and-categoricity/",
     "short_route": "https://prrp.site/s30",
@@ -1954,7 +2088,9 @@
     "previous_step_id": "S029",
     "next_step_id": "S031",
     "what_is_earned": "Kernel minimality and categoricity is made addressable as Step 030 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -1991,6 +2127,8 @@
     "id": "S031",
     "step_number": 31,
     "title": "E₀ is not yet physics",
+    "short_title": "E_0 is not yet physics",
+    "earned_label": "E_0 is not yet physics",
     "slug": "031-e0-is-not-yet-physics",
     "canonical_path": "/corpus/construction-spine/steps/031-e0-is-not-yet-physics/",
     "short_route": "https://prrp.site/s31",
@@ -2020,7 +2158,9 @@
     "previous_step_id": "S030",
     "next_step_id": "S032",
     "what_is_earned": "E₀ is not yet physics is made addressable as Step 031 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -2057,6 +2197,8 @@
     "id": "S032",
     "step_number": 32,
     "title": "No bare-point ontology",
+    "short_title": "No bare-point ontology",
+    "earned_label": "No bare-point ontology",
     "slug": "032-no-bare-point-ontology",
     "canonical_path": "/corpus/construction-spine/steps/032-no-bare-point-ontology/",
     "short_route": "https://prrp.site/s32",
@@ -2086,7 +2228,9 @@
     "previous_step_id": "S031",
     "next_step_id": "S033",
     "what_is_earned": "No bare-point ontology is made addressable as Step 032 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -2123,6 +2267,8 @@
     "id": "S033",
     "step_number": 33,
     "title": "E₁ hom-object loci",
+    "short_title": "E_1 hom-object loci",
+    "earned_label": "E_1 hom-object loci",
     "slug": "033-e1-hom-object-loci",
     "canonical_path": "/corpus/construction-spine/steps/033-e1-hom-object-loci/",
     "short_route": "https://prrp.site/s33",
@@ -2153,7 +2299,9 @@
     "previous_step_id": "S032",
     "next_step_id": "S034",
     "what_is_earned": "E₁ hom-object loci is made addressable as Step 033 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -2191,6 +2339,8 @@
     "id": "S034",
     "step_number": 34,
     "title": "Central-Theorem constraint on physical loci",
+    "short_title": "Central-Theorem constraint on physical loci",
+    "earned_label": "Central-Theorem constraint on physical loci",
     "slug": "034-central-theorem-constraint-on-physical-loci",
     "canonical_path": "/corpus/construction-spine/steps/034-central-theorem-constraint-on-physical-loci/",
     "short_route": "https://prrp.site/s34",
@@ -2221,7 +2371,9 @@
     "previous_step_id": "S033",
     "next_step_id": "S035",
     "what_is_earned": "Central-Theorem constraint on physical loci is made addressable as Step 034 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -2259,6 +2411,8 @@
     "id": "S035",
     "step_number": 35,
     "title": "Hartogs bulk projection",
+    "short_title": "Hartogs bulk projection",
+    "earned_label": "Hartogs bulk projection",
     "slug": "035-hartogs-bulk-projection",
     "canonical_path": "/corpus/construction-spine/steps/035-hartogs-bulk-projection/",
     "short_route": "https://prrp.site/s35",
@@ -2288,7 +2442,9 @@
     "previous_step_id": "S034",
     "next_step_id": "S036",
     "what_is_earned": "Hartogs bulk projection is made addressable as Step 035 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -2325,6 +2481,8 @@
     "id": "S036",
     "step_number": 36,
     "title": "Local-to-global gluing burden",
+    "short_title": "Local-to-global gluing burden",
+    "earned_label": "Local-to-global gluing burden",
     "slug": "036-local-to-global-gluing-burden",
     "canonical_path": "/corpus/construction-spine/steps/036-local-to-global-gluing-burden/",
     "short_route": "https://prrp.site/s36",
@@ -2354,7 +2512,9 @@
     "previous_step_id": "S035",
     "next_step_id": "S037",
     "what_is_earned": "Local-to-global gluing burden is made addressable as Step 036 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -2391,6 +2551,8 @@
     "id": "S037",
     "step_number": 37,
     "title": "Carrier guarantees and external shadows",
+    "short_title": "Carrier guarantees and external shadows",
+    "earned_label": "Carrier guarantees and external shadows",
     "slug": "037-carrier-guarantees-and-external-shadows",
     "canonical_path": "/corpus/construction-spine/steps/037-carrier-guarantees-and-external-shadows/",
     "short_route": "https://prrp.site/s37",
@@ -2420,7 +2582,9 @@
     "previous_step_id": "S036",
     "next_step_id": "S038",
     "what_is_earned": "Carrier guarantees and external shadows is made addressable as Step 037 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -2457,6 +2621,8 @@
     "id": "S038",
     "step_number": 38,
     "title": "Global Cartesian gluing and decompactification",
+    "short_title": "Global Cartesian gluing and decompactification",
+    "earned_label": "Global Cartesian gluing and decompactification",
     "slug": "038-global-cartesian-gluing-and-decompactification",
     "canonical_path": "/corpus/construction-spine/steps/038-global-cartesian-gluing-and-decompactification/",
     "short_route": "https://prrp.site/s38",
@@ -2486,7 +2652,9 @@
     "previous_step_id": "S037",
     "next_step_id": "S039",
     "what_is_earned": "Global Cartesian gluing and decompactification is made addressable as Step 038 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -2523,6 +2691,8 @@
     "id": "S039",
     "step_number": 39,
     "title": "3+1 spacetime signature",
+    "short_title": "3+1 spacetime signature",
+    "earned_label": "3+1 spacetime signature",
     "slug": "039-3-plus-1-spacetime-signature",
     "canonical_path": "/corpus/construction-spine/steps/039-3-plus-1-spacetime-signature/",
     "short_route": "https://prrp.site/s39",
@@ -2552,7 +2722,9 @@
     "previous_step_id": "S038",
     "next_step_id": "S040",
     "what_is_earned": "3+1 spacetime signature is made addressable as Step 039 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -2589,6 +2761,8 @@
     "id": "S040",
     "step_number": 40,
     "title": "4+1 sector template",
+    "short_title": "4+1 sector template",
+    "earned_label": "4+1 sector template",
     "slug": "040-4-plus-1-sector-template",
     "canonical_path": "/corpus/construction-spine/steps/040-4-plus-1-sector-template/",
     "short_route": "https://prrp.site/s40",
@@ -2618,7 +2792,9 @@
     "previous_step_id": "S039",
     "next_step_id": "S041",
     "what_is_earned": "4+1 sector template is made addressable as Step 040 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -2655,6 +2831,8 @@
     "id": "S041",
     "step_number": 41,
     "title": "No Knobs Principle",
+    "short_title": "No Knobs Principle",
+    "earned_label": "No Knobs Principle",
     "slug": "041-no-knobs-principle",
     "canonical_path": "/corpus/construction-spine/steps/041-no-knobs-principle/",
     "short_route": "https://prrp.site/s41",
@@ -2685,7 +2863,9 @@
     "previous_step_id": "S040",
     "next_step_id": "S042",
     "what_is_earned": "No Knobs Principle is made addressable as Step 041 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -2723,6 +2903,8 @@
     "id": "S042",
     "step_number": 42,
     "title": "Hinge Theorem export",
+    "short_title": "Hinge Theorem export",
+    "earned_label": "Hinge Theorem export",
     "slug": "042-hinge-theorem-export",
     "canonical_path": "/corpus/construction-spine/steps/042-hinge-theorem-export/",
     "short_route": "https://prrp.site/s42",
@@ -2752,7 +2934,9 @@
     "previous_step_id": "S041",
     "next_step_id": "S043",
     "what_is_earned": "Hinge Theorem export is made addressable as Step 042 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -2789,6 +2973,8 @@
     "id": "S043",
     "step_number": 43,
     "title": "Layered equivalence",
+    "short_title": "Layered equivalence",
+    "earned_label": "Layered equivalence",
     "slug": "043-layered-equivalence",
     "canonical_path": "/corpus/construction-spine/steps/043-layered-equivalence/",
     "short_route": "https://prrp.site/s43",
@@ -2818,7 +3004,9 @@
     "previous_step_id": "S042",
     "next_step_id": "S044",
     "what_is_earned": "Layered equivalence is made addressable as Step 043 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -2855,6 +3043,8 @@
     "id": "S044",
     "step_number": 44,
     "title": "No stage/actor split",
+    "short_title": "No stage/actor split",
+    "earned_label": "No stage/actor split",
     "slug": "044-no-stage-actor-split",
     "canonical_path": "/corpus/construction-spine/steps/044-no-stage-actor-split/",
     "short_route": "https://prrp.site/s44",
@@ -2884,7 +3074,9 @@
     "previous_step_id": "S043",
     "next_step_id": "S045",
     "what_is_earned": "No stage/actor split is made addressable as Step 044 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -2921,6 +3113,8 @@
     "id": "S045",
     "step_number": 45,
     "title": "Self-description on the T² fiber",
+    "short_title": "Self-description on the T^2 fiber",
+    "earned_label": "Self-description on the T^2 fiber",
     "slug": "045-self-description-on-the-t-2-fiber",
     "canonical_path": "/corpus/construction-spine/steps/045-self-description-on-the-t-2-fiber/",
     "short_route": "https://prrp.site/s45",
@@ -2950,7 +3144,9 @@
     "previous_step_id": "S044",
     "next_step_id": "S046",
     "what_is_earned": "Self-description on the T² fiber is made addressable as Step 045 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -2987,6 +3183,8 @@
     "id": "S046",
     "step_number": 46,
     "title": "Defect-bundle formalism",
+    "short_title": "Defect-bundle formalism",
+    "earned_label": "Defect-bundle formalism",
     "slug": "046-defect-bundle-formalism",
     "canonical_path": "/corpus/construction-spine/steps/046-defect-bundle-formalism/",
     "short_route": "https://prrp.site/s46",
@@ -3016,7 +3214,9 @@
     "previous_step_id": "S045",
     "next_step_id": "S047",
     "what_is_earned": "Defect-bundle formalism is made addressable as Step 046 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -3053,6 +3253,8 @@
     "id": "S047",
     "step_number": 47,
     "title": "Photon as null transport",
+    "short_title": "Photon as null transport",
+    "earned_label": "Photon as null transport",
     "slug": "047-photon-as-null-transport",
     "canonical_path": "/corpus/construction-spine/steps/047-photon-as-null-transport/",
     "short_route": "https://prrp.site/s47",
@@ -3082,7 +3284,9 @@
     "previous_step_id": "S046",
     "next_step_id": "S048",
     "what_is_earned": "Photon as null transport is made addressable as Step 047 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -3119,6 +3323,8 @@
     "id": "S048",
     "step_number": 48,
     "title": "Neutron as minimal stable defect",
+    "short_title": "Neutron as minimal stable defect",
+    "earned_label": "Neutron as minimal stable defect",
     "slug": "048-neutron-as-minimal-stable-defect",
     "canonical_path": "/corpus/construction-spine/steps/048-neutron-as-minimal-stable-defect/",
     "short_route": "https://prrp.site/s48",
@@ -3149,7 +3355,9 @@
     "previous_step_id": "S047",
     "next_step_id": "S049",
     "what_is_earned": "Neutron as minimal stable defect is made addressable as Step 048 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -3187,6 +3395,8 @@
     "id": "S049",
     "step_number": 49,
     "title": "Beta differentiation and hydrogen closure",
+    "short_title": "Beta differentiation and hydrogen closure",
+    "earned_label": "Beta differentiation and hydrogen closure",
     "slug": "049-beta-differentiation-and-hydrogen-closure",
     "canonical_path": "/corpus/construction-spine/steps/049-beta-differentiation-and-hydrogen-closure/",
     "short_route": "https://prrp.site/s49",
@@ -3217,7 +3427,9 @@
     "previous_step_id": "S048",
     "next_step_id": "S050",
     "what_is_earned": "Beta differentiation and hydrogen closure is made addressable as Step 049 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -3255,6 +3467,8 @@
     "id": "S050",
     "step_number": 50,
     "title": "Neutrino ontology and Majorana readout",
+    "short_title": "Neutrino ontology and Majorana readout",
+    "earned_label": "Neutrino ontology and Majorana readout",
     "slug": "050-neutrino-ontology-and-majorana-readout",
     "canonical_path": "/corpus/construction-spine/steps/050-neutrino-ontology-and-majorana-readout/",
     "short_route": "https://prrp.site/s50",
@@ -3285,7 +3499,9 @@
     "previous_step_id": "S049",
     "next_step_id": "S051",
     "what_is_earned": "Neutrino ontology and Majorana readout is made addressable as Step 050 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -3323,6 +3539,8 @@
     "id": "S051",
     "step_number": 51,
     "title": "Quantum mechanics as CR-address obstruction",
+    "short_title": "Quantum mechanics as CR-address obstruction",
+    "earned_label": "Quantum mechanics as CR-address obstruction",
     "slug": "051-quantum-mechanics-as-cr-address-obstruction",
     "canonical_path": "/corpus/construction-spine/steps/051-quantum-mechanics-as-cr-address-obstruction/",
     "short_route": "https://prrp.site/s51",
@@ -3353,7 +3571,9 @@
     "previous_step_id": "S050",
     "next_step_id": "S052",
     "what_is_earned": "Quantum mechanics as CR-address obstruction is made addressable as Step 051 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -3391,6 +3611,8 @@
     "id": "S052",
     "step_number": 52,
     "title": "Uncertainty as geometric obstruction",
+    "short_title": "Uncertainty as geometric obstruction",
+    "earned_label": "Uncertainty as geometric obstruction",
     "slug": "052-uncertainty-as-geometric-obstruction",
     "canonical_path": "/corpus/construction-spine/steps/052-uncertainty-as-geometric-obstruction/",
     "short_route": "https://prrp.site/s52",
@@ -3420,7 +3642,9 @@
     "previous_step_id": "S051",
     "next_step_id": "S053",
     "what_is_earned": "Uncertainty as geometric obstruction is made addressable as Step 052 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -3457,6 +3681,8 @@
     "id": "S053",
     "step_number": 53,
     "title": "Physical quantity semantics",
+    "short_title": "Physical quantity semantics",
+    "earned_label": "Physical quantity semantics",
     "slug": "053-physical-quantity-semantics",
     "canonical_path": "/corpus/construction-spine/steps/053-physical-quantity-semantics/",
     "short_route": "https://prrp.site/s53",
@@ -3486,7 +3712,9 @@
     "previous_step_id": "S052",
     "next_step_id": "S054",
     "what_is_earned": "Physical quantity semantics is made addressable as Step 053 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -3523,6 +3751,8 @@
     "id": "S054",
     "step_number": 54,
     "title": "Forces as holonomy tools",
+    "short_title": "Forces as holonomy tools",
+    "earned_label": "Forces as holonomy tools",
     "slug": "054-forces-as-holonomy-tools",
     "canonical_path": "/corpus/construction-spine/steps/054-forces-as-holonomy-tools/",
     "short_route": "https://prrp.site/s54",
@@ -3553,7 +3783,9 @@
     "previous_step_id": "S053",
     "next_step_id": "S055",
     "what_is_earned": "Forces as holonomy tools is made addressable as Step 054 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -3591,6 +3823,8 @@
     "id": "S055",
     "step_number": 55,
     "title": "Confinement as address irresolvability",
+    "short_title": "Confinement as address irresolvability",
+    "earned_label": "Confinement as address irresolvability",
     "slug": "055-confinement-as-address-irresolvability",
     "canonical_path": "/corpus/construction-spine/steps/055-confinement-as-address-irresolvability/",
     "short_route": "https://prrp.site/s55",
@@ -3620,7 +3854,9 @@
     "previous_step_id": "S054",
     "next_step_id": "S056",
     "what_is_earned": "Confinement as address irresolvability is made addressable as Step 055 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -3657,6 +3893,8 @@
     "id": "S056",
     "step_number": 56,
     "title": "Three generations from topology",
+    "short_title": "Three generations from topology",
+    "earned_label": "Three generations from topology",
     "slug": "056-three-generations-from-topology",
     "canonical_path": "/corpus/construction-spine/steps/056-three-generations-from-topology/",
     "short_route": "https://prrp.site/s56",
@@ -3687,7 +3925,9 @@
     "previous_step_id": "S055",
     "next_step_id": "S057",
     "what_is_earned": "Three generations from topology is made addressable as Step 056 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -3725,6 +3965,8 @@
     "id": "S057",
     "step_number": 57,
     "title": "Sector atlas, masses, nuclei",
+    "short_title": "Sector atlas, masses, nuclei",
+    "earned_label": "Sector atlas, masses, nuclei",
     "slug": "057-sector-atlas-masses-nuclei",
     "canonical_path": "/corpus/construction-spine/steps/057-sector-atlas-masses-nuclei/",
     "short_route": "https://prrp.site/s57",
@@ -3754,7 +3996,9 @@
     "previous_step_id": "S056",
     "next_step_id": "S058",
     "what_is_earned": "Sector atlas, masses, nuclei is made addressable as Step 057 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -3791,6 +4035,8 @@
     "id": "S058",
     "step_number": 58,
     "title": "Book IV closure: coupling ledger and microcosm completion",
+    "short_title": "Book IV closure: coupling ledger and microcosm completion",
+    "earned_label": "Book IV closure: coupling ledger and microcosm completion",
     "slug": "058-book-iv-closure-coupling-ledger-and-microcosm-completion",
     "canonical_path": "/corpus/construction-spine/steps/058-book-iv-closure-coupling-ledger-and-microcosm-completion/",
     "short_route": "https://prrp.site/s58",
@@ -3820,7 +4066,9 @@
     "previous_step_id": "S057",
     "next_step_id": "S059",
     "what_is_earned": "Book IV closure: coupling ledger and microcosm completion is made addressable as Step 058 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -3857,6 +4105,8 @@
     "id": "S059",
     "step_number": 59,
     "title": "Fiber/base completion",
+    "short_title": "Fiber/base completion",
+    "earned_label": "Fiber/base completion",
     "slug": "059-fiber-base-completion",
     "canonical_path": "/corpus/construction-spine/steps/059-fiber-base-completion/",
     "short_route": "https://prrp.site/s59",
@@ -3886,7 +4136,9 @@
     "previous_step_id": "S058",
     "next_step_id": "S060",
     "what_is_earned": "Fiber/base completion is made addressable as Step 059 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -3923,6 +4175,8 @@
     "id": "S060",
     "step_number": 60,
     "title": "Proto-time to proper time",
+    "short_title": "Proto-time to proper time",
+    "earned_label": "Proto-time to proper time",
     "slug": "060-proto-time-to-proper-time",
     "canonical_path": "/corpus/construction-spine/steps/060-proto-time-to-proper-time/",
     "short_route": "https://prrp.site/s60",
@@ -3952,7 +4206,9 @@
     "previous_step_id": "S059",
     "next_step_id": "S061",
     "what_is_earned": "Proto-time to proper time is made addressable as Step 060 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -3989,6 +4245,8 @@
     "id": "S061",
     "step_number": 61,
     "title": "Causality, worldlines, and null-exchange distance",
+    "short_title": "Causality, worldlines, and null-exchange distance",
+    "earned_label": "Causality, worldlines, and null-exchange distance",
     "slug": "061-causality-worldlines-and-null-exchange-distance",
     "canonical_path": "/corpus/construction-spine/steps/061-causality-worldlines-and-null-exchange-distance/",
     "short_route": "https://prrp.site/s61",
@@ -4018,7 +4276,9 @@
     "previous_step_id": "S060",
     "next_step_id": "S062",
     "what_is_earned": "Causality, worldlines, and null-exchange distance is made addressable as Step 061 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -4055,6 +4315,8 @@
     "id": "S062",
     "step_number": 62,
     "title": "Redshift and Hubble readout",
+    "short_title": "Redshift and Hubble readout",
+    "earned_label": "Redshift and Hubble readout",
     "slug": "062-redshift-and-hubble-readout",
     "canonical_path": "/corpus/construction-spine/steps/062-redshift-and-hubble-readout/",
     "short_route": "https://prrp.site/s62",
@@ -4084,7 +4346,9 @@
     "previous_step_id": "S061",
     "next_step_id": "S063",
     "what_is_earned": "Redshift and Hubble readout is made addressable as Step 062 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -4121,6 +4385,8 @@
     "id": "S063",
     "step_number": 63,
     "title": "Gravity as frame holonomy",
+    "short_title": "Gravity as frame holonomy",
+    "earned_label": "Gravity as frame holonomy",
     "slug": "063-gravity-as-frame-holonomy",
     "canonical_path": "/corpus/construction-spine/steps/063-gravity-as-frame-holonomy/",
     "short_route": "https://prrp.site/s63",
@@ -4151,7 +4417,9 @@
     "previous_step_id": "S062",
     "next_step_id": "S064",
     "what_is_earned": "Gravity as frame holonomy is made addressable as Step 063 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -4189,6 +4457,8 @@
     "id": "S064",
     "step_number": 64,
     "title": "τ-Einstein identity",
+    "short_title": "τ-Einstein identity",
+    "earned_label": "τ-Einstein identity",
     "slug": "064-tau-einstein-identity",
     "canonical_path": "/corpus/construction-spine/steps/064-tau-einstein-identity/",
     "short_route": "https://prrp.site/s64",
@@ -4220,7 +4490,11 @@
     "previous_step_id": "S063",
     "next_step_id": "S065",
     "what_is_earned": "τ-Einstein identity is made addressable as Step 064 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [
+      "Rᴴ = κ_τ T"
+    ],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -4259,6 +4533,8 @@
     "id": "S065",
     "step_number": 65,
     "title": "Lorentzian signature from j²=+1",
+    "short_title": "Lorentzian signature from j^2=+1",
+    "earned_label": "Lorentzian signature from j^2=+1",
     "slug": "065-lorentzian-signature-from-j-2-plus-1",
     "canonical_path": "/corpus/construction-spine/steps/065-lorentzian-signature-from-j-2-plus-1/",
     "short_route": "https://prrp.site/s65",
@@ -4289,7 +4565,11 @@
     "previous_step_id": "S064",
     "next_step_id": "S066",
     "what_is_earned": "Lorentzian signature from j²=+1 is made addressable as Step 065 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [
+      "j² = +1"
+    ],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -4327,6 +4607,8 @@
     "id": "S066",
     "step_number": 66,
     "title": "Thermodynamic inversion",
+    "short_title": "Thermodynamic inversion",
+    "earned_label": "Thermodynamic inversion",
     "slug": "066-thermodynamic-inversion",
     "canonical_path": "/corpus/construction-spine/steps/066-thermodynamic-inversion/",
     "short_route": "https://prrp.site/s66",
@@ -4357,7 +4639,9 @@
     "previous_step_id": "S065",
     "next_step_id": "S067",
     "what_is_earned": "Thermodynamic inversion is made addressable as Step 066 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -4395,6 +4679,8 @@
     "id": "S067",
     "step_number": 67,
     "title": "Heat, temperature, vacuum, and dark-energy readout",
+    "short_title": "Heat, temperature, vacuum, and dark-energy readout",
+    "earned_label": "Heat, temperature, vacuum, and dark-energy readout",
     "slug": "067-heat-temperature-vacuum-and-dark-energy-readout",
     "canonical_path": "/corpus/construction-spine/steps/067-heat-temperature-vacuum-and-dark-energy-readout/",
     "short_route": "https://prrp.site/s67",
@@ -4425,7 +4711,9 @@
     "previous_step_id": "S066",
     "next_step_id": "S068",
     "what_is_earned": "Heat, temperature, vacuum, and dark-energy readout is made addressable as Step 067 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -4463,6 +4751,8 @@
     "id": "S068",
     "step_number": 68,
     "title": "Macro defect lift and collective dynamics",
+    "short_title": "Macro defect lift and collective dynamics",
+    "earned_label": "Macro defect lift and collective dynamics",
     "slug": "068-macro-defect-lift-and-collective-dynamics",
     "canonical_path": "/corpus/construction-spine/steps/068-macro-defect-lift-and-collective-dynamics/",
     "short_route": "https://prrp.site/s68",
@@ -4493,7 +4783,9 @@
     "previous_step_id": "S067",
     "next_step_id": "S069",
     "what_is_earned": "Macro defect lift and collective dynamics is made addressable as Step 068 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -4531,6 +4823,8 @@
     "id": "S069",
     "step_number": 69,
     "title": "Macro regularity, turbulence, and charge/flux",
+    "short_title": "Macro regularity, turbulence, and charge/flux",
+    "earned_label": "Macro regularity, turbulence, and charge/flux",
     "slug": "069-macro-regularity-turbulence-and-charge-flux",
     "canonical_path": "/corpus/construction-spine/steps/069-macro-regularity-turbulence-and-charge-flux/",
     "short_route": "https://prrp.site/s69",
@@ -4561,7 +4855,9 @@
     "previous_step_id": "S068",
     "next_step_id": "S070",
     "what_is_earned": "Macro regularity, turbulence, and charge/flux is made addressable as Step 069 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -4599,6 +4895,8 @@
     "id": "S070",
     "step_number": 70,
     "title": "Classical mechanics as coarse readout",
+    "short_title": "Classical mechanics as coarse readout",
+    "earned_label": "Classical mechanics as coarse readout",
     "slug": "070-classical-mechanics-as-coarse-readout",
     "canonical_path": "/corpus/construction-spine/steps/070-classical-mechanics-as-coarse-readout/",
     "short_route": "https://prrp.site/s70",
@@ -4628,7 +4926,9 @@
     "previous_step_id": "S069",
     "next_step_id": "S071",
     "what_is_earned": "Classical mechanics as coarse readout is made addressable as Step 070 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -4665,6 +4965,8 @@
     "id": "S071",
     "step_number": 71,
     "title": "Galaxies, rotation curves, and compact objects",
+    "short_title": "Galaxies, rotation curves, and compact objects",
+    "earned_label": "Galaxies, rotation curves, and compact objects",
     "slug": "071-galaxies-rotation-curves-and-compact-objects",
     "canonical_path": "/corpus/construction-spine/steps/071-galaxies-rotation-curves-and-compact-objects/",
     "short_route": "https://prrp.site/s71",
@@ -4695,7 +4997,9 @@
     "previous_step_id": "S070",
     "next_step_id": "S072",
     "what_is_earned": "Galaxies, rotation curves, and compact objects is made addressable as Step 071 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -4733,6 +5037,8 @@
     "id": "S072",
     "step_number": 72,
     "title": "Black holes as topological channel openings",
+    "short_title": "Black holes as topological channel openings",
+    "earned_label": "Black holes as topological channel openings",
     "slug": "072-black-holes-as-topological-channel-openings",
     "canonical_path": "/corpus/construction-spine/steps/072-black-holes-as-topological-channel-openings/",
     "short_route": "https://prrp.site/s72",
@@ -4763,7 +5069,9 @@
     "previous_step_id": "S071",
     "next_step_id": "S073",
     "what_is_earned": "Black holes as topological channel openings is made addressable as Step 072 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -4801,6 +5109,8 @@
     "id": "S073",
     "step_number": 73,
     "title": "Cosmic web as Wilson-loop carrier channels",
+    "short_title": "Cosmic web as Wilson-loop carrier channels",
+    "earned_label": "Cosmic web as Wilson-loop carrier channels",
     "slug": "073-cosmic-web-as-wilson-loop-carrier-channels",
     "canonical_path": "/corpus/construction-spine/steps/073-cosmic-web-as-wilson-loop-carrier-channels/",
     "short_route": "https://prrp.site/s73",
@@ -4831,7 +5141,9 @@
     "previous_step_id": "S072",
     "next_step_id": "S074",
     "what_is_earned": "Cosmic web as Wilson-loop carrier channels is made addressable as Step 073 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -4869,6 +5181,8 @@
     "id": "S074",
     "step_number": 74,
     "title": "Big Bang, threshold ladder, and endstate",
+    "short_title": "Big Bang, threshold ladder, and endstate",
+    "earned_label": "Big Bang, threshold ladder, and endstate",
     "slug": "074-big-bang-threshold-ladder-and-endstate",
     "canonical_path": "/corpus/construction-spine/steps/074-big-bang-threshold-ladder-and-endstate/",
     "short_route": "https://prrp.site/s74",
@@ -4899,7 +5213,9 @@
     "previous_step_id": "S073",
     "next_step_id": "S075",
     "what_is_earned": "Big Bang, threshold ladder, and endstate is made addressable as Step 074 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -4937,6 +5253,8 @@
     "id": "S075",
     "step_number": 75,
     "title": "Book V late-stage synthesis and macrocosm export surface",
+    "short_title": "Book V late-stage synthesis and macrocosm export surface",
+    "earned_label": "Book V late-stage synthesis and macrocosm export surface",
     "slug": "075-book-v-late-stage-synthesis-and-macrocosm-export-surface",
     "canonical_path": "/corpus/construction-spine/steps/075-book-v-late-stage-synthesis-and-macrocosm-export-surface/",
     "short_route": "https://prrp.site/s75",
@@ -4967,7 +5285,9 @@
     "previous_step_id": "S074",
     "next_step_id": "S076",
     "what_is_earned": "Book V late-stage synthesis and macrocosm export surface is made addressable as Step 075 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -5005,6 +5325,8 @@
     "id": "S076",
     "step_number": 76,
     "title": "E₁ physics complete",
+    "short_title": "E_1 physics complete",
+    "earned_label": "E_1 physics complete",
     "slug": "076-e1-physics-complete",
     "canonical_path": "/corpus/construction-spine/steps/076-e1-physics-complete/",
     "short_route": "https://prrp.site/s76",
@@ -5034,7 +5356,9 @@
     "previous_step_id": "S075",
     "next_step_id": "S077",
     "what_is_earned": "E₁ physics complete is made addressable as Step 076 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -5070,7 +5394,9 @@
   {
     "id": "S077",
     "step_number": 77,
-    "title": "E₁ to E₂: life as predicate layer",
+    "title": "E₁ → E₂: life as predicate layer",
+    "short_title": "Life as predicate layer",
+    "earned_label": "Life as predicate layer",
     "slug": "077-e1-to-e2-life-as-predicate-layer",
     "canonical_path": "/corpus/construction-spine/steps/077-e1-to-e2-life-as-predicate-layer/",
     "short_route": "https://prrp.site/s77",
@@ -5099,8 +5425,12 @@
     ],
     "previous_step_id": "S076",
     "next_step_id": "S078",
-    "what_is_earned": "E₁ to E₂: life as predicate layer is made addressable as Step 077 in the fine-grained Construction Spine routing layer.",
+    "what_is_earned": "Life as predicate layer is made addressable as Step 077 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [
+      "E₁ → E₂"
+    ],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -5137,6 +5467,8 @@
     "id": "S078",
     "step_number": 78,
     "title": "Distinction plus SelfDesc",
+    "short_title": "Distinction plus SelfDesc",
+    "earned_label": "Distinction plus SelfDesc",
     "slug": "078-distinction-plus-selfdesc",
     "canonical_path": "/corpus/construction-spine/steps/078-distinction-plus-selfdesc/",
     "short_route": "https://prrp.site/s78",
@@ -5166,7 +5498,9 @@
     "previous_step_id": "S077",
     "next_step_id": "S079",
     "what_is_earned": "Distinction plus SelfDesc is made addressable as Step 078 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -5203,6 +5537,8 @@
     "id": "S079",
     "step_number": 79,
     "title": "Layer separation from physics",
+    "short_title": "Layer separation from physics",
+    "earned_label": "Layer separation from physics",
     "slug": "079-layer-separation-from-physics",
     "canonical_path": "/corpus/construction-spine/steps/079-layer-separation-from-physics/",
     "short_route": "https://prrp.site/s79",
@@ -5232,7 +5568,9 @@
     "previous_step_id": "S078",
     "next_step_id": "S080",
     "what_is_earned": "Layer separation from physics is made addressable as Step 079 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -5269,6 +5607,8 @@
     "id": "S080",
     "step_number": 80,
     "title": "Life Loop and metabolic closure",
+    "short_title": "Life Loop and metabolic closure",
+    "earned_label": "Life Loop and metabolic closure",
     "slug": "080-life-loop-and-metabolic-closure",
     "canonical_path": "/corpus/construction-spine/steps/080-life-loop-and-metabolic-closure/",
     "short_route": "https://prrp.site/s80",
@@ -5298,7 +5638,9 @@
     "previous_step_id": "S079",
     "next_step_id": "S081",
     "what_is_earned": "Life Loop and metabolic closure is made addressable as Step 080 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -5335,6 +5677,8 @@
     "id": "S081",
     "step_number": 81,
     "title": "Boundary and energy coupling",
+    "short_title": "Boundary and energy coupling",
+    "earned_label": "Boundary and energy coupling",
     "slug": "081-boundary-and-energy-coupling",
     "canonical_path": "/corpus/construction-spine/steps/081-boundary-and-energy-coupling/",
     "short_route": "https://prrp.site/s81",
@@ -5364,7 +5708,9 @@
     "previous_step_id": "S080",
     "next_step_id": "S082",
     "what_is_earned": "Boundary and energy coupling is made addressable as Step 081 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -5401,6 +5747,8 @@
     "id": "S082",
     "step_number": 82,
     "title": "Code, genotype, and heredity",
+    "short_title": "Code, genotype, and heredity",
+    "earned_label": "Code, genotype, and heredity",
     "slug": "082-code-genotype-and-heredity",
     "canonical_path": "/corpus/construction-spine/steps/082-code-genotype-and-heredity/",
     "short_route": "https://prrp.site/s82",
@@ -5430,7 +5778,9 @@
     "previous_step_id": "S081",
     "next_step_id": "S083",
     "what_is_earned": "Code, genotype, and heredity is made addressable as Step 082 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -5467,6 +5817,8 @@
     "id": "S083",
     "step_number": 83,
     "title": "Replication, development, and morphogenesis",
+    "short_title": "Replication, development, and morphogenesis",
+    "earned_label": "Replication, development, and morphogenesis",
     "slug": "083-replication-development-and-morphogenesis",
     "canonical_path": "/corpus/construction-spine/steps/083-replication-development-and-morphogenesis/",
     "short_route": "https://prrp.site/s83",
@@ -5496,7 +5848,9 @@
     "previous_step_id": "S082",
     "next_step_id": "S084",
     "what_is_earned": "Replication, development, and morphogenesis is made addressable as Step 083 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -5533,6 +5887,8 @@
     "id": "S084",
     "step_number": 84,
     "title": "4+1 life-sector template",
+    "short_title": "4+1 life-sector template",
+    "earned_label": "4+1 life-sector template",
     "slug": "084-4-plus-1-life-sector-template",
     "canonical_path": "/corpus/construction-spine/steps/084-4-plus-1-life-sector-template/",
     "short_route": "https://prrp.site/s84",
@@ -5562,7 +5918,9 @@
     "previous_step_id": "S083",
     "next_step_id": "S085",
     "what_is_earned": "4+1 life-sector template is made addressable as Step 084 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -5599,6 +5957,8 @@
     "id": "S085",
     "step_number": 85,
     "title": "Evolution as PPAS selection",
+    "short_title": "Evolution as PPAS selection",
+    "earned_label": "Evolution as PPAS selection",
     "slug": "085-evolution-as-ppas-selection",
     "canonical_path": "/corpus/construction-spine/steps/085-evolution-as-ppas-selection/",
     "short_route": "https://prrp.site/s85",
@@ -5628,7 +5988,9 @@
     "previous_step_id": "S084",
     "next_step_id": "S086",
     "what_is_earned": "Evolution as PPAS selection is made addressable as Step 085 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -5665,6 +6027,8 @@
     "id": "S086",
     "step_number": 86,
     "title": "Immunity and species boundaries",
+    "short_title": "Immunity and species boundaries",
+    "earned_label": "Immunity and species boundaries",
     "slug": "086-immunity-and-species-boundaries",
     "canonical_path": "/corpus/construction-spine/steps/086-immunity-and-species-boundaries/",
     "short_route": "https://prrp.site/s86",
@@ -5694,7 +6058,9 @@
     "previous_step_id": "S085",
     "next_step_id": "S087",
     "what_is_earned": "Immunity and species boundaries is made addressable as Step 086 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -5731,6 +6097,8 @@
     "id": "S087",
     "step_number": 87,
     "title": "Neural bridge to self-modeling",
+    "short_title": "Neural bridge to self-modeling",
+    "earned_label": "Neural bridge to self-modeling",
     "slug": "087-neural-bridge-to-self-modeling",
     "canonical_path": "/corpus/construction-spine/steps/087-neural-bridge-to-self-modeling/",
     "short_route": "https://prrp.site/s87",
@@ -5760,7 +6128,9 @@
     "previous_step_id": "S086",
     "next_step_id": "S088",
     "what_is_earned": "Neural bridge to self-modeling is made addressable as Step 087 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -5797,6 +6167,8 @@
     "id": "S088",
     "step_number": 88,
     "title": "Structural self-modeling boundary",
+    "short_title": "Structural self-modeling boundary",
+    "earned_label": "Structural self-modeling boundary",
     "slug": "088-structural-self-modeling-boundary",
     "canonical_path": "/corpus/construction-spine/steps/088-structural-self-modeling-boundary/",
     "short_route": "https://prrp.site/s88",
@@ -5826,7 +6198,9 @@
     "previous_step_id": "S087",
     "next_step_id": "S089",
     "what_is_earned": "Structural self-modeling boundary is made addressable as Step 088 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -5863,6 +6237,8 @@
     "id": "S089",
     "step_number": 89,
     "title": "Language as extended lemniscate",
+    "short_title": "Language as extended lemniscate",
+    "earned_label": "Language as extended lemniscate",
     "slug": "089-language-as-extended-lemniscate",
     "canonical_path": "/corpus/construction-spine/steps/089-language-as-extended-lemniscate/",
     "short_route": "https://prrp.site/s89",
@@ -5892,7 +6268,9 @@
     "previous_step_id": "S088",
     "next_step_id": "S090",
     "what_is_earned": "Language as extended lemniscate is made addressable as Step 089 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -5929,6 +6307,8 @@
     "id": "S090",
     "step_number": 90,
     "title": "E₂ export to E₃",
+    "short_title": "E₂ export to E₃",
+    "earned_label": "E₂ export to E₃",
     "slug": "090-e2-export-to-e3",
     "canonical_path": "/corpus/construction-spine/steps/090-e2-export-to-e3/",
     "short_route": "https://prrp.site/s90",
@@ -5958,7 +6338,11 @@
     "previous_step_id": "S089",
     "next_step_id": "S091",
     "what_is_earned": "E₂ export to E₃ is made addressable as Step 090 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [
+      "E₂ → E₃"
+    ],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -5994,7 +6378,9 @@
   {
     "id": "S091",
     "step_number": 91,
-    "title": "E₂ to E₃: reflective structure",
+    "title": "E₂ → E₃: reflective structure",
+    "short_title": "Reflective structure",
+    "earned_label": "Reflective structure",
     "slug": "091-e2-to-e3-reflective-structure",
     "canonical_path": "/corpus/construction-spine/steps/091-e2-to-e3-reflective-structure/",
     "short_route": "https://prrp.site/s91",
@@ -6023,8 +6409,12 @@
     ],
     "previous_step_id": "S090",
     "next_step_id": "S092",
-    "what_is_earned": "E₂ to E₃: reflective structure is made addressable as Step 091 in the fine-grained Construction Spine routing layer.",
+    "what_is_earned": "Reflective structure is made addressable as Step 091 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [
+      "E₂ → E₃"
+    ],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -6061,6 +6451,8 @@
     "id": "S092",
     "step_number": 92,
     "title": "MetaDecode and SelfDesc-of-SelfDesc",
+    "short_title": "MetaDecode and SelfDesc-of-SelfDesc",
+    "earned_label": "MetaDecode and SelfDesc-of-SelfDesc",
     "slug": "092-metadecode-and-selfdesc-of-selfdesc",
     "canonical_path": "/corpus/construction-spine/steps/092-metadecode-and-selfdesc-of-selfdesc/",
     "short_route": "https://prrp.site/s92",
@@ -6090,7 +6482,9 @@
     "previous_step_id": "S091",
     "next_step_id": "S093",
     "what_is_earned": "MetaDecode and SelfDesc-of-SelfDesc is made addressable as Step 092 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -6127,6 +6521,8 @@
     "id": "S093",
     "step_number": 93,
     "title": "Four registers of reason",
+    "short_title": "Four registers of reason",
+    "earned_label": "Four registers of reason",
     "slug": "093-four-registers-of-reason",
     "canonical_path": "/corpus/construction-spine/steps/093-four-registers-of-reason/",
     "short_route": "https://prrp.site/s93",
@@ -6156,7 +6552,9 @@
     "previous_step_id": "S092",
     "next_step_id": "S094",
     "what_is_earned": "Four registers of reason is made addressable as Step 093 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -6193,6 +6591,8 @@
     "id": "S094",
     "step_number": 94,
     "title": "Reflective 4+1 register template",
+    "short_title": "Reflective 4+1 register template",
+    "earned_label": "Reflective 4+1 register template",
     "slug": "094-reflective-4-plus-1-register-template",
     "canonical_path": "/corpus/construction-spine/steps/094-reflective-4-plus-1-register-template/",
     "short_route": "https://prrp.site/s94",
@@ -6222,7 +6622,9 @@
     "previous_step_id": "S093",
     "next_step_id": "S095",
     "what_is_earned": "Reflective 4+1 register template is made addressable as Step 094 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -6259,6 +6661,8 @@
     "id": "S095",
     "step_number": 95,
     "title": "Formal systems as represented objects",
+    "short_title": "Formal systems as represented objects",
+    "earned_label": "Formal systems as represented objects",
     "slug": "095-formal-systems-as-represented-objects",
     "canonical_path": "/corpus/construction-spine/steps/095-formal-systems-as-represented-objects/",
     "short_route": "https://prrp.site/s95",
@@ -6289,7 +6693,9 @@
     "previous_step_id": "S094",
     "next_step_id": "S096",
     "what_is_earned": "Formal systems as represented objects is made addressable as Step 095 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -6327,6 +6733,8 @@
     "id": "S096",
     "step_number": 96,
     "title": "Gödel and halting boundary",
+    "short_title": "Gödel and halting boundary",
+    "earned_label": "Gödel and halting boundary",
     "slug": "096-godel-and-halting-boundary",
     "canonical_path": "/corpus/construction-spine/steps/096-godel-and-halting-boundary/",
     "short_route": "https://prrp.site/s96",
@@ -6357,7 +6765,9 @@
     "previous_step_id": "S095",
     "next_step_id": "S097",
     "what_is_earned": "Gödel and halting boundary is made addressable as Step 096 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -6395,6 +6805,8 @@
     "id": "S097",
     "step_number": 97,
     "title": "Language, meaning, and proof arc",
+    "short_title": "Language, meaning, and proof arc",
+    "earned_label": "Language, meaning, and proof arc",
     "slug": "097-language-meaning-and-proof-arc",
     "canonical_path": "/corpus/construction-spine/steps/097-language-meaning-and-proof-arc/",
     "short_route": "https://prrp.site/s97",
@@ -6424,7 +6836,9 @@
     "previous_step_id": "S096",
     "next_step_id": "S098",
     "what_is_earned": "Language, meaning, and proof arc is made addressable as Step 097 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -6461,6 +6875,8 @@
     "id": "S098",
     "step_number": 98,
     "title": "Logic, inference, and truth at reflective scale",
+    "short_title": "Logic, inference, and truth at reflective scale",
+    "earned_label": "Logic, inference, and truth at reflective scale",
     "slug": "098-logic-inference-and-truth-at-reflective-scale",
     "canonical_path": "/corpus/construction-spine/steps/098-logic-inference-and-truth-at-reflective-scale/",
     "short_route": "https://prrp.site/s98",
@@ -6490,7 +6906,9 @@
     "previous_step_id": "S097",
     "next_step_id": "S099",
     "what_is_earned": "Logic, inference, and truth at reflective scale is made addressable as Step 098 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -6527,6 +6945,8 @@
     "id": "S099",
     "step_number": 99,
     "title": "Mind, consciousness, and commitment access",
+    "short_title": "Mind, consciousness, and commitment access",
+    "earned_label": "Mind, consciousness, and commitment access",
     "slug": "099-mind-consciousness-and-commitment-access",
     "canonical_path": "/corpus/construction-spine/steps/099-mind-consciousness-and-commitment-access/",
     "short_route": "https://prrp.site/s99",
@@ -6556,7 +6976,9 @@
     "previous_step_id": "S098",
     "next_step_id": "S100",
     "what_is_earned": "Mind, consciousness, and commitment access is made addressable as Step 099 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",
@@ -6593,6 +7015,8 @@
     "id": "S100",
     "step_number": 100,
     "title": "Logos boundary and ontic-closure burden",
+    "short_title": "Logos boundary and ontic-closure burden",
+    "earned_label": "Logos boundary and ontic-closure burden",
     "slug": "100-logos-boundary-and-ontic-closure-burden",
     "canonical_path": "/corpus/construction-spine/steps/100-logos-boundary-and-ontic-closure-burden/",
     "short_route": "https://prrp.site/s100",
@@ -6620,7 +7044,9 @@
     "previous_step_id": "S099",
     "next_step_id": null,
     "what_is_earned": "Logos boundary and ontic-closure burden is made addressable as Step 100 in the fine-grained Construction Spine routing layer.",
+    "earned_outputs": [],
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
+    "formula_plain": [],
     "source_anchors": [
       {
         "label": "Full Construction Spine RC3 whitepaper source",

@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: "Logic and inference become internal reflective tools rather than external sovereigns."
 construction_step_id: "S098"
 construction_step_number: 98
+construction_step_short_title: "Logic, inference, and truth at reflective scale"
 macro_step_id: "CS-10"
 macro_step_title: "Test Universal Closure and Ontic Status"
 book: "Book VII"
@@ -44,9 +45,12 @@ right_rail:
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/test-ontic-closure/">CS-10 — Test Universal Closure and Ontic Status</a></div>
+
 **Book / layer.** Book VII · E3<br>
 **Macro step.** [CS-10 — Test Universal Closure and Ontic Status](/corpus/construction-spine/test-ontic-closure/)<br>
 **Short routes.** `https://prrp.site/s98` · `https://prrp.site/s098`<br>
+
 **Status tags.** `bridge`
 
 ## Construction role
@@ -62,6 +66,8 @@ inspected.
 
 Logic, inference, and truth at reflective scale is made addressable as Step 098 in the fine-grained Construction Spine routing layer.
 
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
+
 ## What this step does not yet establish
 
 This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.
@@ -70,7 +76,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:1232)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

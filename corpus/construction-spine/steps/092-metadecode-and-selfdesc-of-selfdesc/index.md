@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: "At E₃, SelfDesc becomes an object of SelfDesc."
 construction_step_id: "S092"
 construction_step_number: 92
+construction_step_short_title: "MetaDecode and SelfDesc-of-SelfDesc"
 macro_step_id: "CS-08"
 macro_step_title: "Recover Reflective Structure"
 book: "Book VII"
@@ -44,9 +45,12 @@ right_rail:
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/recover-reflective-structure/">CS-08 — Recover Reflective Structure</a></div>
+
 **Book / layer.** Book VII · E3<br>
 **Macro step.** [CS-08 — Recover Reflective Structure](/corpus/construction-spine/recover-reflective-structure/)<br>
 **Short routes.** `https://prrp.site/s92` · `https://prrp.site/s092`<br>
+
 **Status tags.** `bridge`
 
 ## Construction role
@@ -61,6 +65,8 @@ can model its own code-bearing status.
 
 MetaDecode and SelfDesc-of-SelfDesc is made addressable as Step 092 in the fine-grained Construction Spine routing layer.
 
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
+
 ## What this step does not yet establish
 
 This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.
@@ -69,7 +75,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:1188)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 
@@ -79,7 +85,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 ## Dependencies
 
-- Previous: [Step 091 — E₂ to E₃: reflective structure](/corpus/construction-spine/steps/091-e2-to-e3-reflective-structure/)
+- Previous: [Step 091 — E₂ → E₃: reflective structure](/corpus/construction-spine/steps/091-e2-to-e3-reflective-structure/)
 - Next: [Step 093 — Four registers of reason](/corpus/construction-spine/steps/093-four-registers-of-reason/)
 
 ## Navigate

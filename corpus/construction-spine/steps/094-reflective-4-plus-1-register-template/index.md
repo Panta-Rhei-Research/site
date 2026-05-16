@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: "Book VII gives reflective structure a sector grammar analogous to earlier layers."
 construction_step_id: "S094"
 construction_step_number: 94
+construction_step_short_title: "Reflective 4+1 register template"
 macro_step_id: "CS-08"
 macro_step_title: "Recover Reflective Structure"
 book: "Book VII"
@@ -44,9 +45,12 @@ right_rail:
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/recover-reflective-structure/">CS-08 — Recover Reflective Structure</a></div>
+
 **Book / layer.** Book VII · E3<br>
 **Macro step.** [CS-08 — Recover Reflective Structure](/corpus/construction-spine/recover-reflective-structure/)<br>
 **Short routes.** `https://prrp.site/s94` · `https://prrp.site/s094`<br>
+
 **Status tags.** `bridge`
 
 ## Construction role
@@ -61,6 +65,8 @@ which reflective claims can be sorted, checked, and bounded.
 
 Reflective 4+1 register template is made addressable as Step 094 in the fine-grained Construction Spine routing layer.
 
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
+
 ## What this step does not yet establish
 
 This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.
@@ -69,7 +75,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:1203)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

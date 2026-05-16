@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: "Address geometry is made global by hyperfactorization."
 construction_step_id: "S009"
 construction_step_number: 9
+construction_step_short_title: "Hyperfactorization and ABCD chart"
 macro_step_id: "CS-01"
 macro_step_title: "Build the τ-Kernel"
 book: "Book I"
@@ -44,14 +45,17 @@ right_rail:
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/build-the-kernel/">CS-01 — Build the τ-Kernel</a></div>
+
 **Book / layer.** Book I · E0<br>
 **Macro step.** [CS-01 — Build the τ-Kernel](/corpus/construction-spine/build-the-kernel/)<br>
 **Short routes.** `https://prrp.site/s9` · `https://prrp.site/s009`<br>
+
 **Status tags.** `formal` `hinge`
 
 ## Construction role
 
-Address geometry is made global by hyperfactorization. Every X≥ 2 receives a unique decomposition X=((A↑↑ C)^B) D as a tower atom T(A,B,C)=(A↑↑ C)^B multiplied by a residual D. At this point divisibility and internal primality have already been earned. In the τ-statement, A is the largest internal prime atom (under idx, the largest prime divisor of X), C is the maximal tetration height of the A-tower factor, B is the residual tower exponent, and D has only internal prime factors strictly less than A. The resulting ABCD chart, written in later scalar notation as
+Address geometry is made global by hyperfactorization. Every X≥ 2 receives a unique decomposition X=((A↑↑ C)^B)· D as a tower atom T(A,B,C)=(A↑↑ C)^B multiplied by a residual D. At this point divisibility and internal primality have already been earned. In the τ-statement, A is the largest internal prime atom (under idx, the largest prime divisor of X), C is the maximal tetration height of the A-tower factor, B is the residual tower exponent, and D has only internal prime factors strictly less than A. The resulting ABCD chart, written in later scalar notation as
 
 :ℕ_≥ 2 to P×ℕ_≥ 1^3,
 
@@ -61,6 +65,8 @@ is injective and turns arithmetic objects into typed global addresses. This prev
 
 Hyperfactorization and ABCD chart is made addressable as Step 009 in the fine-grained Construction Spine routing layer.
 
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
+
 ## What this step does not yet establish
 
 This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.
@@ -69,7 +75,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:202)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

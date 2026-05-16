@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: "Book VI closes by exporting six completed structures: the Life predicate, the 4+1 sector template, genotype/phenotype predicates, the ω-germ question, Life basins, and substrate-agnosticism."
 construction_step_id: "S090"
 construction_step_number: 90
+construction_step_short_title: "E₂ export to E₃"
 macro_step_id: "CS-07"
 macro_step_title: "Recover Life as a Structural Class"
 book: "Book VI"
@@ -44,9 +45,13 @@ right_rail:
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/recover-life/">CS-07 — Recover Life as a Structural Class</a></div>
+
 **Book / layer.** Book VI · E2<br>
 **Macro step.** [CS-07 — Recover Life as a Structural Class](/corpus/construction-spine/recover-life/)<br>
 **Short routes.** `https://prrp.site/s90` · `https://prrp.site/s090`<br>
+**Formula checkpoints.** <math xmlns="http://www.w3.org/1998/Math/MathML" alttext="E₂ → E₃"><semantics><msub><mi>E</mi><mi>2</mi></msub><mo>→</mo><msub><mi>E</mi><mi>3</mi></msub><annotation encoding="text/plain">E₂ → E₃</annotation></semantics></math><br>
+
 **Status tags.** `bridge`
 
 ## Construction role
@@ -59,7 +64,9 @@ living system models that fact.
 
 ## What this step earns
 
-<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>2</mi></msub></math> export to <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>3</mi></msub></math> is made addressable as Step 090 in the fine-grained Construction Spine routing layer.
+E₂ export to E₃ is made addressable as Step 090 in the fine-grained Construction Spine routing layer.
+
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
 
 ## What this step does not yet establish
 
@@ -69,7 +76,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:1156)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 
@@ -80,7 +87,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 ## Dependencies
 
 - Previous: [Step 089 — Language as extended lemniscate](/corpus/construction-spine/steps/089-language-as-extended-lemniscate/)
-- Next: [Step 091 — E₂ to E₃: reflective structure](/corpus/construction-spine/steps/091-e2-to-e3-reflective-structure/)
+- Next: [Step 091 — E₂ → E₃: reflective structure](/corpus/construction-spine/steps/091-e2-to-e3-reflective-structure/)
 
 ## Navigate
 

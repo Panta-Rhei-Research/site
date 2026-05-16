@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: "readouts of the ι_τ coupling structure; chemistry and molecular geometry are downstream CR-address / defect-regime organizations; condensed phases, superfluids, superconductors, magnetism, and fluids are ensemble regimes of the same universal defect tu..."
 construction_step_id: "S058"
 construction_step_number: 58
+construction_step_short_title: "Book IV closure: coupling ledger and microcosm completion"
 macro_step_id: "CS-06"
 macro_step_title: "Build Measurement, Prediction, and Empirical Bridges"
 book: "Book V"
@@ -44,9 +45,12 @@ right_rail:
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/measurement-empirical-bridges/">CS-06 — Build Measurement, Prediction, and Empirical Bridges</a></div>
+
 **Book / layer.** Book V · E1<br>
 **Macro step.** [CS-06 — Build Measurement, Prediction, and Empirical Bridges](/corpus/construction-spine/measurement-empirical-bridges/)<br>
 **Short routes.** `https://prrp.site/s58` · `https://prrp.site/s058`<br>
+
 **Status tags.** `readout`
 
 ## Construction role
@@ -67,6 +71,8 @@ supplement.
 
 Book IV closure: coupling ledger and microcosm completion is made addressable as Step 058 in the fine-grained Construction Spine routing layer.
 
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
+
 ## What this step does not yet establish
 
 This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.
@@ -75,7 +81,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:795)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

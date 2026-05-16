@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: "he Central-Theorem chain by removing the specific classical objection that compactness would force all holomorphic functions to be constant: because j²=+1 gives a hyperbolic, not elliptic, operator, nonconstant bounded τ-holomorphic functions remain availa..."
 construction_step_id: "S029"
 construction_step_number: 29
+construction_step_short_title: "τ-manifold and Book III handoff"
 macro_step_id: "CS-03"
 macro_step_title: "Internalize Self-Enrichment"
 book: "Book II"
@@ -40,20 +41,23 @@ right_rail:
     layer: "E0"
 ---
 
-> he Central-Theorem chain by removing the specific classical objection that compactness would force all holomorphic functions to be constant: because <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>j</mi><mn>2</mn></msup><mo>=</mo><mo>+</mo><mn>1</mn></math> gives a hyperbolic, not elliptic, operator, nonconstant bounded τ-holomorphic functions remain availa...
+> he Central-Theorem chain by removing the specific classical objection that compactness would force all holomorphic functions to be constant: because <math xmlns="http://www.w3.org/1998/Math/MathML" alttext="j² = +1"><semantics><msup><mi>j</mi><mn>2</mn></msup><mo>=</mo><mo>+</mo><mn>1</mn><annotation encoding="text/plain">j² = +1</annotation></semantics></math> gives a hyperbolic, not elliptic, operator, nonconstant bounded τ-holomorphic functions remain availa...
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
+
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/internalize-self-enrichment/">CS-03 — Internalize Self-Enrichment</a></div>
 
 **Book / layer.** Book II · E0<br>
 **Macro step.** [CS-03 — Internalize Self-Enrichment](/corpus/construction-spine/internalize-self-enrichment/)<br>
 **Short routes.** `https://prrp.site/s29` · `https://prrp.site/s029`<br>
+
 **Status tags.** `formal`
 
 ## Construction role
 
 The Liouville-type obstruction analysis closes the Central-Theorem chain by
 removing the specific classical objection that compactness would force all
-holomorphic functions to be constant: because <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>j</mi><mn>2</mn></msup><mo>=</mo><mo>+</mo><mn>1</mn></math> gives a hyperbolic,
+holomorphic functions to be constant: because <math xmlns="http://www.w3.org/1998/Math/MathML" alttext="j² = +1"><semantics><msup><mi>j</mi><mn>2</mn></msup><mo>=</mo><mo>+</mo><mn>1</mn><annotation encoding="text/plain">j² = +1</annotation></semantics></math> gives a hyperbolic,
 not elliptic, operator, nonconstant bounded τ-holomorphic functions
 remain available. What remains is not an ambient smooth manifold imported from
 outside, but a τ-manifold structure: boundary-determined data,
@@ -67,6 +71,8 @@ relational structures of this body can serve as physical localization sites?
 
 τ-manifold and Book III handoff is made addressable as Step 029 in the fine-grained Construction Spine routing layer.
 
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
+
 ## What this step does not yet establish
 
 This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.
@@ -75,7 +81,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:425)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

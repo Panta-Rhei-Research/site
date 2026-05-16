@@ -31,7 +31,7 @@ right_rail:
 
 The ten Construction Spine pages are the macro build order. This 100-step ledger is the inspection layer beneath them: each step turns the Full Construction Spine RC3 whitepaper into a stable Corpus route.
 
-<div class="notice note"><strong>Ledger status.</strong> These routes are scaffolded from the Full Construction Spine RC3. They are public-facing routing surfaces, not final manuscript source maps; unresolved manuscript anchors are explicitly marked <code>pending-source-anchor</code>.</div>
+<div class="notice note"><strong>Ledger status.</strong> These routes are scaffolded from the Full Construction Spine RC3. They are public-facing routing surfaces, not final manuscript source maps. Detailed source anchors are pending extraction.</div>
 
 ## Filter Index
 
@@ -160,7 +160,7 @@ The ten Construction Spine pages are the macro build order. This 100-step ledger
 
 | Step | Title | Book | Layer | Short route |
 | --- | --- | --- | --- | --- |
-| S077 | [E₁ to E₂: life as predicate layer](/corpus/construction-spine/steps/077-e1-to-e2-life-as-predicate-layer/) | Book VI | E2 | `https://prrp.site/s77` |
+| S077 | [E₁ → E₂: life as predicate layer](/corpus/construction-spine/steps/077-e1-to-e2-life-as-predicate-layer/) | Book VI | E2 | `https://prrp.site/s77` |
 | S078 | [Distinction plus SelfDesc](/corpus/construction-spine/steps/078-distinction-plus-selfdesc/) | Book VI | E2 | `https://prrp.site/s78` |
 | S079 | [Layer separation from physics](/corpus/construction-spine/steps/079-layer-separation-from-physics/) | Book VI | E2 | `https://prrp.site/s79` |
 | S080 | [Life Loop and metabolic closure](/corpus/construction-spine/steps/080-life-loop-and-metabolic-closure/) | Book VI | E2 | `https://prrp.site/s80` |
@@ -179,7 +179,7 @@ The ten Construction Spine pages are the macro build order. This 100-step ledger
 
 | Step | Title | Book | Layer | Short route |
 | --- | --- | --- | --- | --- |
-| S091 | [E₂ to E₃: reflective structure](/corpus/construction-spine/steps/091-e2-to-e3-reflective-structure/) | Book VII | E3 | `https://prrp.site/s91` |
+| S091 | [E₂ → E₃: reflective structure](/corpus/construction-spine/steps/091-e2-to-e3-reflective-structure/) | Book VII | E3 | `https://prrp.site/s91` |
 | S092 | [MetaDecode and SelfDesc-of-SelfDesc](/corpus/construction-spine/steps/092-metadecode-and-selfdesc-of-selfdesc/) | Book VII | E3 | `https://prrp.site/s92` |
 | S093 | [Four registers of reason](/corpus/construction-spine/steps/093-four-registers-of-reason/) | Book VII | E3 | `https://prrp.site/s93` |
 | S094 | [Reflective 4+1 register template](/corpus/construction-spine/steps/094-reflective-4-plus-1-register-template/) | Book VII | E3 | `https://prrp.site/s94` |

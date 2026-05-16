@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: "The ultrametric cylinder topology is compact, Hausdorff, and totally disconnected: a Stone/profinite shape."
 construction_step_id: "S020"
 construction_step_number: 20
+construction_step_short_title: "Stone/profinite shape and two-readout principle"
 macro_step_id: "CS-02"
 macro_step_title: "Recover Core Mathematics"
 book: "Book II"
@@ -44,9 +45,12 @@ right_rail:
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/recover-core-mathematics/">CS-02 — Recover Core Mathematics</a></div>
+
 **Book / layer.** Book II · E0<br>
 **Macro step.** [CS-02 — Recover Core Mathematics](/corpus/construction-spine/recover-core-mathematics/)<br>
 **Short routes.** `https://prrp.site/s20` · `https://prrp.site/s020`<br>
+
 **Status tags.** `formal`
 
 ## Construction role
@@ -66,6 +70,8 @@ canonically read from the same address structure.
 
 Stone/profinite shape and two-readout principle is made addressable as Step 020 in the fine-grained Construction Spine routing layer.
 
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
+
 ## What this step does not yet establish
 
 This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.
@@ -74,7 +80,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:317)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

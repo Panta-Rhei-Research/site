@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: "The construction begins by refusing the usual ambient supports: no ZFC universe as ontic background, no continuum, no classical first-order semantics, no spacetime, observer, runtime, physical primitives, or measurement structure."
 construction_step_id: "S001"
 construction_step_number: 1
+construction_step_short_title: "Non-import discipline"
 macro_step_id: "CS-01"
 macro_step_title: "Build the τ-Kernel"
 book: "Book I"
@@ -44,9 +45,12 @@ right_rail:
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/build-the-kernel/">CS-01 — Build the τ-Kernel</a></div>
+
 **Book / layer.** Book I · E0<br>
 **Macro step.** [CS-01 — Build the τ-Kernel](/corpus/construction-spine/build-the-kernel/)<br>
 **Short routes.** `https://prrp.site/s1` · `https://prrp.site/s001`<br>
+
 **Status tags.** `hinge`
 
 ## Construction role
@@ -57,6 +61,8 @@ The construction begins by refusing the usual ambient supports: no ZFC universe 
 
 Non-import discipline is made addressable as Step 001 in the fine-grained Construction Spine routing layer.
 
+- This step earns the non-import discipline, the metalanguage/object-language asymmetry, and the burden that later objects, operations, and readouts must be generated rather than borrowed.
+
 ## What this step does not yet establish
 
 This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.
@@ -65,7 +71,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:176)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

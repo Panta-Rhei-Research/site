@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: " the ultrametric address topology along the geometric readout produces an internally Tarski-style Euclidean geometry: incidence, betweenness, and congruence are recovered from address comparison and readout-stability, not imposed as primitive spatial relati..."
 construction_step_id: "S022"
 construction_step_number: 22
+construction_step_short_title: "Tarski geometry and wave-type causal precursor"
 macro_step_id: "CS-02"
 macro_step_title: "Recover Core Mathematics"
 book: "Book II"
@@ -44,9 +45,12 @@ right_rail:
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/recover-core-mathematics/">CS-02 — Recover Core Mathematics</a></div>
+
 **Book / layer.** Book II · E0<br>
 **Macro step.** [CS-02 — Recover Core Mathematics](/corpus/construction-spine/recover-core-mathematics/)<br>
 **Short routes.** `https://prrp.site/s22` · `https://prrp.site/s022`<br>
+
 **Status tags.** `formal`
 
 ## Construction role
@@ -55,13 +59,15 @@ Coarse-graining the ultrametric address topology along the geometric readout
 produces an internally Tarski-style Euclidean geometry: incidence,
 betweenness, and congruence are recovered from address comparison and
 readout-stability, not imposed as primitive spatial relations. In parallel,
-the split-complex relation <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>j</mi><mn>2</mn></msup><mo>=</mo><mo>+</mo><mn>1</mn></math> supplies a hyperbolic, wave-type causal
+the split-complex relation <math xmlns="http://www.w3.org/1998/Math/MathML" alttext="j² = +1"><semantics><msup><mi>j</mi><mn>2</mn></msup><mo>=</mo><mo>+</mo><mn>1</mn><annotation encoding="text/plain">j² = +1</annotation></semantics></math> supplies a hyperbolic, wave-type causal
 precursor. This is not yet physical time; it is the hyperbolic algebraic
 precursor that later readout layers may use.
 
 ## What this step earns
 
 Tarski geometry and wave-type causal precursor is made addressable as Step 022 in the fine-grained Construction Spine routing layer.
+
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
 
 ## What this step does not yet establish
 
@@ -71,7 +77,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:338)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

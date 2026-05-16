@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: "The Hinge Theorem closes Book III by turning the carrier construction into an export contract."
 construction_step_id: "S042"
 construction_step_number: 42
+construction_step_short_title: "Hinge Theorem export"
 macro_step_id: "CS-04"
 macro_step_title: "Identify the Physical Carrier"
 book: "Book III"
@@ -44,9 +45,12 @@ right_rail:
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/identify-physical-carrier/">CS-04 — Identify the Physical Carrier</a></div>
+
 **Book / layer.** Book III · E1<br>
 **Macro step.** [CS-04 — Identify the Physical Carrier](/corpus/construction-spine/identify-physical-carrier/)<br>
 **Short routes.** `https://prrp.site/s42` · `https://prrp.site/s042`<br>
+
 **Status tags.** `bridge`
 
 ## Construction role
@@ -64,6 +68,8 @@ carrier.
 
 Hinge Theorem export is made addressable as Step 042 in the fine-grained Construction Spine routing layer.
 
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
+
 ## What this step does not yet establish
 
 This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.
@@ -72,7 +78,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:610)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: "The bare kernel is fixed as five ordered generator symbols α < π < γ < η < ω, one progression/application operation ρ as the sole primitive operation, and the constraints K0 -- K6."
 construction_step_id: "S002"
 construction_step_number: 2
+construction_step_short_title: "Coherence kernel"
 macro_step_id: "CS-01"
 macro_step_title: "Build the τ-Kernel"
 book: "Book I"
@@ -44,9 +45,12 @@ right_rail:
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/build-the-kernel/">CS-01 — Build the τ-Kernel</a></div>
+
 **Book / layer.** Book I · E0<br>
 **Macro step.** [CS-01 — Build the τ-Kernel](/corpus/construction-spine/build-the-kernel/)<br>
 **Short routes.** `https://prrp.site/s2` · `https://prrp.site/s002`<br>
+
 **Status tags.** `hinge`
 
 ## Construction role
@@ -57,6 +61,8 @@ The bare kernel is fixed as five ordered generator symbols α < π < γ < η < �
 
 Coherence kernel is made addressable as Step 002 in the fine-grained Construction Spine routing layer.
 
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
+
 ## What this step does not yet establish
 
 This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.
@@ -65,7 +71,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:178)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

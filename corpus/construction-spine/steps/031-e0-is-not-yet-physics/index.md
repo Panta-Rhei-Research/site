@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: "Book II delivers a canonical geometric readout τ³=τ¹×_f T², but that readout is not yet physical spacetime."
 construction_step_id: "S031"
 construction_step_number: 31
+construction_step_short_title: "E₀ is not yet physics"
 macro_step_id: "CS-04"
 macro_step_title: "Identify the Physical Carrier"
 book: "Book III"
@@ -40,20 +41,23 @@ right_rail:
     layer: "E1"
 ---
 
-> Book II delivers a canonical geometric readout <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>3</mn></msup><mo>=</mo><msup><mi>τ</mi><mn>1</mn></msup><msub><mo>×</mo><mi>f</mi></msub><msup><mi>T</mi><mn>2</mn></msup></math>, but that readout is not yet physical spacetime.
+> Book II delivers a canonical geometric readout <math xmlns="http://www.w3.org/1998/Math/MathML" alttext="τ³ = τ¹ ×_f T²"><semantics><msup><mi>τ</mi><mn>3</mn></msup><mo>=</mo><msup><mi>τ</mi><mn>1</mn></msup><msub><mo>×</mo><mi>f</mi></msub><msup><mi>T</mi><mn>2</mn></msup><annotation encoding="text/plain">τ³ = τ¹ ×_f T²</annotation></semantics></math>, but that readout is not yet physical spacetime.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
+
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/identify-physical-carrier/">CS-04 — Identify the Physical Carrier</a></div>
 
 **Book / layer.** Book III · E1<br>
 **Macro step.** [CS-04 — Identify the Physical Carrier](/corpus/construction-spine/identify-physical-carrier/)<br>
 **Short routes.** `https://prrp.site/s31` · `https://prrp.site/s031`<br>
+
 **Status tags.** `readout`
 
 ## Construction role
 
 Book II delivers a canonical geometric readout
 
-<math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>3</mn></msup><mo>=</mo><msup><mi>τ</mi><mn>1</mn></msup><msub><mo>×</mo><mi>f</mi></msub><msup><mi>T</mi><mn>2</mn></msup></math>,
+<math xmlns="http://www.w3.org/1998/Math/MathML" alttext="τ³ = τ¹ ×_f T²"><semantics><msup><mi>τ</mi><mn>3</mn></msup><mo>=</mo><msup><mi>τ</mi><mn>1</mn></msup><msub><mo>×</mo><mi>f</mi></msub><msup><mi>T</mi><mn>2</mn></msup><annotation encoding="text/plain">τ³ = τ¹ ×_f T²</annotation></semantics></math>,
 
 but that readout is not yet physical spacetime. Its loci are address-derived
 geometric positions inside the earned τ-geometry; they do not yet carry
@@ -66,6 +70,8 @@ importing a background manifold?
 
 <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>0</mi></msub></math> is not yet physics is made addressable as Step 031 in the fine-grained Construction Spine routing layer.
 
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
+
 ## What this step does not yet establish
 
 This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.
@@ -74,7 +80,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:479)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 

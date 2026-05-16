@@ -11,6 +11,7 @@ status: "Scaffolded"
 summary_short: "After internal primes and CRT idempotents are available, prime polarity is fixed by the CRT-local/spectral-Legendre classifier, not by the ABCD growth-rate comparison alone."
 construction_step_id: "S010"
 construction_step_number: 10
+construction_step_short_title: "Prime polarity"
 macro_step_id: "CS-01"
 macro_step_title: "Build the τ-Kernel"
 book: "Book I"
@@ -44,18 +45,23 @@ right_rail:
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
+<div class="notice"><strong>Macro context.</strong> <a href="/corpus/construction-spine/build-the-kernel/">CS-01 — Build the τ-Kernel</a></div>
+
 **Book / layer.** Book I · E0<br>
 **Macro step.** [CS-01 — Build the τ-Kernel](/corpus/construction-spine/build-the-kernel/)<br>
 **Short routes.** `https://prrp.site/s10` · `https://prrp.site/s010`<br>
+
 **Status tags.** `hinge`
 
 ## Construction role
 
-After internal primes and CRT idempotents are available, prime polarity is fixed by the CRT-local/spectral-Legendre classifier, not by the ABCD growth-rate comparison alone. For odd p, p is B-labelled iff (2/p)=+1 iff p±1±od 8, and C-labelled iff (2/p)=-1 iff p±3±od 8; 2 carries the mixed X-label. The τ-derivation lives at the idempotent level in H_τ Z/Primorial(n) Z, via CRT idempotents and spectral Legendre reduction, and agrees pointwise with the orthodox Legendre classifier. Both B and C classes are infinite, indeed density 1/2. The older growth-rate story is structural motivation, not the derivation.
+After internal primes and CRT idempotents are available, prime polarity is fixed by the CRT-local/spectral-Legendre classifier, not by the ABCD growth-rate comparison alone. For odd p, p is B-labelled iff (2/p)=+1 iff p≡±1±od 8, and C-labelled iff (2/p)=-1 iff p≡±3±od 8; 2 carries the mixed X-label. The τ-derivation lives at the idempotent level in H_τ Z/Primorial(n) Z, via CRT idempotents and spectral Legendre reduction, and agrees pointwise with the orthodox Legendre classifier. Both B and C classes are infinite, indeed density 1/2. The older growth-rate story is structural motivation, not the derivation.
 
 ## What this step earns
 
 Prime polarity is made addressable as Step 010 in the fine-grained Construction Spine routing layer.
+
+- **Routing scaffold.** Detailed earned-output extraction is pending the source-map pass.
 
 ## What this step does not yet establish
 
@@ -65,7 +71,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 - Full Construction Spine RC3 whitepaper source (papers/whitepapers/panta-rhei-construction-spine-e0-e3/main.tex:208)
 
-**Manuscript extraction state:** `pending-source-anchor`.
+**Manuscript extraction state:** Detailed source anchors pending extraction.
 
 ## Formalization and verification
 
