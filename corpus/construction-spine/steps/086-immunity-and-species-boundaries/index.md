@@ -53,7 +53,7 @@ right_rail:
 
 In multicellular consumers, the immune system operationalizes Distinction at
 molecular and cellular scales. At population scale, speciation forms boundary
-conditions between reproductive basins. Both extend the E_2 question: which
+conditions between reproductive basins. Both extend the <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>2</mi></msub></math> question: which
 differences preserve a living boundary, and which mark a different
 self-maintaining basin?
 

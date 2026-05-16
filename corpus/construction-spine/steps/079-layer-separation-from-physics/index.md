@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "Distinction alone remains E_1. SelfDesc is the genuinely new E_2 requirement. A physically bounded system may be stable, energetic, and sharply separated from its environment while still failing to read and rebuild its own boundary as code."
+summary_short: "Distinction alone remains E₁."
 construction_step_id: "S079"
 construction_step_number: 79
 macro_step_id: "CS-07"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E2"
 ---
 
-> Distinction alone remains E_1. SelfDesc is the genuinely new E_2 requirement. A physically bounded system may be stable, energetic, and sharply separated from its environment while still failing to read and rebuild its own boundary as code.
+> Distinction alone remains <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math>.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -51,7 +51,7 @@ right_rail:
 
 ## Construction role
 
-Distinction alone remains E_1. SelfDesc is the genuinely new E_2
+Distinction alone remains <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math>. SelfDesc is the genuinely new <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>2</mi></msub></math>
 requirement. A physically bounded system may be stable, energetic, and sharply
 separated from its environment while still failing to read and rebuild its own
 boundary as code. This is the Book VI separation test: life is neither reducible

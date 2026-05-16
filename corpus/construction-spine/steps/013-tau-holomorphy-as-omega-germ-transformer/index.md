@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "Once boundary atoms exist, the next burden is not to allow arbitrary maps. The construction must earn a class of admissible transformations from the boundary grammar itself."
+summary_short: "Once boundary atoms exist, the next burden is not to allow arbitrary maps."
 construction_step_id: "S013"
 construction_step_number: 13
 macro_step_id: "CS-01"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E0"
 ---
 
-> Once boundary atoms exist, the next burden is not to allow arbitrary maps. The construction must earn a class of admissible transformations from the boundary grammar itself.
+> Once boundary atoms exist, the next burden is not to allow arbitrary maps.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -60,7 +60,7 @@ Cartesian product, or prior external codomain. The diagonal discipline structura
 precludes ordinary function-graph constructions; idempotent collapse to
 elliptic C is impossible. Its components satisfy split-complex
 Cauchy -- Riemann equations and the hyperbolic wave equation, not the elliptic
-Laplacian, because j^2=+1. This earns analytic structure without importing
+Laplacian, because <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>j</mi><mn>2</mn></msup><mo>=</mo><mo>+</mo><mn>1</mn></math>. This earns analytic structure without importing
 complex analysis, and it supplies the admissible-map grammar that Book II will
 use to derive continuity and topology.
 

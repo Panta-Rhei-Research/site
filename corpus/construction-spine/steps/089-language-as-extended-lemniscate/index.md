@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "Communication links two living lemniscates through a shared signal channel. Language is stabilized shared code: grammar as code structure, encoding/decoding as inter-agent SelfDesc, and pragmatics as basin dynamics."
+summary_short: "Communication links two living lemniscates through a shared signal channel."
 construction_step_id: "S089"
 construction_step_number: 89
 macro_step_id: "CS-07"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E2"
 ---
 
-> Communication links two living lemniscates through a shared signal channel. Language is stabilized shared code: grammar as code structure, encoding/decoding as inter-agent SelfDesc, and pragmatics as basin dynamics.
+> Communication links two living lemniscates through a shared signal channel.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -79,7 +79,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 ## Dependencies
 
 - Previous: [Step 088 — Structural self-modeling boundary](/corpus/construction-spine/steps/088-structural-self-modeling-boundary/)
-- Next: [Step 090 — E_2 export to E_3](/corpus/construction-spine/steps/090-e2-export-to-e3/)
+- Next: [Step 090 — E₂ export to E₃](/corpus/construction-spine/steps/090-e2-export-to-e3/)
 
 ## Navigate
 

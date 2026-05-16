@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "Neutrinos differ ontologically from photons. A neutrino is not a null-transport mode but an ontic weak-sector eigenmode with in-transit reality: it carries weak-sector structure while remaining electrically neutral and colorless."
+summary_short: "Neutrinos differ ontologically from photons."
 construction_step_id: "S050"
 construction_step_number: 50
 macro_step_id: "CS-05"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E1"
 ---
 
-> Neutrinos differ ontologically from photons. A neutrino is not a null-transport mode but an ontic weak-sector eigenmode with in-transit reality: it carries weak-sector structure while remaining electrically neutral and colorless.
+> Neutrinos differ ontologically from photons.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -54,7 +54,7 @@ right_rail:
 Neutrinos differ ontologically from photons. A neutrino is not a null-transport
 mode but an ontic weak-sector eigenmode with in-transit reality: it carries
 weak-sector structure while remaining electrically neutral and colorless. The
-three flavor modes _e,_,_τ are read as weak eigenmodes of the
+three flavor modes _e,_μ,_τ are read as weak eigenmodes of the
 carrier grammar. In the current τ-readout, zero-holonomy neutrino modes
 satisfy the Majorana condition; the particle/antiparticle distinction is
 therefore read through helicity / propagation orientation rather than an

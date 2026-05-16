@@ -51,7 +51,7 @@ right_rail:
 
 ## Construction role
 
-After internal primes and CRT idempotents are available, prime polarity is fixed by the CRT-local/spectral-Legendre classifier, not by the ABCD growth-rate comparison alone. For odd p, p is B-labelled iff (2/p)=+1 iff p1 8, and C-labelled iff (2/p)=-1 iff p3 8; 2 carries the mixed X-label. The τ-derivation lives at the idempotent level in H_τ Z/Primorial(n) Z, via CRT idempotents and spectral Legendre reduction, and agrees pointwise with the orthodox Legendre classifier. Both B and C classes are infinite, indeed density 1/2. The older growth-rate story is structural motivation, not the derivation.
+After internal primes and CRT idempotents are available, prime polarity is fixed by the CRT-local/spectral-Legendre classifier, not by the ABCD growth-rate comparison alone. For odd p, p is B-labelled iff (2/p)=+1 iff p±1±od 8, and C-labelled iff (2/p)=-1 iff p±3±od 8; 2 carries the mixed X-label. The τ-derivation lives at the idempotent level in H_τ Z/Primorial(n) Z, via CRT idempotents and spectral Legendre reduction, and agrees pointwise with the orthodox Legendre classifier. Both B and C classes are infinite, indeed density 1/2. The older growth-rate story is structural motivation, not the derivation.
 
 ## What this step earns
 

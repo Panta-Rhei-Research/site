@@ -1,7 +1,7 @@
 ---
 layout: "program-doc"
-title: "Step 090 — E_2 export to E_3"
-title_plain: "Step 090 — E_2 export to E_3"
+title: "Step 090 — E₂ export to E₃"
+title_plain: "Step 090 — E₂ export to E₃"
 permalink: "/corpus/construction-spine/steps/090-e2-export-to-e3/"
 lane: "corpus"
 v2_lane: "corpus"
@@ -54,12 +54,12 @@ right_rail:
 Book VI closes by exporting six completed structures: the Life predicate, the
 4+1 sector template, genotype/phenotype predicates, the ω-germ
 question, Life basins, and substrate-agnosticism. This marks the structural
-limit of E_2: life can carry and decode code, while the next layer asks how a
+limit of <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>2</mi></msub></math>: life can carry and decode code, while the next layer asks how a
 living system models that fact.
 
 ## What this step earns
 
-E_2 export to E_3 is made addressable as Step 090 in the fine-grained Construction Spine routing layer.
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>2</mi></msub></math> export to <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>3</mi></msub></math> is made addressable as Step 090 in the fine-grained Construction Spine routing layer.
 
 ## What this step does not yet establish
 
@@ -80,7 +80,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 ## Dependencies
 
 - Previous: [Step 089 — Language as extended lemniscate](/corpus/construction-spine/steps/089-language-as-extended-lemniscate/)
-- Next: [Step 091 — E_2 to E_3: reflective structure](/corpus/construction-spine/steps/091-e2-to-e3-reflective-structure/)
+- Next: [Step 091 — E₂ to E₃: reflective structure](/corpus/construction-spine/steps/091-e2-to-e3-reflective-structure/)
 
 ## Navigate
 

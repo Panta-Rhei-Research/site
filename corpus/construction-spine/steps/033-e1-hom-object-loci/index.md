@@ -1,14 +1,14 @@
 ---
 layout: "program-doc"
-title: "Step 033 — E_1 hom-object loci"
-title_plain: "Step 033 — E_1 hom-object loci"
+title: "Step 033 — E₁ hom-object loci"
+title_plain: "Step 033 — E₁ hom-object loci"
 permalink: "/corpus/construction-spine/steps/033-e1-hom-object-loci/"
 lane: "corpus"
 v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "Book II's self-enrichment now becomes the localization mechanism. Since [A,B] Obj(τ), morphisms are no longer external arrows between already-given points; they are internal τ-objects with boundary characters, holomorphic interiors, and ω-germ data."
+summary_short: "Book II's self-enrichment now becomes the localization mechanism."
 construction_step_id: "S033"
 construction_step_number: 33
 macro_step_id: "CS-04"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E1"
 ---
 
-> Book II's self-enrichment now becomes the localization mechanism. Since [A,B] Obj(τ), morphisms are no longer external arrows between already-given points; they are internal τ-objects with boundary characters, holomorphic interiors, and ω-germ data.
+> Book II's self-enrichment now becomes the localization mechanism.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -60,11 +60,11 @@ internal τ-objects with boundary characters, holomorphic interiors, and
 ω-germ data. The first candidates for physical sites are therefore
 hom-object loci: relational sites that encode how structures meet and transform,
 not where they sit on an imported coordinate grid. This is the first
-E_1-level answer to the question "where can physics live?"
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math>-level answer to the question "where can physics live?"
 
 ## What this step earns
 
-E_1 hom-object loci is made addressable as Step 033 in the fine-grained Construction Spine routing layer.
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> hom-object loci is made addressable as Step 033 in the fine-grained Construction Spine routing layer.
 
 ## What this step does not yet establish
 

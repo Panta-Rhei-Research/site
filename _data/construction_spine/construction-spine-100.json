@@ -152,7 +152,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "Applying ρ to the non-ω generators produces exactly four generated rays O_α,\\,O_π,\\,O_γ,\\,O_η together with the singleton/fixed boundary \\ω\\.",
+    "summary": "Applying ρ to the non-ω generators produces exactly four generated rays O_α, O_π, O_γ, O_η together with the singleton/fixed boundary ω.",
     "input_dependencies": [
       "S002"
     ],
@@ -218,7 +218,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "In order-readout, the kernel is not a single generated ray. It is a typed four-block stack O_α O_π O_γ O_η ω .",
+    "summary": "In order-readout, the kernel is not a single generated ray.",
     "input_dependencies": [
       "S003"
     ],
@@ -350,7 +350,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "For each generator g, the expression _g(n)=ρ^n(g) is not a classification of pre-existing numbers.",
+    "summary": "For each generator g, the expression φ_g(n)=ρ^n(g) is not a classification of pre-existing numbers.",
     "input_dependencies": [
       "S005"
     ],
@@ -483,7 +483,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": " unstable without canonical addresses. The construction therefore introduces normal forms in the genealogical DAG: codes reduce to a unique representative, and equality becomes finite-witness normal-form comparison rather than unrestricted symbolic calculat...",
+    "summary": "The iterator ladder would remain unstable without canonical addresses.",
     "input_dependencies": [
       "S007"
     ],
@@ -551,7 +551,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "Address geometry is made global by hyperfactorization. Every X≥ 2 receives a unique decomposition X=((A↑↑ C)^B) D as a tower atom T(A,B,C)=(A↑↑ C)^B multiplied by a residual D.",
+    "summary": "Address geometry is made global by hyperfactorization.",
     "input_dependencies": [
       "S008"
     ],
@@ -816,7 +816,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "Once boundary atoms exist, the next burden is not to allow arbitrary maps. The construction must earn a class of admissible transformations from the boundary grammar itself.",
+    "summary": "Once boundary atoms exist, the next burden is not to allow arbitrary maps.",
     "input_dependencies": [
       "S012"
     ],
@@ -882,7 +882,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "The four boundary atoms now acquire a second role: they classify internal truth. The subobject classifier _τ=B_()=\\,,,\\ turns the boundary algebra into a four-valued internal logic with paraconsistent negation and Belnap -- Dunn structure.",
+    "summary": "The four boundary atoms now acquire a second role: they classify internal truth.",
     "input_dependencies": [
       "S013"
     ],
@@ -1126,7 +1126,7 @@
   {
     "id": "S018",
     "step_number": 18,
-    "title": "τ^3 as geometric readout τ^1×_f T^2",
+    "title": "τ³ as geometric readout τ¹×_f T²",
     "slug": "018-tau-3-as-geometric-readout-tau-1-x-f-t-2",
     "canonical_path": "/corpus/construction-spine/steps/018-tau-3-as-geometric-readout-tau-1-x-f-t-2/",
     "short_route": "https://prrp.site/s18",
@@ -1147,7 +1147,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "The geometric object denoted τ^3 is constructed as a readout of τ, not adopted as a Cartesian product.",
+    "summary": "The geometric object denoted τ³ is constructed as a readout of τ, not adopted as a Cartesian product.",
     "input_dependencies": [
       "S017"
     ],
@@ -1156,7 +1156,7 @@
     ],
     "previous_step_id": "S017",
     "next_step_id": "S019",
-    "what_is_earned": "τ^3 as geometric readout τ^1×_f T^2 is made addressable as Step 018 in the fine-grained Construction Spine routing layer.",
+    "what_is_earned": "τ³ as geometric readout τ¹×_f T² is made addressable as Step 018 in the fine-grained Construction Spine routing layer.",
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
     "source_anchors": [
       {
@@ -1214,7 +1214,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "The local domains of τ^3 are not open sets chosen from an external space. They are ABCD-prefix cylinders: refinement classes of address tails.",
+    "summary": "The local domains of τ³ are not open sets chosen from an external space.",
     "input_dependencies": [
       "S018"
     ],
@@ -1346,7 +1346,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "The algebraic lemniscate of Book I now receives a geometric body. At the ω-boundary, the T^2-fiber degenerates into a wedge locus whose two lobes correspond to the B-polar and C-polar character channels.",
+    "summary": "The algebraic lemniscate of Book I now receives a geometric body.",
     "input_dependencies": [
       "S020"
     ],
@@ -1458,7 +1458,7 @@
   {
     "id": "S023",
     "step_number": 23,
-    "title": "Earned constants pi_tau,e_tau,j",
+    "title": "Earned constants π_τ,e_τ,j",
     "slug": "023-earned-constants-pi-tau-e-tau-j",
     "canonical_path": "/corpus/construction-spine/steps/023-earned-constants-pi-tau-e-tau-j/",
     "short_route": "https://prrp.site/s23",
@@ -1488,7 +1488,7 @@
     ],
     "previous_step_id": "S022",
     "next_step_id": "S024",
-    "what_is_earned": "Earned constants pi_tau,e_tau,j is made addressable as Step 023 in the fine-grained Construction Spine routing layer.",
+    "what_is_earned": "Earned constants π_τ,e_τ,j is made addressable as Step 023 in the fine-grained Construction Spine routing layer.",
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
     "source_anchors": [
       {
@@ -1526,7 +1526,7 @@
   {
     "id": "S024",
     "step_number": 24,
-    "title": "Master constant iota_tau",
+    "title": "Master constant ι_τ",
     "slug": "024-master-constant-iota-tau",
     "canonical_path": "/corpus/construction-spine/steps/024-master-constant-iota-tau/",
     "short_route": "https://prrp.site/s24",
@@ -1546,7 +1546,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "The three earned ingredients pi_tau,e_tau, and the dyadic refinement scalar 2_τ meet in the ω-limit as the master coupling iota_tau=pi_tau+e_tau.",
+    "summary": "The three earned ingredients π_τ,e_τ, and the dyadic refinement scalar 2_τ meet in the ω-limit as the master coupling ι_τ=π_τ+e_τ.",
     "input_dependencies": [
       "S023"
     ],
@@ -1555,7 +1555,7 @@
     ],
     "previous_step_id": "S023",
     "next_step_id": "S025",
-    "what_is_earned": "Master constant iota_tau is made addressable as Step 024 in the fine-grained Construction Spine routing layer.",
+    "what_is_earned": "Master constant ι_τ is made addressable as Step 024 in the fine-grained Construction Spine routing layer.",
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
     "source_anchors": [
       {
@@ -1612,7 +1612,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "The boundary grammar now becomes a local continuation principle. The bounded-lift operator BndLift_n certifies that, at each finite depth, refinement tails, spectral tails, ω-germs, boundary characters, and Hartogs continuation are mutually determined.",
+    "summary": "The boundary grammar now becomes a local continuation principle.",
     "input_dependencies": [
       "S024"
     ],
@@ -1744,7 +1744,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "Finite regularity is still local; the next burden is gluing. The ω-germ presheaf satisfies sheaf coherence because local admissible maps agree on refinement-tail overlaps, so the sheaf gluing axiom pastes them without adding external matching data.",
+    "summary": "Finite regularity is still local; the next burden is gluing.",
     "input_dependencies": [
       "S026"
     ],
@@ -1811,7 +1811,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "The Central Theorem assembles the preceding machinery into the bulk -- boundary correspondence: (τ^3)\\;≅\\;A_spec().",
+    "summary": "The Central Theorem assembles the preceding machinery into the bulk -- boundary correspondence: 𝒪(τ³) ≅ A_spec(𝕃).",
     "input_dependencies": [
       "S027"
     ],
@@ -1878,7 +1878,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "he Central-Theorem chain by removing the specific classical objection that compactness would force all holomorphic functions to be constant: because j^2=+1 gives a hyperbolic, not elliptic, operator, nonconstant bounded τ-holomorphic functions remain availa...",
+    "summary": "he Central-Theorem chain by removing the specific classical objection that compactness would force all holomorphic functions to be constant: because j²=+1 gives a hyperbolic, not elliptic, operator, nonconstant bounded τ-holomorphic functions remain availa...",
     "input_dependencies": [
       "S028"
     ],
@@ -1990,7 +1990,7 @@
   {
     "id": "S031",
     "step_number": 31,
-    "title": "E_0 is not yet physics",
+    "title": "E₀ is not yet physics",
     "slug": "031-e0-is-not-yet-physics",
     "canonical_path": "/corpus/construction-spine/steps/031-e0-is-not-yet-physics/",
     "short_route": "https://prrp.site/s31",
@@ -2010,7 +2010,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "Book II delivers a canonical geometric readout τ^3=τ^1×_f T^2, but that readout is not yet physical spacetime.",
+    "summary": "Book II delivers a canonical geometric readout τ³=τ¹×_f T², but that readout is not yet physical spacetime.",
     "input_dependencies": [
       "S030"
     ],
@@ -2019,7 +2019,7 @@
     ],
     "previous_step_id": "S030",
     "next_step_id": "S032",
-    "what_is_earned": "E_0 is not yet physics is made addressable as Step 031 in the fine-grained Construction Spine routing layer.",
+    "what_is_earned": "E₀ is not yet physics is made addressable as Step 031 in the fine-grained Construction Spine routing layer.",
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
     "source_anchors": [
       {
@@ -2076,7 +2076,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "Physical points are not primitive E_0-atoms and not coordinate tuples of τ^3. Either move would re-import the Cartesian point ontology that the construction has refused from the start.",
+    "summary": "Physical points are not primitive E₀-atoms and not coordinate tuples of τ³.",
     "input_dependencies": [
       "S031"
     ],
@@ -2122,7 +2122,7 @@
   {
     "id": "S033",
     "step_number": 33,
-    "title": "E_1 hom-object loci",
+    "title": "E₁ hom-object loci",
     "slug": "033-e1-hom-object-loci",
     "canonical_path": "/corpus/construction-spine/steps/033-e1-hom-object-loci/",
     "short_route": "https://prrp.site/s33",
@@ -2143,7 +2143,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "Book II's self-enrichment now becomes the localization mechanism. Since [A,B] Obj(τ), morphisms are no longer external arrows between already-given points; they are internal τ-objects with boundary characters, holomorphic interiors, and ω-germ data.",
+    "summary": "Book II's self-enrichment now becomes the localization mechanism.",
     "input_dependencies": [
       "S032"
     ],
@@ -2152,7 +2152,7 @@
     ],
     "previous_step_id": "S032",
     "next_step_id": "S034",
-    "what_is_earned": "E_1 hom-object loci is made addressable as Step 033 in the fine-grained Construction Spine routing layer.",
+    "what_is_earned": "E₁ hom-object loci is made addressable as Step 033 in the fine-grained Construction Spine routing layer.",
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
     "source_anchors": [
       {
@@ -2278,7 +2278,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "For each admitted hom-object locus, the local T^2-fiber acts as a two-dimensional boundary surface carrying the four-atom character data.",
+    "summary": "For each admitted hom-object locus, the local T²-fiber acts as a two-dimensional boundary surface carrying the four-atom character data.",
     "input_dependencies": [
       "S034"
     ],
@@ -2542,7 +2542,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "The fibered shape already separates the base τ^1 from the T^2-fiber. After global Cartesian gluing, the T^2-derived bulk supplies the spatial readout, while the τ^1-base supplies the temporal direction that Book V will develop as proper time.",
+    "summary": "The fibered shape already separates the base τ¹ from the T²-fiber.",
     "input_dependencies": [
       "S038"
     ],
@@ -2808,7 +2808,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "The enrichment ladder changes what \"the same\" can mean. At E_0, sameness is identity of generated objects, addresses, and normal forms.",
+    "summary": "The enrichment ladder changes what \"the same\" can mean.",
     "input_dependencies": [
       "S042"
     ],
@@ -2920,7 +2920,7 @@
   {
     "id": "S045",
     "step_number": 45,
-    "title": "Self-description on the T^2 fiber",
+    "title": "Self-description on the T² fiber",
     "slug": "045-self-description-on-the-t-2-fiber",
     "canonical_path": "/corpus/construction-spine/steps/045-self-description-on-the-t-2-fiber/",
     "short_route": "https://prrp.site/s45",
@@ -2940,7 +2940,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "Book IV develops physics as the carrier's self-description on its own T^2-boundary fiber.",
+    "summary": "Book IV develops physics as the carrier's self-description on its own T²-boundary fiber.",
     "input_dependencies": [
       "S044"
     ],
@@ -2949,7 +2949,7 @@
     ],
     "previous_step_id": "S044",
     "next_step_id": "S046",
-    "what_is_earned": "Self-description on the T^2 fiber is made addressable as Step 045 in the fine-grained Construction Spine routing layer.",
+    "what_is_earned": "Self-description on the T² fiber is made addressable as Step 045 in the fine-grained Construction Spine routing layer.",
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
     "source_anchors": [
       {
@@ -3072,7 +3072,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "The photon is not a persistent material defect bundle. It is the B-sector null-transport mode of the carrier boundary: a degenerate fiber character (m,n)=(0,0) with zero mass, no fiber obstruction, limiting-speed propagation, and no rest frame.",
+    "summary": "The photon is not a persistent material defect bundle.",
     "input_dependencies": [
       "S046"
     ],
@@ -3139,7 +3139,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "The neutron is the minimal stable defect-bundle equivalence class on the carrier: the lightest defect regime whose internal address and holonomy structure closes under the E_1 microphysical grammar.",
+    "summary": "The neutron is the minimal stable defect-bundle equivalence class on the carrier: the lightest defect regime whose internal address and holonomy structure closes under the E₁ microphysical grammar.",
     "input_dependencies": [
       "S047"
     ],
@@ -3275,7 +3275,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "Neutrinos differ ontologically from photons. A neutrino is not a null-transport mode but an ontic weak-sector eigenmode with in-transit reality: it carries weak-sector structure while remaining electrically neutral and colorless.",
+    "summary": "Neutrinos differ ontologically from photons.",
     "input_dependencies": [
       "S049"
     ],
@@ -3343,7 +3343,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "Quantum mechanics enters as a limitation of simultaneous address resolution on τ^1×_f T^2, not as a postulated Hilbert formalism on a background space.",
+    "summary": "Quantum mechanics enters as a limitation of simultaneous address resolution on τ¹×_f T², not as a postulated Hilbert formalism on a background space.",
     "input_dependencies": [
       "S050"
     ],
@@ -3476,7 +3476,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "us; momentum is the defect-transport invariant conjugate to localization; mass is stable defect-bundle calibration; energy is state/address/defect-budget readout; charge is boundary holonomy or winding obstruction; spin and polarization are fiber-mode reado...",
+    "summary": "Book IV also fixes the semantics of core microphysical quantities.",
     "input_dependencies": [
       "S052"
     ],
@@ -3543,7 +3543,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "sectors are not primitive actors. Electromagnetism is the B-sector U(1)-curvature / boundary-transport grammar on the lemniscate topology; the weak sector is the A-sector junction-orientation / chirality grammar; the ω-mediator supplies the Higgs/mass cross...",
+    "summary": "The gauge sectors are not primitive actors.",
     "input_dependencies": [
       "S053"
     ],
@@ -3677,7 +3677,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "Generation structure is read from the topology of the T^2-fiber rather than postulated as a repeated particle table.",
+    "summary": "Generation structure is read from the topology of the T²-fiber rather than postulated as a repeated particle table.",
     "input_dependencies": [
       "S055"
     ],
@@ -3810,7 +3810,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "readouts of the iota_tau coupling structure; chemistry and molecular geometry are downstream CR-address / defect-regime organizations; condensed phases, superfluids, superconductors, magnetism, and fluids are ensemble regimes of the same universal defect tu...",
+    "summary": "readouts of the ι_τ coupling structure; chemistry and molecular geometry are downstream CR-address / defect-regime organizations; condensed phases, superfluids, superconductors, magnetism, and fluids are ensemble regimes of the same universal defect tu...",
     "input_dependencies": [
       "S057"
     ],
@@ -3876,7 +3876,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "Book IV completes the T^2-fiber side of the E_1 carrier: microphysical defect bundles, transport modes, sector holonomies, and matter regimes.",
+    "summary": "Book IV completes the T²-fiber side of the E₁ carrier: microphysical defect bundles, transport modes, sector holonomies, and matter regimes.",
     "input_dependencies": [
       "S058"
     ],
@@ -3942,7 +3942,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "The progression depth available in the kernel is not yet physical time. Book V turns this proto-temporal ordering into proper-time readout on the τ^1-base.",
+    "summary": "The progression depth available in the kernel is not yet physical time.",
     "input_dependencies": [
       "S059"
     ],
@@ -4008,7 +4008,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "Causality is read from base-orbit ordering, not imposed as a background order. A worldline is the τ^1-ordered trace of an E_1 localization regime.",
+    "summary": "Causality is read from base-orbit ordering, not imposed as a background order.",
     "input_dependencies": [
       "S060"
     ],
@@ -4210,7 +4210,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "The macro field identity is written here as R^H=κ_tau T, with κ_tau serving as the τ-gravitational coupling readout, not as an imported PDE.",
+    "summary": "The macro field identity is written here as Rᴴ = κ_τ T, with κ_τ serving as the τ-gravitational coupling readout, not as an imported PDE.",
     "input_dependencies": [
       "S063"
     ],
@@ -4258,7 +4258,7 @@
   {
     "id": "S065",
     "step_number": 65,
-    "title": "Lorentzian signature from j^2=+1",
+    "title": "Lorentzian signature from j²=+1",
     "slug": "065-lorentzian-signature-from-j-2-plus-1",
     "canonical_path": "/corpus/construction-spine/steps/065-lorentzian-signature-from-j-2-plus-1/",
     "short_route": "https://prrp.site/s65",
@@ -4288,7 +4288,7 @@
     ],
     "previous_step_id": "S064",
     "next_step_id": "S066",
-    "what_is_earned": "Lorentzian signature from j^2=+1 is made addressable as Step 065 in the fine-grained Construction Spine routing layer.",
+    "what_is_earned": "Lorentzian signature from j²=+1 is made addressable as Step 065 in the fine-grained Construction Spine routing layer.",
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
     "source_anchors": [
       {
@@ -4347,7 +4347,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "Book V splits entropy into defect, refinement, and interaction readouts, S(n)=S_def(n)+S_ref(n)+(n), 0(n) S_def(n).",
+    "summary": "Book V splits entropy into defect, refinement, and interaction readouts, S(n)=S_def(n)+S_ref(n)+ε(n), 0≤ε(n)≤ S_def(n).",
     "input_dependencies": [
       "S065"
     ],
@@ -4483,7 +4483,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "The universal defect tuple from the T^2-fiber lifts to the τ^1-base as a macro defect-budget grammar.",
+    "summary": "The universal defect tuple from the T²-fiber lifts to the τ¹-base as a macro defect-budget grammar.",
     "input_dependencies": [
       "S067"
     ],
@@ -4889,7 +4889,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "The Big Bang is read as the opening regime of τ^1-base dynamics, not as an externally imposed singular creation event.",
+    "summary": "The Big Bang is read as the opening regime of τ¹-base dynamics, not as an externally imposed singular creation event.",
     "input_dependencies": [
       "S073"
     ],
@@ -5004,7 +5004,7 @@
   {
     "id": "S076",
     "step_number": 76,
-    "title": "E_1 physics complete",
+    "title": "E₁ physics complete",
     "slug": "076-e1-physics-complete",
     "canonical_path": "/corpus/construction-spine/steps/076-e1-physics-complete/",
     "short_route": "https://prrp.site/s76",
@@ -5024,7 +5024,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "Book V closes the E_0 to E_1 construction. Book III identifies the physical carrier, Book IV reads the T^2-fiber as microphysical ontology, and Book V reads the τ^1-base as temporal, gravitational, thermodynamic, and cosmological structure.",
+    "summary": "Book V closes the E₀ to E₁ construction.",
     "input_dependencies": [
       "S075"
     ],
@@ -5033,7 +5033,7 @@
     ],
     "previous_step_id": "S075",
     "next_step_id": "S077",
-    "what_is_earned": "E_1 physics complete is made addressable as Step 076 in the fine-grained Construction Spine routing layer.",
+    "what_is_earned": "E₁ physics complete is made addressable as Step 076 in the fine-grained Construction Spine routing layer.",
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
     "source_anchors": [
       {
@@ -5070,7 +5070,7 @@
   {
     "id": "S077",
     "step_number": 77,
-    "title": "E_1 to E_2: life as predicate layer",
+    "title": "E₁ to E₂: life as predicate layer",
     "slug": "077-e1-to-e2-life-as-predicate-layer",
     "canonical_path": "/corpus/construction-spine/steps/077-e1-to-e2-life-as-predicate-layer/",
     "short_route": "https://prrp.site/s77",
@@ -5090,7 +5090,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "Book VI receives completed E_1 physics and identifies life as the next self-enrichment: carriers that add SelfDesc to Distinction.",
+    "summary": "Book VI receives completed E₁ physics and identifies life as the next self-enrichment: carriers that add SelfDesc to Distinction.",
     "input_dependencies": [
       "S076"
     ],
@@ -5099,7 +5099,7 @@
     ],
     "previous_step_id": "S076",
     "next_step_id": "S078",
-    "what_is_earned": "E_1 to E_2: life as predicate layer is made addressable as Step 077 in the fine-grained Construction Spine routing layer.",
+    "what_is_earned": "E₁ to E₂: life as predicate layer is made addressable as Step 077 in the fine-grained Construction Spine routing layer.",
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
     "source_anchors": [
       {
@@ -5156,7 +5156,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "Life is defined by two earned predicates. Distinction is the sharp, stable, internally maintained boundary between self and non-self.",
+    "summary": "Life is defined by two earned predicates.",
     "input_dependencies": [
       "S077"
     ],
@@ -5222,7 +5222,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "Distinction alone remains E_1. SelfDesc is the genuinely new E_2 requirement. A physically bounded system may be stable, energetic, and sharply separated from its environment while still failing to read and rebuild its own boundary as code.",
+    "summary": "Distinction alone remains E₁.",
     "input_dependencies": [
       "S078"
     ],
@@ -5288,7 +5288,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "A living carrier must run a closed cycle of SelfDesc-preserving endomorphisms. Metabolism is not merely \"having reactions\"; it is the loop that returns the carrier to a state compatible with its maintained distinction.",
+    "summary": "A living carrier must run a closed cycle of SelfDesc-preserving endomorphisms.",
     "input_dependencies": [
       "S079"
     ],
@@ -5618,7 +5618,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "Evolution is PPAS on ω-germ code space. Populations generate variants, selection verifies viability, and drift/recombination keep the search non-terminating.",
+    "summary": "Evolution is PPAS on ω-germ code space.",
     "input_dependencies": [
       "S084"
     ],
@@ -5882,7 +5882,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "Communication links two living lemniscates through a shared signal channel. Language is stabilized shared code: grammar as code structure, encoding/decoding as inter-agent SelfDesc, and pragmatics as basin dynamics.",
+    "summary": "Communication links two living lemniscates through a shared signal channel.",
     "input_dependencies": [
       "S088"
     ],
@@ -5928,7 +5928,7 @@
   {
     "id": "S090",
     "step_number": 90,
-    "title": "E_2 export to E_3",
+    "title": "E₂ export to E₃",
     "slug": "090-e2-export-to-e3",
     "canonical_path": "/corpus/construction-spine/steps/090-e2-export-to-e3/",
     "short_route": "https://prrp.site/s90",
@@ -5957,7 +5957,7 @@
     ],
     "previous_step_id": "S089",
     "next_step_id": "S091",
-    "what_is_earned": "E_2 export to E_3 is made addressable as Step 090 in the fine-grained Construction Spine routing layer.",
+    "what_is_earned": "E₂ export to E₃ is made addressable as Step 090 in the fine-grained Construction Spine routing layer.",
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
     "source_anchors": [
       {
@@ -5994,7 +5994,7 @@
   {
     "id": "S091",
     "step_number": 91,
-    "title": "E_2 to E_3: reflective structure",
+    "title": "E₂ to E₃: reflective structure",
     "slug": "091-e2-to-e3-reflective-structure",
     "canonical_path": "/corpus/construction-spine/steps/091-e2-to-e3-reflective-structure/",
     "short_route": "https://prrp.site/s91",
@@ -6023,7 +6023,7 @@
     ],
     "previous_step_id": "S090",
     "next_step_id": "S092",
-    "what_is_earned": "E_2 to E_3: reflective structure is made addressable as Step 091 in the fine-grained Construction Spine routing layer.",
+    "what_is_earned": "E₂ to E₃: reflective structure is made addressable as Step 091 in the fine-grained Construction Spine routing layer.",
     "what_is_not_established": "This route exposes the RC3 construction step for inspection. It does not by itself establish peer review, empirical adequacy, or final manuscript-level source closure.",
     "source_anchors": [
       {
@@ -6080,7 +6080,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "At E_3, SelfDesc becomes an object of SelfDesc. The evaluator can represent its own evaluative process, compare registers, and ask whether its own descriptions preserve the conditions that make description possible.",
+    "summary": "At E₃, SelfDesc becomes an object of SelfDesc.",
     "input_dependencies": [
       "S091"
     ],
@@ -6146,7 +6146,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "E3 reflection does not yield undifferentiated thought. It yields typed content in four registers: empirical, practical, diagrammatic, and commitment.",
+    "summary": "E3 reflection does not yield undifferentiated thought.",
     "input_dependencies": [
       "S092"
     ],
@@ -6347,7 +6347,7 @@
     ],
     "status": "scaffolded_from_full_spine_rc3",
     "status_label": "Scaffolded from Full Construction Spine RC3",
-    "summary": "Book VII does not refute Gödel and does not bypass incompleteness by slogan. It restricts the conditions under which unrestricted diagonal self-reference is available.",
+    "summary": "Book VII does not refute Gödel and does not bypass incompleteness by slogan.",
     "input_dependencies": [
       "S095"
     ],

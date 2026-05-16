@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "he Central-Theorem chain by removing the specific classical objection that compactness would force all holomorphic functions to be constant: because j^2=+1 gives a hyperbolic, not elliptic, operator, nonconstant bounded τ-holomorphic functions remain availa..."
+summary_short: "he Central-Theorem chain by removing the specific classical objection that compactness would force all holomorphic functions to be constant: because j²=+1 gives a hyperbolic, not elliptic, operator, nonconstant bounded τ-holomorphic functions remain availa..."
 construction_step_id: "S029"
 construction_step_number: 29
 macro_step_id: "CS-03"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E0"
 ---
 
-> he Central-Theorem chain by removing the specific classical objection that compactness would force all holomorphic functions to be constant: because j^2=+1 gives a hyperbolic, not elliptic, operator, nonconstant bounded τ-holomorphic functions remain availa...
+> he Central-Theorem chain by removing the specific classical objection that compactness would force all holomorphic functions to be constant: because <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>j</mi><mn>2</mn></msup><mo>=</mo><mo>+</mo><mn>1</mn></math> gives a hyperbolic, not elliptic, operator, nonconstant bounded τ-holomorphic functions remain availa...
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -53,7 +53,7 @@ right_rail:
 
 The Liouville-type obstruction analysis closes the Central-Theorem chain by
 removing the specific classical objection that compactness would force all
-holomorphic functions to be constant: because j^2=+1 gives a hyperbolic,
+holomorphic functions to be constant: because <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>j</mi><mn>2</mn></msup><mo>=</mo><mo>+</mo><mn>1</mn></math> gives a hyperbolic,
 not elliptic, operator, nonconstant bounded τ-holomorphic functions
 remain available. What remains is not an ambient smooth manifold imported from
 outside, but a τ-manifold structure: boundary-determined data,

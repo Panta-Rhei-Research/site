@@ -53,12 +53,12 @@ right_rail:
 
 When the carrier guarantees hold, the local Hartogs bulks assemble into a
 coherent global three-dimensional Cartesian readout. The residual
-τ^3_R structure decompactifies at human scales into an R^3
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msubsup><mi>τ</mi><mi>R</mi><mn>3</mn></msubsup></math> structure decompactifies at human scales into an <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>ℝ</mi><mn>3</mn></msup></math>
 readout. Thus ordinary three-dimensional space is not an input to the theory:
 it is the large-scale readout of globally glued Hartogs interiors. The step is
 bridge-pending on the disclosed Book III custom axioms, but its construction
-role is clear: this is where canonical τ^3-geometry becomes an
-E_1 spatial carrier. Here III.T50 refers to the corpus/manuscript Global
+role is clear: this is where canonical <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>3</mn></msup></math>-geometry becomes an
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> spatial carrier. Here III.T50 refers to the corpus/manuscript Global
 Cartesian Gluing theorem; it is manuscript/registry-backed, not claimed here as
 the current TauLib label/module.
 

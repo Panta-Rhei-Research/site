@@ -54,7 +54,7 @@ right_rail:
 Only after the carrier has been located can the five-generator grammar receive
 physical sector readouts. Boundary functoriality
 
-:Char() to (τ^3)
+:Char(𝕃) to 𝒪(<math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>3</mn></msup></math>)
 
 transports the character grammar into holomorphic sectors on the carrier:
 α to D (gravity), π to A (weak), γ to B

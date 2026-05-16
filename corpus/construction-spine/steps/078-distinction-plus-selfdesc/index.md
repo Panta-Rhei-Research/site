@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "Life is defined by two earned predicates. Distinction is the sharp, stable, internally maintained boundary between self and non-self."
+summary_short: "Life is defined by two earned predicates."
 construction_step_id: "S078"
 construction_step_number: 78
 macro_step_id: "CS-07"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E2"
 ---
 
-> Life is defined by two earned predicates. Distinction is the sharp, stable, internally maintained boundary between self and non-self.
+> Life is defined by two earned predicates.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -79,7 +79,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 ## Dependencies
 
-- Previous: [Step 077 — E_1 to E_2: life as predicate layer](/corpus/construction-spine/steps/077-e1-to-e2-life-as-predicate-layer/)
+- Previous: [Step 077 — E₁ to E₂: life as predicate layer](/corpus/construction-spine/steps/077-e1-to-e2-life-as-predicate-layer/)
 - Next: [Step 079 — Layer separation from physics](/corpus/construction-spine/steps/079-layer-separation-from-physics/)
 
 ## Navigate

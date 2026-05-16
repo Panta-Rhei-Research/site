@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "In order-readout, the kernel is not a single generated ray. It is a typed four-block stack O_α O_π O_γ O_η ω ."
+summary_short: "In order-readout, the kernel is not a single generated ray."
 construction_step_id: "S004"
 construction_step_number: 4
 macro_step_id: "CS-01"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E0"
 ---
 
-> In order-readout, the kernel is not a single generated ray. It is a typed four-block stack O_α O_π O_γ O_η ω .
+> In order-readout, the kernel is not a single generated ray.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 

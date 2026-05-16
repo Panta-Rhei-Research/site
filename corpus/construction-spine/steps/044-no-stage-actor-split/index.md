@@ -52,7 +52,7 @@ right_rail:
 ## Construction role
 
 Book IV refuses the usual picture in which passive spacetime hosts active
-particles and forces. At E_1, the carrier is the only available physical
+particles and forces. At <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math>, the carrier is the only available physical
 substrate, so particles, forces, mass, energy, charge, entropy, chemistry, and
 matter must be read as organized regimes of the carrier itself. This is not a
 metaphor: it is the construction rule for the microcosm. Nothing may enter as a
@@ -82,7 +82,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 ## Dependencies
 
 - Previous: [Step 043 — Layered equivalence](/corpus/construction-spine/steps/043-layered-equivalence/)
-- Next: [Step 045 — Self-description on the T^2 fiber](/corpus/construction-spine/steps/045-self-description-on-the-t-2-fiber/)
+- Next: [Step 045 — Self-description on the T² fiber](/corpus/construction-spine/steps/045-self-description-on-the-t-2-fiber/)
 
 ## Navigate
 

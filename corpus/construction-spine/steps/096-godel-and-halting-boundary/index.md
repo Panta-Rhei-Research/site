@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "Book VII does not refute Gödel and does not bypass incompleteness by slogan. It restricts the conditions under which unrestricted diagonal self-reference is available."
+summary_short: "Book VII does not refute Gödel and does not bypass incompleteness by slogan."
 construction_step_id: "S096"
 construction_step_number: 96
 macro_step_id: "CS-09"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E3"
 ---
 
-> Book VII does not refute Gödel and does not bypass incompleteness by slogan. It restricts the conditions under which unrestricted diagonal self-reference is available.
+> Book VII does not refute Gödel and does not bypass incompleteness by slogan.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 

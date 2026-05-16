@@ -1,14 +1,14 @@
 ---
 layout: "program-doc"
-title: "Step 031 — E_0 is not yet physics"
-title_plain: "Step 031 — E_0 is not yet physics"
+title: "Step 031 — E₀ is not yet physics"
+title_plain: "Step 031 — E₀ is not yet physics"
 permalink: "/corpus/construction-spine/steps/031-e0-is-not-yet-physics/"
 lane: "corpus"
 v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "Book II delivers a canonical geometric readout τ^3=τ^1×_f T^2, but that readout is not yet physical spacetime."
+summary_short: "Book II delivers a canonical geometric readout τ³=τ¹×_f T², but that readout is not yet physical spacetime."
 construction_step_id: "S031"
 construction_step_number: 31
 macro_step_id: "CS-04"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E1"
 ---
 
-> Book II delivers a canonical geometric readout τ^3=τ^1×_f T^2, but that readout is not yet physical spacetime.
+> Book II delivers a canonical geometric readout <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>3</mn></msup><mo>=</mo><msup><mi>τ</mi><mn>1</mn></msup><msub><mo>×</mo><mi>f</mi></msub><msup><mi>T</mi><mn>2</mn></msup></math>, but that readout is not yet physical spacetime.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -53,7 +53,7 @@ right_rail:
 
 Book II delivers a canonical geometric readout
 
-τ^3=τ^1×_f T^2,
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>3</mn></msup><mo>=</mo><msup><mi>τ</mi><mn>1</mn></msup><msub><mo>×</mo><mi>f</mi></msub><msup><mi>T</mi><mn>2</mn></msup></math>,
 
 but that readout is not yet physical spacetime. Its loci are address-derived
 geometric positions inside the earned τ-geometry; they do not yet carry
@@ -64,7 +64,7 @@ importing a background manifold?
 
 ## What this step earns
 
-E_0 is not yet physics is made addressable as Step 031 in the fine-grained Construction Spine routing layer.
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>0</mi></msub></math> is not yet physics is made addressable as Step 031 in the fine-grained Construction Spine routing layer.
 
 ## What this step does not yet establish
 

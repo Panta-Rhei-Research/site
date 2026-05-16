@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "The neutron is the minimal stable defect-bundle equivalence class on the carrier: the lightest defect regime whose internal address and holonomy structure closes under the E_1 microphysical grammar."
+summary_short: "The neutron is the minimal stable defect-bundle equivalence class on the carrier: the lightest defect regime whose internal address and holonomy structure closes under the E₁ microphysical grammar."
 construction_step_id: "S048"
 construction_step_number: 48
 macro_step_id: "CS-05"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E1"
 ---
 
-> The neutron is the minimal stable defect-bundle equivalence class on the carrier: the lightest defect regime whose internal address and holonomy structure closes under the E_1 microphysical grammar.
+> The neutron is the minimal stable defect-bundle equivalence class on the carrier: the lightest defect regime whose internal address and holonomy structure closes under the <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> microphysical grammar.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -53,7 +53,7 @@ right_rail:
 
 The neutron is the minimal stable defect-bundle equivalence class on the
 carrier: the lightest defect regime whose internal address and holonomy
-structure closes under the E_1 microphysical grammar. Beyond being one
+structure closes under the <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> microphysical grammar. Beyond being one
 particle among others, it is the parent carrier regime from which atomic matter
 differentiates. Its mass supplies the sole dimensional SI calibration anchor:
 one dimensional scale-setting parameter that connects the dimensionless

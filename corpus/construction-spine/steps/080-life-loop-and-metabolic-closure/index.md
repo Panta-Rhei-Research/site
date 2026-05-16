@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "A living carrier must run a closed cycle of SelfDesc-preserving endomorphisms. Metabolism is not merely \"having reactions\"; it is the loop that returns the carrier to a state compatible with its maintained distinction."
+summary_short: "A living carrier must run a closed cycle of SelfDesc-preserving endomorphisms."
 construction_step_id: "S080"
 construction_step_number: 80
 macro_step_id: "CS-07"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E2"
 ---
 
-> A living carrier must run a closed cycle of SelfDesc-preserving endomorphisms. Metabolism is not merely "having reactions"; it is the loop that returns the carrier to a state compatible with its maintained distinction.
+> A living carrier must run a closed cycle of SelfDesc-preserving endomorphisms.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 

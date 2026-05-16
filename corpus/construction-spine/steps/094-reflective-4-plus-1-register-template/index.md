@@ -54,7 +54,7 @@ right_rail:
 Book VII gives reflective structure a sector grammar analogous to earlier
 layers. The 4+1 decomposition organizes observation, action, diagrammatic
 form, closure, and the mixed commitment/logos surface. This is not a new
-ontology imported from tradition; it is the E_3 register architecture in
+ontology imported from tradition; it is the <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>3</mi></msub></math> register architecture in
 which reflective claims can be sorted, checked, and bounded.
 
 ## What this step earns

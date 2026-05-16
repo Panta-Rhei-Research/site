@@ -53,8 +53,8 @@ right_rail:
 
 The Hinge Theorem closes Book III by turning the carrier construction into an
 export contract. Every result in Books IV -- V must be a sector instantiation of
-the E_1 enrichment just constructed: microphysics is read off the T^2
-fiber, macrocosm off the τ^1 base, and inter-sector coupling off the
+the <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> enrichment just constructed: microphysics is read off the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math>
+fiber, macrocosm off the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>1</mn></msup></math> base, and inter-sector coupling off the
 No Knobs ledger, with the III.R40 temporal-spatial decomposition fixing the
 base/fiber export grammar. The later books are therefore not independent physical
 theories attached to the mathematics. They are typed readouts of the Book III

@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "Causality is read from base-orbit ordering, not imposed as a background order. A worldline is the τ^1-ordered trace of an E_1 localization regime."
+summary_short: "Causality is read from base-orbit ordering, not imposed as a background order."
 construction_step_id: "S061"
 construction_step_number: 61
 macro_step_id: "CS-06"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E1"
 ---
 
-> Causality is read from base-orbit ordering, not imposed as a background order. A worldline is the τ^1-ordered trace of an E_1 localization regime.
+> Causality is read from base-orbit ordering, not imposed as a background order.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -52,7 +52,7 @@ right_rail:
 ## Construction role
 
 Causality is read from base-orbit ordering, not imposed as a background order.
-A worldline is the τ^1-ordered trace of an E_1 localization regime.
+A worldline is the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>1</mn></msup></math>-ordered trace of an <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> localization regime.
 Distance is likewise not primitive: operational distance arises from null
 exchange, i.e. photon-mediated radar-time comparison between localization
 regimes. Thus causal order, worldline, and distance are all base/carrier

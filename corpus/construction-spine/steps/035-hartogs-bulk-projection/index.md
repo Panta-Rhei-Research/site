@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "For each admitted hom-object locus, the local T^2-fiber acts as a two-dimensional boundary surface carrying the four-atom character data."
+summary_short: "For each admitted hom-object locus, the local T²-fiber acts as a two-dimensional boundary surface carrying the four-atom character data."
 construction_step_id: "S035"
 construction_step_number: 35
 macro_step_id: "CS-04"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E1"
 ---
 
-> For each admitted hom-object locus, the local T^2-fiber acts as a two-dimensional boundary surface carrying the four-atom character data.
+> For each admitted hom-object locus, the local <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math>-fiber acts as a two-dimensional boundary surface carrying the four-atom character data.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -51,7 +51,7 @@ right_rail:
 
 ## Construction role
 
-For each admitted hom-object locus, the local T^2-fiber acts as a
+For each admitted hom-object locus, the local <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math>-fiber acts as a
 two-dimensional boundary surface carrying the four-atom character data.
 Hartogs-type extension projects this boundary data into a local
 three-dimensional bulk. The bulk is therefore not inserted as hidden space; it

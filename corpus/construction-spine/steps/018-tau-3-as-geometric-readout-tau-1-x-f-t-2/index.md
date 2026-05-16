@@ -1,14 +1,14 @@
 ---
 layout: "program-doc"
-title: "Step 018 — τ^3 as geometric readout τ^1×_f T^2"
-title_plain: "Step 018 — τ^3 as geometric readout τ^1×_f T^2"
+title: "Step 018 — τ³ as geometric readout τ¹×_f T²"
+title_plain: "Step 018 — τ³ as geometric readout τ¹×_f T²"
 permalink: "/corpus/construction-spine/steps/018-tau-3-as-geometric-readout-tau-1-x-f-t-2/"
 lane: "corpus"
 v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "The geometric object denoted τ^3 is constructed as a readout of τ, not adopted as a Cartesian product."
+summary_short: "The geometric object denoted τ³ is constructed as a readout of τ, not adopted as a Cartesian product."
 construction_step_id: "S018"
 construction_step_number: 18
 macro_step_id: "CS-02"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E0"
 ---
 
-> The geometric object denoted τ^3 is constructed as a readout of τ, not adopted as a Cartesian product.
+> The geometric object denoted <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>3</mn></msup></math> is constructed as a readout of τ, not adopted as a Cartesian product.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -51,19 +51,19 @@ right_rail:
 
 ## Construction role
 
-The geometric object denoted τ^3 is constructed as a readout of
+The geometric object denoted <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>3</mn></msup></math> is constructed as a readout of
 τ, not adopted as a Cartesian product. It is not
-τ×τ×τ. The base τ^1 is the (D,A)
-radial/address base of the ABCD chart; the fiber T^2 is the (B,C)
+τ×τ×τ. The base <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>1</mn></msup></math> is the (D,A)
+radial/address base of the ABCD chart; the fiber <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math> is the (B,C)
 solenoidal fiber built from the two bipolar character channels. The fiber map
 f records the nontrivial dependency, so no global trivialization
-τ^3≅τ^1× T^2 is asserted. This fibered readout is the
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>3</mn></msup><mo>≅</mo><msup><mi>τ</mi><mn>1</mn></msup><mo>×</mo><msup><mi>T</mi><mn>2</mn></msup></math> is asserted. This fibered readout is the
 canonical geometric body that later becomes the substrate candidate for the
 Book-III physical carrier.
 
 ## What this step earns
 
-τ^3 as geometric readout τ^1×_f T^2 is made addressable as Step 018 in the fine-grained Construction Spine routing layer.
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>3</mn></msup></math> as geometric readout <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>1</mn></msup></math>×_f <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math> is made addressable as Step 018 in the fine-grained Construction Spine routing layer.
 
 ## What this step does not yet establish
 

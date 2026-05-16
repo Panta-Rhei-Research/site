@@ -54,7 +54,7 @@ right_rail:
 The membrane is the concrete biological boundary: it separates self/non-self
 and makes gradients possible. Chemiosmosis ties boundary, proton gradient, ATP
 synthase, ATP, and agency into one construction chain: the material route by
-which E_2 boundary maintenance and energy coupling become one grammar.
+which <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>2</mi></msub></math> boundary maintenance and energy coupling become one grammar.
 
 ## What this step earns
 

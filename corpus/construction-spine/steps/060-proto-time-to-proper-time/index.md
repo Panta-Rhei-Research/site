@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "The progression depth available in the kernel is not yet physical time. Book V turns this proto-temporal ordering into proper-time readout on the τ^1-base."
+summary_short: "The progression depth available in the kernel is not yet physical time."
 construction_step_id: "S060"
 construction_step_number: 60
 macro_step_id: "CS-06"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E1"
 ---
 
-> The progression depth available in the kernel is not yet physical time. Book V turns this proto-temporal ordering into proper-time readout on the τ^1-base.
+> The progression depth available in the kernel is not yet physical time.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -53,10 +53,10 @@ right_rail:
 
 The progression depth available in the kernel is not yet physical time. Book V
 turns this proto-temporal ordering into proper-time readout on the
-τ^1-base. The base supplies ordered traces, worldline structure, and the
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>1</mn></msup></math>-base. The base supplies ordered traces, worldline structure, and the
 direction along which physical events can be compared. Proper time is therefore
 not imported as a coordinate; it is the temporal readout of the base geometry
-after the E_1 carrier has been constructed.
+after the <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> carrier has been constructed.
 
 ## What this step earns
 

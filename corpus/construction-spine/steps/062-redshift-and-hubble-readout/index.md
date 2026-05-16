@@ -55,7 +55,7 @@ Cosmological redshift is read as base/refinement drift rather than as a purely
 Doppler or pre-imposed FLRW expansion parameter. The Hubble parameter becomes
 an orbit-depth / base-progression readout. This does not yet settle the
 empirical Hubble-tension question; it states the construction role: the
-observable expansion grammar is read from τ^1-base dynamics rather than
+observable expansion grammar is read from <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>1</mn></msup></math>-base dynamics rather than
 attached as an external cosmological background.
 
 ## What this step earns

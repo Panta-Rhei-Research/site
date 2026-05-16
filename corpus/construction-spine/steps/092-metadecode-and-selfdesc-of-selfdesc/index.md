@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "At E_3, SelfDesc becomes an object of SelfDesc. The evaluator can represent its own evaluative process, compare registers, and ask whether its own descriptions preserve the conditions that make description possible."
+summary_short: "At E₃, SelfDesc becomes an object of SelfDesc."
 construction_step_id: "S092"
 construction_step_number: 92
 macro_step_id: "CS-08"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E3"
 ---
 
-> At E_3, SelfDesc becomes an object of SelfDesc. The evaluator can represent its own evaluative process, compare registers, and ask whether its own descriptions preserve the conditions that make description possible.
+> At <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>3</mi></msub></math>, SelfDesc becomes an object of SelfDesc.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -51,7 +51,7 @@ right_rail:
 
 ## Construction role
 
-At E_3, SelfDesc becomes an object of SelfDesc. The evaluator can represent
+At <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>3</mi></msub></math>, SelfDesc becomes an object of SelfDesc. The evaluator can represent
 its own evaluative process, compare registers, and ask whether its own
 descriptions preserve the conditions that make description possible. This is
 the reflective kernel of the layer: a living code-carrier becomes a system that
@@ -79,7 +79,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 ## Dependencies
 
-- Previous: [Step 091 — E_2 to E_3: reflective structure](/corpus/construction-spine/steps/091-e2-to-e3-reflective-structure/)
+- Previous: [Step 091 — E₂ to E₃: reflective structure](/corpus/construction-spine/steps/091-e2-to-e3-reflective-structure/)
 - Next: [Step 093 — Four registers of reason](/corpus/construction-spine/steps/093-four-registers-of-reason/)
 
 ## Navigate

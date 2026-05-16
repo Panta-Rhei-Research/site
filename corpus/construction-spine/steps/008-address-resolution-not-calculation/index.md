@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: " unstable without canonical addresses. The construction therefore introduces normal forms in the genealogical DAG: codes reduce to a unique representative, and equality becomes finite-witness normal-form comparison rather than unrestricted symbolic calculat..."
+summary_short: "The iterator ladder would remain unstable without canonical addresses."
 construction_step_id: "S008"
 construction_step_number: 8
 macro_step_id: "CS-01"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E0"
 ---
 
->  unstable without canonical addresses. The construction therefore introduces normal forms in the genealogical DAG: codes reduce to a unique representative, and equality becomes finite-witness normal-form comparison rather than unrestricted symbolic calculat...
+> The iterator ladder would remain unstable without canonical addresses.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 

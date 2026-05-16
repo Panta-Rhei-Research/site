@@ -1,14 +1,14 @@
 ---
 layout: "program-doc"
-title: "Step 076 — E_1 physics complete"
-title_plain: "Step 076 — E_1 physics complete"
+title: "Step 076 — E₁ physics complete"
+title_plain: "Step 076 — E₁ physics complete"
 permalink: "/corpus/construction-spine/steps/076-e1-physics-complete/"
 lane: "corpus"
 v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "Book V closes the E_0 to E_1 construction. Book III identifies the physical carrier, Book IV reads the T^2-fiber as microphysical ontology, and Book V reads the τ^1-base as temporal, gravitational, thermodynamic, and cosmological structure."
+summary_short: "Book V closes the E₀ to E₁ construction."
 construction_step_id: "S076"
 construction_step_number: 76
 macro_step_id: "CS-06"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E1"
 ---
 
-> Book V closes the E_0 to E_1 construction. Book III identifies the physical carrier, Book IV reads the T^2-fiber as microphysical ontology, and Book V reads the τ^1-base as temporal, gravitational, thermodynamic, and cosmological structure.
+> Book V closes the <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>0</mi></msub></math> to <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> construction.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -51,9 +51,9 @@ right_rail:
 
 ## Construction role
 
-Book V closes the E_0 to E_1 construction. Book III identifies the physical
-carrier, Book IV reads the T^2-fiber as microphysical ontology, and Book V
-reads the τ^1-base as temporal, gravitational, thermodynamic, and
+Book V closes the <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>0</mi></msub></math> to <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> construction. Book III identifies the physical
+carrier, Book IV reads the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math>-fiber as microphysical ontology, and Book V
+reads the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>1</mn></msup></math>-base as temporal, gravitational, thermodynamic, and
 cosmological structure. The result is not full empirical validation; it is a
 complete internal physical grammar with explicit external-validation seams.
 Books VI -- VII receive that physical grammar and ask when carrier regimes can
@@ -61,7 +61,7 @@ preserve, transmit, decode, update, and finally reflect on code.
 
 ## What this step earns
 
-E_1 physics complete is made addressable as Step 076 in the fine-grained Construction Spine routing layer.
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> physics complete is made addressable as Step 076 in the fine-grained Construction Spine routing layer.
 
 ## What this step does not yet establish
 
@@ -82,7 +82,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 ## Dependencies
 
 - Previous: [Step 075 — Book V late-stage synthesis and macrocosm export surface](/corpus/construction-spine/steps/075-book-v-late-stage-synthesis-and-macrocosm-export-surface/)
-- Next: [Step 077 — E_1 to E_2: life as predicate layer](/corpus/construction-spine/steps/077-e1-to-e2-life-as-predicate-layer/)
+- Next: [Step 077 — E₁ to E₂: life as predicate layer](/corpus/construction-spine/steps/077-e1-to-e2-life-as-predicate-layer/)
 
 ## Navigate
 

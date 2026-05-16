@@ -52,8 +52,8 @@ right_rail:
 ## Construction role
 
 Gravity is not introduced as a primitive force acting on matter inside a
-background spacetime. It is the τ^1-base frame-holonomy readout of the
-E_1 carrier. Curvature, transport, and stress are expressed in the same
+background spacetime. It is the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>1</mn></msup></math>-base frame-holonomy readout of the
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> carrier. Curvature, transport, and stress are expressed in the same
 boundary/holonomy language that organized the microcosm. The gravitational
 constant G is treated as a coherence-conversion readout, with dimensional
 calibration handled downstream.

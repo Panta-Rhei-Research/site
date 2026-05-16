@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "The algebraic lemniscate of Book I now receives a geometric body. At the ω-boundary, the T^2-fiber degenerates into a wedge locus whose two lobes correspond to the B-polar and C-polar character channels."
+summary_short: "The algebraic lemniscate of Book I now receives a geometric body."
 construction_step_id: "S021"
 construction_step_number: 21
 macro_step_id: "CS-02"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E0"
 ---
 
-> The algebraic lemniscate of Book I now receives a geometric body. At the ω-boundary, the T^2-fiber degenerates into a wedge locus whose two lobes correspond to the B-polar and C-polar character channels.
+> The algebraic lemniscate of Book I now receives a geometric body.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -52,7 +52,7 @@ right_rail:
 ## Construction role
 
 The algebraic lemniscate of Book I now receives a geometric body. At the
-ω-boundary, the T^2-fiber degenerates into a wedge locus whose two
+ω-boundary, the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math>-fiber degenerates into a wedge locus whose two
 lobes correspond to the B-polar and C-polar character channels. Boundary,
 wedge, and character-ring residence coincide at this locus. The point is not
 decorative: the same bipolar grammar that organized split-complex boundary

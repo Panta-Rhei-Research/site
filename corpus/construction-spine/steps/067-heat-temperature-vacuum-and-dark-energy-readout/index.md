@@ -53,7 +53,7 @@ right_rail:
 
 Heat is read as boundary exchange / transport, not as a primitive substance of
 disorder. Temperature is the derived defect-gradient readout
-T_τ(C)=d[ω](C)/dS_def(C), not a primitive
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>T</mi><mi>τ</mi></msub><mo>(</mo><mi>C</mi><mo>)</mo><mo>=</mo><mi>dδ</mi><mo>[</mo><mi>ω</mi><mo>]</mo><mo>(</mo><mi>C</mi><mo>)</mo><mo>/</mo><mi>d</mi><msub><mi>S</mi><mi>def</mi></msub><mo>(</mo><mi>C</mi><mo>)</mo></math>, not a primitive
 thermodynamic variable. The vacuum is the coherent boundary state, not a sum of
 zero-point mode energies. On this readout, dark energy is not introduced as an
 independent sector; cosmic acceleration is treated as a base-progression /

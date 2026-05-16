@@ -1,14 +1,14 @@
 ---
 layout: "program-doc"
-title: "Step 045 — Self-description on the T^2 fiber"
-title_plain: "Step 045 — Self-description on the T^2 fiber"
+title: "Step 045 — Self-description on the T² fiber"
+title_plain: "Step 045 — Self-description on the T² fiber"
 permalink: "/corpus/construction-spine/steps/045-self-description-on-the-t-2-fiber/"
 lane: "corpus"
 v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "Book IV develops physics as the carrier's self-description on its own T^2-boundary fiber."
+summary_short: "Book IV develops physics as the carrier's self-description on its own T²-boundary fiber."
 construction_step_id: "S045"
 construction_step_number: 45
 macro_step_id: "CS-05"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E1"
 ---
 
-> Book IV develops physics as the carrier's self-description on its own T^2-boundary fiber.
+> Book IV develops physics as the carrier's self-description on its own <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math>-boundary fiber.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -52,15 +52,15 @@ right_rail:
 ## Construction role
 
 Book IV develops physics as the carrier's self-description on its own
-T^2-boundary fiber. Microphysical content arises from how the carrier reads
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math>-boundary fiber. Microphysical content arises from how the carrier reads
 itself through bipolar character channels, the four-atom idempotent grammar,
 and the sector holonomies inherited from Book III. Proto-time is explicitly
 not part of this fiber analysis: temporal progression, worldlines, and proper
-time live on the τ^1 base and are developed in Book V.
+time live on the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>1</mn></msup></math> base and are developed in Book V.
 
 ## What this step earns
 
-Self-description on the T^2 fiber is made addressable as Step 045 in the fine-grained Construction Spine routing layer.
+Self-description on the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math> fiber is made addressable as Step 045 in the fine-grained Construction Spine routing layer.
 
 ## What this step does not yet establish
 

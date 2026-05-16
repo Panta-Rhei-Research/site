@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "The photon is not a persistent material defect bundle. It is the B-sector null-transport mode of the carrier boundary: a degenerate fiber character (m,n)=(0,0) with zero mass, no fiber obstruction, limiting-speed propagation, and no rest frame."
+summary_short: "The photon is not a persistent material defect bundle."
 construction_step_id: "S047"
 construction_step_number: 47
 macro_step_id: "CS-05"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E1"
 ---
 
-> The photon is not a persistent material defect bundle. It is the B-sector null-transport mode of the carrier boundary: a degenerate fiber character (m,n)=(0,0) with zero mass, no fiber obstruction, limiting-speed propagation, and no rest frame.
+> The photon is not a persistent material defect bundle.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -57,7 +57,7 @@ null-transport mode of the carrier boundary: a degenerate fiber character
 propagation, and no rest frame. Its in-transit reality is transport-real rather
 than persistent-object-real: the mode is localized at emission/absorption or
 measurement interfaces, not as a free-standing object observed from the side.
-Nullness is structural -- a consequence of the j^2=+1 idempotent geometry
+Nullness is structural -- a consequence of the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>j</mi><mn>2</mn></msup><mo>=</mo><mo>+</mo><mn>1</mn></math> idempotent geometry
 and B-sector transport grammar -- not a primitive kinematic postulate.
 
 ## What this step earns

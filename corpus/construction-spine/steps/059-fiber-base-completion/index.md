@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "Book IV completes the T^2-fiber side of the E_1 carrier: microphysical defect bundles, transport modes, sector holonomies, and matter regimes."
+summary_short: "Book IV completes the T²-fiber side of the E₁ carrier: microphysical defect bundles, transport modes, sector holonomies, and matter regimes."
 construction_step_id: "S059"
 construction_step_number: 59
 macro_step_id: "CS-06"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E1"
 ---
 
-> Book IV completes the T^2-fiber side of the E_1 carrier: microphysical defect bundles, transport modes, sector holonomies, and matter regimes.
+> Book IV completes the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math>-fiber side of the <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> carrier: microphysical defect bundles, transport modes, sector holonomies, and matter regimes.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -51,13 +51,13 @@ right_rail:
 
 ## Construction role
 
-Book IV completes the T^2-fiber side of the E_1 carrier: microphysical
+Book IV completes the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math>-fiber side of the <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> carrier: microphysical
 defect bundles, transport modes, sector holonomies, and matter regimes. Book V
-turns to the complementary τ^1-base. Together,
+turns to the complementary <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>1</mn></msup></math>-base. Together,
 
-τ^3=τ^1×_f T^2
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>3</mn></msup><mo>=</mo><msup><mi>τ</mi><mn>1</mn></msup><msub><mo>×</mo><mi>f</mi></msub><msup><mi>T</mi><mn>2</mn></msup></math>
 
-is read as a full E_1 physical carrier: the fiber supplies microphysical
+is read as a full <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> physical carrier: the fiber supplies microphysical
 structure, while the base supplies time, gravity, thermodynamic direction, and
 cosmic-scale dynamics. Book V is therefore not an added cosmology; it is the
 base-side completion of the same carrier.

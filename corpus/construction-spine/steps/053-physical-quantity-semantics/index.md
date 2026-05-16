@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "us; momentum is the defect-transport invariant conjugate to localization; mass is stable defect-bundle calibration; energy is state/address/defect-budget readout; charge is boundary holonomy or winding obstruction; spin and polarization are fiber-mode reado..."
+summary_short: "Book IV also fixes the semantics of core microphysical quantities."
 construction_step_id: "S053"
 construction_step_number: 53
 macro_step_id: "CS-05"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E1"
 ---
 
-> us; momentum is the defect-transport invariant conjugate to localization; mass is stable defect-bundle calibration; energy is state/address/defect-budget readout; charge is boundary holonomy or winding obstruction; spin and polarization are fiber-mode reado...
+> Book IV also fixes the semantics of core microphysical quantities.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -52,12 +52,12 @@ right_rail:
 ## Construction role
 
 Book IV also fixes the semantics of core microphysical quantities. Localization
-is an E_1 hom-object locus; momentum is the defect-transport invariant
+is an <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> hom-object locus; momentum is the defect-transport invariant
 conjugate to localization; mass is stable defect-bundle calibration; energy is
 state/address/defect-budget readout; charge is boundary holonomy or winding
 obstruction; spin and polarization are fiber-mode readouts. Classical force is
 not primary here: it can be recovered as an effective response or gradient
-readout, but it is not a primitive E_1 invariant.
+readout, but it is not a primitive <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> invariant.
 
 ## What this step earns
 

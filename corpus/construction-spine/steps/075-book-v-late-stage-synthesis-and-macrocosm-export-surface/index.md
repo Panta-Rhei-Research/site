@@ -76,7 +76,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 ## Dependencies
 
 - Previous: [Step 074 — Big Bang, threshold ladder, and endstate](/corpus/construction-spine/steps/074-big-bang-threshold-ladder-and-endstate/)
-- Next: [Step 076 — E_1 physics complete](/corpus/construction-spine/steps/076-e1-physics-complete/)
+- Next: [Step 076 — E₁ physics complete](/corpus/construction-spine/steps/076-e1-physics-complete/)
 
 ## Navigate
 

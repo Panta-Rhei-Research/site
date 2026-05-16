@@ -53,7 +53,7 @@ right_rail:
 
 Consciousness in Book VI is framed as structural self-modeling: the evaluator
 models its own evaluative process. The phenomenological content of
-consciousness remains an E_3 question. The step is deliberately bounded: it
+consciousness remains an <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>3</mi></msub></math> question. The step is deliberately bounded: it
 establishes the life-layer condition under which reflective content can later be
 typed, not a solution to qualia.
 

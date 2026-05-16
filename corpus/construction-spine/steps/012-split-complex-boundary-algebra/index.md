@@ -56,18 +56,18 @@ given an algebra in which the two polar orientations can be projected, compared,
 and later transported. The construction therefore passes to the bipolar boundary
 algebra
 
-_τ=R_τ jR_τ, j^2=+1 ,
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>𝔻</mi><mi>τ</mi></msub><mo>=</mo><msub><mi>R</mi><mi>τ</mi></msub><mo>⊕</mo><mi>j</mi><msub><mi>R</mi><mi>τ</mi></msub></math>, <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>j</mi><mn>2</mn></msup><mo>=</mo><mo>+</mo><mn>1</mn></math> ,
 
 where R_τ denotes the earned scalar/readout algebra available at this
 stage, not an imported real line.
 Its idempotents
 
-e_=2
+e_±=2
 
 split boundary behavior into orthogonal channels, and the
--equivariant Boolean sublattice
+σ-equivariant Boolean sublattice
 
-B_(D)=\0,e_+,e_-,1\
+B_σ(D)=0,e_+,e_-,1
 
 gives the first four-atom boundary grammar. At this stage the atoms are not
 physical sectors; they are pre-physical channel eigenstates with the

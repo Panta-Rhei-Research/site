@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "The universal defect tuple from the T^2-fiber lifts to the τ^1-base as a macro defect-budget grammar."
+summary_short: "The universal defect tuple from the T²-fiber lifts to the τ¹-base as a macro defect-budget grammar."
 construction_step_id: "S068"
 construction_step_number: 68
 macro_step_id: "CS-06"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E1"
 ---
 
-> The universal defect tuple from the T^2-fiber lifts to the τ^1-base as a macro defect-budget grammar.
+> The universal defect tuple from the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math>-fiber lifts to the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>1</mn></msup></math>-base as a macro defect-budget grammar.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -51,7 +51,7 @@ right_rail:
 
 ## Construction role
 
-The universal defect tuple from the T^2-fiber lifts to the τ^1-base
+The universal defect tuple from the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math>-fiber lifts to the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>1</mn></msup></math>-base
 as a macro defect-budget grammar. Fluids, plasmas, waves, phase transitions,
 and magnetohydrodynamic regimes are then read as collective carrier regimes,
 not as independent continuum substances. Classical force is still not primary:

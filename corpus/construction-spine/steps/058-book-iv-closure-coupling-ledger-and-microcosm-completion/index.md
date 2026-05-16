@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "readouts of the iota_tau coupling structure; chemistry and molecular geometry are downstream CR-address / defect-regime organizations; condensed phases, superfluids, superconductors, magnetism, and fluids are ensemble regimes of the same universal defect tu..."
+summary_short: "readouts of the ι_τ coupling structure; chemistry and molecular geometry are downstream CR-address / defect-regime organizations; condensed phases, superfluids, superconductors, magnetism, and fluids are ensemble regimes of the same universal defect tu..."
 construction_step_id: "S058"
 construction_step_number: 58
 macro_step_id: "CS-06"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E1"
 ---
 
-> readouts of the iota_tau coupling structure; chemistry and molecular geometry are downstream CR-address / defect-regime organizations; condensed phases, superfluids, superconductors, magnetism, and fluids are ensemble regimes of the same universal defect tu...
+> readouts of the <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>ι</mi><mi>τ</mi></msub></math> coupling structure; chemistry and molecular geometry are downstream CR-address / defect-regime organizations; condensed phases, superfluids, superconductors, magnetism, and fluids are ensemble regimes of the same universal defect tu...
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -51,9 +51,9 @@ right_rail:
 
 ## Construction role
 
-Book IV closes by assembling the T^2-fiber microcosm as a readout stack:
+Book IV closes by assembling the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math>-fiber microcosm as a readout stack:
 fine-structure and mass-ratio quantities are empirical readouts of the
-iota_tau coupling structure; chemistry and molecular geometry are
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>ι</mi><mi>τ</mi></msub></math> coupling structure; chemistry and molecular geometry are
 downstream CR-address / defect-regime organizations; condensed phases,
 superfluids, superconductors, magnetism, and fluids are ensemble regimes of the
 same universal defect tuple. The stated inter-sector coupling ledger has no

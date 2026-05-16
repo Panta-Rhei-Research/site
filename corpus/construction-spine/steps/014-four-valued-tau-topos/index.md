@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "The four boundary atoms now acquire a second role: they classify internal truth. The subobject classifier _τ=B_()=\\,,,\\ turns the boundary algebra into a four-valued internal logic with paraconsistent negation and Belnap -- Dunn structure."
+summary_short: "The four boundary atoms now acquire a second role: they classify internal truth."
 construction_step_id: "S014"
 construction_step_number: 14
 macro_step_id: "CS-01"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E0"
 ---
 
-> The four boundary atoms now acquire a second role: they classify internal truth. The subobject classifier _τ=B_()=\,,,\ turns the boundary algebra into a four-valued internal logic with paraconsistent negation and Belnap -- Dunn structure.
+> The four boundary atoms now acquire a second role: they classify internal truth.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -51,7 +51,7 @@ right_rail:
 
 ## Construction role
 
-The four boundary atoms now acquire a second role: they classify internal truth. The subobject classifier _τ=B_()=\,,,\ turns the boundary algebra into a four-valued internal logic with paraconsistent negation and Belnap -- Dunn structure. Self-referential propositions stabilize by Cauchy iteration; the value Both is not a metaphorical "both" but the multiplicative unit of -- - algebraic identity, not metaphor. Thus the same idempotent algebra that separates boundary channels also carries semantic load: truth, failure, overlap, and underdetermination become internal values rather than external interpretive bookkeeping.
+The four boundary atoms now acquire a second role: they classify internal truth. The subobject classifier Ω_τ=B_σ(𝔻)=Neither,True,False,Both turns the boundary algebra into a four-valued internal logic with paraconsistent negation σ and Belnap -- Dunn structure. Self-referential propositions stabilize by Cauchy iteration; the value Both is not a metaphorical "both" but the multiplicative unit of 𝔻 -- - algebraic identity, not metaphor. Thus the same idempotent algebra that separates boundary channels also carries semantic load: truth, failure, overlap, and underdetermination become internal values rather than external interpretive bookkeeping.
 
 ## What this step earns
 

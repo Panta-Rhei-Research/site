@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "Quantum mechanics enters as a limitation of simultaneous address resolution on τ^1×_f T^2, not as a postulated Hilbert formalism on a background space."
+summary_short: "Quantum mechanics enters as a limitation of simultaneous address resolution on τ¹×_f T², not as a postulated Hilbert formalism on a background space."
 construction_step_id: "S051"
 construction_step_number: 51
 macro_step_id: "CS-05"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E1"
 ---
 
-> Quantum mechanics enters as a limitation of simultaneous address resolution on τ^1×_f T^2, not as a postulated Hilbert formalism on a background space.
+> Quantum mechanics enters as a limitation of simultaneous address resolution on <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>1</mn></msup></math>×_f <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math>, not as a postulated Hilbert formalism on a background space.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -52,7 +52,7 @@ right_rail:
 ## Construction role
 
 Quantum mechanics enters as a limitation of simultaneous address resolution on
-τ^1×_f T^2, not as a postulated Hilbert formalism on a background
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>1</mn></msup></math>×_f <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math>, not as a postulated Hilbert formalism on a background
 space. The CR-address grammar yields discrete spectra, noncommuting observables,
 state-space structure, and measurement interfaces because incompatible
 fiber-addresses cannot be resolved together. The quantum state is therefore a

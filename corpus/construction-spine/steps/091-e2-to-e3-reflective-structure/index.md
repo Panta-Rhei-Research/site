@@ -1,7 +1,7 @@
 ---
 layout: "program-doc"
-title: "Step 091 — E_2 to E_3: reflective structure"
-title_plain: "Step 091 — E_2 to E_3: reflective structure"
+title: "Step 091 — E₂ to E₃: reflective structure"
+title_plain: "Step 091 — E₂ to E₃: reflective structure"
 permalink: "/corpus/construction-spine/steps/091-e2-to-e3-reflective-structure/"
 lane: "corpus"
 v2_lane: "corpus"
@@ -59,7 +59,7 @@ function, not a poetic description of intelligence.
 
 ## What this step earns
 
-E_2 to E_3: reflective structure is made addressable as Step 091 in the fine-grained Construction Spine routing layer.
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>2</mi></msub></math> to <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>3</mi></msub></math>: reflective structure is made addressable as Step 091 in the fine-grained Construction Spine routing layer.
 
 ## What this step does not yet establish
 
@@ -79,7 +79,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 ## Dependencies
 
-- Previous: [Step 090 — E_2 export to E_3](/corpus/construction-spine/steps/090-e2-export-to-e3/)
+- Previous: [Step 090 — E₂ export to E₃](/corpus/construction-spine/steps/090-e2-export-to-e3/)
 - Next: [Step 092 — MetaDecode and SelfDesc-of-SelfDesc](/corpus/construction-spine/steps/092-metadecode-and-selfdesc-of-selfdesc/)
 
 ## Navigate

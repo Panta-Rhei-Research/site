@@ -54,8 +54,8 @@ right_rail:
 The strong sector is the C-sector nonabelian holonomy grammar associated with
 the η-channel. Quarks and gluons are not free primitive actors; they are
 confined character modes whose addresses cannot be resolved as isolated
-E_1 defect objects. Confinement is therefore structural address
-irresolvability in the T^2-fiber, not merely a dynamical binding rule added
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> defect objects. Confinement is therefore structural address
+irresolvability in the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math>-fiber, not merely a dynamical binding rule added
 after particle ontology has been assumed.
 
 ## What this step earns

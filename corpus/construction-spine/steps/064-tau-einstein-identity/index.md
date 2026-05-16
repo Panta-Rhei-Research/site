@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "The macro field identity is written here as R^H=κ_tau T, with κ_tau serving as the τ-gravitational coupling readout, not as an imported PDE."
+summary_short: "The macro field identity is written here as Rᴴ = κ_τ T, with κ_τ serving as the τ-gravitational coupling readout, not as an imported PDE."
 construction_step_id: "S064"
 construction_step_number: 64
 macro_step_id: "CS-06"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E1"
 ---
 
-> The macro field identity is written here as R^H=κ_tau T, with κ_tau serving as the τ-gravitational coupling readout, not as an imported PDE.
+> The macro field identity is written here as <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>R</mi><mi>H</mi></msup><mo>=</mo><msub><mi>κ</mi><mi>τ</mi></msub><mi>T</mi></math>, with <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>κ</mi><mi>τ</mi></msub></math> serving as the τ-gravitational coupling readout, not as an imported PDE.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -53,9 +53,9 @@ right_rail:
 
 The macro field identity is written here as
 
-R^H=κ_tau T,
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>R</mi><mi>H</mi></msup><mo>=</mo><msub><mi>κ</mi><mi>τ</mi></msub><mi>T</mi></math>,
 
-with κ_tau serving as the τ-gravitational coupling readout,
+with <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>κ</mi><mi>τ</mi></msub></math> serving as the τ-gravitational coupling readout,
 not as an imported PDE. Here H is the holonomy/curvature superscript, not
 an abbreviation for the Riemann Hypothesis. Its role is to balance curvature-side holonomy data with
 matter/stress defect data inside the same carrier grammar. Ordinary Einstein gravity appears as a
@@ -86,7 +86,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 ## Dependencies
 
 - Previous: [Step 063 — Gravity as frame holonomy](/corpus/construction-spine/steps/063-gravity-as-frame-holonomy/)
-- Next: [Step 065 — Lorentzian signature from j^2=+1](/corpus/construction-spine/steps/065-lorentzian-signature-from-j-2-plus-1/)
+- Next: [Step 065 — Lorentzian signature from j²=+1](/corpus/construction-spine/steps/065-lorentzian-signature-from-j-2-plus-1/)
 
 ## Navigate
 

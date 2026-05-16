@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "The Central Theorem assembles the preceding machinery into the bulk -- boundary correspondence: (τ^3)\\;≅\\;A_spec()."
+summary_short: "The Central Theorem assembles the preceding machinery into the bulk -- boundary correspondence: 𝒪(τ³) ≅ A_spec(𝕃)."
 construction_step_id: "S028"
 construction_step_number: 28
 macro_step_id: "CS-03"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E0"
 ---
 
-> The Central Theorem assembles the preceding machinery into the bulk -- boundary correspondence: (τ^3)\;≅\;A_spec().
+> The Central Theorem assembles the preceding machinery into the bulk -- boundary correspondence: 𝒪(<math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>3</mn></msup></math>) ≅ A_spec(𝕃).
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -54,11 +54,11 @@ right_rail:
 The Central Theorem assembles the preceding machinery into the bulk -- boundary
 correspondence:
 
-(τ^3)\;≅\;A_spec().
+𝒪(<math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>3</mn></msup></math>) ≅ A_spec(𝕃).
 
 The holomorphic interior, the boundary character ring, and the spectral algebra
 are not three independent objects; under the theorem they determine one another
-through a calibrated split-complex isomorphism. Its iota_tau-calibration
+through a calibrated split-complex isomorphism. Its <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>ι</mi><mi>τ</mi></msub></math>-calibration
 property transports the already-earned H3/II.T25 master-constant calibration
 from boundary data into the interior; it does not rederive the closed form. The finite rank-(3,15) Lean check and
 the exact registry dependencies live in the internal source ledger; the main point

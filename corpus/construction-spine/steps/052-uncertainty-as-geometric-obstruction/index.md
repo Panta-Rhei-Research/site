@@ -56,10 +56,10 @@ incompatible carrier addresses. The primary conjugate pairs are
 localization/momentum and energy/proper-time; velocity alone is not the
 localization-conjugate invariant. Thus relations such as
 
- x\, p \;\; ℏ_τ,
- E\, t \;\; ℏ_τ
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Δx</mi><mi>Δp</mi><mo>≳</mo><msub><mi>ℏ</mi><mi>τ</mi></msub></math>,
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ΔE</mi><mi>Δt</mi><mo>≳</mo><msub><mi>ℏ</mi><mi>τ</mi></msub></math>
 
-express address/transport incompatibility in the E_1 carrier, not merely
+express address/transport incompatibility in the <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> carrier, not merely
 epistemic ignorance.
 
 ## What this step earns

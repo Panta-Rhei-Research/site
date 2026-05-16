@@ -51,7 +51,7 @@ right_rail:
 
 ## Construction role
 
-With the four-valued boundary algebra in place, boundary behavior can be organized into characters. The characters _ read the two idempotent channels of and assemble them into the algebraic lemniscate: the bipolar locus where B-polar and C-polar tower behavior meet without collapsing into one channel. This gives the boundary a character ring, not merely a set of truth values. Book II will later supply the geometric readout of this algebraic lemniscate: the T^2-fiber degenerates at ω into the wedge locus that carries the same character grammar.
+With the four-valued boundary algebra in place, boundary behavior can be organized into characters. The characters χ_± read the two idempotent channels of 𝔻 and assemble them into the algebraic lemniscate: the bipolar locus where B-polar and C-polar tower behavior meet without collapsing into one channel. This gives the boundary a character ring, not merely a set of truth values. Book II will later supply the geometric readout of this algebraic lemniscate: the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>T</mi><mn>2</mn></msup></math>-fiber degenerates at ω into the wedge locus that carries the same character grammar.
 
 ## What this step earns
 

@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "The boundary grammar now becomes a local continuation principle. The bounded-lift operator BndLift_n certifies that, at each finite depth, refinement tails, spectral tails, ω-germs, boundary characters, and Hartogs continuation are mutually determined."
+summary_short: "The boundary grammar now becomes a local continuation principle."
 construction_step_id: "S025"
 construction_step_number: 25
 macro_step_id: "CS-02"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E0"
 ---
 
-> The boundary grammar now becomes a local continuation principle. The bounded-lift operator BndLift_n certifies that, at each finite depth, refinement tails, spectral tails, ω-germs, boundary characters, and Hartogs continuation are mutually determined.
+> The boundary grammar now becomes a local continuation principle.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -83,7 +83,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 ## Dependencies
 
-- Previous: [Step 024 — Master constant iota_tau](/corpus/construction-spine/steps/024-master-constant-iota-tau/)
+- Previous: [Step 024 — Master constant ι_τ](/corpus/construction-spine/steps/024-master-constant-iota-tau/)
 - Next: [Step 026 — Regularity and finite spectral support](/corpus/construction-spine/steps/026-regularity-and-finite-spectral-support/)
 
 ## Navigate

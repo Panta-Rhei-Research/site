@@ -52,7 +52,7 @@ right_rail:
 ## Construction role
 
 The local Hartogs bulks must assemble into one globally coherent
-three-dimensional carrier. Without this gluing, E_1 would contain many
+three-dimensional carrier. Without this gluing, <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> would contain many
 locally determined interiors but no physical space. The Book III problem is
 therefore a gluing problem: the local interiors must agree on overlaps, preserve
 their boundary/spectral data, and support a single carrier readout. This is the

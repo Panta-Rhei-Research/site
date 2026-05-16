@@ -55,7 +55,7 @@ Coarse-graining the ultrametric address topology along the geometric readout
 produces an internally Tarski-style Euclidean geometry: incidence,
 betweenness, and congruence are recovered from address comparison and
 readout-stability, not imposed as primitive spatial relations. In parallel,
-the split-complex relation j^2=+1 supplies a hyperbolic, wave-type causal
+the split-complex relation <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>j</mi><mn>2</mn></msup><mo>=</mo><mo>+</mo><mn>1</mn></math> supplies a hyperbolic, wave-type causal
 precursor. This is not yet physical time; it is the hyperbolic algebraic
 precursor that later readout layers may use.
 
@@ -82,7 +82,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 ## Dependencies
 
 - Previous: [Step 021 — Geometric lemniscate at ω](/corpus/construction-spine/steps/021-geometric-lemniscate-at-omega/)
-- Next: [Step 023 — Earned constants pi_tau,e_tau,j](/corpus/construction-spine/steps/023-earned-constants-pi-tau-e-tau-j/)
+- Next: [Step 023 — Earned constants π_τ,e_τ,j](/corpus/construction-spine/steps/023-earned-constants-pi-tau-e-tau-j/)
 
 ## Navigate
 

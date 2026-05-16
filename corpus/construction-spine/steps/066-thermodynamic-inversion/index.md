@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "Book V splits entropy into defect, refinement, and interaction readouts, S(n)=S_def(n)+S_ref(n)+(n), 0(n) S_def(n)."
+summary_short: "Book V splits entropy into defect, refinement, and interaction readouts, S(n)=S_def(n)+S_ref(n)+ε(n), 0≤ε(n)≤ S_def(n)."
 construction_step_id: "S066"
 construction_step_number: 66
 macro_step_id: "CS-06"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E1"
 ---
 
-> Book V splits entropy into defect, refinement, and interaction readouts, S(n)=S_def(n)+S_ref(n)+(n), 0(n) S_def(n).
+> Book V splits entropy into defect, refinement, and interaction readouts, <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi><mo>(</mo><mi>n</mi><mo>)</mo><mo>=</mo><msub><mi>S</mi><mi>def</mi></msub><mo>(</mo><mi>n</mi><mo>)</mo><mo>+</mo><msub><mi>S</mi><mi>ref</mi></msub><mo>(</mo><mi>n</mi><mo>)</mo><mo>+</mo><mi>ε</mi><mo>(</mo><mi>n</mi><mo>)</mo></math>, <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>0</mn><mo>≤</mo><mi>ε</mi><mo>(</mo><mi>n</mi><mo>)</mo><mo>≤</mo><msub><mi>S</mi><mi>def</mi></msub><mo>(</mo><mi>n</mi><mo>)</mo></math>.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -53,11 +53,11 @@ right_rail:
 
 Book V splits entropy into defect, refinement, and interaction readouts,
 
-S(n)=S_def(n)+S_ref(n)+(n),
- 0(n) S_def(n).
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi><mo>(</mo><mi>n</mi><mo>)</mo><mo>=</mo><msub><mi>S</mi><mi>def</mi></msub><mo>(</mo><mi>n</mi><mo>)</mo><mo>+</mo><msub><mi>S</mi><mi>ref</mi></msub><mo>(</mo><mi>n</mi><mo>)</mo><mo>+</mo><mi>ε</mi><mo>(</mo><mi>n</mi><mo>)</mo></math>,
+ <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>0</mn><mo>≤</mo><mi>ε</mi><mo>(</mo><mi>n</mi><mo>)</mo><mo>≤</mo><msub><mi>S</mi><mi>def</mi></msub><mo>(</mo><mi>n</mi><mo>)</mo></math>.
 
 S_def tracks unresolved carrier defects; S_ref
-tracks refinement/readout proliferation; records the bounded
+tracks refinement/readout proliferation; ε records the bounded
 cross-term between the two. The τ-native arrow points toward defect
 exhaustion and ordering, while ordinary thermodynamics reads the refinement/decay
 side of the same process. Thus thermodynamics is not simply reversed as an
@@ -86,7 +86,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 ## Dependencies
 
-- Previous: [Step 065 — Lorentzian signature from j^2=+1](/corpus/construction-spine/steps/065-lorentzian-signature-from-j-2-plus-1/)
+- Previous: [Step 065 — Lorentzian signature from j²=+1](/corpus/construction-spine/steps/065-lorentzian-signature-from-j-2-plus-1/)
 - Next: [Step 067 — Heat, temperature, vacuum, and dark-energy readout](/corpus/construction-spine/steps/067-heat-temperature-vacuum-and-dark-energy-readout/)
 
 ## Navigate

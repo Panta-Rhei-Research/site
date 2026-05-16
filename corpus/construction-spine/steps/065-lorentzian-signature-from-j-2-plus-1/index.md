@@ -1,7 +1,7 @@
 ---
 layout: "program-doc"
-title: "Step 065 — Lorentzian signature from j^2=+1"
-title_plain: "Step 065 — Lorentzian signature from j^2=+1"
+title: "Step 065 — Lorentzian signature from j²=+1"
+title_plain: "Step 065 — Lorentzian signature from j²=+1"
 permalink: "/corpus/construction-spine/steps/065-lorentzian-signature-from-j-2-plus-1/"
 lane: "corpus"
 v2_lane: "corpus"
@@ -52,7 +52,7 @@ right_rail:
 ## Construction role
 
 The Lorentzian / Minkowski signature is read from the split-complex
-hyperbolicity already earned in Book I -- II. Because j^2=+1, the carrier
+hyperbolicity already earned in Book I -- II. Because <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>j</mi><mn>2</mn></msup><mo>=</mo><mo>+</mo><mn>1</mn></math>, the carrier
 grammar carries null directions and causal cones before an external Lorentzian
 metric is imposed. Light cones are therefore the causal cones of the
 split-complex carrier readout. The remaining bridge question is physical:
@@ -61,7 +61,7 @@ regime.
 
 ## What this step earns
 
-Lorentzian signature from j^2=+1 is made addressable as Step 065 in the fine-grained Construction Spine routing layer.
+Lorentzian signature from <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>j</mi><mn>2</mn></msup><mo>=</mo><mo>+</mo><mn>1</mn></math> is made addressable as Step 065 in the fine-grained Construction Spine routing layer.
 
 ## What this step does not yet establish
 

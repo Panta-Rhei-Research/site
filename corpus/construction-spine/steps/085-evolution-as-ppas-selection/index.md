@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "Evolution is PPAS on ω-germ code space. Populations generate variants, selection verifies viability, and drift/recombination keep the search non-terminating."
+summary_short: "Evolution is PPAS on ω-germ code space."
 construction_step_id: "S085"
 construction_step_number: 85
 macro_step_id: "CS-07"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E2"
 ---
 
-> Evolution is PPAS on ω-germ code space. Populations generate variants, selection verifies viability, and drift/recombination keep the search non-terminating.
+> Evolution is PPAS on ω-germ code space.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 

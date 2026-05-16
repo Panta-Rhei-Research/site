@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "For each generator g, the expression _g(n)=ρ^n(g) is not a classification of pre-existing numbers."
+summary_short: "For each generator g, the expression φ_g(n)=ρ^n(g) is not a classification of pre-existing numbers."
 construction_step_id: "S006"
 construction_step_number: 6
 macro_step_id: "CS-01"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E0"
 ---
 
-> For each generator g, the expression _g(n)=ρ^n(g) is not a classification of pre-existing numbers.
+> For each generator g, the expression <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>φ</mi><mi>g</mi></msub><mo>(</mo><mi>n</mi><mo>)</mo><mo>=</mo><msup><mi>ρ</mi><mi>n</mi></msup><mo>(</mo><mi>g</mi><mo>)</mo></math> is not a classification of pre-existing numbers.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -51,7 +51,7 @@ right_rail:
 
 ## Construction role
 
-For each generator g, the expression _g(n)=ρ^n(g) is not a classification of pre-existing numbers. It is the generated count itself: the n-th finite application of ρ along an orbit. Counting therefore appears first as constructive depth, not as imported , and it must be kept separate from later calculation inside earned algebraic structures. The metalanguage may index this process by n, but the τ-object is the generated orbit position.
+For each generator g, the expression <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>φ</mi><mi>g</mi></msub><mo>(</mo><mi>n</mi><mo>)</mo><mo>=</mo><msup><mi>ρ</mi><mi>n</mi></msup><mo>(</mo><mi>g</mi><mo>)</mo></math> is not a classification of pre-existing numbers. It is the generated count itself: the n-th finite application of ρ along an orbit. Counting therefore appears first as constructive depth, not as imported ℕ, and it must be kept separate from later calculation inside earned algebraic structures. The metalanguage may index this process by n, but the τ-object is the generated orbit position.
 
 ## What this step earns
 

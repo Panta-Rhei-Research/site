@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "Address geometry is made global by hyperfactorization. Every X≥ 2 receives a unique decomposition X=((A↑↑ C)^B) D as a tower atom T(A,B,C)=(A↑↑ C)^B multiplied by a residual D."
+summary_short: "Address geometry is made global by hyperfactorization."
 construction_step_id: "S009"
 construction_step_number: 9
 macro_step_id: "CS-01"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E0"
 ---
 
-> Address geometry is made global by hyperfactorization. Every X≥ 2 receives a unique decomposition X=((A↑↑ C)^B) D as a tower atom T(A,B,C)=(A↑↑ C)^B multiplied by a residual D.
+> Address geometry is made global by hyperfactorization.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -53,7 +53,7 @@ right_rail:
 
 Address geometry is made global by hyperfactorization. Every X≥ 2 receives a unique decomposition X=((A↑↑ C)^B) D as a tower atom T(A,B,C)=(A↑↑ C)^B multiplied by a residual D. At this point divisibility and internal primality have already been earned. In the τ-statement, A is the largest internal prime atom (under idx, the largest prime divisor of X), C is the maximal tetration height of the A-tower factor, B is the residual tower exponent, and D has only internal prime factors strictly less than A. The resulting ABCD chart, written in later scalar notation as
 
-:_≥ 2 to ×_≥ 1^3,
+:ℕ_≥ 2 to P×ℕ_≥ 1^3,
 
 is injective and turns arithmetic objects into typed global addresses. This prevents number from collapsing into a flat additive/multiplicative background and preserves the tower structure needed for boundary polarity downstream.
 

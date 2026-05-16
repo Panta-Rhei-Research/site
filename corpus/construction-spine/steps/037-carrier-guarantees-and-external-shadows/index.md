@@ -60,7 +60,7 @@ Discrete Force supplies gap/discreteness (Yang -- Mills shadow). Legible Force
 supplies sector addressability (Hodge shadow). Codable Force supplies rational
 proto-code addressability (BSD shadow). Coherent Force supplies functorial
 automorphic/Galois gluing (Langlands shadow). Predictive Force is the carrier's
-forward export condition; its full P vs NP / E_1 to E_2 reading is
+forward export condition; its full P vs NP / <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> to <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>2</mi></msub></math> reading is
 deferred. The framework does not claim externally settled Clay-valid resolutions
 of these problems; their names mark the external shadows of τ-internal
 construction obligations with explicit bridge gaps. The bridge ledger still

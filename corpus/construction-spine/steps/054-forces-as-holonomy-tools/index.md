@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "sectors are not primitive actors. Electromagnetism is the B-sector U(1)-curvature / boundary-transport grammar on the lemniscate topology; the weak sector is the A-sector junction-orientation / chirality grammar; the ω-mediator supplies the Higgs/mass cross..."
+summary_short: "The gauge sectors are not primitive actors."
 construction_step_id: "S054"
 construction_step_number: 54
 macro_step_id: "CS-05"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E1"
 ---
 
-> sectors are not primitive actors. Electromagnetism is the B-sector U(1)-curvature / boundary-transport grammar on the lemniscate topology; the weak sector is the A-sector junction-orientation / chirality grammar; the ω-mediator supplies the Higgs/mass cross...
+> The gauge sectors are not primitive actors.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -55,7 +55,7 @@ The gauge sectors are not primitive actors. Electromagnetism is the B-sector
 U(1)-curvature / boundary-transport grammar on the lemniscate topology;
 the weak sector is the A-sector junction-orientation / chirality grammar; the
 ω-mediator supplies the Higgs/mass crossing. The coupling readouts are
-functions of iota_tau and sector depth, not independent knobs. These
+functions of <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>ι</mi><mi>τ</mi></msub></math> and sector depth, not independent knobs. These
 structures are tools by which the carrier organizes defect regimes, not forces
 added to a stage.
 

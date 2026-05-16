@@ -54,7 +54,7 @@ right_rail:
 Once the sector template is in place, inter-sector couplings are no longer free
 dials. At each primorial depth M_d, the coupling
 
-κ(Sector_i,Sector_j)=f_ij(iota_tau,M_d)
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>κ</mi><mo>(</mo><msub><mi>Sector</mi><mi>i</mi></msub><mo>,</mo><msub><mi>Sector</mi><mi>j</mi></msub><mo>)</mo><mo>=</mo><msub><mi>f</mi><mi>ij</mi></msub><mo>(</mo><msub><mi>ι</mi><mi>τ</mi></msub><mo>,</mo><msub><mi>M</mi><mi>d</mi></msub><mo>)</mo></math>
 
 is canonically determined by the master constant and the depth data. The scope
 is intentionally narrow in this compact note: Book III's No Knobs covers the

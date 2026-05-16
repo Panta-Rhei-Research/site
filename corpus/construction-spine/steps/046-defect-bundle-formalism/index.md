@@ -55,7 +55,7 @@ A physical entity is defined as a localized persistent defect bundle: a stable,
 structured deviation from the vacuum torus / carrier state. The defect bundle
 is the constructive replacement for "particle on a stage". Its persistence is
 not postulated externally; it is the preservation of address, holonomy, charge,
-mass, spin, and transport invariants under the admissible E_1 readout. A
+mass, spin, and transport invariants under the admissible <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>1</mi></msub></math> readout. A
 particle kind is therefore an equivalence class of stable defect-bundle
 realizations, not a numerically identical substrate piece.
 
@@ -81,7 +81,7 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 ## Dependencies
 
-- Previous: [Step 045 — Self-description on the T^2 fiber](/corpus/construction-spine/steps/045-self-description-on-the-t-2-fiber/)
+- Previous: [Step 045 — Self-description on the T² fiber](/corpus/construction-spine/steps/045-self-description-on-the-t-2-fiber/)
 - Next: [Step 047 — Photon as null transport](/corpus/construction-spine/steps/047-photon-as-null-transport/)
 
 ## Navigate

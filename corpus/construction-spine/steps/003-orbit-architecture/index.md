@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "Applying ρ to the non-ω generators produces exactly four generated rays O_α,\\,O_π,\\,O_γ,\\,O_η together with the singleton/fixed boundary \\ω\\."
+summary_short: "Applying ρ to the non-ω generators produces exactly four generated rays O_α, O_π, O_γ, O_η together with the singleton/fixed boundary ω."
 construction_step_id: "S003"
 construction_step_number: 3
 macro_step_id: "CS-01"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E0"
 ---
 
-> Applying ρ to the non-ω generators produces exactly four generated rays O_α,\,O_π,\,O_γ,\,O_η together with the singleton/fixed boundary \ω\.
+> Applying ρ to the non-ω generators produces exactly four generated rays O_α, O_π, O_γ, O_η together with the singleton/fixed boundary ω.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -51,7 +51,7 @@ right_rail:
 
 ## Construction role
 
-Applying ρ to the non-ω generators produces exactly four generated rays O_α,\,O_π,\,O_γ,\,O_η together with the singleton/fixed boundary \ω\. K5 supplies the diagonal discipline: no finite iteration on a non-ω generator reaches ω. The result is a linear-symbolic universe with four finite-directional channels and one boundary absorber: enough generated directionality to avoid under-generation, but enough diagonal discipline to prevent unrestricted self-collapse. The diagonal discipline maps structurally onto Girard's !-free linear logic.
+Applying ρ to the non-ω generators produces exactly four generated rays O_α, O_π, O_γ, O_η together with the singleton/fixed boundary ω. K5 supplies the diagonal discipline: no finite iteration on a non-ω generator reaches ω. The result is a linear-symbolic universe with four finite-directional channels and one boundary absorber: enough generated directionality to avoid under-generation, but enough diagonal discipline to prevent unrestricted self-collapse. The diagonal discipline maps structurally onto Girard's !-free linear logic.
 
 ## What this step earns
 

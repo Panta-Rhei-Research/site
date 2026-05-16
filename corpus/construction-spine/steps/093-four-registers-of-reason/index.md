@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "E3 reflection does not yield undifferentiated thought. It yields typed content in four registers: empirical, practical, diagrammatic, and commitment."
+summary_short: "E3 reflection does not yield undifferentiated thought."
 construction_step_id: "S093"
 construction_step_number: 93
 macro_step_id: "CS-08"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E3"
 ---
 
-> E3 reflection does not yield undifferentiated thought. It yields typed content in four registers: empirical, practical, diagrammatic, and commitment.
+> E3 reflection does not yield undifferentiated thought.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 

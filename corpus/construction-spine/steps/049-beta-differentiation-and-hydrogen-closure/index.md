@@ -55,7 +55,7 @@ Beta decay is the weak-sector rearrangement of the neutron regime, not the
 breakup of an already ordinary particle into independent primitive actors. It
 generates the proton, electron, and neutrino readouts: the proton is the residual
 bulk/core mode of the neutron regime, the electron is the corresponding
-surface/co-rotor mode, and the τ^1 time-mode, carrying the beta-minus
+surface/co-rotor mode, and the <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>1</mn></msup></math> time-mode, carrying the beta-minus
 antineutrino label before the Majorana/helicity readout of Step 50, is emitted
 along the base direction. Hydrogen is then the first stable coupled proton -- electron
 unit: the first atomic co-rotor regime rather than a mere aggregate of two

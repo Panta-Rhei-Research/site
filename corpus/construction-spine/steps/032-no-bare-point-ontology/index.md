@@ -8,7 +8,7 @@ v2_lane: "corpus"
 section: "construction-spine"
 type: "Construction Step"
 status: "Scaffolded"
-summary_short: "Physical points are not primitive E_0-atoms and not coordinate tuples of τ^3. Either move would re-import the Cartesian point ontology that the construction has refused from the start."
+summary_short: "Physical points are not primitive E₀-atoms and not coordinate tuples of τ³."
 construction_step_id: "S032"
 construction_step_number: 32
 macro_step_id: "CS-04"
@@ -40,7 +40,7 @@ right_rail:
     layer: "E1"
 ---
 
-> Physical points are not primitive E_0-atoms and not coordinate tuples of τ^3. Either move would re-import the Cartesian point ontology that the construction has refused from the start.
+> Physical points are not primitive <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>0</mi></msub></math>-atoms and not coordinate tuples of <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>3</mn></msup></math>.
 
 <div class="notice note"><strong>100-step ledger status.</strong> This page is scaffolded from the Full Construction Spine RC3 whitepaper. Whitepaper source anchors are present; deeper manuscript, Registry, and TauLib anchors are intentionally marked pending until the source-map extraction pass promotes them.</div>
 
@@ -51,8 +51,8 @@ right_rail:
 
 ## Construction role
 
-Physical points are not primitive E_0-atoms and not coordinate tuples of
-τ^3. Either move would re-import the Cartesian point ontology that the
+Physical points are not primitive <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>0</mi></msub></math>-atoms and not coordinate tuples of
+<math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>τ</mi><mn>3</mn></msup></math>. Either move would re-import the Cartesian point ontology that the
 construction has refused from the start. A physical site must instead be earned
 from relational structure internal to τ. This refusal is constructive:
 it forces Book III to identify a localization object that carries boundary,
@@ -81,8 +81,8 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 ## Dependencies
 
-- Previous: [Step 031 — E_0 is not yet physics](/corpus/construction-spine/steps/031-e0-is-not-yet-physics/)
-- Next: [Step 033 — E_1 hom-object loci](/corpus/construction-spine/steps/033-e1-hom-object-loci/)
+- Previous: [Step 031 — E₀ is not yet physics](/corpus/construction-spine/steps/031-e0-is-not-yet-physics/)
+- Next: [Step 033 — E₁ hom-object loci](/corpus/construction-spine/steps/033-e1-hom-object-loci/)
 
 ## Navigate
 
