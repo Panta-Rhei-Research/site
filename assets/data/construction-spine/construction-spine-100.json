@@ -49,6 +49,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/001-non-import-discipline/",
       "macro_step": "/corpus/construction-spine/build-the-kernel/",
@@ -119,6 +125,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/002-coherence-kernel/",
       "macro_step": "/corpus/construction-spine/build-the-kernel/",
@@ -189,6 +201,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/003-orbit-architecture/",
       "macro_step": "/corpus/construction-spine/build-the-kernel/",
@@ -261,6 +279,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/004-four-block-order-readout/",
       "macro_step": "/corpus/construction-spine/build-the-kernel/",
@@ -331,6 +355,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/005-nonredundant-fold-strata/",
       "macro_step": "/corpus/construction-spine/build-the-kernel/",
@@ -401,6 +431,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/006-counting-as-construction/",
       "macro_step": "/corpus/construction-spine/build-the-kernel/",
@@ -471,6 +507,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/007-iterator-ladder/",
       "macro_step": "/corpus/construction-spine/build-the-kernel/",
@@ -542,6 +584,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/008-address-resolution-not-calculation/",
       "macro_step": "/corpus/construction-spine/build-the-kernel/",
@@ -614,6 +662,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/009-hyperfactorization-and-abcd-chart/",
       "macro_step": "/corpus/construction-spine/build-the-kernel/",
@@ -685,6 +739,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/010-prime-polarity/",
       "macro_step": "/corpus/construction-spine/build-the-kernel/",
@@ -755,6 +815,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/011-internal-set-theory/",
       "macro_step": "/corpus/construction-spine/build-the-kernel/",
@@ -825,6 +891,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/012-split-complex-boundary-algebra/",
       "macro_step": "/corpus/construction-spine/build-the-kernel/",
@@ -895,6 +967,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/013-tau-holomorphy-as-omega-germ-transformer/",
       "macro_step": "/corpus/construction-spine/build-the-kernel/",
@@ -965,6 +1043,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/014-four-valued-tau-topos/",
       "macro_step": "/corpus/construction-spine/build-the-kernel/",
@@ -1035,6 +1119,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/015-lemniscate-characters/",
       "macro_step": "/corpus/construction-spine/build-the-kernel/",
@@ -1105,6 +1195,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/016-global-hartogs/",
       "macro_step": "/corpus/construction-spine/build-the-kernel/",
@@ -1175,6 +1271,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/017-boundary-first-inversion/",
       "macro_step": "/corpus/construction-spine/recover-core-mathematics/",
@@ -1249,6 +1351,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/018-tau-3-as-geometric-readout-tau-1-x-f-t-2/",
       "macro_step": "/corpus/construction-spine/recover-core-mathematics/",
@@ -1320,6 +1428,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/019-cylinders-and-ultrametric-topology/",
       "macro_step": "/corpus/construction-spine/recover-core-mathematics/",
@@ -1390,6 +1504,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/020-stone-profinite-shape-and-two-readout-principle/",
       "macro_step": "/corpus/construction-spine/recover-core-mathematics/",
@@ -1460,6 +1580,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/021-geometric-lemniscate-at-omega/",
       "macro_step": "/corpus/construction-spine/recover-core-mathematics/",
@@ -1530,6 +1656,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/022-tarski-geometry-and-wave-type-causal-precursor/",
       "macro_step": "/corpus/construction-spine/recover-core-mathematics/",
@@ -1606,6 +1738,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/023-earned-constants-pi-tau-e-tau-j/",
       "macro_step": "/corpus/construction-spine/recover-core-mathematics/",
@@ -1681,6 +1819,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/024-master-constant-iota-tau/",
       "macro_step": "/corpus/construction-spine/recover-core-mathematics/",
@@ -1751,6 +1895,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/025-local-hartogs-and-mutual-determination/",
       "macro_step": "/corpus/construction-spine/recover-core-mathematics/",
@@ -1821,6 +1971,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/026-regularity-and-finite-spectral-support/",
       "macro_step": "/corpus/construction-spine/recover-core-mathematics/",
@@ -1891,6 +2047,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/027-sheaf-coherence-self-enrichment-yoneda/",
       "macro_step": "/corpus/construction-spine/internalize-self-enrichment/",
@@ -1962,6 +2124,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/028-central-theorem-route/",
       "macro_step": "/corpus/construction-spine/internalize-self-enrichment/",
@@ -2033,6 +2201,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/029-tau-manifold-and-book-iii-handoff/",
       "macro_step": "/corpus/construction-spine/internalize-self-enrichment/",
@@ -2103,6 +2277,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/030-kernel-minimality-and-categoricity/",
       "macro_step": "/corpus/construction-spine/internalize-self-enrichment/",
@@ -2173,6 +2353,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/031-e0-is-not-yet-physics/",
       "macro_step": "/corpus/construction-spine/identify-physical-carrier/",
@@ -2243,6 +2429,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/032-no-bare-point-ontology/",
       "macro_step": "/corpus/construction-spine/identify-physical-carrier/",
@@ -2314,6 +2506,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/033-e1-hom-object-loci/",
       "macro_step": "/corpus/construction-spine/identify-physical-carrier/",
@@ -2386,6 +2584,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/034-central-theorem-constraint-on-physical-loci/",
       "macro_step": "/corpus/construction-spine/identify-physical-carrier/",
@@ -2457,6 +2661,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/035-hartogs-bulk-projection/",
       "macro_step": "/corpus/construction-spine/identify-physical-carrier/",
@@ -2527,6 +2737,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/036-local-to-global-gluing-burden/",
       "macro_step": "/corpus/construction-spine/identify-physical-carrier/",
@@ -2597,6 +2813,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/037-carrier-guarantees-and-external-shadows/",
       "macro_step": "/corpus/construction-spine/identify-physical-carrier/",
@@ -2667,6 +2889,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/038-global-cartesian-gluing-and-decompactification/",
       "macro_step": "/corpus/construction-spine/identify-physical-carrier/",
@@ -2737,6 +2965,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/039-3-plus-1-spacetime-signature/",
       "macro_step": "/corpus/construction-spine/identify-physical-carrier/",
@@ -2807,6 +3041,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/040-4-plus-1-sector-template/",
       "macro_step": "/corpus/construction-spine/identify-physical-carrier/",
@@ -2878,6 +3118,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/041-no-knobs-principle/",
       "macro_step": "/corpus/construction-spine/identify-physical-carrier/",
@@ -2949,6 +3195,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/042-hinge-theorem-export/",
       "macro_step": "/corpus/construction-spine/identify-physical-carrier/",
@@ -3019,6 +3271,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/043-layered-equivalence/",
       "macro_step": "/corpus/construction-spine/recover-internal-physical-grammar/",
@@ -3089,6 +3347,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/044-no-stage-actor-split/",
       "macro_step": "/corpus/construction-spine/recover-internal-physical-grammar/",
@@ -3159,6 +3423,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/045-self-description-on-the-t-2-fiber/",
       "macro_step": "/corpus/construction-spine/recover-internal-physical-grammar/",
@@ -3229,6 +3499,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/046-defect-bundle-formalism/",
       "macro_step": "/corpus/construction-spine/recover-internal-physical-grammar/",
@@ -3299,6 +3575,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/047-photon-as-null-transport/",
       "macro_step": "/corpus/construction-spine/recover-internal-physical-grammar/",
@@ -3370,6 +3652,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/048-neutron-as-minimal-stable-defect/",
       "macro_step": "/corpus/construction-spine/recover-internal-physical-grammar/",
@@ -3442,6 +3730,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/049-beta-differentiation-and-hydrogen-closure/",
       "macro_step": "/corpus/construction-spine/recover-internal-physical-grammar/",
@@ -3514,6 +3808,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/050-neutrino-ontology-and-majorana-readout/",
       "macro_step": "/corpus/construction-spine/recover-internal-physical-grammar/",
@@ -3586,6 +3886,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/051-quantum-mechanics-as-cr-address-obstruction/",
       "macro_step": "/corpus/construction-spine/recover-internal-physical-grammar/",
@@ -3657,6 +3963,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/052-uncertainty-as-geometric-obstruction/",
       "macro_step": "/corpus/construction-spine/recover-internal-physical-grammar/",
@@ -3727,6 +4039,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/053-physical-quantity-semantics/",
       "macro_step": "/corpus/construction-spine/recover-internal-physical-grammar/",
@@ -3798,6 +4116,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/054-forces-as-holonomy-tools/",
       "macro_step": "/corpus/construction-spine/recover-internal-physical-grammar/",
@@ -3869,6 +4193,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/055-confinement-as-address-irresolvability/",
       "macro_step": "/corpus/construction-spine/recover-internal-physical-grammar/",
@@ -3940,6 +4270,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/056-three-generations-from-topology/",
       "macro_step": "/corpus/construction-spine/recover-internal-physical-grammar/",
@@ -4011,6 +4347,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/057-sector-atlas-masses-nuclei/",
       "macro_step": "/corpus/construction-spine/recover-internal-physical-grammar/",
@@ -4081,6 +4423,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/058-book-iv-closure-coupling-ledger-and-microcosm-completion/",
       "macro_step": "/corpus/construction-spine/measurement-empirical-bridges/",
@@ -4151,6 +4499,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/059-fiber-base-completion/",
       "macro_step": "/corpus/construction-spine/measurement-empirical-bridges/",
@@ -4221,6 +4575,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/060-proto-time-to-proper-time/",
       "macro_step": "/corpus/construction-spine/measurement-empirical-bridges/",
@@ -4291,6 +4651,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/061-causality-worldlines-and-null-exchange-distance/",
       "macro_step": "/corpus/construction-spine/measurement-empirical-bridges/",
@@ -4361,6 +4727,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/062-redshift-and-hubble-readout/",
       "macro_step": "/corpus/construction-spine/measurement-empirical-bridges/",
@@ -4432,6 +4804,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/063-gravity-as-frame-holonomy/",
       "macro_step": "/corpus/construction-spine/measurement-empirical-bridges/",
@@ -4507,6 +4885,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/064-tau-einstein-identity/",
       "macro_step": "/corpus/construction-spine/measurement-empirical-bridges/",
@@ -4582,6 +4966,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/065-lorentzian-signature-from-j-2-plus-1/",
       "macro_step": "/corpus/construction-spine/measurement-empirical-bridges/",
@@ -4654,6 +5044,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/066-thermodynamic-inversion/",
       "macro_step": "/corpus/construction-spine/measurement-empirical-bridges/",
@@ -4726,6 +5122,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/067-heat-temperature-vacuum-and-dark-energy-readout/",
       "macro_step": "/corpus/construction-spine/measurement-empirical-bridges/",
@@ -4798,6 +5200,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/068-macro-defect-lift-and-collective-dynamics/",
       "macro_step": "/corpus/construction-spine/measurement-empirical-bridges/",
@@ -4870,6 +5278,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/069-macro-regularity-turbulence-and-charge-flux/",
       "macro_step": "/corpus/construction-spine/measurement-empirical-bridges/",
@@ -4941,6 +5355,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/070-classical-mechanics-as-coarse-readout/",
       "macro_step": "/corpus/construction-spine/measurement-empirical-bridges/",
@@ -5012,6 +5432,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/071-galaxies-rotation-curves-and-compact-objects/",
       "macro_step": "/corpus/construction-spine/measurement-empirical-bridges/",
@@ -5084,6 +5510,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/072-black-holes-as-topological-channel-openings/",
       "macro_step": "/corpus/construction-spine/measurement-empirical-bridges/",
@@ -5156,6 +5588,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/073-cosmic-web-as-wilson-loop-carrier-channels/",
       "macro_step": "/corpus/construction-spine/measurement-empirical-bridges/",
@@ -5228,6 +5666,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/074-big-bang-threshold-ladder-and-endstate/",
       "macro_step": "/corpus/construction-spine/measurement-empirical-bridges/",
@@ -5300,6 +5744,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/075-book-v-late-stage-synthesis-and-macrocosm-export-surface/",
       "macro_step": "/corpus/construction-spine/measurement-empirical-bridges/",
@@ -5371,6 +5821,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/076-e1-physics-complete/",
       "macro_step": "/corpus/construction-spine/measurement-empirical-bridges/",
@@ -5443,6 +5899,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/077-e1-to-e2-life-as-predicate-layer/",
       "macro_step": "/corpus/construction-spine/recover-life/",
@@ -5513,6 +5975,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/078-distinction-plus-selfdesc/",
       "macro_step": "/corpus/construction-spine/recover-life/",
@@ -5583,6 +6051,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/079-layer-separation-from-physics/",
       "macro_step": "/corpus/construction-spine/recover-life/",
@@ -5653,6 +6127,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/080-life-loop-and-metabolic-closure/",
       "macro_step": "/corpus/construction-spine/recover-life/",
@@ -5723,6 +6203,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/081-boundary-and-energy-coupling/",
       "macro_step": "/corpus/construction-spine/recover-life/",
@@ -5793,6 +6279,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/082-code-genotype-and-heredity/",
       "macro_step": "/corpus/construction-spine/recover-life/",
@@ -5863,6 +6355,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/083-replication-development-and-morphogenesis/",
       "macro_step": "/corpus/construction-spine/recover-life/",
@@ -5933,6 +6431,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/084-4-plus-1-life-sector-template/",
       "macro_step": "/corpus/construction-spine/recover-life/",
@@ -6003,6 +6507,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/085-evolution-as-ppas-selection/",
       "macro_step": "/corpus/construction-spine/recover-life/",
@@ -6073,6 +6583,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/086-immunity-and-species-boundaries/",
       "macro_step": "/corpus/construction-spine/recover-life/",
@@ -6143,6 +6659,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/087-neural-bridge-to-self-modeling/",
       "macro_step": "/corpus/construction-spine/recover-life/",
@@ -6213,6 +6735,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/088-structural-self-modeling-boundary/",
       "macro_step": "/corpus/construction-spine/recover-life/",
@@ -6283,6 +6811,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/089-language-as-extended-lemniscate/",
       "macro_step": "/corpus/construction-spine/recover-life/",
@@ -6355,6 +6889,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/090-e2-export-to-e3/",
       "macro_step": "/corpus/construction-spine/recover-life/",
@@ -6427,6 +6967,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/091-e2-to-e3-reflective-structure/",
       "macro_step": "/corpus/construction-spine/recover-reflective-structure/",
@@ -6497,6 +7043,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/092-metadecode-and-selfdesc-of-selfdesc/",
       "macro_step": "/corpus/construction-spine/recover-reflective-structure/",
@@ -6567,6 +7119,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/093-four-registers-of-reason/",
       "macro_step": "/corpus/construction-spine/recover-reflective-structure/",
@@ -6637,6 +7195,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/094-reflective-4-plus-1-register-template/",
       "macro_step": "/corpus/construction-spine/recover-reflective-structure/",
@@ -6708,6 +7272,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/095-formal-systems-as-represented-objects/",
       "macro_step": "/corpus/construction-spine/self-host-formal-systems/",
@@ -6780,6 +7350,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/096-godel-and-halting-boundary/",
       "macro_step": "/corpus/construction-spine/self-host-formal-systems/",
@@ -6851,6 +7427,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/097-language-meaning-and-proof-arc/",
       "macro_step": "/corpus/construction-spine/self-host-formal-systems/",
@@ -6921,6 +7503,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/098-logic-inference-and-truth-at-reflective-scale/",
       "macro_step": "/corpus/construction-spine/test-ontic-closure/",
@@ -6991,6 +7579,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/099-mind-consciousness-and-commitment-access/",
       "macro_step": "/corpus/construction-spine/test-ontic-closure/",
@@ -7059,6 +7653,12 @@
     ],
     "registry_items": [],
     "taulib_modules": [],
+    "anchor_status": {
+      "whitepaper": "resolved",
+      "manuscript": "manuscript-pending",
+      "registry": "registry-pending",
+      "taulib": "taulib-pending"
+    },
     "routes": {
       "canonical": "/corpus/construction-spine/steps/100-logos-boundary-and-ontic-closure-burden/",
       "macro_step": "/corpus/construction-spine/test-ontic-closure/",

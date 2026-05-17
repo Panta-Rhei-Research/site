@@ -78,6 +78,8 @@ This route exposes the RC3 construction step for inspection. It does not by itse
 
 **Manuscript extraction state:** Detailed source anchors pending extraction.
 
+**Anchor classification:** whitepaper source resolved; manuscript extraction pending; Registry extraction pending; TauLib extraction pending.
+
 ## Formalization and verification
 
 **Registry links:** _Registry extraction pending._
