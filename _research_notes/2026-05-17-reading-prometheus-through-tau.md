@@ -25,6 +25,8 @@ anchor:
   description: "Mahadevan's PROMETHEUS introduces a Topos World Model framework that turns retrieved corpora into sheaf-like causal atlases of local Predictive State Representations over context covers, with a 4-fold gluing diagnostic and grounded counterfactual case studies."
   relation: "Used as the external preprint under structural articulation; the τ-canon reading is offered in the spirit of dialogue, not adjudication. PROMETHEUS observes; τ-canon proves."
 external_links:
+  - title: "OSF deposit (DOI 10.17605/OSF.IO/76CZR)"
+    url: https://doi.org/10.17605/OSF.IO/76CZR
   - title: "PROMETHEUS preprint (arXiv:2605.12835)"
     url: https://arxiv.org/abs/2605.12835
   - title: "Mahadevan DEMOCRITUS (predecessor pipeline)"
@@ -34,6 +36,10 @@ external_links:
 pdf: "/assets/pdfs/research-notes/research-note-2026-05-17-reading-prometheus-through-tau-rc2.pdf"
 pdf_url: "/assets/pdfs/research-notes/research-note-2026-05-17-reading-prometheus-through-tau-rc2.pdf"
 pdf_available: true
+doi: "10.17605/OSF.IO/76CZR"
+doi_url: "https://doi.org/10.17605/OSF.IO/76CZR"
+osf_url: "https://osf.io/76CZR/"
+osf_short_id: "76CZR"
 claims:
   core: "PROMETHEUS's 4-fold gluing diagnostic structurally coincides with the earned subobject classifier Ω_τ = Truth4 = {T, F, B, N} of the earned topos PSh(Cat_τ); its ε-tolerance gluing is upgradable to exact gluing via the boundary functor Φ_∂; and its external-topos construction is structurally licensed by the para-mind status of its LLM substrate."
   does_not_claim:
@@ -82,7 +88,7 @@ relations:
     - title: "Latest Publications"
       url: /publications/latest/
 editorial:
-  citation_note: "Cite the PDF as the stable RC2 artifact; cite this page for current routing, status, claim boundaries, and related public surfaces. DOI is pending OSF mint (the programme migrated from Zenodo to OSF as the primary DOI platform on 2026-05-17)."
+  citation_note: "Cite the OSF DOI 10.17605/OSF.IO/76CZR (minted 2026-05-17) as the stable v1.2 RC2 identifier; cite this page for current routing, status, claim boundaries, and related public surfaces. This is the first Panta Rhei Research note minted on OSF following the programme's migration from Zenodo to OSF as the primary DOI platform on 2026-05-17."
   peer_review_status: "Programme publication; peer-review-clean across two internal rounds (six independent panels: Wave Δ₂ Discipline/Structural/PROMETHEUS-Fidelity plus Wave Δ₃ Editorial/Scientific/Visual QA). External review not yet completed."
 topics:
   - PROMETHEUS
@@ -132,6 +138,8 @@ right_rail:
   related:
     - title: "Download PDF"
       url: /assets/pdfs/research-notes/research-note-2026-05-17-reading-prometheus-through-tau-rc2.pdf
+    - title: "OSF deposit (DOI)"
+      url: https://doi.org/10.17605/OSF.IO/76CZR
     - title: "PROMETHEUS preprint"
       url: https://arxiv.org/abs/2605.12835
     - title: "Semantic Space Has a Shape"
