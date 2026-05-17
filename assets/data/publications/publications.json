@@ -1503,9 +1503,9 @@
       "source_website_asset_path": "site/assets/pdfs/research-notes/research-note-2026-05-17-natarajan-cluster-dichotomy-categorical.pdf"
     },
     "identifiers": {
-      "doi": "10.5281/zenodo.20251191",
-      "doi_url": "https://doi.org/10.5281/zenodo.20251191",
-      "zenodo_url": "https://zenodo.org/records/20251191",
+      "doi": "10.17605/OSF.IO/BFRX3",
+      "doi_url": "https://doi.org/10.17605/OSF.IO/BFRX3",
+      "zenodo_url": "https://osf.io/BFRX3/",
       "isbn_13": "",
       "asin": ""
     },
@@ -1515,8 +1515,8 @@
         "url": "https://doi.org/10.3847/2041-8213/ae53ea"
       },
       {
-        "label": "Zenodo deposit v1.0",
-        "url": "https://doi.org/10.5281/zenodo.20251191"
+        "label": "OSF deposit v1.0",
+        "url": "https://doi.org/10.17605/OSF.IO/BFRX3"
       },
       {
         "label": "KSZ-categorical companion",
@@ -1571,7 +1571,7 @@
       ]
     },
     "citation": {
-      "preferred": "Fuchs, T., Fuchs, A.-S., 2026, \"The Natarajan Dichotomy as One D-Sector Readout in Two Regimes: A tau-Categorical Pre-Registration against the Natarajan, Chiang and Dutra (2026) Multiscale Cluster-Lensing CDM Crisis\", Panta Rhei Research Program, RN-032, doi:10.5281/zenodo.20251191.",
+      "preferred": "Fuchs, T., Fuchs, A.-S., 2026, \"The Natarajan Dichotomy as One D-Sector Readout in Two Regimes: A tau-Categorical Pre-Registration against the Natarajan, Chiang and Dutra (2026) Multiscale Cluster-Lensing CDM Crisis\", Panta Rhei Research Program, RN-032, doi:10.17605/OSF.IO/BFRX3.",
       "bibtex_key": "FuchsNatarajanDichotomyTauCategorical2026"
     },
     "scholar": {
@@ -1583,13 +1583,13 @@
       ],
       "citation_publication_date": "2026/05/17",
       "citation_pdf_url": "https://panta-rhei.site/assets/pdfs/research-notes/research-note-2026-05-17-natarajan-cluster-dichotomy-categorical.pdf",
-      "citation_doi": "10.5281/zenodo.20251191",
+      "citation_doi": "10.17605/OSF.IO/BFRX3",
       "citation_technical_report_institution": "Panta Rhei Research Program"
     },
     "integrity": {
-      "bytes": 204221,
-      "sha256": "8a77968fe1f117fced0085034060045bd02fa1e5cea6c4af42ec0e850df3295c",
-      "sha512": "9dca46c1a59cdc66c0c517298f104e6630e63e30d705f9c4e393ff00e55e976118aaea713fd581b22e46c0a35d09cba9af448c863714f936b7eda2e7bda43d58",
+      "bytes": 204005,
+      "sha256": "5c071652381341c820fc81e6a7fc864f54f7d29c935a98d322b4c14dc4f70a69",
+      "sha512": "4773845214abd97f8d2690446256d50c3b48c7668d99cfbfe0333519f78ff0fc27cdc8ef92bde146ca58b27403d2ce50ccbc08aec4906ceb905810b7309303f3",
       "ots_status": "missing"
     },
     "metadata_sources": {

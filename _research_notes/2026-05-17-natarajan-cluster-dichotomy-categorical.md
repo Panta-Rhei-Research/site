@@ -26,16 +26,16 @@ anchor:
 external_links:
   - title: "Natarajan, Chiang & Dutra 2026 (ApJL 1001, L12)"
     url: https://doi.org/10.3847/2041-8213/ae53ea
-  - title: "Zenodo deposit (v1.0)"
-    url: https://doi.org/10.5281/zenodo.20251191
+  - title: "OSF deposit (v1.0)"
+    url: https://doi.org/10.17605/OSF.IO/BFRX3
   - title: "KSZ-categorical companion note"
     url: /publications/research-notes/dark-matter-without-dark-matter-ksz-force-law/
 pdf: "/assets/pdfs/research-notes/research-note-2026-05-17-natarajan-cluster-dichotomy-categorical.pdf"
 pdf_url: "/assets/pdfs/research-notes/research-note-2026-05-17-natarajan-cluster-dichotomy-categorical.pdf"
 pdf_available: true
-doi: "10.5281/zenodo.20251191"
-doi_url: "https://doi.org/10.5281/zenodo.20251191"
-zenodo_url: "https://zenodo.org/records/20251191"
+doi: "10.17605/OSF.IO/BFRX3"
+doi_url: "https://doi.org/10.17605/OSF.IO/BFRX3"
+osf_url: "https://osf.io/BFRX3/"
 claims:
   core: "The Natarajan dichotomy is a regime-projection of one D-sector readout — inner M∂(R) number-promotion at the host nodal-capacity maximum, outer Newtonian-limit truncation via V.D261 cluster-screening — governed by a single transition scale ℓ_cl,sub(M_sub) = √(GM_sub/a₀)."
   does_not_claim:
@@ -88,7 +88,7 @@ relations:
     - title: "Anchor paper (Natarajan+2026)"
       url: https://doi.org/10.3847/2041-8213/ae53ea
 editorial:
-  citation_note: "Cite the Zenodo DOI 10.5281/zenodo.20251191 for the v1.0 artifact; cite this page for current routing, status, claim boundaries, and related public surfaces."
+  citation_note: "Cite the OSF DOI 10.17605/OSF.IO/BFRX3 for the v1.0 artifact; cite this page for current routing, status, claim boundaries, and related public surfaces."
   peer_review_status: "Five-referee internal peer-review panel completed (cluster-lensing observational, theoretical cosmologist, SIDM microphysics, statistical/methodological, editor + recipient-perspective). All five converged on MINOR REVISIONS / SEND-AFTER-MINOR-FIXES; revisions applied prior to deposit. External peer review not yet completed."
 topics:
   - cluster lensing
@@ -134,8 +134,8 @@ right_rail:
   related:
     - title: "Download PDF"
       url: /assets/pdfs/research-notes/research-note-2026-05-17-natarajan-cluster-dichotomy-categorical.pdf
-    - title: "Zenodo DOI"
-      url: https://doi.org/10.5281/zenodo.20251191
+    - title: "OSF DOI"
+      url: https://doi.org/10.17605/OSF.IO/BFRX3
     - title: "Anchor paper (Natarajan+2026)"
       url: https://doi.org/10.3847/2041-8213/ae53ea
     - title: "KSZ-categorical companion"
@@ -178,5 +178,5 @@ This note does not derive the γ ≳ 2.5 inner density slope, the SHMF amplitude
 ## External Source Routes
 
 - [Natarajan, Chiang & Dutra 2026, "New Cold Dark Matter Crisis Revealed by Multiscale Cluster Lensing"](https://doi.org/10.3847/2041-8213/ae53ea)
-- [Zenodo deposit v1.0 (10.5281/zenodo.20251191)](https://doi.org/10.5281/zenodo.20251191)
+- [OSF deposit v1.0 (10.17605/OSF.IO/BFRX3)](https://doi.org/10.17605/OSF.IO/BFRX3)
 - [Companion KSZ-categorical note](/publications/research-notes/dark-matter-without-dark-matter-ksz-force-law/)
