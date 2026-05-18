@@ -4,6 +4,8 @@ subtitle: "A categorical reinterpretation of the G2-manifold remnant"
 slug: "black-holes-without-extra-dimensions"
 permalink: /publications/research-notes/black-holes-without-extra-dimensions/
 date: 2026-04-25
+publication_id: "rn005"
+doi: "10.5281/zenodo.19816581"
 type: "Research Note"
 publication_type: "Research Note"
 status: "Published"

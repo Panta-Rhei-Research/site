@@ -1,27 +1,32 @@
 import assert from "node:assert/strict";
-import worker, { shortRouteTarget } from "../workers/prrp-short-routes.js";
+import worker, { ROUTE_ENTRIES, shortRouteTarget } from "../workers/prrp-short-routes.js";
 
-const expectedRoutes = new Map([
-  ["https://prrp.site/", "https://panta-rhei.site/"],
-  ["https://prrp.site/wp000", "https://panta-rhei.site/publications/anchor-documents/wp000-panta-rhei-at-a-glance/"],
-  ["https://prrp.site/wp-glance", "https://panta-rhei.site/publications/anchor-documents/wp000-panta-rhei-at-a-glance/"],
-  ["https://prrp.site/c001", "https://panta-rhei.site/program/about/standing-in-the-inquiry-of-being/"],
-  ["https://prrp.site/wp001", "https://panta-rhei.site/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/"],
-  ["https://prrp.site/wp002", "https://panta-rhei.site/publications/anchor-documents/wp002-t-theory-executive-synopsis/"],
-  ["https://prrp.site/wp-theory", "https://panta-rhei.site/publications/anchor-documents/wp002-t-theory-executive-synopsis/"],
-  ["https://prrp.site/wp003", "https://panta-rhei.site/publications/anchor-documents/wp003-taulib-technical-overview/"],
-  ["https://prrp.site/wp-taulib", "https://panta-rhei.site/publications/anchor-documents/wp003-taulib-technical-overview/"],
-  ["https://prrp.site/wp004", "https://panta-rhei.site/publications/anchor-documents/wp004-public-research-observatory-blueprint/"],
-  ["https://prrp.site/wp-observatory", "https://panta-rhei.site/publications/anchor-documents/wp004-public-research-observatory-blueprint/"],
-  ["https://prrp.site/wp005", "https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/"],
-  ["https://prrp.site/wp-impact", "https://panta-rhei.site/publications/anchor-documents/wp005-global-public-good-impact-overview/"],
-  ["https://prrp.site/30-questions", "https://panta-rhei.site/publications/research-notes/thirty-open-problems-tau-readout-surfaces/"],
-  ["https://prrp.site/anchor-documents", "https://panta-rhei.site/publications/anchor-documents/"]
-]);
+const expectedRoutes = new Map(ROUTE_ENTRIES);
+
+assert.equal(expectedRoutes.size, ROUTE_ENTRIES.length, "short routes must be unique");
+assert(expectedRoutes.size >= 280, "route table should include publication and 100-step routes");
 
 for (const [source, target] of expectedRoutes) {
+  assert.equal(shortRouteTarget(`https://prrp.site${source}`), target);
+  if (source !== "/") {
+    assert.equal(shortRouteTarget(`https://prrp.site${source}/`), target);
+  }
+}
+
+const samples = new Map([
+  ["https://prrp.site/", "https://panta-rhei.site/"],
+  ["https://prrp.site/wp000", "https://panta-rhei.site/publications/anchor-documents/wp000-panta-rhei-at-a-glance/"],
+  ["https://prrp.site/rn007", "https://panta-rhei.site/publications/research-notes/aesthetic-topology-pre-symbolic-readout/"],
+  ["https://prrp.site/rp005", "https://panta-rhei.site/publications/research-papers/tau-holomorphy-boundary-algebra/"],
+  ["https://prrp.site/pgd044", "https://panta-rhei.site/publications/research-briefings/public-good/wildfire-smoke-heat-compound-extreme-health-protection/"],
+  ["https://prrp.site/s1", "https://panta-rhei.site/corpus/construction-spine/steps/001-non-import-discipline/"],
+  ["https://prrp.site/s001", "https://panta-rhei.site/corpus/construction-spine/steps/001-non-import-discipline/"],
+  ["https://prrp.site/s64", "https://panta-rhei.site/corpus/construction-spine/steps/064-tau-einstein-identity/"],
+  ["https://prrp.site/s100", "https://panta-rhei.site/corpus/construction-spine/steps/100-logos-boundary-and-ontic-closure-burden/"]
+]);
+
+for (const [source, target] of samples) {
   assert.equal(shortRouteTarget(source), target);
-  assert.equal(shortRouteTarget(`${source}/`), target);
 }
 
 assert.equal(
@@ -30,11 +35,11 @@ assert.equal(
 );
 assert.equal(shortRouteTarget("https://prrp.site/not-a-route"), null);
 
-const response = await worker.fetch(new Request("https://prrp.site/wp004"));
+const response = await worker.fetch(new Request("https://prrp.site/rn007"));
 assert.equal(response.status, 301);
 assert.equal(
   response.headers.get("Location"),
-  "https://panta-rhei.site/publications/anchor-documents/wp004-public-research-observatory-blueprint/"
+  "https://panta-rhei.site/publications/research-notes/aesthetic-topology-pre-symbolic-readout/"
 );
 
 const missing = await worker.fetch(new Request("https://prrp.site/not-a-route"));

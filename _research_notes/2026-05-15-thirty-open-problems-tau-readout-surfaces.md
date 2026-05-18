@@ -6,7 +6,7 @@ permalink: /publications/research-notes/thirty-open-problems-tau-readout-surface
 date: 2026-05-15
 type: "Research Note"
 publication_type: "Research Note"
-publication_id: "RN-030"
+publication_id: "rn030"
 status: "Published"
 note_type: "Expressiveness Probe"
 note_subtype: "answer-shape-stress-test"

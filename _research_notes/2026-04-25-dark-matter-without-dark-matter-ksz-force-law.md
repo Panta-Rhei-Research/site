@@ -4,6 +4,8 @@ subtitle: "A categorical pre-registration against the Gallardo et al. 2026 pairw
 slug: "dark-matter-without-dark-matter-ksz-force-law"
 permalink: /publications/research-notes/dark-matter-without-dark-matter-ksz-force-law/
 date: 2026-04-25
+publication_id: "rn004"
+doi: "10.5281/zenodo.19816406"
 type: "Research Note"
 publication_type: "Research Note"
 status: "Published"

@@ -6,7 +6,7 @@ permalink: /publications/research-notes/reading-prometheus-through-tau/
 date: 2026-05-17
 type: "Research Note"
 publication_type: "Research Note"
-publication_id: "RN-033"
+publication_id: "rn033"
 status: "RC2"
 note_type: "Ontology-Articulation Note"
 note_subtype: "external-topos-dialogue"

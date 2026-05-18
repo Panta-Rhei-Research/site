@@ -67,6 +67,7 @@ layout: default
       data-title="{{ note.title | escape }}"
       data-relations="{{ note_relations | strip }}">
       <div class="note-list-date">
+        {% if note.publication_id %}<span>{{ note.publication_id | upcase }}</span> · {% endif %}
         <time datetime="{{ note.date | date_to_xmlschema }}">{{ note.date | date: "%d %B %Y" }}</time>
         {% if note.note_type %} · {{ note.note_type }}{% endif %}
         {% if note.domain %} · {{ note.domain }}{% endif %}
@@ -83,6 +84,7 @@ layout: default
       <p class="note-list-summary">{{ note.summary_short }}</p>
       {% endif %}
       <div class="chip-row" style="margin-top: 10px;">
+        {% if note.publication_id %}<span class="chip">{{ note.publication_id | upcase }}</span>{% endif %}
         {% if note.status %}<span class="chip">{{ note.status }}</span>{% endif %}
         {% if note.pdf_available or note_pdf %}<span class="chip">PDF available</span>{% endif %}
         {% if note.anchor_paper %}<span class="chip">Anchor paper</span>{% endif %}

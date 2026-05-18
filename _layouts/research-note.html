@@ -15,6 +15,7 @@ layout: default
   <p>{{ page.summary_short }}</p>
   {% endif %}
   <div class="chip-row" style="margin-top: 10px;">
+    {% if page.publication_id %}<span class="chip">{{ page.publication_id | upcase }}</span>{% endif %}
     <span class="chip"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %B %Y" }}</time></span>
     {% if page.note_type %}<span class="chip">{{ page.note_type }}</span>{% endif %}
     {% if page.domain %}<span class="chip">{{ page.domain }}</span>{% endif %}
@@ -26,6 +27,7 @@ layout: default
 <section class="content-card">
   <h2>Publication Metadata</h2>
   <div class="meta-list">
+    {% if page.publication_id %}<div class="meta-item"><span>Publication ID</span><span class="meta-value">{{ page.publication_id | upcase }}</span></div>{% endif %}
     {% if page.note_type %}<div class="meta-item"><span>Note type</span><span class="meta-value">{{ page.note_type }}</span></div>{% endif %}
     {% if page.note_subtype %}<div class="meta-item"><span>Subtype</span><span class="meta-value">{{ page.note_subtype | replace: '-', ' ' }}</span></div>{% endif %}
     {% if page.domain %}<div class="meta-item"><span>Domain</span><span class="meta-value">{{ page.domain }}</span></div>{% endif %}

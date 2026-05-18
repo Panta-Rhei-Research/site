@@ -4,6 +4,8 @@ subtitle: "A categorical pre-registration versus end-of-2025 CMB and BAO constra
 slug: "inflationary-observables-without-an-inflaton"
 permalink: /publications/research-notes/inflationary-observables-without-an-inflaton/
 date: 2026-04-25
+publication_id: "rn003"
+doi: "10.5281/zenodo.19816068"
 type: "Research Note"
 publication_type: "Research Note"
 status: "Published"

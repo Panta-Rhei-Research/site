@@ -4,6 +4,7 @@ subtitle: "Persistent homology, gaze, and the Book VII aesthetic-functional pict
 slug: "aesthetic-topology-pre-symbolic-readout"
 permalink: /publications/research-notes/aesthetic-topology-pre-symbolic-readout/
 date: 2026-05-15
+publication_id: "rn007"
 type: "Research Note"
 publication_type: "Research Note"
 status: "V0.9 RC"
@@ -24,6 +25,8 @@ anchor:
   description: "The anchor paper uses persistent homology to analyze multi-scale visual structure in abstract images, distinguish art and pseudo-art image sets, and compare topological feature maps with gaze-fixation heat maps, aesthetic reports, and EEG/connectivity data."
   relation: "Used as a guarded empirical-computational readout surface for Book VII aesthetics, not as proof that topology measures beauty, not as validation of Category τ, and not as proof of artist intent."
 external_links:
+  - title: "OSF deposit (v0.9 RC)"
+    url: https://doi.org/10.17605/OSF.IO/SBPD6
   - title: "Anchor paper DOI"
     url: https://doi.org/10.1371/journal.pcbi.1014156
   - title: "PLOS article"
@@ -35,6 +38,9 @@ external_links:
 pdf: "/assets/pdfs/research-notes/research-note-2026-05-15-aesthetic-topology-pre-symbolic-readout-v0-9-rc.pdf"
 pdf_url: "/assets/pdfs/research-notes/research-note-2026-05-15-aesthetic-topology-pre-symbolic-readout-v0-9-rc.pdf"
 pdf_available: true
+doi: "10.17605/OSF.IO/SBPD6"
+doi_url: "https://doi.org/10.17605/OSF.IO/SBPD6"
+osf_url: "https://osf.io/SBPD6/"
 claims:
   core: "Dmitruk et al.'s persistent-homology study of abstract art provides a promising empirical descriptor family for possible pre-symbolic motif readout, if and only if each step in the chain from image to Book VII interpretation remains typed, lossy, and inspectable."
   does_not_claim:

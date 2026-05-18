@@ -4,6 +4,8 @@ subtitle: "A categorical reading of the conformal primon gas"
 slug: "arithmetic-quantum-gravity-without-singularities"
 permalink: /publications/research-notes/arithmetic-quantum-gravity-without-singularities/
 date: 2026-04-25
+publication_id: "rn006"
+doi: "10.5281/zenodo.19815808"
 type: "Research Note"
 publication_type: "Research Note"
 status: "Published"
