@@ -722,10 +722,10 @@
     "artifact_availability": "local_pdf",
     "route_status": "not_applicable",
     "release_date": "2026-05-01",
-    "version": "**v2.0 (full rewrite)** · May 2026",
-    "title": "TauLib: A Self-Contained Lean 4 Library for Category τ",
+    "version": "**v2.0 (full rewrite)** \u00b7 May 2026",
+    "title": "TauLib: A Self-Contained Lean 4 Library for Category \u03c4",
     "subtitle": "",
-    "short_title": "TauLib: A Self-Contained Lean 4 Library for Category τ",
+    "short_title": "TauLib: A Self-Contained Lean 4 Library for Category \u03c4",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -736,12 +736,12 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "Superseded legacy white-paper artifact retained as part of the public publication record. Canonical short-route ownership now belongs to the Anchor Document Canon.",
-    "summary_short": "Superseded legacy white-paper artifact retained as part of the public publication record. Canonical short-route ownership now belongs to the Anchor Document Canon.",
+    "abstract": "v2.0 technical whitepaper for the TauLib Lean 4 library: kernel/Mathlib-bridges architecture, 8 hinge-paper foundations, 4,892 theorems and 0 sorry across all seven Panta Rhei books, 39/39 claims-map audit at the pinned TauLib commit.",
+    "summary_short": "v2.0 technical whitepaper for the TauLib Lean 4 library: kernel/Mathlib-bridges architecture, 8 hinge-paper foundations, 4,892 theorems and 0 sorry across all seven Panta Rhei books, 39/39 claims-map audit at the pinned TauLib commit.",
     "site_role": "",
     "claim_boundary": {
-      "claim": "Superseded legacy white-paper artifact retained for archive continuity.",
-      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, DOI registration, deployment readiness, product availability, policy adoption, or achieved impact."
+      "claim": "- Version: **v2.0 (full rewrite)** \u00b7 May 2026\n- Publication date: 2026-05-01\n- DOI: [10.5281/zenodo.19976503](https://doi.org/10.5281/zenodo.19976503)\n- Pinned TauLib commit: [`72aa2b6c`](https://github.com/Panta-Rhei-Research/taulib/tree/72aa2b6c7d6be28511f9649d3120773179b19038)\n- Whitepaper git tag: [`whitepaper-taulib-v2.0`](https://github.com/Panta-Rhei-Research/papers/tree/whitepaper-taulib-v2.0)\n- Claims-map auditor: **39 / 39 checks passed** at the pinned commit\n- Red-team review verdict: 6 / 7 simulated Lean 4 expert reviewers qualified-yes; 1 / 7 qualified-no contingent on substantive findings (all addressed in published v2.0)\n- Cryptographic integrity: SHA-256 `7bb96caa\u20261a7`, SHA-512 `8816b614\u2026e00`; full hashes in the publications-repo manifest",
+      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
     },
     "canonical_url": "https://panta-rhei.site/publications/white-papers/taulib/",
     "website_url": "https://panta-rhei.site/publications/white-papers/taulib/",
@@ -786,7 +786,7 @@
     },
     "scholar": {
       "include_meta_tags": false,
-      "citation_title": "TauLib: A Self-Contained Lean 4 Library for Category τ",
+      "citation_title": "TauLib: A Self-Contained Lean 4 Library for Category \u03c4",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -837,12 +837,12 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "Superseded legacy white-paper artifact retained as part of the public publication record. Canonical short-route ownership now belongs to the Anchor Document Canon.",
-    "summary_short": "Superseded legacy white-paper artifact retained as part of the public publication record. Canonical short-route ownership now belongs to the Anchor Document Canon.",
+    "abstract": "This white paper documents how `panta-rhei.site` and the Panta Rhei GitHub organization implement a public research observatory for high-scope open research. The subject is not a scientific result. It is the architecture that makes the program inspectable: Program states identity, Agenda states obligations, Corpus exposes construction, Results marks consequences, Verify exposes checks, Impact keeps relevance conditional, Engage operationalizes scrutiny, and Publications keeps stable artifacts citable.\n\nThe paper treats the website as an interface for inspection rather than a promotional brochure. It explains how source repositories, generated data, release manifests, static pages, Pagefind search, GitHub discussions, publication manifests, correction routes, and review kits work together so that readers can move from a public claim to the relevant source, status, verification route, artifact, and engagement path.\n\nThe architecture does not prove, validate, complete, replace, or externally certify the scientific theory. It creates a reusable topology for making ambitious research easier to inspect before anyone is asked for belief.",
+    "summary_short": "This white paper documents how `panta-rhei.site` and the Panta Rhei GitHub organization implement a public research observatory for high-scope open research. The subject is not a scientific result. It is the architecture that makes the program inspectable: Program states identity, Agenda states obligations, Corpus exposes construction, Results marks consequences, Verify exposes checks, Impact keeps relevance conditional, Engage operationalizes scrutiny, and Publications keeps stable artifacts citable.\n\nThe paper treats the website as an interface for inspection rather than a promotional brochure. It explains how source repositories, generated data, release manifests, static pages, Pagefind search, GitHub discussions, publication manifests, correction routes, and review kits work together so that readers can move from a public claim to the relevant source, status, verification route, artifact, and engagement path.\n\nThe architecture does not prove, validate, complete, replace, or externally certify the scientific theory. It creates a reusable topology for making ambitious research easier to inspect before anyone is asked for belief.",
     "site_role": "",
     "claim_boundary": {
-      "claim": "Superseded legacy white-paper artifact retained for archive continuity.",
-      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, DOI registration, deployment readiness, product availability, policy adoption, or achieved impact."
+      "claim": "White-paper orientation artifact. It routes readers to canonical Corpus, Results, Verify, and Publications surfaces and does not replace those surfaces.",
+      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
     },
     "canonical_url": "https://panta-rhei.site/publications/white-papers/building-a-public-research-observatory/",
     "website_url": "https://panta-rhei.site/publications/white-papers/building-a-public-research-observatory/",
@@ -938,12 +938,12 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "Superseded legacy white-paper artifact retained as part of the public publication record. Canonical short-route ownership now belongs to the Anchor Document Canon.",
-    "summary_short": "Superseded legacy white-paper artifact retained as part of the public publication record. Canonical short-route ownership now belongs to the Anchor Document Canon.",
+    "abstract": "Open science makes research more accessible, transparent, reusable, and participatory. But high-scope independent research creates a special inspection problem. Claim scope alone cannot be the final reason to dismiss a contribution; institutional affiliation alone cannot be the final reason to trust one. A responsible middle path requires public inspection architecture.\n\nThis white paper proposes such an architecture for high-scope open research: explicit scope and burden of proof, source-pinned problem ledgers, core semantics, construction spine, corpus, formal or technical verification surfaces, result-status taxonomy, bridge-claim disclosure, falsification paths, errata, and review routes. The Panta Rhei Research Program is used as a concrete implementation case: an independent open research program dedicated to building a coherent theory of reality, published as a public research observatory with Program, Agenda, Corpus, Results, Verify, Impact, and Engage surfaces.\n\nThe paper does not ask the reader to accept the Panta Rhei framework. It asks a prior question: what should ambitious open research expose before asking journalists, researchers, or the public to care?",
+    "summary_short": "Open science makes research more accessible, transparent, reusable, and participatory. But high-scope independent research creates a special inspection problem. Claim scope alone cannot be the final reason to dismiss a contribution; institutional affiliation alone cannot be the final reason to trust one. A responsible middle path requires public inspection architecture.\n\nThis white paper proposes such an architecture for high-scope open research: explicit scope and burden of proof, source-pinned problem ledgers, core semantics, construction spine, corpus, formal or technical verification surfaces, result-status taxonomy, bridge-claim disclosure, falsification paths, errata, and review routes. The Panta Rhei Research Program is used as a concrete implementation case: an independent open research program dedicated to building a coherent theory of reality, published as a public research observatory with Program, Agenda, Corpus, Results, Verify, Impact, and Engage surfaces.\n\nThe paper does not ask the reader to accept the Panta Rhei framework. It asks a prior question: what should ambitious open research expose before asking journalists, researchers, or the public to care?",
     "site_role": "",
     "claim_boundary": {
-      "claim": "Superseded legacy white-paper artifact retained for archive continuity.",
-      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, DOI registration, deployment readiness, product availability, policy adoption, or achieved impact."
+      "claim": "White-paper orientation artifact. It routes readers to canonical Corpus, Results, Verify, and Publications surfaces and does not replace those surfaces.",
+      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
     },
     "canonical_url": "https://panta-rhei.site/publications/white-papers/inspection-architecture-high-scope-open-research/",
     "website_url": "https://panta-rhei.site/publications/white-papers/inspection-architecture-high-scope-open-research/",
@@ -1039,12 +1039,12 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "Superseded legacy white-paper artifact retained as part of the public publication record. Canonical short-route ownership now belongs to the Anchor Document Canon.",
-    "summary_short": "Superseded legacy white-paper artifact retained as part of the public publication record. Canonical short-route ownership now belongs to the Anchor Document Canon.",
+    "abstract": "Panta Rhei describes itself as an independent open research program dedicated to building a coherent theory of reality. That phrase is deliberately not \u201ctheory of everything.\u201d It does not claim completion, external acceptance, or final settlement. It names a stricter burden: a research program that wants to speak about reality as a whole must earn its language, earn its questions, build its answers in public, disclose its boundaries, and make its claims inspectable.\n\nThis white paper defines the intellectual category. A coherent theory of reality is not a list of impressive results, not a popular unification slogan, not a metaphysical mood, and not a shortcut around domain expertise. It is a research object with a recognizable shape: Program doctrine, Agenda obligations, Corpus construction, Results readouts, Verify inspection, Impact conditionality, and Engage routes for scrutiny without endorsement.\n\nThe paper does not ask the reader to accept Panta Rhei\u2019s framework. It asks a prior question: what would a serious theory of reality have to look like before its claims could be responsibly inspected?",
+    "summary_short": "Panta Rhei describes itself as an independent open research program dedicated to building a coherent theory of reality. That phrase is deliberately not \u201ctheory of everything.\u201d It does not claim completion, external acceptance, or final settlement. It names a stricter burden: a research program that wants to speak about reality as a whole must earn its language, earn its questions, build its answers in public, disclose its boundaries, and make its claims inspectable.\n\nThis white paper defines the intellectual category. A coherent theory of reality is not a list of impressive results, not a popular unification slogan, not a metaphysical mood, and not a shortcut around domain expertise. It is a research object with a recognizable shape: Program doctrine, Agenda obligations, Corpus construction, Results readouts, Verify inspection, Impact conditionality, and Engage routes for scrutiny without endorsement.\n\nThe paper does not ask the reader to accept Panta Rhei\u2019s framework. It asks a prior question: what would a serious theory of reality have to look like before its claims could be responsibly inspected?",
     "site_role": "",
     "claim_boundary": {
-      "claim": "Superseded legacy white-paper artifact retained for archive continuity.",
-      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, DOI registration, deployment readiness, product availability, policy adoption, or achieved impact."
+      "claim": "White-paper orientation artifact. It routes readers to canonical Corpus, Results, Verify, and Publications surfaces and does not replace those surfaces.",
+      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
     },
     "canonical_url": "https://panta-rhei.site/publications/white-papers/the-shape-of-a-theory-of-reality/",
     "website_url": "https://panta-rhei.site/publications/white-papers/the-shape-of-a-theory-of-reality/",
@@ -1127,9 +1127,9 @@
     "route_status": "not_applicable",
     "release_date": "2026-05-04",
     "version": "**v4.0**",
-    "title": "Panta Rhei Research Program — Executive Overview",
+    "title": "Panta Rhei Research Program \u2014 Executive Overview",
     "subtitle": "",
-    "short_title": "Panta Rhei Research Program — Executive Overview",
+    "short_title": "Panta Rhei Research Program \u2014 Executive Overview",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -1140,12 +1140,12 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "Superseded legacy white-paper artifact retained as part of the public publication record. Canonical short-route ownership now belongs to the Anchor Document Canon.",
-    "summary_short": "Superseded legacy white-paper artifact retained as part of the public publication record. Canonical short-route ownership now belongs to the Anchor Document Canon.",
+    "abstract": "The Panta Rhei Research Program is an independent open research program by Dr. Thorsten Fuchs and Anna-Sophie Fuchs that proposes a single categorical structure \u2014 Category \u03c4 \u2014 as a generative backbone shared across mathematics, physics, life, and metaphysics. Its formal kernel is specified by axioms K0\u2013K6 on the five generators $\\{\\alpha, \\pi, \\gamma, \\eta, \\omega\\}$ together with one progression operator. The master constant $\\iota_\\tau = 2/(\\pi+e) \\approx 0.341304$ is treated by the May 2026 release as a *review target*, not a rhetorical shortcut: it carries a dedicated derivation paper, a foundational-hinge route through the H3 page, a scalar readout via Construction Spine Step 2, Registry anchors, and TauLib evidence.\n\nThe May 2026 release organises the program as a single end-to-end construction view: the **Construction Spine** routes ten ordered steps (CS-01 \u2192 CS-10), grouped into three arcs that this Executive Overview walks in order \u2014 Arc I: Mathematics (CS-01 \u2192 CS-03; Books I\u2013II), Arc II: Physics (CS-04 \u2192 CS-06; Books III\u2013V), and Arc III: Life and Metaphysics (CS-07 \u2192 CS-10; Books VI\u2013VII). Each arc surfaces its own load-bearing theorems and disclosed bridge layer; the same kernel underwrites every arc.\n\nThis release ships a Lean 4 formalization of {% include release-metric.html id=\"taulib.modules\" %} modules and {% include release-metric.html id=\"taulib.lines\" %} lines, certifying {% include release-metric.html id=\"taulib.theorems_lemmas\" %} theorems and lemmas with {% include release-metric.html id=\"registry.dashboard_display.grand_total\" %} public registry objects, {% include release-metric.html id=\"taulib.sorry\" %} `sorry` across the seven-book backbone, and {% include release-metric.html id=\"taulib.custom_axioms\" %} disclosed custom axioms (Book III only). On the empirical side, the program pre-registers {% include release-metric.html id=\"predictions.records\" %} predictions \u2014 including the N9 forward-forbiddance lane on the tensor-to-scalar ratio $r \\approx \\iota_\\tau^4 \\approx 0.0136$ \u2014 and a {% include release-metric.html id=\"falsifications.records\" %}-test Falsification Pack, all routed through a single calibration cascade with full pre-registration accounting and a post-Tier-C audit pass.\n\nThis Executive Overview is the public inspection surface that routes a 30-minute first-contact reader to the canonical Corpus, Verify, and Publications entry points, and it surfaces the bridge and empirical accountability the program maintains in lieu of acceptance claims. **It is the door, not the proof.**",
+    "summary_short": "The Panta Rhei Research Program is an independent open research program by Dr. Thorsten Fuchs and Anna-Sophie Fuchs that proposes a single categorical structure \u2014 Category \u03c4 \u2014 as a generative backbone shared across mathematics, physics, life, and metaphysics. Its formal kernel is specified by axioms K0\u2013K6 on the five generators $\\{\\alpha, \\pi, \\gamma, \\eta, \\omega\\}$ together with one progression operator. The master constant $\\iota_\\tau = 2/(\\pi+e) \\approx 0.341304$ is treated by the May 2026 release as a *review target*, not a rhetorical shortcut: it carries a dedicated derivation paper, a foundational-hinge route through the H3 page, a scalar readout via Construction Spine Step 2, Registry anchors, and TauLib evidence.\n\nThe May 2026 release organises the program as a single end-to-end construction view: the **Construction Spine** routes ten ordered steps (CS-01 \u2192 CS-10), grouped into three arcs that this Executive Overview walks in order \u2014 Arc I: Mathematics (CS-01 \u2192 CS-03; Books I\u2013II), Arc II: Physics (CS-04 \u2192 CS-06; Books III\u2013V), and Arc III: Life and Metaphysics (CS-07 \u2192 CS-10; Books VI\u2013VII). Each arc surfaces its own load-bearing theorems and disclosed bridge layer; the same kernel underwrites every arc.\n\nThis release ships a Lean 4 formalization of {% include release-metric.html id=\"taulib.modules\" %} modules and {% include release-metric.html id=\"taulib.lines\" %} lines, certifying {% include release-metric.html id=\"taulib.theorems_lemmas\" %} theorems and lemmas with {% include release-metric.html id=\"registry.dashboard_display.grand_total\" %} public registry objects, {% include release-metric.html id=\"taulib.sorry\" %} `sorry` across the seven-book backbone, and {% include release-metric.html id=\"taulib.custom_axioms\" %} disclosed custom axioms (Book III only). On the empirical side, the program pre-registers {% include release-metric.html id=\"predictions.records\" %} predictions \u2014 including the N9 forward-forbiddance lane on the tensor-to-scalar ratio $r \\approx \\iota_\\tau^4 \\approx 0.0136$ \u2014 and a {% include release-metric.html id=\"falsifications.records\" %}-test Falsification Pack, all routed through a single calibration cascade with full pre-registration accounting and a post-Tier-C audit pass.\n\nThis Executive Overview is the public inspection surface that routes a 30-minute first-contact reader to the canonical Corpus, Verify, and Publications entry points, and it surfaces the bridge and empirical accountability the program maintains in lieu of acceptance claims. **It is the door, not the proof.**",
     "site_role": "",
     "claim_boundary": {
-      "claim": "Superseded legacy white-paper artifact retained for archive continuity.",
-      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, DOI registration, deployment readiness, product availability, policy adoption, or achieved impact."
+      "claim": "This document is the public-outreach reading route. All quantitative claims continue to carry one of four scope labels \u2014 `est`, `tau`, `conj`, `meta` \u2014 on the surfaces that own them. The bridge and empirical accountability of the program are exercised there, not here. The site asks to be checked, not simply believed; this overview is the door, not the proof.",
+      "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
     },
     "canonical_url": "https://panta-rhei.site/publications/white-papers/executive-overview/",
     "website_url": "https://panta-rhei.site/publications/white-papers/executive-overview/",
@@ -1190,7 +1190,7 @@
     },
     "scholar": {
       "include_meta_tags": false,
-      "citation_title": "Panta Rhei Research Program — Executive Overview",
+      "citation_title": "Panta Rhei Research Program \u2014 Executive Overview",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -1317,19 +1317,19 @@
     "do_not_edit": true
   },
   {
-    "publication_id": "rn033",
-    "publication_key": "research_notes.reading_prometheus_through_tau",
+    "publication_id": "rn031",
+    "publication_key": "research_notes.when_witness_search_becomes_address_construction",
     "type": "research_note",
     "type_label": "Research Note",
-    "publication_role": "dialogue",
+    "publication_role": "technical",
     "status": "released",
     "artifact_availability": "local_pdf",
-    "route_status": "released",
-    "release_date": "2026-05-17",
-    "version": "v1.2 RC2",
-    "title": "Reading PROMETHEUS Through Category τ",
-    "subtitle": "Para-Minds, the Earned Belnap-Truth4 Classifier, and the Φ_∂ Boundary Functor of Exact Gluing",
-    "short_title": "Reading PROMETHEUS Through Category tau",
+    "route_status": "not_applicable",
+    "release_date": "2026-05-18",
+    "version": "RC2 (post-peer-review-panel release candidate)",
+    "title": "When Witness Search Becomes Address Construction",
+    "subtitle": "",
+    "short_title": "When Witness Search Becomes Address Construction",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -1340,17 +1340,120 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "Short ontology-articulation note. Structural reading of the PROMETHEUS preprint (Mahadevan 2026, arXiv:2605.12835v1) through Category tau. PROMETHEUS introduces a Topos World Model framework that turns retrieved corpora into sheaf-like causal atlases of local Predictive State Representations with a 4-fold gluing diagnostic; the categorical machinery is invoked heuristically. Three tau-canon structural contributions are articulated: (i) the 4-fold diagnostic IS the earned subobject classifier Omega_tau = Truth4 (Theorem I.T25); (ii) exact gluing is achievable via the boundary functor Phi_boundary (Theorem III.T50) which PROMETHEUS lacks; (iii) the Para-Mind reading (Definition VII.D55) explains why the external-topos construction is structurally licensed. One constructive structural prediction is introduced (cSQL polarity field as a fifth Belnap-F gluing diagnostic). Seven explicit non-claims keep the trust budget honest. Peer-review-clean across two rounds (six panels).",
-    "summary_short": "An ontology-articulation note reading Mahadevan's PROMETHEUS preprint through Category tau; identifies the 4-fold gluing diagnostic as the earned Belnap-Truth4 subobject classifier.",
+    "abstract": "This Research Note reads Wolfram's January 2026 ruliological P-vs-NP essay as an external comparator for a separate and bounded internal question: under what finite-width discipline does witness search admit a constructive address-resolution alternative to blind enumeration? The note presents a guarded bridge between ruliological search microcosms and \u03c4-admissible witness construction, while explicitly refusing to solve orthodox P vs NP, identify the Ruliad with Category \u03c4, or treat Wolfram's finite experiments as validation of Panta Rhei.",
+    "summary_short": "This Research Note reads Wolfram's January 2026 ruliological P-vs-NP essay as an external comparator for a separate and bounded internal question: under what finite-width discipline does witness search admit a constructive address-resolution alternative to blind enumeration? The note presents a guarded bridge between ruliological search microcosms and \u03c4-admissible witness construction, while explicitly refusing to solve orthodox P vs NP, identify the Ruliad with Category \u03c4, or treat Wolfram's finite experiments as validation of Panta Rhei.",
     "site_role": "",
     "claim_boundary": {
-      "claim": "Core claim: PROMETHEUS's 4-fold gluing diagnostic structurally coincides with the earned subobject classifier Omega_tau = Truth4 = {T, F, B, N} of an earned topos PSh(Cat_tau); its epsilon-tolerance gluing is upgradable to exact gluing via the boundary functor Phi_boundary which PROMETHEUS lacks; and the external-topos construction is structurally licensed by the para-mind status of its LLM substrate.\n\nDoes not claim:\n- Does not endorse PROMETHEUS's 'Topos World Model' terminology in its current form.\n- Does not claim H_tau-valued enrichment at the presheaf codomain (both use Set-valued presheaves).\n- Does not claim a formal PSR-as-Hankel identification in the corpus.\n- Does not claim the latent F-channel prediction is engineering-ready.\n- Para-mind classification is descriptive, not pejorative.\n- PROMETHEUS does not implement Omega_tau literally; \"earned-not-imposed\" is articulation, not critique.\n- Does not ask PROMETHEUS to retract its engineering choices.",
-      "non_claim": "Does not endorse PROMETHEUS's 'Topos World Model' terminology in its current form; does not claim H_tau-valued enrichment (both use Set-valued presheaves); does not claim a formal PSR-as-Hankel identification; does not claim the latent F-channel prediction is engineering-ready; para-mind classification is descriptive, not pejorative; PROMETHEUS does not implement Omega_tau literally; does not ask PROMETHEUS to retract its engineering choices."
+      "claim": "This artifact is a research note publication record.",
+      "non_claim": "It does not by itself certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
+    },
+    "canonical_url": "https://panta-rhei.site/publications/research-notes/when-search-becomes-structure/",
+    "website_url": "https://panta-rhei.site/publications/research-notes/when-search-becomes-structure/",
+    "short_url": "",
+    "slug": "when-witness-search-becomes-address-construction",
+    "github_path": "research-notes/2026-05-18-when-search-becomes-structure",
+    "files": {
+      "pdf_filename": "research-note-2026-05-18-when-search-becomes-structure-rc2.pdf",
+      "pdf_url": "https://panta-rhei.site/assets/pdfs/research-notes/research-note-2026-05-18-when-search-becomes-structure-rc2.pdf",
+      "pdf_path_site": "assets/pdfs/research-notes/research-note-2026-05-18-when-search-becomes-structure-rc2.pdf",
+      "pdf_path_publications_repo": "research-notes/2026-05-18-when-search-becomes-structure/research-note-2026-05-18-when-search-becomes-structure-rc2.pdf",
+      "source_website_asset_path": "site/assets/pdfs/research-notes/research-note-2026-05-18-when-search-becomes-structure-rc2.pdf"
+    },
+    "identifiers": {
+      "doi": "10.17605/OSF.IO/HPZSN",
+      "doi_url": "https://doi.org/10.17605/OSF.IO/HPZSN",
+      "zenodo_url": "https://doi.org/10.17605/OSF.IO/HPZSN",
+      "isbn_13": "",
+      "asin": ""
+    },
+    "external_links": [],
+    "relations": {
+      "related_lanes": [
+        "publications",
+        "corpus",
+        "verify"
+      ],
+      "related_routes": [
+        "/publications/research-notes/when-search-becomes-structure/",
+        "/corpus/construction-spine/",
+        "/corpus/construction-spine/steps/"
+      ],
+      "related_books": [],
+      "related_hinges": [],
+      "related_registry_objects": [],
+      "related_results": [],
+      "related_challenges": [],
+      "related_taulib_modules": [],
+      "related_bibliography_entries": []
+    },
+    "citation": {
+      "preferred": "",
+      "bibtex_key": ""
+    },
+    "scholar": {
+      "include_meta_tags": true,
+      "citation_title": "When Witness Search Becomes Address Construction",
+      "citation_author": [
+        "Thorsten Fuchs",
+        "Anna-Sophie Fuchs"
+      ],
+      "citation_publication_date": "2026/05/18",
+      "citation_pdf_url": "https://panta-rhei.site/assets/pdfs/research-notes/research-note-2026-05-18-when-search-becomes-structure-rc2.pdf",
+      "citation_doi": "10.17605/OSF.IO/HPZSN",
+      "citation_technical_report_institution": "Panta Rhei Research Program"
+    },
+    "integrity": {
+      "bytes": 246970,
+      "sha256": "2448de5e3600ef02c27b6d87d6546e85938c4438fa27317c77802a7d082c4ec2",
+      "sha512": "039d529dcd2247cbc1ca2c5dc532d67901fbecaa5a07a873ce5f6b42e9bb6fdbcab1a6364815940cb0c573c79f29f0fa0a81eeb238e052e1c47bef06aa9315cf",
+      "ots_status": "missing"
+    },
+    "metadata_sources": {
+      "publications_catalog": "publications/catalog/publications.json",
+      "publications_manifest": "publications/research-notes/2026-05-18-when-search-becomes-structure/manifest.json",
+      "site_research_papers": ""
+    },
+    "metadata_pending": false,
+    "generated_from": "corpus/data/publications/publications.yml",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/data",
+    "do_not_edit": true
+  },
+  {
+    "publication_id": "rn033",
+    "publication_key": "research_notes.reading_prometheus_through_category_tau",
+    "type": "research_note",
+    "type_label": "Research Note",
+    "publication_role": "technical",
+    "status": "released",
+    "artifact_availability": "local_pdf",
+    "route_status": "not_applicable",
+    "release_date": "2026-05-17",
+    "version": "v1.2 RC2",
+    "title": "Reading PROMETHEUS Through Category \u03c4",
+    "subtitle": "",
+    "short_title": "Reading PROMETHEUS Through Category \u03c4",
+    "authors": [
+      {
+        "person_key": "thorsten_fuchs",
+        "name": "Thorsten Fuchs"
+      },
+      {
+        "person_key": "anna_sophie_fuchs",
+        "name": "Anna-Sophie Fuchs"
+      }
+    ],
+    "abstract": "This Research Note engages the PROMETHEUS preprint as an external ontology-articulation surface for Category \u03c4. It argues that PROMETHEUS's four-fold gluing diagnostic is structurally read as the earned Belnap `Truth4` classifier, that exact gluing would require the boundary functor `\u03a6_\u2202`, and that the Para-Mind reading explains why an LLM-mediated external-topos construction is structurally licensed without being a full internal topos.",
+    "summary_short": "This Research Note engages the PROMETHEUS preprint as an external ontology-articulation surface for Category \u03c4. It argues that PROMETHEUS's four-fold gluing diagnostic is structurally read as the earned Belnap `Truth4` classifier, that exact gluing would require the boundary functor `\u03a6_\u2202`, and that the Para-Mind reading explains why an LLM-mediated external-topos construction is structurally licensed without being a full internal topos.",
+    "site_role": "",
+    "claim_boundary": {
+      "claim": "This artifact is a research note publication record.",
+      "non_claim": "It does not by itself certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
     },
     "canonical_url": "https://panta-rhei.site/publications/research-notes/reading-prometheus-through-tau/",
     "website_url": "https://panta-rhei.site/publications/research-notes/reading-prometheus-through-tau/",
     "short_url": "",
-    "slug": "reading-prometheus-through-tau",
+    "slug": "reading-prometheus-through-category-tau",
     "github_path": "research-notes/2026-05-17-reading-prometheus-through-tau-v1",
     "files": {
       "pdf_filename": "research-note-2026-05-17-reading-prometheus-through-tau-rc2.pdf",
@@ -1362,30 +1465,11 @@
     "identifiers": {
       "doi": "10.17605/OSF.IO/76CZR",
       "doi_url": "https://doi.org/10.17605/OSF.IO/76CZR",
-      "osf_url": "https://osf.io/76CZR/",
-      "osf_short_id": "76CZR",
-      "zenodo_url": "",
+      "zenodo_url": "https://doi.org/10.17605/OSF.IO/76CZR",
       "isbn_13": "",
       "asin": ""
     },
-    "external_links": [
-      {
-        "label": "OSF project (DOI 10.17605/OSF.IO/76CZR)",
-        "url": "https://doi.org/10.17605/OSF.IO/76CZR"
-      },
-      {
-        "label": "PROMETHEUS preprint (arXiv:2605.12835)",
-        "url": "https://arxiv.org/abs/2605.12835"
-      },
-      {
-        "label": "Mahadevan DEMOCRITUS (predecessor pipeline)",
-        "url": "https://arxiv.org/abs/2512.07796"
-      },
-      {
-        "label": "Mahadevan, Categories for AGI (book manuscript)",
-        "url": "https://people.cs.umass.edu/~mahadeva/papers/catagi.pdf"
-      }
-    ],
+    "external_links": [],
     "relations": {
       "related_lanes": [
         "publications",
@@ -1394,37 +1478,16 @@
       ],
       "related_routes": [
         "/publications/research-notes/reading-prometheus-through-tau/",
-        "/publications/research-notes/semantic-space-has-a-shape/",
-        "/corpus/registry/",
-        "/corpus/taulib/",
-        "/verify/taulib/",
-        "/verify/release-manifest/"
+        "/corpus/",
+        "/verify/"
       ],
-      "related_books": [
-        "book-i",
-        "book-iii",
-        "book-vii"
-      ],
+      "related_books": [],
       "related_hinges": [],
-      "related_registry_objects": [
-        "I.T25",
-        "I.D21",
-        "III.T50",
-        "VII.D55"
-      ],
+      "related_registry_objects": [],
       "related_results": [],
       "related_challenges": [],
-      "related_taulib_modules": [
-        "TauLib.BookI.Logic.Truth4",
-        "TauLib.BookI.Logic.Explosion"
-      ],
-      "related_bibliography_entries": [
-        "Mahadevan-PROMETHEUS-2026",
-        "Mahadevan-Democritus-2025a",
-        "Belnap-1977",
-        "Dunn-1976",
-        "MacLane-Moerdijk-1992"
-      ]
+      "related_taulib_modules": [],
+      "related_bibliography_entries": []
     },
     "citation": {
       "preferred": "",
@@ -1432,7 +1495,7 @@
     },
     "scholar": {
       "include_meta_tags": true,
-      "citation_title": "Reading PROMETHEUS Through Category tau",
+      "citation_title": "Reading PROMETHEUS Through Category \u03c4",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -1464,15 +1527,15 @@
     "publication_key": "research_notes.natarajan_cluster_dichotomy_categorical",
     "type": "research_note",
     "type_label": "Research Note",
-    "publication_role": "dialogue",
+    "publication_role": "technical",
     "status": "released",
     "artifact_availability": "local_pdf",
-    "route_status": "released",
+    "route_status": "not_applicable",
     "release_date": "2026-05-17",
     "version": "v1.0",
     "title": "The Natarajan Dichotomy as One D-Sector Readout in Two Regimes",
-    "subtitle": "A tau-Categorical Pre-Registration against the Natarajan, Chiang and Dutra (2026) Multiscale Cluster-Lensing CDM Crisis",
-    "short_title": "The Natarajan Dichotomy as One D-Sector Readout",
+    "subtitle": "",
+    "short_title": "The Natarajan Dichotomy as One D-Sector Readout in Two Regimes",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -1483,12 +1546,12 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "Natarajan, Chiang and Dutra (2026, ApJL 1001, L12) report a new cold-dark-matter crisis from multiscale gravitational lensing of three massive clusters compared to TNG-Cluster analogs. Four substructure diagnostics yield a dichotomy that no single particle-DM microphysics satisfies. We pre-register a Category-tau reading as one D-sector readout in two regimes, with three tau-distinctive positive readings, one numerical anchor (r_trans ~ 3.4-10.8 kpc), and an 11-row N16 falsification surface. Headline pre-registered falsifier is host-mass independence of r_trans at fixed SHMF, testable with Euclid + Rubin LSST + JWST/Roman by ~2029.",
-    "summary_short": "A tau-categorical pre-registration response to the Natarajan, Chiang and Dutra (2026) multiscale-cluster-lensing CDM-crisis paper, with three tau-distinctive readings, one numerical anchor, and an 11-row N16 falsification surface.",
+    "abstract": "This Research Note pre-registers a Category-\u03c4 reading of the cluster-substructure dichotomy reported in Natarajan, Chiang & Dutra (2026): the apparent need for the same member-galaxy subhalo to behave collisionally in inner cores and collisionlessly in outer tidal extents. The note commits three \u03c4-distinctive readings, one numerical transition-radius anchor, and an N16 falsification surface while keeping the derivational gaps explicit.",
+    "summary_short": "This Research Note pre-registers a Category-\u03c4 reading of the cluster-substructure dichotomy reported in Natarajan, Chiang & Dutra (2026): the apparent need for the same member-galaxy subhalo to behave collisionally in inner cores and collisionlessly in outer tidal extents. The note commits three \u03c4-distinctive readings, one numerical transition-radius anchor, and an N16 falsification surface while keeping the derivational gaps explicit.",
     "site_role": "",
     "claim_boundary": {
-      "claim": "Core claim: Under the tau-framework's capacity-gradient gravity sector and its boundary-holonomy mass closure (V.D272), the Natarajan dichotomy is a regime-projection of one D-sector readout — inner M_partial(R) number-promotion at the host nodal-capacity maximum, outer Newtonian-limit truncation via the V.D261 cluster-screening factor — with a single transition scale ell_cl_sub(M_sub) = sqrt(G M_sub / a_0) governed by subhalo mass, not by a particle-DM cross-section.\n\nDoes not claim:\n- It does not derive the gamma >~ 2.5 inner density slope from existing primitives.\n- It does not derive the SHMF amplitude (slope only).\n- It does not derive the 5sigma-40sigma inner-excess amplitude.\n- It does not supersede the V.T203 conjectural status in the KSZ-categorical note.\n- It does not claim tau-physics is Lean-verified as external physics.\n- It does not engage Natarajan, Chiang, or Dutra adversarially.",
-      "non_claim": "Does not claim:\n- It does not derive the gamma >~ 2.5 inner density slope from existing primitives.\n- It does not derive the SHMF amplitude (slope only).\n- It does not derive the 5sigma-40sigma inner-excess amplitude.\n- It does not supersede the V.T203 conjectural status in the KSZ-categorical note.\n- It does not claim tau-physics is Lean-verified as external physics.\n- It does not engage Natarajan, Chiang, or Dutra adversarially."
+      "claim": "This artifact is a research note publication record.",
+      "non_claim": "It does not by itself certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
     },
     "canonical_url": "https://panta-rhei.site/publications/research-notes/natarajan-cluster-dichotomy-categorical/",
     "website_url": "https://panta-rhei.site/publications/research-notes/natarajan-cluster-dichotomy-categorical/",
@@ -1505,75 +1568,31 @@
     "identifiers": {
       "doi": "10.17605/OSF.IO/BFRX3",
       "doi_url": "https://doi.org/10.17605/OSF.IO/BFRX3",
-      "osf_url": "https://osf.io/BFRX3/",
-      "zenodo_url": "",
+      "zenodo_url": "https://doi.org/10.17605/OSF.IO/BFRX3",
       "isbn_13": "",
       "asin": ""
     },
-    "external_links": [
-      {
-        "label": "Anchor paper (Natarajan+2026)",
-        "url": "https://doi.org/10.3847/2041-8213/ae53ea"
-      },
-      {
-        "label": "OSF deposit v1.0",
-        "url": "https://doi.org/10.17605/OSF.IO/BFRX3"
-      },
-      {
-        "label": "KSZ-categorical companion",
-        "url": "https://panta-rhei.site/publications/research-notes/dark-matter-without-dark-matter-ksz-force-law/"
-      }
-    ],
+    "external_links": [],
     "relations": {
       "related_lanes": [
         "publications",
-        "corpus",
-        "impact",
+        "results",
         "verify"
       ],
       "related_routes": [
-        "/publications/research-notes/natarajan-cluster-dichotomy-categorical/",
-        "/publications/research-notes/dark-matter-without-dark-matter-ksz-force-law/",
-        "/corpus/registry/",
-        "/corpus/taulib/",
-        "/verify/taulib/",
-        "/verify/release-manifest/"
+        "/publications/research-notes/natarajan-cluster-dichotomy-categorical/"
       ],
-      "related_books": [
-        "book-v"
-      ],
+      "related_books": [],
       "related_hinges": [],
-      "related_registry_objects": [
-        "V.D272",
-        "V.D261",
-        "V.D232",
-        "V.D350",
-        "V.D352",
-        "V.T28",
-        "V.T78",
-        "V.T203",
-        "V.T213",
-        "V.T348",
-        "V.P16",
-        "V.P68",
-        "V.R175"
-      ],
+      "related_registry_objects": [],
       "related_results": [],
       "related_challenges": [],
-      "related_taulib_modules": [
-        "TauLib.BookV.Cosmology.ClusterSubstructure",
-        "TauLib.BookV.Cosmology.WilsonLoopHolonomy"
-      ],
-      "related_bibliography_entries": [
-        "Natarajan2026ClusterCDMCrisis",
-        "Famaey2025MONDClusterMass",
-        "Tokayer2024GGSLBaryonicRearrangement",
-        "Dutra2025InnerSlopeCoreCollapse"
-      ]
+      "related_taulib_modules": [],
+      "related_bibliography_entries": []
     },
     "citation": {
-      "preferred": "Fuchs, T., Fuchs, A.-S., 2026, \"The Natarajan Dichotomy as One D-Sector Readout in Two Regimes: A tau-Categorical Pre-Registration against the Natarajan, Chiang and Dutra (2026) Multiscale Cluster-Lensing CDM Crisis\", Panta Rhei Research Program, RN-032, doi:10.17605/OSF.IO/BFRX3.",
-      "bibtex_key": "FuchsNatarajanDichotomyTauCategorical2026"
+      "preferred": "",
+      "bibtex_key": ""
     },
     "scholar": {
       "include_meta_tags": true,
@@ -1605,18 +1624,18 @@
     "do_not_edit": true
   },
   {
-    "publication_id": "rn031",
-    "publication_key": "research_notes.when_search_becomes_structure",
+    "publication_id": "rn031-rc1",
+    "publication_key": "research_notes.when_search_becomes_structure_rc1",
     "type": "research_note",
     "type_label": "Research Note",
-    "publication_role": "dialogue",
-    "status": "released",
+    "publication_role": "technical",
+    "status": "superseded",
     "artifact_availability": "local_pdf",
-    "route_status": "released",
+    "route_status": "not_applicable",
     "release_date": "2026-05-17",
     "version": "RC1",
     "title": "When Search Becomes Structure",
-    "subtitle": "A guarded bridge note between Wolfram's ruliological P-vs-NP microcosms and tau-admissible witness construction",
+    "subtitle": "",
     "short_title": "When Search Becomes Structure",
     "authors": [
       {
@@ -1628,17 +1647,17 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "This Research Note reads Stephen Wolfram's 2026 ruliological P-vs-NP essay as an external comparator for a bounded Panta Rhei question; when does witness search become finite address construction? It keeps Wolfram's finite ruliological microcosms, the internal tau-admissibility claim, and orthodox Clay/Turing/ZFC P vs NP strictly separated.",
-    "summary_short": "A guarded bridge note comparing Wolfram's ruliological P-vs-NP microcosms with tau-admissible witness construction.",
+    "abstract": "",
+    "summary_short": "",
     "site_role": "",
     "claim_boundary": {
-      "claim": "Core claim: Search becomes structure only when a witness has earned finite address coordinates under a construction discipline strong enough to replace scanning by reassembly.\n\nDoes not claim:\n- It does not solve orthodox P vs NP.\n- It does not claim P = NP over unrestricted Turing machines.\n- It does not claim that the Ruliad is Category tau.\n- It does not claim Wolfram validates Panta Rhei.\n- It does not claim every NP witness space is tau-admissible.\n- It does not export tau-P_adm = tau-NP_adm without a separate bridge theorem.",
-      "non_claim": "Does not claim:\n- It does not solve orthodox P vs NP.\n- It does not claim P = NP over unrestricted Turing machines.\n- It does not claim that the Ruliad is Category tau.\n- It does not claim Wolfram validates Panta Rhei.\n- It does not claim every NP witness space is tau-admissible.\n- It does not export tau-P_adm = tau-NP_adm without a separate bridge theorem."
+      "claim": "This artifact is a research note publication record.",
+      "non_claim": "It does not by itself certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
     },
     "canonical_url": "https://panta-rhei.site/publications/research-notes/when-search-becomes-structure/",
     "website_url": "https://panta-rhei.site/publications/research-notes/when-search-becomes-structure/",
     "short_url": "",
-    "slug": "when-search-becomes-structure",
+    "slug": "when-search-becomes-structure-rc1",
     "github_path": "research-notes/2026-05-17-when-search-becomes-structure",
     "files": {
       "pdf_filename": "research-note-2026-05-17-when-search-becomes-structure-rc1.pdf",
@@ -1654,20 +1673,7 @@
       "isbn_13": "",
       "asin": ""
     },
-    "external_links": [
-      {
-        "label": "Wolfram essay",
-        "url": "https://writings.stephenwolfram.com/2026/01/p-vs-np-and-the-difficulty-of-computation-a-ruliological-approach/"
-      },
-      {
-        "label": "Wolfram Institute Ruliology",
-        "url": "https://wolframinstitute.org/research/ruliology"
-      },
-      {
-        "label": "Clay P vs NP problem statement",
-        "url": "https://www.claymath.org/millennium/p-vs-np/"
-      }
-    ],
+    "external_links": [],
     "relations": {
       "related_lanes": [
         "publications",
@@ -1675,24 +1681,15 @@
         "verify"
       ],
       "related_routes": [
-        "/publications/research-notes/when-search-becomes-structure/",
-        "/corpus/construction-spine/",
-        "/corpus/taulib/",
-        "/verify/taulib/",
-        "/verify/release-manifest/",
-        "/corpus/registry/"
+        "/publications/research-notes/when-search-becomes-structure/"
       ],
-      "related_books": [
-        "book-iii"
-      ],
+      "related_books": [],
       "related_hinges": [],
       "related_registry_objects": [],
       "related_results": [],
       "related_challenges": [],
       "related_taulib_modules": [],
-      "related_bibliography_entries": [
-        "Wolfram2026RuliologicalPNP"
-      ]
+      "related_bibliography_entries": []
     },
     "citation": {
       "preferred": "",
@@ -1721,7 +1718,7 @@
       "publications_manifest": "publications/research-notes/2026-05-17-when-search-becomes-structure/manifest.json",
       "site_research_papers": ""
     },
-    "metadata_pending": true,
+    "metadata_pending": false,
     "generated_from": "corpus/data/publications/publications.yml",
     "projection_version": "v0.1",
     "canonical_source": "corpus/data",
@@ -1739,7 +1736,7 @@
     "release_date": "2026-05-16",
     "version": "v1.0",
     "title": "Dynamic Chirality-Induced Spin Selectivity as a Symmetry-Class Bridge",
-    "subtitle": "Book VI's parity slot and Paltiel et al.'s dynamic CISS mechanism",
+    "subtitle": "",
     "short_title": "Dynamic Chirality-Induced Spin Selectivity as a Symmetry-Class Bridge",
     "authors": [
       {
@@ -1751,12 +1748,12 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "Dynamic Chirality-Induced Spin Selectivity as a Symmetry-Class Bridge reads Paltiel et al.'s Science Advances paper on dynamic chirality-induced spin selectivity and enantiomeric excess as a guarded external readout surface for Book VI's homochirality / parity-bridge architecture. The note does not claim that Paltiel et al. validate Category τ, nor that Panta Rhei predicted their detailed molecular mechanism. Its narrower claim is a prior structural-slot record and a symmetry-class bridge.",
-    "summary_short": "The note reads Paltiel et al.'s dynamic CISS mechanism as a guarded symmetry-class bridge for Book VI's homochirality / parity-bridge architecture, while keeping mechanism-level priority with Paltiel et al. and limiting the Panta Rhei claim to a prior structural-slot record.",
+    "abstract": "Dynamic Chirality-Induced Spin Selectivity as a Symmetry-Class Bridge reads Paltiel et al.'s Science Advances paper on dynamic chirality-induced spin selectivity and enantiomeric excess as a guarded external readout surface for Book VI's homochirality / parity-bridge architecture. The note does not claim that Paltiel et al. validate Category \u03c4, nor that Panta Rhei predicted their detailed molecular mechanism. Its narrower claim is a prior structural-slot record and a symmetry-class bridge.",
+    "summary_short": "Dynamic Chirality-Induced Spin Selectivity as a Symmetry-Class Bridge reads Paltiel et al.'s Science Advances paper on dynamic chirality-induced spin selectivity and enantiomeric excess as a guarded external readout surface for Book VI's homochirality / parity-bridge architecture. The note does not claim that Paltiel et al. validate Category \u03c4, nor that Panta Rhei predicted their detailed molecular mechanism. Its narrower claim is a prior structural-slot record and a symmetry-class bridge.",
     "site_role": "",
     "claim_boundary": {
-      "claim": "Core claim: Book VI's Parity Bridge records a prior structural slot for a non-thermal, parity-odd, time-even, weak-EM amplification channel between the weak-sector chirality seed and biological handedness; the Paltiel et al. dynamic CISS mechanism is an admissible candidate realization of that slot at the level of symmetry class and amplification role.\n\nDoes not claim:\n- It does not claim that Panta Rhei derived or predicted Paltiel et al.'s vibronic spin-orbit mechanism, molecular angular structure, or reported transport asymmetries.\n- It does not claim that Paltiel et al. validate Category τ or Book VI.\n- It does not establish that the Paltiel et al. mechanism is empirically final.\n- It does not replace independent chemical, biophysical, or experimental validation.\n\nFalsification surface:\n- Failure of the proposed operator to preserve the required parity/time/sign structure.\n- Experimental refutation of dynamic CISS as the relevant amplification channel.\n- Failure of the Book VI Parity Bridge interpretation under formal or semantic review.",
-      "non_claim": "Does not claim:\n- It does not claim that Panta Rhei derived or predicted Paltiel et al.'s vibronic spin-orbit mechanism, molecular angular structure, or reported transport asymmetries.\n- It does not claim that Paltiel et al. validate Category τ or Book VI.\n- It does not establish that the Paltiel et al. mechanism is empirically final.\n- It does not replace independent chemical, biophysical, or experimental validation.\n\nFalsification surface:\n- Failure of the proposed operator to preserve the required parity/time/sign structure.\n- Experimental refutation of dynamic CISS as the relevant amplification channel.\n- Failure of the Book VI Parity Bridge interpretation under formal or semantic review."
+      "claim": "Core claim: Book VI's Parity Bridge records a prior structural slot for a non-thermal, parity-odd, time-even, weak-EM amplification channel between the weak-sector chirality seed and biological handedness; the Paltiel et al. dynamic CISS mechanism is an admissible candidate realization of that slot at the level of symmetry class and amplification role.\n\nDoes not claim:\n- It does not claim that Panta Rhei derived or predicted Paltiel et al.'s vibronic spin-orbit mechanism, molecular angular structure, or reported transport asymmetries.\n- It does not claim that Paltiel et al. validate Category \u03c4 or Book VI.\n- It does not establish that the Paltiel et al. mechanism is empirically final.\n- It does not replace independent chemical, biophysical, or experimental validation.\n\nFalsification surface:\n- Failure of the proposed operator to preserve the required parity/time/sign structure.\n- Experimental refutation of dynamic CISS as the relevant amplification channel.\n- Failure of the Book VI Parity Bridge interpretation under formal or semantic review.",
+      "non_claim": "Does not claim:\n- It does not claim that Panta Rhei derived or predicted Paltiel et al.'s vibronic spin-orbit mechanism, molecular angular structure, or reported transport asymmetries.\n- It does not claim that Paltiel et al. validate Category \u03c4 or Book VI.\n- It does not establish that the Paltiel et al. mechanism is empirically final.\n- It does not replace independent chemical, biophysical, or experimental validation.\n\nFalsification surface:\n- Failure of the proposed operator to preserve the required parity/time/sign structure.\n- Experimental refutation of dynamic CISS as the relevant amplification channel.\n- Failure of the Book VI Parity Bridge interpretation under formal or semantic review."
     },
     "canonical_url": "https://panta-rhei.site/publications/research-notes/structural-prior-dynamic-chirality-induced-spin-selectivity/",
     "website_url": "https://panta-rhei.site/publications/research-notes/structural-prior-dynamic-chirality-induced-spin-selectivity/",
@@ -1771,9 +1768,9 @@
       "source_website_asset_path": "site/assets/pdfs/research-notes/research-note-2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity.pdf"
     },
     "identifiers": {
-      "doi": "",
-      "doi_url": "",
-      "zenodo_url": "",
+      "doi": "10.5281/zenodo.19815548",
+      "doi_url": "https://doi.org/10.5281/zenodo.19815548",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.19815548",
       "isbn_13": "",
       "asin": ""
     },
@@ -1808,13 +1805,13 @@
       ],
       "citation_publication_date": "2026/05/16",
       "citation_pdf_url": "https://panta-rhei.site/assets/pdfs/research-notes/research-note-2026-04-25-structural-prior-dynamic-chirality-induced-spin-selectivity.pdf",
-      "citation_doi": "",
+      "citation_doi": "10.5281/zenodo.19815548",
       "citation_technical_report_institution": "Panta Rhei Research Program"
     },
     "integrity": {
-      "bytes": 223948,
-      "sha256": "53a530b80c24ec26a1452de991c14d68f427a833dd09e8a069c52e8e5dc3dd6b",
-      "sha512": "6363db7a47827adc3bc525ff19278de0340214e4b3791346c3eb4f5cdad2f2a2ca33d1f0209674e7322f22b9e947ad407c1d1e43ccb87eae91c6d8f5a8320a6b",
+      "bytes": 176262,
+      "sha256": "4a97de0e7c03fe3398b08e43b6f7fc639edb185bcfadf6d509666c7ba2ed9dd0",
+      "sha512": "6a02927309e6d3296d71720538e643ff9e5df2c6f830716b7b826f0663b6b8d209fa12cc5556ede3f6d2ee76bf6874140dfa407e6388be5b99b6b0fd082ee46d",
       "ots_status": "pending"
     },
     "metadata_sources": {
@@ -1823,6 +1820,111 @@
       "site_research_papers": ""
     },
     "metadata_pending": true,
+    "generated_from": "corpus/data/publications/publications.yml",
+    "projection_version": "v0.1",
+    "canonical_source": "corpus/data",
+    "do_not_edit": true
+  },
+  {
+    "publication_id": "rn030",
+    "publication_key": "research_notes.thirty_open_problems_tau_readout_surfaces",
+    "type": "research_note",
+    "type_label": "Research Note",
+    "publication_role": "technical",
+    "status": "released",
+    "artifact_availability": "local_pdf",
+    "route_status": "active",
+    "release_date": "2026-05-15",
+    "version": "v1.0",
+    "title": "Thirty Open Problems as tau-Readout Surfaces",
+    "subtitle": "A structural answer-shape stress test of expressiveness, coherence, and translation capacity",
+    "short_title": "Thirty Open Problems as tau-Readout Surfaces",
+    "authors": [
+      {
+        "person_key": "thorsten_fuchs",
+        "name": "Thorsten Fuchs"
+      },
+      {
+        "person_key": "anna_sophie_fuchs",
+        "name": "Anna-Sophie Fuchs"
+      }
+    ],
+    "abstract": "This research note does not claim to solve the thirty open questions listed. It uses them as an external expressiveness and coherence probe for the tau-framework.\n\nThe note maps familiar problem surfaces in quantum foundations, particle physics, gravity, black-hole physics, and cosmology to structural answer-shapes and recurring construction patterns. Its burden is deliberately weaker than solution or validation: it asks whether the existing construction grammar differentiates the problem surfaces without importing ad hoc mechanisms.",
+    "summary_short": "This research note does not claim to solve the thirty open questions listed. It uses them as an external expressiveness and coherence probe for the tau-framework.\n\nThe note maps familiar problem surfaces in quantum foundations, particle physics, gravity, black-hole physics, and cosmology to structural answer-shapes and recurring construction patterns. Its burden is deliberately weaker than solution or validation: it asks whether the existing construction grammar differentiates the problem surfaces without importing ad hoc mechanisms.",
+    "site_role": "",
+    "claim_boundary": {
+      "claim": "Core claim: The note tests whether the existing tau-construction grammar produces coherent, differentiated answer-shapes across an externally chosen open-problem tableau.\n\nDoes not claim:\n- It does not claim to solve the thirty open questions.\n- It does not treat the external prompt as a scientific authority.\n- It does not claim external validation of the tau-framework.\n- It does not treat an answer-shape as a validated answer.\n\nFalsification surface:\n- The exercise fails if most rows require unrelated mechanisms or one vague explanation repeated thirty times.\n- The exercise fails if hidden imports of standard spacetime, particles, observers, or external primitives are required.\n- Any validated solution would still require row-by-row formal derivation, bridge adequacy, empirical comparison, and disciplinary review.",
+      "non_claim": "Does not claim:\n- It does not claim to solve the thirty open questions.\n- It does not treat the external prompt as a scientific authority.\n- It does not claim external validation of the tau-framework.\n- It does not treat an answer-shape as a validated answer.\n\nFalsification surface:\n- The exercise fails if most rows require unrelated mechanisms or one vague explanation repeated thirty times.\n- The exercise fails if hidden imports of standard spacetime, particles, observers, or external primitives are required.\n- Any validated solution would still require row-by-row formal derivation, bridge adequacy, empirical comparison, and disciplinary review."
+    },
+    "canonical_url": "https://panta-rhei.site/publications/research-notes/thirty-open-problems-tau-readout-surfaces/",
+    "website_url": "https://panta-rhei.site/publications/research-notes/thirty-open-problems-tau-readout-surfaces/",
+    "short_url": "https://prrp.site/30-questions",
+    "slug": "thirty-open-problems-tau-readout-surfaces",
+    "github_path": "research-notes/2026-05-15-thirty-open-problems-tau-readout-surfaces",
+    "files": {
+      "pdf_filename": "research-note-2026-05-15-thirty-open-problems-tau-readout-surfaces.pdf",
+      "pdf_url": "https://panta-rhei.site/assets/pdfs/research-notes/research-note-2026-05-15-thirty-open-problems-tau-readout-surfaces.pdf",
+      "pdf_path_site": "assets/pdfs/research-notes/research-note-2026-05-15-thirty-open-problems-tau-readout-surfaces.pdf",
+      "pdf_path_publications_repo": "research-notes/2026-05-15-thirty-open-problems-tau-readout-surfaces/research-note-2026-05-15-thirty-open-problems-tau-readout-surfaces.pdf",
+      "source_website_asset_path": "site/assets/pdfs/research-notes/research-note-2026-05-15-thirty-open-problems-tau-readout-surfaces.pdf"
+    },
+    "identifiers": {
+      "doi": "",
+      "doi_url": "",
+      "zenodo_url": "",
+      "isbn_13": "",
+      "asin": ""
+    },
+    "external_links": [],
+    "relations": {
+      "related_lanes": [
+        "publications",
+        "corpus",
+        "results",
+        "verify"
+      ],
+      "related_routes": [
+        "/publications/research-notes/thirty-open-problems-tau-readout-surfaces/",
+        "/corpus/construction-spine/",
+        "/results/challenge-responses/",
+        "/verify/construction-spine-verification/"
+      ],
+      "related_books": [],
+      "related_hinges": [],
+      "related_registry_objects": [],
+      "related_results": [],
+      "related_challenges": [],
+      "related_taulib_modules": [],
+      "related_bibliography_entries": []
+    },
+    "citation": {
+      "preferred": "",
+      "bibtex_key": ""
+    },
+    "scholar": {
+      "include_meta_tags": true,
+      "citation_title": "Thirty Open Problems as tau-Readout Surfaces",
+      "citation_author": [
+        "Thorsten Fuchs",
+        "Anna-Sophie Fuchs"
+      ],
+      "citation_publication_date": "2026/05/15",
+      "citation_pdf_url": "https://panta-rhei.site/assets/pdfs/research-notes/research-note-2026-05-15-thirty-open-problems-tau-readout-surfaces.pdf",
+      "citation_doi": "",
+      "citation_technical_report_institution": "Panta Rhei Research Program"
+    },
+    "integrity": {
+      "bytes": 1632069,
+      "sha256": "109f2ff89510dd137df12defcc2a28ce8a508d19fa24007877b1b38eea12faca",
+      "sha512": "df4ced3a4781f25a51e5de18a0a346026b3986c948b55b26b39a6e993251b72e1a80dcd569656eb4118f619200645d93aff45af827597043cae03030d37f10b7",
+      "ots_status": "missing"
+    },
+    "metadata_sources": {
+      "publications_catalog": "publications/catalog/publications.json",
+      "publications_manifest": "publications/research-notes/2026-05-15-thirty-open-problems-tau-readout-surfaces/manifest.json",
+      "site_research_papers": ""
+    },
+    "metadata_pending": false,
     "generated_from": "corpus/data/publications/publications.yml",
     "projection_version": "v0.1",
     "canonical_source": "corpus/data",
@@ -1840,7 +1942,7 @@
     "release_date": "2026-05-15",
     "version": "v0.9 RC",
     "title": "Aesthetic Topology as Pre-Symbolic Readout",
-    "subtitle": "Persistent homology, gaze, and the Book VII aesthetic-functional picture",
+    "subtitle": "",
     "short_title": "Aesthetic Topology as Pre-Symbolic Readout",
     "authors": [
       {
@@ -1852,12 +1954,12 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "This research note reads Dmitruk et al.'s PLOS Computational Biology paper on persistent homology, gaze, EEG, and abstract art as a guarded external readout surface for Book VII's categorical aesthetics. It does not claim that topology measures beauty or that the external paper validates Category τ. Instead, it builds a typed bridge from image-filtration descriptors to possible pre-symbolic motif readout, while making the lossy measurement chain, caveats, and falsification surfaces explicit.",
-    "summary_short": "A Book VII research-note release candidate reading persistent homology, gaze, EEG, and abstract art as a guarded bridge surface for categorical aesthetics.",
+    "abstract": "This research note reads Dmitruk et al.'s PLOS Computational Biology paper on persistent homology, gaze, EEG, and abstract art as a guarded external readout surface for Book VII's categorical aesthetics. It does not claim that topology measures beauty or that the external paper validates Category tau. Instead, it builds a typed bridge from image-filtration descriptors to possible pre-symbolic motif readout, while making the lossy measurement chain, caveats, and falsification surfaces explicit.",
+    "summary_short": "This research note reads Dmitruk et al.'s PLOS Computational Biology paper on persistent homology, gaze, EEG, and abstract art as a guarded external readout surface for Book VII's categorical aesthetics. It does not claim that topology measures beauty or that the external paper validates Category tau. Instead, it builds a typed bridge from image-filtration descriptors to possible pre-symbolic motif readout, while making the lossy measurement chain, caveats, and falsification surfaces explicit.",
     "site_role": "",
     "claim_boundary": {
-      "claim": "Core claim: Dmitruk et al.'s persistent-homology study of abstract art provides a promising empirical descriptor family for possible pre-symbolic motif readout, if and only if each step in the chain from image to Book VII interpretation remains typed, lossy, and inspectable.\n\nDoes not claim:\n- It does not claim that persistent homology measures beauty.\n- It does not claim that Dmitruk et al. validate Category τ.\n- It does not claim that image-filtration topology is Book VII topology.\n- It does not claim that gaze equals experience.\n- It does not claim that the Alexander-duality residual is a golden-ratio or ιτ bridge.\n\nFalsification surface:\n- Failure of independent reproduction of the OSF/GitHub pipeline.\n- Failure of color-aware topology, saliency baselines, or controlled synthesis to add explanatory value.\n- Failure of the Book VII bridge under preregistered Category τ-facing readout maps.",
-      "non_claim": "Does not claim:\n- It does not claim that persistent homology measures beauty.\n- It does not claim that Dmitruk et al. validate Category τ.\n- It does not claim that image-filtration topology is Book VII topology.\n- It does not claim that gaze equals experience.\n- It does not claim that the Alexander-duality residual is a golden-ratio or ιτ bridge."
+      "claim": "Core claim: Dmitruk et al. provide a promising empirical descriptor family for visual-composition readout: image to filtration descriptor to feature map to viewer trace to Book VII interpretation. Every arrow in that chain is lossy, and the note's contribution is a typed bridge protocol rather than a new empirical result.\n\nDoes not claim:\n- It does not claim that persistent homology measures beauty.\n- It does not claim that Dmitruk et al. prove or validate Category tau.\n- It does not claim that image-filtration topology is Book VII topology.\n- It does not claim proof of artist intent, universal composition law, deployment relevance, policy adoption, or achieved impact.\n\nFalsification surface:\n- Independent reproduction fails to recover the reported image-topology descriptors or gaze/topology comparisons.\n- Color-aware topology, controlled synthesis, saliency baselines, or curatorial controls explain away the Book VII-facing bridge value.\n- Preregistered Category-tau-facing mappings from image descriptors to motif quantities fail under external review or future empirical testing.",
+      "non_claim": "Does not claim:\n- It does not claim that persistent homology measures beauty.\n- It does not claim that Dmitruk et al. prove or validate Category tau.\n- It does not claim that image-filtration topology is Book VII topology.\n- It does not claim proof of artist intent, universal composition law, deployment relevance, policy adoption, or achieved impact.\n\nFalsification surface:\n- Independent reproduction fails to recover the reported image-topology descriptors or gaze/topology comparisons.\n- Color-aware topology, controlled synthesis, saliency baselines, or curatorial controls explain away the Book VII-facing bridge value.\n- Preregistered Category-tau-facing mappings from image descriptors to motif quantities fail under external review or future empirical testing."
     },
     "canonical_url": "https://panta-rhei.site/publications/research-notes/aesthetic-topology-pre-symbolic-readout/",
     "website_url": "https://panta-rhei.site/publications/research-notes/aesthetic-topology-pre-symbolic-readout/",
@@ -1872,23 +1974,28 @@
       "source_website_asset_path": "site/assets/pdfs/research-notes/research-note-2026-05-15-aesthetic-topology-pre-symbolic-readout-v0-9-rc.pdf"
     },
     "identifiers": {
-      "doi": "",
-      "doi_url": "",
+      "doi": "10.17605/OSF.IO/SBPD6",
+      "doi_url": "https://doi.org/10.17605/OSF.IO/SBPD6",
       "zenodo_url": "",
       "isbn_13": "",
-      "asin": ""
+      "asin": "",
+      "osf_url": "https://osf.io/SBPD6/"
     },
     "external_links": [
       {
-        "label": "External paper DOI",
+        "label": "Anchor paper DOI",
         "url": "https://doi.org/10.1371/journal.pcbi.1014156"
+      },
+      {
+        "label": "PLOS article",
+        "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014156"
       },
       {
         "label": "OSF data route",
         "url": "https://osf.io/6u4p2/?view_only=d38603b8105a4724afd3572a49daee8a"
       },
       {
-        "label": "GitHub code route",
+        "label": "Image-analysis code",
         "url": "https://github.com/edd26/arttoppaper"
       }
     ],
@@ -1899,27 +2006,15 @@
         "verify"
       ],
       "related_routes": [
-        "/publications/research-notes/aesthetic-topology-pre-symbolic-readout/",
-        "/publications/books/book-vii/"
+        "/publications/research-notes/aesthetic-topology-pre-symbolic-readout/"
       ],
-      "related_books": [
-        "book-vii"
-      ],
+      "related_books": [],
       "related_hinges": [],
-      "related_registry_objects": [
-        "VII.D44",
-        "VII.D46",
-        "VII.D47",
-        "VII.T19",
-        "VII.P11",
-        "VII.R21"
-      ],
+      "related_registry_objects": [],
       "related_results": [],
       "related_challenges": [],
       "related_taulib_modules": [],
-      "related_bibliography_entries": [
-        "Dmitruk2026ArtHiddenTopology"
-      ]
+      "related_bibliography_entries": []
     },
     "citation": {
       "preferred": "",
@@ -1934,13 +2029,13 @@
       ],
       "citation_publication_date": "2026/05/15",
       "citation_pdf_url": "https://panta-rhei.site/assets/pdfs/research-notes/research-note-2026-05-15-aesthetic-topology-pre-symbolic-readout-v0-9-rc.pdf",
-      "citation_doi": "",
+      "citation_doi": "10.17605/OSF.IO/SBPD6",
       "citation_technical_report_institution": "Panta Rhei Research Program"
     },
     "integrity": {
-      "bytes": 178728,
-      "sha256": "e330027ace1ec9eec0982a74ca0ce18664c94fe4c91505355a4c91bd50ba3159",
-      "sha512": "0d0d12a19b8af1f767d51dccdbbe243ea40f613aecc70ba894e7b2afe80fad9c922b0dd56b48af5ba53a9eae0b3dae9a253704f14b3ae8915032780b87a98592",
+      "bytes": 180493,
+      "sha256": "b80cf2f401db16f6f955bee92b09a2235974824382e38402032d2785687862a2",
+      "sha512": "073f92063b85f9a2bb87bbff7a3a29080b7c8dd065f5478866b356bbc0f65c0b4e9037f8711487471ca4100dddc04e6f4a082c3c305fd4b291fe6ef98fbeb798",
       "ots_status": "missing"
     },
     "metadata_sources": {
@@ -1965,9 +2060,9 @@
     "route_status": "reserved",
     "release_date": "2026-05-02",
     "version": "v3-enriched",
-    "title": "τ for Wildfire, Smoke, Heat, and Compound-Extreme Health Protection",
+    "title": "\u03c4 for Wildfire, Smoke, Heat, and Compound-Extreme Health Protection",
     "subtitle": "",
-    "short_title": "τ for Wildfire, Smoke, Heat, and Compound-Extreme Health Protection",
+    "short_title": "\u03c4 for Wildfire, Smoke, Heat, and Compound-Extreme Health Protection",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -1978,8 +2073,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing on how τ could improve wildfire prediction, smoke-dispersion forecasting, heat-event warning, and compound-extreme health protection.",
-    "summary_short": "A Public-Good Briefing on how τ could improve wildfire prediction, smoke-dispersion forecasting, heat-event warning, and compound-extreme health protection.",
+    "abstract": "A Public-Good Briefing on how \u03c4 could improve wildfire prediction, smoke-dispersion forecasting, heat-event warning, and compound-extreme health protection.",
+    "summary_short": "A Public-Good Briefing on how \u03c4 could improve wildfire prediction, smoke-dispersion forecasting, heat-event warning, and compound-extreme health protection.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -2028,7 +2123,7 @@
     },
     "scholar": {
       "include_meta_tags": false,
-      "citation_title": "τ for Wildfire, Smoke, Heat, and Compound-Extreme Health Protection",
+      "citation_title": "\u03c4 for Wildfire, Smoke, Heat, and Compound-Extreme Health Protection",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -2066,9 +2161,9 @@
     "route_status": "reserved",
     "release_date": "2026-05-02",
     "version": "v3-enriched",
-    "title": "τ for Wastewater, Stormwater, Sanitation, and Circular Water Reuse",
+    "title": "\u03c4 for Wastewater, Stormwater, Sanitation, and Circular Water Reuse",
     "subtitle": "",
-    "short_title": "τ for Wastewater, Stormwater, Sanitation, and Circular Water Reuse",
+    "short_title": "\u03c4 for Wastewater, Stormwater, Sanitation, and Circular Water Reuse",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -2079,8 +2174,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing on how τ could improve wastewater treatment intelligence, stormwater management, sanitation system optimization, and circular water reuse.",
-    "summary_short": "A Public-Good Briefing on how τ could improve wastewater treatment intelligence, stormwater management, sanitation system optimization, and circular water reuse.",
+    "abstract": "A Public-Good Briefing on how \u03c4 could improve wastewater treatment intelligence, stormwater management, sanitation system optimization, and circular water reuse.",
+    "summary_short": "A Public-Good Briefing on how \u03c4 could improve wastewater treatment intelligence, stormwater management, sanitation system optimization, and circular water reuse.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -2129,7 +2224,7 @@
     },
     "scholar": {
       "include_meta_tags": false,
-      "citation_title": "τ for Wastewater, Stormwater, Sanitation, and Circular Water Reuse",
+      "citation_title": "\u03c4 for Wastewater, Stormwater, Sanitation, and Circular Water Reuse",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -2167,9 +2262,9 @@
     "route_status": "reserved",
     "release_date": "2026-05-02",
     "version": "v3-enriched",
-    "title": "τ for Waste Systems, Plastics Leakage, Litter Interception, Municipal/Industrial Waste Operations, and Zero-Waste Transitions",
+    "title": "\u03c4 for Waste Systems, Plastics Leakage, Litter Interception, Municipal/Industrial Waste Operations, and Zero-Waste Transitions",
     "subtitle": "",
-    "short_title": "τ for Waste Systems, Plastics Leakage, Litter Interception, Municipal/Industrial Waste Operations, and Zero-Waste Transitions",
+    "short_title": "\u03c4 for Waste Systems, Plastics Leakage, Litter Interception, Municipal/Industrial Waste Operations, and Zero-Waste Transitions",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -2180,8 +2275,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing on how τ could improve waste-flow modeling, plastics-leakage interception, municipal and industrial waste operations, and zero-waste transition planning.",
-    "summary_short": "A Public-Good Briefing on how τ could improve waste-flow modeling, plastics-leakage interception, municipal and industrial waste operations, and zero-waste transition planning.",
+    "abstract": "A Public-Good Briefing on how \u03c4 could improve waste-flow modeling, plastics-leakage interception, municipal and industrial waste operations, and zero-waste transition planning.",
+    "summary_short": "A Public-Good Briefing on how \u03c4 could improve waste-flow modeling, plastics-leakage interception, municipal and industrial waste operations, and zero-waste transition planning.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -2230,7 +2325,7 @@
     },
     "scholar": {
       "include_meta_tags": false,
-      "citation_title": "τ for Waste Systems, Plastics Leakage, Litter Interception, Municipal/Industrial Waste Operations, and Zero-Waste Transitions",
+      "citation_title": "\u03c4 for Waste Systems, Plastics Leakage, Litter Interception, Municipal/Industrial Waste Operations, and Zero-Waste Transitions",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -2268,9 +2363,9 @@
     "route_status": "reserved",
     "release_date": "2026-05-02",
     "version": "v3-enriched",
-    "title": "τ for WASH in Health Facilities, Schools, Camps, and Climate-Vulnerable Settlements",
+    "title": "\u03c4 for WASH in Health Facilities, Schools, Camps, and Climate-Vulnerable Settlements",
     "subtitle": "",
-    "short_title": "τ for WASH in Health Facilities, Schools, Camps, and Climate-Vulnerable Settlements",
+    "short_title": "\u03c4 for WASH in Health Facilities, Schools, Camps, and Climate-Vulnerable Settlements",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -2281,8 +2376,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing on how τ could improve WASH service continuity in health facilities, schools, refugee camps, and climate-vulnerable settlements.",
-    "summary_short": "A Public-Good Briefing on how τ could improve WASH service continuity in health facilities, schools, refugee camps, and climate-vulnerable settlements.",
+    "abstract": "A Public-Good Briefing on how \u03c4 could improve WASH service continuity in health facilities, schools, refugee camps, and climate-vulnerable settlements.",
+    "summary_short": "A Public-Good Briefing on how \u03c4 could improve WASH service continuity in health facilities, schools, refugee camps, and climate-vulnerable settlements.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -2331,7 +2426,7 @@
     },
     "scholar": {
       "include_meta_tags": false,
-      "citation_title": "τ for WASH in Health Facilities, Schools, Camps, and Climate-Vulnerable Settlements",
+      "citation_title": "\u03c4 for WASH in Health Facilities, Schools, Camps, and Climate-Vulnerable Settlements",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -2369,9 +2464,9 @@
     "route_status": "reserved",
     "release_date": "2026-05-02",
     "version": "v3-enriched",
-    "title": "τ for Solar-Synchronized Flexible Demand and Grid Logistics",
+    "title": "\u03c4 for Solar-Synchronized Flexible Demand and Grid Logistics",
     "subtitle": "",
-    "short_title": "τ for Solar-Synchronized Flexible Demand and Grid Logistics",
+    "short_title": "\u03c4 for Solar-Synchronized Flexible Demand and Grid Logistics",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -2382,8 +2477,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing on how τ could enable solar-synchronized flexible demand across buildings, EVs, hydrogen electrolysis, data centers, water systems, refrigeration, and industrial loads.",
-    "summary_short": "A Public-Good Briefing on how τ could enable solar-synchronized flexible demand across buildings, EVs, hydrogen electrolysis, data centers, water systems, refrigeration, and industrial loads.",
+    "abstract": "A Public-Good Briefing on how \u03c4 could enable solar-synchronized flexible demand across buildings, EVs, hydrogen electrolysis, data centers, water systems, refrigeration, and industrial loads.",
+    "summary_short": "A Public-Good Briefing on how \u03c4 could enable solar-synchronized flexible demand across buildings, EVs, hydrogen electrolysis, data centers, water systems, refrigeration, and industrial loads.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -2432,7 +2527,7 @@
     },
     "scholar": {
       "include_meta_tags": false,
-      "citation_title": "τ for Solar-Synchronized Flexible Demand and Grid Logistics",
+      "citation_title": "\u03c4 for Solar-Synchronized Flexible Demand and Grid Logistics",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -2470,9 +2565,9 @@
     "route_status": "reserved",
     "release_date": "2026-05-02",
     "version": "v3-enriched",
-    "title": "τ for Solar-Plus-Storage, Microgrids, and Critical-Infrastructure Resilience",
+    "title": "\u03c4 for Solar-Plus-Storage, Microgrids, and Critical-Infrastructure Resilience",
     "subtitle": "",
-    "short_title": "τ for Solar-Plus-Storage, Microgrids, and Critical-Infrastructure Resilience",
+    "short_title": "\u03c4 for Solar-Plus-Storage, Microgrids, and Critical-Infrastructure Resilience",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -2483,8 +2578,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing on how τ could improve solar-plus-storage system design, microgrid operations, and critical-infrastructure resilience for hospitals, water systems, and community hubs.",
-    "summary_short": "A Public-Good Briefing on how τ could improve solar-plus-storage system design, microgrid operations, and critical-infrastructure resilience for hospitals, water systems, and community hubs.",
+    "abstract": "A Public-Good Briefing on how \u03c4 could improve solar-plus-storage system design, microgrid operations, and critical-infrastructure resilience for hospitals, water systems, and community hubs.",
+    "summary_short": "A Public-Good Briefing on how \u03c4 could improve solar-plus-storage system design, microgrid operations, and critical-infrastructure resilience for hospitals, water systems, and community hubs.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -2533,7 +2628,7 @@
     },
     "scholar": {
       "include_meta_tags": false,
-      "citation_title": "τ for Solar-Plus-Storage, Microgrids, and Critical-Infrastructure Resilience",
+      "citation_title": "\u03c4 for Solar-Plus-Storage, Microgrids, and Critical-Infrastructure Resilience",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -2672,9 +2767,9 @@
     "route_status": "reserved",
     "release_date": "2026-05-02",
     "version": "v3-enriched",
-    "title": "τ for River-Basin, Groundwater, Drought-Flood Allocation, and Water Productivity",
+    "title": "\u03c4 for River-Basin, Groundwater, Drought-Flood Allocation, and Water Productivity",
     "subtitle": "",
-    "short_title": "τ for River-Basin, Groundwater, Drought-Flood Allocation, and Water Productivity",
+    "short_title": "\u03c4 for River-Basin, Groundwater, Drought-Flood Allocation, and Water Productivity",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -2685,8 +2780,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing on how τ could improve river-basin intelligence, groundwater management, drought-flood allocation, and water productivity for food and ecosystem security.",
-    "summary_short": "A Public-Good Briefing on how τ could improve river-basin intelligence, groundwater management, drought-flood allocation, and water productivity for food and ecosystem security.",
+    "abstract": "A Public-Good Briefing on how \u03c4 could improve river-basin intelligence, groundwater management, drought-flood allocation, and water productivity for food and ecosystem security.",
+    "summary_short": "A Public-Good Briefing on how \u03c4 could improve river-basin intelligence, groundwater management, drought-flood allocation, and water productivity for food and ecosystem security.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -2735,7 +2830,7 @@
     },
     "scholar": {
       "include_meta_tags": false,
-      "citation_title": "τ for River-Basin, Groundwater, Drought-Flood Allocation, and Water Productivity",
+      "citation_title": "\u03c4 for River-Basin, Groundwater, Drought-Flood Allocation, and Water Productivity",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -2874,9 +2969,9 @@
     "route_status": "reserved",
     "release_date": "2026-05-02",
     "version": "v3-enriched",
-    "title": "τ for PV Asset Protection, Storm-Hardening, and Long-Term System Planning",
+    "title": "\u03c4 for PV Asset Protection, Storm-Hardening, and Long-Term System Planning",
     "subtitle": "",
-    "short_title": "τ for PV Asset Protection, Storm-Hardening, and Long-Term System Planning",
+    "short_title": "\u03c4 for PV Asset Protection, Storm-Hardening, and Long-Term System Planning",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -2887,8 +2982,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing on how τ could improve PV asset protection, storm-hardening design, and long-term solar system planning under climate hazard uncertainty.",
-    "summary_short": "A Public-Good Briefing on how τ could improve PV asset protection, storm-hardening design, and long-term solar system planning under climate hazard uncertainty.",
+    "abstract": "A Public-Good Briefing on how \u03c4 could improve PV asset protection, storm-hardening design, and long-term solar system planning under climate hazard uncertainty.",
+    "summary_short": "A Public-Good Briefing on how \u03c4 could improve PV asset protection, storm-hardening design, and long-term solar system planning under climate hazard uncertainty.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -2937,7 +3032,7 @@
     },
     "scholar": {
       "include_meta_tags": false,
-      "citation_title": "τ for PV Asset Protection, Storm-Hardening, and Long-Term System Planning",
+      "citation_title": "\u03c4 for PV Asset Protection, Storm-Hardening, and Long-Term System Planning",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -2975,9 +3070,9 @@
     "route_status": "reserved",
     "release_date": "2026-05-02",
     "version": "v3-enriched",
-    "title": "τ for Precision Public Health, Physiology-Aware Prevention, and Safer Therapeutics / Response Optimization",
+    "title": "\u03c4 for Precision Public Health, Physiology-Aware Prevention, and Safer Therapeutics / Response Optimization",
     "subtitle": "",
-    "short_title": "τ for Precision Public Health, Physiology-Aware Prevention, and Safer Therapeutics / Response Optimization",
+    "short_title": "\u03c4 for Precision Public Health, Physiology-Aware Prevention, and Safer Therapeutics / Response Optimization",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -2988,8 +3083,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing on how τ could enable precision public health, physiology-aware prevention, safer therapeutic design, and optimized health-system response.",
-    "summary_short": "A Public-Good Briefing on how τ could enable precision public health, physiology-aware prevention, safer therapeutic design, and optimized health-system response.",
+    "abstract": "A Public-Good Briefing on how \u03c4 could enable precision public health, physiology-aware prevention, safer therapeutic design, and optimized health-system response.",
+    "summary_short": "A Public-Good Briefing on how \u03c4 could enable precision public health, physiology-aware prevention, safer therapeutic design, and optimized health-system response.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -3038,7 +3133,7 @@
     },
     "scholar": {
       "include_meta_tags": false,
-      "citation_title": "τ for Precision Public Health, Physiology-Aware Prevention, and Safer Therapeutics / Response Optimization",
+      "citation_title": "\u03c4 for Precision Public Health, Physiology-Aware Prevention, and Safer Therapeutics / Response Optimization",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -3379,9 +3474,9 @@
     "route_status": "reserved",
     "release_date": "2026-05-02",
     "version": "v3-enriched",
-    "title": "τ for Oceans, Cryosphere, Tipping Elements, and Long-Range Resilience",
+    "title": "\u03c4 for Oceans, Cryosphere, Tipping Elements, and Long-Range Resilience",
     "subtitle": "",
-    "short_title": "τ for Oceans, Cryosphere, Tipping Elements, and Long-Range Resilience",
+    "short_title": "\u03c4 for Oceans, Cryosphere, Tipping Elements, and Long-Range Resilience",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -3392,8 +3487,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing on how τ could improve understanding of ocean systems, cryosphere dynamics, tipping elements, and long-range climate resilience planning.",
-    "summary_short": "A Public-Good Briefing on how τ could improve understanding of ocean systems, cryosphere dynamics, tipping elements, and long-range climate resilience planning.",
+    "abstract": "A Public-Good Briefing on how \u03c4 could improve understanding of ocean systems, cryosphere dynamics, tipping elements, and long-range climate resilience planning.",
+    "summary_short": "A Public-Good Briefing on how \u03c4 could improve understanding of ocean systems, cryosphere dynamics, tipping elements, and long-range climate resilience planning.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -3442,7 +3537,7 @@
     },
     "scholar": {
       "include_meta_tags": false,
-      "citation_title": "τ for Oceans, Cryosphere, Tipping Elements, and Long-Range Resilience",
+      "citation_title": "\u03c4 for Oceans, Cryosphere, Tipping Elements, and Long-Range Resilience",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -3480,9 +3575,9 @@
     "route_status": "reserved",
     "release_date": "2026-05-02",
     "version": "v3-enriched",
-    "title": "τ and Ocean Stewardship, Cleanup, and Marine Emergency Response",
+    "title": "\u03c4 and Ocean Stewardship, Cleanup, and Marine Emergency Response",
     "subtitle": "",
-    "short_title": "τ and Ocean Stewardship, Cleanup, and Marine Emergency Response",
+    "short_title": "\u03c4 and Ocean Stewardship, Cleanup, and Marine Emergency Response",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -3493,8 +3588,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing on how τ could improve marine debris prediction, oil-spill response, search-and-rescue operations, and ecological early warning for ocean stewardship.",
-    "summary_short": "A Public-Good Briefing on how τ could improve marine debris prediction, oil-spill response, search-and-rescue operations, and ecological early warning for ocean stewardship.",
+    "abstract": "A Public-Good Briefing on how \u03c4 could improve marine debris prediction, oil-spill response, search-and-rescue operations, and ecological early warning for ocean stewardship.",
+    "summary_short": "A Public-Good Briefing on how \u03c4 could improve marine debris prediction, oil-spill response, search-and-rescue operations, and ecological early warning for ocean stewardship.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -3543,7 +3638,7 @@
     },
     "scholar": {
       "include_meta_tags": false,
-      "citation_title": "τ and Ocean Stewardship, Cleanup, and Marine Emergency Response",
+      "citation_title": "\u03c4 and Ocean Stewardship, Cleanup, and Marine Emergency Response",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -3581,9 +3676,9 @@
     "route_status": "reserved",
     "release_date": "2026-05-02",
     "version": "v3-enriched",
-    "title": "τ and the Ocean Logistics Opportunity",
+    "title": "\u03c4 and the Ocean Logistics Opportunity",
     "subtitle": "",
-    "short_title": "τ and the Ocean Logistics Opportunity",
+    "short_title": "\u03c4 and the Ocean Logistics Opportunity",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -3594,8 +3689,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing on how τ could improve maritime routing, port flow optimization, and the development of green shipping corridors.",
-    "summary_short": "A Public-Good Briefing on how τ could improve maritime routing, port flow optimization, and the development of green shipping corridors.",
+    "abstract": "A Public-Good Briefing on how \u03c4 could improve maritime routing, port flow optimization, and the development of green shipping corridors.",
+    "summary_short": "A Public-Good Briefing on how \u03c4 could improve maritime routing, port flow optimization, and the development of green shipping corridors.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -3644,7 +3739,7 @@
     },
     "scholar": {
       "include_meta_tags": false,
-      "citation_title": "τ and the Ocean Logistics Opportunity",
+      "citation_title": "\u03c4 and the Ocean Logistics Opportunity",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -3682,9 +3777,9 @@
     "route_status": "reserved",
     "release_date": "2026-05-02",
     "version": "v3-enriched",
-    "title": "τ and New Aerial Logistics",
+    "title": "\u03c4 and New Aerial Logistics",
     "subtitle": "",
-    "short_title": "τ and New Aerial Logistics",
+    "short_title": "\u03c4 and New Aerial Logistics",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -3695,8 +3790,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing on how τ could enable new aerial logistics through improved low-altitude weather intelligence for advanced air mobility, heavy-lift airships, humanitarian corridors, and remote-community access.",
-    "summary_short": "A Public-Good Briefing on how τ could enable new aerial logistics through improved low-altitude weather intelligence for advanced air mobility, heavy-lift airships, humanitarian corridors, and remote-community access.",
+    "abstract": "A Public-Good Briefing on how \u03c4 could enable new aerial logistics through improved low-altitude weather intelligence for advanced air mobility, heavy-lift airships, humanitarian corridors, and remote-community access.",
+    "summary_short": "A Public-Good Briefing on how \u03c4 could enable new aerial logistics through improved low-altitude weather intelligence for advanced air mobility, heavy-lift airships, humanitarian corridors, and remote-community access.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -3745,7 +3840,7 @@
     },
     "scholar": {
       "include_meta_tags": false,
-      "citation_title": "τ and New Aerial Logistics",
+      "citation_title": "\u03c4 and New Aerial Logistics",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -3783,9 +3878,9 @@
     "route_status": "reserved",
     "release_date": "2026-05-02",
     "version": "v3-enriched",
-    "title": "τ for Integrated Energy-System Planning, Market Design, Investment Prioritization, and International Coordination",
+    "title": "\u03c4 for Integrated Energy-System Planning, Market Design, Investment Prioritization, and International Coordination",
     "subtitle": "",
-    "short_title": "τ for Integrated Energy-System Planning, Market Design, Investment Prioritization, and International Coordination",
+    "short_title": "\u03c4 for Integrated Energy-System Planning, Market Design, Investment Prioritization, and International Coordination",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -3796,8 +3891,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing on how τ could improve integrated energy-system planning, electricity market design, investment prioritization, and international energy coordination.",
-    "summary_short": "A Public-Good Briefing on how τ could improve integrated energy-system planning, electricity market design, investment prioritization, and international energy coordination.",
+    "abstract": "A Public-Good Briefing on how \u03c4 could improve integrated energy-system planning, electricity market design, investment prioritization, and international energy coordination.",
+    "summary_short": "A Public-Good Briefing on how \u03c4 could improve integrated energy-system planning, electricity market design, investment prioritization, and international energy coordination.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -3846,7 +3941,7 @@
     },
     "scholar": {
       "include_meta_tags": false,
-      "citation_title": "τ for Integrated Energy-System Planning, Market Design, Investment Prioritization, and International Coordination",
+      "citation_title": "\u03c4 for Integrated Energy-System Planning, Market Design, Investment Prioritization, and International Coordination",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -3998,8 +4093,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing showing how a law-faithful tau grid twin could improve bulk-power reliability, weather-aware dispatch, cascading-failure prevention, and restoration—addressing USD 121 billion in annual US major outage costs.",
-    "summary_short": "A Public-Good Briefing showing how a law-faithful tau grid twin could improve bulk-power reliability, weather-aware dispatch, cascading-failure prevention, and restoration—addressing USD 121 billion in annual US major outage costs.",
+    "abstract": "A Public-Good Briefing showing how a law-faithful tau grid twin could improve bulk-power reliability, weather-aware dispatch, cascading-failure prevention, and restoration\u2014addressing USD 121 billion in annual US major outage costs.",
+    "summary_short": "A Public-Good Briefing showing how a law-faithful tau grid twin could improve bulk-power reliability, weather-aware dispatch, cascading-failure prevention, and restoration\u2014addressing USD 121 billion in annual US major outage costs.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -4086,9 +4181,9 @@
     "route_status": "reserved",
     "release_date": "2026-05-02",
     "version": "v3-enriched",
-    "title": "τ for Fusion Digital Twins, Plasma Control, Heat Exhaust, and ITER → DEMO → Commercialization",
+    "title": "\u03c4 for Fusion Digital Twins, Plasma Control, Heat Exhaust, and ITER \u2192 DEMO \u2192 Commercialization",
     "subtitle": "",
-    "short_title": "τ for Fusion Digital Twins, Plasma Control, Heat Exhaust, and ITER → DEMO → Commercialization",
+    "short_title": "\u03c4 for Fusion Digital Twins, Plasma Control, Heat Exhaust, and ITER \u2192 DEMO \u2192 Commercialization",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -4099,8 +4194,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing on how τ could advance fusion energy through plasma-physics digital twins, improved plasma control, heat-exhaust management, and the ITER-to-DEMO-to-commercialization pathway.",
-    "summary_short": "A Public-Good Briefing on how τ could advance fusion energy through plasma-physics digital twins, improved plasma control, heat-exhaust management, and the ITER-to-DEMO-to-commercialization pathway.",
+    "abstract": "A Public-Good Briefing on how \u03c4 could advance fusion energy through plasma-physics digital twins, improved plasma control, heat-exhaust management, and the ITER-to-DEMO-to-commercialization pathway.",
+    "summary_short": "A Public-Good Briefing on how \u03c4 could advance fusion energy through plasma-physics digital twins, improved plasma control, heat-exhaust management, and the ITER-to-DEMO-to-commercialization pathway.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -4149,7 +4244,7 @@
     },
     "scholar": {
       "include_meta_tags": false,
-      "citation_title": "τ for Fusion Digital Twins, Plasma Control, Heat Exhaust, and ITER → DEMO → Commercialization",
+      "citation_title": "\u03c4 for Fusion Digital Twins, Plasma Control, Heat Exhaust, and ITER \u2192 DEMO \u2192 Commercialization",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -4402,8 +4497,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing showing how a law-faithful tau drinking-water twin could unlock major public-good gains in source-water early warning, treatment-train optimization, and climate-resilient water-safety planning—addressing 2.1 billion people lacking safely managed drinking water.",
-    "summary_short": "A Public-Good Briefing showing how a law-faithful tau drinking-water twin could unlock major public-good gains in source-water early warning, treatment-train optimization, and climate-resilient water-safety planning—addressing 2.1 billion people lacking safely managed drinking water.",
+    "abstract": "A Public-Good Briefing showing how a law-faithful tau drinking-water twin could unlock major public-good gains in source-water early warning, treatment-train optimization, and climate-resilient water-safety planning\u2014addressing 2.1 billion people lacking safely managed drinking water.",
+    "summary_short": "A Public-Good Briefing showing how a law-faithful tau drinking-water twin could unlock major public-good gains in source-water early warning, treatment-train optimization, and climate-resilient water-safety planning\u2014addressing 2.1 billion people lacking safely managed drinking water.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -4490,9 +4585,9 @@
     "route_status": "reserved",
     "release_date": "2026-05-02",
     "version": "v3-enriched",
-    "title": "τ for Distribution Networks, Leakage, Pressure, and Service Continuity",
+    "title": "\u03c4 for Distribution Networks, Leakage, Pressure, and Service Continuity",
     "subtitle": "",
-    "short_title": "τ for Distribution Networks, Leakage, Pressure, and Service Continuity",
+    "short_title": "\u03c4 for Distribution Networks, Leakage, Pressure, and Service Continuity",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -4503,8 +4598,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing on how τ could improve drinking-water distribution network intelligence, leakage reduction, pressure management, and service continuity.",
-    "summary_short": "A Public-Good Briefing on how τ could improve drinking-water distribution network intelligence, leakage reduction, pressure management, and service continuity.",
+    "abstract": "A Public-Good Briefing on how \u03c4 could improve drinking-water distribution network intelligence, leakage reduction, pressure management, and service continuity.",
+    "summary_short": "A Public-Good Briefing on how \u03c4 could improve drinking-water distribution network intelligence, leakage reduction, pressure management, and service continuity.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -4553,7 +4648,7 @@
     },
     "scholar": {
       "include_meta_tags": false,
-      "citation_title": "τ for Distribution Networks, Leakage, Pressure, and Service Continuity",
+      "citation_title": "\u03c4 for Distribution Networks, Leakage, Pressure, and Service Continuity",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -4591,9 +4686,9 @@
     "route_status": "reserved",
     "release_date": "2026-05-02",
     "version": "v3-enriched",
-    "title": "τ for Distributed PV Visibility and Distribution-Grid Orchestration",
+    "title": "\u03c4 for Distributed PV Visibility and Distribution-Grid Orchestration",
     "subtitle": "",
-    "short_title": "τ for Distributed PV Visibility and Distribution-Grid Orchestration",
+    "short_title": "\u03c4 for Distributed PV Visibility and Distribution-Grid Orchestration",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -4604,8 +4699,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing on how τ could improve distributed PV visibility, feeder state estimation, hosting capacity, and distribution-grid orchestration for high-penetration solar.",
-    "summary_short": "A Public-Good Briefing on how τ could improve distributed PV visibility, feeder state estimation, hosting capacity, and distribution-grid orchestration for high-penetration solar.",
+    "abstract": "A Public-Good Briefing on how \u03c4 could improve distributed PV visibility, feeder state estimation, hosting capacity, and distribution-grid orchestration for high-penetration solar.",
+    "summary_short": "A Public-Good Briefing on how \u03c4 could improve distributed PV visibility, feeder state estimation, hosting capacity, and distribution-grid orchestration for high-penetration solar.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -4654,7 +4749,7 @@
     },
     "scholar": {
       "include_meta_tags": false,
-      "citation_title": "τ for Distributed PV Visibility and Distribution-Grid Orchestration",
+      "citation_title": "\u03c4 for Distributed PV Visibility and Distribution-Grid Orchestration",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -4995,9 +5090,9 @@
     "route_status": "reserved",
     "release_date": "2026-05-02",
     "version": "v3-enriched",
-    "title": "τ and Climate-Smart Shipping",
+    "title": "\u03c4 and Climate-Smart Shipping",
     "subtitle": "",
-    "short_title": "τ and Climate-Smart Shipping",
+    "short_title": "\u03c4 and Climate-Smart Shipping",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -5008,8 +5103,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing on how τ could accelerate shipping decarbonization through climate-smart routing, wind-assisted propulsion optimization, and wind-powered cargo corridor development.",
-    "summary_short": "A Public-Good Briefing on how τ could accelerate shipping decarbonization through climate-smart routing, wind-assisted propulsion optimization, and wind-powered cargo corridor development.",
+    "abstract": "A Public-Good Briefing on how \u03c4 could accelerate shipping decarbonization through climate-smart routing, wind-assisted propulsion optimization, and wind-powered cargo corridor development.",
+    "summary_short": "A Public-Good Briefing on how \u03c4 could accelerate shipping decarbonization through climate-smart routing, wind-assisted propulsion optimization, and wind-powered cargo corridor development.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -5058,7 +5153,7 @@
     },
     "scholar": {
       "include_meta_tags": false,
-      "citation_title": "τ and Climate-Smart Shipping",
+      "citation_title": "\u03c4 and Climate-Smart Shipping",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -5197,9 +5292,9 @@
     "route_status": "reserved",
     "release_date": "2026-05-02",
     "version": "v3-enriched",
-    "title": "τ-Enabled Climate-Smart Aviation",
+    "title": "\u03c4-Enabled Climate-Smart Aviation",
     "subtitle": "",
-    "short_title": "τ-Enabled Climate-Smart Aviation",
+    "short_title": "\u03c4-Enabled Climate-Smart Aviation",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -5210,8 +5305,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing on how τ could enable climate-smart aviation through contrail-aware routing, climate-optimal trajectories, and operational decarbonization.",
-    "summary_short": "A Public-Good Briefing on how τ could enable climate-smart aviation through contrail-aware routing, climate-optimal trajectories, and operational decarbonization.",
+    "abstract": "A Public-Good Briefing on how \u03c4 could enable climate-smart aviation through contrail-aware routing, climate-optimal trajectories, and operational decarbonization.",
+    "summary_short": "A Public-Good Briefing on how \u03c4 could enable climate-smart aviation through contrail-aware routing, climate-optimal trajectories, and operational decarbonization.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -5260,7 +5355,7 @@
     },
     "scholar": {
       "include_meta_tags": false,
-      "citation_title": "τ-Enabled Climate-Smart Aviation",
+      "citation_title": "\u03c4-Enabled Climate-Smart Aviation",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -5311,8 +5406,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing showing how a causally legible tau climate twin could improve national policy design, investment sequencing, and international coordination—turning climate governance from negotiation-driven toward evidence-disciplined implementation.",
-    "summary_short": "A Public-Good Briefing showing how a causally legible tau climate twin could improve national policy design, investment sequencing, and international coordination—turning climate governance from negotiation-driven toward evidence-disciplined implementation.",
+    "abstract": "A Public-Good Briefing showing how a causally legible tau climate twin could improve national policy design, investment sequencing, and international coordination\u2014turning climate governance from negotiation-driven toward evidence-disciplined implementation.",
+    "summary_short": "A Public-Good Briefing showing how a causally legible tau climate twin could improve national policy design, investment sequencing, and international coordination\u2014turning climate governance from negotiation-driven toward evidence-disciplined implementation.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -5412,8 +5507,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing showing how a law-faithful tau atmosphere-emissions-chemistry-exposure twin could unlock major public-good gains in urban air-quality protection, hyperlocal exposure intelligence, source attribution, and clean-air policy—addressing 7 million premature deaths annually.",
-    "summary_short": "A Public-Good Briefing showing how a law-faithful tau atmosphere-emissions-chemistry-exposure twin could unlock major public-good gains in urban air-quality protection, hyperlocal exposure intelligence, source attribution, and clean-air policy—addressing 7 million premature deaths annually.",
+    "abstract": "A Public-Good Briefing showing how a law-faithful tau atmosphere-emissions-chemistry-exposure twin could unlock major public-good gains in urban air-quality protection, hyperlocal exposure intelligence, source attribution, and clean-air policy\u2014addressing 7 million premature deaths annually.",
+    "summary_short": "A Public-Good Briefing showing how a law-faithful tau atmosphere-emissions-chemistry-exposure twin could unlock major public-good gains in urban air-quality protection, hyperlocal exposure intelligence, source attribution, and clean-air policy\u2014addressing 7 million premature deaths annually.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -5513,8 +5608,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing showing how a law-faithful tau causal integration substrate could unlock major public-good gains in toxic-release detection, cross-medium plume intelligence, lead/PFAS/mercury exposure protection, and remediation targeting—addressing a hidden but very large disease burden.",
-    "summary_short": "A Public-Good Briefing showing how a law-faithful tau causal integration substrate could unlock major public-good gains in toxic-release detection, cross-medium plume intelligence, lead/PFAS/mercury exposure protection, and remediation targeting—addressing a hidden but very large disease burden.",
+    "abstract": "A Public-Good Briefing showing how a law-faithful tau causal integration substrate could unlock major public-good gains in toxic-release detection, cross-medium plume intelligence, lead/PFAS/mercury exposure protection, and remediation targeting\u2014addressing a hidden but very large disease burden.",
+    "summary_short": "A Public-Good Briefing showing how a law-faithful tau causal integration substrate could unlock major public-good gains in toxic-release detection, cross-medium plume intelligence, lead/PFAS/mercury exposure protection, and remediation targeting\u2014addressing a hidden but very large disease burden.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -5715,8 +5810,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing showing how a law-faithful tau atmosphere-irradiance-PV-grid twin could unlock major public-good gains in utility-scale solar forecasting, reserve sizing, dispatch, and curtailment—at a scale where solar now produces 7% of world electricity.",
-    "summary_short": "A Public-Good Briefing showing how a law-faithful tau atmosphere-irradiance-PV-grid twin could unlock major public-good gains in utility-scale solar forecasting, reserve sizing, dispatch, and curtailment—at a scale where solar now produces 7% of world electricity.",
+    "abstract": "A Public-Good Briefing showing how a law-faithful tau atmosphere-irradiance-PV-grid twin could unlock major public-good gains in utility-scale solar forecasting, reserve sizing, dispatch, and curtailment\u2014at a scale where solar now produces 7% of world electricity.",
+    "summary_short": "A Public-Good Briefing showing how a law-faithful tau atmosphere-irradiance-PV-grid twin could unlock major public-good gains in utility-scale solar forecasting, reserve sizing, dispatch, and curtailment\u2014at a scale where solar now produces 7% of world electricity.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -5803,9 +5898,9 @@
     "route_status": "reserved",
     "release_date": "2026-05-02",
     "version": "v3-enriched",
-    "title": "τ and Blue Food Systems",
+    "title": "\u03c4 and Blue Food Systems",
     "subtitle": "",
-    "short_title": "τ and Blue Food Systems",
+    "short_title": "\u03c4 and Blue Food Systems",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -5816,8 +5911,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing on how τ could improve fisheries management, aquaculture operations, harmful-algal-bloom warning, and marine ecosystem intelligence for blue food security.",
-    "summary_short": "A Public-Good Briefing on how τ could improve fisheries management, aquaculture operations, harmful-algal-bloom warning, and marine ecosystem intelligence for blue food security.",
+    "abstract": "A Public-Good Briefing on how \u03c4 could improve fisheries management, aquaculture operations, harmful-algal-bloom warning, and marine ecosystem intelligence for blue food security.",
+    "summary_short": "A Public-Good Briefing on how \u03c4 could improve fisheries management, aquaculture operations, harmful-algal-bloom warning, and marine ecosystem intelligence for blue food security.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -5866,7 +5961,7 @@
     },
     "scholar": {
       "include_meta_tags": false,
-      "citation_title": "τ and Blue Food Systems",
+      "citation_title": "\u03c4 and Blue Food Systems",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -5904,9 +5999,9 @@
     "route_status": "reserved",
     "release_date": "2026-05-02",
     "version": "v3-enriched",
-    "title": "τ for Biodiversity Finance, Monitoring, Restoration Verification, and Nature-Positive Investment Prioritization",
+    "title": "\u03c4 for Biodiversity Finance, Monitoring, Restoration Verification, and Nature-Positive Investment Prioritization",
     "subtitle": "",
-    "short_title": "τ for Biodiversity Finance, Monitoring, Restoration Verification, and Nature-Positive Investment Prioritization",
+    "short_title": "\u03c4 for Biodiversity Finance, Monitoring, Restoration Verification, and Nature-Positive Investment Prioritization",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -5917,8 +6012,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing on how τ could strengthen biodiversity finance, monitoring, restoration verification, and nature-positive investment prioritization.",
-    "summary_short": "A Public-Good Briefing on how τ could strengthen biodiversity finance, monitoring, restoration verification, and nature-positive investment prioritization.",
+    "abstract": "A Public-Good Briefing on how \u03c4 could strengthen biodiversity finance, monitoring, restoration verification, and nature-positive investment prioritization.",
+    "summary_short": "A Public-Good Briefing on how \u03c4 could strengthen biodiversity finance, monitoring, restoration verification, and nature-positive investment prioritization.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -5967,7 +6062,7 @@
     },
     "scholar": {
       "include_meta_tags": false,
-      "citation_title": "τ for Biodiversity Finance, Monitoring, Restoration Verification, and Nature-Positive Investment Prioritization",
+      "citation_title": "\u03c4 for Biodiversity Finance, Monitoring, Restoration Verification, and Nature-Positive Investment Prioritization",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -6018,8 +6113,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing showing how a law-faithful tau weather-flow twin could unlock major public-good gains in aviation routing, ATM resilience, and network disruption recovery—addressing weather as the leading cause of delay across the US and European airspace systems.",
-    "summary_short": "A Public-Good Briefing showing how a law-faithful tau weather-flow twin could unlock major public-good gains in aviation routing, ATM resilience, and network disruption recovery—addressing weather as the leading cause of delay across the US and European airspace systems.",
+    "abstract": "A Public-Good Briefing showing how a law-faithful tau weather-flow twin could unlock major public-good gains in aviation routing, ATM resilience, and network disruption recovery\u2014addressing weather as the leading cause of delay across the US and European airspace systems.",
+    "summary_short": "A Public-Good Briefing showing how a law-faithful tau weather-flow twin could unlock major public-good gains in aviation routing, ATM resilience, and network disruption recovery\u2014addressing weather as the leading cause of delay across the US and European airspace systems.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -6119,8 +6214,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing showing how a law-faithful tau risk twin could connect warnings, humanitarian logistics, and pre-arranged finance into one operational architecture—reducing the warning-exists-but-action-arrives-too-late problem at scale.",
-    "summary_short": "A Public-Good Briefing showing how a law-faithful tau risk twin could connect warnings, humanitarian logistics, and pre-arranged finance into one operational architecture—reducing the warning-exists-but-action-arrives-too-late problem at scale.",
+    "abstract": "A Public-Good Briefing showing how a law-faithful tau risk twin could connect warnings, humanitarian logistics, and pre-arranged finance into one operational architecture\u2014reducing the warning-exists-but-action-arrives-too-late problem at scale.",
+    "summary_short": "A Public-Good Briefing showing how a law-faithful tau risk twin could connect warnings, humanitarian logistics, and pre-arranged finance into one operational architecture\u2014reducing the warning-exists-but-action-arrives-too-late problem at scale.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -6308,9 +6403,9 @@
     "route_status": "reserved",
     "release_date": "2026-05-02",
     "version": "v3-enriched",
-    "title": "τ for Advanced Fission Safety, Operations, Licensing, and Fleet Modernization",
+    "title": "\u03c4 for Advanced Fission Safety, Operations, Licensing, and Fleet Modernization",
     "subtitle": "",
-    "short_title": "τ for Advanced Fission Safety, Operations, Licensing, and Fleet Modernization",
+    "short_title": "\u03c4 for Advanced Fission Safety, Operations, Licensing, and Fleet Modernization",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -6321,8 +6416,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing on how τ could improve advanced fission safety analysis, digital instrumentation and control modernization, licensing efficiency, and nuclear fleet management.",
-    "summary_short": "A Public-Good Briefing on how τ could improve advanced fission safety analysis, digital instrumentation and control modernization, licensing efficiency, and nuclear fleet management.",
+    "abstract": "A Public-Good Briefing on how \u03c4 could improve advanced fission safety analysis, digital instrumentation and control modernization, licensing efficiency, and nuclear fleet management.",
+    "summary_short": "A Public-Good Briefing on how \u03c4 could improve advanced fission safety analysis, digital instrumentation and control modernization, licensing efficiency, and nuclear fleet management.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not claim validation, policy adoption, deployment readiness, product performance, or independent domain acceptance.",
@@ -6371,7 +6466,7 @@
     },
     "scholar": {
       "include_meta_tags": false,
-      "citation_title": "τ for Advanced Fission Safety, Operations, Licensing, and Fleet Modernization",
+      "citation_title": "\u03c4 for Advanced Fission Safety, Operations, Licensing, and Fleet Modernization",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -7311,11 +7406,11 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "⬇ Download Categorical Genesis — Free PDF (357 KB)",
-    "summary_short": "⬇ Download Categorical Genesis — Free PDF (357 KB)",
+    "abstract": "\u2b07 Download Categorical Genesis \u2014 Free PDF (357 KB)",
+    "summary_short": "\u2b07 Download Categorical Genesis \u2014 Free PDF (357 KB)",
     "site_role": "",
     "claim_boundary": {
-      "claim": "Categorical Genesis is a Panta Rhei publication artifact: a public Monograph Supplement and interpretive companion to the Book VII metaphysics arc. It records a structural reading of Genesis 1–3 using the program's Category τ apparatus.\n\nIt does not imply external validation, theological endorsement, external acceptance, or independent confirmation. Its purpose is to make the interpretive method, scope labels, and claim boundaries inspectable.",
+      "claim": "Categorical Genesis is a Panta Rhei publication artifact: a public Monograph Supplement and interpretive companion to the Book VII metaphysics arc. It records a structural reading of Genesis 1\u20133 using the program's Category \u03c4 apparatus.\n\nIt does not imply external validation, theological endorsement, external acceptance, or independent confirmation. Its purpose is to make the interpretive method, scope labels, and claim boundaries inspectable.",
       "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
     },
     "canonical_url": "https://panta-rhei.site/publications/monograph-supplements/categorical-genesis/",
@@ -7412,8 +7507,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "⬇ Download Numerical Physics Ledger — Free PDF (1.11 MB, 209 pp)",
-    "summary_short": "⬇ Download Numerical Physics Ledger — Free PDF (1.11 MB, 209 pp)",
+    "abstract": "\u2b07 Download Numerical Physics Ledger \u2014 Free PDF (1.11 MB, 209 pp)",
+    "summary_short": "\u2b07 Download Numerical Physics Ledger \u2014 Free PDF (1.11 MB, 209 pp)",
     "site_role": "",
     "claim_boundary": {
       "claim": "The Numerical Physics Ledger is a Panta Rhei publication artifact. It records the program's current internal numerical commitments, calibration cascade, prediction inventory, and falsification targets.\n\nIt does not imply external validation, scientific acceptance, or independent confirmation. Its purpose is to make the numerical claims inspectable, comparable, and falsifiable.\n\n<div class=\"notice note\"><strong>Artifact status.</strong> This page is the stable publication home for the PDF artifact. The [Results prediction surfaces]({{ '/results/predictions/browse/' | relative_url }}) carry world-facing interpretation; [Predictions & Falsification]({{ '/verify/predictions-and-falsification/' | relative_url }}) carries the verification and failure-condition handoff.</div>\n\n<div class=\"notice note\"><strong>Comparison-basis note.</strong> Public result mirrors and older prediction tables may use different comparison baselines while preserving the same route and artifact history. The ledger page states the current publication artifact status; generated Results and Verify surfaces remain the canonical place to inspect per-record status, precision, and external-evidence boundaries.</div>",
@@ -7603,7 +7698,7 @@
     "version": "v1.0",
     "title": "The tau-Kernel as Foundational Architecture",
     "subtitle": "",
-    "short_title": "The τ-Kernel as Foundational Architecture",
+    "short_title": "The \u03c4-Kernel as Foundational Architecture",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -7615,7 +7710,7 @@
       }
     ],
     "abstract": "This paper presents the tau-kernel as foundational architecture, focusing on ontic identity, diagonal discipline, linear structure, and the star-autonomous path that organizes the hinge-paper bundle.",
-    "summary_short": "The τ-kernel positioned as foundational architecture.",
+    "summary_short": "The \u03c4-kernel positioned as foundational architecture.",
     "site_role": "Hinge 8 entry preprint",
     "claim_boundary": {
       "claim": "The paper is an entry and integration paper for the hinge sequence. Its role is structural orientation plus technical synthesis.",
@@ -7715,7 +7810,7 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "This paper develops the address-resolution view of arithmetic in Category τ. It presents canonical normalisation, the genealogical DAG, the Cayley word metric, and the claim that arithmetic in the tau setting is implemented as finite-witness address resolution rather than equational calculation.",
+    "abstract": "This paper develops the address-resolution view of arithmetic in Category \u03c4. It presents canonical normalisation, the genealogical DAG, the Cayley word metric, and the claim that arithmetic in the tau setting is implemented as finite-witness address resolution rather than equational calculation.",
     "summary_short": "Reframing computational practice as address resolution rather than calculation.",
     "site_role": "Hinge 7 preprint",
     "claim_boundary": {
@@ -7805,7 +7900,7 @@
     "version": "v1.0",
     "title": "The tau-Topos and Its Four-Valued Internal Logic",
     "subtitle": "",
-    "short_title": "The τ-Topos and Its Four-Valued Internal Logic",
+    "short_title": "The \u03c4-Topos and Its Four-Valued Internal Logic",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -7817,7 +7912,7 @@
       }
     ],
     "abstract": "This paper develops the tau-topos and its four-valued internal logic, using split-complex idempotents and omega-germ stabilization to address paraconsistent semantic circularity in the Panta Rhei framework.",
-    "summary_short": "The τ-topos and its associated four-valued internal logic.",
+    "summary_short": "The \u03c4-topos and its associated four-valued internal logic.",
     "site_role": "Hinge 6 preprint",
     "claim_boundary": {
       "claim": "The paper gives a framework-internal logical architecture. Comparisons to established topoi, paraconsistent logics, and semantic theories require the explicit distinctions stated in the paper.",
@@ -7906,7 +8001,7 @@
     "version": "v1.0",
     "title": "tau-Holomorphy on the Boundary Algebra",
     "subtitle": "",
-    "short_title": "τ-Holomorphy on the Boundary Algebra",
+    "short_title": "\u03c4-Holomorphy on the Boundary Algebra",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -7918,7 +8013,7 @@
       }
     ],
     "abstract": "This paper develops tau-holomorphy on the boundary algebra through omega-germ transformers, wave-equation Cauchy-Riemann structure, and the earned categorical machine used by later hinge papers.",
-    "summary_short": "τ-holomorphy as the operative condition on the boundary algebra.",
+    "summary_short": "\u03c4-holomorphy as the operative condition on the boundary algebra.",
     "site_role": "Hinge 5 preprint",
     "claim_boundary": {
       "claim": "The paper defines and argues for a framework-internal structural bridge. External comparisons should be made through explicit verification or falsification surfaces.",
@@ -8108,7 +8203,7 @@
     "version": "v1.0",
     "title": "The Master Constant iota_tau",
     "subtitle": "",
-    "short_title": "The Master Constant ι_τ",
+    "short_title": "The Master Constant \u03b9_\u03c4",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -8120,7 +8215,7 @@
       }
     ],
     "abstract": "This paper develops the structural derivation of the master constant iota_tau and its role in the Panta Rhei hinge sequence, including its relation to omega-germs, boundary structure, and tau-exponential calibration.",
-    "summary_short": "Definition and role of the master constant ι_τ.",
+    "summary_short": "Definition and role of the master constant \u03b9_\u03c4.",
     "site_role": "Hinge 3 preprint",
     "claim_boundary": {
       "claim": "The paper presents the framework's structural derivation. Any external calibration claim must be read through the separate verification and measurement surfaces.",
@@ -8221,7 +8316,7 @@
       }
     ],
     "abstract": "This paper develops the prime polarity theorem, relating a ZFC/PA proof to the tau-framework isomorphism and the split-complex polarity structure used in the hinge-paper sequence.",
-    "summary_short": "Polarity structure on the primes inside the τ-architecture.",
+    "summary_short": "Polarity structure on the primes inside the \u03c4-architecture.",
     "site_role": "Hinge 2 preprint",
     "claim_boundary": {
       "claim": "The paper's arithmetic and framework claims should be separated from later physical or interpretive uses of the polarity structure.",
@@ -8321,8 +8416,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "This paper states and develops the hyperfactorization theorem, giving a unique tower-atom decomposition and connecting the result to the coordinate architecture of Category τ.",
-    "summary_short": "Unique tower-atom decomposition in ZFC and Category τ.",
+    "abstract": "This paper states and develops the hyperfactorization theorem, giving a unique tower-atom decomposition and connecting the result to the coordinate architecture of Category \u03c4.",
+    "summary_short": "Unique tower-atom decomposition in ZFC and Category \u03c4.",
     "site_role": "Hinge 1 preprint",
     "claim_boundary": {
       "claim": "The paper is a technical hinge contribution. It does not by itself establish the broader empirical or physical claims of the research program.",
@@ -8422,12 +8517,12 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "The note reads Guo et al. 2026, Statistical structure and the evolution of languages, as an external anchor for Book VII's language architecture. It distinguishes subsymbolic pattern fields, readout functors, public language, corpora, embedding instruments, and observed statistics, then frames the paper's regularities as calibration surfaces for future tau-facing language models rather than as confirmation of Category τ.",
-    "summary_short": "The note reads Guo et al. 2026, Statistical structure and the evolution of languages, as an external anchor for Book VII's language architecture. It distinguishes subsymbolic pattern fields, readout functors, public language, corpora, embedding instruments, and observed statistics, then frames the paper's regularities as calibration surfaces for future tau-facing language models rather than as confirmation of Category τ.",
+    "abstract": "The note reads Guo et al. 2026, Statistical structure and the evolution of languages, as an external anchor for Book VII's language architecture. It distinguishes subsymbolic pattern fields, readout functors, public language, corpora, embedding instruments, and observed statistics, then frames the paper's regularities as calibration surfaces for future Category \u03c4-facing language/readout models rather than as confirmation of Category \u03c4.",
+    "summary_short": "The note reads Guo et al. 2026, Statistical structure and the evolution of languages, as an external anchor for Book VII's language architecture. It distinguishes subsymbolic pattern fields, readout functors, public language, corpora, embedding instruments, and observed statistics, then frames the paper's regularities as calibration surfaces for future Category \u03c4-facing language/readout models rather than as confirmation of Category \u03c4.",
     "site_role": "",
     "claim_boundary": {
-      "claim": "Core claim: Semantic-space regularities in the anchor paper give a serious calibration surface for Book VII's claim that public language is a structured readout of subsymbolic pattern organization.\n\nDoes not claim:\n- It does not claim that Guo et al. prove Category τ.\n- It does not claim that word embeddings are meaning itself.\n- It does not claim that all languages share one flattened semantic carrier.\n- It does not claim that the Panta Rhei framework already predicts the fitted exponents or the directed-preferential-placement model.\n\nFalsification surface:\n- Failure of the reported semantic-space regularities under independent reproduction or stronger multilingual/contextual embedding tests.\n- Failure of future tau-facing language models to reproduce the qualitative regularity package without hand-tuning.\n- Semantic or formal failure of the Book VII readout-functor interpretation under external review.",
-      "non_claim": "Does not claim:\n- It does not claim that Guo et al. prove Category τ.\n- It does not claim that word embeddings are meaning itself.\n- It does not claim that all languages share one flattened semantic carrier.\n- It does not claim that the Panta Rhei framework already predicts the fitted exponents or the directed-preferential-placement model.\n\nFalsification surface:\n- Failure of the reported semantic-space regularities under independent reproduction or stronger multilingual/contextual embedding tests.\n- Failure of future tau-facing language models to reproduce the qualitative regularity package without hand-tuning.\n- Semantic or formal failure of the Book VII readout-functor interpretation under external review."
+      "claim": "Core claim: Semantic-space regularities in the anchor paper give a serious calibration surface for Book VII's claim that public language is a structured readout of subsymbolic pattern organization.\n\nDoes not claim:\n- It does not claim that Guo et al. prove Category \u03c4.\n- It does not claim that word embeddings are meaning itself.\n- It does not claim that all languages share one flattened semantic carrier.\n- It does not claim that the Panta Rhei framework already predicts the fitted exponents or the directed-preferential-placement model.\n- It does not claim that DPP is PPAS.\n- It does not claim that the paper studies full semantic drift.\n- It does not claim that languages can be ranked by metaphysical adequacy.\n\nFalsification surface:\n- Failure of the reported semantic-space regularities under independent reproduction or stronger multilingual/contextual embedding tests.\n- Failure of future Category \u03c4-facing language/readout models to reproduce the qualitative regularity package without hand-tuning.\n- Semantic or formal failure of the Book VII readout-functor interpretation under external review.",
+      "non_claim": "Does not claim:\n- It does not claim that Guo et al. prove Category \u03c4.\n- It does not claim that word embeddings are meaning itself.\n- It does not claim that all languages share one flattened semantic carrier.\n- It does not claim that the Panta Rhei framework already predicts the fitted exponents or the directed-preferential-placement model.\n- It does not claim that DPP is PPAS.\n- It does not claim that the paper studies full semantic drift.\n- It does not claim that languages can be ranked by metaphysical adequacy.\n\nFalsification surface:\n- Failure of the reported semantic-space regularities under independent reproduction or stronger multilingual/contextual embedding tests.\n- Failure of future Category \u03c4-facing language/readout models to reproduce the qualitative regularity package without hand-tuning.\n- Semantic or formal failure of the Book VII readout-functor interpretation under external review."
     },
     "canonical_url": "https://panta-rhei.site/publications/research-notes/semantic-space-has-a-shape/",
     "website_url": "https://panta-rhei.site/publications/research-notes/semantic-space-has-a-shape/",
@@ -8442,9 +8537,9 @@
       "source_website_asset_path": "site/assets/pdfs/research-notes/research-note-2026-04-27-semantic-space-has-a-shape.pdf"
     },
     "identifiers": {
-      "doi": "",
-      "doi_url": "",
-      "zenodo_url": "",
+      "doi": "10.5281/zenodo.19816808",
+      "doi_url": "https://doi.org/10.5281/zenodo.19816808",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.19816808",
       "isbn_13": "",
       "asin": ""
     },
@@ -8479,13 +8574,13 @@
       ],
       "citation_publication_date": "2026/04/27",
       "citation_pdf_url": "https://panta-rhei.site/assets/pdfs/research-notes/research-note-2026-04-27-semantic-space-has-a-shape.pdf",
-      "citation_doi": "",
+      "citation_doi": "10.5281/zenodo.19816808",
       "citation_technical_report_institution": "Panta Rhei Research Program"
     },
     "integrity": {
-      "bytes": 170829,
-      "sha256": "8736d82087bb0775576c3bd1668829ba18bbdd7be4030146f632920ed306795b",
-      "sha512": "5b4f194f7420b3fe7ad91c01c111f5f5c43c0f1c06d7b64cbc580ee554b89f5cee5428518438375e59fb9a5e5f97ec50497d26b7a61fe9622e5e684d71dc4758",
+      "bytes": 212216,
+      "sha256": "0a7d8173c2e74fc5e98832ca3107ba49009c0533c7ef2862d5092eab5cd95fad",
+      "sha512": "4b5c542c456e52f62aa44658b73b9ecbae0f8318a2d887750e9e68b783608130783368fee23b308dd05aaa1cc0c6bd05b4377fc28e96029e03fa8d6a9b2ed6f9",
       "ots_status": "pending"
     },
     "metadata_sources": {
@@ -8510,9 +8605,9 @@
     "route_status": "reserved",
     "release_date": "2026-04-26",
     "version": "v1.0",
-    "title": "τ for Advanced Fission Safety, Operations, Licensing, and Fleet Modernization",
+    "title": "\u03c4 for Advanced Fission Safety, Operations, Licensing, and Fleet Modernization",
     "subtitle": "",
-    "short_title": "τ for Advanced Fission Safety, Operations, Licensing, and Fleet Modernization",
+    "short_title": "\u03c4 for Advanced Fission Safety, Operations, Licensing, and Fleet Modernization",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -8523,8 +8618,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "A Public-Good Briefing on how τ could improve advanced fission safety analysis, digital instrumentation and control modernization, licensing efficiency, and nuclear fleet management.",
-    "summary_short": "A Public-Good Briefing on how τ could improve advanced fission safety analysis, digital instrumentation and control modernization, licensing efficiency, and nuclear fleet management.",
+    "abstract": "A Public-Good Briefing on how \u03c4 could improve advanced fission safety analysis, digital instrumentation and control modernization, licensing efficiency, and nuclear fleet management.",
+    "summary_short": "A Public-Good Briefing on how \u03c4 could improve advanced fission safety analysis, digital instrumentation and control modernization, licensing efficiency, and nuclear fleet management.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Conditional public-good scenario briefing. It does not validate the framework, claim policy adoption, or replace domain expertise and external review.",
@@ -8573,7 +8668,7 @@
     },
     "scholar": {
       "include_meta_tags": false,
-      "citation_title": "τ for Advanced Fission Safety, Operations, Licensing, and Fleet Modernization",
+      "citation_title": "\u03c4 for Advanced Fission Safety, Operations, Licensing, and Fleet Modernization",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
@@ -8624,12 +8719,12 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "The note compares the Hartnoll-Yang chain from BKL dynamics to hyperbolic billiards, automorphic forms, L-functions, and the primon gas with the Panta Rhei derivation of prime polarity, L-functions, and hyperbolic structure from the categorical kernel. It is a conditional comparison, not an external proof of Category τ.",
-    "summary_short": "The note compares the Hartnoll-Yang chain from BKL dynamics to hyperbolic billiards, automorphic forms, L-functions, and the primon gas with the Panta Rhei derivation of prime polarity, L-functions, and hyperbolic structure from the categorical kernel. It is a conditional comparison, not an external proof of Category τ.",
+    "abstract": "The note compares the Hartnoll-Yang chain from BKL dynamics to hyperbolic billiards, automorphic forms, L-functions, and the primon gas with the Panta Rhei derivation of prime polarity, L-functions, and hyperbolic structure from the categorical kernel. It is a conditional comparison, not an external proof of Category \u03c4.",
+    "summary_short": "The note compares the Hartnoll-Yang chain from BKL dynamics to hyperbolic billiards, automorphic forms, L-functions, and the primon gas with the Panta Rhei derivation of prime polarity, L-functions, and hyperbolic structure from the categorical kernel. It is a conditional comparison, not an external proof of Category \u03c4.",
     "site_role": "",
     "claim_boundary": {
-      "claim": "Core claim: If Category τ is granted internally, the arithmetic structures found at the BKL singularity have a categorical counterpart before gravity or singularity assumptions enter.\n\nDoes not claim:\n- It does not refute the Hartnoll-Yang construction.\n- It does not claim external peer-reviewed validation of Category τ.\n- It does not collapse automorphic, categorical, and physical regimes into one untyped claim.\n\nFalsification surface:\n- Failure of the Category τ prime-polarity and L-function derivation chain.\n- Failure of semantic correspondence between the categorical structures and the anchor construction.\n- Independent rejection of the framework axioms or bridge assumptions.",
-      "non_claim": "Does not claim:\n- It does not refute the Hartnoll-Yang construction.\n- It does not claim external peer-reviewed validation of Category τ.\n- It does not collapse automorphic, categorical, and physical regimes into one untyped claim.\n\nFalsification surface:\n- Failure of the Category τ prime-polarity and L-function derivation chain.\n- Failure of semantic correspondence between the categorical structures and the anchor construction.\n- Independent rejection of the framework axioms or bridge assumptions."
+      "claim": "Core claim: If Category \u03c4 is granted internally, the arithmetic structures found at the BKL singularity have a categorical counterpart before gravity or singularity assumptions enter.\n\nDoes not claim:\n- It does not refute the Hartnoll-Yang construction.\n- It does not claim external peer-reviewed validation of Category \u03c4.\n- It does not collapse automorphic, categorical, and physical regimes into one untyped claim.\n\nFalsification surface:\n- Failure of the Category \u03c4 prime-polarity and L-function derivation chain.\n- Failure of semantic correspondence between the categorical structures and the anchor construction.\n- Independent rejection of the framework axioms or bridge assumptions.",
+      "non_claim": "Does not claim:\n- It does not refute the Hartnoll-Yang construction.\n- It does not claim external peer-reviewed validation of Category \u03c4.\n- It does not collapse automorphic, categorical, and physical regimes into one untyped claim.\n\nFalsification surface:\n- Failure of the Category \u03c4 prime-polarity and L-function derivation chain.\n- Failure of semantic correspondence between the categorical structures and the anchor construction.\n- Independent rejection of the framework axioms or bridge assumptions."
     },
     "canonical_url": "https://panta-rhei.site/publications/research-notes/arithmetic-quantum-gravity-without-singularities/",
     "website_url": "https://panta-rhei.site/publications/research-notes/arithmetic-quantum-gravity-without-singularities/",
@@ -8644,9 +8739,9 @@
       "source_website_asset_path": "site/assets/pdfs/research-notes/research-note-2026-04-25-arithmetic-quantum-gravity-without-singularities.pdf"
     },
     "identifiers": {
-      "doi": "",
-      "doi_url": "",
-      "zenodo_url": "",
+      "doi": "10.5281/zenodo.19815808",
+      "doi_url": "https://doi.org/10.5281/zenodo.19815808",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.19815808",
       "isbn_13": "",
       "asin": ""
     },
@@ -8681,7 +8776,7 @@
       ],
       "citation_publication_date": "2026/04/25",
       "citation_pdf_url": "https://panta-rhei.site/assets/pdfs/research-notes/research-note-2026-04-25-arithmetic-quantum-gravity-without-singularities.pdf",
-      "citation_doi": "",
+      "citation_doi": "10.5281/zenodo.19815808",
       "citation_technical_report_institution": "Panta Rhei Research Program"
     },
     "integrity": {
@@ -8729,7 +8824,7 @@
     "summary_short": "The note reads a 2026 G2-manifold remnant proposal as an anchor for comparison with the Panta Rhei black-hole layer. It distinguishes the anchor's extra-dimensional Einstein-Cartan mechanism from the categorical account of torus horizons, no-shrink stability, and information preservation.",
     "site_role": "",
     "claim_boundary": {
-      "claim": "Core claim: The same family of black-hole stability questions can be addressed inside Category τ without treating extra spatial dimensions or torsion as primitives.\n\nDoes not claim:\n- It does not claim the G2 construction is internally inconsistent.\n- It does not claim external acceptance of the categorical black-hole interpretation.\n- It does not remove the need for independent gravitational and mathematical review.\n\nFalsification surface:\n- Failure of the categorical no-shrink and black-hole topology derivation chain.\n- Failure of semantic correspondence between the categorical horizon structure and physical black-hole observables.\n- External evidence requiring extra-dimensional torsion primitives where the framework forbids them.",
+      "claim": "Core claim: The same family of black-hole stability questions can be addressed inside Category \u03c4 without treating extra spatial dimensions or torsion as primitives.\n\nDoes not claim:\n- It does not claim the G2 construction is internally inconsistent.\n- It does not claim external acceptance of the categorical black-hole interpretation.\n- It does not remove the need for independent gravitational and mathematical review.\n\nFalsification surface:\n- Failure of the categorical no-shrink and black-hole topology derivation chain.\n- Failure of semantic correspondence between the categorical horizon structure and physical black-hole observables.\n- External evidence requiring extra-dimensional torsion primitives where the framework forbids them.",
       "non_claim": "Does not claim:\n- It does not claim the G2 construction is internally inconsistent.\n- It does not claim external acceptance of the categorical black-hole interpretation.\n- It does not remove the need for independent gravitational and mathematical review.\n\nFalsification surface:\n- Failure of the categorical no-shrink and black-hole topology derivation chain.\n- Failure of semantic correspondence between the categorical horizon structure and physical black-hole observables.\n- External evidence requiring extra-dimensional torsion primitives where the framework forbids them."
     },
     "canonical_url": "https://panta-rhei.site/publications/research-notes/black-holes-without-extra-dimensions/",
@@ -8745,9 +8840,9 @@
       "source_website_asset_path": "site/assets/pdfs/research-notes/research-note-2026-04-25-black-holes-without-extra-dimensions.pdf"
     },
     "identifiers": {
-      "doi": "",
-      "doi_url": "",
-      "zenodo_url": "",
+      "doi": "10.5281/zenodo.19816581",
+      "doi_url": "https://doi.org/10.5281/zenodo.19816581",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.19816581",
       "isbn_13": "",
       "asin": ""
     },
@@ -8782,7 +8877,7 @@
       ],
       "citation_publication_date": "2026/04/25",
       "citation_pdf_url": "https://panta-rhei.site/assets/pdfs/research-notes/research-note-2026-04-25-black-holes-without-extra-dimensions.pdf",
-      "citation_doi": "",
+      "citation_doi": "10.5281/zenodo.19816581",
       "citation_technical_report_institution": "Panta Rhei Research Program"
     },
     "integrity": {
@@ -8813,9 +8908,9 @@
     "route_status": "reserved",
     "release_date": "2026-04-25",
     "version": "v1.0",
-    "title": "Dark Matter vs. MOND vs. Category τ",
+    "title": "Dark Matter vs. MOND vs. Category \u03c4",
     "subtitle": "",
-    "short_title": "Dark Matter vs. MOND vs. Category τ",
+    "short_title": "Dark Matter vs. MOND vs. Category \u03c4",
     "authors": [
       {
         "person_key": "thorsten_fuchs",
@@ -8826,8 +8921,8 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "The note places the Panta Rhei force-law stance on the Gallardo et al. 2026 pairwise-kSZ constraint: Category τ rejects both a new dark-matter particle and a fundamental MOND transition at the tested scale, while committing to a Newtonian inverse-square force-law exponent in the cluster-pair regime. The note defines falsification surfaces and reporting targets rather than claiming external acceptance.",
-    "summary_short": "The note places the Panta Rhei force-law stance on the Gallardo et al. 2026 pairwise-kSZ constraint: Category τ rejects both a new dark-matter particle and a fundamental MOND transition at the tested scale, while committing to a Newtonian inverse-square force-law exponent in the cluster-pair regime. The note defines falsification surfaces and reporting targets rather than claiming external acceptance.",
+    "abstract": "The note places the Panta Rhei force-law stance on the Gallardo et al. 2026 pairwise-kSZ constraint: Category \u03c4 rejects both a new dark-matter particle and a fundamental MOND transition at the tested scale, while committing to a Newtonian inverse-square force-law exponent in the cluster-pair regime. The note defines falsification surfaces and reporting targets rather than claiming external acceptance.",
+    "summary_short": "The note places the Panta Rhei force-law stance on the Gallardo et al. 2026 pairwise-kSZ constraint: Category \u03c4 rejects both a new dark-matter particle and a fundamental MOND transition at the tested scale, while committing to a Newtonian inverse-square force-law exponent in the cluster-pair regime. The note defines falsification surfaces and reporting targets rather than claiming external acceptance.",
     "site_role": "",
     "claim_boundary": {
       "claim": "Core claim: At the cluster-pair scales probed by the anchor result, the categorical framework predicts the inverse-square force-law exponent while still rejecting a particle dark-matter sector.\n\nDoes not claim:\n- It does not claim that the full pairwise-kSZ amplitude has already been derived in closed form.\n- It does not claim that standard dark matter has been empirically ruled out.\n- It does not claim that MOND-like galaxy-scale behavior is globally absent.\n\nFalsification surface:\n- A future high-precision pairwise-kSZ force-law exponent inconsistent with the inverse-square value at the stated scale.\n- Failure to produce the promised amplitude-level categorical account.\n- Breakdown of the framework's sector-exhaustion or capacity-gradient claims.",
@@ -8846,9 +8941,9 @@
       "source_website_asset_path": "site/assets/pdfs/research-notes/research-note-2026-04-25-dark-matter-without-dark-matter-ksz-force-law.pdf"
     },
     "identifiers": {
-      "doi": "",
-      "doi_url": "",
-      "zenodo_url": "",
+      "doi": "10.5281/zenodo.19816406",
+      "doi_url": "https://doi.org/10.5281/zenodo.19816406",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.19816406",
       "isbn_13": "",
       "asin": ""
     },
@@ -8876,14 +8971,14 @@
     },
     "scholar": {
       "include_meta_tags": true,
-      "citation_title": "Dark Matter vs. MOND vs. Category τ",
+      "citation_title": "Dark Matter vs. MOND vs. Category \u03c4",
       "citation_author": [
         "Thorsten Fuchs",
         "Anna-Sophie Fuchs"
       ],
       "citation_publication_date": "2026/04/25",
       "citation_pdf_url": "https://panta-rhei.site/assets/pdfs/research-notes/research-note-2026-04-25-dark-matter-without-dark-matter-ksz-force-law.pdf",
-      "citation_doi": "",
+      "citation_doi": "10.5281/zenodo.19816406",
       "citation_technical_report_institution": "Panta Rhei Research Program"
     },
     "integrity": {
@@ -8947,9 +9042,9 @@
       "source_website_asset_path": "site/assets/pdfs/research-notes/research-note-2026-04-25-inflationary-observables-without-an-inflaton.pdf"
     },
     "identifiers": {
-      "doi": "",
-      "doi_url": "",
-      "zenodo_url": "",
+      "doi": "10.5281/zenodo.19816068",
+      "doi_url": "https://doi.org/10.5281/zenodo.19816068",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.19816068",
       "isbn_13": "",
       "asin": ""
     },
@@ -8984,7 +9079,7 @@
       ],
       "citation_publication_date": "2026/04/25",
       "citation_pdf_url": "https://panta-rhei.site/assets/pdfs/research-notes/research-note-2026-04-25-inflationary-observables-without-an-inflaton.pdf",
-      "citation_doi": "",
+      "citation_doi": "10.5281/zenodo.19816068",
       "citation_technical_report_institution": "Panta Rhei Research Program"
     },
     "integrity": {
@@ -9028,11 +9123,11 @@
         "name": "Anna-Sophie Fuchs"
       }
     ],
-    "abstract": "⬇ Download Panta Rhei Conspectus — Free PDF (303 KB, 29 pp; see trust-budget note)",
-    "summary_short": "⬇ Download Panta Rhei Conspectus — Free PDF (303 KB, 29 pp; see trust-budget note)",
+    "abstract": "\u2b07 Download Panta Rhei Conspectus \u2014 Free PDF (303 KB, 29 pp; see trust-budget note)",
+    "summary_short": "\u2b07 Download Panta Rhei Conspectus \u2014 Free PDF (303 KB, 29 pp; see trust-budget note)",
     "site_role": "",
     "claim_boundary": {
-      "claim": "Every quantitative statement in the Conspectus carries one of four scope labels:\n\n- **Established** — classical, independently confirmed\n- **τ-effective** — derived inside the programme on the calibration cascade\n- **Conjectural** — structural claim, not yet fully derived\n- **Metaphorical** — philosophical or analogical, not formally a theorem\n\nSee the [Verify lane]({{ '/verify/' | relative_url }}) for the full scope-label discipline.",
+      "claim": "Every quantitative statement in the Conspectus carries one of four scope labels:\n\n- **Established** \u2014 classical, independently confirmed\n- **\u03c4-effective** \u2014 derived inside the programme on the calibration cascade\n- **Conjectural** \u2014 structural claim, not yet fully derived\n- **Metaphorical** \u2014 philosophical or analogical, not formally a theorem\n\nSee the [Verify lane]({{ '/verify/' | relative_url }}) for the full scope-label discipline.",
       "non_claim": "This boundary does not certify correctness, peer review, external acceptance, empirical adequacy, legal ownership, or DOI registration."
     },
     "canonical_url": "https://panta-rhei.site/publications/conspectus/",
