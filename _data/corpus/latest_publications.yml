@@ -2018,7 +2018,7 @@ publications:
     pdf_path_publications_repo: research-notes/2026-05-15-aesthetic-topology-pre-symbolic-readout/research-note-2026-05-15-aesthetic-topology-pre-symbolic-readout-v0-9-rc.pdf
     source_website_asset_path: site/assets/pdfs/research-notes/research-note-2026-05-15-aesthetic-topology-pre-symbolic-readout-v0-9-rc.pdf
   identifiers:
-H.17605/OSF.IO/SBPD6
+    doi: 10.17605/OSF.IO/SBPD6
     doi_url: https://doi.org/10.17605/OSF.IO/SBPD6
     osf_url: https://osf.io/SBPD6/
     zenodo_url: ''
@@ -2058,7 +2058,7 @@ H.17605/OSF.IO/SBPD6
     - Anna-Sophie Fuchs
     citation_publication_date: 2026/05/15
     citation_pdf_url: https://panta-rhei.site/assets/pdfs/research-notes/research-note-2026-05-15-aesthetic-topology-pre-symbolic-readout-v0-9-rc.pdf
-H.17605/OSF.IO/SBPD6
+    citation_doi: 10.17605/OSF.IO/SBPD6
     citation_technical_report_institution: Panta Rhei Research Program
   integrity:
     bytes: 180493
