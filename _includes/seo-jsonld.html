@@ -34,10 +34,21 @@
 {%- assign corpus_publication = nil -%}
 {%- assign corpus_publication_schema_type = "" -%}
 {%- assign page_absolute_url = page.url | absolute_url -%}
+{%- assign page_publication_id = page.publication_id | default: "" | downcase | remove: "-" -%}
 {%- if site.data.corpus.publications.publications -%}
   {%- for publication in site.data.corpus.publications.publications -%}
+    {%- assign publication_id_norm = publication.publication_id | default: "" | downcase | remove: "-" -%}
+    {%- assign publication_route_match = false -%}
     {%- if publication.canonical_url == page_absolute_url or publication.website_url == page_absolute_url or publication.canonical_url == page.url or publication.website_url == page.url -%}
+      {%- assign publication_route_match = true -%}
+    {%- endif -%}
+    {%- if page_publication_id != "" and publication_id_norm == page_publication_id -%}
       {%- assign corpus_publication = publication -%}
+      {%- break -%}
+    {%- elsif page_publication_id == "" and publication_route_match -%}
+      {%- if corpus_publication == nil or corpus_publication.status != "released" and publication.status == "released" -%}
+        {%- assign corpus_publication = publication -%}
+      {%- endif -%}
     {%- endif -%}
   {%- endfor -%}
 {%- endif -%}

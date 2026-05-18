@@ -6,7 +6,7 @@ permalink: /publications/research-notes/natarajan-cluster-dichotomy-categorical/
 date: 2026-05-17
 type: "Research Note"
 publication_type: "Research Note"
-publication_id: "RN-032"
+publication_id: "rn032"
 status: "v1.0"
 note_type: "Categorical Pre-Registration"
 note_subtype: "anchor-paper-response"

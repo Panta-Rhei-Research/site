@@ -7,7 +7,7 @@ date: 2026-05-18
 last_modified_at: 2026-05-18
 type: "Research Note"
 publication_type: "Research Note"
-publication_id: "RN-031"
+publication_id: "rn031"
 status: "RC2"
 note_type: "Structural Comparison Note"
 note_subtype: "guarded-bridge-note"

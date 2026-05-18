@@ -4,6 +4,8 @@ subtitle: "Book VI's parity slot and Paltiel et al.'s dynamic CISS mechanism"
 slug: "structural-prior-dynamic-chirality-induced-spin-selectivity"
 permalink: /publications/research-notes/structural-prior-dynamic-chirality-induced-spin-selectivity/
 date: 2026-05-16
+publication_id: "rn002"
+doi: "10.5281/zenodo.19815548"
 type: "Research Note"
 publication_type: "Research Note"
 status: "Published"

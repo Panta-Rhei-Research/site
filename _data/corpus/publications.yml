@@ -1522,9 +1522,9 @@ publications:
     citation_doi: 10.17605/OSF.IO/76CZR
     citation_technical_report_institution: Panta Rhei Research Program
   integrity:
-    bytes: 185303
-    sha256: ff0d5a240a69fb31137a8bf9a4cd414619c30e1c5a7d74d54980829946dbfef7
-    sha512: f402ced32d35c145be194db4777c1cbacdd592c484bde43c452335b3f3edf897a7d842af116709005f0e1e8359f95062a8ef42cc1a517e2678bdab4f3eddfcef
+    bytes: 187063
+    sha256: b80835bd72a75f25685a7dc14abc93f646c86f50d6eb2d1cf249e81adeb2e53a
+    sha512: d9b7a2970cddb643cf4088fe7702b8b3b11fe69142788277b083b3ffd01bc3e112fe1df838970d264a89376b5db9e9638d3773a0215deef3192f15f50afefa77
     ots_status: missing
   metadata_sources:
     publications_catalog: publications/catalog/publications.json
@@ -2106,8 +2106,7 @@ publications:
   identifiers:
     doi: 10.17605/OSF.IO/SBPD6
     doi_url: https://doi.org/10.17605/OSF.IO/SBPD6
-    osf_url: https://osf.io/SBPD6/
-    zenodo_url: ''
+    zenodo_url: https://doi.org/10.17605/OSF.IO/SBPD6
     isbn_13: ''
     asin: ''
   external_links:

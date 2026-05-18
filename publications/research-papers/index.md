@@ -38,10 +38,11 @@ They are intended to state, prove, derive, or argue for original research claims
       <div class="pub-card__body">
         <h3 class="pub-card__title"><a href="{{ landing | relative_url }}">{{ paper.title }}</a></h3>
         <p class="pub-card__summary">{{ paper.summary_short }}</p>
-        <p class="pub-card__meta"><span>{{ paper.role }}</span><span>{{ paper.date }}</span></p>
+        <p class="pub-card__meta"><span>{{ paper.publication_id | upcase }}</span><span>{{ paper.role }}</span><span>{{ paper.date }}</span></p>
         <div class="pub-card__actions">
           <a href="{{ paper.pdf_path | relative_url }}" class="chip chip-small">PDF</a>
           <a href="https://doi.org/{{ paper.doi }}" class="chip chip-small" rel="noopener">DOI</a>
+          {% if paper.short_url and paper.short_url != "" %}<a href="{{ paper.short_url }}" class="chip chip-small" rel="noopener">Short route</a>{% endif %}
         </div>
       </div>
     </article>

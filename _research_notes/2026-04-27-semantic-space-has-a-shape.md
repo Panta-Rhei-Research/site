@@ -4,6 +4,8 @@ subtitle: "Vocabulary evolution, word embeddings, and the Book VII readout-funct
 slug: "semantic-space-has-a-shape"
 permalink: /publications/research-notes/semantic-space-has-a-shape/
 date: 2026-04-27
+publication_id: "rn001"
+doi: "10.5281/zenodo.19816808"
 type: "Research Note"
 publication_type: "Research Note"
 status: "Published"
