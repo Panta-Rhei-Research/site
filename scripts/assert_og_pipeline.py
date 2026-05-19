@@ -104,6 +104,23 @@ def collect_sitemap_routes() -> list[str]:
     return routes
 
 
+def collect_short_route_targets() -> list[str]:
+    worker = ROOT / "workers/prrp-short-routes.js"
+    if not worker.exists():
+        return []
+    targets: list[str] = []
+    seen: set[str] = set()
+    for match in re.finditer(r'\["[^"]+",\s*"https://panta-rhei\.site([^"]+)"\]', worker.read_text(encoding="utf-8")):
+        route = match.group(1)
+        if not route.startswith("/"):
+            continue
+        if route in seen:
+            continue
+        seen.add(route)
+        targets.append(route)
+    return targets
+
+
 def main() -> int:
     if len(sys.argv) != 2:
         fail("usage: assert_og_pipeline.py <built-site-root>")
@@ -140,6 +157,10 @@ def main() -> int:
     missing_sitemap_cards = [route for route in sitemap_routes if route not in cards_by_route]
     if missing_sitemap_cards:
         fail("sitemap-linked routes missing generated cards: " + ", ".join(missing_sitemap_cards[:30]))
+    short_route_targets = collect_short_route_targets()
+    missing_short_route_cards = [route for route in short_route_targets if route not in cards_by_route]
+    if missing_short_route_cards:
+        fail("short-route targets missing generated cards: " + ", ".join(missing_short_route_cards[:30]))
 
     generator_source = (ROOT / "scripts/generate_og_images.py").read_text(encoding="utf-8", errors="ignore")
     if ">π</text>" in generator_source or "Independent open research program</text>" in generator_source:
@@ -159,8 +180,10 @@ def main() -> int:
     required_preview_routes = [
         "/",
         "/program/",
+        "/program/about/standing-in-the-inquiry-of-being/",
         "/publications/",
         "/publications/anchor-documents/c001-standing-in-the-inquiry-of-being/",
+        "/publications/research-notes/thirty-open-problems-tau-readout-surfaces/",
         "/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/",
         "/publications/anchor-documents/wp004-public-research-observatory-blueprint/",
         "/publications/anchor-documents/wp005-global-public-good-impact-overview/",

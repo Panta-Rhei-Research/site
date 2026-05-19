@@ -1189,6 +1189,17 @@ cards:
     width: 1200
     height: 630
     webp: /assets/og/webp/program__about__scope-status-and-scrutiny.webp
+  program__about__standing-in-the-inquiry-of-being:
+    route: /program/about/standing-in-the-inquiry-of-being/
+    page_key: program.standing_inquiry_of_being
+    title: Standing in the Inquiry of Being
+    icon: history_edu
+    image: /assets/og/png/program__about__standing-in-the-inquiry-of-being.png
+    svg: /assets/og/svg/program__about__standing-in-the-inquiry-of-being.svg
+    alt: Panta Rhei preview card for Standing in the Inquiry of Being.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/program__about__standing-in-the-inquiry-of-being.webp
   program__about__why-this-program-exists:
     route: /program/about/why-this-program-exists/
     page_key: program.why_this_program_exists
@@ -1420,6 +1431,17 @@ cards:
     width: 1200
     height: 630
     webp: /assets/og/webp/publications__research-notes.webp
+  publications__research-notes__thirty-open-problems-tau-readout-surfaces:
+    route: /publications/research-notes/thirty-open-problems-tau-readout-surfaces/
+    page_key: null
+    title: Thirty Open Problems as τ-Readout Surfaces
+    icon: quiz
+    image: /assets/og/png/publications__research-notes__thirty-open-problems-tau-readout-surfaces.png
+    svg: /assets/og/svg/publications__research-notes__thirty-open-problems-tau-readout-surfaces.svg
+    alt: Panta Rhei preview card for Thirty Open Problems as τ-Readout Surfaces.
+    width: 1200
+    height: 630
+    webp: /assets/og/webp/publications__research-notes__thirty-open-problems-tau-readout-surfaces.webp
   publications__research-papers:
     route: /publications/research-papers/
     page_key: publications.research_papers

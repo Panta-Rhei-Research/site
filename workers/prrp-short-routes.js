@@ -2,7 +2,7 @@ const ROUTES = new Map([
   ["/", "https://panta-rhei.site/"],
   ["/wp000", "https://panta-rhei.site/publications/anchor-documents/wp000-panta-rhei-at-a-glance/"],
   ["/wp-glance", "https://panta-rhei.site/publications/anchor-documents/wp000-panta-rhei-at-a-glance/"],
-  ["/c001", "https://panta-rhei.site/program/about/standing-in-the-inquiry-of-being/"],
+  ["/c001", "https://panta-rhei.site/publications/anchor-documents/c001-standing-in-the-inquiry-of-being/"],
   ["/wp001", "https://panta-rhei.site/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/"],
   ["/wp002", "https://panta-rhei.site/publications/anchor-documents/wp002-t-theory-executive-synopsis/"],
   ["/wp-theory", "https://panta-rhei.site/publications/anchor-documents/wp002-t-theory-executive-synopsis/"],

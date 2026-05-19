@@ -64,6 +64,11 @@ pages:
     template: og-light-standard
     title: "C001 · Standing in the Inquiry of Being"
     subtitle: "The program charter essay behind the public doctrine surface."
+  - route: /program/about/standing-in-the-inquiry-of-being/
+    icon: history_edu
+    eyebrow: "PROGRAM · CHARTER"
+    title: "Standing in the Inquiry of Being"
+    subtitle: "The full charter essay situating categorical ontology and the program's inquiry posture."
   - route: /publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/
     icon: account_balance
     variant: light
@@ -109,6 +114,13 @@ pages:
     eyebrow: "VERIFY · PREDICTIONS"
     title: "Predictions and Falsification"
     subtitle: "Pre-registered, status-labeled predictions with inspection routes and falsification handles."
+  - route: /publications/research-notes/thirty-open-problems-tau-readout-surfaces/
+    icon: quiz
+    variant: light
+    template: og-light-standard
+    eyebrow: "PUBLICATIONS · RESEARCH NOTE"
+    title: "Thirty Open Problems as τ-Readout Surfaces"
+    subtitle: "A PDF-backed expressiveness probe mapping familiar open questions to structural τ-answer-shapes."
 
   # /media/ sub-pages — newsroom briefs, FAQ, and press kits. The /media/ hub
   # has a generated card via the launch-critical set, but its six sub-pages

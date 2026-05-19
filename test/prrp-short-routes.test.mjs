@@ -5,7 +5,7 @@ const expectedRoutes = new Map([
   ["https://prrp.site/", "https://panta-rhei.site/"],
   ["https://prrp.site/wp000", "https://panta-rhei.site/publications/anchor-documents/wp000-panta-rhei-at-a-glance/"],
   ["https://prrp.site/wp-glance", "https://panta-rhei.site/publications/anchor-documents/wp000-panta-rhei-at-a-glance/"],
-  ["https://prrp.site/c001", "https://panta-rhei.site/program/about/standing-in-the-inquiry-of-being/"],
+  ["https://prrp.site/c001", "https://panta-rhei.site/publications/anchor-documents/c001-standing-in-the-inquiry-of-being/"],
   ["https://prrp.site/wp001", "https://panta-rhei.site/publications/anchor-documents/wp001-panta-rhei-research-program-executive-overview/"],
   ["https://prrp.site/wp002", "https://panta-rhei.site/publications/anchor-documents/wp002-t-theory-executive-synopsis/"],
   ["https://prrp.site/wp-theory", "https://panta-rhei.site/publications/anchor-documents/wp002-t-theory-executive-synopsis/"],
