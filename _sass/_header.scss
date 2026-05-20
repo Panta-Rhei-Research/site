@@ -1,81 +1,73 @@
 // ================================================================
-// Header — Sticky translucent, 56px, rounded
+// Header — Sticky, full-bleed, whisper-spectrum substrate (v5)
 // ================================================================
-
-// Spectral perimeter border tokens — Panta Rhei v4 visual system
-// Subtle 1px gradient around the entire rounded nav shell, replacing the
-// previous disconnected bottom-only Panta Blue rule. Kept extended/repeating
-// so the perimeter doesn't feel like a single left-to-right sweep.
-$tau-spectrum-rule:
-  linear-gradient(
-    90deg,
-    #5A7EB3 0%,
-    #1B8278 18%,
-    #9F5B5C 36%,
-    #896092 54%,
-    #5A7EB3 72%,
-    #1B8278 100%
-  );
+//
+// v5 audit Items #1 + #13: Variant C "whisper-spectrum @ 5%".
+// A flat, full-bleed sticky bar with the τ-spectrum substrate (≤6%
+// alpha · four-strata-cohabitable) over translucent paper-100,
+// closed at the bottom by a single --rule hairline. Replaces the v4
+// floating capsule + saturated spectral border-box perimeter.
+//
+// The "tab connector" hairline that used to drop out of the v4
+// capsule and wrap the content card (Item #13) vanishes by
+// construction: the bar is one continuous hairline, no jogs into
+// the side rails.
+//
+// Inner content alignment with .page-grid is preserved via an
+// inset `padding-inline: max(...)` that matches the rail margins
+// — see the comment on the padding line.
 
 .site-header {
   position: sticky;
   top: 0;
   z-index: $z-header;
   height: $header-h;
-  width: calc(100% - #{$page-px} * 2);  // ensures min side breathing room = $page-px (22px)
-  // Align visible capsule edges with .page-grid CONTENT edges (rail backgrounds),
-  // not the page-grid outer box. Page-grid outer = $shell-max; its content area is
-  // $shell-max - 2*$page-px (because page-grid has padding-inline: $page-px). Without
-  // this subtraction, the header capsule visibly extends $page-px past the rails on
-  // each side at wide viewports — the brief's "nav wider than body" symptom.
-  max-width: calc(var(--site-shell-max) - #{$page-px * 2});
-  margin: 10px auto 0;
-  padding: 0 $page-px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  backdrop-filter: blur($blur) saturate(120%);
-  -webkit-backdrop-filter: blur($blur) saturate(120%);
-  // Double-background border technique: inner solid surface + outer spectral
-  // gradient, so the 1px gradient stroke follows the rounded corners cleanly.
-  // Preserves the previous glass shell's soft shadow; the spectral perimeter
-  // replaces the previous bottom-only Panta Blue rule.
-  border: 1px solid transparent;
-  border-radius: var(--radius-lg);
+  // Inset inner row to .page-grid content edges. On wide viewports
+  // the gutter is (100vw - shell-max)/2; on narrower ones the page
+  // padding alone suffices. `max(...)` clamps so the inset never
+  // shrinks below $page-px even if the calc would go negative.
+  padding-inline: max(#{$page-px}, calc((100vw - var(--site-shell-max)) / 2 + #{$page-px}));
   background:
-    linear-gradient(var(--surface-shell), var(--surface-shell)) padding-box,
-    #{$tau-spectrum-rule} border-box;
-  box-shadow: $panel-shadow;
-  transition: background $transition, box-shadow $transition;
+    var(--tau-spectrum-substrate),
+    rgba(246, 247, 243, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--rule);
+  transition: background $transition, border-color $transition;
 
-  // Sync padding + side breathing with .page-grid at each breakpoint
   @media (max-width: $bp-collapse) {
-    width: calc(100% - 16px * 2);
-    padding: 0 16px;
+    padding-inline: 16px;
   }
 
   @media (max-width: $bp-stack) {
-    width: calc(100% - 10px * 2);
     flex-direction: row;
-    height: $header-h;
-    padding: 0 10px;
+    padding-inline: 10px;
     gap: 8px;
   }
 }
 
+// Home shell uses a narrower 1164px content frame (--site-home-shell-max)
+// instead of the standard 1396px. The header is full-bleed at both, but
+// its INNER row must align with whichever shell the body is using —
+// otherwise the lockup hangs left of the home page-grid's content edge.
 body.shell-home .site-header {
-  // Same alignment principle as the standard shell — capsule edges match the
-  // home page-grid's content area (.page-grid-home outer = --site-home-shell-max,
-  // content area = that minus 2*$page-px).
-  max-width: calc(var(--site-home-shell-max) - #{$page-px * 2});
-}
+  padding-inline: max(#{$page-px}, calc((100vw - var(--site-home-shell-max)) / 2 + #{$page-px}));
 
-@media (max-width: $bp-collapse) {
-  .site-header,
-  body.shell-home .site-header {
-    max-width: #{$content-max};
+  @media (max-width: $bp-collapse) {
+    padding-inline: 16px;
+  }
+  @media (max-width: $bp-stack) {
+    padding-inline: 10px;
   }
 }
+
+// v5: the navbar is now a full-bleed sticky bar (no capsule). The
+// per-shell `body.shell-home .site-header` and the $bp-collapse
+// `max-width` overrides from the v4 capsule alignment are removed.
+// Inner-row alignment with .page-grid is handled inside .site-header
+// via `padding-inline: max(...)`, which adapts at all breakpoints.
 
 .header-brand {
   display: flex;

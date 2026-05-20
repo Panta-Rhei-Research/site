@@ -195,8 +195,8 @@ a:visited{color:#624269}
 .skip-link{position:absolute;top:-100%;left:0;padding:8px 16px;background:#163e64;color:#fff;z-index:100;font-size:.85rem;border-radius:0 0 8px 0}
 .skip-link:focus{top:0}
 :root{--paper-0:#fff;--paper-50:#fafaf7;--paper-100:#f6f7f3;--paper-200:#eef0ea;--paper-300:#e3e7dd;--ink-900:#15171c;--ink-800:#22262d;--ink-700:#343a44;--ink-600:#4b5563;--ink-500:#667085;--panta-blue-900:#0b2238;--panta-blue-800:#123657;--panta-blue-700:#163e64;--panta-blue-600:#1e527e;--panta-blue-500:#2d6e9f;--panta-blue-100:#e8f0f6;--panta-blue-50:#f3f7fa;--accent-gold:#a8792a;--font-sans:"Source Sans 3","Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--font-serif:"Garamond Premier Pro","EB Garamond","Iowan Old Style",Palatino,"Palatino Linotype","Book Antiqua",Georgia,serif;--font-mono:"Source Code Pro","SF Mono",ui-monospace,"Fira Code","JetBrains Mono",Consolas,monospace;--site-shell-max:calc(260px + 860px + 240px + 36px);--site-home-shell-max:1164px}
-.site-header{position:sticky;top:0;z-index:55;display:flex;align-items:center;height:56px;width:calc(100% - 44px);max-width:var(--site-shell-max);margin:10px auto 0;padding:0 22px;background:rgba(255,255,255,.58);border-radius:18px;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
-.shell-home .site-header{max-width:var(--site-home-shell-max)}
+.site-header{position:sticky;top:0;z-index:55;display:flex;align-items:center;height:56px;padding-inline:max(22px,(100vw - var(--site-shell-max))/2 + 22px);background:var(--tau-spectrum-substrate),rgba(246,247,243,.85);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--rule)}
+.shell-home .site-header{padding-inline:max(22px,(100vw - var(--site-home-shell-max))/2 + 22px)}
 .header-brand{display:flex;align-items:center;gap:10px;text-decoration:none}
 .brand-title{font-family:"Source Sans 3","Inter",system-ui,sans-serif;font-size:.95rem;font-weight:700;color:#182027}
 .brand-sub{font-size:.72rem;color:#5b6772}
@@ -211,8 +211,8 @@ a:visited{color:#624269}
 .content-card{background:rgba(255,255,255,.58);border:1px solid rgba(255,255,255,.72);border-radius:16px;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);padding:24px 28px;margin-bottom:18px}
 .hero-eyebrow-row{display:flex;flex-wrap:wrap;align-items:center;gap:.42rem;max-width:100%;margin-bottom:16px}.hero-eyebrow-pill,.hero-card>.eyebrow,.hero-card .module-eyebrow-row>.eyebrow,.book-hero-text>.eyebrow{display:inline-flex;align-items:center;gap:.45rem;width:fit-content;max-width:100%;margin-bottom:16px;padding:.42rem .72rem;border-radius:999px;border:1px solid rgba(22,62,100,.14);background:var(--panta-blue-50);color:var(--panta-blue-800);font-family:var(--font-mono);font-size:.75rem;font-weight:650;letter-spacing:.10em;line-height:1;text-transform:uppercase;overflow-wrap:anywhere}.hero-eyebrow-row .hero-eyebrow-pill{margin-bottom:0}.hero-meta-pill{background:rgba(255,255,255,.72);border-color:rgba(22,62,100,.12);color:var(--color-ink-600)}
 .eyebrow{display:inline-block;font-family:"Source Sans 3","Inter",system-ui,sans-serif;font-size:.72rem;font-weight:650;text-transform:uppercase;letter-spacing:.08em;color:#5b6772;margin-bottom:8px}
-@media(max-width:1080px){.site-header,.shell-home .site-header{width:calc(100% - 32px);max-width:860px;padding:0 16px}.page-grid,.page-grid-home{grid-template-columns:1fr;max-width:860px;padding:0 16px}.left-rail{display:none}.right-rail{position:static;order:3;max-height:none;margin-top:18px}}
-@media(max-width:760px){.site-header,.shell-home .site-header{width:calc(100% - 20px);padding:0 10px}.page-grid,.page-grid-home{padding:0 10px;gap:12px}.header-nav{display:none}.header-controls{order:0;margin-left:auto}.hero-card{padding:20px 16px 16px}.content-card{padding:16px}}
+@media(max-width:1080px){.site-header{padding-inline:16px}.page-grid,.page-grid-home{grid-template-columns:1fr;max-width:860px;padding:0 16px}.left-rail{display:none}.right-rail{position:static;order:3;max-height:none;margin-top:18px}}
+@media(max-width:760px){.site-header{padding-inline:10px}.page-grid,.page-grid-home{padding:0 10px;gap:12px}.header-nav{display:none}.header-controls{order:0;margin-left:auto}.hero-card{padding:20px 16px 16px}.content-card{padding:16px}}
 </style>
 
 <!-- Full stylesheet: async load (non-blocking — critical CSS above handles first paint).
