@@ -1,242 +1,266 @@
 // ================================================================
-// Footer — Minimal, glass, non-marketing
+// Footer — v5 doctrine ground (audit Items #4, #5, #6, #7, #8)
 // ================================================================
+//
+// Full-bleed Panta Blue 950 ground with a 4px τ-spectrum sliver at
+// the very top edge (the brand-guide "closing spine"). Three inner
+// regions — meta row, 6-column link grid, legal+social bar — each
+// align with .page-grid content edges via `.ft-shell` insets that
+// mirror the v5 navbar's `padding-inline: max(...)` trick.
+//
+// Replaces the v4 glass footer block. The PAGE VERSIONING bordered
+// card is gone; the meta row covers it as a quiet mono band.
 
-.site-footer-wrap {
-  padding: 0 $page-px 28px;
+.ft {
+  background: var(--panta-blue-950);
+  color: var(--paper-100);
+  position: relative;
+  overflow: hidden;
+  font-family: var(--sans);
   margin-top: 48px;
 }
 
-@media (max-width: $bp-collapse) {
-  .site-footer-wrap {
-    padding: 0 16px 28px;
+.ft::before {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; top: 0;
+  height: 4px;
+  background: var(--tau-spectrum-rule);
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+// Shared inner-row alignment — matches the v5 navbar pattern so the
+// footer columns sit flush with the page-grid content edges across
+// breakpoints.
+.ft-shell {
+  padding-inline: max(#{$page-px}, calc((100vw - var(--site-shell-max)) / 2 + #{$page-px}));
+
+  @media (max-width: $bp-collapse) {
+    padding-inline: 16px;
+  }
+  @media (max-width: $bp-stack) {
+    padding-inline: 22px;
   }
 }
 
-.site-footer {
-  @include glass;
-  // Match the .site-header inner-bar alignment — capsule edges align with
-  // .page-grid CONTENT edges (page-grid outer = --site-shell-max minus
-  // 2*$page-px of inline padding). Without this subtraction the footer
-  // visibly extends $page-px past the rails on each side at wide viewports.
-  max-width: calc(var(--site-shell-max) - #{$page-px * 2});
-  margin: 0 auto;
-  padding: 22px 28px;
-  display: grid;
-  grid-template-columns: minmax(172px, 224px) minmax(0, 1fr);
-  grid-template-areas:
-    "brand links"
-    "legal legal";
-  align-items: start;
-  gap: 14px 26px;
+body.shell-home .ft .ft-shell {
+  padding-inline: max(#{$page-px}, calc((100vw - var(--site-home-shell-max)) / 2 + #{$page-px}));
 
-  .footer-brand  { grid-area: brand; }
-  .footer-links  { grid-area: links; justify-self: stretch; }
-  .footer-legal  { grid-area: legal; }
+  @media (max-width: $bp-collapse) { padding-inline: 16px; }
+  @media (max-width: $bp-stack)    { padding-inline: 22px; }
+}
+
+// ── Meta row (mono): "Last updated · Release manifest" + brand mark ──
+
+.ft-meta {
+  padding-top: 22px;
+  padding-bottom: 6px;
+  font-family: var(--mono);
+  font-size: 11.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(246, 247, 243, 0.55);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+
+  .ft-meta-mark {
+    flex-shrink: 0;
+    @media (max-width: $bp-stack) {
+      // On mobile the meta wraps to two lines — drop the brand-mark
+      // duplicate (it already appears prominently in ft-brand).
+      display: none;
+    }
+  }
+}
+
+// ── 6-column link grid ──────────────────────────────────────────
+
+.ft-inner {
+  padding-top: 32px;
+  padding-bottom: 28px;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 40px;
+
+  @media (max-width: $bp-collapse) {
+    grid-template-columns: 1.4fr 1fr 1fr;
+    gap: 28px 24px;
+  }
 
   @media (max-width: $bp-stack) {
     grid-template-columns: 1fr;
-    grid-template-areas:
-      "brand"
-      "links"
-      "legal";
-    text-align: center;
-    padding: 18px 16px;
-
-    .footer-links { justify-self: stretch; }
-
-    .footer-legal {
-      flex-direction: column;
-      align-items: center;
-      gap: 8px;
-
-      .footer-legal-text { justify-content: center; }
-      .footer-social { justify-content: center; }
-    }
+    gap: 22px;
   }
 }
 
-body.shell-home .site-footer {
-  // Same alignment principle as the standard shell.
-  max-width: calc(var(--site-home-shell-max) - #{$page-px * 2});
-}
-
-@media (max-width: $bp-collapse) {
-  .site-footer,
-  body.shell-home .site-footer {
-    max-width: #{$content-max};
+.ft-brand {
+  h4 {
+    font-family: var(--serif-display);
+    font-weight: 500;
+    font-size: 22px;
+    color: var(--paper-50);
+    margin: 0 0 10px;
+    letter-spacing: 0;
+    text-transform: none;
+    line-height: 1.2;
   }
-}
-
-@media (max-width: $bp-stack) {
-  .site-footer-wrap {
-    padding: 0 10px 20px;
-    margin-top: 32px;
+  p {
+    font-family: var(--sans);
+    font-size: 14.5px;
+    line-height: 1.55;
+    color: rgba(246, 247, 243, 0.78);
+    margin: 0;
+    max-width: 38ch;
   }
-}
-
-.footer-brand {
-  max-width: 224px;
 
   @media (max-width: $bp-stack) {
-    max-width: none;
-  }
-
-  .footer-title {
-    font-family: $font-ui;
-    font-weight: 700;
-    font-size: 0.88rem;
-    color: $text;
-    margin-bottom: 2px;
-  }
-
-  .footer-desc {
-    font-size: 0.76rem;
-    color: $text-muted;
-    line-height: 1.45;
-    max-width: 18rem;
+    // Left-align everywhere — no centering on mobile.
+    text-align: left;
+    p { max-width: none; }
   }
 }
 
-.footer-links {
-  display: grid;
-  grid-template-columns: minmax(190px, 1.12fr) repeat(4, minmax(104px, 1fr));
-  // Slightly more breathing room between top-level groups so the inner
-  // tightening of .footer-core-lanes (below) reads as a single unit
-  // distinct from the next column-group.
-  gap: 16px 22px;
-
-  a,
-  .footer-link-button {
-    display: block;
-    font-size: 0.79rem;
-    color: $text-muted;
-    text-align: left;
-    transition: color $transition;
-
-    &:hover { color: var(--lane-current); }
+.ft-col {
+  h5 {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(246, 247, 243, 0.5);
+    margin: 0 0 12px;
   }
 
-  .footer-link-button {
-    appearance: none;
-    border: 0;
-    background: transparent;
+  ul {
+    list-style: none;
+    margin: 0;
     padding: 0;
-    font-family: inherit;
-    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
   }
 
-  @media (max-width: $bp-stack) {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 14px 18px;
+  a, .ft-link-button {
+    font-family: var(--sans);
+    font-size: 13.5px;
+    line-height: 1.4;
+    color: rgba(246, 247, 243, 0.85);
+    text-decoration: none;
+    transition: color var(--t-base) var(--ease);
+    background: none;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    font-weight: 400;
     text-align: left;
 
-    .footer-link-group-core {
-      grid-column: 1 / -1;
+    &:hover {
+      color: var(--paper-50);
+      text-decoration: underline;
+      text-underline-offset: 3px;
     }
 
-    a,
-    .footer-link-button {
-      min-height: 44px;
-      display: flex;
-      align-items: center;
-      padding: 6px 0;
-    }
+    &:visited { color: rgba(246, 247, 243, 0.85); }
   }
 }
 
-.footer-link-group {
-  display: grid;
-  gap: 7px;
-  align-content: start;
+// ── Horizontal rule between columns and bar ─────────────────────
+
+.ft-rule {
+  border: 0;
+  height: 1px;
+  background: rgba(246, 247, 243, 0.08);
+  margin: 0;
 }
 
-.footer-link-group-core {
-  min-width: 0;
-}
+// ── Bottom bar: copyright + license + social pills ─────────────
 
-.footer-core-lanes {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(84px, 1fr));
-  // Tighter horizontal gap (12px) than the outer .footer-links gap (22px)
-  // so the two lane sub-columns visibly bind into ONE Lanes group instead
-  // of looking like two unrelated columns. The 10px relative difference
-  // is enough to read as a group at a glance.
-  gap: 7px 12px;
-}
-
-.footer-core-lane-column {
-  display: grid;
-  gap: 7px;
-  align-content: start;
-}
-
-.footer-group-title {
-  font-family: $font-ui;
-  font-size: 0.72rem;
-  font-weight: 700;
-  color: $text;
-  // Hairline divider below each column header — gives a quiet visual
-  // rhythm between the title and its links without adding visual weight.
-  // Alpha kept low (0.06) so it reads as "almost not there" — exactly
-  // enough to suggest a column boundary without competing with the type.
-  padding-bottom: 6px;
-  border-bottom: 1px solid rgba(21, 23, 28, 0.06);
-}
-
-.social-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  color: $text-muted;
-  border-radius: $radius-sm;
-  transition: color $transition, background $transition;
-
-  &:hover {
-    color: var(--lane-current);
-    background: var(--lane-current-soft);
-  }
-
-  svg { display: block; }
-}
-
-.footer-legal {
+.ft-bar {
+  padding-top: 20px;
+  padding-bottom: 28px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  padding-top: 14px;
-  border-top: var(--border-default);
-  font-size: 0.74rem;
-  color: $text-muted;
-
-  .footer-legal-text {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 8px;
-  }
-
-  .footer-social {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    flex-shrink: 0;
-  }
-
-  .footer-copyright { color: $text-muted; }
+  gap: 14px;
+  font-family: var(--mono);
+  font-size: 11.5px;
+  letter-spacing: 0.06em;
+  color: rgba(246, 247, 243, 0.6);
+  flex-wrap: wrap;
 
   a {
-    color: $text-muted;
-    transition: color $transition;
-    &:hover { color: var(--lane-current); }
+    color: rgba(246, 247, 243, 0.78);
+    text-decoration: none;
+    &:hover {
+      color: var(--paper-50);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    &:visited { color: rgba(246, 247, 243, 0.78); }
   }
 
-  .footer-legal-sep {
-    color: $text-muted;
-    opacity: 0.5;
-    user-select: none;
+  .ft-sep { opacity: 0.35; }
+
+  .ft-copyright { white-space: nowrap; }
+
+  @media (max-width: $bp-stack) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+
+    .ft-sep { display: none; }
+  }
+}
+
+// ── Labelled social pills (GitHub · LinkedIn · ArXiv · Zenodo) ──
+
+.ft-social {
+  margin-left: auto;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  flex-wrap: wrap;
+
+  a {
+    font-family: var(--sans);
+    font-size: 12.5px;
+    color: rgba(246, 247, 243, 0.72);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px;
+    border-radius: var(--radius-pill);
+    border: 1px solid rgba(246, 247, 243, 0.10);
+    background: rgba(246, 247, 243, 0.02);
+    letter-spacing: 0;
+    text-transform: none;
+    transition:
+      color $transition,
+      background $transition,
+      border-color $transition;
+
+    &:hover {
+      color: var(--paper-50);
+      background: rgba(246, 247, 243, 0.06);
+      border-color: rgba(246, 247, 243, 0.18);
+      text-decoration: none;
+    }
+
+    &:visited { color: rgba(246, 247, 243, 0.72); }
+
+    svg {
+      flex-shrink: 0;
+      opacity: 0.85;
+    }
+
+    span { white-space: nowrap; }
+  }
+
+  @media (max-width: $bp-stack) {
+    margin-left: 0;
   }
 }
