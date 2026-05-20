@@ -47,6 +47,45 @@
   &::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.12); border-radius: 4px; }
 }
 
+// ── v5 header row: X close button (audit Item #10) ──────────────
+// 38×38 pill at the top-right of the search panel. Esc still works as
+// a parallel close path; the visible button is the primary mobile
+// affordance per the v5 audit (mobile users can't always reach Esc).
+.search-overlay-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2px 4px 4px;
+}
+
+.search-overlay-close {
+  width: 38px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.6);
+  color: var(--panta-blue-700);
+  cursor: pointer;
+  transition: background var(--t-base) var(--ease),
+              border-color var(--t-base) var(--ease),
+              color var(--t-base) var(--ease);
+
+  &:hover {
+    background: var(--panta-blue-50);
+    border-color: var(--panta-blue-500);
+    color: var(--panta-blue-900);
+  }
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
+  }
+
+  svg { display: block; }
+}
+
 // ---- Pagefind UI overrides ----
 // Style Pagefind's default elements to match the site design
 
@@ -163,11 +202,33 @@
     display: none !important;
   }
 
-  // Message area
+  // Message area — v5 audit Item #11. Styled as a bordered count band
+  // sitting between the search input and the results list. Reads as
+  // "5,884 results for X" in mono caps, with a 1px --rule-soft hairline
+  // below to separate from the results grid. Functional filter chips
+  // (All / Corpus / Results / Verify) are a deferred enhancement that
+  // requires custom Pagefind-API wiring; the visual band lands first.
   .pagefind-ui__message {
-    font-size: 0.82rem;
-    color: $text-muted;
-    padding: 8px 0;
+    font-family: var(--mono);
+    font-size: 11.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--panta-blue-700);
+    opacity: 0.8;
+    padding: 14px 22px 10px;
+    border-bottom: 1px solid var(--rule-soft);
+    margin: 4px 0;
+  }
+
+  // v5 audit Item #9 — gold match highlight (replaces the browser-default
+  // saturated-yellow <mark>). Sits readably on prose without screaming;
+  // matches the gold accent used for the Canonical status pill (Item #19).
+  mark {
+    background: var(--accent-gold-pale);
+    color: var(--ink-900);
+    font-weight: 500;
+    padding: 0 3px;
+    border-radius: 3px;
   }
 
   // Button

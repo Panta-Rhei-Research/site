@@ -79,6 +79,20 @@
   <div id="search-overlay" class="search-overlay" role="dialog" aria-modal="true" aria-label="Search the site" onclick="if (event.target === this) closeSearch()" hidden>
     <div class="search-overlay-backdrop" onclick="closeSearch()"></div>
     <div class="search-overlay-panel glass" tabindex="-1" onclick="event.stopPropagation()">
+      {%- comment -%}
+        v5 search header (audit Item #10). Explicit 38×38 X close button at
+        the top-right of the overlay so the modal can be dismissed without
+        relying on Esc or outside-click. Tooltip preserves the Esc shortcut.
+        Esc handler remains in the script below as a parallel path.
+      {%- endcomment -%}
+      <div class="search-overlay-header">
+        <button type="button" class="search-overlay-close" aria-label="Close search (Esc)" title="Close (Esc)" onclick="closeSearch()">
+          <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true">
+            <line x1="3" y1="3" x2="13" y2="13"/>
+            <line x1="13" y1="3" x2="3" y2="13"/>
+          </svg>
+        </button>
+      </div>
       <div id="search-container"></div>
       <div class="search-overlay-actions">
         <a id="search-google-link" class="search-google-link" href="https://www.google.com/search?q=site%3Apanta-rhei.site" target="_blank" rel="noopener">Broader site search with Google</a>
