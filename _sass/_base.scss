@@ -35,11 +35,25 @@ html {
   html { scroll-behavior: auto; }
 }
 
+// ────────────────────────────────────────────────────────────
+// v5 body-color cascade (Item #12 of the design audit).
+//
+// Before v5: p was muted (#4B5563), headings were ink (#15171C).
+// After  v5: body/p/li are ink-900 (near-black) for stronger
+// legibility; headings move to panta-blue-900 (institutional navy)
+// for monograph identity; visited links surface in plum (E3) so a
+// reader's traversed routes become visible without competing with
+// the body ink.
+// ────────────────────────────────────────────────────────────
+
+body, p, li {
+  color: var(--ink-900);
+}
+
 body {
   font-family: $font-ui;
   font-size: 16px;
   line-height: $line-height;
-  color: $text;
   background: var(--surface-page);
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
@@ -47,9 +61,9 @@ body {
 }
 
 // Typography
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   font-family: $font-display;
-  color: $text;
+  color: var(--panta-blue-900);
   line-height: $line-height-tight;
 }
 
@@ -72,7 +86,6 @@ h3 {
   font-weight: 400;
   text-transform: none;
   letter-spacing: 0;
-  color: $text;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
 }
@@ -82,24 +95,26 @@ h4 {
   font-size: 1rem;
   font-weight: 650;
   letter-spacing: 0;
-  color: $text;
   margin-top: 1.25em;
   margin-bottom: 0.45em;
 }
 
 p {
-  color: $text-muted;
   line-height: $line-height;
   margin-bottom: 1rem;
 }
 
 a {
-  color: var(--color-brand-800);
+  color: var(--panta-blue-700);
   text-decoration: none;
   transition: color $transition;
 
   &:hover {
-    color: var(--color-brand-950);
+    color: var(--panta-blue-900);
+  }
+
+  &:visited {
+    color: var(--layer-e3);
   }
 }
 
