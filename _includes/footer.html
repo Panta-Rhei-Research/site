@@ -1,68 +1,111 @@
-<div class="site-footer-wrap">
-  <footer class="site-footer">
-    <div class="footer-brand">
-      <div class="footer-title">Panta Rhei Research Program</div>
-      <div class="footer-desc">An independent open research program, published as an inspectable public observatory.</div>
+<footer class="ft" aria-labelledby="ft-brand-title">
+  {%- comment -%}
+    v5 footer rework (audit Items #4, #5, #6, #7, #8).
+    Full-bleed Panta Blue 950 ground with a 4px τ-spectrum sliver at the very
+    top edge (the "closing spine" the brand guide describes). Three inner
+    regions all share `.ft-shell` constraints so they align with .page-grid
+    content edges at every breakpoint.
+
+      ft-meta    — mono "Last updated · Release manifest" row above the cols
+      ft-inner   — 6-column link grid (brand 1.4fr + 5 cols 1fr)
+      ft-bar     — legal + labelled social pills (GitHub · LinkedIn · ArXiv · Zenodo)
+
+    Per the v5 founder decision, the "drop" icon is dropped entirely; the
+    PAGE VERSIONING bordered card is replaced by the quiet mono ft-meta row;
+    the brand block is left-aligned everywhere (no centering on mobile).
+  {%- endcomment -%}
+
+  <div class="ft-meta ft-shell">
+    <span>Last updated · {{ site.time | date: "%B %Y" }}{% if site.data.release.current.release_id %} · Release manifest {{ site.data.release.current.release_id }}{% endif %}</span>
+    <span class="ft-meta-mark">πρ Panta Rhei Research Program</span>
+  </div>
+
+  <div class="ft-inner ft-shell">
+    <div class="ft-brand">
+      <h4 id="ft-brand-title">An inspectable public observatory</h4>
+      <p>An independent open research program publishing a coherent theory of reality, with every check visible.</p>
     </div>
-    <nav class="footer-links" aria-label="Footer">
-      <div class="footer-link-group footer-link-group-core">
-        <span class="footer-group-title">Lanes</span>
-        <div class="footer-core-lanes">
-          <div class="footer-core-lane-column">
-            <a href="{{ '/discover/' | relative_url }}">Discover</a>
-            <a href="{{ '/program/' | relative_url }}">Program</a>
-            <a href="{{ '/agenda/' | relative_url }}">Agenda</a>
-            <a href="{{ '/corpus/' | relative_url }}">Corpus</a>
-          </div>
-          <div class="footer-core-lane-column">
-            <a href="{{ '/results/' | relative_url }}">Results</a>
-            <a href="{{ '/verify/' | relative_url }}">Verify</a>
-            <a href="{{ '/impact/' | relative_url }}">Impact</a>
-            <a href="{{ '/engage/' | relative_url }}">Engage</a>
-          </div>
-        </div>
-      </div>
-      <div class="footer-link-group">
-        <span class="footer-group-title">Reference</span>
-        <button type="button" class="footer-link-button footer-search-trigger" onclick="openSearch()">Search</button>
-        <a href="{{ '/publications/' | relative_url }}">Publications</a>
-        <a href="{{ '/bibliography/' | relative_url }}">Bibliography</a>
-        <a href="{{ '/changelog/' | relative_url }}">Changelog</a>
-        <a href="{{ '/sitemap/' | relative_url }}">Sitemap</a>
-        <a href="{{ '/cite/' | relative_url }}">Cite</a>
-      </div>
-      <div class="footer-link-group">
-        <span class="footer-group-title">Media & Contact</span>
-        <a href="{{ '/media/' | relative_url }}">Media Kit</a>
-        <a href="{{ '/media/journalist-faq/' | relative_url }}">Journalist FAQ</a>
-        <a href="{{ '/media/social-media-kit/' | relative_url }}">Social Media Kit</a>
-        <a href="{{ '/program/about/founders/' | relative_url }}">Founders</a>
-        <a href="{{ '/engage/contact/' | relative_url }}">Contact</a>
-      </div>
-      <div class="footer-link-group">
-        <span class="footer-group-title">External</span>
-        <a href="https://taulib.site" target="_blank" rel="noopener" data-umami-event="outbound.taulib" data-umami-event-location="footer" data-umami-event-type="external">TauLib Docs</a>
-        <a href="https://github.com/Panta-Rhei-Research/taulib" target="_blank" rel="noopener" data-umami-event="outbound.github" data-umami-event-location="footer" data-umami-event-type="external" data-umami-event-outbound="github" data-umami-event-variant="taulib-source">TauLib Source</a>
-        <a href="https://github.com/Panta-Rhei-Research" target="_blank" rel="noopener" data-umami-event="outbound.github" data-umami-event-location="footer" data-umami-event-type="external" data-umami-event-outbound="github" data-umami-event-variant="org">GitHub Organization</a>
-      </div>
-      <div class="footer-link-group">
-        <span class="footer-group-title">Legal</span>
-        <a href="{{ '/impressum/' | relative_url }}">Impressum</a>
-        <a href="{{ '/datenschutz/' | relative_url }}">Datenschutz</a>
-        <a href="{{ '/credits/' | relative_url }}">Credits</a>
-      </div>
-    </nav>
-    <div class="footer-legal">
-      <div class="footer-legal-text">
-        <span class="footer-copyright">&copy; {{ site.time | date: "%Y" }} Thorsten Fuchs &amp; Anna-Sophie Fuchs</span>
-        <span class="footer-legal-sep" aria-hidden="true">&middot;</span>
-        <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener license">Content CC&nbsp;BY&nbsp;4.0</a>
-        <span class="footer-legal-sep" aria-hidden="true">&middot;</span>
-        <a href="{{ '/credits/' | relative_url }}">Credits</a>
-      </div>
-      <div class="footer-social" aria-label="Social">
-        {% include social-icons.html %}
-      </div>
+
+    <div class="ft-col">
+      <h5>Lanes</h5>
+      <ul>
+        <li><a href="{{ '/discover/' | relative_url }}">Discover</a></li>
+        <li><a href="{{ '/program/' | relative_url }}">Program</a></li>
+        <li><a href="{{ '/agenda/' | relative_url }}">Agenda</a></li>
+        <li><a href="{{ '/corpus/' | relative_url }}">Corpus</a></li>
+        <li><a href="{{ '/results/' | relative_url }}">Results</a></li>
+        <li><a href="{{ '/verify/' | relative_url }}">Verify</a></li>
+        <li><a href="{{ '/impact/' | relative_url }}">Impact</a></li>
+        <li><a href="{{ '/engage/' | relative_url }}">Engage</a></li>
+      </ul>
     </div>
-  </footer>
-</div>
+
+    <div class="ft-col">
+      <h5>Reference</h5>
+      <ul>
+        <li><button type="button" class="ft-link-button" onclick="openSearch()">Search</button></li>
+        <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
+        <li><a href="{{ '/bibliography/' | relative_url }}">Bibliography</a></li>
+        <li><a href="{{ '/changelog/' | relative_url }}">Changelog</a></li>
+        <li><a href="{{ '/sitemap/' | relative_url }}">Sitemap</a></li>
+        <li><a href="{{ '/cite/' | relative_url }}">Cite</a></li>
+      </ul>
+    </div>
+
+    <div class="ft-col">
+      <h5>Media &amp; Contact</h5>
+      <ul>
+        <li><a href="{{ '/media/' | relative_url }}">Media Kit</a></li>
+        <li><a href="{{ '/media/journalist-faq/' | relative_url }}">Journalist FAQ</a></li>
+        <li><a href="{{ '/media/social-media-kit/' | relative_url }}">Social Media Kit</a></li>
+        <li><a href="{{ '/program/about/founders/' | relative_url }}">Founders</a></li>
+        <li><a href="{{ '/engage/contact/' | relative_url }}">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="ft-col">
+      <h5>External</h5>
+      <ul>
+        <li><a href="https://taulib.site" target="_blank" rel="noopener" data-umami-event="outbound.taulib" data-umami-event-location="footer" data-umami-event-type="external">TauLib Docs</a></li>
+        <li><a href="https://github.com/Panta-Rhei-Research/taulib" target="_blank" rel="noopener" data-umami-event="outbound.github" data-umami-event-location="footer" data-umami-event-type="external" data-umami-event-outbound="github" data-umami-event-variant="taulib-source">TauLib Source</a></li>
+        <li><a href="https://github.com/Panta-Rhei-Research" target="_blank" rel="noopener" data-umami-event="outbound.github" data-umami-event-location="footer" data-umami-event-type="external" data-umami-event-outbound="github" data-umami-event-variant="org">GitHub Organization</a></li>
+      </ul>
+    </div>
+
+    <div class="ft-col">
+      <h5>Legal</h5>
+      <ul>
+        <li><a href="{{ '/impressum/' | relative_url }}">Impressum</a></li>
+        <li><a href="{{ '/datenschutz/' | relative_url }}">Datenschutz</a></li>
+        <li><a href="{{ '/credits/' | relative_url }}">Credits</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <hr class="ft-rule" />
+
+  <div class="ft-bar ft-shell">
+    <span class="ft-copyright">&copy; {{ site.time | date: "%Y" }} Thorsten Fuchs &amp; Anna-Sophie Fuchs</span>
+    <span class="ft-sep" aria-hidden="true">·</span>
+    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener license">Content CC&nbsp;BY&nbsp;4.0</a>
+
+    <div class="ft-social" aria-label="Off-site profiles">
+      <a href="https://github.com/Panta-Rhei-Research" target="_blank" rel="noopener" data-umami-event="outbound.github" data-umami-event-location="footer-social" data-umami-event-type="external" data-umami-event-outbound="github" data-umami-event-variant="org">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+        <span>GitHub</span>
+      </a>
+      <a href="https://www.linkedin.com/company/panta-rhei-research" target="_blank" rel="noopener" data-umami-event="outbound.linkedin" data-umami-event-location="footer-social" data-umami-event-type="external" data-umami-event-outbound="linkedin">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        <span>LinkedIn</span>
+      </a>
+      <a href="https://arxiv.org/search/?query=Panta+Rhei+Fuchs&amp;searchtype=all" target="_blank" rel="noopener" data-umami-event="outbound.arxiv" data-umami-event-location="footer-social" data-umami-event-type="external" data-umami-event-outbound="arxiv">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 4h18v2H3zm0 7h18v2H3zm0 7h18v2H3z"/></svg>
+        <span>ArXiv</span>
+      </a>
+      <a href="https://zenodo.org/search?q=panta+rhei+fuchs" target="_blank" rel="noopener" data-umami-event="outbound.zenodo" data-umami-event-location="footer-social" data-umami-event-type="external" data-umami-event-outbound="zenodo">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M2 3h20v3.6L8.4 18.4H22V22H2v-3.6L15.6 6.6H2V3z"/></svg>
+        <span>Zenodo</span>
+      </a>
+    </div>
+  </div>
+</footer>
