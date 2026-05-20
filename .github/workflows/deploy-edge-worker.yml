@@ -1,0 +1,99 @@
+name: Deploy edge worker
+
+# Auto-deploys the Cloudflare Worker at workers/site-edge-headers.js whenever
+# it (or its config / test / this workflow) changes on main, and on demand via
+# the Actions tab.
+#
+# Why a dedicated workflow? The site itself ships via the Jekyll Pages
+# pipeline; the worker is a separate Cloudflare deployment. Before this
+# workflow existed (introduced 2026-05-20 after #231), worker edits sat
+# un-deployed on main until someone ran `npm run headers:deploy` locally —
+# the gap that caused the Agenda redirect-loop fix in #231 to need a
+# manual deploy step after merge.
+#
+# Required repository secret:
+#   CLOUDFLARE_API_TOKEN  — a Cloudflare API token (NOT an account API key)
+#   scoped to the panta-rhei.site zone with the following permissions:
+#     • Account ▸ Workers Scripts ▸ Edit
+#     • Account ▸ Workers Routes  ▸ Edit
+#     • Account ▸ Account Settings ▸ Read
+#   Create at: https://dash.cloudflare.com/profile/api-tokens
+#   Add at:    Repo Settings ▸ Secrets and variables ▸ Actions ▸ New repository secret
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'workers/site-edge-headers.js'
+      - 'wrangler.toml'
+      - 'test/site-edge-headers.test.mjs'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/deploy-edge-worker.yml'
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Reason for manual deploy (shown in run summary)'
+        required: false
+        default: 'Manual re-deploy'
+
+permissions:
+  contents: read
+
+# Serialize deploys: never run two `wrangler deploy` jobs against the same
+# zone at once. Don't cancel in-flight deploys — if two pushes land in
+# quick succession, the second should wait for the first to finish so the
+# zone always ends up at the newest commit.
+concurrency:
+  group: edge-worker-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: .node-version
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Pre-deploy gates. `headers:test` runs the worker unit tests
+      # (test/site-edge-headers.test.mjs) which exercises every redirect
+      # case and CORS rule against the imported worker module. The
+      # dry-run uploads the bundle to Cloudflare's validation endpoint
+      # without publishing — catches syntax errors, manifest issues,
+      # and missing bindings before they hit prod.
+      - name: Run worker unit tests
+        run: npm run headers:test
+
+      - name: Wrangler dry-run (validate bundle)
+        run: npm run headers:dry-run
+
+      - name: Deploy worker to Cloudflare
+        run: npm run headers:deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+
+      - name: Run summary
+        run: |
+          {
+            echo "## Edge worker deployed";
+            echo "";
+            echo "**Trigger**: ${{ github.event_name }}";
+            if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+              echo "**Reason**: ${{ inputs.reason }}";
+            fi;
+            echo "**Commit**: \`${{ github.sha }}\`";
+            echo "**Worker**: panta-rhei-site-edge-headers";
+            echo "**Routes**:";
+            echo "  - panta-rhei.site/*";
+            echo "  - www.panta-rhei.site/*";
+          } >> "$GITHUB_STEP_SUMMARY"
