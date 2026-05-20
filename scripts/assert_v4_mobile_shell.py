@@ -333,9 +333,16 @@ def assert_standard_page(soup: BeautifulSoup, route: str) -> None:
 # Search shell (source-level — JS / CSS, not generated UI)
 # ---------------------------------------------------------------------------
 
+# v4 anti-regression list for search-modal chrome.
+#
+# v5 audit Item #10 (May 2026) brings back ONE of these — the explicit X
+# close button (`search-overlay-close`) — because mobile users can't rely
+# on Esc alone and outside-click can feel accidental. The other tokens
+# (modal title, hint, filter-API openers, removed marketing copy) remain
+# forbidden: v5 keeps the search overlay sparse, with the count band and
+# input as the primary chrome.
 FORBIDDEN_SEARCH_CHROME = (
     "search-overlay-title",
-    "search-overlay-close",
     "search-overlay-hint",
     "showEmptyFilters",
     "openFilters",
