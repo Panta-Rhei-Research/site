@@ -140,8 +140,6 @@ for (const path of ["/publications/physics-ledger", "/publications/physics-ledge
 }
 
 for (const [path, target] of [
-  ["/agenda", "/program/research-agenda/"],
-  ["/agenda/", "/program/research-agenda/"],
   ["/publications/categorical-genesis", "/publications/monograph-supplements/categorical-genesis/"],
   ["/publications/categorical-genesis/", "/publications/monograph-supplements/categorical-genesis/"],
   ["/publications/companion-papers", "/publications/research-briefings/public-good/"],
@@ -173,7 +171,7 @@ for (const [path, target] of [
   ["/framework/mathematics-coherence-kernel/", "/corpus/"],
   [
     "/framework/prior-art/wolfram/",
-    "/program/research-agenda/kernel-model-reality/related-approaches/deep-comparison/"
+    "/agenda/kernel-model-reality/related-approaches/deep-comparison/"
   ]
 ]) {
   const redirect = edgeRedirectFor(`https://panta-rhei.site${path}`);
@@ -186,4 +184,11 @@ assert.equal(edgeRedirectFor("https://panta-rhei.site/publications/monograph-sup
 assert.equal(edgeRedirectFor("https://panta-rhei.site/publications/books/book-i/"), null);
 assert.equal(edgeRedirectFor("https://panta-rhei.site/verify/taulib/docs/"), null);
 
-console.log(`site-edge-headers: ${cases.length} header cases, 5 CORS assertions, 4 CORS-negative cases, 4 preflight assertions, 3 fetch-option assertions, 3 origin-request assertions, and 26 redirect cases passed`);
+// /agenda/* IS the canonical lane root since v4 — must NOT redirect at the edge.
+// (Removed in 2026-05-20 hotfix; was producing an infinite loop with the static
+// redirect stub at /program/research-agenda/index.html.)
+assert.equal(edgeRedirectFor("https://panta-rhei.site/agenda"), null);
+assert.equal(edgeRedirectFor("https://panta-rhei.site/agenda/"), null);
+assert.equal(edgeRedirectFor("https://panta-rhei.site/agenda/research-aim-and-desiderata/"), null);
+
+console.log(`site-edge-headers: ${cases.length} header cases, 5 CORS assertions, 4 CORS-negative cases, 4 preflight assertions, 3 fetch-option assertions, 3 origin-request assertions, and 24 redirect cases passed`);

@@ -56,8 +56,18 @@ const PUBLIC_GOOD_PDF_ORIGIN_VERSION = "2026-05-02-template-polish";
 const RESEARCH_NOTE_PDF_ORIGIN_VERSION = "2026-05-16-rn002-title-polish";
 
 const PERMANENT_REDIRECTS = new Map([
-  ["/agenda", "/program/research-agenda/"],
-  ["/agenda/", "/program/research-agenda/"],
+  // Note: the pre-v4 worker mapped `/agenda → /program/research-agenda/`,
+  // which since the v4 lane migration is the reversed direction (Agenda
+  // IS the canonical lane root at `/agenda/`). That rule combined with
+  // the static redirect stub at /program/research-agenda/index.html
+  // (`layout: redirect`, target `/agenda/`) produced an infinite loop:
+  //   /agenda/  ──301──►  /program/research-agenda/  ──meta-refresh──►  /agenda/  …
+  // Removed 2026-05-20. Deprecated `/program/research-agenda/*` URLs
+  // still resolve cleanly via the static HTML stubs (meta refresh to the
+  // canonical /agenda/* targets) — they're not in this map because the
+  // sub-paths use non-1:1 mappings (recovery-requirements → core-semantics,
+  // problem-ledger → structural-challenge-ledger) that the existing
+  // dynamicRedirectFor branches + static stubs handle correctly.
   ["/publications/physics-ledger", "/publications/monograph-supplements/numerical-physics-ledger/"],
   ["/publications/physics-ledger/", "/publications/monograph-supplements/numerical-physics-ledger/"],
   ["/publications/numerical-physics-ledger", "/publications/monograph-supplements/numerical-physics-ledger/"],
@@ -185,7 +195,10 @@ function dynamicRedirectFor(pathname) {
   }
 
   if (pathname.startsWith("/framework/prior-art")) {
-    return "/program/research-agenda/kernel-model-reality/related-approaches/deep-comparison/";
+    // Target the canonical lane root directly; the deprecated /program/
+    // research-agenda/... target would have meta-refreshed to the same place
+    // via its static stub, adding a needless hop.
+    return "/agenda/kernel-model-reality/related-approaches/deep-comparison/";
   }
 
   if (pathname.startsWith("/framework/")) {
