@@ -1,0 +1,50 @@
+{%- comment -%}
+  AUD-21 · Newsletter rework — "Add yourself to the dispatch list."
+
+  Replaces the generic "Receive publication notifications" framing with
+  the audit's proposed copy + form pattern. Reads as a research-letterhead
+  subscription, not a SaaS opt-in:
+    - kicker "Stay in inspection range"
+    - h2 "Add yourself to the dispatch list"
+    - lede paragraph describing the cadence + tone
+    - inline form: mono label · serif input · mono "Subscribe →" link
+    - privacy line below
+
+  Buttondown wiring (action, hidden tag, double opt-in) stays intact
+  via the standard form fields — this include only changes copy and
+  CSS register. The submit button still posts to the same Buttondown
+  endpoint as _includes/buttondown-subscribe.html so subscribers land
+  on the same list. Tag default is "homepage-dispatch" so we can see
+  acquisition source.
+
+  Parameters (all optional):
+    tag      additional source tag (default: "homepage-dispatch")
+    heading  override h2 text
+    lede     override lede paragraph
+
+  Visual register (per briefing §AUD-21):
+    .dispatch-form  flex row, baseline aligned, border-bottom rule
+    .lbl            mono 11px / 0.14em / --ink-600 / uppercase
+    input           serif 18px / --ink-900 / transparent / no border
+    .submit-link    mono 11px / 0.14em / --panta-blue-700 / uppercase
+                    as button-styled-as-link (no chrome)
+{%- endcomment -%}
+{%- assign bd = site.buttondown -%}
+{%- assign _tag = include.tag | default: "homepage-dispatch" -%}
+{%- assign _heading = include.heading | default: "Add yourself to the dispatch list" -%}
+{%- assign _lede = include.lede | default: "Get new Panta Rhei publication releases by email — research notes, monograph supplements, white papers, and release manifests. Sent irregularly, only when there is something substantial to record." -%}
+
+<section class="dispatch" aria-labelledby="dispatch-title">
+  <p class="kicker">Stay in inspection range</p>
+  <h2 id="dispatch-title">{{ _heading }}</h2>
+  <p class="lede">{{ _lede }}</p>
+  <form action="{{ bd.form_action }}" method="post" target="_blank" class="dispatch-form">
+    <input type="hidden" name="embed" value="1">
+    <input type="hidden" name="tag" value="{{ bd.default_tag }}">
+    <input type="hidden" name="tag" value="{{ _tag }}">
+    <label class="lbl" for="dispatch-email">Email address</label>
+    <input type="email" name="email" id="dispatch-email" required autocomplete="email" />
+    <button type="submit" class="submit-link" {% include cta-attrs.html location="dispatch" event="subscribe-newsletter-submit" variant="dispatch" %}>Subscribe&nbsp;→</button>
+  </form>
+  <p class="note">{{ bd.privacy_note }} See our <a href="{{ '/datenschutz/' | relative_url }}">privacy notice</a>.</p>
+</section>

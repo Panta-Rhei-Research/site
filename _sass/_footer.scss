@@ -168,6 +168,68 @@ body.shell-home .ft .ft-shell {
   }
 }
 
+// AUD-19 · Inline footer search.
+//
+// Replaces the orphan "Search" heading-as-button in the Reference column
+// with an actual <input> + submit button. Reads as a one-line research-
+// reference search field — single hairline beneath, mono submit icon
+// on the right. Opens the search overlay pre-populated on submit.
+//
+// Sits inside .ft-col but above the column's <ul>, so the list-style
+// rules above don't apply.
+
+.ft-search {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 0 0 4px;
+  margin: 0 0 14px;
+  border-bottom: 1px solid rgba(246, 247, 243, 0.18);
+  transition: border-color var(--t-base) var(--ease);
+
+  &:focus-within {
+    border-bottom-color: rgba(246, 247, 243, 0.5);
+  }
+
+  input[type="search"] {
+    flex: 1;
+    min-width: 0;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 4px 0;
+    font-family: var(--sans);
+    font-size: 13.5px;
+    color: var(--paper-50);
+
+    &::placeholder {
+      color: rgba(246, 247, 243, 0.55);
+      font-style: italic;
+    }
+
+    // Strip the macOS search-input cross
+    &::-webkit-search-cancel-button {
+      -webkit-appearance: none;
+      appearance: none;
+    }
+  }
+
+  .ft-search-btn {
+    flex-shrink: 0;
+    background: none;
+    border: 0;
+    padding: 4px 2px;
+    cursor: pointer;
+    color: rgba(246, 247, 243, 0.7);
+    transition: color var(--t-base) var(--ease);
+
+    &:hover { color: var(--paper-50); }
+    &:focus-visible { outline-color: var(--paper-50); }
+
+    svg { display: block; }
+  }
+}
+
 // ── Horizontal rule between columns and bar ─────────────────────
 
 .ft-rule {

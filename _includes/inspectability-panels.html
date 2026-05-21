@@ -1,0 +1,49 @@
+{%- comment -%}
+  AUD-17 · Inspectability panels.
+
+  Replaces the v4 five-item <ul> with five hairlined panels, each with
+  a *verb at scale* (display Garamond, --panta-blue-900) and a one-line
+  role beneath (--sans, 13.5px, --ink-800). Each panel is a link to the
+  canonical surface the verb points at.
+
+  Visual register (per briefing §AUD-17):
+    .insp-panels  5-col grid with hairlines on the outer top + bottom
+                  borders and vertical hairlines between cells.
+    .verb         display Garamond, 26px, --panta-blue-900, no decoration
+    .role         sans, 13.5px / 1.5, --ink-800
+
+  Mobile: collapses to single column with hairlines between rows
+  instead of vertical rules.
+
+  Doctrine: "The site asks to be checked, not simply believed."
+  These five panels enumerate the five inspectability surfaces the
+  program publishes — TauLib, Registry, Predictions, Falsifications,
+  Errata. Each is a verb in the imperative voice for the reader:
+  go and check this thing.
+{%- endcomment -%}
+<section class="inspectability" aria-labelledby="inspectability-title">
+  <p class="kicker" id="inspectability-title">Public inspectability</p>
+  <h2>The site asks to be checked, not simply believed</h2>
+  <div class="insp-panels">
+    <a class="insp-panel" href="{{ '/corpus/taulib/' | relative_url }}">
+      <span class="verb">TauLib</span>
+      <span class="role">Public Lean&nbsp;4 formalization with a sharp axiom and sorry budget.</span>
+    </a>
+    <a class="insp-panel" href="{{ '/corpus/registry/' | relative_url }}">
+      <span class="verb">Registry</span>
+      <span class="role">Object-level IDs, dependencies, and status metadata.</span>
+    </a>
+    <a class="insp-panel" href="{{ '/results/predictions/browse/' | relative_url }}">
+      <span class="verb">Predictions</span>
+      <span class="role">Explicit values, observed comparators, and precision tiers.</span>
+    </a>
+    <a class="insp-panel" href="{{ '/results/falsifications/browse/' | relative_url }}">
+      <span class="verb">Falsification&nbsp;pack</span>
+      <span class="role">Named experiments and timelines where the framework can fail.</span>
+    </a>
+    <a class="insp-panel" href="{{ '/publications/errata/' | relative_url }}">
+      <span class="verb">Errata</span>
+      <span class="role">Public corrections with stable IDs and current status.</span>
+    </a>
+  </div>
+</section>

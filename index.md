@@ -147,20 +147,14 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program at a gla
 </section>
 
 <section class="content-card homepage-section">
-  <p class="v2-kicker">Public inspectability</p>
-  <h2>The site asks to be checked, not simply believed</h2>
-  <ul>
-    <li><strong>TauLib</strong>: public Lean 4 formalization with a sharp axiom and sorry budget.</li>
-    <li><strong>Registry</strong>: object-level IDs, dependencies, and status metadata.</li>
-    <li><strong>Predictions</strong>: explicit values, observed comparators, and precision tiers.</li>
-    <li><strong>Falsification pack</strong>: named experiments and timelines where the framework can fail.</li>
-    <li><strong>Errata</strong>: public corrections with stable IDs and current status.</li>
-  </ul>
-  <div class="btn-group section-ctas">
-    <a class="btn-secondary" href="{{ '/verify/' | relative_url }}">Verify</a>
-    <a class="btn-ghost" href="{{ '/corpus/registry/' | relative_url }}">Registry</a>
-    <a class="btn-ghost" href="{{ '/publications/errata/' | relative_url }}">Errata</a>
-  </div>
+  {%- comment -%}
+    AUD-17 · Inspectability panels. Replaces the v4 bulleted list with
+    five hairlined panels — each verb at scale (display Garamond),
+    one-line role beneath. The five verbs (TauLib · Registry ·
+    Predictions · Falsification pack · Errata) are the program's
+    inspectability surfaces in the imperative voice.
+  {%- endcomment -%}
+  {% include inspectability-panels.html %}
 </section>
 
 <section class="content-card homepage-section">
@@ -182,22 +176,22 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program at a gla
 </section>
 
 <section class="content-card homepage-section">
-  <p class="v2-kicker">Artifacts and continuation</p>
-  <h2>Artifacts & Releases</h2>
-  <p>The public release surface is not only the research monographs. It includes Anchor Documents, Research Monographs, Monograph Supplements, Research Papers, Research Notes, Research Briefings, TauLib, assessment protocols, Release Artifacts, and errata. The site makes those surfaces easier to find without turning the homepage into a catalogue.</p>
-  <div class="btn-group section-ctas">
-    <a class="btn-secondary" href="{{ '/publications/' | relative_url }}">Publications</a>
-    <a class="btn-secondary" href="{{ '/publications/anchor-documents/' | relative_url }}">Anchor Documents</a>
-    <a class="btn-secondary" href="{{ '/publications/research-monographs/' | relative_url }}">Research Monographs</a>
-    <a class="btn-ghost" href="{{ '/publications/research-papers/' | relative_url }}">Research Papers</a>
-    <a class="btn-ghost" href="{{ '/publications/research-notes/' | relative_url }}">Research Notes</a>
-    <a class="btn-ghost" href="{{ '/publications/release-artifacts/' | relative_url }}">Release Artifacts</a>
-    <a class="btn-ghost" href="{{ '/publications/errata/' | relative_url }}">Errata</a>
-    <a class="btn-ghost" href="{{ '/cite/' | relative_url }}">Cite</a>
-  </div>
+  {%- comment -%}
+    AUD-18 · Artifacts as bibliography. Replaces the v4 link-soup chip
+    row with a typographically-set bibliography listing (Vol. I through
+    IX). Each row is a 3-col grid (vol marker · serif title · mono
+    meta) with hairline rules between. Reads as a research surface.
+  {%- endcomment -%}
+  {% include artifacts-bibliography.html %}
 </section>
 
 <section class="content-card homepage-section">
-  <p class="v2-kicker">Stay in inspection range</p>
-  {% include buttondown-subscribe.html tag="homepage" heading="Receive publication notifications" body="Get new Panta Rhei publication releases by email when dated artifacts are added — research notes, monograph supplements, white papers, and release manifests. Notifications are sent irregularly and only when there is something substantial to record." %}
+  {%- comment -%}
+    AUD-21 · Newsletter rework — "Add yourself to the dispatch list."
+    Reframes the section as a research-letterhead subscription with a
+    mono label · serif input · mono submit-as-link, on a single
+    hairline rule. Buttondown wiring stays intact via the standard
+    form fields and tag pattern.
+  {%- endcomment -%}
+  {% include dispatch-list.html tag="homepage-dispatch" %}
 </section>

@@ -134,8 +134,23 @@
   {%- if active_lane == "registry" -%}{%- assign active_lane = "corpus" -%}{%- endif -%}
 
   <nav class="header-nav" id="mobile-nav" aria-label="Main" data-mm-tier="t1">
-    <!-- Desktop inline lane links (hidden on mobile via _header.scss) -->
+    {%- comment -%}
+      AUD-24 · Desktop lane links grouped into four logical clusters.
+      The eight lanes read as dense in a flat row; the audit asks for
+      four typographic clusters separated by mono dot-leaders:
+
+        Discover  ·  Program · Agenda · Corpus  ·  Results · Verify · Impact  ·  Engage
+
+      Clusters carry a doctrinal hint (orientation · construction ·
+      consequence · invitation) — **not colour**. The dot leaders are
+      pure typography; lane identity stays carried by position,
+      breadcrumbs, rails, and page titles per the lane-color-coded
+      refusal in the design doctrine. Each lane link still gets its
+      individual `.header-nav-link` class so the existing active-state
+      styling (gold underline) keeps working.
+    {%- endcomment -%}
     <div class="header-nav-desktop" role="presentation">
+    {%- assign _cluster_breaks = "discover,corpus,impact" | split: "," -%}
     {%- for item in site.data.nav.header -%}
       {%- assign nav_active = false -%}
       {%- assign item_key = item.title | downcase -%}
@@ -143,6 +158,9 @@
       {%- if page.url contains "/agenda/" and item_key == "program" -%}{%- assign nav_active = false -%}{%- endif -%}
       {%- if active_lane == item_key -%}{%- assign nav_active = true -%}{%- endif -%}
       <a href="{{ item.url | relative_url }}" class="header-nav-link header-nav-link-{{ item_key }}{% if nav_active %} active{% endif %}">{{ item.title }}</a>
+      {%- if _cluster_breaks contains item_key -%}
+      <span class="header-nav-dot" aria-hidden="true">·</span>
+      {%- endif -%}
     {%- endfor -%}
     </div>
 
