@@ -129,9 +129,21 @@
         {%- endfor -%}
       </ul>
     {%- else -%}
+      {%- comment -%}
+        HF-04-v2 (May 2026 polish wave) · surface-keyed default-open.
+        On FAQ canonical pages (Journalist FAQ, Review Kit) the audit
+        asks for the FIRST entry to render expanded so a reader arriving
+        there sees a real answer immediately. On the homepage and the
+        full /faq/ directory, every entry stays collapsed so the surface
+        reads as questions-only. Default behaviour is `expand_first=false`
+        — callers opt in.
+      {%- endcomment -%}
+      {%- assign _expand_first = include.expand_first | default: false -%}
       <div class="faq-accordion-stack">
         {%- for faq in filtered -%}
-          {%- include faqs/faq-accordion.html faq=faq show_layer_label=show_layer_label -%}
+          {%- assign _is_first_open = false -%}
+          {%- if _expand_first and forloop.first -%}{%- assign _is_first_open = true -%}{%- endif -%}
+          {%- include faqs/faq-accordion.html faq=faq show_layer_label=show_layer_label default_open=_is_first_open -%}
         {%- endfor -%}
       </div>
     {%- endif -%}

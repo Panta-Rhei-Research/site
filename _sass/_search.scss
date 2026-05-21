@@ -252,6 +252,101 @@
   }
 }
 
+// AUD-21-N03 (May 2026 polish wave) · search empty-state hint.
+//
+// Renders below the Pagefind input as orienting text — "what's in
+// scope" + a couple of common search verbs. The body class
+// `body.search-has-results` is toggled by the search-overlay JS
+// when Pagefind renders at least one .pagefind-ui__result, hiding
+// the hint while results are visible.
+.search-overlay-hint {
+  padding: 14px 22px 4px;
+  font-family: $font-ui;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--ink-700);
+
+  p { margin: 0; }
+
+  code {
+    font-family: $font-mono;
+    font-size: 0.92em;
+    background: var(--paper-200);
+    padding: 1px 5px;
+    border-radius: 4px;
+    color: var(--ink-800);
+  }
+}
+
+// Toggle visibility: visible by default (empty state), hidden when
+// the search input has content + Pagefind has rendered results.
+body.search-has-results .search-overlay-hint {
+  display: none;
+}
+
+// AUD-21-N04 (May 2026 polish wave) · result-list filter chips.
+//
+// Sit ABOVE the Pagefind results list (injected into the existing
+// .pagefind-ui__results-area via JS). Mono caps chips like the
+// audience-filter chips on /faq/. Filter the visible result cards
+// client-side by data-pagefind-filter (which Pagefind exposes as
+// data-pagefind-filter-value="lane:LANE_KEY"). All other Pagefind
+// chrome stays intact — this is purely additive.
+.search-overlay-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  padding: 10px 22px 0;
+}
+
+.search-overlay-filter {
+  font-family: $font-mono;
+  font-size: 10.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 4px 11px;
+  border-radius: 999px;
+  background: var(--paper-200);
+  color: var(--ink-700);
+  border: 1px solid var(--rule);
+  cursor: pointer;
+  transition:
+    background-color var(--t-base) var(--ease),
+    color var(--t-base) var(--ease),
+    border-color var(--t-base) var(--ease);
+
+  &:hover {
+    background: var(--panta-blue-50);
+    color: var(--panta-blue-700);
+    border-color: rgba(22, 62, 100, 0.32);
+  }
+
+  &.is-active {
+    background: var(--panta-blue-700);
+    color: var(--paper-50);
+    border-color: var(--panta-blue-700);
+  }
+}
+
+// When a non-"all" filter is active, hide any result whose lane-key
+// attribute (set on the result wrapper via the JS hook) does not
+// match. Filtering is purely visual — entries are hidden via display
+// none, not removed from the DOM.
+.search-overlay-panel[data-search-filter]:not([data-search-filter="all"]) {
+  .pagefind-ui__result[data-lane-key]:not([data-lane-key=""]) {
+    display: none;
+  }
+}
+
+@each $lane in (discover, program, agenda, corpus, results, verify, impact, engage) {
+  .search-overlay-panel[data-search-filter="#{$lane}"] {
+    .pagefind-ui__result[data-lane-key="#{$lane}"] {
+      display: block;
+    }
+  }
+}
+
 .search-overlay-actions {
   padding: 2px 4px 4px;
 }

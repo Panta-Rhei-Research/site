@@ -50,7 +50,11 @@ This is preparation for review, not a substitute for review. The expert's answer
 
 All 16 entries from the canonical Expert Handoff layer of the FAQ. Each entry surfaces a candidate expert type and a bounded first question to ask them.
 
-{% include faqs/faq-list.html layer=4 %}
+{%- comment -%}
+  HF-04-v2 (polish wave) · expand the first Expert Handoff entry so a
+  reviewer arriving here sees a real answer immediately.
+{%- endcomment -%}
+{% include faqs/faq-list.html layer=4 expand_first="true" %}
 
 ## Technical credibility (selected)
 

@@ -94,6 +94,19 @@
         </button>
       </div>
       <div id="search-container"></div>
+      {%- comment -%}
+        AUD-21-N03 (May 2026 polish wave) · empty-state syntax hint.
+        Renders below the Pagefind input as orienting text — "what's
+        in scope" + a couple of common search verbs. Hidden when the
+        Pagefind results list is non-empty (toggled by the same JS
+        that detects results-rendered below).
+      {%- endcomment -%}
+      <div class="search-overlay-hint" id="search-overlay-hint">
+        <p>Search across Corpus, TauLib, Monographs, Research Notes, and Errata.
+           Try a result name (<code>Hubble tension</code>), a doctrine term
+           (<code>τ-totality</code>), or a Lean theorem ID
+           (<code>Theorem 3.2.4</code>).</p>
+      </div>
       <div class="search-overlay-actions">
         <a id="search-google-link" class="search-google-link" href="https://www.google.com/search?q=site%3Apanta-rhei.site" target="_blank" rel="noopener">Broader site search with Google</a>
       </div>
@@ -110,12 +123,84 @@
           element: "#search-container",
           showSubResults: true,
           showImages: false,
+          // AUD-21-N04 (May 2026 polish wave) · per-result lane tagging.
+          // processResult fires once per result; we read the result URL and
+          // schedule a deferred DOM tag on the rendered <li> with a
+          // data-lane-key attribute. The CSS lane-filter rules in
+          // _sass/_search.scss then hide/show results without touching
+          // Pagefind's own DOM. setTimeout(0) defers until after Pagefind
+          // has appended the element to the DOM.
+          processResult: function(result) {
+            try {
+              setTimeout(function() {
+                document.querySelectorAll('.pagefind-ui__result').forEach(function(el) {
+                  if (el.__lane_keyed) return;
+                  var href = el.querySelector('.pagefind-ui__result-link');
+                  if (!href) return;
+                  var h = href.getAttribute('href') || '';
+                  var mm = h.match(/\/(discover|program|agenda|corpus|results|verify|impact|engage)(?:\/|$)/);
+                  el.setAttribute('data-lane-key', mm ? mm[1] : '');
+                  el.__lane_keyed = true;
+                });
+              }, 0);
+            } catch (e) { /* swallow — instrumentation only */ }
+            return result;
+          }
         });
       } else {
         document.getElementById('search-container').innerHTML =
           '<p style="padding:16px;color:#5b6772;font-size:0.88rem;">Search will be available once the site is deployed.</p>';
       }
       syncGoogleSearchLink();
+
+      // AUD-21-N03 + N04 · empty-state hint + filter-chip toggle.
+      //
+      // Watch Pagefind's result container for child mutations. When at
+      // least one .pagefind-ui__result is present, toggle the body
+      // `search-has-results` class (hides the hint via CSS) and show the
+      // filter-chip strip. The strip is appended once on init.
+      (function() {
+        var panel = document.querySelector('.search-overlay-panel');
+        var container = document.getElementById('search-container');
+        if (!panel || !container) return;
+
+        var filters = ['all', 'corpus', 'results', 'verify', 'program'];
+        var labels = { all: 'All', corpus: 'Corpus', results: 'Results', verify: 'Verify', program: 'Program' };
+        var strip = document.createElement('div');
+        strip.className = 'search-overlay-filters';
+        strip.hidden = true;
+        filters.forEach(function(k) {
+          var b = document.createElement('button');
+          b.type = 'button';
+          b.className = 'search-overlay-filter' + (k === 'all' ? ' is-active' : '');
+          b.setAttribute('data-search-filter-key', k);
+          b.textContent = labels[k];
+          b.addEventListener('click', function() {
+            panel.setAttribute('data-search-filter', k);
+            strip.querySelectorAll('[data-search-filter-key]').forEach(function(c) {
+              c.classList.toggle('is-active', c.getAttribute('data-search-filter-key') === k);
+            });
+          });
+          strip.appendChild(b);
+        });
+        // Insert strip just before the Pagefind container.
+        container.parentNode.insertBefore(strip, container);
+
+        function refreshState() {
+          var hasResults = container.querySelectorAll('.pagefind-ui__result').length > 0;
+          document.body.classList.toggle('search-has-results', hasResults);
+          strip.hidden = !hasResults;
+          if (!hasResults) {
+            panel.setAttribute('data-search-filter', 'all');
+            strip.querySelectorAll('[data-search-filter-key]').forEach(function(c) {
+              c.classList.toggle('is-active', c.getAttribute('data-search-filter-key') === 'all');
+            });
+          }
+        }
+
+        new MutationObserver(refreshState).observe(container, { childList: true, subtree: true });
+        refreshState();
+      })();
     });
 
     var _searchPreviousFocus = null;
