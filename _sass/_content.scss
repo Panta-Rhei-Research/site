@@ -102,11 +102,17 @@
   color: var(--color-ink-600);
 }
 
+// v5 audit Item #19 — canonical / active status pill goes gold.
+// The previous green (--semantic-success) was an outside-doctrine
+// color not declared in the design system. Per the v5 brief, status
+// emphasis should be carried by the gold accent across surfaces
+// — same gold the search modal uses for match highlights (Item #9)
+// and the mobile breadcrumb status pill uses already (Wave 5a).
 .hero-meta-pill--status-canonical,
 .hero-meta-pill--status-active {
-  background: var(--semantic-success-soft);
-  border-color: rgba(47, 111, 78, 0.24);
-  color: var(--semantic-success);
+  background: var(--accent-gold-pale);
+  border-color: rgba(168, 121, 42, 0.28);
+  color: var(--accent-gold-dark);
 }
 
 // ────────────────────────────────────────────────────────────

@@ -216,6 +216,42 @@
     margin-bottom: 0;
     font-size: 0.9rem;
   }
+
+  // v5 audit Item #18 — the gateway-routes cards on /program/ render
+  // their title as <strong> and description as <span>, both inline,
+  // so the title visually fuses to the description like one long line:
+  //   "ChartreStanding in the Inquiry of Being: …"
+  // Restoring the title's block-level break (with the typography it
+  // would have as an h3) fixes the cards without rewriting the markup
+  // in every lane-root index.md that uses this shape.
+  strong {
+    display: block;
+    margin: 0 0 6px;
+    color: var(--panta-blue-900);
+    font-family: $font-display;
+    font-weight: 500;
+    font-size: 1.08rem;
+    line-height: 1.25;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+  > a > strong:first-child,
+  &.v2-tile > strong:first-child {
+    margin-top: 0;
+  }
+  // The description sibling that follows the inline <strong>.
+  // Make it a block-level paragraph in body sans, ink-soft, slightly
+  // smaller — matches what the .v2-tile p rule already does for
+  // proper-markup tiles.
+  strong + span,
+  strong + p {
+    display: block;
+    margin: 0;
+    color: var(--ink-700);
+    font-family: $font-ui;
+    font-size: 0.9rem;
+    line-height: 1.55;
+  }
 }
 
 .v2-kicker {
