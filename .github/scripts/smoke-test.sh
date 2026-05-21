@@ -157,7 +157,7 @@ file_contains "/index.html" "https://panta-rhei.site/assets/og/png/index.png" "h
 file_contains "/index.html" "Start with Discover"                                  "v2 Discover CTA present"
 file_contains "/index.html" "Explore the Corpus"                                   "v2 Corpus CTA present"
 file_contains "/index.html" "See the Results"                                      "v2 Results CTA present"
-file_contains "/index.html" "Verify It Yourself"                                   "v2 Verify CTA present"
+file_contains "/index.html" "Verify it yourself"                                   "v2 Verify CTA present"
 file_contains "/index.html" "taulib.site"                                          "reciprocal link to taulib.site"
 
 echo ""
