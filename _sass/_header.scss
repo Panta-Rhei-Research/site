@@ -17,6 +17,29 @@
 // inset `padding-inline: max(...)` that matches the rail margins
 // — see the comment on the padding line.
 
+// ────────────────────────────────────────────────────────────
+// .site-header — sticky masthead.
+//
+// The frosted-glass background (τ-spectrum substrate + paper wash +
+// backdrop blur) used to live directly on .site-header itself.
+// CSS spec: any non-`none` `backdrop-filter` creates a new
+// containing block for descendants with `position: fixed` — the
+// same way `transform`, `filter`, `perspective`, and `contain` do.
+//
+// The mobile hamburger drawer (.header-nav at mobile width) is
+// `position: fixed` with `top: 56px; bottom: 0` to fill the
+// viewport below the header. When .site-header had backdrop-filter,
+// .header-nav was positioned relative to .site-header (~44px tall)
+// instead of the viewport — collapsing the drawer to ~1px and
+// causing PR #253's "drawer shows backdrop but no items" report.
+//
+// Fix: move backdrop-filter (and the background it blurs against)
+// to a ::before pseudo-element. The pseudo creates its own
+// containing block, but it has no descendants — so nothing breaks.
+// .site-header itself stays "plain" from the fixed-positioning
+// perspective, so .header-nav (its child) anchors to the viewport
+// as intended.
+// ────────────────────────────────────────────────────────────
 .site-header {
   position: sticky;
   top: 0;
@@ -29,13 +52,24 @@
   // padding alone suffices. `max(...)` clamps so the inset never
   // shrinks below $page-px even if the calc would go negative.
   padding-inline: max(#{$page-px}, calc((100vw - var(--site-shell-max)) / 2 + #{$page-px}));
-  background:
-    var(--tau-spectrum-substrate),
-    rgba(246, 247, 243, 0.85);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--rule);
-  transition: background $transition, border-color $transition;
+  transition: border-color $transition;
+  // NOTE: no `background` and no `backdrop-filter` on .site-header
+  // itself — both live on the ::before below. See doctrine block above.
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background:
+      var(--tau-spectrum-substrate),
+      rgba(246, 247, 243, 0.85);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    transition: background $transition;
+    pointer-events: none;
+  }
 
   @media (max-width: $bp-collapse) {
     padding-inline: 16px;
