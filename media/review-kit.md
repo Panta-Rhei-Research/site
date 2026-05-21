@@ -58,6 +58,17 @@ Subset of Technical Credibility FAQ entries that pair with expert handoff: what 
 
 {% include faqs/faq-list.html ids="FAQ-TC-001,FAQ-TC-002,FAQ-TC-005,FAQ-TC-008,FAQ-TC-010,FAQ-TC-015,FAQ-TC-017,FAQ-TC-018" %}
 
+{%- comment -%}
+  AUD-30 · Deep-link into the canonical FAQ filtered for reviewers.
+  The /faq/?audience=reviewer query param triggers the audience-
+  filter chips on the canonical FAQ page, surfacing only entries
+  whose audience array includes "reviewer" — collapses the
+  overlapping surfaces (First-Contact / Journalist / Review Kit /
+  Media Kit) onto a single canonical directory with filtered views.
+{%- endcomment -%}
+<p class="audience-filter-cta">
+  <a class="btn-secondary" href="{{ '/faq/?audience=reviewer' | relative_url }}">Open all reviewer FAQs in the canonical directory →</a>
+</p>
 <p class="muted-note"><a href="{{ '/faq/technical-credibility/' | relative_url }}">All {{ site.data.faqs.technical_credibility.faqs.size }} Technical Credibility entries →</a></p>
 
 ## Adjacent surfaces

@@ -736,3 +736,81 @@
     }
   }
 }
+
+// ════════════════════════════════════════════════════════════
+// AUD-30 · FAQ audience-filter chip nav.
+//
+// Mono caps chips at the top of /faq/. Clicking a chip filters the
+// entries list by data-faq-audience attribute (set on each
+// <details.faq-entry>). The filter mutates the URL via
+// history.replaceState so the filtered view is shareable.
+//
+// .faq-entry--filtered-out applies display:none to hide entries
+// without removing them from the DOM, so anchor links continue
+// to work (the entry is still findable by id).
+// ════════════════════════════════════════════════════════════
+
+.faq-audience-filter {
+  margin: 24px 0;
+  padding: 18px 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+
+.faq-audience-filter-eyebrow {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-600);
+  margin: 0 0 12px;
+}
+
+.faq-audience-filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.faq-audience-chip {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  border-radius: var(--radius-pill);
+  background: var(--paper-200);
+  color: var(--ink-700);
+  border: 1px solid var(--rule);
+  cursor: pointer;
+  transition: background-color var(--t-base) var(--ease),
+              color var(--t-base) var(--ease),
+              border-color var(--t-base) var(--ease);
+
+  &:hover {
+    background: var(--panta-blue-50);
+    color: var(--panta-blue-700);
+    border-color: rgba(22, 62, 100, 0.32);
+  }
+
+  &.is-active {
+    background: var(--panta-blue-700);
+    color: var(--paper-50);
+    border-color: var(--panta-blue-700);
+  }
+}
+
+.faq-audience-filter-count {
+  margin: 12px 0 0;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  color: var(--ink-500);
+}
+
+// Filtered-out entries — hide without removing from DOM so the
+// stable anchor links (#FAQ-FC-001 etc.) keep resolving.
+.faq-entry--filtered-out {
+  display: none;
+}

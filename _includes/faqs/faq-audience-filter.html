@@ -1,0 +1,144 @@
+{%- comment -%}
+  AUD-30 · FAQ audience-filter chip nav.
+
+  Renders a single row of mono caps chips above the /faq/ entries list.
+  Each chip filters visible <details.faq-entry> elements by their
+  data-faq-audience attribute (set by faqs/faq-accordion.html).
+
+  The chip set is *server-rendered* from the union of `audience` arrays
+  across all FAQ entries — so no-JS users still see the visible chip
+  list and can read the FAQ as a flat directory.
+
+  URL contract:
+    /faq/                          → all entries visible
+    /faq/?audience=journalist      → only entries with "journalist" in
+                                     their audience array visible
+    /faq/?audience=                → equivalent to "all"
+
+  Click behaviour (JS):
+    Click chip          → toggle that audience filter on/off
+    Multi-select        → no, single-select for clarity
+    "All" chip          → clears the filter
+    History API         → URL updates without reload via replaceState
+
+  Doctrine source: briefing §AUD-30 — single canonical FAQ with
+  audience filters; Media Kit / Journalist FAQ / Review Kit pages
+  link into filtered views rather than re-hosting content.
+
+  Parameters (optional):
+    heading       override h-level heading (default omits heading)
+    show_count    "true" / "false" — display the count of currently-
+                  visible entries below the chip row (default: true)
+{%- endcomment -%}
+
+{%- assign _layer_files = "first_contact,first_orientation,journalist_due_diligence,technical_credibility,expert_handoff" | split: "," -%}
+{%- assign _aud_seen = "" | split: "" -%}
+{%- for _fname in _layer_files -%}
+  {%- assign _coll = site.data.faqs[_fname] -%}
+  {%- if _coll and _coll.faqs -%}
+    {%- for _faq in _coll.faqs -%}
+      {%- if _faq.audience -%}
+        {%- for _aud in _faq.audience -%}
+          {%- unless _aud_seen contains _aud -%}
+            {%- assign _aud_seen = _aud_seen | push: _aud -%}
+          {%- endunless -%}
+        {%- endfor -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign _aud_sorted = _aud_seen | sort -%}
+
+<nav class="faq-audience-filter" aria-label="Filter FAQ by audience"
+     data-faq-audience-filter>
+  <p class="faq-audience-filter-eyebrow">Filter by audience</p>
+  <div class="faq-audience-filter-chips" role="listbox" aria-label="FAQ audiences">
+    <button type="button"
+            class="faq-audience-chip is-active"
+            data-faq-audience-key=""
+            role="option"
+            aria-selected="true">All</button>
+    {%- for _aud in _aud_sorted -%}
+    {%- assign _label = _aud | replace: "_", " " | capitalize -%}
+    <button type="button"
+            class="faq-audience-chip"
+            data-faq-audience-key="{{ _aud }}"
+            role="option"
+            aria-selected="false">{{ _label }}</button>
+    {%- endfor -%}
+  </div>
+  {%- unless include.show_count == "false" -%}
+  <p class="faq-audience-filter-count">
+    <span data-faq-visible-count>—</span>
+    of
+    <span data-faq-total-count>—</span>
+    entries shown
+  </p>
+  {%- endunless -%}
+</nav>
+
+<script>
+  (function(){
+    // AUD-30 · Audience-filter behaviour.
+    //
+    // On click: toggle filter; on load: read ?audience=X; URL updates
+    // via history.replaceState (no page reload). Filtering is purely
+    // visual — entries are hidden via .hidden, not removed from DOM,
+    // so anchor links (#FAQ-FC-001) keep working under any filter.
+
+    var root = document.querySelector('[data-faq-audience-filter]');
+    if (!root) return;
+
+    var chips = root.querySelectorAll('[data-faq-audience-key]');
+    var visibleCountEl = root.querySelector('[data-faq-visible-count]');
+    var totalCountEl = root.querySelector('[data-faq-total-count]');
+
+    function entries() {
+      return document.querySelectorAll('details.faq-entry[data-faq-audience]');
+    }
+
+    function applyFilter(key) {
+      var all = entries();
+      var visible = 0;
+      all.forEach(function(e) {
+        var auds = (e.getAttribute('data-faq-audience') || '').split(',').map(function(s){return s.trim();}).filter(Boolean);
+        // "All" key (empty string) → everything visible.
+        // Non-empty key → entry must include the key in its audience list.
+        // Entries with NO audience metadata stay visible under all filters
+        // — they're treated as the baseline first-contact answer set.
+        var show = !key || auds.length === 0 || auds.indexOf(key) !== -1;
+        e.classList.toggle('faq-entry--filtered-out', !show);
+        if (show) visible++;
+      });
+      if (visibleCountEl) visibleCountEl.textContent = visible;
+      if (totalCountEl) totalCountEl.textContent = all.length;
+      chips.forEach(function(c) {
+        var k = c.getAttribute('data-faq-audience-key') || '';
+        var active = (k === (key || ''));
+        c.classList.toggle('is-active', active);
+        c.setAttribute('aria-selected', active ? 'true' : 'false');
+      });
+      // Update URL without reload
+      try {
+        var url = new URL(window.location.href);
+        if (key) url.searchParams.set('audience', key);
+        else url.searchParams.delete('audience');
+        history.replaceState({}, '', url.toString());
+      } catch (err) { /* old browser — silently skip */ }
+    }
+
+    chips.forEach(function(c) {
+      c.addEventListener('click', function() {
+        var k = c.getAttribute('data-faq-audience-key') || '';
+        applyFilter(k);
+      });
+    });
+
+    // Initialise from current URL
+    var initial = '';
+    try {
+      initial = new URL(window.location.href).searchParams.get('audience') || '';
+    } catch (e) {}
+    applyFilter(initial);
+  })();
+</script>

@@ -21,7 +21,18 @@
     {%- when 4 -%}{%- assign layer_label = "Expert Handoff" -%}{%- assign layer_slug = "eh" -%}
     {%- else -%}{%- assign layer_label = "FAQ" -%}{%- assign layer_slug = "faq" -%}
   {%- endcase -%}
-<details class="faq-entry" id="{{ faq.id }}" data-faq-id="{{ faq.id }}" data-faq-layer="{{ layer_id }}" data-faq-layer-slug="{{ layer_slug }}">
+{%- comment -%}
+  AUD-30 · Audience filter — expose the FAQ entry's audience list as a
+  data attribute so the canonical /faq/ page's audience-filter chips
+  can hide/show entries without JS reading from page data.
+  Empty audience list → entry stays visible under all filters (a
+  baseline first-contact answer).
+{%- endcomment -%}
+{%- assign _aud_attr = "" -%}
+{%- if faq.audience and faq.audience.size > 0 -%}
+  {%- assign _aud_attr = faq.audience | join: "," -%}
+{%- endif -%}
+<details class="faq-entry" id="{{ faq.id }}" data-faq-id="{{ faq.id }}" data-faq-layer="{{ layer_id }}" data-faq-layer-slug="{{ layer_slug }}" data-faq-audience="{{ _aud_attr }}">
   <summary class="faq-entry-summary">
     <span class="faq-entry-question">{{ faq.question }}</span>
     {%- if include.show_layer_label == "true" -%}

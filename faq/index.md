@@ -110,7 +110,17 @@ right_rail:
 
 <section class="faq-section" aria-labelledby="faq-all-heading">
   <h2 id="faq-all-heading">All FAQ entries — by layer</h2>
-  <p class="muted-note">All {{ all_entries_count }} entries across 5 layers, sorted by layer and priority. Click any question to expand the full answer.</p>
+  <p class="muted-note">All {{ all_entries_count }} entries across 5 layers, sorted by layer and priority. Filter by audience below, or click any question to expand the full answer.</p>
+
+  {%- comment -%}
+    AUD-30 · Audience filter — mono chips above the entries list.
+    The Media Kit, Journalist FAQ, and Review Kit pages link into
+    filtered views of this directory via `?audience=` query params,
+    so the canonical /faq/ becomes the single source of truth for
+    audience-keyed FAQ projections.
+  {%- endcomment -%}
+  {% include faqs/faq-audience-filter.html %}
+
   {% include faqs/faq-list.html style="accordion" show_layer_label="true" %}
 </section>
 
