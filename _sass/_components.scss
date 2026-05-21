@@ -1441,3 +1441,50 @@
     padding: 12px 14px;
   }
 }
+
+// ════════════════════════════════════════════════════════════
+// v5 hotfix · :visited + aria-current overrides for chrome links.
+//
+// The AUD-20 global `a:visited { color: var(--layer-e3); }` rule
+// is correct for body-content prose — it gives readers a plum
+// "you've been here" cue. But the same selector specificity (0,1,1)
+// wins over `.btn-primary` / `.btn-secondary` / `.header-nav-link`
+// (0,1,0), so any *button* the reader has visited (e.g. the hero
+// "Verify it yourself" primary CTA, after one click) flipped from
+// white-on-navy to plum-on-navy. Unreadable.
+//
+// Browser :visited privacy rules allow these properties: color,
+// background-color, border-color, column-rule-color, outline-color,
+// fill, stroke. Re-asserting `color` on chrome elements brings them
+// back to their declared scheme.
+//
+// We also collapse the AUD-20 `a[aria-current="page"]` default
+// styling into the `.aria-current-rail` opt-in. The masthead nav's
+// gold-underline active state already paints the active lane; the
+// AUD-20 plum belongs to rail-style sidebar lists only.
+// ════════════════════════════════════════════════════════════
+
+.btn-primary:visited   { color: #fff; }
+.btn-secondary:visited { color: var(--panta-blue-800); }
+.btn-ghost:visited     { color: var(--panta-blue-800); }
+.btn-tertiary:visited  { color: var(--color-ink-600); }
+.btn-lean:visited      { color: inherit; }
+
+// Header nav links should keep their declared color regardless of
+// visit history. The active lane (aria-current=page + .active) keeps
+// the navy/lane color via the .header-nav-link.active rule.
+.header-nav-link:visited        { color: inherit; }
+.header-nav-link.active:visited { color: var(--nav-lane); }
+.header-nav-link[aria-current="page"] { color: var(--nav-lane); }
+
+// FAQ audience chips and footer search button keep their declared
+// chip palette under :visited.
+.faq-audience-chip:visited { color: inherit; }
+.faq-audience-chip.is-active:visited { color: var(--paper-50); }
+.ft-search-btn:visited     { color: inherit; }
+.ft-link-button:visited    { color: inherit; }
+
+// Lane index numbered TOC, world-readout layer cards, inspectability
+// panels, artifacts bibliography titles, faq-list questions — these
+// are body-content surfaces and SHOULD pick up the plum visited cue
+// (no override needed; the global rule paints them correctly).

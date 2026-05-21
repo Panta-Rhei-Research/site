@@ -1,58 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Observatory plate — HF-01 frontispiece companion mark.
+  Observatory plate. HF-01 frontispiece companion mark.
 
-  Geometry (per atlas/website/briefings/v5/design_handoff_audit_AUD-2026-05-19/
-  README.md §HF-01 ¶5):
+  Geometry (per briefing AUD-2026-05-19, README section HF-01):
+    1:1 aspect ratio (320 by 320 design grid)
+    Four concentric circles at r = 156, 108, 72, 36 (the public
+      observatory's four shells, E0 to E1 to E2 to E3 outside in)
+    Two diagonals (45° and 135°) crossing the centre
+    Four E0 E1 E2 E3 dots at the cardinal points (top is E0
+      Mathematics, right is E1 Physics, bottom is E2 Life, left is
+      E3 Reflection)
+    Centred italic π ρ glyph in serif
 
-    • 1:1 aspect ratio (320×320 design grid)
-    • Four concentric circles at r = 156, 108, 72, 36 (the public
-      observatory's four shells — E0 → E1 → E2 → E3 from outside in)
-    • Two diagonals (45° and 135°) crossing the centre
-    • Four E0/E1/E2/E3 dots at the cardinal points (top = E0 Mathematics,
-      right = E1 Physics, bottom = E2 Life, left = E3 Reflection)
-    • Centred italic πρ glyph in serif
+  Doctrine: the plate stays monochrome at brand-rule contrast. The
+  spectrum cohabits in the dots and is sanctioned once as the
+  τ-spectrum seal beneath the hero CTAs (token tau-spectrum-rule).
+  The plate is the companion mark to the frontispiece typography,
+  not a colour event.
 
-  Doctrine: the plate stays monochrome at brand-rule contrast — the spectrum
-  cohabits in the dots and is sanctioned once as the τ-spectrum seal beneath
-  the hero CTAs (--tau-spectrum-rule). The plate is the *companion mark* to
-  the frontispiece typography, not a colour event.
+  Stroke widths align with the AUD-27 1.5-stroke doctrine via the
+  global .icon / svg[data-lucide] rule. Dot fill colours come from
+  the per-layer layer-eN tokens so any future doctrine amendment
+  cascades here without a markup edit.
 
-  Stroke widths align with the AUD-27 1.5-stroke doctrine via the global
-  .icon / svg[data-lucide] rule. We set the dot fill colours via the
-  per-layer --layer-eN-* tokens so any future doctrine amendment cascades
-  here without a markup edit.
+  The accessible name lives on the parent figure or picture wrapper.
+  This file ships aria-hidden=true semantics by declaring no title
+  child. The plate is decorative supporting the hero typography.
 
-  The accessible name lives on the parent <figure> / <picture> wrapper.
-  This file ships `aria-hidden="true"` semantics by declaring no <title>
-  child — the plate is decorative supporting the hero typography.
+  XML note: comment intentionally avoids the double-hyphen sequence
+  so the SVG parses cleanly when loaded as an img src. Earlier
+  drafts used the literal CSS variable form (with the leading
+  double-hyphens) and tripped strict XML parsers, leaving the
+  homepage hero with a missing plate.
 -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320"
      class="observatory-plate"
-     role="presentation" aria-hidden="true"
-     style="--rule-stroke: rgba(22,62,100,0.18);
-            --rule-strong: rgba(22,62,100,0.34);
-            --pr-color: var(--panta-blue-700, #163E64);">
+     role="presentation" aria-hidden="true">
   <defs>
     <style>
-      .ring     { fill: none; stroke: var(--rule-strong); stroke-width: 1; }
-      .ring--soft { fill: none; stroke: var(--rule-stroke); stroke-width: 1; }
-      .diagonal { stroke: var(--rule-stroke); stroke-width: 1; }
+      /* Colours are inlined as hex/rgba rather than via custom properties
+         because SVG loaded via img src does not inherit host-page tokens,
+         and several renderers (librsvg, some older browsers) do not
+         resolve var() declared inline on the root SVG element. The hex
+         values mirror the canonical tokens:
+           rgba(22,62,100,0.18)  = token rule (soft hairline)
+           rgba(22,62,100,0.34)  = token rule-strong
+           #163E64               = token panta-blue-700 (πρ glyph)
+           #5A7EB3               = token layer-e0-accent (Mathematics)
+           #1B8278               = token layer-e1-accent (Physics)
+           #9F5B5C               = token layer-e2-accent (Life)
+           #896092               = token layer-e3-accent (Reflection)
+      */
+      .ring       { fill: none; stroke: rgba(22,62,100,0.34); stroke-width: 1; }
+      .ring--soft { fill: none; stroke: rgba(22,62,100,0.18); stroke-width: 1; }
+      .diagonal   { stroke: rgba(22,62,100,0.18); stroke-width: 1; }
       .pr-glyph {
         font-family: "garamond-premier-pro-display", "garamond-premier-pro",
                      "EB Garamond", Georgia, serif;
         font-style: italic;
         font-weight: 400;
         font-size: 56px;
-        fill: var(--pr-color);
+        fill: #163E64;
         text-anchor: middle;
         dominant-baseline: central;
         opacity: 0.92;
       }
-      .layer-e0 { fill: var(--layer-e0-accent, #5A7EB3); }
-      .layer-e1 { fill: var(--layer-e1-accent, #1B8278); }
-      .layer-e2 { fill: var(--layer-e2-accent, #9F5B5C); }
-      .layer-e3 { fill: var(--layer-e3-accent, #896092); }
+      .layer-e0 { fill: #5A7EB3; }
+      .layer-e1 { fill: #1B8278; }
+      .layer-e2 { fill: #9F5B5C; }
+      .layer-e3 { fill: #896092; }
     </style>
   </defs>
 
