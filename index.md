@@ -56,61 +56,37 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program at a gla
   <h2>Panta Rhei at a glance</h2>
   {% include scientific-plate.html id="plate-20-panta-rhei-at-a-glance" class="scientific-plate--hero scientific-plate--at-a-glance" loading="eager" %}
   {%- comment -%}
-    AUD-09 · The four CTAs that lived here were a duplicate of the hero
-    stack within 1500 px of the same page. Hero now carries the two
-    canonical CTAs (Verify · Discover); the other lane entries migrate to
-    the numbered lane index in §4 below ("Choose your entry"). The plate
-    + caption are the at-a-glance signal — no second CTA stack required.
-    AUD-10 decision (fill this section with a manifest snapshot) lands in
-    Wave 3.
+    AUD-10 · The section was structurally vestigial in v4 (a duplicate
+    4-CTA stack — removed in Wave 2 as AUD-09). Founders' decision in
+    Wave 3: Option A — fill with a real glance. The snapshot below
+    carries five manifest-driven cells (release ID, last manifest
+    update, manifest hash, Lean toolchain, sorry budget). Single
+    source of truth is _data/release/current.yml.
   {%- endcomment -%}
+  {% include manifest-snapshot.html %}
 </section>
 
 <section class="content-card homepage-section homepage-faq-strip">
-  <p class="v2-kicker">First-contact questions</p>
-  <h2>What is this, and what is it claiming?</h2>
-  <p class="muted-note">A first-contact credibility filter before you choose where to read. Each card links to its full answer with related routes and source pages — see the <a href="{{ '/faq/first-contact/' | relative_url }}">First Contact FAQ</a> for the complete layer.</p>
-  {% include faqs/faq-list.html ids="FAQ-FC-001,FAQ-FC-002,FAQ-FC-003,FAQ-FC-004,FAQ-FC-005" style="accordion" %}
-  <p class="muted-note" style="margin-top: 12px;"><a href="{{ '/faq/' | relative_url }}">All 73 FAQ entries →</a></p>
+  {%- comment -%}
+    HF-04 · First-Contact FAQ collapse — questions only.
+    Replaces the v4 inline accordion (which dumped ~2,000 words of FAQ
+    body onto the homepage) with a 5-question list. Each row links into
+    the canonical /faq/first-contact/ page at the entry's stable anchor.
+    Provenance blocks (Read next / Where this answer comes from) stay
+    on the FAQ canonicals; the homepage carries questions only.
+  {%- endcomment -%}
+  {% include first-contact-questions.html %}
 </section>
 
 <section class="content-card homepage-section">
-  <p class="v2-kicker">Choose your entry</p>
-  <h2>Different readers should not have to start in the same place</h2>
-  <div class="v2-grid">
-    <a class="v2-tile" href="{{ '/discover/' | relative_url }}">
-      <h3>Discover</h3>
-      <p>A guided first route for readers who want orientation before depth.</p>
-    </a>
-    <a class="v2-tile" href="{{ '/program/' | relative_url }}">
-      <h3>Program</h3>
-      <p>Identity, doctrine, scope, status, founders, scrutiny posture, and why the program is built as an inspection observatory.</p>
-    </a>
-    <a class="v2-tile" href="{{ '/agenda/' | relative_url }}">
-      <h3>Agenda</h3>
-      <p>Obligations: what must be asked, recovered, built, refused, answered, and left open.</p>
-    </a>
-    <a class="v2-tile" href="{{ '/corpus/' | relative_url }}">
-      <h3>Corpus</h3>
-      <p>The construction body of the theory: Construction Spine, Monograph Corpus, Registry, TauLib projection, and dependency graph.</p>
-    </a>
-    <a class="v2-tile" href="{{ '/results/' | relative_url }}">
-      <h3>Results</h3>
-      <p>Consequences: Landmark Results, World Readouts, Challenge Responses, Core Semantics Status, and Progress Against Agenda.</p>
-    </a>
-    <a class="v2-tile" href="{{ '/verify/' | relative_url }}">
-      <h3>Verify</h3>
-      <p>Inspection routes: formalization, bridge checks, predictions, falsification, audits, and external challenge paths.</p>
-    </a>
-    <a class="v2-tile" href="{{ '/impact/' | relative_url }}">
-      <h3>Impact</h3>
-      <p>Conditional relevance: what could matter if relevant Results remain supported through review, translation, and domain uptake.</p>
-    </a>
-    <a class="v2-tile" href="{{ '/engage/' | relative_url }}">
-      <h3>Engage</h3>
-      <p>Open scrutiny, public questions, correction routes, review, communication, and contribution without endorsement.</p>
-    </a>
-  </div>
+  {%- comment -%}
+    HF-05 · Numbered lane index (00 – 07). Replaces the v4 2×4 generic
+    v2-grid with a numbered typographic index — reads as a monograph
+    table of contents. Source of truth for lane sequence + roles is
+    _data/lanes.yml. Lane numerals are typographic, not visual lane-
+    color codes (doctrine: "The observatory is not lane-color-coded").
+  {%- endcomment -%}
+  {% include lane-index.html %}
 </section>
 
 <section class="content-card homepage-section">
@@ -188,14 +164,21 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program at a gla
 </section>
 
 <section class="content-card homepage-section">
-  <p class="v2-kicker">World readout</p>
-  <h2>What the theory currently says follows, domain by domain</h2>
-  <div class="v2-grid">
-    <a class="v2-tile v2-tile-layer v2-tile-mathematics" href="{{ '/results/world-readout/mathematics/' | relative_url }}"><h3>Mathematics</h3><p>Foundations, holomorphy, spectral structure, and problem surfaces.</p></a>
-    <a class="v2-tile v2-tile-layer v2-tile-physics" href="{{ '/results/world-readout/physics/' | relative_url }}"><h3>Physics</h3><p>Microcosm, macrocosm, constants, predictions, and falsification seams.</p></a>
-    <a class="v2-tile v2-tile-layer v2-tile-life" href="{{ '/results/world-readout/life/' | relative_url }}"><h3>Life</h3><p>Self-decoding distinctions, biological structure, agency, and persistence.</p></a>
-    <a class="v2-tile v2-tile-layer v2-tile-metaphysics" href="{{ '/results/world-readout/metaphysics/' | relative_url }}"><h3>Metaphysics</h3><p>Ontology, ethics, consciousness, and the final enrichment layer.</p></a>
-  </div>
+  {%- comment -%}
+    HF-06 · World readout — τ-spectrum + layer-tinted cards. The page's
+    single most distinctive moment. A continuous τ-spectrum rule above
+    four cards, each tinted with --layer-wash and bordered with
+    --layer-accent (both driven by the .lane-eN utility class from W1).
+
+    Doctrine: "τ-totality spectral rule reserved for whole-system /
+    corpus-totality moments. World-readout layers carry ontological /
+    stratum semantics with five steps each (dark / anchor / accent /
+    pale / wash)."
+
+    Visible E3 label is "Reflection" per the audit; URL stays at
+    /results/world-readout/metaphysics/ for backwards-compatibility.
+  {%- endcomment -%}
+  {% include world-readout.html %}
 </section>
 
 <section class="content-card homepage-section">

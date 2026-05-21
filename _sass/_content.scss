@@ -2087,3 +2087,341 @@ hr.rule-gold-short {
     font-size: 0.92rem;
   }
 }
+
+// ════════════════════════════════════════════════════════════
+// Wave 3 — Lane index, FAQ collapse, world readout, manifest snapshot.
+// ════════════════════════════════════════════════════════════
+
+// ────────────────────────────────────────────────────────────
+// HF-05 · Numbered lane index (00 – 07).
+//
+// Replaces the v4 2×4 generic v2-grid with a numbered typographic
+// index. Each <li> is a 4-col grid (mono ord · serif name · sans
+// role · mono arrow) with hairline borders. Reads as a monograph
+// table of contents.
+// ────────────────────────────────────────────────────────────
+.lane-index {
+  .kicker { margin: 0 0 4px; }
+
+  ol.lanes {
+    list-style: none;
+    padding: 0;
+    margin: 18px 0 0;
+  }
+
+  li {
+    margin: 0;
+
+    a {
+      display: grid;
+      grid-template-columns: 32px 110px 1fr 20px;
+      align-items: baseline;
+      gap: 14px;
+      padding: 12px 0;
+      border-top: 1px solid var(--rule);
+      text-decoration: none;
+      transition: background-color var(--t-base) var(--ease);
+
+      &:hover {
+        background-color: rgba(22, 62, 100, 0.025);
+      }
+    }
+
+    &:last-child a { border-bottom: 1px solid var(--rule); }
+  }
+
+  .ord {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--ink-500);
+    letter-spacing: 0.1em;
+  }
+
+  .name {
+    font-family: var(--serif);
+    font-size: 20px;
+    color: var(--panta-blue-900);
+  }
+
+  .role {
+    font-family: var(--sans);
+    font-size: 14px;
+    color: var(--ink-800);
+    line-height: 1.45;
+  }
+
+  .arrow {
+    font-family: var(--mono);
+    color: var(--panta-blue-700);
+    font-size: 11px;
+    text-align: right;
+  }
+
+  @media (max-width: $bp-stack) {
+    li a {
+      // Mobile: collapse to a 2-row grid so role wraps below
+      // the ord+name+arrow header. Keeps the numerals + names
+      // visible at small widths.
+      grid-template-columns: 32px 1fr 20px;
+      grid-template-areas:
+        "ord name arrow"
+        ".   role role";
+      gap: 4px 12px;
+      padding: 14px 0;
+    }
+    .ord { grid-area: ord; }
+    .name { grid-area: name; font-size: 18px; }
+    .role { grid-area: role; font-size: 13.5px; margin-top: 4px; }
+    .arrow { grid-area: arrow; }
+  }
+}
+
+// ────────────────────────────────────────────────────────────
+// HF-04 · First-Contact FAQ collapse — questions-only list.
+//
+// Replaces the inline accordion with a 5-item ordered list. Each
+// row links to the canonical FAQ page at its stable anchor ID.
+// ────────────────────────────────────────────────────────────
+.first-contact {
+  .kicker { margin: 0 0 4px; }
+
+  ol.fc-list {
+    list-style: none;
+    padding: 0;
+    margin: 18px 0 0;
+  }
+
+  .fc-list li {
+    margin: 0;
+
+    a {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 12px;
+      align-items: baseline;
+      padding: 14px 0;
+      border-top: 1px solid var(--rule);
+      text-decoration: none;
+      transition: background-color var(--t-base) var(--ease);
+
+      &:hover {
+        background-color: rgba(22, 62, 100, 0.025);
+      }
+    }
+
+    &:last-child a { border-bottom: 1px solid var(--rule); }
+  }
+
+  .fc-list .q {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 18px;
+    color: var(--panta-blue-900);
+    line-height: 1.35;
+  }
+
+  .fc-list .id {
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.16em;
+    color: var(--ink-500);
+    text-transform: uppercase;
+    align-self: center;
+  }
+
+  .fc-all {
+    margin-top: 18px;
+
+    a {
+      font-family: var(--mono);
+      font-size: 9.5px;
+      letter-spacing: 0.16em;
+      color: var(--panta-blue-700);
+      text-transform: uppercase;
+    }
+  }
+
+  @media (max-width: $bp-stack) {
+    .fc-list a {
+      // Mobile: collapse so the id moves below the question
+      grid-template-columns: 1fr;
+      gap: 4px;
+    }
+    .fc-list .q { font-size: 16px; }
+    .fc-list .id { align-self: start; }
+  }
+}
+
+// ────────────────────────────────────────────────────────────
+// HF-06 · World readout — τ-spectrum + layer-tinted cards.
+//
+// The page's single most distinctive moment. A continuous
+// τ-spectrum rule above four layer-keyed cards, each tinted
+// with --layer-wash and bordered with --layer-accent (both
+// driven by the .lane-eN utility class from W1).
+// ────────────────────────────────────────────────────────────
+.world-readout {
+  .kicker { margin: 0 0 4px; }
+
+  hr.tau-rule {
+    border: none;
+    height: 4px;
+    border-radius: var(--radius-pill);
+    background: var(--tau-spectrum-rule);
+    opacity: 0.9;
+    margin: 16px 0 18px;
+  }
+
+  .readout-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+
+    @media (max-width: $bp-collapse) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: $bp-stack) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .layer-card {
+    border-radius: var(--radius-md);
+    padding: 16px 16px 18px;
+    text-decoration: none;
+    color: var(--ink-900);
+    border: 1px solid var(--layer-accent, var(--rule));
+    background: var(--layer-wash, var(--paper-100));
+    transition: transform var(--t-base) var(--ease),
+                box-shadow var(--t-base) var(--ease);
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-card);
+    }
+  }
+
+  .layer-code {
+    display: block;
+    font-family: var(--serif-display);
+    font-style: italic;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 1;
+    color: var(--layer, var(--panta-blue-700));
+  }
+
+  .layer-name {
+    display: block;
+    margin-top: 6px;
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--layer-dark, var(--ink-800));
+  }
+
+  .layer-card p {
+    font-family: var(--sans);
+    font-size: 13.5px;
+    line-height: 1.5;
+    color: var(--ink-800);
+    margin: 10px 0 0;
+  }
+}
+
+// ────────────────────────────────────────────────────────────
+// AUD-10 · Manifest snapshot card.
+//
+// Five-cell dashboard surface filling the §2 "Panta Rhei at a
+// glance" slot. Visually the same rhythm as the HF-03 TauLib
+// marquee — same border hairlines, same number-then-label
+// pattern — but five cells across instead of four. The last
+// cell (Sorry budget) takes the gold inflection.
+//
+// Mobile collapses to two columns (2x2 + 1) so each value stays
+// at display register rather than shrinking to a single column.
+// ────────────────────────────────────────────────────────────
+.manifest-snapshot {
+  margin: 18px 0 0;
+
+  .kicker { margin: 0 0 12px; }
+
+  .snapshot-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+
+    @media (max-width: $bp-collapse) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    @media (max-width: $bp-stack) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .snapshot-cell {
+    padding: 18px 12px 14px;
+    border-right: 1px solid var(--rule);
+
+    &:last-child { border-right: none; }
+
+    @media (max-width: $bp-collapse) {
+      // 3 across — kill the right border on every 3rd cell,
+      // add a bottom rule for the first row.
+      &:nth-child(3n) { border-right: none; }
+      &:nth-child(-n+3) { border-bottom: 1px solid var(--rule); }
+    }
+    @media (max-width: $bp-stack) {
+      // 2 across — same pattern, 2 in a row.
+      &:nth-child(3n) { border-right: 1px solid var(--rule); }
+      &:nth-child(-n+3) { border-bottom: 1px solid var(--rule); }
+      &:nth-child(2n) { border-right: none; }
+      &:nth-child(-n+4) { border-bottom: 1px solid var(--rule); }
+    }
+  }
+
+  .snapshot-cell .num {
+    display: block;
+    font-family: var(--serif-display);
+    font-weight: 500;
+    font-size: clamp(1.4rem, 2.2vw, 1.75rem);   // ~22px → 28px
+    line-height: 1;
+    color: var(--panta-blue-900);
+    letter-spacing: -0.01em;
+  }
+
+  .snapshot-cell .label {
+    display: block;
+    margin-top: 8px;
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink-600);
+  }
+
+  .snapshot-cell--gold {
+    background: var(--accent-gold-wash);
+
+    .num,
+    .label { color: var(--accent-gold-dark); }
+  }
+
+  .snapshot-manifest-line {
+    margin-top: 14px;
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-500);
+
+    a {
+      color: var(--panta-blue-700);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+  }
+}

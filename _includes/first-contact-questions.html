@@ -1,0 +1,59 @@
+{%- comment -%}
+  HF-04 · First-Contact FAQ collapse — questions only.
+
+  Replaces the v4 inline accordion (~2,000 words of homepage real estate)
+  with a five-question list that links into the canonical First-Contact
+  FAQ page (`/faq/first-contact/`) at each entry's stable anchor ID.
+
+  The provenance blocks (`Read next`, `Where this answer comes from`)
+  stay on the FAQ canonicals — see AUD-15 (Wave 5) for how those are
+  set there. The homepage carries questions only.
+
+  Source: _data/faqs/first_contact.yml. We sort by `priority` ascending
+  and take the first 5 — the same set the v4 page rendered via the
+  hand-written id list "FAQ-FC-001…FAQ-FC-005".
+
+  Visual register (per briefing §HF-04):
+    - kicker mono caps "First-contact questions · before depth"
+    - h2 sentence-tone
+    - <ol> with grid (1fr | auto), serif italic question / mono caps id
+    - hairline top + bottom (last item adds border-bottom)
+    - "All N FAQ entries →" link in mono caps below
+{%- endcomment -%}
+{%- assign _src = site.data.faqs.first_contact.faqs -%}
+{%- assign _active = "" | split: "" -%}
+{%- for _faq in _src -%}
+  {%- if _faq.status != "retired" -%}
+    {%- assign _active = _active | push: _faq -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign _sorted = _active | sort: "priority" -%}
+{%- assign _top5 = _sorted | slice: 0, 5 -%}
+{%- assign _all_faq_count = 0 -%}
+{%- assign _layer_files = "first_contact,first_orientation,journalist_due_diligence,technical_credibility,expert_handoff" | split: "," -%}
+{%- for _fname in _layer_files -%}
+  {%- assign _collection = site.data.faqs[_fname] -%}
+  {%- if _collection and _collection.faqs -%}
+    {%- for _faq in _collection.faqs -%}
+      {%- if _faq.status != "retired" -%}
+        {%- assign _all_faq_count = _all_faq_count | plus: 1 -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}
+
+<section class="first-contact" aria-labelledby="first-contact-title">
+  <p class="kicker" id="first-contact-title">First-contact questions · before depth</p>
+  <h2>Five questions before you choose where to read</h2>
+  <ol class="fc-list">
+    {%- for _faq in _top5 -%}
+    <li>
+      <a href="{{ '/faq/first-contact/' | relative_url }}#{{ _faq.id }}">
+        <span class="q">{{ _faq.question }}</span>
+        <span class="id" aria-hidden="true">{{ _faq.id }} →</span>
+      </a>
+    </li>
+    {%- endfor -%}
+  </ol>
+  <p class="fc-all"><a href="{{ '/faq/' | relative_url }}">All {{ _all_faq_count }} FAQ entries →</a></p>
+</section>
