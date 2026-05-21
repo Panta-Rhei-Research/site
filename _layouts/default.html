@@ -424,13 +424,71 @@
   <script defer src="{{ '/assets/js/page-actions.js' | relative_url }}"></script>
 
   <script>
-    // Mobile hamburger mega-menu toggle
+    // v5 audit Item #14 — mobile two-tier hamburger state machine.
+    //
+    // States, keyed by `data-mm-tier` on .header-nav:
+    //   "t1"  default tier — 8 lanes with page counts (.mm-drawer--t1)
+    //   "t2"  per-lane sub-nav    — one .mm-drawer-t2-pane visible at a time
+    //
+    // Lane-row clicks (`[data-mm-open-lane="<key>"]`) open T2 for that lane.
+    // Back-button clicks (`[data-mm-back]`) return to T1.
+    // Drawer close (hamburger click / scrim click / Esc) resets to T1.
     (function() {
       var hamburger = document.querySelector('.header-hamburger');
       var nav = document.getElementById('mobile-nav');
       var backdrop = document.getElementById('drawer-backdrop');
+      var t2Container = nav && nav.querySelector('#mm-drawer-t2');
       var previousFocus = null;
       if (!hamburger || !nav) return;
+
+      function resetToT1() {
+        if (!t2Container) return;
+        var panes = t2Container.querySelectorAll('.mm-drawer-t2-pane');
+        for (var i = 0; i < panes.length; i++) panes[i].hidden = true;
+        nav.setAttribute('data-mm-tier', 't1');
+      }
+
+      function openLane(laneKey, sourceRow) {
+        if (!t2Container) return;
+        var pane = t2Container.querySelector('.mm-drawer-t2-pane[data-lane="' + laneKey + '"]');
+        if (!pane) return;
+        // Hide all panes, then reveal the requested one.
+        var panes = t2Container.querySelectorAll('.mm-drawer-t2-pane');
+        for (var i = 0; i < panes.length; i++) panes[i].hidden = true;
+        pane.hidden = false;
+        nav.setAttribute('data-mm-tier', 't2');
+        // Remember where to return focus to.
+        if (sourceRow) pane.__mmReturnFocus = sourceRow;
+        // Move focus to the back button so VoiceOver / keyboard users land
+        // somewhere semantically meaningful inside the new tier.
+        var back = pane.querySelector('[data-mm-back]');
+        if (back && back.focus) window.setTimeout(function() { back.focus(); }, 20);
+      }
+
+      function backToT1() {
+        if (!t2Container) return;
+        var currentPane = t2Container.querySelector('.mm-drawer-t2-pane:not([hidden])');
+        var returnFocus = currentPane && currentPane.__mmReturnFocus;
+        resetToT1();
+        if (returnFocus && returnFocus.focus) {
+          window.setTimeout(function() { returnFocus.focus(); }, 20);
+        }
+      }
+
+      // Bind tier-1 lane buttons.
+      nav.querySelectorAll('[data-mm-open-lane]').forEach(function(btn) {
+        btn.addEventListener('click', function(e) {
+          e.preventDefault();
+          openLane(btn.getAttribute('data-mm-open-lane'), btn);
+        });
+      });
+      // Bind back buttons.
+      nav.querySelectorAll('[data-mm-back]').forEach(function(btn) {
+        btn.addEventListener('click', function(e) {
+          e.preventDefault();
+          backToT1();
+        });
+      });
 
       function toggle(open) {
         var isOpen = typeof open === 'boolean' ? open : !nav.classList.contains('is-open');
@@ -438,35 +496,55 @@
           previousFocus = document.activeElement;
         }
         nav.classList.toggle('is-open', isOpen);
-        backdrop.classList.toggle('is-active', isOpen);
+        if (backdrop) backdrop.classList.toggle('is-active', isOpen);
         hamburger.setAttribute('aria-expanded', String(isOpen));
         hamburger.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
         document.body.classList.toggle('nav-open', isOpen);
         if (isOpen) {
           if (window.closeSearch) window.closeSearch();
           if (window.closePageDrawer) window.closePageDrawer({ restoreFocus: false });
+          // Always start at T1 when the drawer opens.
+          resetToT1();
           window.setTimeout(function() {
-            var first = nav.querySelector('a[href], button:not([disabled])');
+            var first = nav.querySelector('.mm-drawer-row, a[href], button:not([disabled])');
             if (first && first.focus) first.focus();
           }, 20);
-        } else if (previousFocus && previousFocus.focus) {
-          previousFocus.focus();
-          previousFocus = null;
+        } else {
+          // Reset T2 → T1 on close so the next open is predictable.
+          resetToT1();
+          if (previousFocus && previousFocus.focus) {
+            previousFocus.focus();
+            previousFocus = null;
+          }
         }
       }
 
       window.toggleHamburger = toggle;
 
       hamburger.addEventListener('click', function() { toggle(); });
-      backdrop.addEventListener('click', function() { toggle(false); });
+      if (backdrop) backdrop.addEventListener('click', function() { toggle(false); });
       document.addEventListener('keydown', function(e) {
         if (!nav.classList.contains('is-open')) return;
         if (e.key === 'Escape') {
-          toggle(false);
+          // Esc on T2 returns to T1; Esc on T1 closes the drawer.
+          if (nav.getAttribute('data-mm-tier') === 't2') {
+            backToT1();
+          } else {
+            toggle(false);
+          }
           return;
         }
         if (e.key === 'Tab') {
-          var focusable = nav.querySelectorAll('a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])');
+          var focusable = nav.querySelectorAll('a[href]:not([hidden] *), button:not([disabled]):not([hidden] *), [tabindex]:not([tabindex="-1"]):not([hidden] *)');
+          focusable = Array.prototype.filter.call(focusable, function(el) {
+            // Skip elements inside [hidden] ancestors.
+            var node = el;
+            while (node && node !== nav) {
+              if (node.hidden) return false;
+              node = node.parentNode;
+            }
+            return true;
+          });
           if (!focusable.length) return;
           var first = focusable[0];
           var last = focusable[focusable.length - 1];
@@ -480,7 +558,7 @@
         }
       });
 
-      // Auto-close on resize above mobile breakpoint
+      // Auto-close on resize above mobile breakpoint.
       var mq = window.matchMedia('(min-width: 761px)');
       mq.addEventListener('change', function(e) {
         if (e.matches) {

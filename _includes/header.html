@@ -38,7 +38,7 @@
         </svg>
       </button>
       <div class="header-page-drawer header-toc-dropdown" id="header-toc-dropdown" role="dialog" aria-label="This page" hidden>
-        {% include page-tools.html variant="drawer" label="Page tools" %}
+        {% include page-tools.html variant="drawer" label="Page actions" %}
         {%- comment -%}
           On-this-page subsection. Server-renders the local TOC from page H2s
           using the same content split as right-rail.html, so the drawer shows
@@ -81,37 +81,128 @@
     </button>
   </div>
 
-  <!-- Navigation drawer (desktop: inline links / mobile: slide-out mega-menu) -->
-  <nav class="header-nav" id="mobile-nav" aria-label="Main">
-    {% assign active_lane = search_lane | default: page.v2_lane | default: page.lane | default: "" %}
-    {% if active_lane == "" %}
-      {% if page.url contains "/discover/" %}{% assign active_lane = "discover" %}
-      {% elsif page.url contains "/agenda/" %}{% assign active_lane = "agenda" %}
-      {% elsif page.url contains "/program/" or page.url contains "/research-program/" %}{% assign active_lane = "program" %}
-      {% elsif page.url contains "/corpus/" or page.url contains "/registry/" %}{% assign active_lane = "corpus" %}
-      {% elsif page.url contains "/results/" %}{% assign active_lane = "results" %}
-      {% elsif page.url contains "/verify/" %}{% assign active_lane = "verify" %}
-      {% elsif page.url contains "/publications/" %}{% assign active_lane = "publications" %}
-      {% elsif page.url contains "/impact/" %}{% assign active_lane = "impact" %}
-      {% elsif page.url contains "/engage/" %}{% assign active_lane = "engage" %}
-      {% endif %}
-    {% endif %}
-    {% if page.url contains "/agenda/" %}{% assign active_lane = "agenda" %}{% endif %}
-    {% if active_lane == "research-program" %}{% assign active_lane = "program" %}{% endif %}
-    {% if active_lane == "registry" %}{% assign active_lane = "corpus" %}{% endif %}
-    {% for item in site.data.nav.header %}
-    {% assign nav_active = false %}
-    {% assign item_key = item.title | downcase %}
-    {% if page.url contains item.match %}{% assign nav_active = true %}{% endif %}
-    {% if page.url contains "/agenda/" and item_key == "program" %}{% assign nav_active = false %}{% endif %}
-    {% if active_lane == item_key %}{% assign nav_active = true %}{% endif %}
-    <a href="{{ item.url | relative_url }}" class="header-nav-link header-nav-link-{{ item_key }}{% if nav_active %} active{% endif %}">{{ item.title }}</a>
-    {% endfor %}
+  {%- comment -%}
+    v5 audit Item #14 — mobile two-tier hamburger drawer.
+    On desktop, .header-nav-desktop renders the 8 inline lane links (same v4
+    behavior). On mobile, .mm-drawer--t1 is the first tier (8 lanes with page
+    counts + chevrons); tapping a lane opens .mm-drawer--t2 (per-lane sections
+    pre-rendered from _data/nav.yml). State machine lives in default.html.
 
-    <!-- Mega-menu section navigation (populated by JS on mobile) -->
-    <div class="mega-section-nav" id="mega-section-nav" aria-label="Section navigation"></div>
+    Lane page-counts are computed by Liquid against _data/nav.yml/lane_nav so
+    a lane's sub-nav growth automatically updates the badge without JS.
+  {%- endcomment -%}
 
-    <!-- Social links (visible in mobile drawer only) -->
+  {%- assign active_lane = search_lane | default: page.v2_lane | default: page.lane | default: "" -%}
+  {%- if active_lane == "" -%}
+    {%- if page.url contains "/discover/" -%}{%- assign active_lane = "discover" -%}
+    {%- elsif page.url contains "/agenda/" -%}{%- assign active_lane = "agenda" -%}
+    {%- elsif page.url contains "/program/" or page.url contains "/research-program/" -%}{%- assign active_lane = "program" -%}
+    {%- elsif page.url contains "/corpus/" or page.url contains "/registry/" -%}{%- assign active_lane = "corpus" -%}
+    {%- elsif page.url contains "/results/" -%}{%- assign active_lane = "results" -%}
+    {%- elsif page.url contains "/verify/" -%}{%- assign active_lane = "verify" -%}
+    {%- elsif page.url contains "/publications/" -%}{%- assign active_lane = "publications" -%}
+    {%- elsif page.url contains "/impact/" -%}{%- assign active_lane = "impact" -%}
+    {%- elsif page.url contains "/engage/" -%}{%- assign active_lane = "engage" -%}
+    {%- endif -%}
+  {%- endif -%}
+  {%- if page.url contains "/agenda/" -%}{%- assign active_lane = "agenda" -%}{%- endif -%}
+  {%- if active_lane == "research-program" -%}{%- assign active_lane = "program" -%}{%- endif -%}
+  {%- if active_lane == "registry" -%}{%- assign active_lane = "corpus" -%}{%- endif -%}
+
+  <nav class="header-nav" id="mobile-nav" aria-label="Main" data-mm-tier="t1">
+    <!-- Desktop inline lane links (hidden on mobile via _header.scss) -->
+    <div class="header-nav-desktop" role="presentation">
+    {%- for item in site.data.nav.header -%}
+      {%- assign nav_active = false -%}
+      {%- assign item_key = item.title | downcase -%}
+      {%- if page.url contains item.match -%}{%- assign nav_active = true -%}{%- endif -%}
+      {%- if page.url contains "/agenda/" and item_key == "program" -%}{%- assign nav_active = false -%}{%- endif -%}
+      {%- if active_lane == item_key -%}{%- assign nav_active = true -%}{%- endif -%}
+      <a href="{{ item.url | relative_url }}" class="header-nav-link header-nav-link-{{ item_key }}{% if nav_active %} active{% endif %}">{{ item.title }}</a>
+    {%- endfor -%}
+    </div>
+
+    <!-- Mobile T1: lane list with page counts (hidden on desktop) -->
+    <div class="mm-drawer mm-drawer--t1" id="mm-drawer-t1" role="region" aria-label="Lanes">
+      <div class="mm-drawer-head">
+        <p class="mm-section-label">Lanes · tap to open</p>
+        <h2>Where to read</h2>
+      </div>
+      <div class="mm-drawer-list">
+      {%- for item in site.data.nav.header -%}
+        {%- assign lane_key = item.title | downcase -%}
+        {%- assign lane_data = site.data.nav.lane_nav[lane_key] -%}
+        {%- assign page_count = 0 -%}
+        {%- if lane_data -%}
+          {%- for section in lane_data.sections -%}
+            {%- for link in section.links -%}
+              {%- assign page_count = page_count | plus: 1 -%}
+              {%- if link.children -%}
+                {%- assign page_count = page_count | plus: link.children.size -%}
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endfor -%}
+        {%- endif -%}
+        <button type="button" class="mm-drawer-row{% if active_lane == lane_key %} is-active{% endif %}" data-mm-open-lane="{{ lane_key }}" aria-controls="mm-drawer-t2">
+          <span class="mm-drawer-row-name">{{ item.title }}</span>
+          <span class="mm-drawer-row-meta">
+            <span class="count">{{ page_count }} {% if page_count == 1 %}page{% else %}pages{% endif %}</span>
+            <svg class="mm-drawer-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>
+          </span>
+        </button>
+      {%- endfor -%}
+      </div>
+    </div>
+
+    <!-- Mobile T2: per-lane section panes (one pane per lane, all hidden until activated) -->
+    <div class="mm-drawer mm-drawer--t2" id="mm-drawer-t2" hidden>
+    {%- for item in site.data.nav.header -%}
+      {%- assign lane_key = item.title | downcase -%}
+      {%- assign lane_data = site.data.nav.lane_nav[lane_key] -%}
+      {%- if lane_data -%}
+        {%- assign page_count = 0 -%}
+        {%- for section in lane_data.sections -%}
+          {%- for link in section.links -%}
+            {%- assign page_count = page_count | plus: 1 -%}
+            {%- if link.children -%}{%- assign page_count = page_count | plus: link.children.size -%}{%- endif -%}
+          {%- endfor -%}
+        {%- endfor -%}
+      <div class="mm-drawer-t2-pane" data-lane="{{ lane_key }}" role="region" aria-label="{{ item.title }} navigation" hidden>
+        <div class="mm-drawer-head">
+          <button type="button" class="mm-back" data-mm-back aria-label="Back to all lanes">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg>
+            All lanes
+          </button>
+          <p class="mm-section-label">Lane · {{ page_count }} {% if page_count == 1 %}page{% else %}pages{% endif %}</p>
+          <h2>{{ item.title }}</h2>
+        </div>
+        <div class="mm-drawer-list">
+        {%- for section in lane_data.sections -%}
+          <div class="mm-drawer-section">
+            {%- if lane_data.sections.size > 1 or section.title != item.title -%}
+              <p class="mm-section-eyebrow">{{ section.title }}</p>
+            {%- endif -%}
+            {%- for link in section.links -%}
+              {%- assign link_active = false -%}
+              {%- if page.url == link.url -%}{%- assign link_active = true -%}{%- endif -%}
+              <a class="mm-drawer-row{% if link_active %} is-active{% endif %}" href="{{ link.url | relative_url }}">{{ link.title }}</a>
+              {%- if link.children -%}
+                {%- for child in link.children -%}
+                  {%- assign child_active = false -%}
+                  {%- if page.url == child.url -%}{%- assign child_active = true -%}{%- endif -%}
+                  <a class="mm-drawer-row mm-drawer-row--child{% if child_active %} is-active{% endif %}" href="{{ child.url | relative_url }}">{{ child.title }}</a>
+                {%- endfor -%}
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+        {%- endfor -%}
+        </div>
+      </div>
+      {%- endif -%}
+    {%- endfor -%}
+    </div>
+
+    <!-- Social links (visible in mobile drawer only — preserved for footer-less mobile pages) -->
     <div class="drawer-social" aria-label="Social">
       {% include social-icons.html %}
     </div>
