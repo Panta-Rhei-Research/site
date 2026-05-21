@@ -99,6 +99,25 @@ The project presents itself as an independent open research program, with public
 
 I am not endorsing the claims, but this page looked potentially worth expert inspection.
 
+{%- comment -%}
+  AUD-21-N09 (May 2026 polish wave) · attach release-manifest provenance
+  to the mailto body. The page being shared arrives with its release
+  identity — release_id, manifest hash short, and last-updated date —
+  so the recipient can pin their inspection to a specific public
+  release. Inspectability begins with provenance.
+
+  Data source: _data/release/current.yml (same source the masthead
+  release stamp and footer ft-meta band read from).
+{%- endcomment -%}
+{%- assign _rel = site.data.release.current -%}
+{%- if _rel.release_id -%}
+--
+Release:
+{%- if _rel.release_id %} {{ _rel.release_id }}{% endif -%}
+{%- if _rel.sources.atlas.commit %} · manifest {{ _rel.sources.atlas.commit | slice: 0, 7 }}{% endif -%}
+{%- if _rel.generated_at %} · last updated {{ _rel.generated_at | date: "%-d %B %Y" }}{% endif %}
+
+{% endif -%}
 Best,
 {%- endcapture -%}
 {%- assign _email_subject_raw = "Possibly worth inspection: " | append: _page_title -%}

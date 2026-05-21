@@ -87,6 +87,8 @@ Of the seven Millennium problems, only the **Poincaré Conjecture** is solved in
 
 **The Riemann Hypothesis case in particular.** The Lean axiom `grand_grh_adelic` follows the explicit *compute-then-axiomatize* pattern: a finite verification is performed, and the universal statement is then asserted as an axiom. Modulo the bridge to the standard adelic formulation, this means the framework's downstream consequences are **conditional on GRH**, not a proof of GRH. We state this as such on the [Custom Axioms]({{ '/verify/custom-axioms/' | relative_url }}) page. The same compute-then-axiomatize pattern applies to `spectral_correspondence_O3` and `bridge_functor_exists`. Reviewers wanting to discharge any of these axioms (or show them inconsistent) are invited to publish the result.
 
+{% include section-terminator.html %}
+
 ## 6. How does the framework constrain "metaphysics" without diluting the typing discipline?
 
 **Answer: by the No Forced Stance theorem (VII.T47), which is a theorem of the framework that explicitly bounds what τ can and cannot establish.**
@@ -142,6 +144,8 @@ Other single-result falsifiers, each with 5σ thresholds and named experiments:
 
 The framework does **not** treat any single result as sufficient to validate it (validation requires the joint agreement across many sectors). But each of the five results above is sufficient to falsify it.
 
+{% include section-terminator.html %}
+
 ## 11. Why is α "predicted at 9.8 ppm" presented in the same Tier A as m<sub>e</sub> "predicted at 0.025 ppm"?
 
 **Answer: precision tiers in our predictions catalogue label structural derivation status, not measurement-grade agreement — and a single prediction can have multiple legitimate derivation routes at different precision bands.**
@@ -168,6 +172,8 @@ A philosophically-trained reviewer opening the raw Lean source for `BookVI.Mind.
 The hard problem of consciousness — why categorical/physical structure is accompanied by phenomenal character at all — is **not** claimed to be solved by τ. The four-register decomposition (Reg_E empirical / Reg_P practical / Reg_D diagrammatic / Reg_C commitment) is a structural reformulation that locates the phenomenal-content question at the Reg_E ↔ Reg_C interface; it does not derive phenomenal character from category theory and we do not claim it does. A philosophical zombie with identical Reg_E/P/D/C readouts is a coherent posit *within* the framework — which is precisely why the [Hard Problem of Consciousness Challenge Response]({{ '/results/challenge-responses/metaphysics/mind-consciousness-self-agency/hard-problem-consciousness/' | relative_url }}) carries "partially addressed" status, not "internally addressed." The framework's contribution to the philosophy-of-mind literature is the *register-typing discipline* and the explicit boundary between proof-content and stance-content (No Forced Stance theorem, VII.T47 — see Q6); whether that discipline materially advances the hard problem is a question for the philosophy-of-mind community to answer, not for the framework to answer about itself.
 
 Reviewers familiar with Chalmers, Levine, Block, and Nagel will find the framework's posture closer to Sellars/Brandom (commitment as a primitive level of content) than to a reductive account; we welcome philosophy-of-mind specialists who can evaluate whether the structural relocation is a step or a renaming.
+
+{% include section-terminator.html %}
 
 ---
 

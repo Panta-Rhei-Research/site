@@ -65,6 +65,8 @@ This sentence is not a slogan added after the work. It defines how the public si
 
 For the historical and philosophical orientation behind this phrase, see [Standing in the Inquiry of Being: Lineages of Categorical Ontology]({{ '/program/about/standing-in-the-inquiry-of-being/' | relative_url }}). That essay explains why “coherent theory of reality” names an inquiry into formal, dynamic, intelligible, and relationally articulated being rather than a “theory of everything” headline.
 
+{% include section-terminator.html %}
+
 ## Coherent
 
 Coherent means that explanations are not allowed to succeed by hiding their load somewhere else.
@@ -118,3 +120,5 @@ For comparison with serious neighboring approaches, see [Related Approaches]({{ 
 This page does not claim that the program has externally settled a coherent theory of reality. It defines the standard the program accepts before its claims should be taken seriously.
 
 The public claim is narrower and stronger: if the program is going to ask for attention at this scope, it must expose the doctrine, construction, results, verification routes, and correction surfaces together.
+
+{% include section-terminator.html %}
