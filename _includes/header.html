@@ -7,6 +7,30 @@
          decoding="async">
   </a>
 
+  {%- comment -%}
+    AUD-22 · Release stamp at the top-right of the masthead.
+    Single mono line driven by _data/release/current.yml — never hand-edited
+    in prose, per the release-manifest policy. Hidden below the breakpoint
+    where the navbar collapses to the hamburger drawer (the footer's ft-meta
+    band already carries the same information on mobile).
+
+    Source priority (highest first):
+      1. site.data.release.current.release_id      (canonical release ID)
+      2. site.data.release.current.generated_at    (manifest timestamp)
+    Renders as: "v4.0 · 2 May 2026 · manifest 07ea80a" — uppercase mono,
+    --ink-500 on --paper-100. The manifest-short slug is the first 7 chars
+    of the atlas commit sha (the orchestrator repo), matching the upstream
+    convention in atlas/.
+  {%- endcomment -%}
+  {%- assign _rel = site.data.release.current -%}
+  {%- if _rel.release_id -%}
+  <span class="release-stamp" aria-label="Current release manifest">
+    {{ _rel.release_id }}
+    {%- if _rel.generated_at %} · {{ _rel.generated_at | date: "%-d %b %Y" }}{% endif %}
+    {%- if _rel.sources.atlas.commit %} · manifest {{ _rel.sources.atlas.commit | slice: 0, 7 }}{% endif %}
+  </span>
+  {%- endif -%}
+
   <!-- Mobile + desktop header controls (order: search → this page → explore) -->
   <div class="header-controls">
     <!-- Search button (always visible — 1-tap access) -->

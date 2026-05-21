@@ -110,6 +110,37 @@ body.shell-home .site-header {
   }
 }
 
+// ── AUD-22 · Release stamp (top-right of masthead, desktop only) ──
+//
+// Quiet mono metadata line sourced from _data/release/current.yml.
+// Sits inline in the masthead grid between the brand lockup and
+// the .header-controls cluster. Hidden on the tablet collapse
+// breakpoint because the row needs every horizontal pixel for the
+// 8 lane links and trailing controls, and the same information is
+// already carried by the footer's ft-meta band on mobile.
+// Doctrine: inspectability begins with knowing *when* — the
+// release stamp answers that question in the masthead, the
+// canonical attention surface.
+
+.release-stamp {
+  font-family: $font-mono;
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-500);
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: 8px;
+  align-self: center;
+  // Collapse on tablet and below — the row would overflow with the
+  // 8 lane links + controls + stamp all competing for space. The
+  // footer ft-meta band already carries the release information on
+  // those breakpoints, so no information is lost.
+  @media (max-width: $bp-collapse) {
+    display: none;
+  }
+}
+
 // ── Header controls (Search always visible; TOC + Hamburger mobile only)
 
 .header-controls {
