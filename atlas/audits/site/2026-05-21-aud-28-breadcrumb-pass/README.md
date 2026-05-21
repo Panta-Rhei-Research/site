@@ -33,11 +33,13 @@ From `atlas/website/briefings/v5/design_handoff_audit_AUD-2026-05-19/README.md` 
 
 The `_includes/breadcrumb-nav.html` include is gated:
 
+{% raw %}
 ```liquid
 {%- if page.visual_breadcrumb == true -%}
   …
 {%- endif -%}
 ```
+{% endraw %}
 
 A repo-wide grep confirms **zero pages** set `visual_breadcrumb: true`:
 
