@@ -5,28 +5,32 @@ layout: default
 <div class="hero-card homepage-hero">
   <h1>{{ page.title }}</h1>
   {% if page.hero_line %}
-  <p class="hero-subtitle">{{ page.hero_line }}</p>
+  <p class="hero-deck">{{ page.hero_line }}</p>
   {% endif %}
   {% if page.hero_body %}
-  <p>{{ page.hero_body }}</p>
+  <p class="hero-body">{{ page.hero_body }}</p>
   {% endif %}
   {% if page.hero_ctas %}
   <div class="btn-group">
     {% for cta in page.hero_ctas %}
     {%- comment -%}
-      CTA style resolution (in priority order):
-        1. cta.variant: "lean"      → .btn-lean (Lean azure, technical)
-        2. cta.primary: true        → .btn-primary (navy, publisher)
-        3. default                  → .btn-secondary
-      External URLs (http:// or https://) pass through relative_url unchanged
-      per Jekyll's filter spec; rel="noopener" added for external targets.
+      v5 audit Item #3 — CTA hierarchy on the homepage hero.
+      Style resolution (in priority order):
+        1. cta.variant: "lean"   → .btn-lean (Lean azure, technical)
+        2. cta.primary: true     → .btn-primary (navy, publisher)
+        3. default               → .btn-ghost (was .btn-secondary; v5
+                                   audit asks for 1 primary + ghost rest
+                                   so the hero reads with a clear lead)
+      External URLs (http:// or https://) pass through relative_url
+      unchanged per Jekyll's filter spec; rel="noopener" added for
+      external targets.
     {%- endcomment -%}
     {%- if cta.variant == 'lean' -%}
       {%- assign cta_class = 'btn-lean' -%}
     {%- elsif cta.primary -%}
       {%- assign cta_class = 'btn-primary' -%}
     {%- else -%}
-      {%- assign cta_class = 'btn-secondary' -%}
+      {%- assign cta_class = 'btn-ghost' -%}
     {%- endif -%}
     {%- assign is_external = false -%}
     {%- if cta.url contains '://' -%}{%- assign is_external = true -%}{%- endif -%}
