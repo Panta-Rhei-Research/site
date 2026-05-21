@@ -17,7 +17,7 @@ hero_ctas:
     url: /corpus/
   - label: "See the Results"
     url: /results/
-  - label: "Verify It Yourself"
+  - label: "Verify it yourself"
     url: /verify/
 hero_supporting_line: "Engagement without endorsement: read carefully, inspect the claims, challenge weak links, find errors."
 og_image: /assets/images/plates/plate-20-panta-rhei-at-a-glance-og.jpg

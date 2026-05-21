@@ -1,14 +1,15 @@
 <aside class="right-rail" aria-label="Page navigation">
   {%- comment -%}
-    Position 0 — "This Page" tools card (briefing 27).
-    Sits above the local TOC so the action affordances are the first thing
-    a desktop reader sees in the rail. Hidden via CSS at ≤1080px (the rail
-    collapses) — bottom panel + mobile drawer take over below that breakpoint.
-    Per-page opt-out via `page_tools: false` frontmatter.
+    v5 audit Item #20 — the rail's "This Page" tools card was removed.
+    Its actions (Copy link, Reviewer note) duplicated the canonical
+    "Save or share this page for inspection" block that already sits in
+    the page body with full-pill affordances, the descriptive lead-in,
+    and the additional Copy citation / Email-to-expert / Dossier
+    chips. Removing the rail card eliminates the duplication; the body
+    block is now the single canonical home for these affordances.
+    Mobile readers still see them via the combined Page actions sheet
+    in the header drawer (Item #15, Wave 5b).
   {%- endcomment -%}
-  {% if page.page_tools != false %}
-    {% include page-tools.html variant="rail" %}
-  {% endif %}
 
   {% if page.right_rail.toc != false %}
   {% assign toc_parts = content | split: '<h2' %}

@@ -102,11 +102,91 @@
   color: var(--color-ink-600);
 }
 
+// v5 audit Item #19 — canonical / active status pill goes gold.
+// The previous green (--semantic-success) was an outside-doctrine
+// color not declared in the design system. Per the v5 brief, status
+// emphasis should be carried by the gold accent across surfaces
+// — same gold the search modal uses for match highlights (Item #9)
+// and the mobile breadcrumb status pill uses already (Wave 5a).
 .hero-meta-pill--status-canonical,
 .hero-meta-pill--status-active {
-  background: var(--semantic-success-soft);
-  border-color: rgba(47, 111, 78, 0.24);
-  color: var(--semantic-success);
+  background: var(--accent-gold-pale);
+  border-color: rgba(168, 121, 42, 0.28);
+  color: var(--accent-gold-dark);
+}
+
+// ────────────────────────────────────────────────────────────
+// v5 mobile slim breadcrumb (audit Item #16).
+//
+// Before: three chips (Home / Program · Lane Root · Canonical) all
+// wrapping to two lines on a 390-wide viewport, ~80px of chrome
+// before the H1 even appears.
+//
+// After v5: a single mono breadcrumb row (no pill chrome, just slash-
+// separated text) followed by the Status pill on its own row using
+// the gold accent. The Type pill (Lane Root) is dropped on mobile —
+// it's a desktop power-user label.
+//
+// Applied as a CSS override at $bp-stack; the desktop rendering is
+// unchanged (three chips in one row stays the v4 desktop pattern).
+// ────────────────────────────────────────────────────────────
+
+@media (max-width: $bp-stack) {
+  .hero-eyebrow-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  // Lane Root and any other type pill: drop entirely on mobile.
+  .hero-eyebrow-row .hero-meta-pill--type {
+    display: none;
+  }
+
+  // Breadcrumb: strip chip chrome, leave mono text + slash separator.
+  .hero-eyebrow-row .hero-breadcrumb-pill,
+  .hero-eyebrow-row .hero-eyebrow-breadcrumb {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-family: $font-mono;
+    font-size: 12.5px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: var(--ink-600);
+    text-transform: none;
+  }
+
+  .hero-eyebrow-row .hero-breadcrumb-pill .hero-eyebrow-link,
+  .hero-eyebrow-row .hero-breadcrumb-pill .hero-breadcrumb-link {
+    background: none;
+    padding: 0;
+
+    &:hover {
+      background: none;
+      color: var(--panta-blue-700);
+      transform: none;
+    }
+  }
+
+  .hero-eyebrow-row .hero-eyebrow-separator,
+  .hero-eyebrow-row .hero-breadcrumb-separator {
+    opacity: 0.5;
+    padding: 0 6px;
+  }
+
+  // Status pill: standalone row, gold accent (matches the gold mark
+  // highlight in the search modal — Item #9 — and prefigures the
+  // Wave 7 fix for Item #19 where the canonical-status pill globally
+  // moves from green to gold).
+  .hero-eyebrow-row .hero-meta-pill--status {
+    background: var(--accent-gold-pale);
+    border-color: rgba(168, 121, 42, 0.28);
+    color: var(--accent-gold-dark);
+    margin: 0;
+  }
 }
 
 .hero-meta-pill--status-conditional,
@@ -1102,14 +1182,54 @@ a.part-card {
   }
 }
 
-// Homepage sections
+// ────────────────────────────────────────────────────────────
+// Homepage hero (v5 audit Item #2 — subtitle treatment).
+//
+// Before: a single .hero-subtitle in display-serif at --panta-blue-900,
+// which read as a small second H1 rather than as a deck line.
+//
+// After v5: TWO lines below the H1 —
+//   .hero-deck  single-sentence deck in body-serif (NOT display-serif),
+//               weight 400, color --panta-blue-800, size 26px. Sets the
+//               sentence-tone for the page.
+//   .hero-body  multi-sentence intro paragraph in --sans at --ink-900,
+//               size 17px, line-height 1.65. The actual content lead-in.
+//
+// Backward-compat: legacy `.hero-subtitle` markup is aliased to the new
+// .hero-deck treatment so existing pages that use the old class still
+// render correctly.
+// ────────────────────────────────────────────────────────────
 .homepage-hero {
   h1 { font-size: 2.75rem; }
+
+  .hero-deck,
   .hero-subtitle {
-    font-family: $font-display;
-    font-size: 1.24rem;
-    color: var(--color-brand-800);
-    margin-bottom: 8px;
+    font-family: var(--serif);
+    font-size: 26px;
+    font-weight: 400;
+    color: var(--panta-blue-800);
+    line-height: 1.4;
+    letter-spacing: 0;
+    text-transform: none;
+    margin: 8px 0 14px;
+    text-wrap: balance;
+  }
+
+  .hero-body {
+    font-family: var(--sans);
+    font-size: 17px;
+    line-height: 1.65;
+    color: var(--ink-900);
+    margin-bottom: 18px;
+    text-wrap: pretty;
+    max-width: 65ch;
+  }
+
+  @media (max-width: $bp-stack) {
+    h1 { font-size: 2.1rem; }
+    .hero-deck,
+    .hero-subtitle { font-size: 21px; }
+    .hero-body { font-size: 16px; }
   }
 }
 

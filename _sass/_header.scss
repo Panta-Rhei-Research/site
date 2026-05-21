@@ -439,30 +439,34 @@ body.shell-home .site-header {
   gap: 2px;
   margin-left: auto; // push nav + trailing controls to the right on desktop
 
+  // v5 audit Item #14 — mobile drawer is now a full-screen slide-down
+  // sheet directly below the sticky nav (paper-50 ground, single-tier on
+  // open, two-tier when a lane is tapped). Replaces the v4 dropdown card.
   @media (max-width: $bp-stack) {
-    // Dropdown card from top-right — matches TOC dropdown card style
     position: fixed;
-    top: calc(#{$header-h} + 8px);
-    right: 10px;
-    left: 10px;
+    top: $header-h;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0;
     width: auto;
-    max-height: calc(100dvh - #{$header-h} - 24px);
     flex-direction: column;
     align-items: stretch;
     gap: 0;
-    padding: 8px;
-    background: var(--surface-shell);
-    border: var(--border-default);
-    backdrop-filter: blur(24px) saturate(140%);
-    -webkit-backdrop-filter: blur(24px) saturate(140%);
-    border-radius: $radius-lg;
-    box-shadow: var(--shadow-popover);
+    padding: 0;
+    background: var(--paper-50);
+    border: 0;
+    border-top: 1px solid var(--rule);
+    border-radius: 0;
+    box-shadow: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
     z-index: $z-drawer;
     visibility: hidden;
     opacity: 0;
-    transform: translateY(-8px);
+    transform: translateY(-12px);
     transition: opacity 200ms ease, transform 200ms ease, visibility 0ms 200ms;
-    overflow-y: auto;
+    overflow: hidden;  // tiers handle their own scrolling
 
     &.is-open {
       visibility: visible;
@@ -642,4 +646,194 @@ body.search-open {
   .header-nav { transition: none !important; }
   .drawer-backdrop { transition: none !important; }
   .hamburger-bar { transition: none !important; }
+}
+
+// ────────────────────────────────────────────────────────────
+// v5 mobile two-tier hamburger drawer (audit Item #14).
+//
+// Architecture:
+//   .header-nav-desktop  — desktop-only inline lane links (current v4)
+//   .mm-drawer--t1       — mobile T1: 8 lanes with page counts + chevrons
+//   .mm-drawer--t2       — mobile T2: one .mm-drawer-t2-pane per lane,
+//                           initially [hidden]; activated by JS state.
+//
+// Tier switching is driven by `data-mm-tier="t1|t2"` on .header-nav,
+// flipped by the state machine in _layouts/default.html.
+// ────────────────────────────────────────────────────────────
+
+.header-nav-desktop {
+  display: contents;  // children flow as if .header-nav-desktop weren't there
+
+  @media (max-width: $bp-stack) {
+    display: none;  // mobile renders the .mm-drawer tiers instead
+  }
+}
+
+.mm-drawer {
+  display: none;
+
+  @media (max-width: $bp-stack) {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    min-height: 0;
+  }
+}
+
+// T1 visible by default; T2 hidden until JS sets data-mm-tier="t2"
+.header-nav[data-mm-tier="t1"] .mm-drawer--t2 { display: none; }
+.header-nav[data-mm-tier="t2"] .mm-drawer--t1 { display: none; }
+
+// Within T2, only one pane is visible at a time (others have [hidden]).
+.mm-drawer-t2-pane[hidden] { display: none; }
+
+.mm-drawer-head {
+  padding: 18px 22px 14px;
+  border-bottom: 1px solid var(--rule-soft);
+
+  .mm-section-label {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--panta-blue-700);
+    opacity: 0.75;
+    margin: 0 0 6px;
+  }
+
+  h2 {
+    font-family: var(--serif-display);
+    font-weight: 500;
+    color: var(--panta-blue-900);
+    font-size: 22px;
+    margin: 0;
+    letter-spacing: 0;
+    text-transform: none;
+    line-height: 1.2;
+  }
+}
+
+.mm-drawer-list {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  padding: 6px 0;
+  -webkit-overflow-scrolling: touch;
+}
+
+.mm-drawer-section + .mm-drawer-section {
+  border-top: 1px solid var(--rule-soft);
+  margin-top: 4px;
+  padding-top: 4px;
+}
+
+.mm-section-eyebrow {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--panta-blue-700);
+  opacity: 0.7;
+  margin: 14px 22px 6px;
+}
+
+.mm-drawer-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px 22px;
+  font-family: var(--sans);
+  font-size: 16px;
+  color: var(--ink-900);
+  text-decoration: none;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid var(--rule-soft);
+  text-align: left;
+  cursor: pointer;
+  transition: background var(--t-base) var(--ease), color var(--t-base) var(--ease);
+
+  &:hover { background: var(--panta-blue-50); }
+  &:focus-visible {
+    outline: none;
+    box-shadow: inset 0 0 0 2px var(--panta-blue-500);
+  }
+
+  &.is-active {
+    color: var(--panta-blue-900);
+    font-weight: 600;
+    background: var(--panta-blue-50);
+  }
+}
+
+.mm-drawer-row-name { font-weight: 500; }
+
+.mm-drawer-row-meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mm-drawer-row .count {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--ink-500);
+  letter-spacing: 0.06em;
+}
+
+.mm-drawer-chevron {
+  color: var(--ink-500);
+  flex-shrink: 0;
+}
+
+// Child links in T2 (e.g. /agenda/core-semantics/mathematics/refusals/)
+.mm-drawer-row--child {
+  padding-left: 36px;
+  font-size: 15px;
+  color: var(--ink-700);
+  font-weight: 400;
+}
+
+.mm-back {
+  background: none;
+  border: 0;
+  font-family: var(--sans);
+  font-size: 14px;
+  color: var(--panta-blue-700);
+  padding: 0 0 8px;
+  margin: 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: color var(--t-base) var(--ease);
+
+  &:hover { color: var(--panta-blue-900); }
+  &:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
+    border-radius: 4px;
+  }
+}
+
+// ────────────────────────────────────────────────────────────
+// v5 page-tools sheet (audit Item #15).
+// Polish the existing drawer eyebrows to match the canonical
+// .mm-sheet-eyebrow specification from the v5 mock.
+// ────────────────────────────────────────────────────────────
+
+@media (max-width: $bp-stack) {
+  .header-page-drawer {
+    .page-drawer-section-title {
+      font-family: var(--mono);
+      font-size: 10.5px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--panta-blue-700);
+      opacity: 0.75;
+      font-weight: 600;
+      padding: 0 8px 12px;
+      margin: 0;
+    }
+  }
 }

@@ -61,6 +61,30 @@
   }
 }
 
+// v5 audit Item #3 — Ghost CTA. Quieter than .btn-secondary: no fill,
+// no shadow, only a 1px ink-tinted border. Used as the non-primary
+// companion on the homepage hero so one filled .btn-primary leads
+// without competing with three secondary fills.
+.btn-ghost {
+  @extend .btn;
+  background: transparent;
+  color: var(--panta-blue-800);
+  border-color: rgba(22, 62, 100, 0.22);
+  box-shadow: none;
+
+  &:hover {
+    background: var(--panta-blue-50);
+    color: var(--panta-blue-900);
+    border-color: var(--panta-blue-500);
+    box-shadow: none;
+  }
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
+  }
+}
+
 .btn-sm {
   min-height: 32px;
   padding: 0 12px;
@@ -95,6 +119,47 @@
   gap: 10px;
   flex-wrap: wrap;
   margin-top: 18px;
+}
+
+// ────────────────────────────────────────────────────────────
+// v5 mobile gateway-pills (audit Item #17).
+//
+// Before: lane-root hero CTA groups (e.g. /program/ has 8 CTAs) wrap
+// across 3–4 rows on a 390-wide viewport, eating half the first
+// fold. The audit fix is a single horizontal scroll-snap row with the
+// visible right-edge cutoff acting as a swipe affordance.
+//
+// `.hero-card .btn-group` scopes the override to lane-root hero CTAs
+// only — body-section button groups (which have 1–3 CTAs and don't
+// need to scroll) keep the existing wrap-on-overflow behavior.
+//
+// `margin-inline: calc(-1 * $page-px)` and matching `padding-inline`
+// let the row's overflowed pills bleed to the viewport edge, which
+// is the canonical "more content to swipe" cue.
+// ────────────────────────────────────────────────────────────
+
+@media (max-width: $bp-stack) {
+  .hero-card .btn-group {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch;
+    padding-inline: $page-px;
+    margin-inline: calc(-1 * #{$page-px});
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar { display: none; }
+
+    > .btn,
+    > .btn-primary,
+    > .btn-secondary,
+    > .btn-lean,
+    > a {
+      flex: 0 0 auto;
+      scroll-snap-align: start;
+      white-space: nowrap;
+    }
+  }
 }
 
 .v2-grid {
@@ -150,6 +215,42 @@
   p {
     margin-bottom: 0;
     font-size: 0.9rem;
+  }
+
+  // v5 audit Item #18 — the gateway-routes cards on /program/ render
+  // their title as <strong> and description as <span>, both inline,
+  // so the title visually fuses to the description like one long line:
+  //   "ChartreStanding in the Inquiry of Being: …"
+  // Restoring the title's block-level break (with the typography it
+  // would have as an h3) fixes the cards without rewriting the markup
+  // in every lane-root index.md that uses this shape.
+  strong {
+    display: block;
+    margin: 0 0 6px;
+    color: var(--panta-blue-900);
+    font-family: $font-display;
+    font-weight: 500;
+    font-size: 1.08rem;
+    line-height: 1.25;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+  > a > strong:first-child,
+  &.v2-tile > strong:first-child {
+    margin-top: 0;
+  }
+  // The description sibling that follows the inline <strong>.
+  // Make it a block-level paragraph in body sans, ink-soft, slightly
+  // smaller — matches what the .v2-tile p rule already does for
+  // proper-markup tiles.
+  strong + span,
+  strong + p {
+    display: block;
+    margin: 0;
+    color: var(--ink-700);
+    font-family: $font-ui;
+    font-size: 0.9rem;
+    line-height: 1.55;
   }
 }
 
