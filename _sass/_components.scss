@@ -61,6 +61,30 @@
   }
 }
 
+// v5 audit Item #3 — Ghost CTA. Quieter than .btn-secondary: no fill,
+// no shadow, only a 1px ink-tinted border. Used as the non-primary
+// companion on the homepage hero so one filled .btn-primary leads
+// without competing with three secondary fills.
+.btn-ghost {
+  @extend .btn;
+  background: transparent;
+  color: var(--panta-blue-800);
+  border-color: rgba(22, 62, 100, 0.22);
+  box-shadow: none;
+
+  &:hover {
+    background: var(--panta-blue-50);
+    color: var(--panta-blue-900);
+    border-color: var(--panta-blue-500);
+    box-shadow: none;
+  }
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
+  }
+}
+
 .btn-sm {
   min-height: 32px;
   padding: 0 12px;

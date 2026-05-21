@@ -1176,14 +1176,54 @@ a.part-card {
   }
 }
 
-// Homepage sections
+// ────────────────────────────────────────────────────────────
+// Homepage hero (v5 audit Item #2 — subtitle treatment).
+//
+// Before: a single .hero-subtitle in display-serif at --panta-blue-900,
+// which read as a small second H1 rather than as a deck line.
+//
+// After v5: TWO lines below the H1 —
+//   .hero-deck  single-sentence deck in body-serif (NOT display-serif),
+//               weight 400, color --panta-blue-800, size 26px. Sets the
+//               sentence-tone for the page.
+//   .hero-body  multi-sentence intro paragraph in --sans at --ink-900,
+//               size 17px, line-height 1.65. The actual content lead-in.
+//
+// Backward-compat: legacy `.hero-subtitle` markup is aliased to the new
+// .hero-deck treatment so existing pages that use the old class still
+// render correctly.
+// ────────────────────────────────────────────────────────────
 .homepage-hero {
   h1 { font-size: 2.75rem; }
+
+  .hero-deck,
   .hero-subtitle {
-    font-family: $font-display;
-    font-size: 1.24rem;
-    color: var(--color-brand-800);
-    margin-bottom: 8px;
+    font-family: var(--serif);
+    font-size: 26px;
+    font-weight: 400;
+    color: var(--panta-blue-800);
+    line-height: 1.4;
+    letter-spacing: 0;
+    text-transform: none;
+    margin: 8px 0 14px;
+    text-wrap: balance;
+  }
+
+  .hero-body {
+    font-family: var(--sans);
+    font-size: 17px;
+    line-height: 1.65;
+    color: var(--ink-900);
+    margin-bottom: 18px;
+    text-wrap: pretty;
+    max-width: 65ch;
+  }
+
+  @media (max-width: $bp-stack) {
+    h1 { font-size: 2.1rem; }
+    .hero-deck,
+    .hero-subtitle { font-size: 21px; }
+    .hero-body { font-size: 16px; }
   }
 }
 
