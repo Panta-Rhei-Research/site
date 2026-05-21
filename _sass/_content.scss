@@ -85,8 +85,21 @@
   }
 
   &:focus-visible {
-    outline: none;
-    box-shadow: var(--focus-ring);
+    // AUD-21-N08 (May 2026 polish wave) · v5 focus-visible spec.
+
+    // Pre-v5 used `outline:none; box-shadow: var(--focus-ring)` (soft
+
+    // 3px halo). v5 AUD-29 globalized a sharp solid outline; this
+
+    // per-component block was a v4 holdover that overrode the global.
+
+    // Removed to inherit the global rule; the per-component customisation
+
+    // (e.g. border-radius adjustments) can stay if needed.
+
+    outline: 2px solid var(--panta-blue-700);
+
+    outline-offset: 2px;
   }
 }
 

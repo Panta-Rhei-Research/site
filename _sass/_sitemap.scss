@@ -172,7 +172,8 @@
   }
 
   &:focus-visible {
-    box-shadow: var(--focus-ring);
+    outline: 2px solid var(--panta-blue-700);
+    outline-offset: 2px;
   }
 
 }
@@ -367,7 +368,8 @@
   &:focus {
     outline: none;
     border-color: var(--lane-current);
-    box-shadow: var(--focus-ring);
+    outline: 2px solid var(--panta-blue-700);
+    outline-offset: 2px;
   }
 }
 
@@ -396,7 +398,8 @@
   }
 
   &:focus-visible {
-    box-shadow: var(--focus-ring);
+    outline: 2px solid var(--panta-blue-700);
+    outline-offset: 2px;
   }
 
   &[hidden] {
@@ -487,7 +490,8 @@
   }
 
   &:focus-visible {
-    box-shadow: var(--focus-ring);
+    outline: 2px solid var(--panta-blue-700);
+    outline-offset: 2px;
   }
 
   &.is-active {
@@ -552,7 +556,8 @@
   }
 
   &:focus-visible {
-    box-shadow: var(--focus-ring);
+    outline: 2px solid var(--panta-blue-700);
+    outline-offset: 2px;
   }
 }
 
