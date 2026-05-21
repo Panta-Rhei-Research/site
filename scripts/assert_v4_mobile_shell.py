@@ -338,12 +338,25 @@ def assert_standard_page(soup: BeautifulSoup, route: str) -> None:
 # v5 audit Item #10 (May 2026) brings back ONE of these — the explicit X
 # close button (`search-overlay-close`) — because mobile users can't rely
 # on Esc alone and outside-click can feel accidental. The other tokens
-# (modal title, hint, filter-API openers, removed marketing copy) remain
+# (modal title, filter-API openers, removed marketing copy) remain
 # forbidden: v5 keeps the search overlay sparse, with the count band and
 # input as the primary chrome.
+#
+# May 2026 polish wave (AUD-2026-05-21) re-introduces two affordances
+# the audit explicitly asks for:
+#   - search-overlay-hint   (AUD-21-N03 · empty-state syntax hint, one
+#                            line, hidden as soon as Pagefind has any
+#                            rendered results — body.search-has-results)
+#   - search-overlay-filters / search-overlay-filter
+#                           (AUD-21-N04 · per-lane filter chip strip
+#                            above the result list)
+#
+# `search-overlay-hint` is removed from this list because the polish
+# doctrine explicitly re-permits it. The v3-era `openFilters` /
+# `showEmptyFilters` chrome stays forbidden — that was a different
+# (heavier) Pagefind UI config which v5 does not re-adopt.
 FORBIDDEN_SEARCH_CHROME = (
     "search-overlay-title",
-    "search-overlay-hint",
     "showEmptyFilters",
     "openFilters",
     "Search the Site",
