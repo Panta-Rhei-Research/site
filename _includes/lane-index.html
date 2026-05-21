@@ -1,0 +1,38 @@
+{%- comment -%}
+  HF-05 · Numbered lane index.
+
+  Replaces the v4 2×4 generic grid with a numbered typographic index
+  (00 – 07) that reads like a monograph table of contents. Source of
+  truth for the lane sequence + roles is _data/lanes.yml.
+
+  Visual register (per briefing §HF-05):
+    - 4-col grid per row: ord (32px) · name (110px) · role (1fr) · arrow (20px)
+    - mono ord (11px / 0.1em / --ink-500)
+    - serif name (20px / --panta-blue-900)
+    - sans role (14px / 1.45 / --ink-800)
+    - mono arrow (11px / --panta-blue-700)
+    - hairline border-top on each <li>; border-bottom on the last
+
+  The lane numerals are *typographic*, not visual lane-color codes —
+  doctrine: "The observatory is not lane-color-coded. Lane orientation
+  is carried by navigation, breadcrumbs, rails, and page titles — not
+  by color."
+{%- endcomment -%}
+<section class="lane-index" aria-labelledby="lane-index-title">
+  <p class="kicker" id="lane-index-title">Index of lanes · 00 – 07</p>
+  <h2>Different readers should not have to start in the same place</h2>
+  <ol class="lanes">
+    {%- for lane in site.data.lanes -%}
+    {%- assign _idx = forloop.index0 -%}
+    {%- assign _ord = "0" | append: _idx -%}
+    <li>
+      <a href="{{ lane.url | relative_url }}">
+        <span class="ord">{{ _ord }}</span>
+        <span class="name">{{ lane.name }}</span>
+        <span class="role">{{ lane.role }}</span>
+        <span class="arrow" aria-hidden="true">→</span>
+      </a>
+    </li>
+    {%- endfor -%}
+  </ol>
+</section>

@@ -1,0 +1,55 @@
+{%- comment -%}
+  HF-06 · World readout — τ-spectrum + layer-tinted cards.
+
+  Replaces the v4 generic v2-grid with four layer-tinted cards sitting
+  beneath a continuous τ-spectrum rule. The page's single most
+  distinctive moment: "Four strata, one program."
+
+  Visual register (per briefing §HF-06):
+    - .tau-rule (4px, --tau-spectrum-rule, opacity 0.9)
+    - 4-col grid (--layer-eN-wash background + --layer-eN-accent border)
+    - .layer-code (display Garamond italic 26px, per-layer accent color)
+    - .layer-name (mono 9px / 0.16em / uppercase, per-layer dark color)
+    - body (sans 13.5px / 1.5 / --ink-800)
+
+  Doctrine source:
+    "τ-totality spectral rule reserved for whole-system / corpus-totality
+     moments. World-readout layers carry ontological/stratum semantics
+     with five steps each (dark / anchor / accent / pale / wash)."
+
+  Note on naming: the briefing surfaces E3 as "Reflection" while the
+  destination URL stays `/results/world-readout/metaphysics/` — the
+  doctrine label is "Reflection" (the enrichment layer), the URL stays
+  `/metaphysics/` for backwards-compatibility. Both surfaces co-exist.
+
+  Layer-utility classes (.lane-e0/e1/e2/e3) come from W1 — they map the
+  --layer-eN-* tokens into generic --layer / --layer-wash / --layer-pale
+  / --layer-accent / --layer-dark aliases on the card.
+{%- endcomment -%}
+<section class="world-readout" aria-labelledby="world-readout-title">
+  <p class="kicker" id="world-readout-title">World readout · τ-totality</p>
+  <h2>Four strata, one program</h2>
+  <hr class="tau-rule" aria-hidden="true" />
+  <div class="readout-grid">
+    <a class="layer-card lane-e0" href="{{ '/results/world-readout/mathematics/' | relative_url }}">
+      <span class="layer-code">E0</span>
+      <span class="layer-name">Mathematics</span>
+      <p>Foundations, holomorphy, spectral structure, and problem surfaces.</p>
+    </a>
+    <a class="layer-card lane-e1" href="{{ '/results/world-readout/physics/' | relative_url }}">
+      <span class="layer-code">E1</span>
+      <span class="layer-name">Physics</span>
+      <p>Microcosm, macrocosm, constants, predictions, and falsification seams.</p>
+    </a>
+    <a class="layer-card lane-e2" href="{{ '/results/world-readout/life/' | relative_url }}">
+      <span class="layer-code">E2</span>
+      <span class="layer-name">Life</span>
+      <p>Self-decoding distinctions, biological structure, agency, and persistence.</p>
+    </a>
+    <a class="layer-card lane-e3" href="{{ '/results/world-readout/metaphysics/' | relative_url }}">
+      <span class="layer-code">E3</span>
+      <span class="layer-name">Reflection</span>
+      <p>Ontology, ethics, consciousness, and the final enrichment layer.</p>
+    </a>
+  </div>
+</section>

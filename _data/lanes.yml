@@ -1,0 +1,54 @@
+# Lane index — HF-05.
+#
+# Eight numbered lanes (00–07) with their one-line roles, taken verbatim
+# from atlas/website/briefings/v5/design_handoff_audit_AUD-2026-05-19/
+# README.md §HF-05. Used by _includes/lane-index.html to render the
+# numbered typographic index on the homepage.
+#
+# Sequence is canonical and must not be reordered casually — the numerals
+# 00–07 are part of the public surface and appear on breadcrumbs (AUD-28)
+# and section headings.
+#
+# Single source of truth: this file. _data/nav.yml continues to drive the
+# top-nav order; this file adds the lane roles + numerals for the lane
+# index surface specifically.
+
+- key: discover
+  name: Discover
+  url: /discover/
+  role: A guided first route — orientation before depth.
+
+- key: program
+  name: Program
+  url: /program/
+  role: Identity, doctrine, scope, founders, scrutiny posture.
+
+- key: agenda
+  name: Agenda
+  url: /agenda/
+  role: Obligations — what must be asked, recovered, refused.
+
+- key: corpus
+  name: Corpus
+  url: /corpus/
+  role: Construction Spine, Monograph Corpus, Registry, TauLib.
+
+- key: results
+  name: Results
+  url: /results/
+  role: Landmark Results, World Readouts, Challenge Responses.
+
+- key: verify
+  name: Verify
+  url: /verify/
+  role: Inspection routes — formal, empirical, bridge, falsification.
+
+- key: impact
+  name: Impact
+  url: /impact/
+  role: Conditional relevance — what could matter if Results hold.
+
+- key: engage
+  name: Engage
+  url: /engage/
+  role: Open scrutiny, public questions, correction routes.

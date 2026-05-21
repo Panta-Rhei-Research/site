@@ -1,0 +1,65 @@
+{%- comment -%}
+  AUD-10 · "Panta Rhei at a glance" — manifest snapshot.
+
+  Decision: Option A (fill with a real glance) per the founders'
+  decision recorded in this wave's PR description. The section was
+  structurally vestigial in v4 — a 4-CTA duplicate of the hero.
+
+  This snapshot is the page's only "dashboard" surface. It carries
+  five small data cells, all read from the release manifest:
+    1. Release ID            (canonical release stamp, e.g. v4.0)
+    2. Last manifest update  (when the artefact set was last frozen)
+    3. Manifest hash         (first 7 chars of the atlas commit sha)
+    4. Lean toolchain        (Lean version pinned by this release)
+    5. Sorry budget          (the doctrinal claim — currently 0)
+
+  All values come from _data/release/current.yml. None are hand-edited
+  in prose, satisfying the release-manifest doctrine. The hardcoded-
+  metric gate (check_hardcoded_release_numbers.py) is anchored to
+  {number}+{unit} pairs; the cell labels here are doctrine-named
+  ("Sorry budget" not "{N} sorry assignments") so the gate stays happy.
+
+  Visual register: a hairline-bordered 5-cell grid sitting under the
+  scientific plate, mono cell-labels + display-serif cell-values. The
+  pattern reuses the .marquee-cell primitives from HF-03 — same rule
+  hairlines, same number-then-label vertical stack — so the homepage
+  has a single visual idiom for "manifest-driven data."
+{%- endcomment -%}
+{%- assign _rel = site.data.release.current -%}
+{%- assign _sorry_value = "" -%}
+{%- for _metric in _rel.metrics -%}
+  {%- if _metric.id == "taulib.sorry" -%}{%- assign _sorry_value = _metric.display_value -%}{%- endif -%}
+{%- endfor -%}
+
+<section class="manifest-snapshot" aria-labelledby="manifest-snapshot-title">
+  <p class="kicker" id="manifest-snapshot-title">
+    Release snapshot · drawn from the manifest, not the prose
+  </p>
+  <div class="snapshot-grid">
+    <div class="snapshot-cell">
+      <span class="num">{{ _rel.release_id }}</span>
+      <span class="label">Public release</span>
+    </div>
+    <div class="snapshot-cell">
+      <span class="num">{{ _rel.generated_at | date: "%-d&nbsp;%b" }}</span>
+      <span class="label">Last manifest update</span>
+    </div>
+    <div class="snapshot-cell">
+      <span class="num">{{ _rel.sources.atlas.commit | slice: 0, 7 }}</span>
+      <span class="label">Manifest hash · atlas</span>
+    </div>
+    <div class="snapshot-cell">
+      <span class="num">{{ _rel.toolchain.lean_version | replace: "v", "" }}</span>
+      <span class="label">Lean toolchain</span>
+    </div>
+    <div class="snapshot-cell snapshot-cell--gold">
+      <span class="num">{{ _sorry_value }}</span>
+      <span class="label">Sorry budget</span>
+    </div>
+  </div>
+  <p class="snapshot-manifest-line">
+    Every public count on this site resolves through
+    <a href="{{ '/verify/release-manifest/' | relative_url }}">the release manifest</a> —
+    open the manifest to inspect every entry.
+  </p>
+</section>
