@@ -1121,3 +1121,5 @@ to the demand for coherence,
 to the discipline of relation,
 to the burden of reality,
 and to the work of building a theory that can stand within what it seeks to understand.
+
+{% include section-terminator.html %}
