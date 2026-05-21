@@ -2700,3 +2700,130 @@ hr.rule-gold-short {
     }
   }
 }
+
+// ════════════════════════════════════════════════════════════
+// Wave 5 — System layer: chips · ornaments · FAQ provenance.
+// ════════════════════════════════════════════════════════════
+
+// ────────────────────────────────────────────────────────────
+// AUD-12 · Chip rows split — layer · status.
+//
+// The .chip primitive lives in W2's content section (`.chip` +
+// `.chip--precision` + `.chip--status-review`/`-corpus`).
+// Wave 5 extends with the .chip-row container + status variants
+// and the layer chip set.
+//
+// Doctrine: layer chips (E0/E1/E2/E3/τ) and status chips
+// (Prediction/Canonical/…) never mix in the same .chip-row.
+// ────────────────────────────────────────────────────────────
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  margin: 0;
+
+  & + .chip-row { margin-top: 6px; }
+}
+
+.chip-row--layer .chip,
+.chip-row--status .chip {
+  flex-shrink: 0;
+}
+
+// Layer chips. The .lane-eN classes on each chip cascade the
+// --layer-* token quartet, so we can write one ruleset that
+// reads from the cascaded tokens.
+.chip.chip--layer {
+  background: var(--layer-wash, var(--paper-200));
+  border-color: var(--layer-accent, var(--rule));
+  color: var(--layer-dark, var(--ink-700));
+}
+.chip.chip--tau {
+  // τ-totality — neutral chip with τ-spectrum bottom-rule shimmer
+  background: var(--paper-100);
+  border-color: var(--rule-strong);
+  color: var(--ink-800);
+  position: relative;
+  padding-bottom: 5px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 9px; right: 9px; bottom: 2px;
+    height: 1px;
+    border-radius: var(--radius-pill);
+    background: var(--tau-spectrum-rule);
+    opacity: 0.8;
+  }
+}
+
+// Status chips.
+.chip.chip--status-prediction   { background: var(--panta-blue-50);     border-color: rgba(22, 62, 100, 0.18); color: var(--panta-blue-700); }
+.chip.chip--status-postdiction  { background: var(--panta-blue-50);     border-color: rgba(22, 62, 100, 0.18); color: var(--panta-blue-700); }
+.chip.chip--status-bridge       { background: var(--layer-e2-wash);     border-color: var(--layer-e2-accent);  color: var(--layer-e2-dark); }
+.chip.chip--status-falsifiable  { background: var(--layer-e2-wash);     border-color: var(--layer-e2-accent);  color: var(--layer-e2-dark); }
+.chip.chip--status-pinned       { background: var(--accent-gold-pale);  border-color: var(--accent-gold-soft); color: var(--accent-gold-dark); }
+.chip.chip--status-canonical    { background: var(--accent-gold-pale);  border-color: var(--accent-gold-soft); color: var(--accent-gold-dark); }
+.chip.chip--status-errata       { background: var(--layer-e2-pale);     border-color: var(--layer-e2-accent);  color: var(--layer-e2-dark); }
+// chip--status-review + chip--status-corpus already defined in W2; reuse those.
+.chip.chip--status-open         { background: var(--paper-200);          border-color: var(--rule);             color: var(--ink-700); }
+
+// ────────────────────────────────────────────────────────────
+// AUD-14 + AUD-26 · Section terminator + movement ornament.
+//
+// Restrained typographic rhythm marks for long-read pages.
+// Used between substantial prose movements — once per page max.
+// Three variants:
+//   .section-terminator--glyph    πρ italic display Garamond (default)
+//   .section-terminator--section  § serif
+//   .section-terminator--hair     short centred 80px hairline
+//
+// Doctrine: never decorative, never as a default page footer.
+// ────────────────────────────────────────────────────────────
+.section-terminator {
+  text-align: center;
+  font-family: var(--serif-display);
+  font-style: italic;
+  color: var(--panta-blue-700);
+  opacity: 0.55;
+  margin: 64px 0 32px;  // overridable via include style="" attribute
+  padding: 0;
+  line-height: 1;
+}
+
+.section-terminator--glyph .pr-glyph {
+  font-family: var(--serif-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 22px;
+  color: inherit;
+}
+
+.section-terminator--section {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 20px;
+}
+
+.section-terminator--hair,
+hr.section-terminator--hair {
+  border: none;
+  border-top: 1px solid var(--rule);
+  max-width: 80px;
+  height: 0;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  background: transparent;
+}
+
+// Legacy alias — some long-read pages adopt `.movement-ornament` per
+// the briefing's AUD-26 utility. Both classes point at the same
+// underlying treatment.
+.movement-ornament {
+  @extend .section-terminator;
+}
+.movement-ornament--glyph   { @extend .section-terminator--glyph; }
+.movement-ornament--section { @extend .section-terminator--section; }
+.movement-ornament--hair    { @extend .section-terminator--hair; }

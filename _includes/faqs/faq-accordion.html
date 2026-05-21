@@ -52,27 +52,46 @@
       </div>
     {%- endif -%}
 
-    {%- if faq.related_pages and faq.related_pages.size > 0 -%}
-      {%- include faqs/faq-related-links.html faq=faq -%}
-    {%- endif -%}
+    {%- comment -%}
+      AUD-15 · FAQ provenance well.
+      Pre-v5: "Read next" + "Where this answer comes from" rendered inline
+      after the answer body, visually indistinguishable from the answer
+      itself. The audit argues the provenance IS the inspectability claim
+      and deserves its own visual register.
+      v5: wrap the related-pages link list, the source-pages disclosure,
+      and the id/audience meta line in a single <aside class="faq-
+      provenance"> well — mono caps labels, left-indented with a
+      hairline border, hairline-divided sub-blocks. The existing inner
+      markup (.faq-related, .faq-entry-sources, .faq-entry-meta) keeps
+      working under the wrapper.
+    {%- endcomment -%}
+    {%- if faq.related_pages.size > 0 or faq.source_pages.size > 0 or faq.id -%}
+    <aside class="faq-provenance" aria-label="FAQ provenance">
 
-    {%- if faq.source_pages and faq.source_pages.size > 0 -%}
-      <details class="faq-entry-sources">
-        <summary>Where this answer comes from</summary>
-        <ul>
-          {%- for src in faq.source_pages -%}
-            <li><a href="{{ src.url }}">{{ src.title }}</a></li>
-          {%- endfor -%}
-        </ul>
-      </details>
-    {%- endif -%}
-
-    <p class="faq-entry-meta">
-      <span class="faq-entry-id"><code>{{ faq.id }}</code></span>
-      {%- if faq.audience and faq.audience.size > 0 -%}
-        <span class="faq-entry-audience">For: {{ faq.audience | join: " · " | replace: "_", " " }}</span>
+      {%- if faq.related_pages and faq.related_pages.size > 0 -%}
+        {%- include faqs/faq-related-links.html faq=faq -%}
       {%- endif -%}
-    </p>
+
+      {%- if faq.source_pages and faq.source_pages.size > 0 -%}
+        <details class="faq-entry-sources">
+          <summary>Where this answer comes from</summary>
+          <ul>
+            {%- for src in faq.source_pages -%}
+              <li><a href="{{ src.url }}">{{ src.title }}</a></li>
+            {%- endfor -%}
+          </ul>
+        </details>
+      {%- endif -%}
+
+      <p class="faq-entry-meta">
+        <span class="faq-entry-id"><code>{{ faq.id }}</code></span>
+        {%- if faq.audience and faq.audience.size > 0 -%}
+          <span class="faq-entry-audience">For: {{ faq.audience | join: " · " | replace: "_", " " }}</span>
+        {%- endif -%}
+      </p>
+
+    </aside>
+    {%- endif -%}
   </div>
 </details>
 {%- endif -%}
