@@ -97,6 +97,47 @@
   margin-top: 18px;
 }
 
+// ────────────────────────────────────────────────────────────
+// v5 mobile gateway-pills (audit Item #17).
+//
+// Before: lane-root hero CTA groups (e.g. /program/ has 8 CTAs) wrap
+// across 3–4 rows on a 390-wide viewport, eating half the first
+// fold. The audit fix is a single horizontal scroll-snap row with the
+// visible right-edge cutoff acting as a swipe affordance.
+//
+// `.hero-card .btn-group` scopes the override to lane-root hero CTAs
+// only — body-section button groups (which have 1–3 CTAs and don't
+// need to scroll) keep the existing wrap-on-overflow behavior.
+//
+// `margin-inline: calc(-1 * $page-px)` and matching `padding-inline`
+// let the row's overflowed pills bleed to the viewport edge, which
+// is the canonical "more content to swipe" cue.
+// ────────────────────────────────────────────────────────────
+
+@media (max-width: $bp-stack) {
+  .hero-card .btn-group {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch;
+    padding-inline: $page-px;
+    margin-inline: calc(-1 * #{$page-px});
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar { display: none; }
+
+    > .btn,
+    > .btn-primary,
+    > .btn-secondary,
+    > .btn-lean,
+    > a {
+      flex: 0 0 auto;
+      scroll-snap-align: start;
+      white-space: nowrap;
+    }
+  }
+}
+
 .v2-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
