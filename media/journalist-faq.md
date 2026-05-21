@@ -74,7 +74,18 @@ The questions below are sourced from the canonical FAQ entity collection (`corpu
 
 {% include faqs/faq-list.html ids="FAQ-EH-001,FAQ-EH-002,FAQ-EH-010,FAQ-EH-011,FAQ-EH-015" heading="Expert handoff — which expert to call, what bounded question to ask" heading_level="h3" %}
 
-<p class="muted-note"><a href="{{ '/faq/' | relative_url }}">All 73 FAQ entries</a> · <a href="{{ '/faq/journalist-due-diligence/' | relative_url }}">All Journalist Due Diligence entries</a> · <a href="{{ '/faq/expert-handoff/' | relative_url }}">All Expert Handoff entries</a> · <a href="{{ '/media/review-kit/' | relative_url }}">Review Kit</a></p>
+{%- comment -%}
+  AUD-30 · Deep-link into the canonical FAQ filtered for journalists.
+  The /faq/?audience=journalist query param triggers the audience-
+  filter chips on the canonical FAQ page, surfacing only entries whose
+  audience array includes "journalist" — collapses the four
+  overlapping surfaces (First-Contact / Journalist / Review Kit /
+  Media Kit) onto a single canonical directory with filtered views.
+{%- endcomment -%}
+<p class="audience-filter-cta">
+  <a class="btn-secondary" href="{{ '/faq/?audience=journalist' | relative_url }}">Open all journalist FAQs in the canonical directory →</a>
+</p>
+<p class="muted-note"><a href="{{ '/faq/' | relative_url }}">All 73 FAQ entries</a> · <a href="{{ '/faq/journalist-due-diligence/' | relative_url }}">Journalist Due Diligence layer</a> · <a href="{{ '/faq/expert-handoff/' | relative_url }}">Expert Handoff layer</a> · <a href="{{ '/media/review-kit/' | relative_url }}">Review Kit</a></p>
 
 ## Who funds the program?
 
