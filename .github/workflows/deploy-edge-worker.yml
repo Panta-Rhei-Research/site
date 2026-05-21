@@ -14,11 +14,23 @@ name: Deploy edge worker
 # Required repository secret:
 #   CLOUDFLARE_API_TOKEN  — a Cloudflare API token (NOT an account API key)
 #   scoped to the panta-rhei.site zone with the following permissions:
-#     • Account ▸ Workers Scripts ▸ Edit
-#     • Account ▸ Workers Routes  ▸ Edit
-#     • Account ▸ Account Settings ▸ Read
+#     Account permissions
+#       • Workers Scripts ▸ Edit
+#       • Account Settings ▸ Read
+#     Zone permissions (resource: panta-rhei.site)
+#       • Workers Routes ▸ Edit
+#       • Zone ▸ Read
+#       • Cache Purge ▸ Purge          (for the post-deploy auto-purge step)
 #   Create at: https://dash.cloudflare.com/profile/api-tokens
 #   Add at:    Repo Settings ▸ Secrets and variables ▸ Actions ▸ New repository secret
+#
+#   The "Cache Purge" permission is *not* part of the "Edit Cloudflare
+#   Workers" token template — it must be added manually when editing the
+#   token. Without it, the deploy still succeeds but the post-deploy
+#   purge step logs a friendly warning and continues. The workflow stays
+#   green during a permission gap; production just keeps serving its
+#   existing cache until it expires naturally (24h per the
+#   `must-revalidate` policy on unfingerprinted /assets/*).
 
 on:
   push:
@@ -82,6 +94,93 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
+      # ────────────────────────────────────────────────────────────
+      # Post-deploy: purge the Cloudflare edge cache for panta-rhei.site.
+      #
+      # Why: when worker code changes (cache policies, redirects, security
+      # headers), already-cached entities at the edge keep their *old*
+      # cached response — including its old Cache-Control header. The
+      # worker's new policy only applies to fresh fetches from origin, so
+      # without an explicit purge, edits sit invisible behind a stale
+      # cache until each entity's TTL expires (up to one year under the
+      # pre-PR-#251 `immutable` policy).
+      #
+      # The purge is "everything in zone" because:
+      #   - Cache-tag purge requires Enterprise plan
+      #   - Per-URL purge requires enumerating ~3,500 page paths
+      #   - The free tier offers either single-URL or purge-everything
+      #
+      # Cost of purge-everything: the next request to each URL goes to
+      # origin (GitHub Pages — itself a CDN) and re-warms the cache.
+      # Slight latency on the next ~5–10 minutes of traffic; trivial
+      # vs. the cost of a stale broken asset.
+      #
+      # Failure handling: continue-on-error. If the token lacks the
+      # `Cache Purge` permission, we log a friendly warning and let the
+      # deploy stay green. Operators see the warning in the run summary
+      # and add the permission at their leisure; the deploy stays
+      # unblocked.
+      # ────────────────────────────────────────────────────────────
+      - name: Purge Cloudflare cache for panta-rhei.site
+        id: cache_purge
+        continue-on-error: true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CF_ZONE_NAME: panta-rhei.site
+        run: |
+          set -u
+
+          api() {
+            curl -sS -w '\nHTTP_STATUS:%{http_code}' \
+              -H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
+              -H "Content-Type: application/json" \
+              "$@"
+          }
+
+          # ── Step 1 · Resolve zone_id from zone_name ─────────────
+          echo "Resolving zone id for ${CF_ZONE_NAME}..."
+          ZONE_RESPONSE=$(api "https://api.cloudflare.com/client/v4/zones?name=${CF_ZONE_NAME}")
+          ZONE_STATUS=$(echo "$ZONE_RESPONSE" | tail -1 | cut -d':' -f2)
+          ZONE_BODY=$(echo "$ZONE_RESPONSE" | sed '$d')
+
+          if [ "$ZONE_STATUS" != "200" ]; then
+            echo "::warning::Cloudflare zone lookup returned HTTP ${ZONE_STATUS}. Skipping cache purge."
+            echo "  Body: $(echo "$ZONE_BODY" | head -c 400)"
+            echo "  Likely cause: the CLOUDFLARE_API_TOKEN secret is missing the 'Zone: Read' permission."
+            echo "skipped=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          ZONE_ID=$(echo "$ZONE_BODY" | python3 -c "import sys,json; r=json.load(sys.stdin); print(r['result'][0]['id'] if r.get('result') else '')")
+
+          if [ -z "$ZONE_ID" ]; then
+            echo "::warning::Cloudflare returned no zone for ${CF_ZONE_NAME}. Skipping cache purge."
+            echo "skipped=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "Zone id: ${ZONE_ID}"
+
+          # ── Step 2 · Purge everything ───────────────────────────
+          echo "Purging zone cache..."
+          PURGE_RESPONSE=$(api -X POST \
+            "https://api.cloudflare.com/client/v4/zones/${ZONE_ID}/purge_cache" \
+            --data '{"purge_everything":true}')
+          PURGE_STATUS=$(echo "$PURGE_RESPONSE" | tail -1 | cut -d':' -f2)
+          PURGE_BODY=$(echo "$PURGE_RESPONSE" | sed '$d')
+
+          if [ "$PURGE_STATUS" != "200" ]; then
+            echo "::warning::Cloudflare cache purge returned HTTP ${PURGE_STATUS}."
+            echo "  Body: $(echo "$PURGE_BODY" | head -c 400)"
+            echo "  Likely cause: the CLOUDFLARE_API_TOKEN secret is missing the 'Cache Purge' permission."
+            echo "  Without auto-purge, edits to non-fingerprinted /assets/* propagate within 24h via must-revalidate."
+            echo "skipped=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "✓ Cache purged for ${CF_ZONE_NAME} (zone ${ZONE_ID})."
+          echo "skipped=false" >> "$GITHUB_OUTPUT"
+
       - name: Run summary
         run: |
           {
@@ -96,4 +195,12 @@ jobs:
             echo "**Routes**:";
             echo "  - panta-rhei.site/*";
             echo "  - www.panta-rhei.site/*";
+            echo "";
+            if [ "${{ steps.cache_purge.outcome }}" = "success" ] && [ "${{ steps.cache_purge.outputs.skipped }}" = "false" ]; then
+              echo "**Cache purge**: ✅ zone purged · panta-rhei.site";
+            elif [ "${{ steps.cache_purge.outputs.skipped }}" = "true" ]; then
+              echo "**Cache purge**: ⚠️ skipped (token missing Cache Purge permission — see workflow logs)";
+            else
+              echo "**Cache purge**: — (step did not run)";
+            fi;
           } >> "$GITHUB_STEP_SUMMARY"
