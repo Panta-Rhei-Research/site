@@ -188,8 +188,12 @@ def main() -> int:
         assert_file(ROOT / "assets" / "og" / "icons" / "material-symbols" / f"{icon}.svg", min_size=80)
 
         svg_text = (ROOT / card["svg"].lstrip("/")).read_text(encoding="utf-8", errors="ignore")
-        if "canonical-lockup" not in svg_text:
-            fail(f"{slug} generated SVG missing canonical-lockup marker")
+        # Accept either the v4 templated-card marker ("canonical-lockup")
+        # or the v5 hand-authored data-carrying sentinel (per AUD-23). The
+        # homepage card on /index/ ships under the sentinel; every other
+        # route stays templated and carries the canonical-lockup marker.
+        if "canonical-lockup" not in svg_text and "@custom-data-carrying" not in svg_text:
+            fail(f"{slug} generated SVG missing canonical-lockup or @custom-data-carrying marker")
         if "π ρ wordmark" in svg_text or "Independent open research program</text>" in svg_text:
             fail(f"{slug} generated SVG contains the old ad hoc wordmark construction")
 
@@ -200,8 +204,12 @@ def main() -> int:
             fail(f"{legacy_fallback.relative_to(ROOT)} should match the v4 generated fallback card")
 
         svg_text = (ROOT / card["svg"].lstrip("/")).read_text(encoding="utf-8", errors="ignore")
-        if "canonical-lockup" not in svg_text:
-            fail(f"{slug} generated SVG missing canonical-lockup marker")
+        # Accept either the v4 templated-card marker ("canonical-lockup")
+        # or the v5 hand-authored data-carrying sentinel (per AUD-23). The
+        # homepage card on /index/ ships under the sentinel; every other
+        # route stays templated and carries the canonical-lockup marker.
+        if "canonical-lockup" not in svg_text and "@custom-data-carrying" not in svg_text:
+            fail(f"{slug} generated SVG missing canonical-lockup or @custom-data-carrying marker")
         if "π ρ wordmark" in svg_text or "Independent open research program</text>" in svg_text:
             fail(f"{slug} generated SVG contains the old ad hoc wordmark construction")
 
