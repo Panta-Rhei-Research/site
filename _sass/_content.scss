@@ -1233,6 +1233,366 @@ a.part-card {
   }
 }
 
+// ────────────────────────────────────────────────────────────
+// HF-01 frontispiece — overrides for the v5 homepage hero.
+//
+// The hero card extends .homepage-hero with the additional
+// .homepage-hero--frontispiece modifier when the layout opts into
+// the new shape. Adds:
+//
+//   .hero-frontispiece   2-column grid (type | observatory plate)
+//   .frontispiece-type   left column: ident · hairline · h1 · deck ·
+//                        body · CTAs · stamp
+//   .frontispiece-mark   right column: 1:1 plate at 320px (desktop)
+//
+// And four new typographic affordances inside .frontispiece-type:
+//   .hero-ident          mono caps line above H1 (program name · release)
+//   .hero-rule-e0        48px wide / 2px tall E0 hairline beneath ident
+//   .hero-stamp          mono release line beneath the CTAs
+//
+// Beneath the grid, the hero card also gets two closing rails:
+//   .tau-seal            4px tall τ-spectrum seal (the single sanctioned
+//                        τ-totality moment on the homepage)
+//   .posture-seal        gold-hairlined inscription (AUD-11)
+//
+// On mobile (≤bp-stack), the plate moves below the type so the H1 is
+// still the first thing read.
+// ────────────────────────────────────────────────────────────
+.homepage-hero--frontispiece {
+  .hero-frontispiece {
+    display: grid;
+    grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
+    gap: 36px;
+    align-items: center;
+
+    @media (max-width: $bp-collapse) {
+      grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+      gap: 24px;
+    }
+
+    @media (max-width: $bp-stack) {
+      grid-template-columns: 1fr;
+      gap: 24px;
+
+      .frontispiece-mark { order: 2; }
+      .frontispiece-type { order: 1; }
+    }
+  }
+
+  .frontispiece-type {
+    min-width: 0;     // prevent grid blowout when the H1 wraps
+  }
+
+  .frontispiece-mark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1 / 1;
+    min-width: 0;
+  }
+
+  .observatory-plate-img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+
+    @media (max-width: $bp-stack) {
+      max-width: 220px;
+    }
+  }
+
+  .hero-ident {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    color: var(--ink-500);
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .hero-rule-e0 {
+    border: none;
+    height: 2px;
+    width: 48px;
+    background: var(--layer-e0-accent);
+    opacity: 0.7;
+    margin: 14px 0 18px;
+  }
+
+  // Override the inherited .homepage-hero h1 size — the frontispiece H1
+  // is a *thesis sentence*, not the program name, so it needs the bigger
+  // display register the briefing specifies (52-60px desktop, scaling
+  // down on smaller breakpoints). text-wrap: balance keeps multi-line
+  // theses from going ragged.
+  h1 {
+    font-family: var(--serif-display);
+    font-size: clamp(2rem, 4.4vw, 3.4rem);   // ~32px → 54px
+    font-weight: 500;
+    color: var(--panta-blue-900);
+    line-height: 1.06;
+    letter-spacing: -0.005em;
+    text-transform: none;
+    text-wrap: balance;
+    margin: 0 0 14px;
+    max-width: 22ch;
+  }
+
+  .hero-body {
+    max-width: 60ch;
+  }
+
+  .btn-group {
+    margin-top: 22px;
+  }
+
+  .hero-stamp {
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.16em;
+    color: var(--ink-500);
+    text-transform: uppercase;
+    margin: 22px 0 0;
+  }
+
+  .tau-seal {
+    border: none;
+    height: 4px;
+    width: 100%;
+    border-radius: var(--radius-pill);
+    background: var(--tau-spectrum-rule);
+    opacity: 0.9;
+    margin: 28px 0 0;
+  }
+}
+
+// ────────────────────────────────────────────────────────────
+// AUD-11 posture seal — homepage-only ceremonial inscription.
+//
+// Centred max-width 340px block, gold-hairline above + below the
+// italic body line, mono caps eyebrow. Renders ONCE per page,
+// beneath the hero τ-seal. The briefing is explicit that this
+// must not appear inside inner-page body content — the seal IS
+// the program's posture statement and is the wrong scale at body
+// width.
+// ────────────────────────────────────────────────────────────
+.posture-seal {
+  max-width: 340px;
+  text-align: center;
+  margin: 26px auto 0;
+
+  .seal-kicker {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent-gold-dark);
+    margin: 0;
+  }
+
+  .seal-body {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--ink-800);
+    margin: 8px 0 0;
+  }
+}
+
+// Short gold hairline used inside .posture-seal and inside
+// .flagship-constant. Single source of truth — both surfaces share
+// the same gold treatment as a ceremonial accent.
+hr.rule-gold-short {
+  border: none;
+  height: 1px;
+  width: 120px;
+  max-width: 120px;
+  margin: 10px auto;
+  background: var(--accent-gold);
+  opacity: 0.7;
+}
+
+// ────────────────────────────────────────────────────────────
+// HF-02 · Flagship constant (ιτ) display block.
+//
+// Centred ceremonial block setting the master constant at display
+// scale, gold-hairlined above + below, with three chips below the
+// numeric line and a single caveat at the bottom. Doctrine: the
+// rare ceremonial moment gold is sanctioned for — do not reuse the
+// gold treatment elsewhere on the homepage.
+// ────────────────────────────────────────────────────────────
+.flagship-constant {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 12px 0 4px;
+
+  .kicker {
+    margin: 0;
+  }
+
+  .constant-symbolic {
+    font-family: var(--serif-display);
+    font-style: italic;
+    font-weight: 500;
+    font-size: clamp(2rem, 4.5vw, 3.4rem);     // ~32px → 54px
+    line-height: 1;
+    color: var(--panta-blue-900);
+    letter-spacing: -0.01em;
+    margin: 18px 0 8px;
+  }
+
+  .constant-numeric {
+    font-family: var(--serif-display);
+    font-size: clamp(1.3rem, 2.5vw, 1.9rem);   // ~21px → 30px
+    line-height: 1;
+    color: var(--ink-700);
+    letter-spacing: 0.02em;
+    margin: 0 0 22px;
+  }
+
+  .constant-chips {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin: 0 0 16px;
+  }
+
+  .caveat {
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-500);
+    margin: 12px 0 0;
+  }
+}
+
+// Chip primitives used by .flagship-constant and (eventually) the
+// AUD-12 chip-row standardisation in Wave 5. Conservative styling
+// today — Wave 5 will introduce the layer/status row split.
+.chip {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+  background: var(--paper-200);
+  color: var(--ink-700);
+  border: 1px solid var(--rule);
+  white-space: nowrap;
+
+  // .chip--precision is the doctrine-honoring frontier move (AUD-13).
+  // When sat inside a .lane-eN container, picks up the layer accent
+  // border + a wash background — same chip with stratum identity.
+  &.chip--precision {
+    background: var(--layer-wash, var(--paper-200));
+    border-color: var(--layer-accent, var(--rule));
+    color: var(--layer-dark, var(--ink-700));
+  }
+
+  &.chip--status-review {
+    background: var(--accent-gold-pale);
+    border-color: var(--accent-gold-soft);
+    color: var(--accent-gold-dark);
+  }
+
+  &.chip--status-corpus {
+    background: var(--panta-blue-50);
+    border-color: rgba(22, 62, 100, 0.18);
+    color: var(--panta-blue-700);
+  }
+}
+
+// ────────────────────────────────────────────────────────────
+// HF-03 · TauLib data marquee.
+//
+// Four-cell grid bordered top + bottom with --rule hairlines,
+// internal verticals between cells. Numbers in display-serif at
+// 46px (desktop) / 36px (mobile 2×2). The third cell ("Sorry
+// assignments") takes the gold inflection — this is the
+// strongest single claim the formal layer makes.
+//
+// Counts come from _data/release/current.yml via the
+// _includes/taulib-data-marquee.html include — never hand-written.
+// ────────────────────────────────────────────────────────────
+.formal-marquee {
+  margin: 0;
+
+  .kicker {
+    margin: 0 0 12px;
+  }
+
+  .marquee-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+
+    @media (max-width: $bp-stack) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .marquee-cell {
+    padding: 22px 14px 18px;
+    border-right: 1px solid var(--rule);
+    text-align: left;
+
+    &:last-child { border-right: none; }
+
+    @media (max-width: $bp-stack) {
+      // 2×2 grid — kill the right border on cells 2 and 4 (the
+      // right column of the 2-wide grid), and add a bottom rule
+      // between row 1 (cells 1+2) and row 2 (cells 3+4).
+      &:nth-child(2n) { border-right: none; }
+      &:nth-child(-n+2) { border-bottom: 1px solid var(--rule); }
+    }
+  }
+
+  .marquee-cell .num {
+    display: block;
+    font-family: var(--serif-display);
+    font-weight: 500;
+    font-size: clamp(2rem, 3.6vw, 2.875rem);    // ~32px → 46px
+    line-height: 1;
+    color: var(--panta-blue-900);
+    letter-spacing: -0.02em;
+  }
+
+  .marquee-cell .label {
+    display: block;
+    margin-top: 10px;
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink-600);
+  }
+
+  .marquee-cell--gold {
+    background: var(--accent-gold-wash);
+
+    .num,
+    .label {
+      color: var(--accent-gold-dark);
+    }
+  }
+
+  .manifest-line {
+    margin-top: 14px;
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-500);
+  }
+}
+
 .homepage-section {
   position: relative;
 

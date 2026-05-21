@@ -154,10 +154,15 @@ file_contains "/index.html" "#163e64"                                           
 file_contains "/index.html" "orcid.org/0009-0007-0718-1042"                        "Thorsten ORCID in JSON-LD"
 file_contains "/index.html" "orcid.org/0009-0007-3495-7416"                        "Anna-Sophie ORCID in JSON-LD"
 file_contains "/index.html" "https://panta-rhei.site/assets/og/png/index.png" "homepage production OG card absolute URL"
-file_contains "/index.html" "Start with Discover"                                  "v2 Discover CTA present"
-file_contains "/index.html" "Explore the Corpus"                                   "v2 Corpus CTA present"
-file_contains "/index.html" "See the Results"                                      "v2 Results CTA present"
-file_contains "/index.html" "Verify it yourself"                                   "v2 Verify CTA present"
+# v5 HF-01 + AUD-07 — the homepage hero now carries TWO CTAs only (Verify
+# it yourself + Start with Discover). The remaining lane CTAs migrate to
+# the numbered lane index in §4 (HF-05, lands in Wave 3) and to inline
+# section CTAs. The smoke-test still confirms each lane is reachable from
+# the homepage but no longer asserts the v4 four-CTA hero stack.
+file_contains "/index.html" "Start with Discover"                                  "v5 Discover CTA present"
+file_contains "/index.html" "Verify it yourself"                                   "v5 Verify CTA present"
+file_contains "/index.html" 'href="/corpus/"'                                      "Corpus lane link reachable from homepage"
+file_contains "/index.html" 'href="/results/"'                                     "Results lane link reachable from homepage"
 file_contains "/index.html" "taulib.site"                                          "reciprocal link to taulib.site"
 
 echo ""
