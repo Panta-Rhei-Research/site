@@ -357,6 +357,24 @@ $bp-stack:        760px;
   --focus-ring: 0 0 0 3px rgba(45, 110, 159, 0.22);
 }
 
+// ──────────────────────────────────────────────────────────────
+// Layer-utility classes (E0–E3 epistemic layers).
+//
+// Distinct from the .lane-* classes below. The lane utility maps
+// IA position to a soft brand wash; this layer utility maps the
+// E0–E3 epistemic strata (mathematics / physics / life /
+// reflection) into a quartet of generic --layer-* aliases so any
+// component (world-readout cards, status pills, precision chips)
+// can write `color: var(--layer-dark)` agnostic of which stratum
+// it lives in. Required for HF-06 world readout (Wave 3) and the
+// AUD-12 status-chip standardisation (Wave 5).
+// Source: atlas/website/briefings/v5/design_handoff_audit_AUD-2026-05-19/mocks/tokens.css
+// ──────────────────────────────────────────────────────────────
+.lane-e0 { --layer: var(--layer-e0); --layer-wash: var(--layer-e0-wash); --layer-pale: var(--layer-e0-pale); --layer-accent: var(--layer-e0-accent); --layer-dark: var(--layer-e0-dark); }
+.lane-e1 { --layer: var(--layer-e1); --layer-wash: var(--layer-e1-wash); --layer-pale: var(--layer-e1-pale); --layer-accent: var(--layer-e1-accent); --layer-dark: var(--layer-e1-dark); }
+.lane-e2 { --layer: var(--layer-e2); --layer-wash: var(--layer-e2-wash); --layer-pale: var(--layer-e2-pale); --layer-accent: var(--layer-e2-accent); --layer-dark: var(--layer-e2-dark); }
+.lane-e3 { --layer: var(--layer-e3); --layer-wash: var(--layer-e3-wash); --layer-pale: var(--layer-e3-pale); --layer-accent: var(--layer-e3-accent); --layer-dark: var(--layer-e3-dark); }
+
 .lane-discover { --lane-current: var(--lane-discover); --lane-current-soft: var(--lane-discover-soft); }
 .lane-program { --lane-current: var(--lane-program); --lane-current-soft: var(--lane-program-soft); }
 .lane-agenda { --lane-current: var(--lane-agenda); --lane-current-soft: var(--lane-agenda-soft); }
