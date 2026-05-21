@@ -71,7 +71,8 @@
     }
 
     &:focus-visible {
-      box-shadow: var(--focus-ring);
+      outline: 2px solid var(--panta-blue-700);
+      outline-offset: 2px;
     }
   }
 
@@ -210,7 +211,8 @@
   }
 
   &:focus-visible {
-    box-shadow: var(--focus-ring);
+    outline: 2px solid var(--panta-blue-700);
+    outline-offset: 2px;
   }
 }
 
@@ -263,7 +265,8 @@
     }
 
     &:focus-visible {
-      box-shadow: var(--focus-ring);
+      outline: 2px solid var(--panta-blue-700);
+      outline-offset: 2px;
     }
   }
 }
@@ -317,7 +320,8 @@
   }
 
   &:focus-visible {
-    box-shadow: var(--focus-ring);
+    outline: 2px solid var(--panta-blue-700);
+    outline-offset: 2px;
   }
 }
 
