@@ -42,8 +42,43 @@
 
     <div class="ft-col">
       <h5>Reference</h5>
+      {%- comment -%}
+        AUD-19 · Inline footer search.
+        Replaces the orphan "Search" heading-as-button (which had no input,
+        just opened the overlay) with an actual text input — readers can
+        type a query directly in the footer and submit, which opens the
+        search overlay pre-populated with their query. Doctrine:
+        "Inspectability begins with discoverability."
+
+        Submit handler is defined inline so it works without JS module
+        loading: writes the query into the Pagefind input inside
+        #search-container, then calls openSearch() which is a global
+        defined synchronously in default.html. Pagefind's debounced
+        change listener picks the query up and renders results.
+      {%- endcomment -%}
+      <form class="ft-search" role="search" aria-label="Search the observatory"
+            onsubmit="event.preventDefault();
+                      var q=this.q.value.trim();
+                      var setAndOpen=function(){
+                        var inp=document.querySelector('#search-container .pagefind-ui__search-input, #search-container input[type=search], #search-container input[type=text]');
+                        if(inp){
+                          inp.value=q;
+                          inp.dispatchEvent(new Event('input',{bubbles:true}));
+                        }
+                      };
+                      if(typeof openSearch==='function'){openSearch();setTimeout(setAndOpen,80);}
+                      return false;">
+        <label class="sr-only" for="ft-q">Search the observatory</label>
+        <input id="ft-q" name="q" type="search" autocomplete="off"
+               placeholder="Search the observatory" />
+        <button type="submit" class="ft-search-btn" aria-label="Search">
+          <svg class="icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="7"/>
+            <line x1="16.5" y1="16.5" x2="21" y2="21"/>
+          </svg>
+        </button>
+      </form>
       <ul>
-        <li><button type="button" class="ft-link-button" onclick="openSearch()">Search</button></li>
         <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
         <li><a href="{{ '/bibliography/' | relative_url }}">Bibliography</a></li>
         <li><a href="{{ '/changelog/' | relative_url }}">Changelog</a></li>

@@ -1,0 +1,81 @@
+{%- comment -%}
+  AUD-18 · Artifacts as bibliography.
+
+  Replaces the v4 link-soup chip row with a typographically-set
+  bibliography listing. Each entry is a row with three columns:
+    - Vol. marker in mono caps
+    - Title set in serif at 18px, linking to the canonical surface
+    - Meta line in mono at 10.5px (e.g. "Pinned · review-ready",
+      "Seven books · v4", "Reading discipline")
+
+  Hairline borders between rows, top border on the first, bottom
+  border on the last — reads as a research bibliography page, not
+  a navigation panel. Doctrine: "It is a research surface — let
+  it look like one."
+
+  Visual register (per briefing §AUD-18):
+    .biblio        list-style none; grid 80px | 1fr | auto per row
+    .vol           mono 11px / 0.14em / --ink-500 / uppercase
+    .title link    serif 18px / --panta-blue-900 / no decoration
+    .meta          mono 10.5px / 0.06em / --ink-600
+
+  Mobile: row collapses to two-line — Vol marker on its own row
+  above the title; meta line wraps below.
+{%- endcomment -%}
+<section class="artifacts-bibliography" aria-labelledby="artifacts-bibliography-title">
+  <p class="kicker" id="artifacts-bibliography-title">Artifacts &amp; releases</p>
+  <h2>Publications</h2>
+  <p class="bib-lede">The public release surface is more than the monographs. Below is the artefact set the program publishes for inspection — pinned by release manifest, organised as a bibliography.</p>
+  <ol class="biblio">
+    <li>
+      <span class="vol">Vol.&nbsp;I</span>
+      <a class="title" href="{{ '/publications/anchor-documents/' | relative_url }}">Anchor Documents</a>
+      <span class="meta">Pinned · review-ready</span>
+    </li>
+    <li>
+      <span class="vol">Vol.&nbsp;II</span>
+      <a class="title" href="{{ '/publications/research-monographs/' | relative_url }}">Research Monographs</a>
+      <span class="meta">Seven books · v4</span>
+    </li>
+    <li>
+      <span class="vol">Vol.&nbsp;III</span>
+      <a class="title" href="{{ '/publications/monograph-supplements/' | relative_url }}">Monograph Supplements</a>
+      <span class="meta">Numerical ledgers · derivations</span>
+    </li>
+    <li>
+      <span class="vol">Vol.&nbsp;IV</span>
+      <a class="title" href="{{ '/publications/research-papers/' | relative_url }}">Research Papers</a>
+      <span class="meta">Including the Master Constant paper</span>
+    </li>
+    <li>
+      <span class="vol">Vol.&nbsp;V</span>
+      <a class="title" href="{{ '/publications/research-notes/' | relative_url }}">Research Notes</a>
+      <span class="meta">Short, dated, hypothesis-grade</span>
+    </li>
+    <li>
+      <span class="vol">Vol.&nbsp;VI</span>
+      <a class="title" href="{{ '/publications/research-briefings/' | relative_url }}">Research Briefings</a>
+      <span class="meta">Public-Good portfolio · domain readouts</span>
+    </li>
+    <li>
+      <span class="vol">Vol.&nbsp;VII</span>
+      <a class="title" href="{{ '/corpus/taulib/' | relative_url }}">TauLib</a>
+      <span class="meta">Lean&nbsp;4 formalization · pinned</span>
+    </li>
+    <li>
+      <span class="vol">Vol.&nbsp;VIII</span>
+      <a class="title" href="{{ '/publications/release-artifacts/' | relative_url }}">Release Artifacts</a>
+      <span class="meta">Manifests · cross-repo provenance</span>
+    </li>
+    <li>
+      <span class="vol">Vol.&nbsp;IX</span>
+      <a class="title" href="{{ '/publications/errata/' | relative_url }}">Errata</a>
+      <span class="meta">Append-only corrections</span>
+    </li>
+  </ol>
+  <p class="bib-tail">
+    <a href="{{ '/publications/' | relative_url }}">Browse all publications →</a>
+    &nbsp;·&nbsp;
+    <a href="{{ '/cite/' | relative_url }}">How to cite →</a>
+  </p>
+</section>

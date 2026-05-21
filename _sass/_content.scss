@@ -2425,3 +2425,278 @@ hr.rule-gold-short {
     }
   }
 }
+
+// ════════════════════════════════════════════════════════════
+// Wave 4 — Inspectability panels, Publications bibliography, Dispatch list.
+// ════════════════════════════════════════════════════════════
+
+// ────────────────────────────────────────────────────────────
+// AUD-17 · Inspectability panels.
+//
+// Five hairlined panels, each with a verb in display Garamond and a
+// one-line role beneath. Replaces the v4 bulleted list with a
+// monograph-typography surface. Outer top + bottom borders + vertical
+// hairlines between cells; on mobile, collapses to single column
+// with horizontal hairlines between rows.
+// ────────────────────────────────────────────────────────────
+.inspectability {
+  .kicker { margin: 0 0 4px; }
+  h2 { margin-bottom: 16px; }
+
+  .insp-panels {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+
+    @media (max-width: $bp-collapse) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: $bp-stack) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .insp-panel {
+    padding: 22px 18px;
+    border-right: 1px solid var(--rule);
+    text-decoration: none;
+    transition: background-color var(--t-base) var(--ease);
+
+    &:last-child { border-right: none; }
+    &:hover { background-color: rgba(22, 62, 100, 0.025); }
+
+    @media (max-width: $bp-collapse) {
+      &:nth-child(2n) { border-right: none; }
+      &:nth-child(-n+4) { border-bottom: 1px solid var(--rule); }
+    }
+    @media (max-width: $bp-stack) {
+      border-right: none;
+      border-bottom: 1px solid var(--rule);
+      padding: 16px 0;
+      &:last-child { border-bottom: none; }
+    }
+  }
+
+  .insp-panel .verb {
+    display: block;
+    font-family: var(--serif-display);
+    font-weight: 500;
+    font-size: clamp(1.3rem, 1.8vw, 1.625rem);   // ~21px → 26px
+    line-height: 1.1;
+    color: var(--panta-blue-900);
+    margin-bottom: 10px;
+    letter-spacing: -0.005em;
+  }
+
+  .insp-panel .role {
+    display: block;
+    font-family: var(--sans);
+    font-size: 13.5px;
+    line-height: 1.5;
+    color: var(--ink-800);
+  }
+}
+
+// ────────────────────────────────────────────────────────────
+// AUD-18 · Artifacts as bibliography.
+//
+// Typographically-set release list. Each <li> is a 3-col grid:
+//   Vol. marker (80px mono) | Title (serif link) | Meta (mono, right-aligned)
+// Hairlines between rows, top border first, bottom border last.
+// Doctrine: "It is a research surface — let it look like one."
+// ────────────────────────────────────────────────────────────
+.artifacts-bibliography {
+  .kicker { margin: 0 0 4px; }
+  h2 { margin-bottom: 8px; }
+
+  .bib-lede {
+    font-family: var(--sans);
+    font-size: 14px;
+    color: var(--ink-700);
+    margin: 0 0 18px;
+    max-width: 60ch;
+  }
+
+  ol.biblio {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: grid;
+      grid-template-columns: 80px 1fr auto;
+      align-items: baseline;
+      gap: 18px;
+      padding: 12px 0;
+      border-top: 1px solid var(--rule);
+      margin: 0;
+    }
+
+    li:last-child {
+      border-bottom: 1px solid var(--rule);
+    }
+  }
+
+  .biblio .vol {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-500);
+  }
+
+  .biblio a.title {
+    font-family: var(--serif);
+    font-size: 18px;
+    color: var(--panta-blue-900);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+  }
+
+  .biblio .meta {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.06em;
+    color: var(--ink-600);
+    text-align: right;
+  }
+
+  .bib-tail {
+    margin-top: 16px;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-500);
+
+    a {
+      color: var(--panta-blue-700);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+  }
+
+  @media (max-width: $bp-stack) {
+    ol.biblio li {
+      // Collapse to 2 rows so the title can wrap fully:
+      //   row 1: vol + meta
+      //   row 2: title (spans both columns)
+      grid-template-columns: 1fr auto;
+      grid-template-areas:
+        "vol meta"
+        "title title";
+      row-gap: 6px;
+      padding: 14px 0;
+    }
+    .vol { grid-area: vol; }
+    .biblio .meta { grid-area: meta; }
+    .biblio a.title { grid-area: title; font-size: 17px; }
+  }
+}
+
+// ────────────────────────────────────────────────────────────
+// AUD-21 · Dispatch list (newsletter rework).
+//
+// Reframed as a research-letterhead subscription. Inline form on a
+// single hairline rule with mono label · serif input · mono submit
+// link. Buttondown wiring is preserved (action, hidden tag fields,
+// double-opt-in disclosure); only the visual register changes.
+// ────────────────────────────────────────────────────────────
+.dispatch {
+  .kicker { margin: 0 0 4px; }
+
+  h2 {
+    margin: 0 0 8px;
+  }
+
+  .lede {
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--ink-800);
+    margin: 0 0 18px;
+    max-width: 56ch;
+  }
+
+  .dispatch-form {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--rule);
+    max-width: 520px;
+    transition: border-color var(--t-base) var(--ease);
+
+    &:focus-within {
+      border-bottom-color: var(--rule-strong);
+    }
+
+    .lbl {
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--ink-600);
+      flex-shrink: 0;
+    }
+
+    input[type="email"] {
+      flex: 1;
+      min-width: 0;
+      border: 0;
+      outline: 0;
+      background: transparent;
+      font-family: var(--serif);
+      font-size: 18px;
+      color: var(--ink-900);
+      padding: 4px 0;
+    }
+
+    .submit-link {
+      flex-shrink: 0;
+      background: none;
+      border: 0;
+      padding: 0;
+      cursor: pointer;
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--panta-blue-700);
+      transition: color var(--t-base) var(--ease);
+
+      &:hover { color: var(--panta-blue-900); }
+    }
+  }
+
+  .note {
+    margin-top: 14px;
+    font-family: var(--sans);
+    font-size: 12.5px;
+    line-height: 1.5;
+    color: var(--ink-600);
+    max-width: 60ch;
+
+    a {
+      color: var(--panta-blue-700);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+  }
+
+  @media (max-width: $bp-stack) {
+    .dispatch-form {
+      // Stack on small screens so the input has room to breathe
+      flex-wrap: wrap;
+      .lbl { width: 100%; }
+      input[type="email"] { font-size: 17px; flex-basis: 100%; }
+      .submit-link { align-self: flex-end; margin-top: 4px; }
+    }
+  }
+}

@@ -508,6 +508,28 @@ body.shell-home .site-header {
   }
 }
 
+// AUD-24 · Mono dot-leader between lane clusters.
+//
+// The desktop lane row groups 8 lanes into 4 typographic clusters:
+//   Discover  ·  Program · Agenda · Corpus  ·  Results · Verify · Impact  ·  Engage
+// The dot is a pure typographic affordance — no colour, no lane semantics —
+// and lives in the desktop nav only (the mobile drawer carries lanes in a
+// vertical T1 list, where dot-leaders would read as noise).
+.header-nav-dot {
+  font-family: $font-mono;
+  font-size: 0.82rem;
+  color: var(--ink-500);
+  opacity: 0.5;
+  padding: 0 6px;
+  user-select: none;
+  pointer-events: none;
+  // Hide on the tablet collapse — the row needs every horizontal pixel
+  // and the cluster structure is already conveyed by lane order.
+  @media (max-width: $bp-collapse) {
+    display: none;
+  }
+}
+
 .header-nav-link {
   --nav-lane: var(--lane-current);
   --nav-lane-soft: var(--lane-current-soft);
