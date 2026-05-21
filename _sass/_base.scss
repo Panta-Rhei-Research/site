@@ -135,22 +135,28 @@ a {
 }
 
 // AUD-20 · aria-current="page" — the audit's recommended fallback for
-// "you are here" when :visited is unreliable. Applied to in-page nav
-// elements (lane index, sidebar nav, rail nav). The styling adds a
-// plum color + (with the .aria-current-rail ancestor opt-in) a
-// left-border accent so the active page is always visually marked
-// regardless of :visited support.
+// "you are here" when :visited is unreliable.
+//
+// v5 hotfix: the original rule applied `color: var(--layer-e3)` to every
+// a[aria-current="page"], which has selector specificity (0,1,1) and so
+// won over .btn-primary / .header-nav-link.active / .btn-secondary
+// (0,1,0). That turned the masthead's active lane link plum on the
+// translucent white "active" background, and similarly recoloured any
+// primary CTA that happened to also carry aria-current=page.
+//
+// The default rule now paints nothing; the element's own ruleset (.btn-*,
+// .header-nav-link, .faq-audience-chip, etc.) keeps painting the active
+// state. The plum + border accent are opt-in via the `.aria-current-rail`
+// ancestor on rail-style nav surfaces (sidebar TOC, vertical lists).
 a[aria-current="page"] {
+  // Intentionally empty: defer to the element's own ruleset.
+}
+
+.aria-current-rail a[aria-current="page"] {
   color: var(--layer-e3);
   font-weight: 520;
-
-  // Selective rail-style accent — opted-in via .aria-current-rail
-  // ancestor so links that live in a vertical nav rail get the
-  // border accent without affecting inline-prose links.
-  .aria-current-rail & {
-    border-left: 2px solid var(--layer-e3);
-    padding-left: 8px;
-  }
+  border-left: 2px solid var(--layer-e3);
+  padding-left: 8px;
 }
 
 // ────────────────────────────────────────────────────────────
