@@ -2,50 +2,128 @@
 layout: default
 ---
 
-<div class="hero-card homepage-hero">
-  <h1>{{ page.title }}</h1>
-  {% if page.hero_line %}
-  <p class="hero-deck">{{ page.hero_line }}</p>
-  {% endif %}
-  {% if page.hero_body %}
-  <p class="hero-body">{{ page.hero_body }}</p>
-  {% endif %}
-  {% if page.hero_ctas %}
-  <div class="btn-group">
-    {% for cta in page.hero_ctas %}
+{%- comment -%}
+  HF-01 frontispiece — the decided shape:
+    1. hero-ident       (mono caps line above H1: program name · release id)
+    2. hero-rule-e0     (48px E0 hairline)
+    3. h1               (thesis sentence, display Garamond)
+    4. hero-deck        (optional one-line deck — body-serif, NOT display)
+    5. hero-body        (body paragraph — sans, --ink-900, max 65ch)
+    6. btn-group        (TWO CTAs only — primary + ghost · per AUD-07)
+    7. hero-stamp       (mono release line beneath CTAs · AUD-22 echo)
+    8. observatory plate (sits opposite the type at 1:1 · supporting mark)
+    9. tau-spectrum seal (4px rule, sanctioned τ-totality moment)
+   10. posture-seal     (AUD-11 · "engagement without endorsement" inscription)
+
+  The hero_supporting_line slot is now folded into the posture-seal include —
+  pages that ship a supporting line get a gold-hairlined seal instead of an
+  inline italic sentence below the CTAs, matching the audit's recommendation.
+
+  Briefing: atlas/website/briefings/v5/design_handoff_audit_AUD-2026-05-19/README.md
+{%- endcomment -%}
+
+<section class="hero-card homepage-hero homepage-hero--frontispiece"
+         aria-labelledby="hero-thesis">
+
+  <div class="hero-frontispiece">
+    <div class="frontispiece-type">
+      {%- if page.hero_ident -%}
+      <p class="hero-ident">{{ page.hero_ident }}</p>
+      {%- elsif site.data.release.current.release_id -%}
+      <p class="hero-ident">Panta Rhei Research Program · {{ site.data.release.current.release_id }} release</p>
+      {%- endif -%}
+
+      <hr class="hero-rule-e0" aria-hidden="true" />
+
+      <h1 id="hero-thesis">{{ page.hero_thesis | default: page.title }}</h1>
+
+      {%- if page.hero_line and page.hero_line != "" -%}
+      <p class="hero-deck">{{ page.hero_line }}</p>
+      {%- endif -%}
+
+      {%- if page.hero_body and page.hero_body != "" -%}
+      <p class="hero-body">{{ page.hero_body }}</p>
+      {%- endif -%}
+
+      {%- if page.hero_ctas -%}
+      <div class="btn-group">
+        {%- for cta in page.hero_ctas -%}
+        {%- comment -%}
+          CTA style resolution (HF-01 / AUD-07 — 1 primary + ghost rest):
+            1. cta.variant: "lean"   → .btn-lean  (Lean azure, technical)
+            2. cta.primary: true     → .btn-primary (navy, publisher)
+            3. default               → .btn-ghost (transparent border, ink)
+          The hero should carry **two** CTAs only per AUD-07; surplus CTAs
+          are quietly tolerated but the audit asks for the homepage hero to
+          drop to 2 (primary + ghost). Other lane CTAs migrate to the
+          numbered lane index (Wave 3 · HF-05).
+        {%- endcomment -%}
+        {%- if cta.variant == 'lean' -%}
+          {%- assign cta_class = 'btn-lean' -%}
+        {%- elsif cta.primary -%}
+          {%- assign cta_class = 'btn-primary' -%}
+        {%- else -%}
+          {%- assign cta_class = 'btn-ghost' -%}
+        {%- endif -%}
+        {%- assign is_external = false -%}
+        {%- if cta.url contains '://' -%}{%- assign is_external = true -%}{%- endif -%}
+        {%- assign _hero_lane = "" -%}
+        {%- if cta.primary and page.lane -%}{%- assign _hero_lane = page.lane -%}{%- endif -%}
+        <a href="{{ cta.url | relative_url }}" class="{{ cta_class }}"{% if is_external %} target="_blank" rel="noopener"{% endif %} {% include cta-attrs.html location="hero" label=cta.label href=cta.url event=cta.event lane=_hero_lane %}>{{ cta.label }}</a>
+        {%- endfor -%}
+      </div>
+      {%- endif -%}
+
+      {%- comment -%}
+        AUD-22 echo — release stamp beneath the CTAs.
+        Same data source as the masthead stamp (single source of truth).
+        Doctrine: "Inspectability begins with knowing *when*."
+      {%- endcomment -%}
+      {%- assign _rel = site.data.release.current -%}
+      {%- if _rel.release_id -%}
+      <p class="hero-stamp" aria-label="Current release manifest">
+        {{ _rel.release_id }}
+        {%- if _rel.sources.atlas.commit %} · manifest {{ _rel.sources.atlas.commit | slice: 0, 7 }}{% endif %}
+        {%- if _rel.generated_at %} · {{ _rel.generated_at | date: "%-d %B %Y" }}{% endif %}
+      </p>
+      {%- endif -%}
+    </div>
+
     {%- comment -%}
-      v5 audit Item #3 — CTA hierarchy on the homepage hero.
-      Style resolution (in priority order):
-        1. cta.variant: "lean"   → .btn-lean (Lean azure, technical)
-        2. cta.primary: true     → .btn-primary (navy, publisher)
-        3. default               → .btn-ghost (was .btn-secondary; v5
-                                   audit asks for 1 primary + ghost rest
-                                   so the hero reads with a clear lead)
-      External URLs (http:// or https://) pass through relative_url
-      unchanged per Jekyll's filter spec; rel="noopener" added for
-      external targets.
+      Observatory plate — supporting mark at 1:1 aspect ratio.
+      Source: assets/brand/observatory-plate.svg
+      Decorative (no <title>, role=presentation). The frontispiece-type
+      block carries the accessible name via the H1.
     {%- endcomment -%}
-    {%- if cta.variant == 'lean' -%}
-      {%- assign cta_class = 'btn-lean' -%}
-    {%- elsif cta.primary -%}
-      {%- assign cta_class = 'btn-primary' -%}
-    {%- else -%}
-      {%- assign cta_class = 'btn-ghost' -%}
-    {%- endif -%}
-    {%- assign is_external = false -%}
-    {%- if cta.url contains '://' -%}{%- assign is_external = true -%}{%- endif -%}
-    {%- comment -%} Lane-aware hero event: primary CTA on a lane root emits `cta.hero.{lane-slug}` (canonical).
-                    Non-primary or non-lane-root CTAs fall back to the auto-derived label slug. {%- endcomment -%}
-    {%- assign _hero_lane = "" -%}
-    {%- if cta.primary and page.lane -%}{%- assign _hero_lane = page.lane -%}{%- endif -%}
-    <a href="{{ cta.url | relative_url }}" class="{{ cta_class }}"{% if is_external %} target="_blank" rel="noopener"{% endif %} {% include cta-attrs.html location="hero" label=cta.label href=cta.url event=cta.event lane=_hero_lane %}>{{ cta.label }}</a>
-    {% endfor %}
+    <div class="frontispiece-mark">
+      <img class="observatory-plate-img"
+           src="{{ '/assets/brand/observatory-plate.svg' | relative_url }}"
+           alt="" width="320" height="320" aria-hidden="true" decoding="async" />
+    </div>
   </div>
-  {% if page.hero_supporting_line %}
-  <p class="hero-supporting-line">{{ page.hero_supporting_line }}</p>
-  {% endif %}
-  {% endif %}
-</div>
+
+  {%- comment -%}
+    τ-spectrum seal — the single sanctioned τ-totality moment on the
+    homepage. 4px rule, --tau-spectrum-rule, opacity 0.9, 22px top margin.
+    Reserved per doctrine: "RESERVED for whole-system / corpus-totality
+    moments." The homepage frontispiece is exactly that moment.
+  {%- endcomment -%}
+  <hr class="tau-seal" aria-hidden="true" />
+
+  {%- comment -%}
+    Posture seal (AUD-11). Renders only when page.posture_seal is true OR
+    page.hero_supporting_line is present (back-compat). The seal is the
+    program's posture statement and ships once, ceremonially, beneath the
+    hero of the homepage.
+  {%- endcomment -%}
+  {%- if page.posture_seal or page.hero_supporting_line -%}
+  {% include posture-seal.html
+       kicker=page.posture_seal_kicker
+       body=page.posture_seal_body
+       fallback=page.hero_supporting_line %}
+  {%- endif -%}
+
+</section>
 
 <div class="homepage-v2-flow">
   {{ content }}

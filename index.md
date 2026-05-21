@@ -7,19 +7,26 @@ v2_lane: discover
 type: "Homepage"
 status: "Canonical"
 summary_short: "An open research program for a coherent theory of reality."
-hero_line: "The Panta Rhei Research Program is an independent open research program dedicated to building a coherent theory of reality."
-hero_body: "The work spans foundational mathematics, physics, the categorical structure of life processes, and the philosophy of mind — developed as one unified construction. It is published as an inspectable public research observatory: readable, challengeable, and correctable before asking anyone to believe it."
+# HF-01 · Frontispiece hero (v5 audit AUD-2026-05-19).
+# The H1 is now a thesis sentence, not the program name. The program name
+# demotes to a mono ident line above H1. Two CTAs only (AUD-07). Other
+# lane CTAs migrate to the numbered lane index (Wave 3 · HF-05).
+hero_ident: "Panta Rhei Research Program · v4 release"
+hero_thesis: "A coherent theory of reality, built in public — inspectable before it is believed."
+hero_line: ""
+hero_body: "An independent open research program, published as an inspectable public observatory. The work spans foundational mathematics, physics, the categorical structure of life processes, and the philosophy of mind — developed as one unified construction. Read carefully. Challenge weak links."
 hero_ctas:
-  - label: "Start with Discover"
-    url: /discover/
-    primary: true
-  - label: "Explore the Corpus"
-    url: /corpus/
-  - label: "See the Results"
-    url: /results/
   - label: "Verify it yourself"
     url: /verify/
-hero_supporting_line: "Engagement without endorsement: read carefully, inspect the claims, challenge weak links, find errors."
+    primary: true
+  - label: "Start with Discover"
+    url: /discover/
+# AUD-11 · The posture-seal include replaces hero_supporting_line as the
+# canonical home for "Engagement without endorsement." Lands beneath the
+# hero τ-seal, gold-hairlined, once per page only.
+posture_seal: true
+posture_seal_kicker: "Audit posture"
+posture_seal_body: "Engagement without endorsement.<br/>Read carefully, challenge weak links, find errors."
 og_image: /assets/images/plates/plate-20-panta-rhei-at-a-glance-og.jpg
 twitter_image: /assets/images/plates/plate-20-panta-rhei-at-a-glance-og.jpg
 og_image_alt: "Scientific plate mapping the Panta Rhei Research Program at a glance as an inspectable research engine with Discover, Program, Corpus, Results, Verify, Publications, Impact, and Engage."
@@ -28,7 +35,15 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program at a gla
 <section class="content-card homepage-section">
   <p class="v2-kicker">What the formal layer currently exposes</p>
   <h2>The formalization is real, public, and auditable</h2>
-  <p>TauLib currently exposes {% include release-metric.html id="taulib.modules" %} Lean&nbsp;4 modules, {% include release-metric.html id="taulib.theorems_lemmas" %} theorem and lemma records, {% include release-metric.html id="taulib.sorry" %} sorry assignments, and {% include release-metric.html id="taulib.custom_axioms" %} disclosed custom axioms — pinned to a release manifest with a sharp axiom and sorry budget. Formal checking is not empirical truth. The bridge to observation, measurement, and domain testing remains the empirical-accountability question — and is treated as such across the site. But the formal layer itself is real, public, and auditable today.</p>
+  {%- comment -%}
+    HF-03 · TauLib data marquee. Counts come from _data/release/current.yml
+    (taulib.modules, taulib.theorems_lemmas, taulib.sorry, taulib.custom_axioms).
+    Replaces the v4 prose paragraph that hand-listed the same four numbers —
+    the marquee is now the single source of truth for those counts on the
+    homepage (AUD-16 deletes the inline repeat from §6 below).
+  {%- endcomment -%}
+  {% include taulib-data-marquee.html %}
+  <p class="marquee-frame">Formal checking is not empirical truth. The bridge to observation, measurement, and domain testing remains the empirical-accountability question — and is treated as such across the site. But the formal layer itself is real, public, and auditable today.</p>
   <div class="btn-group section-ctas">
     <a class="btn-secondary" href="{{ '/verify/' | relative_url }}">Verify it yourself</a>
     <a class="btn-ghost" href="{{ '/corpus/taulib/' | relative_url }}">Browse TauLib</a>
@@ -40,12 +55,15 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program at a gla
   <p class="v2-kicker">The research observatory at a glance</p>
   <h2>Panta Rhei at a glance</h2>
   {% include scientific-plate.html id="plate-20-panta-rhei-at-a-glance" class="scientific-plate--hero scientific-plate--at-a-glance" loading="eager" %}
-  <div class="btn-group section-ctas">
-    <a class="btn-secondary" href="{{ '/discover/' | relative_url }}">Start with Discover</a>
-    <a class="btn-ghost" href="{{ '/corpus/' | relative_url }}">Explore the Corpus</a>
-    <a class="btn-ghost" href="{{ '/results/' | relative_url }}">See the Results</a>
-    <a class="btn-ghost" href="{{ '/verify/' | relative_url }}">Verify it yourself</a>
-  </div>
+  {%- comment -%}
+    AUD-09 · The four CTAs that lived here were a duplicate of the hero
+    stack within 1500 px of the same page. Hero now carries the two
+    canonical CTAs (Verify · Discover); the other lane entries migrate to
+    the numbered lane index in §4 below ("Choose your entry"). The plate
+    + caption are the at-a-glance signal — no second CTA stack required.
+    AUD-10 decision (fill this section with a manifest snapshot) lands in
+    Wave 3.
+  {%- endcomment -%}
 </section>
 
 <section class="content-card homepage-section homepage-faq-strip">
@@ -98,7 +116,15 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program at a gla
 <section class="content-card homepage-section">
   <p class="v2-kicker">Flagship results</p>
   <h2>Concrete claims before broad interpretation</h2>
-  <p>The quantitative physics surface is organized around the master constant <strong>ι<sub>τ</sub> = 2/(π + e) ≈ 0.341304</strong>. The current public release treats this as a review target, not a rhetorical shortcut: the constant has a dedicated research paper, a Corpus foundational-hinge page (H3), a scalar-readout route through Construction Spine Step&nbsp;2, Registry anchors, and TauLib evidence. Downstream physics claims remain bridge and empirical-accountability claims, but the master-constant question now has a direct public review path.</p>
+  {%- comment -%}
+    HF-02 · Master constant ιτ display block. Display-set the constant
+    as a centred, gold-hairlined ceremonial block — the rare ceremonial
+    moment gold is sanctioned for. The accompanying paragraph is the
+    publishing-route lead-in; the symbolic + numeric forms are now
+    carried by the block, not inline prose.
+  {%- endcomment -%}
+  {% include flagship-constant.html %}
+  <p>The quantitative physics surface is organised around this master constant. The current public release treats it as a review target, not a rhetorical shortcut: the constant has a dedicated research paper, a Corpus foundational-hinge page (H3), a scalar-readout route through Construction Spine Step&nbsp;2, Registry anchors, and TauLib evidence. Downstream physics claims remain bridge and empirical-accountability claims, but the master-constant question now has a direct public review path.</p>
   <div class="btn-group section-ctas">
     <a class="btn-secondary" href="{{ '/corpus/foundational-hinges/master-constant-iota-tau/' | relative_url }}">Review the Master Constant</a>
     <a class="btn-ghost" href="{{ '/publications/research-papers/master-constant-iota-tau/' | relative_url }}">Read the paper</a>
@@ -137,7 +163,7 @@ og_image_alt: "Scientific plate mapping the Panta Rhei Research Program at a gla
     <div class="v2-system-node"><strong>Agenda</strong>Core Semantics, Structural Challenge Ledger, answer-shape discipline, refusals, and Construction Roadmap.</div>
     <div class="v2-system-node"><strong>Kernel</strong>Five generators, one progression operator, and the K0&ndash;K6 structural commitments, with the foundational-hinge route.</div>
     <div class="v2-system-node"><strong>Corpus</strong>Construction Spine, Monograph Corpus, Registry, foundational hinges, TauLib projection, and dependency graph.</div>
-    <div class="v2-system-node"><strong>TauLib</strong>Pinned Lean&nbsp;4 formalization with {% include release-metric.html id="taulib.modules" %} modules, {% include release-metric.html id="taulib.sorry" %} sorry, and {% include release-metric.html id="taulib.custom_axioms" %} custom axioms in Book&nbsp;III bridge territory.</div>
+    <div class="v2-system-node"><strong>TauLib</strong>Pinned Lean&nbsp;4 formalization with a sharp axiom and sorry budget in Book&nbsp;III bridge territory — <a href="#formal-marquee-title">see the TauLib marquee above</a> for the current release counts.</div>
     <div class="v2-system-node"><strong>Results</strong>Landmark Results, World Readouts, Challenge Responses, Core Semantics Status, and Progress Against Agenda.</div>
     <div class="v2-system-node"><strong>Verify</strong>Release Manifest, inspection routes, prediction timing, falsification pack, and TCB disclosure.</div>
     <div class="v2-system-node"><strong>Publications</strong>research monographs, research papers, supplements, notes, briefings, white papers, release artifacts, and errata.</div>

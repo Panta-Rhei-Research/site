@@ -1,0 +1,43 @@
+{%- comment -%}
+  HF-02 · Master constant ιτ display block.
+
+  Display-set the master constant as a centred, gold-hairlined ceremonial
+  block. This is the rare ceremonial moment gold is sanctioned for —
+  doctrine: "the strongest single claim the formal layer makes." Do not
+  reuse this gold treatment elsewhere on the homepage.
+
+  Symbol set:
+    ιτ  · the symbolic constant         → display Garamond, italic, 54px
+    ≈ 0.341 304 · the numeric readout   → display Garamond, 30px
+    chips · Precision tier + status     → mono, layered + standard
+
+  Visual register (per briefing):
+    .flagship-constant       centred section, generous vertical rhythm
+    .constant-symbolic       display Garamond, italic, 54px / 1, --panta-blue-900
+    .constant-numeric        display Garamond, 30px / 1, --ink-700
+    .rule-gold-short         1px tall, max-width 120px, centred, gold @ 0.7
+    .caveat                  mono 9.5px / 0.12em, uppercase, --ink-500
+
+  Doctrine cross-references:
+    AUD-13 · the "Precision · 6 sf" chip is the first public surfacing of
+            the precision tier; same chip render pattern as the result
+            cards once those land in Wave 5.
+    AUD-12 · chips will be split into layer + status rows in Wave 5; for
+            now they live in one row inside this section.
+
+  HTML thin-space entity (&thinsp;) used in "0.341 304" so the precision
+  reads as a single grouped number rather than a thousands separator.
+{%- endcomment -%}
+<section class="flagship-constant" aria-labelledby="flagship-constant-title">
+  <p class="kicker" id="flagship-constant-title">Foundational hinge · H3 · master constant</p>
+  <hr class="rule-gold-short" aria-hidden="true" />
+  <div class="constant-symbolic" lang="grc">ιτ&nbsp;=&nbsp;2 / (π&nbsp;+&nbsp;e)</div>
+  <div class="constant-numeric">≈&nbsp;0.341&thinsp;304</div>
+  <div class="constant-chips" role="list">
+    <span class="chip chip--precision lane-e0" role="listitem">Precision · 6&nbsp;sf</span>
+    <span class="chip chip--status-review" role="listitem">Review target</span>
+    <span class="chip chip--status-corpus" role="listitem">Corpus-linked</span>
+  </div>
+  <hr class="rule-gold-short" aria-hidden="true" />
+  <p class="caveat">Downstream physics claims remain bridge claims</p>
+</section>

@@ -1,0 +1,34 @@
+{%- comment -%}
+  Posture seal — AUD-11.
+
+  A small gold-hairlined inscription stating the program's audit posture
+  ("Engagement without endorsement"). Used **once, ceremonially**, beneath
+  the hero on the homepage. Per the audit's recommendation, never inside
+  body content of inner pages.
+
+  Inputs (Liquid include params, all optional):
+    kicker   — mono caps eyebrow (defaults to "Audit posture")
+    body     — italic body line (HTML allowed; supports <br>)
+    fallback — legacy hero_supporting_line text. When supplied without
+               an explicit body, the include uses fallback as the body so
+               existing pages using the old hero_supporting_line field
+               keep rendering during the migration sweep.
+
+  Doctrine quote (briefing AUD-11):
+    "Engagement without endorsement. Read carefully, challenge weak links,
+     find errors."
+
+  Visual register (per briefing):
+    - .posture-seal max-width 340px, centred, margin 32px auto 0
+    - .seal-kicker mono 10px / 0.18em / accent-gold-dark / uppercase
+    - .seal-body   serif italic 15px / 1.55 / --ink-800
+    - .rule-gold-short 1px / max-width 120px / centred / --accent-gold @ 0.7
+{%- endcomment -%}
+{%- assign _seal_kicker = include.kicker | default: "Audit posture" -%}
+{%- assign _seal_body   = include.body   | default: include.fallback | default: "Engagement without endorsement.<br/>Read carefully, challenge weak links, find errors." -%}
+
+<aside class="posture-seal" aria-label="Program audit posture">
+  <p class="seal-kicker">{{ _seal_kicker }}</p>
+  <hr class="rule-gold-short" aria-hidden="true" />
+  <p class="seal-body">{{ _seal_body }}</p>
+</aside>

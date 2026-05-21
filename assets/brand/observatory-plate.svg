@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Observatory plate — HF-01 frontispiece companion mark.
+
+  Geometry (per atlas/website/briefings/v5/design_handoff_audit_AUD-2026-05-19/
+  README.md §HF-01 ¶5):
+
+    • 1:1 aspect ratio (320×320 design grid)
+    • Four concentric circles at r = 156, 108, 72, 36 (the public
+      observatory's four shells — E0 → E1 → E2 → E3 from outside in)
+    • Two diagonals (45° and 135°) crossing the centre
+    • Four E0/E1/E2/E3 dots at the cardinal points (top = E0 Mathematics,
+      right = E1 Physics, bottom = E2 Life, left = E3 Reflection)
+    • Centred italic πρ glyph in serif
+
+  Doctrine: the plate stays monochrome at brand-rule contrast — the spectrum
+  cohabits in the dots and is sanctioned once as the τ-spectrum seal beneath
+  the hero CTAs (--tau-spectrum-rule). The plate is the *companion mark* to
+  the frontispiece typography, not a colour event.
+
+  Stroke widths align with the AUD-27 1.5-stroke doctrine via the global
+  .icon / svg[data-lucide] rule. We set the dot fill colours via the
+  per-layer --layer-eN-* tokens so any future doctrine amendment cascades
+  here without a markup edit.
+
+  The accessible name lives on the parent <figure> / <picture> wrapper.
+  This file ships `aria-hidden="true"` semantics by declaring no <title>
+  child — the plate is decorative supporting the hero typography.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320"
+     class="observatory-plate"
+     role="presentation" aria-hidden="true"
+     style="--rule-stroke: rgba(22,62,100,0.18);
+            --rule-strong: rgba(22,62,100,0.34);
+            --pr-color: var(--panta-blue-700, #163E64);">
+  <defs>
+    <style>
+      .ring     { fill: none; stroke: var(--rule-strong); stroke-width: 1; }
+      .ring--soft { fill: none; stroke: var(--rule-stroke); stroke-width: 1; }
+      .diagonal { stroke: var(--rule-stroke); stroke-width: 1; }
+      .pr-glyph {
+        font-family: "garamond-premier-pro-display", "garamond-premier-pro",
+                     "EB Garamond", Georgia, serif;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 56px;
+        fill: var(--pr-color);
+        text-anchor: middle;
+        dominant-baseline: central;
+        opacity: 0.92;
+      }
+      .layer-e0 { fill: var(--layer-e0-accent, #5A7EB3); }
+      .layer-e1 { fill: var(--layer-e1-accent, #1B8278); }
+      .layer-e2 { fill: var(--layer-e2-accent, #9F5B5C); }
+      .layer-e3 { fill: var(--layer-e3-accent, #896092); }
+    </style>
+  </defs>
+
+  <!-- Four concentric shells (outermost first) -->
+  <circle class="ring--soft" cx="160" cy="160" r="156" />
+  <circle class="ring"        cx="160" cy="160" r="108" />
+  <circle class="ring"        cx="160" cy="160" r="72"  />
+  <circle class="ring"        cx="160" cy="160" r="36"  />
+
+  <!-- Two diagonals (45° / 135°) — chord-length matched to outer ring -->
+  <!-- 156 / √2 ≈ 110.3 -->
+  <line class="diagonal" x1="49.7"  y1="49.7"  x2="270.3" y2="270.3" />
+  <line class="diagonal" x1="270.3" y1="49.7"  x2="49.7"  y2="270.3" />
+
+  <!-- Cardinal layer dots — radius 5, sitting on the outer ring (r=156) -->
+  <!-- top    · E0 Mathematics -->
+  <circle class="layer-e0" cx="160" cy="4"   r="5" />
+  <!-- right  · E1 Physics    -->
+  <circle class="layer-e1" cx="316" cy="160" r="5" />
+  <!-- bottom · E2 Life       -->
+  <circle class="layer-e2" cx="160" cy="316" r="5" />
+  <!-- left   · E3 Reflection -->
+  <circle class="layer-e3" cx="4"   cy="160" r="5" />
+
+  <!-- Centred πρ glyph — italic serif, brand navy -->
+  <text class="pr-glyph" x="160" y="162">πρ</text>
+</svg>

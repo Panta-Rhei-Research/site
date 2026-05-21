@@ -1,0 +1,59 @@
+{%- comment -%}
+  HF-03 TauLib data marquee.
+
+  Four-cell data marquee with hairline rules above and below, mono labels,
+  display-serif numbers. The third cell ("0 sorry assignments") takes the
+  gold inflection — this is the doctrine's strongest single claim.
+
+  Counts are **rendered from `_data/release/current.yml`**, never hand-
+  edited in prose — when v5 ships, the marquee updates automatically.
+
+  Mapping (briefing → release-manifest id):
+    Cell 1 · Lean 4 modules        → taulib.modules
+    Cell 2 · Theorems & lemmas     → taulib.theorems_lemmas
+    Cell 3 · Sorry assignments     → taulib.sorry        (gold)
+    Cell 4 · Custom axioms · Book III → taulib.custom_axioms
+
+  Resolve the four display_value strings off the release manifest. The
+  manifest is the canonical source-of-truth; the prose count repeats in
+  §1 + §6 of the old homepage have been deleted (AUD-16).
+{%- endcomment -%}
+{%- assign _rel = site.data.release.current -%}
+{%- assign _m_modules     = "" -%}
+{%- assign _m_theorems    = "" -%}
+{%- assign _m_sorry       = "" -%}
+{%- assign _m_custom_ax   = "" -%}
+{%- for _metric in _rel.metrics -%}
+  {%- case _metric.id -%}
+    {%- when "taulib.modules"        -%}{%- assign _m_modules   = _metric.display_value -%}
+    {%- when "taulib.theorems_lemmas"-%}{%- assign _m_theorems  = _metric.display_value -%}
+    {%- when "taulib.sorry"          -%}{%- assign _m_sorry     = _metric.display_value -%}
+    {%- when "taulib.custom_axioms"  -%}{%- assign _m_custom_ax = _metric.display_value -%}
+  {%- endcase -%}
+{%- endfor -%}
+
+<section class="formal-marquee" aria-labelledby="formal-marquee-title">
+  <p class="kicker" id="formal-marquee-title">
+    TauLib · {{ _rel.release_id | default: "v4" }} release manifest
+    {%- if _rel.sources.atlas.commit %} · {{ _rel.sources.atlas.commit | slice: 0, 7 }}{% endif -%}
+  </p>
+  <div class="marquee-grid">
+    <div class="marquee-cell">
+      <span class="num">{{ _m_modules }}</span>
+      <span class="label">Lean&nbsp;4 modules</span>
+    </div>
+    <div class="marquee-cell">
+      <span class="num">{{ _m_theorems }}</span>
+      <span class="label">Theorems &amp; lemmas</span>
+    </div>
+    <div class="marquee-cell marquee-cell--gold">
+      <span class="num">{{ _m_sorry }}</span>
+      <span class="label">Sorry assignments</span>
+    </div>
+    <div class="marquee-cell">
+      <span class="num">{{ _m_custom_ax }}</span>
+      <span class="label">Custom axioms · Book&nbsp;III</span>
+    </div>
+  </div>
+  <p class="manifest-line">Pinned · sharp budget · public source · auditable today</p>
+</section>
