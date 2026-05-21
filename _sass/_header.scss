@@ -549,12 +549,20 @@ body.shell-home .site-header {
 // The dot is a pure typographic affordance — no colour, no lane semantics —
 // and lives in the desktop nav only (the mobile drawer carries lanes in a
 // vertical T1 list, where dot-leaders would read as noise).
+//
+// AUD-24-v2 (May 2026 polish wave) tightened the padding from 6px → 14px
+// so the cluster boundary reads as a *cluster boundary*, not as a third
+// inter-lane separator. The clusters encode the editorial register
+// (orientation · construction · consequence · invitation) — the visual
+// weight of the dot leaders has to match the doctrinal weight of the
+// break, otherwise the row reads as eight lanes-with-dots rather than
+// four typographic clusters.
 .header-nav-dot {
   font-family: $font-mono;
   font-size: 0.82rem;
   color: var(--ink-500);
   opacity: 0.5;
-  padding: 0 6px;
+  padding: 0 14px;
   user-select: none;
   pointer-events: none;
   // Hide on the tablet collapse — the row needs every horizontal pixel
