@@ -102,6 +102,44 @@
   color: var(--color-ink-600);
 }
 
+// AUD-21-N02 (May 2026 polish wave) · de-pill the type label.
+//
+// Before: inner-page breadcrumb row carried THREE visual registers —
+// plain-text breadcrumb (`Home / Program / About the Program`), then
+// an outlined-translucent-white pill (`Program Doctrine`), then a
+// gold-filled status pill (`Canonical`). The audit asks for a single
+// visual register in the row: plain text for navigation + one gold
+// pill for status.
+//
+// Fix: drop the pill chrome (background / border / padding) on
+// `.hero-meta-pill--type` only — keep the mono-caps text inline so
+// the type information stays visible. The mobile rendering at
+// $bp-stack already does `display: none` on this pill (it's already
+// a desktop power-user label); this desktop rule is the gentler
+// version of the same de-emphasis.
+//
+// Result: row reads as `Home / Program / About the Program  ·
+// Program Doctrine  Canonical` where only "Canonical" is a pill.
+//
+// Note: the audit's stronger recommendation is to move the type
+// label out of the breadcrumb row entirely and into a meta line
+// under the H1 (`Doctrine page · last updated May 2026`). That's a
+// multi-layout refactor flagged for a follow-up pass. The
+// de-pillification here closes AUD-21-N02's core concern (three
+// visual registers in one row) inside the polish wave's "one to ten
+// line patch" scope.
+.hero-eyebrow-row .hero-meta-pill--type {
+  background: transparent;
+  border: none;
+  padding: 0;
+  // Keep the mono caps treatment (.hero-eyebrow-pill base sets this);
+  // soften the color to ink-500 so it reads as metadata, not as another
+  // chip competing with the gold canonical pill.
+  color: var(--ink-500);
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+}
+
 // v5 audit Item #19 — canonical / active status pill goes gold.
 // The previous green (--semantic-success) was an outside-doctrine
 // color not declared in the design system. Per the v5 brief, status

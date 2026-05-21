@@ -68,7 +68,14 @@ For the shortest citable orientation, start with [*Panta Rhei at a Glance*]({{ '
 
 The questions below are sourced from the canonical FAQ entity collection (`corpus/faqs/`). Each entry has a stable ID and links to its source pages for deeper context.
 
-{% include faqs/faq-list.html ids="FAQ-FC-001,FAQ-FC-002,FAQ-FC-003,FAQ-FC-005,FAQ-FC-006,FAQ-FC-007" heading="First contact — what this is, what it claims" heading_level="h3" %}
+{%- comment -%}
+  HF-04-v2 (polish wave) · the first entry in the first section opens
+  expanded so a journalist arriving here sees a real answer immediately
+  without a click. Subsequent sections stay collapsed (questions-as-
+  index). Default `expand_first` is false everywhere else (homepage,
+  /faq/ canonical).
+{%- endcomment -%}
+{% include faqs/faq-list.html ids="FAQ-FC-001,FAQ-FC-002,FAQ-FC-003,FAQ-FC-005,FAQ-FC-006,FAQ-FC-007" heading="First contact — what this is, what it claims" heading_level="h3" expand_first="true" %}
 
 {% include faqs/faq-list.html ids="FAQ-JD-001,FAQ-JD-002,FAQ-JD-003,FAQ-JD-005,FAQ-JD-007,FAQ-JD-010,FAQ-JD-013,FAQ-JD-014" heading="Coverage discipline — what to write, avoid, link, cite" heading_level="h3" %}
 

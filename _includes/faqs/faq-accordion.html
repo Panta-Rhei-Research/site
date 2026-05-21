@@ -32,7 +32,7 @@
 {%- if faq.audience and faq.audience.size > 0 -%}
   {%- assign _aud_attr = faq.audience | join: "," -%}
 {%- endif -%}
-<details class="faq-entry" id="{{ faq.id }}" data-faq-id="{{ faq.id }}" data-faq-layer="{{ layer_id }}" data-faq-layer-slug="{{ layer_slug }}" data-faq-audience="{{ _aud_attr }}">
+<details class="faq-entry" id="{{ faq.id }}" data-faq-id="{{ faq.id }}" data-faq-layer="{{ layer_id }}" data-faq-layer-slug="{{ layer_slug }}" data-faq-audience="{{ _aud_attr }}"{% if include.default_open %} open{% endif %}>
   <summary class="faq-entry-summary">
     <span class="faq-entry-question">{{ faq.question }}</span>
     {%- if include.show_layer_label == "true" -%}
