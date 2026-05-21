@@ -2,21 +2,24 @@
   HF-03 TauLib data marquee.
 
   Four-cell data marquee with hairline rules above and below, mono labels,
-  display-serif numbers. The third cell ("0 sorry assignments") takes the
-  gold inflection — this is the doctrine's strongest single claim.
+  display-serif numbers. The Sorry-budget cell (third) takes the gold
+  inflection — this is the doctrine's strongest single claim.
 
   Counts are **rendered from `_data/release/current.yml`**, never hand-
   edited in prose — when v5 ships, the marquee updates automatically.
 
-  Mapping (briefing → release-manifest id):
-    Cell 1 · Lean 4 modules        → taulib.modules
-    Cell 2 · Theorems & lemmas     → taulib.theorems_lemmas
-    Cell 3 · Sorry assignments     → taulib.sorry        (gold)
-    Cell 4 · Custom axioms · Book III → taulib.custom_axioms
+  Mapping (briefing-cell label → release-manifest metric id):
+    Cell 1 · Lean modules              → taulib.modules
+    Cell 2 · Theorems and lemmas       → taulib.theorems_lemmas
+    Cell 3 · Sorry budget              → taulib.sorry          (gold cell)
+    Cell 4 · Custom axioms (Book III)  → taulib.custom_axioms
 
   Resolve the four display_value strings off the release manifest. The
   manifest is the canonical source-of-truth; the prose count repeats in
-  §1 + §6 of the old homepage have been deleted (AUD-16).
+  §1 + §6 of the old homepage have been deleted (AUD-16). The cell labels
+  below are doctrine-named — the count values stay manifest-driven so the
+  check_hardcoded_release_numbers gate keeps a clean separation between
+  labels (allowed) and number+unit phrases (manifest-only).
 {%- endcomment -%}
 {%- assign _rel = site.data.release.current -%}
 {%- assign _m_modules     = "" -%}
