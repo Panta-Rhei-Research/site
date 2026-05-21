@@ -1,0 +1,76 @@
+{%- comment -%}
+  AUD-12 · Chip row — split into two doctrine-distinct rows.
+
+  Pre-v5: chips on result/prediction cards mixed layer identity (E0,
+  E1, E2, E3, τ) with epistemic status (Prediction, Falsifiable,
+  Canonical, Errata, …) in a single chip strip. The audit makes the
+  case that these are semantically incompatible: layer chips answer
+  "where in the program does this live?" while status chips answer
+  "what is the epistemic standing of this claim?" — never the same
+  question.
+
+  v5 splits them into two non-mixing rows:
+
+    <div class="chip-row chip-row--layer">    layer · E0/E1/E2/E3/τ
+    <div class="chip-row chip-row--status">   status · prediction/canonical/…
+
+  Use the include to keep that separation enforceable from one place:
+
+      {% include chip-row.html mode="layer"  values="e0,e1" %}
+      {% include chip-row.html mode="status" values="prediction,falsifiable,corpus-linked" %}
+
+  Recognised layer values:
+    e0 · Mathematics
+    e1 · Physics
+    e2 · Life
+    e3 · Reflection
+    tau · τ-totality
+
+  Recognised status values:
+    prediction · post-diction · bridge-claim · falsifiable
+    pinned · corpus-linked · canonical · errata
+    review-target · open
+
+  Parameters:
+    mode    "layer" (default) | "status"
+    values  comma-separated list of layer or status keys
+    aria    optional aria-label (default per mode)
+{%- endcomment -%}
+{%- assign _mode = include.mode | default: "layer" -%}
+{%- assign _values = include.values | split: "," -%}
+{%- assign _aria = include.aria | default: "" -%}
+{%- if _aria == "" -%}
+  {%- if _mode == "layer" -%}{%- assign _aria = "Layer identity" -%}
+  {%- else -%}{%- assign _aria = "Epistemic status" -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- if _values.size > 0 -%}
+<div class="chip-row chip-row--{{ _mode }}" role="list" aria-label="{{ _aria }}">
+  {%- for _raw in _values -%}
+  {%- assign _v = _raw | strip -%}
+  {%- if _mode == "layer" -%}
+    {%- case _v -%}
+      {%- when "e0" -%}<span class="chip chip--layer chip--e0 lane-e0" role="listitem">E0 · Mathematics</span>
+      {%- when "e1" -%}<span class="chip chip--layer chip--e1 lane-e1" role="listitem">E1 · Physics</span>
+      {%- when "e2" -%}<span class="chip chip--layer chip--e2 lane-e2" role="listitem">E2 · Life</span>
+      {%- when "e3" -%}<span class="chip chip--layer chip--e3 lane-e3" role="listitem">E3 · Reflection</span>
+      {%- when "tau" -%}<span class="chip chip--layer chip--tau" role="listitem">τ · totality</span>
+    {%- endcase -%}
+  {%- else -%}
+    {%- case _v -%}
+      {%- when "prediction"     -%}<span class="chip chip--status chip--status-prediction" role="listitem">Prediction</span>
+      {%- when "post-diction"   -%}<span class="chip chip--status chip--status-postdiction" role="listitem">Post-diction</span>
+      {%- when "bridge-claim"   -%}<span class="chip chip--status chip--status-bridge" role="listitem">Bridge claim</span>
+      {%- when "falsifiable"    -%}<span class="chip chip--status chip--status-falsifiable" role="listitem">Falsifiable</span>
+      {%- when "pinned"         -%}<span class="chip chip--status chip--status-pinned" role="listitem">Pinned</span>
+      {%- when "corpus-linked"  -%}<span class="chip chip--status chip--status-corpus" role="listitem">Corpus-linked</span>
+      {%- when "canonical"      -%}<span class="chip chip--status chip--status-canonical" role="listitem">Canonical</span>
+      {%- when "errata"         -%}<span class="chip chip--status chip--status-errata" role="listitem">Errata</span>
+      {%- when "review-target"  -%}<span class="chip chip--status chip--status-review" role="listitem">Review target</span>
+      {%- when "open"           -%}<span class="chip chip--status chip--status-open" role="listitem">Open</span>
+    {%- endcase -%}
+  {%- endif -%}
+  {%- endfor -%}
+</div>
+{%- endif -%}

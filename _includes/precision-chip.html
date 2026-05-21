@@ -1,0 +1,45 @@
+{%- comment -%}
+  AUD-13 · Precision-tier chip.
+
+  Frontier move: surface a numeric claim's precision tier as a chip
+  next to the claim. No contemporary research site does this — most
+  publish numbers stripped of their epistemic provenance.
+
+  Driven by front-matter `precision:` block on result/prediction pages:
+
+      precision:
+        tier: 6sf            # or "exact", "3sf", "order-of-magnitude"
+        source: "Master constant ιτ = 2/(π+e)"
+
+  Usage (drop into the chip-row of a result card, predictions table,
+  or anywhere a precision-tagged numeric claim appears):
+
+      {% include precision-chip.html tier="6sf" %}
+
+  Or pull from page front-matter automatically:
+
+      {% include precision-chip.html %}
+
+  Parameters (all optional — front-matter falls back):
+    tier   precision tier string. Defaults to page.precision.tier.
+           Recognised values: "exact" · "6sf" · "5sf" · "4sf" · "3sf"
+           · "2sf" · "1sf" · "order-of-magnitude" · "bridge-claim"
+    label  Override the rendered label (default: "Precision · {tier}")
+{%- endcomment -%}
+{%- assign _tier = include.tier | default: page.precision.tier -%}
+{%- if _tier -%}
+  {%- case _tier -%}
+    {%- when "exact" -%}{%- assign _display = "Exact" -%}
+    {%- when "6sf"   -%}{%- assign _display = "6 sf" -%}
+    {%- when "5sf"   -%}{%- assign _display = "5 sf" -%}
+    {%- when "4sf"   -%}{%- assign _display = "4 sf" -%}
+    {%- when "3sf"   -%}{%- assign _display = "3 sf" -%}
+    {%- when "2sf"   -%}{%- assign _display = "2 sf" -%}
+    {%- when "1sf"   -%}{%- assign _display = "1 sf" -%}
+    {%- when "order-of-magnitude" -%}{%- assign _display = "order of magnitude" -%}
+    {%- when "bridge-claim" -%}{%- assign _display = "bridge claim" -%}
+    {%- else -%}{%- assign _display = _tier -%}
+  {%- endcase -%}
+  {%- assign _label = include.label | default: "Precision · " -%}
+  <span class="chip chip--precision" role="listitem">{{ _label }}{{ _display }}</span>
+{%- endif -%}

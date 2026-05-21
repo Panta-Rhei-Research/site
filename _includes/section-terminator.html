@@ -1,0 +1,43 @@
+{%- comment -%}
+  AUD-14 · πρ section terminator.
+
+  Permits one πρ glyph as a section terminator on long-read pages.
+  Restrained, ceremonial, **once per movement maximum**. Add the
+  include between substantial prose movements (e.g. end of an Agenda
+  essay, between Corpus chapters):
+
+      {% include section-terminator.html %}
+
+  Doctrine rule (briefing §AUD-14 + §AUD-26):
+    - At most one per page
+    - Use only at the end of substantial prose movements
+    - Never decorative — never as a default page footer
+    - Never two in a row
+
+  The glyph carries `aria-hidden="true"` because the πρ is a typographic
+  rhythm mark, not content the reader needs to parse.
+
+  Parameters (all optional):
+    variant   "glyph" (default · πρ italic display Garamond)
+              "section"                  · §
+              "hair" / "hairline"        · short centred 80px hairline
+    margin_top    override top margin (px); default 64
+    margin_bottom override bottom margin (px); default 32
+{%- endcomment -%}
+{%- assign _variant = include.variant | default: "glyph" -%}
+{%- assign _mt = include.margin_top | default: "64" -%}
+{%- assign _mb = include.margin_bottom | default: "32" -%}
+
+{%- case _variant -%}
+{%- when "section" -%}
+<p class="section-terminator section-terminator--section" aria-hidden="true"
+   style="margin-top:{{ _mt }}px;margin-bottom:{{ _mb }}px;">§</p>
+{%- when "hair" or "hairline" -%}
+<hr class="section-terminator section-terminator--hair" aria-hidden="true"
+    style="margin-top:{{ _mt }}px;margin-bottom:{{ _mb }}px;" />
+{%- else -%}
+<p class="section-terminator section-terminator--glyph" aria-hidden="true"
+   style="margin-top:{{ _mt }}px;margin-bottom:{{ _mb }}px;">
+  <span class="pr-glyph">πρ</span>
+</p>
+{%- endcase -%}
