@@ -34,9 +34,34 @@ const CACHE_POLICIES = [
     test: (url) => url.pathname.startsWith("/api/"),
     value: "public, max-age=3600, stale-while-revalidate=86400"
   },
+  // Fingerprinted assets (Jekyll's _plugins/asset_fingerprint.rb produces
+  // `name.<10-hex>.ext` paths for CSS/JS). The hash in the URL changes
+  // whenever the file content changes, so `immutable` is safe — a content
+  // edit produces a new URL and the browser fetches it fresh.
   {
-    test: (url) => url.pathname.startsWith("/assets/") || url.pathname.startsWith("/pagefind/"),
+    test: (url) => /\/assets\/.+\.[a-f0-9]{10}\.(?:css|js)$/.test(url.pathname),
     value: "public, max-age=31536000, immutable"
+  },
+  // Pagefind: built by `npm run pagefind` into versioned filenames per
+  // index build. Pagefind embeds its own cache-busting via the
+  // `?v=<timestamp>` query string on every UI script include, so the
+  // underlying files are safe to mark immutable.
+  {
+    test: (url) => url.pathname.startsWith("/pagefind/"),
+    value: "public, max-age=31536000, immutable"
+  },
+  // Unfingerprinted /assets/* — brand SVGs, OG cards, icons, fonts, data
+  // files. Filenames are content-stable by convention but DO get edited
+  // occasionally (e.g. observatory-plate.svg, og/png/index.png). Use
+  // must-revalidate so Cloudflare etag-checks the origin on each request,
+  // preventing a stale cache from outlasting a content edit.
+  //
+  // Long max-age (1 day) still keeps the CDN cache warm for hot assets.
+  // The must-revalidate directive forces freshness when the cache TTL
+  // expires; the etag-based revalidation is cheap.
+  {
+    test: (url) => url.pathname.startsWith("/assets/"),
+    value: "public, max-age=86400, must-revalidate"
   },
   {
     test: (url, response) => isHtmlRequest(url, response),

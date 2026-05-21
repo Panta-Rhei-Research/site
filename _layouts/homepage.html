@@ -91,13 +91,27 @@ layout: default
 
     {%- comment -%}
       Observatory plate — supporting mark at 1:1 aspect ratio.
-      Source: assets/brand/observatory-plate.svg
+      Source: assets/brand/observatory-plate.v5.svg
+
+      Path is versioned (.v5.svg) because the Cloudflare worker applies
+      `cache-control: public, max-age=31536000, immutable` to every
+      `/assets/*` URL. When the original observatory-plate.svg was edited
+      to fix an XML parse error (#249), Cloudflare's edge cache continued
+      serving the broken pre-fix version because immutable instructs
+      caches never to revalidate. Bumping the path to `.v5.svg` cache-
+      misses the old URL and forces a fresh fetch from origin.
+
+      The worker cache policy is also being tightened in this PR so that
+      unfingerprinted /assets/brand/* and /assets/og/* files use
+      `must-revalidate` instead of `immutable` — preventing the same
+      regression on the next non-fingerprinted asset edit.
+
       Decorative (no <title>, role=presentation). The frontispiece-type
       block carries the accessible name via the H1.
     {%- endcomment -%}
     <div class="frontispiece-mark">
       <img class="observatory-plate-img"
-           src="{{ '/assets/brand/observatory-plate.svg' | relative_url }}"
+           src="{{ '/assets/brand/observatory-plate.v5.svg' | relative_url }}"
            alt="" width="320" height="320" aria-hidden="true" decoding="async" />
     </div>
   </div>

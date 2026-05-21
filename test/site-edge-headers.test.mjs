@@ -52,7 +52,19 @@ const cases = [
     "application/pdf",
     "public, max-age=3600, must-revalidate"
   ],
-  ["/assets/css/site.css", "text/css", "public, max-age=31536000, immutable"],
+  // Fingerprinted CSS/JS (10-hex hash before extension) → immutable.
+  // These are the actual production filenames after the asset-fingerprint
+  // plugin runs; any content change produces a new URL so immutable is safe.
+  ["/assets/css/main.abc1234567.css", "text/css", "public, max-age=31536000, immutable"],
+  ["/assets/js/site.0123456789.js", "text/javascript", "public, max-age=31536000, immutable"],
+  // Unfingerprinted /assets/* — brand SVGs, OG cards, fonts, data files,
+  // and any CSS/JS that escapes the fingerprint plugin (e.g. /assets/css/
+  // *.css before fingerprinting in dev). Use must-revalidate so a content
+  // edit propagates within the 1-day TTL without waiting for the next
+  // CDN-wide purge. This is the hotfix doctrine codified in PR #251.
+  ["/assets/css/site.css", "text/css", "public, max-age=86400, must-revalidate"],
+  ["/assets/brand/observatory-plate.v5.svg", "image/svg+xml", "public, max-age=86400, must-revalidate"],
+  ["/assets/og/png/index.png", "image/png", "public, max-age=86400, must-revalidate"],
   ["/assets/site.webmanifest", "application/manifest+json", "public, max-age=604800"],
   ["/pagefind/pagefind.js", "text/javascript", "public, max-age=31536000, immutable"],
   ["/sitemap.xml", "application/xml", "public, max-age=86400"],
