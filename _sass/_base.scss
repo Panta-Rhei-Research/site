@@ -113,8 +113,43 @@ a {
     color: var(--panta-blue-900);
   }
 
+  // AUD-20 · :visited plum.
+  //
+  // Modern browser privacy rules narrow what styles fire on :visited:
+  // - color, background-color, border-color, column-rule-color,
+  //   outline-color, fill/stroke can change
+  // - everything else is blocked
+  //
+  // For `color` specifically, the rule below DOES paint — but with one
+  // gotcha: some Chromium versions do not expand `var()` inside :visited
+  // (the variable resolves but the URL-history-side-channel mitigation
+  // refuses to recompute it). We declare a hex literal first so the
+  // fallback always lands; modern browsers cascade over with the var()
+  // when they support it.
+  //
+  // Hex value #624269 is --layer-e3 (E3 Reflection plum).
   &:visited {
+    color: #624269;
     color: var(--layer-e3);
+  }
+}
+
+// AUD-20 · aria-current="page" — the audit's recommended fallback for
+// "you are here" when :visited is unreliable. Applied to in-page nav
+// elements (lane index, sidebar nav, rail nav). The styling adds a
+// plum color + (with the .aria-current-rail ancestor opt-in) a
+// left-border accent so the active page is always visually marked
+// regardless of :visited support.
+a[aria-current="page"] {
+  color: var(--layer-e3);
+  font-weight: 520;
+
+  // Selective rail-style accent — opted-in via .aria-current-rail
+  // ancestor so links that live in a vertical nav rail get the
+  // border accent without affecting inline-prose links.
+  .aria-current-rail & {
+    border-left: 2px solid var(--layer-e3);
+    padding-left: 8px;
   }
 }
 

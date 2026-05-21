@@ -157,7 +157,7 @@
       {%- if page.url contains item.match -%}{%- assign nav_active = true -%}{%- endif -%}
       {%- if page.url contains "/agenda/" and item_key == "program" -%}{%- assign nav_active = false -%}{%- endif -%}
       {%- if active_lane == item_key -%}{%- assign nav_active = true -%}{%- endif -%}
-      <a href="{{ item.url | relative_url }}" class="header-nav-link header-nav-link-{{ item_key }}{% if nav_active %} active{% endif %}">{{ item.title }}</a>
+      <a href="{{ item.url | relative_url }}" class="header-nav-link header-nav-link-{{ item_key }}{% if nav_active %} active{% endif %}"{% if nav_active %} aria-current="page"{% endif %}>{{ item.title }}</a>
       {%- if _cluster_breaks contains item_key -%}
       <span class="header-nav-dot" aria-hidden="true">·</span>
       {%- endif -%}
