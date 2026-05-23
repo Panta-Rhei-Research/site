@@ -48,6 +48,35 @@ That ownership move does not weaken verification. It makes the boundary cleaner:
   <li><article class="v2-tile"><h3>{% include release-metric.html id="taulib.registry_links" unit=true %}</h3><p>Registry-to-module anchors that connect the atomic Corpus to Lean source.</p></article></li>
 </ul>
 
+## Formalization Release Lines
+
+<!--
+  v5 next-wave W8a · IA Doctrine v5 §9.1 + Release Lines Addendum §7.
+  Source: atlas/website/v5/panta-rhei-release-lines-formalization-
+          surfaces-v5-addendum.md §7 (TauLib Release Lines) + §9.1
+          (Corpus lane TauLib representation).
+  Data:   _data/release_lines.yml · formalization_release_lines.
+-->
+
+TauLib publishes through two release lines plus a per-result proof-package layer. Each release line is a distinct citable surface with its own status, audience, and update cadence.
+
+<ul class="v2-grid v2-card-list">
+  <li><article class="v2-tile">
+    <h3>TauLib v2 Snapshot</h3>
+    <p>Frozen Lean projection of the Second-Edition Corpus. <strong>Public · pinned · citable.</strong> The current public docs at <a href="https://taulib.site" target="_blank" rel="noopener">taulib.site</a> render against this snapshot; the snapshot's pinned commit + Lean toolchain are recorded in the <a href="{{ '/verify/release-manifest/' | relative_url }}">Release Manifest</a>.</p>
+  </article></li>
+  <li><article class="v2-tile">
+    <h3>TauLib v3 Library</h3>
+    <p>Layered active library — import-isolated kernel, Mathlib-facing bridges, community-readable module structure. <strong>In preparation · private repository · not yet citable.</strong> See <a href="{{ '/verify/taulib/' | relative_url }}">Verify · TauLib</a> for the inspection-bridge framing.</p>
+  </article></li>
+  <li><article class="v2-tile">
+    <h3>Research Modules / Proof Packages</h3>
+    <p>Isolated proof packages and reproducibility bundles for specific formal results. Each package has its own state (<em>in construction · draft · candidate · released · superseded</em>) and is citable per-package once released. See <a href="{{ '/verify/release-manifest/' | relative_url }}#formalization-release-lines">Formalization Release Lines</a>.</p>
+  </article></li>
+</ul>
+
+The everything below ("Entry points", "Verification boundary") refers to the **TauLib v2 Snapshot** — the public release line. TauLib v3 surfaces will land as the layered library moves from private working to public release.
+
 ## Entry points
 
 <ul class="v2-grid v2-card-list">

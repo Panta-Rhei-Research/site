@@ -115,6 +115,25 @@ A fifth adjacent layer, [Research Code]({{ '/verify/taulib/' | relative_url }}) 
   <li><article><a class="v2-tile" href="{{ '/cite/' | relative_url }}"><h3>Cite</h3><p>How to cite the program — individual monographs by Zenodo DOI, the program by canonical URL, TauLib by repository plus theorem name.</p></a></article></li>
 </ul>
 
+## Adjacent class — Research Code
+
+<!--
+  v5 next-wave W8a · Release Lines Addendum §9.5.
+  Research Code is publication-adjacent: it does not replace the
+  four primary prose classes, but it is the second canonical
+  publication shape (alongside the four prose classes) for
+  formalization + computational artifacts.
+-->
+
+A second canonical publication shape sits alongside the four prose classes — **Research Code / Research Modules**. Formalization and computational artifacts (TauLib snapshots, proof packages, reproducibility repositories, formal modules) are first-class publications of the program, but with a different shape than papers, notes, or dossiers: they are inspected by running them, not by reading them.
+
+<ul class="v2-grid v2-card-list">
+  <li><article><a class="v2-tile" href="{{ '/corpus/taulib/' | relative_url }}"><h3>TauLib (Corpus)</h3><p>The Corpus-side projection of TauLib — compiled Lean module inventory, source map, Registry-link map, with the v2 Snapshot + v3 Library release-line split.</p></a></article></li>
+  <li><article><a class="v2-tile" href="{{ '/verify/taulib/' | relative_url }}"><h3>TauLib Inspection Bridge (Verify)</h3><p>The Verify-side bridge — what Lean compilation establishes, the axiom + sorry policy, the Mathlib bridge policy, and the external-validation boundary.</p></a></article></li>
+</ul>
+
+Research Code is not part of the Publications lane's primary four-class grid because its read-by-running shape differs structurally from prose artifacts. It is *adjacent* — a parallel publication surface for formal machinery, treated under [Corpus]({{ '/corpus/' | relative_url }}) and [Verify]({{ '/verify/' | relative_url }}) rather than here.
+
 ## Glossary
 
 ### Research Monographs
