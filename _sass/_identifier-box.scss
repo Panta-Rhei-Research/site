@@ -1,0 +1,170 @@
+// ================================================================
+// Identifier Box — right-rail authority block
+// ================================================================
+//
+// Source: atlas/website/v5/panta-rhei-ia-doctrine-v5.md §10.3 surface 2.
+// Include: _includes/identifier-box.html
+// Manifest: _data/research_graph.yml
+//
+// Renders inside the .right-rail aside on any page whose URL matches
+// an entity in the research-graph manifest. Sits between the TOC and
+// the "Related pages" block per the doctrine-recommended position
+// (high-priority "what this page IS" info before "where to read next").
+//
+// Visual register: peer of .rail-section. Inherits the rail's spacing
+// + title typography. Identifier rows use mono labels (DOI / OSF /
+// ORCID / etc.) + mono values so the box reads as a citation surface
+// rather than a navigation surface.
+
+.identifier-box {
+  // Inherits .rail-section spacing + .rail-section-title typography.
+  // The box-specific additions are below.
+}
+
+.identifier-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--rule-soft, var(--rule));
+
+    &:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+  }
+
+  dt {
+    font-family: $font-mono;
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-600, var(--ink-700));
+    margin: 0;
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+  }
+
+  dd {
+    margin: 0;
+    font-family: $font-ui;
+    font-size: 0.86rem;
+    color: var(--ink-800);
+    word-break: break-word;
+    line-height: 1.4;
+
+    code {
+      font-family: $font-mono;
+      font-size: 0.85em;
+      background: var(--paper-200);
+      padding: 1px 5px;
+      border-radius: 3px;
+      color: var(--ink-800);
+    }
+
+    a {
+      color: var(--panta-blue-700);
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+        text-underline-offset: 3px;
+      }
+
+      &:visited { color: var(--panta-blue-700); }
+
+      code {
+        background: transparent;
+        padding: 0;
+        color: inherit;
+        font-size: 0.95em;
+      }
+    }
+  }
+}
+
+// ── Author-meta tag inside the ORCID label row ──────────────────
+// Renders the author's name to the right of the "ORCID" label, in
+// regular-case serif so the reader can attribute the ORCID without
+// expanding the link.
+.identifier-row-meta {
+  font-family: $font-ui;
+  font-size: 11.5px;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink-600, var(--ink-700));
+  font-style: italic;
+}
+
+// ── Local ID row — visually de-emphasized ───────────────────────
+//
+// The local prrp: identifier is the program's internal handle —
+// stable, referenceable, but lower priority than DOI/ORCID for the
+// reader. Render it slightly muted and break-all so the long string
+// wraps cleanly inside the narrow rail column.
+.identifier-row--local {
+  opacity: 0.85;
+
+  .identifier-local-id {
+    font-family: $font-mono;
+    font-size: 11px;
+    background: var(--paper-200);
+    padding: 2px 6px;
+    border-radius: 3px;
+    color: var(--ink-700);
+    word-break: break-all;
+    line-height: 1.35;
+    display: inline-block;
+  }
+}
+
+// ── Box footer — link out to the central Research Graph page ────
+.identifier-box-footer {
+  margin: 10px 0 0;
+  font-family: $font-mono;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-600, var(--ink-700));
+
+  a {
+    color: var(--panta-blue-700);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      color: var(--panta-blue-900);
+    }
+
+    &:visited { color: var(--panta-blue-700); }
+  }
+}
+
+// ── Mobile: rail collapses, box still readable ──────────────────
+//
+// On mobile the right-rail moves into the page-tools drawer, so
+// the identifier box renders inside the drawer at the same layout
+// (just with a slightly tighter padding). The dt/dd vertical stack
+// works in both contexts.
+@media (max-width: $bp-stack) {
+  .identifier-list > div {
+    padding-bottom: 5px;
+  }
+
+  .identifier-list dd {
+    font-size: 0.92rem;
+  }
+}

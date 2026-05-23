@@ -474,7 +474,7 @@ entities:
   - id: prrp:publication:note-arithmetic-quantum-gravity-without-singularities
     type: research_note
     label: "Arithmetic Quantum Gravity Without Singularities"
-    url: /research-notes/arithmetic-quantum-gravity-without-singularities/
+    url: /publications/research-notes/arithmetic-quantum-gravity-without-singularities/
     wikidata_qid: null
     doi: 10.5281/zenodo.19815808
     osf: null
@@ -494,7 +494,7 @@ entities:
     type: research_note
     label: "Black Holes Without Extra Dimensions"
     subtitle: "Structural-prior reading of black-hole stability under Category τ"
-    url: /research-notes/black-holes-without-extra-dimensions/
+    url: /publications/research-notes/black-holes-without-extra-dimensions/
     wikidata_qid: null
     doi: 10.5281/zenodo.19816581
     osf: null
@@ -514,7 +514,7 @@ entities:
     type: research_note
     label: "Dark Matter Without Dark Matter — the kSZ Force Law"
     subtitle: "Dark Matter vs MOND vs Category τ"
-    url: /research-notes/dark-matter-without-dark-matter-ksz-force-law/
+    url: /publications/research-notes/dark-matter-without-dark-matter-ksz-force-law/
     wikidata_qid: null
     doi: 10.5281/zenodo.19816406
     osf: null
@@ -533,7 +533,7 @@ entities:
   - id: prrp:publication:note-inflationary-observables-without-an-inflaton
     type: research_note
     label: "Inflationary Observables Without an Inflaton"
-    url: /research-notes/inflationary-observables-without-an-inflaton/
+    url: /publications/research-notes/inflationary-observables-without-an-inflaton/
     wikidata_qid: null
     doi: 10.5281/zenodo.19816068
     osf: null
@@ -553,7 +553,7 @@ entities:
     type: research_note
     label: "Dynamic Chirality-Induced Spin Selectivity as a Symmetry-Class Bridge"
     subtitle: "Structural-prior reading of DCISS"
-    url: /research-notes/structural-prior-dynamic-chirality-induced-spin-selectivity/
+    url: /publications/research-notes/structural-prior-dynamic-chirality-induced-spin-selectivity/
     wikidata_qid: null
     doi: 10.5281/zenodo.19815548
     osf: null
@@ -571,7 +571,7 @@ entities:
   - id: prrp:publication:note-semantic-space-has-a-shape
     type: research_note
     label: "Semantic Space Has a Shape"
-    url: /research-notes/semantic-space-has-a-shape/
+    url: /publications/research-notes/semantic-space-has-a-shape/
     wikidata_qid: null
     doi: 10.5281/zenodo.19816808
     osf: null
@@ -590,7 +590,7 @@ entities:
   - id: prrp:publication:note-aesthetic-topology-pre-symbolic-readout
     type: research_note
     label: "Aesthetic Topology as Pre-Symbolic Readout"
-    url: /research-notes/aesthetic-topology-pre-symbolic-readout/
+    url: /publications/research-notes/aesthetic-topology-pre-symbolic-readout/
     wikidata_qid: null
     doi: 10.17605/OSF.IO/SBPD6
     osf: https://osf.io/sbpd6/
@@ -609,7 +609,7 @@ entities:
     type: research_note
     label: "Thirty Open Problems as τ-Readout Surfaces"
     subtitle: "Inspection ledger pinning thirty named open problems on the readout-surface frontier"
-    url: /research-notes/thirty-open-problems-tau-readout-surfaces/
+    url: /publications/research-notes/thirty-open-problems-tau-readout-surfaces/
     wikidata_qid: null
     doi: null
     osf: null
@@ -628,7 +628,7 @@ entities:
   - id: prrp:publication:note-natarajan-cluster-dichotomy-categorical
     type: research_note
     label: "The Natarajan Dichotomy as One D-Sector Readout in Two Regimes"
-    url: /research-notes/natarajan-cluster-dichotomy-categorical/
+    url: /publications/research-notes/natarajan-cluster-dichotomy-categorical/
     wikidata_qid: null
     doi: 10.17605/OSF.IO/BFRX3
     osf: https://osf.io/bfrx3/
@@ -647,7 +647,7 @@ entities:
   - id: prrp:publication:note-reading-prometheus-through-tau
     type: research_note
     label: "Reading PROMETHEUS Through Category τ"
-    url: /research-notes/reading-prometheus-through-tau/
+    url: /publications/research-notes/reading-prometheus-through-tau/
     wikidata_qid: null
     doi: 10.17605/OSF.IO/76CZR
     osf: https://osf.io/76czr/
@@ -665,7 +665,7 @@ entities:
   - id: prrp:publication:note-when-search-becomes-structure
     type: research_note
     label: "When Witness Search Becomes Address Construction"
-    url: /research-notes/when-search-becomes-structure/
+    url: /publications/research-notes/when-search-becomes-structure/
     wikidata_qid: null
     doi: 10.17605/OSF.IO/HPZSN
     osf: https://osf.io/hpzsn/
