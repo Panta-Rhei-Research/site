@@ -23,7 +23,15 @@ layout: default
 
 {% include breadcrumb-nav.html %}
 
-<article class="corpus-v3-item">
+{%- comment -%}
+  Wave 7b — Pagefind facet metadata.
+  data-pagefind-filter exposes facets for the Pagefind UI to filter results
+  by type, status, lane, release-line. data-pagefind-meta surfaces
+  CID + primary alias as searchable fields visible in search hit cards.
+{%- endcomment -%}
+<article class="corpus-v3-item"
+         data-pagefind-filter="lane:corpus, type:{{ page.type }}, status:{{ page.status }}"
+         data-pagefind-meta="cid:{{ page.cid }}, alias:{{ page.primary_alias }}">
 
   <header class="hero-card">
     <div class="hero-eyebrow-row">

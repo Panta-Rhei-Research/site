@@ -132,6 +132,37 @@
     </div>
   {%- endif -%}
 
+  {%- comment -%}
+    Reverse-computed downstream uses (Wave 7b) — items in the corpus pointing
+    AT this one via load-bearing relations. Computed at build time by
+    scripts/generate_corpus_v3_pages.py::build_reverse_index. Different from
+    "Downstream uses (declared)" above (which mirrors the item's own used_by[]
+    field, rarely populated). Surfaces incoming-edge discoverability per
+    web addendum §6 ("Downstream uses panel").
+  {%- endcomment -%}
+  {%- if page.downstream_uses.size > 0 -%}
+    <h3 style="font-size: 1rem;">Downstream uses (computed) ({{ page.downstream_uses.size }})</h3>
+    <p class="muted-note" style="font-size: 0.78rem; margin-top: 0;">
+      Items in the corpus that reference this one via load-bearing relations.
+      Computed from the full corpus-v3 graph at build time.
+    </p>
+    <div class="chip-row" style="margin-bottom: 12px;">
+      {%- for link in page.downstream_uses limit:25 -%}
+        <a class="chip chip-link" href="/id/{{ link.source_cid }}/" title="{{ link.source_title | escape }} ({{ link.predicate }})">
+          <code>{{ link.source_primary_alias | default: link.source_cid }}</code>
+          {%- if link.source_type and link.source_type != "" -%}
+            <span style="margin-left: 4px; opacity: 0.7; font-size: 0.75rem;">{{ link.source_type | replace: "_", " " }}</span>
+          {%- endif -%}
+        </a>
+      {%- endfor -%}
+    </div>
+    {%- if page.downstream_uses.size > 25 -%}
+      <p class="muted-note" style="font-size: 0.78rem; font-style: italic;">
+        +{{ page.downstream_uses.size | minus: 25 }} more downstream items (full list available in build manifest)
+      </p>
+    {%- endif -%}
+  {%- endif -%}
+
   {%- if page.sources.size > 0 -%}
     <h3 style="font-size: 1rem;">Sources</h3>
     <ul class="meta-list" style="font-size: 0.85rem;">

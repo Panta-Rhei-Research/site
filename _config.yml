@@ -59,6 +59,9 @@ collections:
   corpus_v3_items:
     output: true
     permalink: /id/:name/
+  corpus_v3_alias_redirects:
+    output: true
+    permalink: /:name/
   predictions:
     output: true
     permalink: /predictions/:name/
