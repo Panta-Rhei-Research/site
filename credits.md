@@ -5,13 +5,17 @@ lane: support
 type: support_page
 support_type: credits
 status: canonical
-last_updated: 2026-04-30
-updated: "April 2026"
+last_updated: 2026-05-23
+updated: "May 2026"
 permalink: /credits/
-summary: "Third-party assets, open-source libraries, tooling, and license notes for panta-rhei.site."
-summary_short: "Third-party assets, open-source libraries, and tooling that power panta-rhei.site — with licenses named explicitly."
+summary: "Licenses, third-party assets, open-source libraries, and acknowledgements for panta-rhei.site. For how the site is built, see the Colophon."
+summary_short: "Licenses, third-party assets, open-source libraries, and acknowledgements that power panta-rhei.site — with licenses named explicitly."
 right_rail:
   related:
+  - title: Colophon
+    url: /colophon/
+  - title: About this Site
+    url: /about-site/
   - title: Brand
     url: /brand/
   - title: Impressum
@@ -24,10 +28,30 @@ right_rail:
     type: "Support page"
     scope: "Credits"
     status: "Canonical"
-    updated: "April 2026"
+    updated: "May 2026"
 ---
 
+<!--
+  Credits — scope tightened per IA Doctrine v5 §9.5 (W4b).
+
+  Distinction:
+    About this Site → how to USE the Observatory
+    Colophon        → how the Observatory is BUILT  (/colophon/)
+    Credits         → licenses, assets, acknowledgements (this page)
+    Changelog       → site/release changes          (/changelog/)
+    Research Log    → research progress             (/research-log/, W5)
+
+  Credits remains the canonical roll-up of licenses, fonts, third-party
+  assets, dependencies, and data sources. The Colophon now owns the
+  full build-stack documentation (Jekyll plugin lifecycle, Pagefind
+  index pipeline, design tokens, accessibility posture). Acknowledgement
+  entries here and stack documentation there are complementary, not
+  duplicated.
+-->
+
 The Panta Rhei research site is handcrafted with the help of excellent open-source and third-party work. We thank the authors and communities behind the following tools and assets.
+
+For **how the site is built** — the static-site stack, the search pipeline, the metadata layer, the design system, and the build-time site facts — see the [Colophon]({{ '/colophon/' | relative_url }}).
 
 ## Content license
 
