@@ -16,6 +16,19 @@ og_image_alt: "Scientific plate showing Monograph Supplements as one category in
 
 ## Monograph Supplements
 
+<div class="notice note">
+  <strong>Retired visible category · still resolves.</strong>
+  Monograph Supplements is no longer one of the program's primary
+  visible publication classes per the
+  <a href="https://github.com/Panta-Rhei-Research/atlas/blob/main/website/v5/panta-rhei-publication-taxonomy-v5-supplement.md">Publication Taxonomy v5 Supplement</a>
+  §3.1. Each supplement is now folded by scholarly function:
+  the <a href="{{ '/publications/monograph-supplements/numerical-physics-ledger/' | relative_url }}">Numerical Physics Ledger</a>
+  folds into Corpus + Errata; <a href="{{ '/publications/monograph-supplements/categorical-genesis/' | relative_url }}">Categorical Genesis</a>
+  reclassifies as a Research Monograph chapter / appendix in the
+  Book VII edition. This index page continues to resolve for
+  back-compat; the artifacts below remain reachable.
+</div>
+
 Monograph Supplements are book-style artifacts attached to the Research Monographs but released separately.
 
 They may contain omitted chapters, extended appendices, numerical ledgers, derivation packs, background parts, or canonical extensions that would otherwise have belonged inside a monograph volume.

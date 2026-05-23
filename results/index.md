@@ -147,6 +147,25 @@ Every result should be read with its status markers. An internally addressed res
 
 </div>
 
+## Supporting Publications
+
+<!--
+  v5 next-wave W7b · IA §3.2 cross-link block.
+  Source: atlas/website/v5/panta-rhei-ia-doctrine-v5.md §3.2 Results lane.
+  Publications-class artifacts that carry or support specific Results.
+  These supplement — they do not replace — the per-result verification
+  panels below.
+-->
+
+Specific results are often carried, supported, or pre-registered by publication-class artifacts. The four publication classes most relevant to a Results reader:
+
+<ul class="v2-grid v2-card-list">
+  <li><article><a class="v2-tile" href="{{ '/publications/research-papers/' | relative_url }}"><h3>Result-bearing Papers</h3><p>Standalone scholarly papers whose primary contribution states or proves a Result — the Hinge series.</p></a></article></li>
+  <li><article><a class="v2-tile" href="{{ '/publications/research-notes/' | relative_url }}"><h3>Prediction Notes</h3><p>Research Notes pre-registering a prediction or comparing the program's stance against external observations.</p></a></article></li>
+  <li><article><a class="v2-tile" href="{{ '/verify/predictions-and-falsification/' | relative_url }}"><h3>Falsification &amp; Pre-registration Notes</h3><p>The Verify lane's collation of falsification packs and pre-registration notes across Results.</p></a></article></li>
+  <li><article><a class="v2-tile" href="{{ '/publications/research-notes/' | relative_url }}"><h3>Research Notes by domain</h3><p>The full Research Notes shelf, filterable by physics / life / mathematics / metaphysics domain.</p></a></article></li>
+</ul>
+
 ## Cross-cutting surfaces
 
 <div class="v2-grid">

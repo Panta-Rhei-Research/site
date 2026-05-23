@@ -43,6 +43,20 @@ right_rail:
 
 {% assign anchor_docs = site.data.publications.anchor_documents.documents %}
 
+<div class="notice note">
+  <strong>Retired visible category · still resolves.</strong>
+  Anchor Documents is no longer one of the program's primary
+  visible publication classes per the
+  <a href="https://github.com/Panta-Rhei-Research/atlas/blob/main/website/v5/panta-rhei-publication-taxonomy-v5-supplement.md">Publication Taxonomy v5 Supplement</a>.
+  Each anchor document is now reclassified by scholarly function
+  into one of the four primary classes — typically a
+  <a href="{{ '/publications/research-monographs/' | relative_url }}">Research Monograph</a>,
+  a <a href="{{ '/publications/research-dossiers/' | relative_url }}">Research Dossier</a>,
+  or a <a href="{{ '/publications/research-papers/' | relative_url }}">Research Paper</a>.
+  This index page continues to resolve for back-compat; the citable
+  offline routes below remain reachable.
+</div>
+
 ## Start Here
 
 Anchor Documents are the downloadable offline routes into the Panta Rhei
