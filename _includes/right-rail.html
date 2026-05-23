@@ -29,6 +29,18 @@
   {% endif %}
   {% endif %}
 
+  {%- comment -%}
+    Identifier Box (v5 next-wave W6b · IA §10.3 surface 2).
+    Renders right after the TOC when the page's URL matches an entity
+    in the research-graph manifest (publications, persons, software,
+    program, observatory). Silently absent on pages that have no
+    graph entity — the include returns nothing.
+
+    Doctrine: atlas/website/v5/panta-rhei-ia-doctrine-v5.md §10.3
+    + §10.6 ("How identifiers appear on pages").
+  {%- endcomment -%}
+  {% include identifier-box.html %}
+
   {% if page.right_rail.related %}
   <div class="rail-section">
     <div class="rail-section-title">Related pages</div>

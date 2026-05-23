@@ -1,0 +1,123 @@
+{%- comment -%}
+  Identifier Box — v5 next-wave W6b (IA Doctrine v5 §10.3 surface 2).
+
+  Source: atlas/website/v5/panta-rhei-ia-doctrine-v5.md §10.3 + §10.6.
+  Manifest: _data/research_graph.yml (W6a backfill — 37 entities).
+  Roadmap: atlas/website/briefings/v5/v5-next-wave-roadmap-2026-05-23/
+           README.md (W6 · Research Graph + identifier boxes — PR 6b).
+
+  Hangs a uniform right-rail box on any page whose URL matches an
+  entity in the research-graph manifest. The box lists the entity's
+  persistent identifiers (DOI · ORCID(s) · OSF · GitHub · Wikidata)
+  plus the entity's local prrp: id.
+
+  Lookup is automatic — the include walks site.data.research_graph.
+  entities once, picking the first entity whose `url` or
+  `legacy_url` matches page.url. No per-page front-matter wiring is
+  required; new artifacts get the box the moment they are added to
+  the manifest.
+
+  Render is skipped silently when no match is found (the rail just
+  proceeds without the box), so the include is safe to call from
+  any layout.
+
+  Layouts that include this:
+    publication-book           (the Seven Books — current /publications/books/)
+    publication-archive-book   (first-edition archive)
+    research-note              (the eleven Research Notes)
+    (research-paper layout is the standard page render with the
+     paper landing pages — they use the same right-rail include and
+     pick up the box automatically.)
+
+  Token usage: matches the existing .rail-section grammar so the
+  box reads as a peer of "Related pages" and "Related artifacts"
+  rather than a new visual register.
+{%- endcomment -%}
+
+{%- assign rg_entity = nil -%}
+{%- assign rg_normalized_page_url = page.url -%}
+{%- for entity in site.data.research_graph.entities -%}
+  {%- if entity.url and entity.url == rg_normalized_page_url -%}
+    {%- assign rg_entity = entity -%}
+    {%- break -%}
+  {%- elsif entity.legacy_url and entity.legacy_url == rg_normalized_page_url -%}
+    {%- assign rg_entity = entity -%}
+    {%- break -%}
+  {%- elsif entity.canonical_url_post_w7 and entity.canonical_url_post_w7 == rg_normalized_page_url -%}
+    {%- assign rg_entity = entity -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if rg_entity -%}
+<div class="rail-section identifier-box" aria-labelledby="identifier-box-title">
+  <div class="rail-section-title" id="identifier-box-title">Identifiers</div>
+  <dl class="identifier-list">
+
+    {%- if rg_entity.doi -%}
+    <div class="identifier-row" data-identifier="doi">
+      <dt>DOI</dt>
+      <dd><a href="https://doi.org/{{ rg_entity.doi }}" target="_blank" rel="noopener" data-umami-event="outbound.doi" data-umami-event-location="identifier-box" data-umami-event-type="external"><code>{{ rg_entity.doi }}</code></a></dd>
+    </div>
+    {%- endif -%}
+
+    {%- if rg_entity.osf -%}
+    <div class="identifier-row" data-identifier="osf">
+      <dt>OSF</dt>
+      <dd><a href="{{ rg_entity.osf }}" target="_blank" rel="noopener" data-umami-event="outbound.osf" data-umami-event-location="identifier-box" data-umami-event-type="external">{{ rg_entity.osf | replace: 'https://osf.io/', 'osf.io/' | replace: 'https://doi.org/', '' }}</a></dd>
+    </div>
+    {%- endif -%}
+
+    {%- if rg_entity.arxiv -%}
+    <div class="identifier-row" data-identifier="arxiv">
+      <dt>arXiv</dt>
+      <dd><a href="{{ rg_entity.arxiv }}" target="_blank" rel="noopener" data-umami-event="outbound.arxiv" data-umami-event-location="identifier-box" data-umami-event-type="external">{{ rg_entity.arxiv | replace: 'https://arxiv.org/abs/', 'arXiv:' }}</a></dd>
+    </div>
+    {%- endif -%}
+
+    {%- comment -%}
+      Authors are listed by local prrp: id in the manifest. We look
+      each one up in the same entities list to render their name +
+      ORCID. This is one extra pass per identifier box (cheap — the
+      manifest has 37 entries) and keeps the box self-contained
+      against any local ID change in the manifest.
+    {%- endcomment -%}
+    {%- if rg_entity.authors and rg_entity.authors.size > 0 -%}
+    {%- for author_id in rg_entity.authors -%}
+      {%- for candidate in site.data.research_graph.entities -%}
+        {%- if candidate.id == author_id and candidate.orcid -%}
+    <div class="identifier-row" data-identifier="orcid">
+      <dt>ORCID <span class="identifier-row-meta">{{ candidate.label }}</span></dt>
+      <dd><a href="{{ candidate.orcid }}" target="_blank" rel="noopener" data-umami-event="outbound.orcid" data-umami-event-location="identifier-box" data-umami-event-type="external"><code>{{ candidate.orcid | replace: 'https://orcid.org/', '' }}</code></a></dd>
+    </div>
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endfor -%}
+    {%- endif -%}
+
+    {%- if rg_entity.repository -%}
+    <div class="identifier-row" data-identifier="github">
+      <dt>GitHub</dt>
+      <dd><a href="{{ rg_entity.repository }}" target="_blank" rel="noopener" data-umami-event="outbound.github" data-umami-event-location="identifier-box" data-umami-event-type="external" data-umami-event-outbound="github">{{ rg_entity.repository | replace: 'https://github.com/', '' }}</a></dd>
+    </div>
+    {%- endif -%}
+
+    {%- if rg_entity.wikidata_qid -%}
+    <div class="identifier-row" data-identifier="wikidata">
+      <dt>Wikidata</dt>
+      <dd><a href="https://www.wikidata.org/wiki/{{ rg_entity.wikidata_qid }}" target="_blank" rel="noopener" data-umami-event="outbound.wikidata" data-umami-event-location="identifier-box" data-umami-event-type="external"><code>{{ rg_entity.wikidata_qid }}</code></a></dd>
+    </div>
+    {%- endif -%}
+
+    <div class="identifier-row identifier-row--local" data-identifier="local">
+      <dt>Local ID</dt>
+      <dd><code class="identifier-local-id">{{ rg_entity.id }}</code></dd>
+    </div>
+
+  </dl>
+
+  <p class="identifier-box-footer">
+    <a href="{{ '/research-graph/' | relative_url }}">Research Graph →</a>
+  </p>
+</div>
+{%- endif -%}
