@@ -32,12 +32,22 @@ layout: default
   </div>
 </div>
 
-{% assign entries = site.data.research_log.entries | sort: "date" | reverse %}
+{%- comment -%}
+  Entries are appended chronologically (oldest first) in the YAML
+  manifest, so a plain | reverse here yields newest-first display
+  order. We avoid Jekyll's `sort: "date"` filter on data files — it
+  trips on YAML-parsed Date objects in some Jekyll/Ruby combos with
+  a "no implicit conversion of String into Integer" TypeError.
+  Manifest discipline (append-only, chronological) makes the sort
+  unnecessary.
+{%- endcomment -%}
+{% assign entries = site.data.research_log.entries | reverse %}
+{% assign oldest_entry = site.data.research_log.entries | first %}
 
 <section class="content-card research-log-feed" aria-labelledby="research-log-feed-title">
   <div class="prose">
     <h2 id="research-log-feed-title">Entries</h2>
-    <p class="muted-note">{{ entries | size }} entries · newest first · oldest entry {{ entries | last | map: "date" | first | date: "%d %B %Y" }}</p>
+    <p class="muted-note">{{ entries | size }} entries · newest first · oldest entry {{ oldest_entry.date | date: "%d %B %Y" }}</p>
   </div>
 
   <ol class="research-log-list" role="list">
