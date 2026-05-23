@@ -107,6 +107,67 @@
            (<code>τ-totality</code>), or a Lean theorem ID
            (<code>Theorem 3.2.4</code>).</p>
       </div>
+      {%- comment -%}
+        v5 next-wave W3 (2026-05-23) · search modal quick-access empty state.
+
+        Source: atlas/website/v5/panta-rhei-ia-doctrine-v5.md §7.2.
+        Roadmap: atlas/website/briefings/v5/v5-next-wave-roadmap-2026-05-23/
+                 README.md (W3 · Search modal quick-access).
+
+        Per IA doctrine §7.1 the search modal is the Observatory's
+        *quick-access* surface, not a second navigation page. Empty-
+        state structure is capped at 8 + 4 + 2:
+
+          1. Quick Access (max 8 chips)  — direct lane / utility jumps
+          2. Common Starting Points (4)  — first-contact-shaped questions
+          3. Site Help (2 links)         — About this Site, Colophon
+
+        Visibility is toggled via `body.search-has-input` (added by the
+        input handler further down whenever the Pagefind input value is
+        non-empty). The polish-W2 `search-overlay-hint` block above
+        hides under the same body class — both are "empty-state
+        content" per IA §7.3.
+
+        Forward stubs (intentionally 404 until their wave ships):
+          /research-log/   — W5 (Research Log)
+          /about-site/     — W4 (About this Site)
+          /colophon/       — W4 (Colophon)
+        The W3 roadmap notes broken-link tolerance: Wave 3 ships
+        first; W4-W5 fill the targets.
+      {%- endcomment -%}
+      <div class="search-empty-state" id="search-empty-state" aria-label="Search shortcuts and starting points">
+        <section class="search-empty-section">
+          <h3 class="search-empty-heading">Quick access</h3>
+          <ul class="search-quick-access" role="list">
+            <li><a href="{{ '/faq/' | relative_url }}" class="search-quick-chip">FAQ</a></li>
+            <li><a href="{{ '/publications/latest/' | relative_url }}" class="search-quick-chip">Latest Publications</a></li>
+            <li><a href="{{ '/research-log/' | relative_url }}" class="search-quick-chip">Research Log</a></li>
+            <li><a href="{{ '/publications/' | relative_url }}" class="search-quick-chip">Publications</a></li>
+            <li><a href="{{ '/corpus/construction-spine/' | relative_url }}" class="search-quick-chip">Construction Spine</a></li>
+            <li><a href="{{ '/verify/' | relative_url }}" class="search-quick-chip">Verify</a></li>
+            <li><a href="{{ '/cite/' | relative_url }}" class="search-quick-chip">Cite</a></li>
+            <li><a href="{{ '/engage/contact/' | relative_url }}" class="search-quick-chip">Contact</a></li>
+          </ul>
+        </section>
+
+        <section class="search-empty-section">
+          <h3 class="search-empty-heading">Common starting points</h3>
+          <ul class="search-starting-points" role="list">
+            <li><a href="{{ '/faq/first-contact/' | relative_url }}">What is the Panta Rhei Research Program?</a></li>
+            <li><a href="{{ '/verify/' | relative_url }}">How should I inspect the claims?</a></li>
+            <li><a href="{{ '/publications/latest/' | relative_url }}">Where are the latest papers and notes?</a></li>
+            <li><a href="{{ '/corpus/construction-spine/' | relative_url }}">What is the Construction Spine?</a></li>
+          </ul>
+        </section>
+
+        <section class="search-empty-section search-empty-section--help">
+          <h3 class="search-empty-heading">Site help</h3>
+          <ul class="search-site-help" role="list">
+            <li><a href="{{ '/about-site/' | relative_url }}" class="search-help-link">About this Site</a></li>
+            <li><a href="{{ '/colophon/' | relative_url }}" class="search-help-link">Colophon</a></li>
+          </ul>
+        </section>
+      </div>
       <div class="search-overlay-actions">
         <a id="search-google-link" class="search-google-link" href="https://www.google.com/search?q=site%3Apanta-rhei.site" target="_blank" rel="noopener">Broader site search with Google</a>
       </div>
@@ -246,6 +307,7 @@
       if (input) {
         input.focus();
         syncGoogleSearchLink();
+        syncSearchEmptyState();
         return;
       }
       if (attemptsRemaining > 0) {
@@ -254,6 +316,7 @@
       }
       if (panel) panel.focus();
       syncGoogleSearchLink();
+      syncSearchEmptyState();
     }
     function closeSearch() {
       var overlay = document.getElementById('search-overlay');
@@ -293,9 +356,22 @@
         openSearch();
       }
     });
+    // v5 next-wave W3 · empty-state visibility.
+    //
+    // The IA §7.2 empty state (Quick Access + Common Starting Points +
+    // Site Help) and the polish-W2 syntax hint both hide via the
+    // `body.search-has-input` class. We toggle on every input event in
+    // the Pagefind search field so the empty-state collapses on the
+    // first keystroke and reappears the moment the input is cleared.
+    function syncSearchEmptyState() {
+      var input = document.querySelector('#search-container .pagefind-ui__search-input, #search-container input[type="search"], #search-container input[type="text"]');
+      var hasInput = !!(input && input.value && input.value.trim().length > 0);
+      document.body.classList.toggle('search-has-input', hasInput);
+    }
     document.addEventListener('input', function(e) {
       if (e.target && e.target.closest && e.target.closest('#search-container')) {
         syncGoogleSearchLink();
+        syncSearchEmptyState();
       }
     });
 
