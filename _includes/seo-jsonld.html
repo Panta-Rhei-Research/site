@@ -677,6 +677,53 @@
 }
 </script>
 
+{%- when 'research-graph' -%}
+{%- comment -%}
+  Research Graph — IA §16.1 maps page_types.research_graph to
+  schema CollectionPage (with Dataset as an acceptable alternative
+  for the manifest-as-data reading). Per the page-type registry
+  notes, CollectionPage is the navigation surface around the
+  manifest; the JSON projection at /assets/research-graph.json is
+  the Dataset proper, linked via hasPart.
+
+  Entity count is computed at render time so the structured data
+  tracks the YAML manifest without manual sync.
+{%- endcomment -%}
+{%- assign rg_entities = site.data.research_graph.entities | default: empty -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ json_title | jsonify }},
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "numberOfItems": {{ rg_entities | size }},
+  "isPartOf": { "@type": "WebSite", "@id": "{{ site.url }}/#website" },
+  "author": [
+    { "@type": "Person", "name": "Thorsten Fuchs", "sameAs": "https://orcid.org/0009-0007-0718-1042" },
+    { "@type": "Person", "name": "Anna-Sophie Fuchs", "sameAs": "https://orcid.org/0009-0007-3495-7416" }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Panta Rhei Research Program",
+    "url": "{{ site.url }}"
+  },
+  "hasPart": {
+    "@type": "Dataset",
+    "name": "Panta Rhei Research Graph — flat JSON projection",
+    "description": "Machine-readable projection of the program's authority + provenance manifest. Same data as the canonical YAML at _data/research_graph.yml.",
+    "url": "{{ '/assets/research-graph.json' | absolute_url }}",
+    "encodingFormat": "application/json",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": [
+      { "@type": "Person", "name": "Thorsten Fuchs", "sameAs": "https://orcid.org/0009-0007-0718-1042" },
+      { "@type": "Person", "name": "Anna-Sophie Fuchs", "sameAs": "https://orcid.org/0009-0007-3495-7416" }
+    ]
+  }
+}
+</script>
+
 {%- when 'research-log' -%}
 {%- comment -%}
   Research Progress Log — IA §16.1 maps page_types.research_log to

@@ -1,0 +1,187 @@
+// ================================================================
+// Research Graph — entity-tables + at-a-glance counts
+// ================================================================
+//
+// Source: atlas/website/v5/panta-rhei-ia-doctrine-v5.md §10.
+// Layout: _layouts/research-graph.html
+// Data:   _data/research_graph.yml
+//
+// Conservative table styling — the page is a reference surface, not
+// a primary navigation. Each section card holds a single table; the
+// at-a-glance counts use a dl in a flex strip so the totals stay
+// readable on mobile.
+
+// ── At-a-glance count strip ─────────────────────────────────────
+.research-graph-stats {
+  .muted-note {
+    font-family: $font-mono;
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-600, var(--ink-700));
+    margin-top: -4px;
+  }
+}
+
+.research-graph-counts {
+  list-style: none;
+  margin: 16px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+
+  > div {
+    background: var(--paper-100);
+    border: 1px solid var(--rule);
+    border-radius: $radius-md;
+    padding: 12px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  dt {
+    font-family: $font-mono;
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-600, var(--ink-700));
+    margin: 0;
+  }
+
+  dd {
+    font-family: $font-display, $font-ui;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--ink-900);
+    margin: 0;
+    line-height: 1.1;
+  }
+}
+
+// ── Section card heading variation ──────────────────────────────
+.research-graph-section {
+  .research-graph-subhead {
+    font-family: $font-mono;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink-700);
+    margin: 18px 0 8px;
+  }
+}
+
+// ── Entity table ────────────────────────────────────────────────
+.research-graph-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: $font-ui;
+  font-size: 0.92rem;
+  margin: 0;
+
+  thead th {
+    text-align: left;
+    font-family: $font-mono;
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-700);
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--rule);
+    background: var(--paper-100);
+  }
+
+  tbody td {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--rule-soft, var(--rule));
+    vertical-align: top;
+    color: var(--ink-800);
+    line-height: 1.45;
+  }
+
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  tbody tr:hover td {
+    background: rgba(22, 62, 100, 0.03);
+  }
+
+  a {
+    color: var(--panta-blue-700);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    &:visited { color: var(--panta-blue-700); }
+
+    code {
+      background: transparent;
+      padding: 0;
+      color: inherit;
+    }
+  }
+
+  code {
+    font-family: $font-mono;
+    font-size: 0.85em;
+    background: var(--paper-200);
+    padding: 1px 5px;
+    border-radius: 3px;
+    color: var(--ink-800);
+  }
+}
+
+// Local-id codes get a slightly tighter look — they're long and
+// dominate the leftmost column.
+.rg-local-id {
+  font-family: $font-mono;
+  font-size: 0.78em;
+  letter-spacing: 0;
+  background: var(--paper-200);
+  padding: 2px 6px;
+  border-radius: 3px;
+  color: var(--ink-700);
+  word-break: break-all;
+}
+
+.rg-subtitle {
+  color: var(--ink-600, var(--ink-700));
+  font-style: italic;
+}
+
+.rg-muted {
+  color: var(--ink-500, var(--ink-600));
+  font-family: $font-mono;
+  font-size: 0.9em;
+  opacity: 0.7;
+}
+
+// ── Mobile: scroll-x the tables rather than reflow ──────────────
+//
+// The entity tables have 4 columns of mixed-width content (local
+// id, label, identifier, URL). Forcing them into a card-stack on
+// small screens loses the at-a-glance scannability that's the whole
+// point of the page. Instead, wrap each table in a horizontal scroll
+// region keyed by the section card.
+@media (max-width: $bp-stack) {
+  .research-graph-section {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+
+    .research-graph-table {
+      min-width: 540px;
+    }
+  }
+
+  .research-graph-counts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,307 @@
+---
+layout: default
+---
+{%- comment -%}
+  Research Graph layout — v5 next-wave W6a.
+
+  Source: atlas/website/v5/panta-rhei-ia-doctrine-v5.md §10.
+  Roadmap: atlas/website/briefings/v5/v5-next-wave-roadmap-2026-05-23/
+           README.md (W6 · Research Graph + identifier boxes + JSON-LD).
+
+  Renders the program's authority + provenance layer — Founders, Program,
+  Monographs, Hinge Papers, Research Notes, Dossiers, TauLib, Website,
+  plus the active authority layers (Wikidata, ORCID, DOI, OSF, GitHub)
+  and the deprecated layer (Zenodo).
+
+  Data source: site.data.research_graph.entities + .authority_layers.
+  The /research-graph/ page (research-graph.md) provides the prose
+  scaffold; this layout renders the data-driven entity tables and
+  authority-layer summaries.
+
+  The default page.layout case in _includes/seo-jsonld.html recognises
+  "research-graph" as the surface key and emits the CollectionPage
+  JSON-LD per IA §10 + §16.1.
+{%- endcomment -%}
+
+<div class="hero-card">
+  <span class="eyebrow">{{ page.section | default: page.lane | replace: '-', ' ' }}</span>
+  <h1>{{ page.title }}</h1>
+  {% if page.subtitle %}<p class="hero-subtitle">{{ page.subtitle }}</p>{% endif %}
+  {% if page.summary_short %}<p>{{ page.summary_short }}</p>{% endif %}
+</div>
+
+{% include summary-cards.html %}
+
+<div class="content-card">
+  <div class="prose">
+    {{ content }}
+  </div>
+</div>
+
+{%- assign graph = site.data.research_graph -%}
+{%- assign entities = graph.entities -%}
+
+{%- comment -%}
+  Pre-compute filtered subsets so the section-by-section render below
+  stays cheap and reads cleanly. Liquid lacks group_by on an arbitrary
+  predicate, so we use where on the type field.
+{%- endcomment -%}
+{%- assign program_entities    = entities | where: "type", "research_program" -%}
+{%- assign person_entities     = entities | where: "type", "person" -%}
+{%- assign website_entities    = entities | where: "type", "website" -%}
+{%- assign monograph_entities  = entities | where: "type", "research_monograph" -%}
+{%- assign paper_entities      = entities | where: "type", "research_paper" -%}
+{%- assign note_entities       = entities | where: "type", "research_note" -%}
+{%- assign dossier_entities    = entities | where: "type", "research_dossier" -%}
+{%- assign software_entities   = entities | where: "type", "software_repository" -%}
+{%- assign rcode_entities      = entities | where: "type", "research_code" -%}
+
+<section class="content-card research-graph-stats" aria-labelledby="research-graph-stats-title">
+  <div class="prose">
+    <h2 id="research-graph-stats-title">Graph at a glance</h2>
+    <p class="muted-note">{{ entities | size }} entities · authority layers below</p>
+  </div>
+
+  <dl class="research-graph-counts">
+    <div><dt>Program</dt><dd>{{ program_entities | size }}</dd></div>
+    <div><dt>People</dt><dd>{{ person_entities | size }}</dd></div>
+    <div><dt>Monographs</dt><dd>{{ monograph_entities | size }}</dd></div>
+    <div><dt>Research Papers</dt><dd>{{ paper_entities | size }}</dd></div>
+    <div><dt>Research Notes</dt><dd>{{ note_entities | size }}</dd></div>
+    <div><dt>Dossiers</dt><dd>{{ dossier_entities | size }}</dd></div>
+    <div><dt>Software / formalization</dt><dd>{{ software_entities | size | plus: rcode_entities.size }}</dd></div>
+    <div><dt>Website</dt><dd>{{ website_entities | size }}</dd></div>
+  </dl>
+</section>
+
+{%- comment -%} ─── Authors and contributors (IA §10.6 ¶4) ─── {%- endcomment -%}
+<section class="content-card research-graph-section" aria-labelledby="rg-people">
+  <div class="prose">
+    <h2 id="rg-people">Authors and contributors</h2>
+    <p>People entities carry an ORCID where they have one; Wikidata Q-items will be added once each person meets Wikidata's notability + sourcing expectations (IA §10.4).</p>
+  </div>
+
+  <table class="research-graph-table">
+    <thead>
+      <tr><th>Local ID</th><th>Name</th><th>ORCID</th><th>Wikidata</th></tr>
+    </thead>
+    <tbody>
+      {% for p in person_entities %}
+      <tr>
+        <td><code class="rg-local-id">{{ p.id }}</code></td>
+        <td>{{ p.label }}</td>
+        <td>{% if p.orcid %}<a href="{{ p.orcid }}" target="_blank" rel="noopener">{{ p.orcid | replace: 'https://orcid.org/', '' }}</a>{% else %}<span class="rg-muted">—</span>{% endif %}</td>
+        <td>{% if p.wikidata_qid %}<a href="https://www.wikidata.org/wiki/{{ p.wikidata_qid }}" target="_blank" rel="noopener">{{ p.wikidata_qid }}</a>{% else %}<span class="rg-muted">—</span>{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+{%- comment -%} ─── Program and Observatory (IA §10.6 ¶5) ─── {%- endcomment -%}
+<section class="content-card research-graph-section" aria-labelledby="rg-program">
+  <div class="prose">
+    <h2 id="rg-program">Program and Observatory</h2>
+    <p>The program itself + the public website that projects it. Both carry local IDs; either may earn Wikidata Q-items once their public footprint meets Wikidata's criteria.</p>
+  </div>
+
+  <table class="research-graph-table">
+    <thead>
+      <tr><th>Local ID</th><th>Label</th><th>Type</th><th>URL</th><th>Wikidata</th></tr>
+    </thead>
+    <tbody>
+      {% for e in program_entities %}
+      <tr>
+        <td><code class="rg-local-id">{{ e.id }}</code></td>
+        <td>{{ e.label }}</td>
+        <td>{{ e.type | replace: '_', ' ' }}</td>
+        <td>{% if e.url %}<a href="{{ e.url | relative_url }}">{{ e.url }}</a>{% else %}<span class="rg-muted">—</span>{% endif %}</td>
+        <td>{% if e.wikidata_qid %}<a href="https://www.wikidata.org/wiki/{{ e.wikidata_qid }}" target="_blank" rel="noopener">{{ e.wikidata_qid }}</a>{% else %}<span class="rg-muted">—</span>{% endif %}</td>
+      </tr>
+      {% endfor %}
+      {% for e in website_entities %}
+      <tr>
+        <td><code class="rg-local-id">{{ e.id }}</code></td>
+        <td>{{ e.label }}</td>
+        <td>{{ e.type | replace: '_', ' ' }}</td>
+        <td>{% if e.url %}<a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.url }}</a>{% else %}<span class="rg-muted">—</span>{% endif %}</td>
+        <td>{% if e.wikidata_qid %}<a href="https://www.wikidata.org/wiki/{{ e.wikidata_qid }}" target="_blank" rel="noopener">{{ e.wikidata_qid }}</a>{% else %}<span class="rg-muted">—</span>{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+{%- comment -%} ─── Monographs (IA §10.6 ¶6) ─── {%- endcomment -%}
+<section class="content-card research-graph-section" aria-labelledby="rg-monographs">
+  <div class="prose">
+    <h2 id="rg-monographs">Monographs</h2>
+    <p>The Seven Books + the associated full-length book <em>Out of Context</em>. Each Monograph has a Zenodo DOI minted against its canonical edition; DOIs remain resolvable even though Zenodo is no longer surfaced as an active discovery channel (W2 posture).</p>
+  </div>
+
+  <table class="research-graph-table">
+    <thead>
+      <tr><th>Local ID</th><th>Title</th><th>DOI</th><th>Page</th></tr>
+    </thead>
+    <tbody>
+      {% for e in monograph_entities %}
+      <tr>
+        <td><code class="rg-local-id">{{ e.id }}</code></td>
+        <td>{{ e.label }}{% if e.subtitle %} — <span class="rg-subtitle">{{ e.subtitle }}</span>{% endif %}</td>
+        <td>{% if e.doi %}<a href="https://doi.org/{{ e.doi }}" target="_blank" rel="noopener"><code>{{ e.doi }}</code></a>{% else %}<span class="rg-muted">—</span>{% endif %}</td>
+        <td>{% if e.url %}<a href="{{ e.url | relative_url }}">{{ e.url }}</a>{% else %}<span class="rg-muted">—</span>{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+{%- comment -%} ─── Research Papers (IA §10.6 ¶7) ─── {%- endcomment -%}
+<section class="content-card research-graph-section" aria-labelledby="rg-papers">
+  <div class="prose">
+    <h2 id="rg-papers">Research Papers</h2>
+    <p>The Hinge series — nine standalone research papers forming the core peer-review-ready bundle. Each has a Zenodo DOI.</p>
+  </div>
+
+  <table class="research-graph-table">
+    <thead>
+      <tr><th>Local ID</th><th>Title</th><th>DOI</th><th>Page</th></tr>
+    </thead>
+    <tbody>
+      {% for e in paper_entities %}
+      <tr>
+        <td><code class="rg-local-id">{{ e.id }}</code></td>
+        <td>{{ e.label }}</td>
+        <td>{% if e.doi %}<a href="https://doi.org/{{ e.doi }}" target="_blank" rel="noopener"><code>{{ e.doi }}</code></a>{% else %}<span class="rg-muted">—</span>{% endif %}</td>
+        <td>{% if e.url %}<a href="{{ e.url | relative_url }}">{{ e.url }}</a>{% else %}<span class="rg-muted">—</span>{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+{%- comment -%} ─── Research Notes (IA §10.6 ¶8) ─── {%- endcomment -%}
+<section class="content-card research-graph-section" aria-labelledby="rg-notes">
+  <div class="prose">
+    <h2 id="rg-notes">Research Notes</h2>
+    <p>Shorter scholarly artifacts from the ongoing research stream. The Spring 2026 batch was minted on Zenodo; later notes were minted on OSF as the program's identifier policy shifted (W2 Zenodo posture).</p>
+  </div>
+
+  <table class="research-graph-table">
+    <thead>
+      <tr><th>Local ID</th><th>Title</th><th>DOI / OSF</th><th>Date</th></tr>
+    </thead>
+    <tbody>
+      {% for e in note_entities %}
+      <tr>
+        <td><code class="rg-local-id">{{ e.id }}</code></td>
+        <td>{% if e.url %}<a href="{{ e.url | relative_url }}">{{ e.label }}</a>{% else %}{{ e.label }}{% endif %}</td>
+        <td>{% if e.doi %}<a href="https://doi.org/{{ e.doi }}" target="_blank" rel="noopener"><code>{{ e.doi }}</code></a>{% else %}<span class="rg-muted">—</span>{% endif %}</td>
+        <td>{% if e.date %}<time datetime="{{ e.date | date_to_xmlschema }}">{{ e.date | date: "%d %b %Y" }}</time>{% else %}<span class="rg-muted">—</span>{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+{%- comment -%} ─── Dossiers (IA §10.6 ¶9 — "White Papers" in doctrine wording) ─── {%- endcomment -%}
+<section class="content-card research-graph-section" aria-labelledby="rg-dossiers">
+  <div class="prose">
+    <h2 id="rg-dossiers">Dossiers and white papers</h2>
+    <p>Framework dossiers and charter essays. <em>The Construction Spine</em> is the program's flagship white paper (OSF + live observatory route); <em>Standing in the Inquiry of Being</em> is the charter essay.</p>
+  </div>
+
+  <table class="research-graph-table">
+    <thead>
+      <tr><th>Local ID</th><th>Title</th><th>DOI / OSF</th><th>Page</th></tr>
+    </thead>
+    <tbody>
+      {% for e in dossier_entities %}
+      <tr>
+        <td><code class="rg-local-id">{{ e.id }}</code></td>
+        <td>{{ e.label }}</td>
+        <td>{% if e.doi %}<a href="https://doi.org/{{ e.doi }}" target="_blank" rel="noopener"><code>{{ e.doi }}</code></a>{% else %}<span class="rg-muted">—</span>{% endif %}</td>
+        <td>{% if e.url %}<a href="{{ e.url | relative_url }}">{{ e.url }}</a>{% else %}<span class="rg-muted">—</span>{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+{%- comment -%} ─── Software and formalization (IA §10.6 ¶10) ─── {%- endcomment -%}
+<section class="content-card research-graph-section" aria-labelledby="rg-software">
+  <div class="prose">
+    <h2 id="rg-software">Software and formalization</h2>
+    <p>TauLib is the program's Lean 4 formalization library. The parent entity is the active live repository; the v2 snapshot and v3 library are dated release-line surfaces (see <a href="{{ '/colophon/' | relative_url }}#search-stack">Colophon → Search stack</a> for the build-pipeline context).</p>
+  </div>
+
+  <table class="research-graph-table">
+    <thead>
+      <tr><th>Local ID</th><th>Label</th><th>Repository</th><th>Docs</th></tr>
+    </thead>
+    <tbody>
+      {% for e in software_entities %}
+      <tr>
+        <td><code class="rg-local-id">{{ e.id }}</code></td>
+        <td>{{ e.label }}</td>
+        <td>{% if e.repository %}<a href="{{ e.repository }}" target="_blank" rel="noopener">{{ e.repository | replace: 'https://github.com/', '' }}</a>{% else %}<span class="rg-muted">—</span>{% endif %}</td>
+        <td>{% if e.docs %}<a href="{{ e.docs }}" target="_blank" rel="noopener">{{ e.docs | replace: 'https://', '' }}</a>{% else %}<span class="rg-muted">—</span>{% endif %}</td>
+      </tr>
+      {% endfor %}
+      {% for e in rcode_entities %}
+      <tr>
+        <td><code class="rg-local-id">{{ e.id }}</code></td>
+        <td>{{ e.label }}</td>
+        <td>{% if e.repository %}<a href="{{ e.repository }}" target="_blank" rel="noopener">{{ e.repository | replace: 'https://github.com/', '' }}</a>{% else %}<span class="rg-muted">—</span>{% endif %}</td>
+        <td>{% if e.docs %}<a href="{{ e.docs }}" target="_blank" rel="noopener">{{ e.docs | replace: 'https://', '' }}</a>{% else %}<span class="rg-muted">—</span>{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+{%- comment -%} ─── Authority layers (IA §10.6 ¶2 + ¶11) ─── {%- endcomment -%}
+{% if graph.authority_layers %}
+<section class="content-card research-graph-section" aria-labelledby="rg-authority">
+  <div class="prose">
+    <h2 id="rg-authority">Authority layers</h2>
+    <p>External authority registries used (or deprecated) by the program. Per <a href="{{ '/about-site/' | relative_url }}">IA Doctrine §10.4</a>, Wikidata is an authority layer, not a navigation menu — the website remains the Observatory layer.</p>
+  </div>
+
+  {% if graph.authority_layers.active and graph.authority_layers.active.size > 0 %}
+  <h3 class="research-graph-subhead">Active</h3>
+  <table class="research-graph-table">
+    <thead>
+      <tr><th>Layer</th><th>Scope</th><th>Notes</th></tr>
+    </thead>
+    <tbody>
+      {% for layer in graph.authority_layers.active %}
+      <tr>
+        <td><strong>{{ layer.name }}</strong></td>
+        <td>{{ layer.scope }}</td>
+        <td>{{ layer.notes | default: '' }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% endif %}
+
+  {% if graph.authority_layers.deprecated and graph.authority_layers.deprecated.size > 0 %}
+  <h3 class="research-graph-subhead">Deprecated</h3>
+  <table class="research-graph-table">
+    <thead>
+      <tr><th>Layer</th><th>Status</th><th>Notes</th></tr>
+    </thead>
+    <tbody>
+      {% for layer in graph.authority_layers.deprecated %}
+      <tr>
+        <td><strong>{{ layer.name }}</strong></td>
+        <td>{{ layer.status | default: 'deprecated' }}</td>
+        <td>{{ layer.notes | default: '' }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% endif %}
+</section>
+{% endif %}
