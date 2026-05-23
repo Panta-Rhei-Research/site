@@ -328,6 +328,359 @@ entities:
       on the homepage frontispiece (HF-02 ceremonial block) and the
       data-carrying OG card.
 
+# ─── Hinge series · remaining six papers (W6a backfill) ──────────
+#
+# Backfilled from publications/research-papers/*/index.md front
+# matter + DOI markers in the body. All nine Hinge papers are now
+# represented as graph entities. Each carries the same metadata
+# shape as the three seeded in W1 (authors, is_part_of, release_line,
+# citation_status, publication_status). DOIs are minted on Zenodo;
+# Zenodo records remain resolvable (W2 Zenodo posture: removed from
+# active discovery surfaces, retained as DOI resolution targets).
+
+  - id: prrp:publication:paper-address-resolution-not-calculation
+    type: research_paper
+    label: "Address Resolution, Not Calculation"
+    subtitle: "The Genealogical DAG, the Cayley Metric, and Why Arithmetic in Category τ Has No Equations"
+    url: /publications/research-papers/address-resolution-not-calculation/
+    wikidata_qid: null
+    doi: 10.5281/zenodo.19818628
+    osf: null
+    arxiv: null
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    related:
+      - prrp:publication:paper-hyperfactorization-theorem
+    release_line: corpus_v2
+    citation_status: citable
+    publication_status: preprint
+
+  - id: prrp:publication:paper-split-complex-boundary-algebra
+    type: research_paper
+    label: "The Split-Complex Boundary Algebra D"
+    subtitle: "Canonical uniqueness, countable profinite construction, and the four-atom generator dictionary"
+    url: /publications/research-papers/split-complex-boundary-algebra/
+    wikidata_qid: null
+    doi: 10.5281/zenodo.19818743
+    osf: null
+    arxiv: null
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    related:
+      - prrp:publication:paper-tau-holomorphy-boundary-algebra
+    release_line: corpus_v2
+    citation_status: citable
+    publication_status: preprint
+
+  - id: prrp:publication:paper-tau-holomorphy-boundary-algebra
+    type: research_paper
+    label: "τ-Holomorphy on the Boundary Algebra"
+    subtitle: "ω-germ transformers, the wave-equation Cauchy–Riemann, and the earned categorical machine"
+    url: /publications/research-papers/tau-holomorphy-boundary-algebra/
+    wikidata_qid: null
+    doi: 10.5281/zenodo.19818852
+    osf: null
+    arxiv: null
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    related:
+      - prrp:publication:paper-split-complex-boundary-algebra
+    release_line: corpus_v2
+    citation_status: citable
+    publication_status: preprint
+
+  - id: prrp:publication:paper-tau-topos-four-valued-internal-logic
+    type: research_paper
+    label: "The τ-Topos and Its Four-Valued Internal Logic"
+    subtitle: "Resolving paraconsistent semantic circularity via split-complex idempotents and ω-germ stabilization"
+    url: /publications/research-papers/tau-topos-four-valued-internal-logic/
+    wikidata_qid: null
+    doi: 10.5281/zenodo.19820194
+    osf: null
+    arxiv: null
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    related:
+      - prrp:publication:paper-tau-kernel-foundational-architecture
+    release_line: corpus_v2
+    citation_status: citable
+    publication_status: preprint
+
+  - id: prrp:publication:paper-tau-kernel-foundational-architecture
+    type: research_paper
+    label: "The τ-Kernel as Foundational Architecture"
+    subtitle: "Ontic identity, linear discipline, and the star-autonomous path"
+    url: /publications/research-papers/tau-kernel-foundational-architecture/
+    wikidata_qid: null
+    doi: 10.5281/zenodo.19820600
+    osf: null
+    arxiv: null
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    related:
+      - prrp:publication:paper-tau-topos-four-valued-internal-logic
+    release_line: corpus_v2
+    citation_status: citable
+    publication_status: preprint
+
+  - id: prrp:publication:paper-panta-rhei-foundational-bundle
+    type: research_paper
+    label: "The Panta Rhei Foundational Bundle"
+    subtitle: "Research memo and reading guide for an eight-paper standalone-hinge peer-review package"
+    url: /publications/research-papers/panta-rhei-foundational-bundle/
+    wikidata_qid: null
+    doi: 10.5281/zenodo.19820855
+    osf: null
+    arxiv: null
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    related:
+      - prrp:publication:paper-hyperfactorization-theorem
+      - prrp:publication:paper-prime-polarity-theorem
+      - prrp:publication:paper-master-constant-iota-tau
+      - prrp:publication:paper-address-resolution-not-calculation
+      - prrp:publication:paper-split-complex-boundary-algebra
+      - prrp:publication:paper-tau-holomorphy-boundary-algebra
+      - prrp:publication:paper-tau-topos-four-valued-internal-logic
+      - prrp:publication:paper-tau-kernel-foundational-architecture
+    release_line: corpus_v2
+    citation_status: citable
+    publication_status: preprint
+    notes: >
+      Bundle/reading-guide paper for the eight-paper Hinge series.
+      Acts as the cross-cutting entrypoint into the other hinges.
+
+# ─── Research Notes (W6a backfill) ────────────────────────────────
+#
+# Backfilled from _research_notes/*.md. All eleven notes published
+# through 2026-05-18 are represented. Identifiers are mixed: the
+# Spring 2026 batch (2026-04-25 → 2026-04-27) was minted on Zenodo;
+# later notes were minted on OSF. Each entry carries the same metadata
+# shape as the Hinge papers above (authors, is_part_of, release_line,
+# citation_status, publication_status).
+
+  - id: prrp:publication:note-arithmetic-quantum-gravity-without-singularities
+    type: research_note
+    label: "Arithmetic Quantum Gravity Without Singularities"
+    url: /research-notes/arithmetic-quantum-gravity-without-singularities/
+    wikidata_qid: null
+    doi: 10.5281/zenodo.19815808
+    osf: null
+    arxiv: null
+    date: 2026-04-25
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    related:
+      - prrp:publication:book-vi
+    release_line: corpus_v2
+    citation_status: citable
+    publication_status: released
+
+  - id: prrp:publication:note-black-holes-without-extra-dimensions
+    type: research_note
+    label: "Black Holes Without Extra Dimensions"
+    subtitle: "Structural-prior reading of black-hole stability under Category τ"
+    url: /research-notes/black-holes-without-extra-dimensions/
+    wikidata_qid: null
+    doi: 10.5281/zenodo.19816581
+    osf: null
+    arxiv: null
+    date: 2026-04-25
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    related:
+      - prrp:publication:book-vi
+    release_line: corpus_v2
+    citation_status: citable
+    publication_status: released
+
+  - id: prrp:publication:note-dark-matter-without-dark-matter-ksz-force-law
+    type: research_note
+    label: "Dark Matter Without Dark Matter — the kSZ Force Law"
+    subtitle: "Dark Matter vs MOND vs Category τ"
+    url: /research-notes/dark-matter-without-dark-matter-ksz-force-law/
+    wikidata_qid: null
+    doi: 10.5281/zenodo.19816406
+    osf: null
+    arxiv: null
+    date: 2026-04-25
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    related:
+      - prrp:publication:book-vi
+    release_line: corpus_v2
+    citation_status: citable
+    publication_status: released
+
+  - id: prrp:publication:note-inflationary-observables-without-an-inflaton
+    type: research_note
+    label: "Inflationary Observables Without an Inflaton"
+    url: /research-notes/inflationary-observables-without-an-inflaton/
+    wikidata_qid: null
+    doi: 10.5281/zenodo.19816068
+    osf: null
+    arxiv: null
+    date: 2026-04-25
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    related:
+      - prrp:publication:book-vi
+    release_line: corpus_v2
+    citation_status: citable
+    publication_status: released
+
+  - id: prrp:publication:note-structural-prior-dynamic-chirality-induced-spin-selectivity
+    type: research_note
+    label: "Dynamic Chirality-Induced Spin Selectivity as a Symmetry-Class Bridge"
+    subtitle: "Structural-prior reading of DCISS"
+    url: /research-notes/structural-prior-dynamic-chirality-induced-spin-selectivity/
+    wikidata_qid: null
+    doi: 10.5281/zenodo.19815548
+    osf: null
+    arxiv: null
+    date: 2026-05-16
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    related: []
+    release_line: corpus_v2
+    citation_status: citable
+    publication_status: released
+
+  - id: prrp:publication:note-semantic-space-has-a-shape
+    type: research_note
+    label: "Semantic Space Has a Shape"
+    url: /research-notes/semantic-space-has-a-shape/
+    wikidata_qid: null
+    doi: 10.5281/zenodo.19816808
+    osf: null
+    arxiv: null
+    date: 2026-04-27
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    related:
+      - prrp:publication:book-v
+    release_line: corpus_v2
+    citation_status: citable
+    publication_status: released
+
+  - id: prrp:publication:note-aesthetic-topology-pre-symbolic-readout
+    type: research_note
+    label: "Aesthetic Topology as Pre-Symbolic Readout"
+    url: /research-notes/aesthetic-topology-pre-symbolic-readout/
+    wikidata_qid: null
+    doi: 10.17605/OSF.IO/SBPD6
+    osf: https://osf.io/sbpd6/
+    arxiv: null
+    date: 2026-05-15
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    related: []
+    release_line: corpus_v2
+    citation_status: citable
+    publication_status: released
+
+  - id: prrp:publication:note-thirty-open-problems-tau-readout-surfaces
+    type: research_note
+    label: "Thirty Open Problems as τ-Readout Surfaces"
+    subtitle: "Inspection ledger pinning thirty named open problems on the readout-surface frontier"
+    url: /research-notes/thirty-open-problems-tau-readout-surfaces/
+    wikidata_qid: null
+    doi: null
+    osf: null
+    arxiv: null
+    date: 2026-05-15
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    related:
+      - prrp:publication:note-aesthetic-topology-pre-symbolic-readout
+    release_line: corpus_v2
+    citation_status: citable
+    publication_status: released
+
+  - id: prrp:publication:note-natarajan-cluster-dichotomy-categorical
+    type: research_note
+    label: "The Natarajan Dichotomy as One D-Sector Readout in Two Regimes"
+    url: /research-notes/natarajan-cluster-dichotomy-categorical/
+    wikidata_qid: null
+    doi: 10.17605/OSF.IO/BFRX3
+    osf: https://osf.io/bfrx3/
+    arxiv: null
+    date: 2026-05-17
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    related:
+      - prrp:publication:paper-split-complex-boundary-algebra
+    release_line: corpus_v2
+    citation_status: citable
+    publication_status: released
+
+  - id: prrp:publication:note-reading-prometheus-through-tau
+    type: research_note
+    label: "Reading PROMETHEUS Through Category τ"
+    url: /research-notes/reading-prometheus-through-tau/
+    wikidata_qid: null
+    doi: 10.17605/OSF.IO/76CZR
+    osf: https://osf.io/76czr/
+    arxiv: null
+    date: 2026-05-17
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    related: []
+    release_line: corpus_v2
+    citation_status: citable
+    publication_status: released
+
+  - id: prrp:publication:note-when-search-becomes-structure
+    type: research_note
+    label: "When Witness Search Becomes Address Construction"
+    url: /research-notes/when-search-becomes-structure/
+    wikidata_qid: null
+    doi: 10.17605/OSF.IO/HPZSN
+    osf: https://osf.io/hpzsn/
+    arxiv: null
+    date: 2026-05-18
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    related:
+      - prrp:publication:paper-address-resolution-not-calculation
+    release_line: corpus_v2
+    citation_status: citable
+    publication_status: released
+
 # ─── 6 · Research Dossiers (post-W7 class — seeded with knowns) ───
 #
 # Note: W7 will sync existing anchor_documents.yml and research_briefings

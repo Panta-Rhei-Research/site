@@ -71,6 +71,9 @@ Changelog for the Panta Rhei Research Program website — tracked updates and st
 {%- when 'research-log' -%}
 {% if page.summary_short and page.summary_short != '' %}{{ page.summary_short | strip_html }}{% else %}Research Progress Log — dated public ledger of the Panta Rhei Research Program's active research-stream events. Distinct from /changelog/ (site/release changes) and /corpus-changelog/ (semantic corpus updates).{% endif %}
 
+{%- when 'research-graph' -%}
+{% if page.summary_short and page.summary_short != '' %}{{ page.summary_short | strip_html }}{% else %}Research Graph — the Panta Rhei Research Program's authority and provenance layer. Local IDs, DOIs, ORCIDs, OSF nodes, GitHub repositories, and Wikidata Q-items across every entity, with a downloadable manifest.{% endif %}
+
 {%- when 'registry-book' -%}
 Registry dashboard for Book {{ page.book_id | default: page.title }} — typed mathematical objects with dependency graphs and formalization status.
 
