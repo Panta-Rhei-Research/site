@@ -1,0 +1,307 @@
+# Publication classes — v5 next-wave doctrine.
+#
+# Source doctrine: atlas/website/v5/panta-rhei-publication-taxonomy-v5-supplement.md
+#
+# The visible Publications taxonomy classifies artifacts by SCHOLARLY
+# FUNCTION, not by internal program role. Four prose classes plus one
+# adjacent code class. Everything else (Anchor Documents, Hinge Papers,
+# Monograph Supplements, Research Briefings, White Papers as standalone)
+# is removed as a visible top-level category and folded into one of the
+# four classes below; internal roles live as METADATA, not categories.
+#
+# The doctrine in five words:
+#   Books. Papers. Notes. Dossiers. Code.
+#
+# Consumers (downstream waves):
+#   W6b · right-rail Identifier box reads `metadata_fields` to know
+#         which fields to surface
+#   W7  · Publications taxonomy migration uses `slug`, `route`, and
+#         `redirects_from` to lay out the new section structure
+#   W8b · Cross-link blocks in Corpus / Results / Verify / Engage
+#         use `cross_link_pattern` to know how to address each class
+#
+# Schema:
+#   key                  the YAML key (research_monograph, etc.)
+#   name                 visible name (singular)
+#   plural               visible plural (used in nav, cards, blocks)
+#   slug                 URL slug under /publications/
+#   route                full URL route
+#   redirects_from       []string — legacy routes that 301 to this class (W7)
+#   schema_org           Schema.org @type (drives JSON-LD via page_types.yml)
+#   identifier_box       bool — render right-rail box (true for all four
+#                              prose classes + code; false for nothing)
+#   metadata_fields      []string — fields the Identifier box surfaces
+#   internal_roles       []string — allowed `artifact_role:` values; used
+#                                   in cross-link blocks but NEVER as
+#                                   visible top-level categories
+#   cross_link_pattern   how lane pages address this class in their
+#                        contextual cross-link blocks (W8b)
+#   description          short editorial blurb shown on the publication
+#                        landing page
+
+# ─── Doctrine constants ───────────────────────────────────────────
+doctrine:
+  visible_classes: 5            # 4 prose + 1 code
+  prose_classes: 4
+  removed_visible_categories:
+    - Anchor Documents
+    - Hinge Papers
+    - Monograph Supplements
+    - Research Briefings
+    - White Papers           # as standalone visible category
+  reference_provenance_classes:
+    - Release Artifacts
+    - Archived Releases
+    - Bibliography
+    - Errata
+    - How to Cite
+  one_minute_reader_test: >
+    A new reader should be able to ask: "Is this a book, a paper, a
+    note, a dossier, or code?" — and have that be enough for
+    first-order navigation.
+
+# ─── Primary prose artifact classes (4) ───────────────────────────
+classes:
+
+  research_monograph:
+    name: Research Monograph
+    plural: Research Monographs
+    slug: research-monographs
+    route: /publications/research-monographs/
+    redirects_from:
+      - /publications/books/
+      - /publications/monograph-supplements/   # disappears as visible category
+    schema_org: Book
+    identifier_box: true
+    metadata_fields:
+      - local_id          # prrp:publication:book-iii
+      - edition           # Second Edition
+      - revision          # 2.2 (per Release-Lines §4.4)
+      - book_number       # I–VII
+      - isbn_hardcover
+      - isbn_paperback
+      - isbn_ebook
+      - doi
+      - wikidata_qid      # null until W6 follow-up
+      - errata_integrated_through   # date per Release-Lines §13
+      - license
+      - related_corpus_routes
+      - related_papers
+    internal_roles:
+      - canonical-edition
+      - archived-edition
+      - associated-book   # for Out of Context per founders' §2.4 decision
+    cross_link_pattern: "Related Monographs"
+    description: >
+      Book-length corpus artifacts and official editions of the seven-
+      volume Panta Rhei monograph series. Long-form narrative backbone
+      of the research program. Includes the canonical Second Edition,
+      archived First Edition, errata pages, edition release notes, and
+      Associated Books (e.g. Out of Context, separately listed).
+
+  research_paper:
+    name: Research Paper
+    plural: Research Papers
+    slug: research-papers
+    route: /publications/research-papers/
+    redirects_from: []
+    schema_org: ScholarlyArticle
+    identifier_box: true
+    metadata_fields:
+      - local_id          # prrp:publication:paper-master-constant
+      - doi
+      - arxiv
+      - osf
+      - github_repo
+      - wikidata_qid
+      - status            # preprint | submitted | under_review | accepted | published
+      - version
+      - corpus_release_line
+      - related_corpus_routes
+      - related_registry_items
+      - related_code
+      - orcid_authors
+    internal_roles:
+      - hinge
+      - bridge
+      - book-extension
+      - construction-spine-support
+      - formalization-paper
+      - result-bearing
+      - empirical-analysis
+      - theory
+    cross_link_pattern: "Supporting Papers"
+    description: >
+      Submittable scholarly papers carrying primary technical research
+      contributions. Structured in a form compatible with scholarly
+      preprint or journal submission; may be OSF DOI-bearing, arXiv-
+      posted, or submitted to journals. The highest formal prose-
+      research status short of the monographs.
+
+  research_note:
+    name: Research Note
+    plural: Research Notes
+    slug: research-notes
+    route: /publications/research-notes/
+    redirects_from: []
+    schema_org: ScholarlyArticle
+    identifier_box: true
+    metadata_fields:
+      - local_id          # prrp:publication:rn-031
+      - note_type         # bridge | falsification | pre-registration | …
+      - doi
+      - osf
+      - status
+      - version
+      - related_paper
+      - related_result
+      - related_corpus_routes
+      - related_registry_items
+    internal_roles:
+      - bridge-note
+      - falsification-note
+      - pre-registration-note
+      - empirical-execution
+      - formalization-status
+      - dependency-audit
+      - result-status-update
+      - response-note
+      - construction-clarification
+      - theorem-route-note
+      - registry-update-note
+      - external-comparator
+    cross_link_pattern: "Supporting Notes"
+    description: >
+      Shorter dated scholarly artifacts from the active research stream.
+      More formal than blog posts; shorter, narrower, and more occasion-
+      triggered than Research Papers. Record focused developments,
+      responses, tests, bridge clarifications, empirical executions,
+      and formalization milestones. Citable; DOIs possible.
+
+  research_dossier:
+    name: Research Dossier
+    plural: Research Dossiers
+    slug: research-dossiers
+    route: /publications/research-dossiers/
+    redirects_from:
+      - /publications/anchor-documents/    # per Taxonomy §10.3
+      - /publications/research-briefings/  # per Taxonomy §10.3
+      - /publications/white-papers/        # historical, if it existed
+    schema_org: CreativeWork
+    identifier_box: true
+    metadata_fields:
+      - local_id          # prrp:publication:wp-rc-cs-e0-e3
+      - dossier_type      # white_paper | charter_essay | impact_dossier | …
+      - doi
+      - osf
+      - status
+      - version
+      - audience
+      - reading_time      # minutes
+      - related_papers
+      - related_notes
+      - related_corpus_routes
+    internal_roles:
+      - framework
+      - construction-spine
+      - public-inspection
+      - charter
+      - impact
+      - orientation
+      - site-doctrine
+      - media
+    cross_link_pattern: "Related Dossiers"
+    description: >
+      Long-form orientation, framework, inspection, impact, or
+      synthesis artifacts not written as journal-submittable Research
+      Papers. Replaces what was formerly called White Papers, Research
+      Briefings, Impact Briefings, Charter Essays, Framework Dossiers,
+      Public Inspection Dossiers, and Technical Dossiers. May be
+      rigorous and DOI-bearing.
+
+  # ─── Adjacent code/formalization class ──────────────────────────
+  research_code:
+    name: Research Code
+    plural: Research Code / Research Modules
+    slug: research-code
+    route: /publications/research-code/
+    redirects_from: []
+    schema_org: SoftwareSourceCode
+    identifier_box: true
+    metadata_fields:
+      - local_id          # prrp:software:taulib | prrp:software:rh-spine
+      - code_type         # lean_module | proof_package | repository | notebook
+      - repository
+      - doi
+      - osf
+      - wikidata_qid
+      - related_papers
+      - related_notes
+      - related_corpus_routes
+      - formal_status     # compiled | zero_sorry | project_axiom_free | conditional | under_external_audit
+      - build_lean_version
+      - build_mathlib_commit
+      - build_lake_manifest_hash
+    internal_roles:
+      - taulib-core
+      - taulib-bridge
+      - proof-package
+      - reproducibility-repository
+      - benchmark-harness
+      - prototype-implementation
+      - audit-script
+    cross_link_pattern: "Related Code"
+    description: >
+      Citable software, formalization, or proof artifacts that support
+      or constitute research results. Includes TauLib (v2 snapshot + v3
+      library), isolated Lean proof packages, reproducibility repos,
+      computational notebooks, and code supporting Research Papers or
+      Notes. Visible as a publication-adjacent class on the
+      Publications landing page, distinct from the four prose classes.
+
+# ─── Reference & Provenance layer (not visible top-level pubs) ────
+reference_and_provenance:
+
+  release_artifact:
+    name: Release Artifact
+    route: /publications/release-artifacts/
+    schema_org: CreativeWork
+    description: >
+      Release manifests, OSF release packets, DOI route records,
+      version maps, publication manifests, build manifests. Make
+      releases inspectable and citable; not research contributions
+      themselves.
+
+  archived_release:
+    name: Archived Release
+    route: /publications/archived/
+    schema_org: CreativeWork
+    description: >
+      Historical release states (e.g. First Edition books). Preserved,
+      not mixed with current publications.
+
+  bibliography:
+    name: Bibliography
+    route: /bibliography/
+    schema_org: WebPage
+    description: >
+      Reference surface, not a publication artifact category.
+
+  errata:
+    name: Errata
+    route: /publications/errata/
+    schema_org: WebPage
+    description: >
+      Per-artifact errata (monograph errata, paper errata, dossier
+      errata, note correction, code audit correction) plus a global
+      errata index under Reference & Provenance. Errata remain visible
+      EVEN AFTER INTEGRATION per Release-Lines §4.3 — integration
+      fixes the book; the errata page preserves the correction history.
+
+  citation_guide:
+    name: How to Cite
+    route: /cite/
+    schema_org: WebPage
+    description: >
+      Citation instructions for monographs, papers, notes, dossiers,
+      code, program/website, and preferred identifiers.
