@@ -293,9 +293,194 @@
 }
 
 // Toggle visibility: visible by default (empty state), hidden when
-// the search input has content + Pagefind has rendered results.
-body.search-has-results .search-overlay-hint {
+// the search input has content (collapses on first keystroke per IA
+// §7.3) or Pagefind has already rendered results (legacy polish-W2
+// behaviour, kept as a fallback for edge cases where input value is
+// programmatically populated without firing an `input` event).
+body.search-has-results .search-overlay-hint,
+body.search-has-input .search-overlay-hint {
   display: none;
+}
+
+// ================================================================
+// v5 next-wave W3 · search modal quick-access empty state
+// ================================================================
+//
+// Source: atlas/website/v5/panta-rhei-ia-doctrine-v5.md §7.2.
+//
+// Three-tier empty state inside the search overlay panel:
+//
+//   .search-empty-state
+//     .search-empty-section              · heading + list
+//       .search-empty-heading            · 11px mono caps
+//       .search-quick-access             · 8-chip flex strip
+//         .search-quick-chip             · pill-shaped chip
+//       .search-starting-points          · 4-question list
+//       .search-site-help                · 2-link row
+//
+// Visibility is bound to `body.search-has-input` — the empty state
+// collapses the moment the Pagefind input has any non-empty value,
+// and returns the moment it's cleared (per IA §7.3 + the input-event
+// handler in _layouts/default.html).
+
+.search-empty-state {
+  padding: 6px 22px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-top: 1px solid var(--rule-soft);
+  margin-top: 8px;
+}
+
+body.search-has-input .search-empty-state,
+body.search-has-results .search-empty-state {
+  display: none;
+}
+
+.search-empty-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  &--help {
+    border-top: 1px solid var(--rule-soft);
+    padding-top: 12px;
+  }
+}
+
+.search-empty-heading {
+  font-family: $font-mono;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-600, var(--ink-700));
+  margin: 0;
+}
+
+// ── Quick Access chip strip (8 chips, IA §7.2) ──────────────────
+.search-quick-access {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.search-quick-chip {
+  display: inline-flex;
+  align-items: center;
+  font-family: $font-ui;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.2;
+  padding: 6px 12px;
+  border-radius: $radius-pill;
+  border: 1px solid var(--rule);
+  background: var(--paper-100);
+  color: var(--ink-800);
+  text-decoration: none;
+  transition:
+    background-color var(--t-base) var(--ease),
+    border-color var(--t-base) var(--ease),
+    color var(--t-base) var(--ease);
+
+  &:hover {
+    background: var(--panta-blue-50);
+    border-color: rgba(22, 62, 100, 0.32);
+    color: var(--panta-blue-900);
+    text-decoration: none;
+  }
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
+  }
+
+  &:visited { color: var(--ink-800); }
+}
+
+// ── Common Starting Points (4 questions linking into FAQ / lanes) ─
+.search-starting-points {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  a {
+    display: block;
+    padding: 6px 8px;
+    margin-left: -8px;
+    font-family: $font-ui;
+    font-size: 14px;
+    line-height: 1.45;
+    color: var(--ink-800);
+    text-decoration: none;
+    border-radius: 6px;
+    transition:
+      background-color var(--t-base) var(--ease),
+      color var(--t-base) var(--ease);
+
+    &::before {
+      content: "→";
+      display: inline-block;
+      width: 1.2em;
+      margin-right: 4px;
+      color: var(--panta-blue-500);
+      font-weight: 500;
+    }
+
+    &:hover {
+      background: var(--panta-blue-50);
+      color: var(--panta-blue-900);
+      text-decoration: none;
+    }
+
+    &:focus-visible {
+      outline: none;
+      box-shadow: var(--focus-ring);
+    }
+
+    &:visited { color: var(--ink-800); }
+  }
+}
+
+// ── Site Help row (2 links: About this Site · Colophon) ─────────
+.search-site-help {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.search-help-link {
+  font-family: $font-ui;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--panta-blue-700);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition:
+    color var(--t-base) var(--ease),
+    border-color var(--t-base) var(--ease);
+
+  &:hover {
+    color: var(--panta-blue-900);
+    border-bottom-color: var(--panta-blue-500);
+    text-decoration: none;
+  }
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
+  }
+
+  &:visited { color: var(--panta-blue-700); }
 }
 
 // AUD-21-N04 (May 2026 polish wave) · result-list filter chips.
@@ -418,5 +603,13 @@ body.search-has-results .search-overlay-hint {
       font-size: 0.88rem;
       line-height: 1.55;
     }
+  }
+
+  // v5 next-wave W3 · empty state mobile tighten.
+  // Tighten the 22px desktop inset so the chips and starting points
+  // breathe correctly inside the 8px panel padding on small screens.
+  .search-empty-state {
+    padding: 8px 14px 10px;
+    gap: 14px;
   }
 }
