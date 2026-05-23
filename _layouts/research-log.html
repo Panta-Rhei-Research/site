@@ -1,0 +1,90 @@
+---
+layout: default
+---
+{%- comment -%}
+  Research Progress Log layout — v5 next-wave W5.
+
+  Source: atlas/website/v5/panta-rhei-ia-doctrine-v5.md §4.
+  Roadmap: atlas/website/briefings/v5/v5-next-wave-roadmap-2026-05-23/
+           README.md (W5 · Research Log).
+
+  Renders the dated public ledger of meaningful research-stream events.
+  Data source: site.data.research_log.entries (one entry per IA §4.4
+  schema row in _data/research_log/entries.yml).
+
+  The default page.layout case in _includes/seo-jsonld.html, seo-
+  description.html, and breadcrumb-data.html recognises "research-log"
+  as the surface key and emits the CollectionPage JSON-LD per IA §16.1.
+{%- endcomment -%}
+
+<div class="hero-card">
+  <span class="eyebrow">{{ page.section | default: page.lane | replace: '-', ' ' }}</span>
+  <h1>{{ page.title }}</h1>
+  {% if page.subtitle %}<p class="hero-subtitle">{{ page.subtitle }}</p>{% endif %}
+  {% if page.summary_short %}<p>{{ page.summary_short }}</p>{% endif %}
+</div>
+
+{% include summary-cards.html %}
+
+<div class="content-card">
+  <div class="prose">
+    {{ content }}
+  </div>
+</div>
+
+{%- comment -%}
+  Entries are appended chronologically (oldest first) in the YAML
+  manifest, so a plain | reverse here yields newest-first display
+  order. We avoid Jekyll's `sort: "date"` filter on data files — it
+  trips on YAML-parsed Date objects in some Jekyll/Ruby combos with
+  a "no implicit conversion of String into Integer" TypeError.
+  Manifest discipline (append-only, chronological) makes the sort
+  unnecessary.
+{%- endcomment -%}
+{% assign entries = site.data.research_log.entries | reverse %}
+{% assign oldest_entry = site.data.research_log.entries | first %}
+
+<section class="content-card research-log-feed" aria-labelledby="research-log-feed-title">
+  <div class="prose">
+    <h2 id="research-log-feed-title">Entries</h2>
+    <p class="muted-note">{{ entries | size }} entries · newest first · oldest entry {{ oldest_entry.date | date: "%d %B %Y" }}</p>
+  </div>
+
+  <ol class="research-log-list" role="list">
+    {% for entry in entries %}
+    <li class="research-log-entry" id="{{ entry.id }}" data-entry-type="{{ entry.type }}" data-entry-status="{{ entry.status }}">
+      <header class="research-log-entry-head">
+        <time class="research-log-date" datetime="{{ entry.date | date_to_xmlschema }}">{{ entry.date | date: "%d %B %Y" }}</time>
+        <span class="research-log-type" data-type="{{ entry.type }}">{{ entry.type | replace: "-", " " }}</span>
+        <span class="research-log-status" data-status="{{ entry.status }}">{{ entry.status }}</span>
+      </header>
+
+      <h3 class="research-log-title"><a href="#{{ entry.id }}" class="research-log-anchor" aria-label="Permalink to {{ entry.title | escape }}">{{ entry.title }}</a></h3>
+
+      {% if entry.summary %}
+      <p class="research-log-summary">{{ entry.summary | strip_newlines | strip }}</p>
+      {% endif %}
+
+      {% if entry.linked_artifacts and entry.linked_artifacts.size > 0 %}
+      <ul class="research-log-artifacts" aria-label="Linked artifacts">
+        {% for artifact in entry.linked_artifacts %}
+        <li><a href="{{ artifact.url | relative_url }}">{{ artifact.title }}</a></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+      {% if entry.related_lanes and entry.related_lanes.size > 0 %}
+      <div class="research-log-lanes" aria-label="Related lanes">
+        {% for lane in entry.related_lanes %}
+        <a href="{{ '/' | append: lane | append: '/' | relative_url }}" class="research-log-lane-chip lane-{{ lane }}">{{ lane | capitalize }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      <div class="research-log-entry-meta">
+        <code class="research-log-id">{{ entry.id }}</code>
+      </div>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
