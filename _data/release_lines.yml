@@ -1,0 +1,293 @@
+# Release lines vocabulary — v5 next-wave doctrine.
+#
+# Source doctrine:
+#   atlas/website/v5/panta-rhei-release-lines-formalization-surfaces-v5-addendum.md
+#
+# The site must distinguish FROZEN release snapshots, ACTIVE working
+# lines, and RESULT-SPECIFIC proof packages. Three different kinds of
+# stability:
+#
+#   FROZEN snapshot       citable release state          (citation, review)
+#   ACTIVE working line   inspectable current research   (inspection, dev)
+#   PROOF package         minimal reproducibility        (technical audit)
+#
+# This data file is the single source of truth for the vocabulary the
+# rest of the site uses. Each label below should be referenced by ID,
+# not re-keyed inline.
+#
+# Consumers (downstream waves):
+#   W4  · Colophon site-facts block reads `monograph_editions` +
+#         `corpus_release_lines` to compute current state
+#   W5  · Research Log entry types include release-line state changes
+#   W6a · Research Graph entities reference release-line metadata
+#   W6b · right-rail Identifier box surfaces `citation_status`
+#   W8a · Corpus / TauLib + Verify / TauLib + Release Manifest
+#         restructure ALL read directly from this file
+#
+# Doctrine in compact form:
+#   "Frozen release snapshots are citable. Active working lines are
+#    inspectable. Proof packages are reproducible."
+#   — Release-Lines §2
+
+# ─── Monograph editions (publishing-layer state) ──────────────────
+#
+# A Monograph Edition is the book-level publishing state of the printed
+# / ebook series. It is tied to the actual book releases. A Corpus
+# release line being ahead of the books does NOT automatically force a
+# new edition; per Release-Lines §4.5, an edition trigger requires
+# something like a title change, edition-number change, or substantial
+# structural reorganization.
+
+monograph_editions:
+
+  first_edition:
+    id: first_edition
+    label: First Edition
+    status: archived
+    description: >
+      Original 2025 first edition of the seven-volume corpus.
+      Preserved as archive under /publications/archived/.
+    citable: true
+    visible_route: /publications/archived/first-edition/
+
+  second_edition:
+    id: second_edition
+    label: Second Edition
+    status: canonical
+    description: >
+      Canonical current monograph layer. Published 2026. May receive
+      errata-integrated revision updates without triggering a Third
+      Edition (per Release-Lines §4.2 + §12).
+    citable: true
+    visible_route: /publications/research-monographs/   # post-W7 route
+    current_revision: 2.2
+    revision_history:
+      - revision: "2.0"
+        label: Initial public Second Edition
+        date: "2026-04-08"
+      - revision: "2.1"
+        label: Errata integration pass
+        date: "2026-05-10"
+      - revision: "2.2"
+        label: Minor clarification pass
+        date: "2026-05-20"
+
+  third_edition:
+    id: third_edition
+    label: Third Edition
+    status: not_planned
+    description: >
+      No Third Edition publishing decision has been made. A Corpus v3
+      working line being active does NOT automatically force a Third
+      Edition. Per doctrine: "Corpus v3 may precede Monograph Third
+      Edition. The website should not bind them prematurely."
+    citable: false
+
+# ─── Corpus release lines (program-level research state) ──────────
+#
+# A Corpus Release Line is the program-level research corpus state. It
+# includes monographs, registry, website surfaces, papers, notes,
+# dossiers, TauLib, proof packages, release manifests, and errata. A
+# Corpus Release Line may run ahead of the printed monographs.
+
+corpus_release_lines:
+
+  corpus_v2:
+    id: corpus_v2
+    label: Corpus v2 Release Line
+    status: public_release
+    description: >
+      Public release state aligned with the Second Edition monograph
+      corpus. Includes v2 registry, TauLib v2 snapshot, current public
+      Release Manifest, current Corpus website surfaces, published OSF
+      DOI release packets.
+    monograph_edition: second_edition
+    formalization_surface: taulib_v2
+    is_frozen: true
+    citable: true
+
+  corpus_v3_working:
+    id: corpus_v3_working
+    label: Corpus v3 Working Line
+    status: active_working_line
+    description: >
+      Active research state after the v2 release. Includes new Research
+      Papers / Notes / Dossiers, new Registry Items, new formalization
+      modules, TauLib v3 restructuring, proof-package development, AI
+      architecture work, RH proof-spine work (when appropriate), and
+      evolving website IA.
+    monograph_edition: second_edition   # still — until a publishing decision is made
+    formalization_surface: taulib_v3
+    is_frozen: false
+    citable: false                       # inspectable but not citable as a final release
+    inspector_label: >
+      Corpus v3 working line — active research line, not yet a frozen
+      monograph release.
+
+# ─── Formalization release lines (TauLib state) ───────────────────
+#
+# A Formalization Release Line is the state of TauLib and related
+# formal artifacts. Not identical to monograph editioning.
+
+formalization_release_lines:
+
+  taulib_v2:
+    id: taulib_v2
+    label: TauLib v2 Snapshot
+    sublabel: Frozen Second Edition formalization companion
+    status: frozen_public
+    description: >
+      Frozen formalization snapshot aligned with the Second Edition
+      monograph corpus. Public, pinned, citable, reproducible, book-
+      bound, historically stable.
+    corpus_release_line: corpus_v2
+    monograph_edition: second_edition
+    is_frozen: true
+    citable: true
+    public: true
+    preserved_metadata:
+      - module_counts
+      - declaration_counts
+      - axiom_sorry_status
+      - lean_mathlib_pins
+      - git_commit
+      - generated_docs
+      - release_manifest_linkage
+
+  taulib_v3:
+    id: taulib_v3
+    label: TauLib v3 Library
+    sublabel: Active layered research library
+    status: private_internal_restructure
+    description: >
+      Active library-facing formalization line. Aligned with Corpus v3
+      working line. Structured as Kernel / Core / Math / Geometry /
+      Physics / Life / Reflection / Bridge / Experimental. Designed for
+      Lean / Mathlib community readability, built with an import-
+      isolated kernel and Mathlib-facing bridge layers.
+    corpus_release_line: corpus_v3_working
+    monograph_edition: null              # NOT bound to Third Edition
+    is_frozen: false
+    citable: false
+    public: false
+    pending_states:
+      public_docs: pending
+      formal_release: pending
+      citable_snapshot: not_yet_assigned
+    public_doctrine: >
+      TauLib v3 tracks the active Corpus v3 working line. It does not
+      by itself imply that the printed monographs have entered a Third
+      Edition.
+    mathlib_doctrine: >
+      TauLib v3 keeps the τ-kernel import-isolated while deliberately
+      using Mathlib-facing bridge layers for standard mathematics and
+      orthodox comparison targets. Only the kernel is import-isolated;
+      the library is interoperability-first.
+
+# ─── Proof package states (per-result formal artifacts) ───────────
+#
+# A Proof Package is a minimal, result-specific formal artifact. It
+# exists for one purpose: allow an external reviewer to reproduce and
+# inspect one formal result with minimal dependency burden.
+
+proof_package_states:
+
+  - id: private_conditional_spine
+    label: Private conditional spine
+    description: Compiles only under named assumptions. Internal only.
+    public: false
+    citable: false
+
+  - id: private_axiom_clean_candidate
+    label: Private axiom-clean candidate
+    description: >
+      Compiles without project-local axioms. Internal only; awaiting
+      external review.
+    public: false
+    citable: false
+
+  - id: external_technical_audit
+    label: External technical audit
+    description: Shared with selected auditors. Not yet public.
+    public: false
+    citable: false
+
+  - id: public_candidate_package
+    label: Public candidate package
+    description: Public reproducibility package.
+    public: true
+    citable: true
+
+  - id: accepted_or_archived
+    label: Accepted / archived
+    description: Externally reviewed or superseded.
+    public: true
+    citable: true
+
+# ─── Citation status (per-artifact) ───────────────────────────────
+#
+# Every artifact metadata block declares its citation status. This is
+# the field downstream surfaces (right-rail identifier box, Research
+# Graph, Release Manifest) use to decide how to present the artifact.
+
+citation_status:
+
+  - id: citable
+    label: Citable
+    description: >
+      Frozen public artifact with a stable identifier (DOI, OSF, or
+      pinned commit). Safe to cite in external work.
+
+  - id: active_working
+    label: Active working
+    description: >
+      Inspectable current research state. Not yet citable as a final
+      release; readers should cite the most recent frozen snapshot.
+
+  - id: private
+    label: Private
+    description: >
+      Internal-only artifact. Not visible to public readers. Listed in
+      release lines for vocabulary completeness but not navigable.
+
+  - id: deprecated
+    label: Deprecated
+    description: >
+      Superseded artifact preserved for provenance. Visible in
+      Reference & Provenance / Archived Releases only.
+
+# ─── Publication artifact versioning ──────────────────────────────
+#
+# Each individual publication artifact may have its own version that is
+# LOCAL to the artifact, not bound to corpus/edition releases. This is
+# Semantic Versioning-style. The release-line metadata declares the
+# corpus relation; the artifact version declares the artifact's own
+# lifecycle.
+
+artifact_version_examples:
+  - example: "Research Paper v1.0"
+    rule: SemVer for major/minor/patch; preprint → submitted → published lifecycle
+  - example: "Research Note v1.1"
+    rule: Notes typically version on substantial revisions; minor fixes do not bump
+  - example: "Dossier RC v2.4"
+    rule: RC suffix for release-candidate stage before frozen v2
+  - example: "OSF DOI release packet v1.0"
+    rule: Each OSF DOI packet has its own immutable version
+
+# ─── Doctrine constants ───────────────────────────────────────────
+doctrine_quotes:
+  governing_principle: >
+    Frozen release snapshots are citable. Active working lines are
+    inspectable. Proof packages are reproducible.
+  corpus_vs_edition: >
+    Corpus v3 may precede Monograph Third Edition. The website should
+    not bind them prematurely.
+  errata_integration: >
+    Errata remain visible even after integration. Integration fixes the
+    book; the errata page preserves the correction history.
+  taulib_distinction: >
+    TauLib v2 traces the books. TauLib v3 becomes the library.
+  short_form: >
+    Books stabilize the narrative corpus. Papers and notes move the
+    research. Dossiers orient inspection. Code verifies constructions.
+    Release lines keep the states apart.

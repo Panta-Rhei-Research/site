@@ -1,0 +1,483 @@
+# Local research graph manifest — v5 next-wave doctrine, IA §15.
+#
+# Source doctrine: atlas/website/v5/panta-rhei-ia-doctrine-v5.md §10, §11, §15.
+#
+# THIS FILE IS THE SINGLE SOURCE OF TRUTH for the website's identity /
+# authority graph. It drives:
+#
+#   - JSON-LD generation (Wave 6b)
+#   - Right-rail identifier boxes (Wave 6b)
+#   - The /research-graph/ public page (Wave 6a)
+#   - Citation snippets (existing /cite/ page + future enhancements)
+#   - Release-manifest provenance links (Wave 8a)
+#
+# Three surfaces consume this manifest. They must never diverge — the
+# manifest is canonical. If a value is unknown, leave it as `null` (not
+# absent) so consumers can distinguish "unknown" from "field missing".
+#
+# Doctrine on Wikidata:
+#   Per founders' decision (roadmap §2.3), Wikidata QID creation is
+#   DEFERRED to a follow-up cycle. All `wikidata_qid:` fields in this
+#   file are `null` at v5 next-wave ship. The manifest infrastructure
+#   IS in place; QIDs will be added once the Wikidata notability +
+#   sourcing review completes.
+#
+# Doctrine on local IDs (IA §10.5):
+#   Local IDs follow the pattern:
+#     prrp:program:<slug>
+#     prrp:person:<slug>
+#     prrp:publication:<slug>
+#     prrp:software:<slug>
+#     prrp:page:<slug>
+#     prrp:registry:item:<id>
+#
+# Schema for each entity:
+#   id              local prrp:* ID (required)
+#   type            research_program | person | research_monograph |
+#                   research_paper | research_note | research_dossier |
+#                   research_code | software_repository | website
+#   label           display name (required)
+#   url             primary site route (required for visible entities)
+#   wikidata_qid    Wikidata Q-number (null until follow-up cycle)
+#   doi             DOI string (null if none)
+#   osf             OSF project/page URL (null if none)
+#   github_repo     GitHub repo URL (null if none)
+#   arxiv           arXiv URL (null if none)
+#   orcid           ORCID URL (persons only)
+#   same_as         []string — additional sameAs URLs
+#   authors         []string — local IDs of author persons
+#   is_part_of      []string — local IDs of parent entities
+#   related         []string — local IDs of related entities
+#   citation_status see _data/release_lines.yml citation_status
+#   release_line    see _data/release_lines.yml corpus_release_lines
+#   notes           free-form clarifier (optional)
+
+# ─── 1 · The Program entity ───────────────────────────────────────
+entities:
+
+  - id: prrp:program:panta-rhei
+    type: research_program
+    label: Panta Rhei Research Program
+    url: https://panta-rhei.site/
+    wikidata_qid: null
+    doi: null
+    osf: null
+    github_repo: https://github.com/Panta-Rhei-Research
+    arxiv: null
+    same_as:
+      - https://github.com/Panta-Rhei-Research
+    citation_status: citable
+    release_line: corpus_v2
+    notes: >
+      The independent open research program. Founded by Thorsten and
+      Anna-Sophie Fuchs. The program is the parent entity for all
+      monographs, papers, notes, dossiers, code, and the website itself.
+
+# ─── 2 · Founders / Persons ───────────────────────────────────────
+
+  - id: prrp:person:thorsten-fuchs
+    type: person
+    label: Thorsten Fuchs
+    url: https://panta-rhei.site/program/about/founders/#thorsten-fuchs
+    wikidata_qid: null
+    orcid: https://orcid.org/0009-0007-0718-1042
+    same_as:
+      - https://orcid.org/0009-0007-0718-1042
+    affiliation: prrp:program:panta-rhei
+    citation_status: citable
+
+  - id: prrp:person:anna-sophie-fuchs
+    type: person
+    label: Anna-Sophie Fuchs
+    url: https://panta-rhei.site/program/about/founders/#anna-sophie-fuchs
+    wikidata_qid: null
+    orcid: https://orcid.org/0009-0007-3495-7416
+    same_as:
+      - https://orcid.org/0009-0007-3495-7416
+    affiliation: prrp:program:panta-rhei
+    citation_status: citable
+
+# ─── 3 · Research Monographs (the 7-volume canonical corpus) ──────
+
+  - id: prrp:publication:book-i
+    type: research_monograph
+    label: "Book I — Categorical Foundations"
+    subtitle: "How Mathematics Is Earned"
+    url: /publications/research-monographs/book-i/   # post-W7 route; W7 sets the redirect
+    legacy_url: /publications/books/book-i/
+    wikidata_qid: null
+    doi: 10.5281/zenodo.19544301             # current Zenodo DOI — W2/W7 may migrate to OSF
+    osf: null
+    isbn:
+      hardcover: null
+      paperback: null
+      ebook: null
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of:
+      - prrp:program:panta-rhei
+    release_line: corpus_v2
+    citation_status: citable
+    edition: second_edition
+    revision: "2.2"
+    book_number: I
+    pages: 483
+    chapters: 79
+    parts: 18
+
+  - id: prrp:publication:book-ii
+    type: research_monograph
+    label: "Book II — Categorical Holomorphy"
+    subtitle: "Finite Readouts of Infinity"
+    url: /publications/research-monographs/book-ii/
+    legacy_url: /publications/books/book-ii/
+    wikidata_qid: null
+    doi: 10.5281/zenodo.19544302
+    osf: null
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    release_line: corpus_v2
+    citation_status: citable
+    edition: second_edition
+    revision: "2.2"
+    book_number: II
+    pages: 504
+    chapters: 68
+    parts: 12
+
+  - id: prrp:publication:book-iii
+    type: research_monograph
+    label: "Book III — Categorical Spectrum"
+    subtitle: "Where Physics Lives"
+    url: /publications/research-monographs/book-iii/
+    legacy_url: /publications/books/book-iii/
+    wikidata_qid: null
+    doi: 10.5281/zenodo.19544303
+    osf: null
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    release_line: corpus_v2
+    citation_status: citable
+    edition: second_edition
+    revision: "2.2"
+    book_number: III
+    pages: 437
+    chapters: 76
+    parts: 11
+
+  - id: prrp:publication:book-iv
+    type: research_monograph
+    label: "Book IV — Categorical Microcosm"
+    subtitle: "The Self-Describing Universe"
+    url: /publications/research-monographs/book-iv/
+    legacy_url: /publications/books/book-iv/
+    wikidata_qid: null
+    doi: 10.5281/zenodo.19544304
+    osf: null
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    release_line: corpus_v2
+    citation_status: citable
+    edition: second_edition
+    revision: "2.2"
+    book_number: IV
+    pages: 479
+    chapters: 73
+    parts: 9
+
+  - id: prrp:publication:book-v
+    type: research_monograph
+    label: "Book V — Categorical Macrocosm"
+    url: /publications/research-monographs/book-v/
+    legacy_url: /publications/books/book-v/
+    wikidata_qid: null
+    doi: 10.5281/zenodo.19544305
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    release_line: corpus_v2
+    citation_status: citable
+    edition: second_edition
+    revision: "2.2"
+    book_number: V
+
+  - id: prrp:publication:book-vi
+    type: research_monograph
+    label: "Book VI — Categorical Life"
+    url: /publications/research-monographs/book-vi/
+    legacy_url: /publications/books/book-vi/
+    wikidata_qid: null
+    doi: 10.5281/zenodo.19544306
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    release_line: corpus_v2
+    citation_status: citable
+    edition: second_edition
+    revision: "2.2"
+    book_number: VI
+
+  - id: prrp:publication:book-vii
+    type: research_monograph
+    label: "Book VII — Categorical Reflection"
+    url: /publications/research-monographs/book-vii/
+    legacy_url: /publications/books/book-vii/
+    wikidata_qid: null
+    doi: 10.5281/zenodo.19544307
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    release_line: corpus_v2
+    citation_status: citable
+    edition: second_edition
+    revision: "2.2"
+    book_number: VII
+
+# ─── 4 · Associated Books (per founders' §2.4 decision) ───────────
+
+  - id: prrp:publication:out-of-context
+    type: research_monograph
+    label: "Out of Context"
+    role: associated_book
+    url: null   # to be confirmed when surface lands
+    wikidata_qid: null
+    doi: null
+    authors:
+      - prrp:person:thorsten-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    release_line: null   # associated work; not bound to a Corpus line
+    citation_status: citable
+    notes: >
+      Associated book in the broader intellectual lineage of the
+      program. Surfaced under Research Monographs → Associated Books
+      per the v5 next-wave taxonomy supplement (Taxonomy §3.1) and
+      founders' decision §2.4 in the roadmap. NOT part of the
+      canonical seven-volume Panta Rhei monograph corpus.
+
+# ─── 5 · Research Papers (current set — backfill from data file) ──
+#
+# Note: existing _data/publications/research_papers.yml has the full
+# list. This manifest seeds the first three (the Hinge series) for W1;
+# Wave 6a will sync the rest from research_papers.yml programmatically
+# once the JSON-LD generator is in place.
+
+  - id: prrp:publication:paper-hyperfactorization-theorem
+    type: research_paper
+    label: "The Hyperfactorization Theorem"
+    subtitle: "Hinge 1 preprint"
+    url: /publications/research-papers/hyperfactorization-theorem/
+    wikidata_qid: null
+    doi: 10.5281/zenodo.19818957
+    osf: null
+    arxiv: null
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    related:
+      - prrp:publication:book-i
+    release_line: corpus_v2
+    citation_status: citable
+    publication_status: preprint
+
+  - id: prrp:publication:paper-prime-polarity-theorem
+    type: research_paper
+    label: "The Prime Polarity Theorem"
+    subtitle: "Hinge 2 preprint"
+    url: /publications/research-papers/prime-polarity-theorem/
+    wikidata_qid: null
+    doi: 10.5281/zenodo.19819869
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    related:
+      - prrp:publication:book-iii
+    release_line: corpus_v2
+    citation_status: citable
+    publication_status: preprint
+
+  - id: prrp:publication:paper-master-constant-iota-tau
+    type: research_paper
+    label: "The Master Constant ι_τ"
+    subtitle: "Hinge 3 preprint"
+    url: /publications/research-papers/master-constant-iota-tau/
+    wikidata_qid: null
+    doi: 10.5281/zenodo.19820352
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    related:
+      - prrp:publication:book-iii
+    release_line: corpus_v2
+    citation_status: citable
+    publication_status: preprint
+    notes: >
+      The master constant ι_τ = 2/(π+e) ≈ 0.341 304 paper. Featured
+      on the homepage frontispiece (HF-02 ceremonial block) and the
+      data-carrying OG card.
+
+# ─── 6 · Research Dossiers (post-W7 class — seeded with knowns) ───
+#
+# Note: W7 will sync existing anchor_documents.yml and research_briefings
+# into this graph; the entries below seed the highest-profile dossiers.
+
+  - id: prrp:publication:dossier-construction-spine
+    type: research_dossier
+    label: "The Panta Rhei Construction Spine"
+    dossier_type: white_paper
+    role: framework
+    url: /corpus/construction-spine/                       # current surface
+    canonical_url_post_w7: /publications/research-dossiers/construction-spine/
+    wikidata_qid: null
+    doi: 10.17605/OSF.IO/6GJ9K
+    osf: https://osf.io/6gj9k/
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of:
+      - prrp:program:panta-rhei
+    related:
+      - prrp:publication:book-i
+      - prrp:publication:book-vii
+    release_line: corpus_v2
+    citation_status: citable
+
+  - id: prrp:publication:dossier-standing-in-inquiry-of-being
+    type: research_dossier
+    label: "Standing in the Inquiry of Being"
+    dossier_type: charter_essay
+    role: charter
+    url: /program/about/standing-in-the-inquiry-of-being/
+    canonical_url_post_w7: /publications/research-dossiers/standing-in-the-inquiry-of-being/
+    wikidata_qid: null
+    doi: null
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    release_line: corpus_v2
+    citation_status: citable
+
+# ─── 7 · Research Code / Formalization ────────────────────────────
+
+  - id: prrp:software:taulib
+    type: software_repository
+    label: "TauLib"
+    url: /corpus/taulib/
+    repository: https://github.com/Panta-Rhei-Research/taulib
+    docs: https://taulib.site
+    wikidata_qid: null
+    doi: null
+    authors:
+      - prrp:person:thorsten-fuchs
+      - prrp:person:anna-sophie-fuchs
+    is_part_of: [prrp:program:panta-rhei]
+    related: []
+    release_line: corpus_v2
+    citation_status: active_working
+    notes: >
+      Parent identity. TauLib has TWO release surfaces — see the v2
+      snapshot and v3 library entries below.
+
+  - id: prrp:software:taulib-v2-snapshot
+    type: research_code
+    code_type: lean_module
+    label: "TauLib v2 Snapshot"
+    sublabel: "Frozen Second Edition formalization companion"
+    url: /corpus/taulib/                                  # current surface; W8a will split
+    canonical_url_post_w8: /corpus/taulib/v2-snapshot/
+    repository: https://github.com/Panta-Rhei-Research/taulib
+    wikidata_qid: null
+    doi: null
+    is_part_of: [prrp:software:taulib, prrp:program:panta-rhei]
+    release_line: corpus_v2
+    formalization_surface: taulib_v2
+    citation_status: citable
+    formal_status:
+      - compiled
+      - zero_sorry
+      - public
+
+  - id: prrp:software:taulib-v3-library
+    type: research_code
+    code_type: lean_module
+    label: "TauLib v3 Library"
+    sublabel: "Active layered research library"
+    url: null                                              # not yet visible
+    canonical_url_post_w8: /corpus/taulib/v3-library/
+    repository: null                                       # internal only at v5 next-wave ship
+    wikidata_qid: null
+    doi: null
+    is_part_of: [prrp:software:taulib, prrp:program:panta-rhei]
+    release_line: corpus_v3_working
+    formalization_surface: taulib_v3
+    citation_status: private
+    public: false
+    pending_states:
+      public_docs: pending
+      formal_release: pending
+      citable_snapshot: not_yet_assigned
+    notes: >
+      Active working library. Per founders' decision §2.8 in the
+      roadmap, the v3 surface ships with a real page at v8a status =
+      "Private / internal restructure", not deferred entirely.
+
+# ─── 8 · The Website itself (per IA §11.6) ────────────────────────
+
+  - id: prrp:website:observatory
+    type: website
+    label: "Panta Rhei Observatory"
+    url: https://panta-rhei.site/
+    is_part_of: [prrp:program:panta-rhei]
+    wikidata_qid: null
+    notes: >
+      The public website. Per IA §11.6, the website may be represented
+      by Schema.org WebSite metadata without necessarily creating its
+      own Wikidata Q-item (the Program entity already carries the
+      official website link).
+
+# ─── 9 · Authority-layer notes ────────────────────────────────────
+#
+# This block is documentation, not graph entities. It records the
+# canonical external authority layers the program uses.
+
+authority_layers:
+  active:
+    - name: OSF
+      url: https://osf.io/
+      role: project-page + DOI minting
+    - name: GitHub
+      url: https://github.com/Panta-Rhei-Research
+      role: source code, release artifacts, audit scripts
+    - name: arXiv
+      url: https://arxiv.org/
+      role: preprint posting (when applicable)
+    - name: ORCID
+      url: https://orcid.org/
+      role: author identity authority
+    - name: DOI
+      url: https://www.doi.org/
+      role: artifact persistent identifier
+    - name: Wikidata
+      url: https://www.wikidata.org/
+      role: authority graph (deferred — see roadmap §2.3)
+
+  deprecated:
+    - name: Zenodo
+      role: >
+        Deprecated as active repository per IA §5.3. Historical DOIs
+        on the Second Edition monographs remain resolvable; future
+        artifacts use OSF DOIs. Single deprecation note lives in the
+        Research Graph's correction-history section.

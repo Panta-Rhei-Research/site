@@ -1,0 +1,162 @@
+# Page-type registry — v5 next-wave doctrine, IA §16.1.
+#
+# Maps each page type to:
+#   - its primary Schema.org type (drives JSON-LD generation in Wave 6)
+#   - identifier_box  — whether a right-rail Identifier box appears (Wave 6b)
+#   - allows_jsonld   — whether JSON-LD is emitted at all
+#   - notes           — design intent
+#
+# Consumers (downstream waves):
+#   W4  · about_site + colophon pages declare type to pick up correct JSON-LD
+#   W5  · research_log page declares CollectionPage type
+#   W6a · research_graph page declares Dataset + CollectionPage type
+#   W6b · the global JSON-LD include reads this registry to know which
+#         Schema.org type to emit + whether to render the right-rail
+#         identifier box for the page's artifact
+#   W7  · the four new publication classes (Monograph, Paper, Note,
+#         Dossier) all use the `publication` page type
+#   W8  · TauLib v2 / v3 / proof-package pages use the `software` type
+#
+# Source doctrine: atlas/website/v5/panta-rhei-ia-doctrine-v5.md §16.
+#
+# Schema:
+#   schema             string  — Schema.org @type (canonical form,
+#                                pipe-separated when more than one is
+#                                acceptable; first is preferred)
+#   identifier_box     bool    — render right-rail Identifier box?
+#   allows_jsonld      bool    — emit JSON-LD blob in <head>?
+#   notes              string  — short design rationale
+#
+# IMPORTANT: the page-type key (e.g. `lane_overview`, `publication`) is
+# the value pages declare in front-matter as `page_type:`. The JSON-LD
+# include should fall back to `WebPage` for any page that does not
+# declare a `page_type` field.
+
+page_types:
+
+  # ─── Lane overviews (the 8 epistemic lane roots) ─────────────────
+  lane_overview:
+    schema: WebPage
+    identifier_box: false
+    allows_jsonld: true
+    notes: >
+      The 8 lane roots (/discover/, /program/, /agenda/, /corpus/,
+      /results/, /verify/, /impact/, /engage/). WebPage is the right
+      Schema.org type — these are navigational nodes, not artifacts.
+
+  # ─── Publications (the 4 prose classes + the 1 code class) ───────
+  publication:
+    schema: ScholarlyArticle|Book|CreativeWork
+    identifier_box: true
+    allows_jsonld: true
+    notes: >
+      Used by Research Monographs, Research Papers, Research Notes, and
+      Research Dossiers. Sub-type selection (Book vs ScholarlyArticle
+      vs CreativeWork) is driven by `artifact_type:` in front-matter
+      against _data/publication_classes.yml. Monographs → Book; Papers
+      → ScholarlyArticle; Notes → ScholarlyArticle; Dossiers →
+      CreativeWork (or TechArticle when the dossier is technical).
+
+  software:
+    schema: SoftwareSourceCode|SoftwareApplication
+    identifier_box: true
+    allows_jsonld: true
+    notes: >
+      TauLib v2 Snapshot, TauLib v3 Library, individual Proof Packages,
+      reproducibility repositories. SoftwareSourceCode for repositories
+      (preferred); SoftwareApplication for runnable artifacts where
+      appropriate.
+
+  # ─── Identity / authority pages ──────────────────────────────────
+  person:
+    schema: Person
+    identifier_box: true
+    allows_jsonld: true
+    notes: >
+      Founders page (/program/about/founders/), individual founder
+      anchors. Person identifier_box renders ORCID + Wikidata QID when
+      available; falls back to local prrp:person:* ID otherwise.
+
+  organization:
+    schema: ResearchOrganization
+    identifier_box: true
+    allows_jsonld: true
+    notes: >
+      The Panta Rhei Research Program entity itself. Renders once at
+      the site root via WebSite + ResearchOrganization JSON-LD. Used
+      by About this Site and Colophon.
+
+  # ─── Reference & operations pages ────────────────────────────────
+  faq:
+    schema: FAQPage
+    identifier_box: false
+    allows_jsonld: true
+    notes: >
+      The canonical /faq/ page and per-layer FAQ pages. FAQPage
+      structured data is emitted selectively per IA §16.2 — only if
+      it does not overload search snippets.
+
+  research_log:
+    schema: CollectionPage
+    identifier_box: false
+    allows_jsonld: true
+    notes: >
+      The /research-log/ page. CollectionPage represents the dated
+      ledger as a collection of typed entries. Each entry has
+      `dateCreated` + `name` + `description` per the entry schema
+      defined in IA §4.4.
+
+  research_graph:
+    schema: Dataset|CollectionPage
+    identifier_box: true
+    allows_jsonld: true
+    notes: >
+      The /research-graph/ page. Dataset is the right Schema.org type
+      for the graph manifest itself (it IS a structured dataset);
+      CollectionPage is the navigation surface around it. Both can
+      coexist; the JSON-LD include should emit Dataset first.
+
+  colophon:
+    schema: WebPage
+    identifier_box: false
+    allows_jsonld: true
+    notes: >
+      The /colophon/ page. Plain WebPage — the build-stack documentation
+      doesn't fit a more specific Schema.org type. Site-facts block
+      can be emitted as Dataset if desired, but that's a follow-up.
+
+  about_site:
+    schema: WebPage
+    identifier_box: false
+    allows_jsonld: true
+    notes: >
+      The /about-site/ page. Plain WebPage — it's the reader's
+      orientation guide, not a publication.
+
+  # ─── Auxiliary surfaces ──────────────────────────────────────────
+  release_artifact:
+    schema: CreativeWork
+    identifier_box: true
+    allows_jsonld: true
+    notes: >
+      Release Manifests, OSF release packets, archived releases.
+      CreativeWork because they're typed artifacts but not scholarly
+      articles. Identifier box surfaces the release-line metadata.
+
+  errata:
+    schema: WebPage
+    identifier_box: false
+    allows_jsonld: true
+    notes: >
+      Per-book errata pages and the global errata index. WebPage; the
+      individual errata entries are part of the page content, not
+      separate Schema.org entities.
+
+  default:
+    schema: WebPage
+    identifier_box: false
+    allows_jsonld: true
+    notes: >
+      Fallback for any page that does not declare a `page_type:`
+      front-matter field. The JSON-LD include uses this when
+      site.data.page_types[page.page_type] is nil.
