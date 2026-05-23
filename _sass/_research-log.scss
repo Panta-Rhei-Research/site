@@ -1,0 +1,240 @@
+// ================================================================
+// Research Progress Log — entry feed styling
+// ================================================================
+//
+// Source: atlas/website/v5/panta-rhei-ia-doctrine-v5.md §4.
+// Layout: _layouts/research-log.html
+// Data:   _data/research_log/entries.yml
+//
+// Each entry is a self-contained card-row in a vertical feed. Type
+// chip + status chip use mono caps; date is a serif sentence; title
+// is the dominant element; summary is body prose; linked artifacts
+// render as compact link rows; related lanes render as lane-coloured
+// chips drawn from the existing .lane-* tokens.
+
+.research-log-feed {
+  .muted-note {
+    font-family: $font-mono;
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-600, var(--ink-700));
+    margin-top: -4px;
+  }
+}
+
+.research-log-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.research-log-entry {
+  position: relative;
+  padding: 20px 22px 18px;
+  background: var(--paper-50);
+  border: 1px solid var(--rule);
+  border-radius: $radius-md;
+  transition: border-color var(--t-base) var(--ease);
+
+  &:hover {
+    border-color: rgba(22, 62, 100, 0.20);
+  }
+
+  &:target {
+    border-color: var(--panta-blue-500);
+    box-shadow: 0 0 0 2px rgba(22, 62, 100, 0.12);
+  }
+}
+
+.research-log-entry-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.research-log-date {
+  font-family: $font-ui;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--ink-900);
+  letter-spacing: 0;
+}
+
+// ── Type chip (mono caps, neutral) ──────────────────────────────
+.research-log-type {
+  font-family: $font-mono;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: var(--paper-200);
+  color: var(--ink-700);
+  border: 1px solid var(--rule);
+  white-space: nowrap;
+
+  // Soft per-type tinting drawn from existing tokens. Stays
+  // restrained — the chip's job is to signal type-at-a-glance, not
+  // to fight the title for attention.
+  &[data-type="publication"]      { background: var(--panta-blue-50); color: var(--panta-blue-900); }
+  &[data-type="taulib"]           { background: var(--paper-200);     color: var(--ink-800); }
+  &[data-type="registry"]         { background: var(--paper-200);     color: var(--ink-800); }
+  &[data-type="result-status"]    { background: var(--panta-blue-50); color: var(--panta-blue-900); }
+  &[data-type="falsification"]    { background: var(--panta-blue-50); color: var(--panta-blue-900); }
+  &[data-type="pre-registration"] { background: var(--paper-200);     color: var(--ink-800); }
+  &[data-type="erratum"]          { background: var(--accent-gold-pale, var(--paper-200)); color: var(--ink-900); }
+  &[data-type="release"]          { background: var(--accent-gold-pale, var(--paper-200)); color: var(--ink-900); }
+  &[data-type="website"]          { background: var(--paper-200);     color: var(--ink-800); }
+}
+
+// ── Status chip (smaller, serif italic — secondary signal) ──────
+.research-log-status {
+  font-family: $font-ui;
+  font-size: 0.78rem;
+  font-style: italic;
+  color: var(--ink-600, var(--ink-700));
+  letter-spacing: 0;
+}
+
+// ── Title ───────────────────────────────────────────────────────
+.research-log-title {
+  font-family: $font-display, $font-ui;
+  font-size: 1.18rem;
+  font-weight: 500;
+  line-height: 1.3;
+  margin: 0 0 8px;
+  color: var(--ink-900);
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color var(--t-base) var(--ease);
+
+    &:hover {
+      border-bottom-color: var(--panta-blue-500);
+    }
+
+    &:visited { color: inherit; }
+  }
+}
+
+.research-log-anchor {
+  display: inline-block;
+}
+
+// ── Summary ─────────────────────────────────────────────────────
+.research-log-summary {
+  font-family: $font-ui;
+  font-size: 0.96rem;
+  line-height: 1.55;
+  color: var(--ink-800);
+  margin: 0 0 12px;
+}
+
+// ── Linked artifacts (compact link rows) ────────────────────────
+.research-log-artifacts {
+  list-style: none;
+  margin: 0 0 12px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+
+  li::before {
+    content: "→ ";
+    color: var(--panta-blue-500);
+    font-weight: 500;
+    margin-right: 4px;
+  }
+
+  a {
+    font-family: $font-ui;
+    font-size: 0.9rem;
+    color: var(--panta-blue-700);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    &:visited { color: var(--panta-blue-700); }
+  }
+}
+
+// ── Related-lane chips (small, lane-coloured) ───────────────────
+.research-log-lanes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 10px;
+}
+
+.research-log-lane-chip {
+  font-family: $font-mono;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: var(--paper-200);
+  color: var(--ink-700);
+  border: 1px solid var(--rule);
+  text-decoration: none;
+  transition:
+    background-color var(--t-base) var(--ease),
+    border-color var(--t-base) var(--ease);
+
+  &:hover {
+    background: var(--panta-blue-50);
+    border-color: rgba(22, 62, 100, 0.32);
+    color: var(--panta-blue-900);
+    text-decoration: none;
+  }
+
+  &:visited { color: var(--ink-700); }
+}
+
+// ── Bottom meta row (stable id) ─────────────────────────────────
+.research-log-entry-meta {
+  margin-top: 4px;
+  padding-top: 8px;
+  border-top: 1px solid var(--rule-soft, var(--rule));
+}
+
+.research-log-id {
+  font-family: $font-mono;
+  font-size: 10.5px;
+  letter-spacing: 0.04em;
+  color: var(--ink-500, var(--ink-600));
+  background: transparent;
+  padding: 0;
+}
+
+// ── Mobile ──────────────────────────────────────────────────────
+@media (max-width: $bp-stack) {
+  .research-log-entry {
+    padding: 16px 14px 14px;
+  }
+
+  .research-log-entry-head {
+    gap: 8px;
+  }
+
+  .research-log-title {
+    font-size: 1.08rem;
+  }
+
+  .research-log-summary {
+    font-size: 0.93rem;
+  }
+}

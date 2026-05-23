@@ -677,6 +677,40 @@
 }
 </script>
 
+{%- when 'research-log' -%}
+{%- comment -%}
+  Research Progress Log — IA §16.1 maps page_types.research_log to
+  schema CollectionPage. The page is a dated ledger of typed entries
+  (publication / registry / taulib / result-status / pre-registration
+  / falsification / erratum / release / website). Emitting full
+  ItemList here would couple JSON-LD to the entry-data shape; the
+  CollectionPage envelope is the canonical doctrine choice. Entry
+  count is computed at render time so the structured data tracks the
+  YAML manifest without manual sync.
+{%- endcomment -%}
+{%- assign rl_entries = site.data.research_log.entries | default: empty -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ json_title | jsonify }},
+  "description": {{ json_description | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "en",
+  "numberOfItems": {{ rl_entries | size }},
+  "isPartOf": { "@type": "WebSite", "@id": "{{ site.url }}/#website" },
+  "author": [
+    { "@type": "Person", "name": "Thorsten Fuchs", "sameAs": "https://orcid.org/0009-0007-0718-1042" },
+    { "@type": "Person", "name": "Anna-Sophie Fuchs", "sameAs": "https://orcid.org/0009-0007-3495-7416" }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Panta Rhei Research Program",
+    "url": "{{ site.url }}"
+  }
+}
+</script>
+
 {%- when 'registry-book' -%}
 <script type="application/ld+json">
 {

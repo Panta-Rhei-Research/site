@@ -60,6 +60,8 @@ The deep Book → Part → Chapter reading projection now lives in [Monograph Co
 
 Publications is the stable artifact layer of the program. It holds released objects that can be read, cited, downloaded, compared across editions, archived, and connected back to Corpus, Results, Verify, and Impact. Artifact type is not claim status.
 
+For the dated public ledger of research-stream events — new artifacts, registry additions, result-status changes, formalization milestones, errata, and release packets — see the [Research Progress Log]({{ '/research-log/' | relative_url }}). Publications is the artifact shelf; the Research Log is the moving ledger.
+
 <div class="btn-group section-ctas">
   <a class="btn" href="{{ '/publications/latest/' | relative_url }}">Latest Publications</a>
   <a class="btn" href="{{ '/publications/anchor-documents/' | relative_url }}">Open Anchor Documents</a>

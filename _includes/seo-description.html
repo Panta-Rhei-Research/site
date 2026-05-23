@@ -68,6 +68,9 @@ Research Notes from the Panta Rhei Research Program — dated scholarly artifact
 {%- when 'changelog-index' -%}
 Changelog for the Panta Rhei Research Program website — tracked updates and structural changes.
 
+{%- when 'research-log' -%}
+{% if page.summary_short and page.summary_short != '' %}{{ page.summary_short | strip_html }}{% else %}Research Progress Log — dated public ledger of the Panta Rhei Research Program's active research-stream events. Distinct from /changelog/ (site/release changes) and /corpus-changelog/ (semantic corpus updates).{% endif %}
+
 {%- when 'registry-book' -%}
 Registry dashboard for Book {{ page.book_id | default: page.title }} — typed mathematical objects with dependency graphs and formalization status.
 

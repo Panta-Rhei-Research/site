@@ -45,6 +45,8 @@ right_rail:
       url: /program/about/independence-scope-and-scrutiny/
     - title: "Research Notes"
       url: /publications/research-notes/
+    - title: "Research Progress Log"
+      url: /research-log/
     - title: "Public Observatory Blueprint"
       url: /publications/white-papers/building-a-public-research-observatory/
     - title: "Contact"

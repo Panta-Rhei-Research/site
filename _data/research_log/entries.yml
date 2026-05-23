@@ -1,0 +1,414 @@
+# Research Progress Log — entries manifest.
+#
+# Source: atlas/website/v5/panta-rhei-ia-doctrine-v5.md §4.4 ("Entry schema").
+# Roadmap: atlas/website/briefings/v5/v5-next-wave-roadmap-2026-05-23/
+#          README.md (W5 · Research Log).
+#
+# Entries are appended in chronological order (oldest first). The
+# /research-log/ page reverses the list for display so newest entries
+# appear at the top.
+#
+# Schema per IA §4.4:
+#
+#   id: rlog-YYYY-MM-DD-NNN      # stable handle, never reused
+#   date: YYYY-MM-DD              # ISO 8601 date (date the event occurred,
+#                                 # not the date the entry was written)
+#   type: publication | registry | taulib | result-status | pre-registration
+#         | falsification | erratum | release | website
+#   status: recorded | updated | superseded | corrected
+#   title: "Short noun phrase, sentence case"
+#   summary: "1-3 sentences. Operational, not promotional."
+#   linked_artifacts:                       # 0..N items
+#     - title: "Artifact display name"
+#       url: "/canonical/path/"
+#   related_lanes:                          # 0..N entries from the 8 lanes
+#     - <lane>
+#
+# Per IA §4.5 the log records active research stream events — distinct
+# from /changelog/ (site / release / infrastructure changes) and from
+# /corpus-changelog/ (semantic corpus corrections + bridge revisions).
+# When in doubt: if the event would interest a reviewer or journalist
+# tracking the research's progress, it belongs here. If it only
+# interests someone tracking the website's release engineering, it
+# belongs in /changelog/.
+#
+# Initial backfill: roughly the last thirty days of research-stream
+# activity (2026-04-25 through 2026-05-23). Subsequent entries are
+# appended as events occur.
+
+entries:
+
+  # ─── 2026-04 ─────────────────────────────────────────────────────────
+
+  - id: rlog-2026-04-25-001
+    date: 2026-04-25
+    type: publication
+    status: recorded
+    title: "Five Research Notes published as a Spring 2026 batch"
+    summary: >
+      First public release of a five-note batch on the structural-prior
+      programme: arithmetic quantum gravity without singularities, black
+      holes without extra dimensions, dark matter without dark matter
+      (kSZ force law), inflationary observables without an inflaton, and
+      dynamic chirality-induced spin selectivity (DCISS).
+    linked_artifacts:
+      - title: "Arithmetic quantum gravity without singularities"
+        url: "/research-notes/arithmetic-quantum-gravity-without-singularities/"
+      - title: "Black holes without extra dimensions"
+        url: "/research-notes/black-holes-without-extra-dimensions/"
+      - title: "Dark matter without dark matter — kSZ force law"
+        url: "/research-notes/dark-matter-without-dark-matter-ksz-force-law/"
+      - title: "Inflationary observables without an inflaton"
+        url: "/research-notes/inflationary-observables-without-an-inflaton/"
+      - title: "Structural prior — dynamic chirality-induced spin selectivity"
+        url: "/research-notes/structural-prior-dynamic-chirality-induced-spin-selectivity/"
+    related_lanes:
+      - publications
+      - corpus
+      - results
+
+  - id: rlog-2026-04-27-001
+    date: 2026-04-27
+    type: publication
+    status: recorded
+    title: "Research Note — Semantic Space has a Shape"
+    summary: >
+      Public Research Note arguing that semantic space carries an
+      intrinsic geometric structure — not an analogical claim but a
+      structural one derived from the Construction Spine. Submitted as
+      part of the long-running semantics-and-geometry thread.
+    linked_artifacts:
+      - title: "Semantic Space has a Shape"
+        url: "/research-notes/semantic-space-has-a-shape/"
+    related_lanes:
+      - publications
+      - corpus
+
+  - id: rlog-2026-04-30-001
+    date: 2026-04-30
+    type: release
+    status: recorded
+    title: "v4 audit verdict published"
+    summary: >
+      Atlas published the v4 site audit verdict — the verdict that
+      framed the v5 next-wave roadmap. Doctrine fidelity 9.1, doctrine
+      expression 5.4. The recommendations in this audit are what the
+      v5 polish wave and the v5 next-wave cycle now ship against.
+    linked_artifacts:
+      - title: "Changelog — site"
+        url: "/changelog/"
+    related_lanes:
+      - verify
+
+  # ─── 2026-05 ─────────────────────────────────────────────────────────
+
+  - id: rlog-2026-05-02-001
+    date: 2026-05-02
+    type: release
+    status: recorded
+    title: "Release manifest v4.0 published"
+    summary: >
+      Public release manifest pinning the v4.0 cross-repo bundle —
+      atlas, site, corpus, and taulib_public_repo commits all stamped
+      under a single release_id. From this point the public site's
+      release-changing facts are sourced exclusively from the manifest
+      (no hand-edited prose).
+    linked_artifacts:
+      - title: "Release manifest"
+        url: "/verify/release-manifest/"
+    related_lanes:
+      - verify
+
+  - id: rlog-2026-05-03-001
+    date: 2026-05-03
+    type: registry
+    status: updated
+    title: "Construction Spine v4 enrichment"
+    summary: >
+      Enrichment pass on the public Construction Spine route — surfaced
+      additional step-level scaffolding and tightened the OSF + live-
+      website cross-links per the route ledger's editorial conventions.
+    linked_artifacts:
+      - title: "The Panta Rhei Construction Spine"
+        url: "/corpus/construction-spine/"
+      - title: "Construction Spine — steps"
+        url: "/corpus/construction-spine/steps/"
+    related_lanes:
+      - corpus
+      - verify
+
+  - id: rlog-2026-05-05-001
+    date: 2026-05-05
+    type: taulib
+    status: updated
+    title: "TauLib taxonomy refresh — module index reorganisation"
+    summary: >
+      TauLib module index reorganised against the v2 release-line
+      vocabulary. Module-to-result mappings retightened so each
+      formalised theorem traces unambiguously to its Lean source line
+      and to the corresponding result entry on the public site.
+    linked_artifacts:
+      - title: "TauLib (Verify lane)"
+        url: "/verify/taulib/"
+    related_lanes:
+      - verify
+
+  - id: rlog-2026-05-07-001
+    date: 2026-05-07
+    type: falsification
+    status: updated
+    title: "Falsification pack refresh — predictions and falsification"
+    summary: >
+      The Predictions and Falsification pack on the Verify lane
+      refreshed with current status flags and updated forensic-test
+      pointers. Each falsifiable prediction now carries an explicit
+      "what observation refutes this" line and a link to the
+      corresponding forensic-test PDF where one exists.
+    linked_artifacts:
+      - title: "Predictions and falsification"
+        url: "/verify/predictions-and-falsification/"
+    related_lanes:
+      - verify
+      - results
+
+  - id: rlog-2026-05-09-001
+    date: 2026-05-09
+    type: result-status
+    status: updated
+    title: "Landmark Results — status pass against the canonical roster"
+    summary: >
+      Landmark Results index swept against the canonical results
+      roster — each landmark entry's status, provenance pointer, and
+      cross-link to its Verify panel verified. No new landmark status
+      changes; corrections issued where pointers had drifted.
+    linked_artifacts:
+      - title: "Landmark Results"
+        url: "/results/landmark-results/"
+    related_lanes:
+      - results
+      - verify
+
+  - id: rlog-2026-05-10-001
+    date: 2026-05-10
+    type: release
+    status: recorded
+    title: "Pre-launch editorial QA pass"
+    summary: >
+      Sweep of the public site ahead of the LinkedIn launch — every
+      sitemap-indexed URL reviewed for editorial coherence, voice
+      consistency, and footer-link integrity. Closed the long-running
+      "publications shelf reads like a bibliography" thread.
+    linked_artifacts:
+      - title: "Publications"
+        url: "/publications/"
+      - title: "Bibliography"
+        url: "/bibliography/"
+    related_lanes:
+      - publications
+
+  - id: rlog-2026-05-13-001
+    date: 2026-05-13
+    type: release
+    status: recorded
+    title: "IA Doctrine v5 published"
+    summary: >
+      First canonical release of the v5 information-architecture
+      doctrine in the program atlas — covers Footer, Search Modal,
+      About this Site, Colophon, Research Graph, Publications, and
+      the Research Log. This is the doctrine the W1-W8 implementation
+      cycle is shipping against.
+    linked_artifacts:
+      - title: "Changelog"
+        url: "/changelog/"
+    related_lanes:
+      - verify
+
+  - id: rlog-2026-05-15-001
+    date: 2026-05-15
+    type: publication
+    status: recorded
+    title: "Two Research Notes on τ-readout surfaces"
+    summary: >
+      Aesthetic Topology — Pre-symbolic Readout and Thirty Open
+      Problems — τ-Readout Surfaces published as a pair. The second
+      pins thirty named open problems on the readout-surface frontier,
+      forming an explicit inspection ledger for downstream work.
+    linked_artifacts:
+      - title: "Aesthetic Topology — pre-symbolic readout"
+        url: "/research-notes/aesthetic-topology-pre-symbolic-readout/"
+      - title: "Thirty open problems — τ-readout surfaces"
+        url: "/research-notes/thirty-open-problems-tau-readout-surfaces/"
+    related_lanes:
+      - publications
+      - corpus
+
+  - id: rlog-2026-05-17-001
+    date: 2026-05-17
+    type: publication
+    status: recorded
+    title: "Two Research Notes on categorical readings"
+    summary: >
+      Natarajan Cluster Dichotomy — categorical reading, and Reading
+      Prometheus through τ — both published as Research Notes. The
+      pair extends the categorical readings of established results
+      through the Construction Spine.
+    linked_artifacts:
+      - title: "Natarajan cluster dichotomy — categorical"
+        url: "/research-notes/natarajan-cluster-dichotomy-categorical/"
+      - title: "Reading Prometheus through τ"
+        url: "/research-notes/reading-prometheus-through-tau/"
+    related_lanes:
+      - publications
+      - corpus
+
+  - id: rlog-2026-05-19-001
+    date: 2026-05-19
+    type: release
+    status: recorded
+    title: "v5 audit close-out — seven implementation waves shipped"
+    summary: >
+      Seven-wave implementation cycle against the May audit closed
+      out. Lane-numbered index, world-readout τ-spectrum, homepage
+      manifest snapshot, FAQ provenance well, inspection panels,
+      footer search, dispatch list, gold-marked search highlights,
+      mono results-count band, X close button, and the data-carrying
+      homepage OG card all landed on main.
+    linked_artifacts:
+      - title: "Changelog"
+        url: "/changelog/"
+      - title: "Verify"
+        url: "/verify/"
+    related_lanes:
+      - verify
+
+  - id: rlog-2026-05-21-001
+    date: 2026-05-21
+    type: release
+    status: recorded
+    title: "v5 polish wave close-out — four polish waves shipped"
+    summary: >
+      Four-wave polish pass against the May polish audit closed out.
+      Search empty-state syntax hint, result-list filter chips,
+      breadcrumb de-pillification, FAQ default-open keyed per surface,
+      πρ section terminators on long-read pages, release manifest in
+      the Email-to-expert body, focus-ring uniformisation across all
+      interactive surfaces — every item shipped to main with mobile
+      parity verified.
+    linked_artifacts:
+      - title: "Changelog"
+        url: "/changelog/"
+    related_lanes:
+      - verify
+
+  - id: rlog-2026-05-23-001
+    date: 2026-05-23
+    type: release
+    status: recorded
+    title: "v5 next-wave doctrine groundwork shipped (W1)"
+    summary: >
+      Four data layers landed to ground the v5 next-wave cycle — the
+      page-type registry, the publication-class taxonomy, the release-
+      line vocabulary, and the local research-graph manifest. Zero
+      existing files modified; downstream waves W2-W8 read from these
+      manifests rather than re-asserting their own truths.
+    linked_artifacts:
+      - title: "Colophon"
+        url: "/colophon/"
+    related_lanes:
+      - verify
+      - corpus
+
+  - id: rlog-2026-05-23-002
+    date: 2026-05-23
+    type: website
+    status: recorded
+    title: "Footer regrouped per IA Doctrine v5 §5 + Zenodo posture (W2)"
+    summary: >
+      Footer restructured to five IA-doctrine groups (Lanes · Reference ·
+      Media & Contact · Build & Provenance · Legal). Zenodo removed from
+      the footer social pills and the shared social-icon strip per the
+      founders' decision §2.2 — monograph DOIs minted on Zenodo remain
+      resolvable on the per-book templates, but Zenodo is no longer
+      surfaced as an active discovery channel.
+    linked_artifacts:
+      - title: "About this Site"
+        url: "/about-site/"
+    related_lanes:
+      - engage
+
+  - id: rlog-2026-05-23-003
+    date: 2026-05-23
+    type: website
+    status: recorded
+    title: "Search modal quick-access empty state shipped (W3)"
+    summary: >
+      Search modal now opens with an IA §7.2 three-tier empty state —
+      eight Quick Access chips, four Common Starting Points, two Site
+      Help links. The empty state collapses on the first keystroke and
+      returns the moment the input is cleared. Press / or Cmd/Ctrl+K
+      to test from any page.
+    linked_artifacts:
+      - title: "About this Site — search and quick access"
+        url: "/about-site/#search-and-quick-access"
+    related_lanes:
+      - engage
+
+  - id: rlog-2026-05-23-004
+    date: 2026-05-23
+    type: website
+    status: recorded
+    title: "/about-site/ — operational guide for reviewers (W4a)"
+    summary: >
+      New twelve-section guide explaining how to use the Observatory —
+      lane structure, how to choose a route, search and quick access,
+      page tools, PDF/Markdown dossiers, Publications vs Research Log
+      vs Changelog distinction, how to inspect a claim, how to cite,
+      and how to report corrections. Resolves the W2 footer and W3
+      search-modal forward stubs.
+    linked_artifacts:
+      - title: "About this Site"
+        url: "/about-site/"
+    related_lanes:
+      - engage
+
+  - id: rlog-2026-05-23-005
+    date: 2026-05-23
+    type: website
+    status: recorded
+    title: "/colophon/ + site_facts build-time generator (W4b)"
+    summary: >
+      Colophon published — thirteen sections covering authorship,
+      development workflow, static-site architecture, build stack,
+      search stack, metadata pipeline, dossier generation, design
+      system, accessibility posture, credits, and a live site-facts
+      table populated at every build by a new Jekyll plugin. Credits
+      tightened to "licenses + acknowledgements" per IA §9.5.
+    linked_artifacts:
+      - title: "Colophon"
+        url: "/colophon/"
+      - title: "Credits"
+        url: "/credits/"
+    related_lanes:
+      - verify
+
+  - id: rlog-2026-05-23-006
+    date: 2026-05-23
+    type: website
+    status: recorded
+    title: "Research Log surface live (W5)"
+    summary: >
+      This page — the public Research Progress Log — published. Records
+      meaningful research-stream events distinct from the Changelog
+      (site / release / infrastructure) and the Corpus Changelog
+      (semantic corpus corrections + bridge revisions). Entries are
+      typed and date-stamped; future entries are appended as events
+      occur.
+    linked_artifacts:
+      - title: "Research Log"
+        url: "/research-log/"
+      - title: "Changelog"
+        url: "/changelog/"
+    related_lanes:
+      - publications
+      - verify
+      - engage
