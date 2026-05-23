@@ -89,6 +89,26 @@ The Construction Spine is the primary human-readable route into the Corpus. It s
   <a class="btn-ghost" href="{{ '/verify/construction-spine-verification/' | relative_url }}">Verify the Construction Spine</a>
 </div>
 
+## Corpus Artifact Projections
+
+<!--
+  v5 next-wave W7b · IA §3.2 cross-link block.
+  Source: atlas/website/v5/panta-rhei-ia-doctrine-v5.md §3.2 Corpus lane.
+  Publications-class artifacts that carry or update the Corpus —
+  these are not new Corpus primitives, they are projections of the
+  active publication stream into the Corpus reading view.
+-->
+
+The Corpus is updated by — and connected to — the active publication stream. Publications-class artifacts that touch the Corpus appear in five projections:
+
+<ul class="v2-grid v2-card-list">
+  <li><article><a class="v2-tile" href="{{ '/publications/research-papers/' | relative_url }}"><h3>Research Papers</h3><p>Standalone scholarly papers carrying primary technical contributions — the Hinge series.</p></a></article></li>
+  <li><article><a class="v2-tile" href="{{ '/publications/research-notes/' | relative_url }}"><h3>Research Notes</h3><p>Shorter scholarly artifacts from the ongoing research stream — frontier responses, comparative readings.</p></a></article></li>
+  <li><article><a class="v2-tile" href="{{ '/publications/research-dossiers/' | relative_url }}"><h3>Research Dossiers</h3><p>Framework dossiers and translation artifacts — including <em>The Construction Spine</em> itself as a Dossier-class artifact.</p></a></article></li>
+  <li><article><a class="v2-tile" href="{{ '/publications/release-artifacts/' | relative_url }}"><h3>Release Artifacts</h3><p>Version, provenance, correction, manifest — the release-governance surface for Corpus snapshots.</p></a></article></li>
+  <li><article><a class="v2-tile" href="{{ '/research-log/' | relative_url }}"><h3>Research Log</h3><p>The dated public ledger of research-stream events touching the Corpus.</p></a></article></li>
+</ul>
+
 ## The τ-Kernel
 
 {% include scientific-plate.html id="plate-10-tau-kernel" variant="thumb" class="scientific-plate--compact scientific-plate--tau-kernel" loading="lazy" %}

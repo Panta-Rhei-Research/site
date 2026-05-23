@@ -206,6 +206,27 @@ For the architecture-level audit route, see [Building a Public Research Observat
 
 These labels describe inspection state. They are related to, but distinct from, Results status labels such as internally addressed, partial, qualitative, or not addressed.
 
+## Review Packets &amp; Citable Artifacts
+
+<!--
+  v5 next-wave W7b · IA §3.2 cross-link block.
+  Source: atlas/website/v5/panta-rhei-ia-doctrine-v5.md §3.2 Verify lane.
+  Publications-class artifacts that an inspecting reviewer needs to
+  reach quickly — review packets, citable artifacts, and the
+  cross-cutting reference layer.
+-->
+
+Inspecting a claim or preparing a review typically requires reaching for the publication-class artifacts behind it. The six surfaces most relevant to a Verify reader:
+
+<ul class="v2-grid v2-card-list">
+  <li><article><a class="v2-tile" href="{{ '/publications/research-papers/' | relative_url }}"><h3>Research Papers</h3><p>Standalone scholarly papers — the peer-review-ready Hinge series.</p></a></article></li>
+  <li><article><a class="v2-tile" href="{{ '/publications/research-notes/' | relative_url }}"><h3>Research Notes</h3><p>Shorter scholarly artifacts — frontier responses, comparative readings, pre-registrations.</p></a></article></li>
+  <li><article><a class="v2-tile" href="{{ '/publications/release-artifacts/' | relative_url }}"><h3>Release Artifacts</h3><p>Version, provenance, correction, manifest, changelog — the release-governance surface.</p></a></article></li>
+  <li><article><a class="v2-tile" href="{{ '/publications/release-artifacts/errata/' | relative_url }}"><h3>Errata</h3><p>The program's open errata stream — corrections recorded as a first-class artifact.</p></a></article></li>
+  <li><article><a class="v2-tile" href="{{ '/bibliography/' | relative_url }}"><h3>Bibliography</h3><p>The cross-cutting references — classical and modern sources linked to canonical publisher, DOI, or arXiv record.</p></a></article></li>
+  <li><article><a class="v2-tile" href="{{ '/cite/' | relative_url }}"><h3>How to Cite</h3><p>Citation guidance for individual monographs, the program as a whole, specific results, and TauLib.</p></a></article></li>
+</ul>
+
 ## Operational Surfaces
 
 - [TauLib]({{ '/verify/taulib/' | relative_url }}) is the Lean 4 formalization surface.

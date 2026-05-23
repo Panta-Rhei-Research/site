@@ -16,6 +16,19 @@ og_image_alt: "Scientific plate showing Research Briefings as one category insid
 
 ## What Research Briefings are
 
+<div class="notice note">
+  <strong>Retired visible category · folds into Research Dossiers.</strong>
+  Research Briefings is no longer one of the program's primary
+  visible publication classes per the
+  <a href="https://github.com/Panta-Rhei-Research/atlas/blob/main/website/v5/panta-rhei-publication-taxonomy-v5-supplement.md">Publication Taxonomy v5 Supplement</a>
+  §3.4. The Briefings shape — assembling existing Results into a
+  domain-facing reading — is now a <em>Briefing</em> subtype of the
+  <a href="{{ '/publications/research-dossiers/' | relative_url }}">Research Dossier</a>
+  class. This index page continues to resolve for back-compat; the
+  current Public-Good Briefings family below is reachable both here
+  and from the Dossiers index.
+</div>
+
 Research Briefings are framework-grounded synthesis and translation artifacts.
 
 They translate existing Panta Rhei Results, assumptions, and verification status into a domain, institution, public-good context, or applied audience.
