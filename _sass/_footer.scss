@@ -277,7 +277,12 @@ body.shell-home .ft .ft-shell {
   }
 }
 
-// ── Labelled social pills (GitHub · LinkedIn · ArXiv · Zenodo) ──
+// ── Labelled social pills (GitHub · LinkedIn · ArXiv) ──
+//
+// v5 next-wave W2 (2026-05-23): Zenodo pill removed per IA Doctrine
+// v5 §5.3 + founders' roadmap §2.2 decision. Monograph DOIs minted on
+// Zenodo remain resolvable on the per-book templates, but Zenodo is
+// no longer surfaced as an active discovery channel.
 
 .ft-social {
   margin-left: auto;

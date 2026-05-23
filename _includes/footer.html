@@ -1,18 +1,50 @@
 <footer class="ft" aria-labelledby="ft-brand-title">
   {%- comment -%}
-    v5 footer rework (audit Items #4, #5, #6, #7, #8).
-    Full-bleed Panta Blue 950 ground with a 4px τ-spectrum sliver at the very
-    top edge (the "closing spine" the brand guide describes). Three inner
-    regions all share `.ft-shell` constraints so they align with .page-grid
-    content edges at every breakpoint.
+    Footer doctrine — v5 next-wave cycle (IA Doctrine v5 §5).
 
-      ft-meta    — mono "Last updated · Release manifest" row above the cols
+    Source: atlas/website/v5/panta-rhei-ia-doctrine-v5.md §5.2.
+    Roadmap: atlas/website/briefings/v5/v5-next-wave-roadmap-2026-05-23/
+             README.md (W2 · Footer + Zenodo hygiene).
+
+    Full-bleed Panta Blue 950 ground with a 4px τ-spectrum sliver at the
+    very top edge (the "closing spine" the brand guide describes). Three
+    inner regions all share `.ft-shell` constraints so they align with
+    .page-grid content edges at every breakpoint.
+
+      ft-meta    — mono "Last updated · Release manifest" row above cols
       ft-inner   — 6-column link grid (brand 1.4fr + 5 cols 1fr)
-      ft-bar     — legal + labelled social pills (GitHub · LinkedIn · ArXiv · Zenodo)
+      ft-bar     — legal + labelled social pills (GitHub · LinkedIn · ArXiv)
 
-    Per the v5 founder decision, the "drop" icon is dropped entirely; the
-    PAGE VERSIONING bordered card is replaced by the quiet mono ft-meta row;
-    the brand block is left-aligned everywhere (no centering on mobile).
+    The five inner groups encode the IA doctrine's footer role
+    distinctions:
+
+      Lanes              the 8 epistemic top-nav lanes
+      Reference          operational reference layer — Search, FAQ,
+                         Publications shelf, Latest, Research Log,
+                         About this Site, Bibliography, Changelog,
+                         Sitemap, Cite
+      Media & Contact    press + founders + contact routes
+      Build & Provenance Colophon, Research Graph, Release Manifest,
+                         Credits, GitHub Org, TauLib Docs, TauLib Source
+      Legal              Impressum, Datenschutz, License
+
+    Some Reference + Build & Provenance links point to pages that
+    don't exist yet — they land in later waves:
+      /about-site/        W4 (About + Colophon)
+      /colophon/          W4
+      /research-log/      W5
+      /research-graph/    W6
+    Until those pages exist they'll 404. The link-audit workflow is
+    schedule-only (non-blocking) and surfaces an issue for triage; this
+    is intentional staging per the v5 next-wave roadmap.
+
+    Zenodo removal: per IA §5.3 + founders' roadmap §2.2 decision, the
+    Zenodo social pill is removed from this footer. Monograph DOIs that
+    were minted on Zenodo remain resolvable (kept in _data/publications/
+    dois.json and the per-book templates). The single deprecation note
+    documenting Zenodo's historical role lives in _data/research_graph.
+    yml under authority_layers.deprecated, surfaced publicly on the
+    /research-graph/ page (W6).
   {%- endcomment -%}
 
   <div class="ft-meta ft-shell">
@@ -43,18 +75,21 @@
     <div class="ft-col">
       <h5>Reference</h5>
       {%- comment -%}
-        AUD-19 · Inline footer search.
-        Replaces the orphan "Search" heading-as-button (which had no input,
-        just opened the overlay) with an actual text input — readers can
-        type a query directly in the footer and submit, which opens the
-        search overlay pre-populated with their query. Doctrine:
-        "Inspectability begins with discoverability."
+        AUD-19 (v5 audit) · Inline footer search.
+        Inspectability begins with discoverability. The text input
+        opens the search overlay pre-populated with the query.
 
-        Submit handler is defined inline so it works without JS module
-        loading: writes the query into the Pagefind input inside
-        #search-container, then calls openSearch() which is a global
-        defined synchronously in default.html. Pagefind's debounced
-        change listener picks the query up and renders results.
+        Reference items list (IA Doctrine v5 §5.2):
+          Search the Observatory   (input above)
+          FAQ
+          Publications
+          Latest Publications
+          Research Log             (W5 — page not yet shipped)
+          About this Site          (W4 — page not yet shipped)
+          Bibliography
+          Changelog
+          Sitemap
+          Cite
       {%- endcomment -%}
       <form class="ft-search" role="search" aria-label="Search the observatory"
             onsubmit="event.preventDefault();
@@ -79,7 +114,11 @@
         </button>
       </form>
       <ul>
+        <li><a href="{{ '/faq/' | relative_url }}">FAQ</a></li>
         <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
+        <li><a href="{{ '/publications/latest/' | relative_url }}">Latest Publications</a></li>
+        <li><a href="{{ '/research-log/' | relative_url }}">Research Log</a></li>
+        <li><a href="{{ '/about-site/' | relative_url }}">About this Site</a></li>
         <li><a href="{{ '/bibliography/' | relative_url }}">Bibliography</a></li>
         <li><a href="{{ '/changelog/' | relative_url }}">Changelog</a></li>
         <li><a href="{{ '/sitemap/' | relative_url }}">Sitemap</a></li>
@@ -99,11 +138,31 @@
     </div>
 
     <div class="ft-col">
-      <h5>External</h5>
+      <h5>Build &amp; Provenance</h5>
+      {%- comment -%}
+        IA Doctrine v5 §5.2 — Build & Provenance group.
+
+        Items list:
+          Colophon          (W4 — page not yet shipped)
+          Research Graph    (W6 — page not yet shipped)
+          Release Manifest  (current — at /verify/release-manifest/)
+          Credits
+          GitHub Organization
+          TauLib Docs
+          TauLib Source
+
+        Replaces the v4 "External" group (which held only the 3 GitHub /
+        TauLib external links). The new group surfaces the provenance /
+        build-stack layer per IA §5.2 + §10 + §15.
+      {%- endcomment -%}
       <ul>
+        <li><a href="{{ '/colophon/' | relative_url }}">Colophon</a></li>
+        <li><a href="{{ '/research-graph/' | relative_url }}">Research Graph</a></li>
+        <li><a href="{{ '/verify/release-manifest/' | relative_url }}">Release Manifest</a></li>
+        <li><a href="{{ '/credits/' | relative_url }}">Credits</a></li>
+        <li><a href="https://github.com/Panta-Rhei-Research" target="_blank" rel="noopener" data-umami-event="outbound.github" data-umami-event-location="footer" data-umami-event-type="external" data-umami-event-outbound="github" data-umami-event-variant="org">GitHub Organization</a></li>
         <li><a href="https://taulib.site" target="_blank" rel="noopener" data-umami-event="outbound.taulib" data-umami-event-location="footer" data-umami-event-type="external">TauLib Docs</a></li>
         <li><a href="https://github.com/Panta-Rhei-Research/taulib" target="_blank" rel="noopener" data-umami-event="outbound.github" data-umami-event-location="footer" data-umami-event-type="external" data-umami-event-outbound="github" data-umami-event-variant="taulib-source">TauLib Source</a></li>
-        <li><a href="https://github.com/Panta-Rhei-Research" target="_blank" rel="noopener" data-umami-event="outbound.github" data-umami-event-location="footer" data-umami-event-type="external" data-umami-event-outbound="github" data-umami-event-variant="org">GitHub Organization</a></li>
       </ul>
     </div>
 
@@ -124,6 +183,18 @@
     <span class="ft-sep" aria-hidden="true">·</span>
     <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener license">Content CC&nbsp;BY&nbsp;4.0</a>
 
+    {%- comment -%}
+      Social pills — three off-site profiles per IA §5.3 (Zenodo removed).
+      GitHub, LinkedIn, ArXiv.
+
+      Zenodo was removed in v5 next-wave W2 per founders' roadmap §2.2
+      decision: full removal from active surfaces. Zenodo DOIs on
+      existing Monograph records still resolve (kept in _data/
+      publications/dois.json), but the program no longer points
+      readers at Zenodo as an active discovery surface. The single
+      historical/deprecation note lives in _data/research_graph.yml
+      and surfaces publicly on /research-graph/ (W6).
+    {%- endcomment -%}
     <div class="ft-social" aria-label="Off-site profiles">
       <a href="https://github.com/Panta-Rhei-Research" target="_blank" rel="noopener" data-umami-event="outbound.github" data-umami-event-location="footer-social" data-umami-event-type="external" data-umami-event-outbound="github" data-umami-event-variant="org">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
@@ -136,10 +207,6 @@
       <a href="https://arxiv.org/search/?query=Panta+Rhei+Fuchs&amp;searchtype=all" target="_blank" rel="noopener" data-umami-event="outbound.arxiv" data-umami-event-location="footer-social" data-umami-event-type="external" data-umami-event-outbound="arxiv">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 4h18v2H3zm0 7h18v2H3zm0 7h18v2H3z"/></svg>
         <span>ArXiv</span>
-      </a>
-      <a href="https://zenodo.org/search?q=panta+rhei+fuchs" target="_blank" rel="noopener" data-umami-event="outbound.zenodo" data-umami-event-location="footer-social" data-umami-event-type="external" data-umami-event-outbound="zenodo">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M2 3h20v3.6L8.4 18.4H22V22H2v-3.6L15.6 6.6H2V3z"/></svg>
-        <span>Zenodo</span>
       </a>
     </div>
   </div>
