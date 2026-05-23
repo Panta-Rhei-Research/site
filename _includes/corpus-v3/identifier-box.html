@@ -1,0 +1,88 @@
+{%- comment -%}
+  Corpus v3 identifier box.
+  Renders CID, primary alias, legacy aliases, external identifiers as a
+  compact card on every Corpus Item page.
+  Web addendum §4 (Identifier Box) + doctrine §20.
+{%- endcomment -%}
+
+<section class="content-card corpus-v3-identifier-box" aria-labelledby="corpus-v3-identifier-heading">
+  <h2 id="corpus-v3-identifier-heading">Identifiers</h2>
+
+  <ul class="meta-list" style="font-size: 0.9rem;">
+    <li class="meta-item">
+      <span>Corpus ID</span>
+      <span class="meta-value"><code>{{ page.cid }}</code></span>
+    </li>
+    {%- if page.primary_alias and page.primary_alias != "" -%}
+      <li class="meta-item">
+        <span>Primary alias</span>
+        <span class="meta-value"><code>{{ page.primary_alias }}</code></span>
+      </li>
+    {%- endif -%}
+    <li class="meta-item">
+      <span>Type</span>
+      <span class="meta-value">{{ page.type | replace: "_", " " | capitalize }}</span>
+    </li>
+    <li class="meta-item">
+      <span>Status</span>
+      <span class="meta-value"><code>{{ page.status }}</code></span>
+    </li>
+    <li class="meta-item">
+      <span>Visibility</span>
+      <span class="meta-value"><code>{{ page.visibility }}</code></span>
+    </li>
+    {%- if page.current_version -%}
+      <li class="meta-item">
+        <span>Version</span>
+        <span class="meta-value"><code>{{ page.current_version }}</code></span>
+      </li>
+    {%- endif -%}
+  </ul>
+
+  {%- if page.aliases.size > 1 -%}
+    <h3 style="font-size: 0.95rem; margin-top: 14px;">Aliases &amp; legacy IDs</h3>
+    <div class="chip-row" style="margin-bottom: 8px;">
+      {%- for alias in page.aliases -%}
+        {%- if alias != page.primary_alias -%}
+          <span class="chip"><code>{{ alias }}</code></span>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+
+  {%- if page.external_identifiers.size > 0 -%}
+    <h3 style="font-size: 0.95rem; margin-top: 14px;">External identifiers</h3>
+    <ul class="meta-list" style="font-size: 0.85rem;">
+      {%- for key in page.external_identifiers -%}
+        {%- assign val = page.external_identifiers[key] -%}
+        {%- if val and val != "" and val != nil -%}
+          <li class="meta-item">
+            <span>{{ key | replace: "_", " " | capitalize }}</span>
+            <span class="meta-value">
+              {%- if key == "doi" -%}
+                <a href="https://doi.org/{{ val }}"><code>{{ val }}</code></a>
+              {%- elsif key == "wikidata" -%}
+                <a href="https://www.wikidata.org/wiki/{{ val }}"><code>{{ val }}</code></a>
+              {%- elsif key == "github" -%}
+                <a href="{{ val }}"><code>{{ val }}</code></a>
+              {%- elsif key == "arxiv" -%}
+                <a href="https://arxiv.org/abs/{{ val }}"><code>{{ val }}</code></a>
+              {%- else -%}
+                <code>{{ val }}</code>
+              {%- endif -%}
+            </span>
+          </li>
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+
+  {%- if page.release_lines.size > 0 -%}
+    <h3 style="font-size: 0.95rem; margin-top: 14px;">Release lines</h3>
+    <div class="chip-row">
+      {%- for line in page.release_lines -%}
+        <span class="chip"><code>{{ line }}</code></span>
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+</section>

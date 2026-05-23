@@ -1,0 +1,303 @@
+# Corpus Item Types — YAML projection of governance/ITEM_TYPES.md
+#
+# This file is consumed by schemas/corpus-item.schema.json (type enum) and
+# by scripts/validate_schema.py (type → folder → payload-class mapping).
+#
+# Source of truth: governance/ITEM_TYPES.md. When that doc changes, regenerate
+# this file via scripts/regenerate_manifests.py (Wave 1).
+#
+# Charter reference: §3.2 (folder structure), §3.3 (payload doctrine).
+
+# All 35 first-class types + 7 projection page subtypes.
+types:
+
+  # ---------- Conceptual / Scholarly (atomic) ----------
+
+  - type: definition
+    prefix: DEF
+    folder: items/definitions
+    payload_class: atomic
+    description: Fixed mathematical or conceptual definition introduced by the program.
+
+  - type: axiom
+    prefix: AXM
+    folder: items/axioms
+    payload_class: atomic
+    description: Project-local statement assumed without proof; each Lean `axiom` gets a corresponding Corpus AXM.
+
+  - type: lemma
+    prefix: LEM
+    folder: items/lemmas
+    payload_class: atomic
+    description: Subsidiary result used in proofs; often atomic and load-bearing.
+
+  - type: proposition
+    prefix: PRP
+    folder: items/propositions
+    payload_class: atomic
+    description: Claim with proof that is not yet (or not centrally) called a theorem.
+
+  - type: theorem
+    prefix: THM
+    folder: items/theorems
+    payload_class: atomic
+    description: Central proved statement of the program.
+
+  - type: corollary
+    prefix: COR
+    folder: items/corollaries
+    payload_class: atomic
+    description: Immediate consequence of a theorem.
+
+  - type: proof
+    prefix: PRF
+    folder: items/proofs
+    payload_class: proof
+    description: Structured Corpus-addressed proof record with conclusion, premises, strategy, steps, dependencies, status.
+
+  - type: construction
+    prefix: CNS
+    folder: items/constructions
+    payload_class: atomic
+    description: Multi-step procedure assembling part of the τ-machine.
+
+  - type: construction_step
+    prefix: CNS
+    folder: items/construction-steps
+    payload_class: atomic
+    description: One step inside a construction (e.g., a Construction Spine step S024).
+
+  - type: claim
+    prefix: CLM
+    folder: items/claims
+    payload_class: atomic
+    description: Scholarly claim not yet proved but propositionally precise.
+
+  - type: bridge_claim
+    prefix: BRG
+    folder: items/bridge-claims
+    payload_class: atomic
+    description: Correspondence claim between an internal τ-construction and an external/orthodox object.
+
+  - type: readout_claim
+    prefix: RDO
+    folder: items/readout-claims
+    payload_class: atomic
+    description: Claim about what the τ-framework readouts in a specific empirical or interpretive context.
+
+  - type: prediction
+    prefix: PRD
+    folder: items/predictions
+    payload_class: atomic
+    description: Testable empirical or quantitative expectation derived from the framework.
+
+  - type: falsifier
+    prefix: FAL
+    folder: items/falsifiers
+    payload_class: atomic
+    description: Specific condition under which a prediction, result, or claim would be refuted.
+
+  - type: open_problem
+    prefix: OPN
+    folder: items/open-problems
+    payload_class: atomic
+    description: Problem the program states explicitly as open.
+
+  - type: erratum
+    prefix: ERR
+    folder: items/errata
+    payload_class: atomic
+    description: Correction to a previously released item.
+
+  - type: result
+    prefix: RSL
+    folder: items/results
+    payload_class: result
+    description: Reader-facing consequence surface with commentary, scope limits, validation state, inspection route.
+
+  # ---------- Publication / Artifact ----------
+
+  - type: monograph
+    prefix: BOK
+    folder: items/monographs
+    payload_class: artifact
+    description: Book in the program (Books I-VII).
+
+  - type: chapter
+    prefix: CHP
+    folder: items/chapters
+    payload_class: artifact
+    description: Chapter inside a monograph or major artifact.
+
+  - type: research_paper
+    prefix: PAP
+    folder: items/papers
+    payload_class: artifact
+    description: Standalone research paper.
+
+  - type: research_note
+    prefix: NOT
+    folder: items/notes
+    payload_class: artifact
+    description: Focused research note (RN-XXX historically).
+
+  - type: research_dossier
+    prefix: DOS
+    folder: items/dossiers
+    payload_class: artifact
+    description: Extended research dossier (e.g., the Construction Spine).
+
+  - type: release_packet
+    prefix: REL
+    folder: items/release-packets
+    payload_class: artifact
+    description: Versioned release artifact bundling materials for a public release.
+
+  - type: research_code
+    prefix: COD
+    folder: items/code
+    payload_class: artifact
+    description: Research code artifact (e.g., a runnable analysis notebook, model implementation).
+
+  - type: proof_package
+    prefix: PKG
+    folder: items/proof-packages
+    payload_class: artifact
+    description: Formal proof package (Lean project with Lakefile + Mathlib pin + commit hash).
+
+  - type: reproducibility_bundle
+    prefix: PKG
+    folder: items/proof-packages
+    payload_class: artifact
+    description: Reproducibility bundle for a result or paper.
+
+  - type: doi_record
+    prefix: PAP
+    folder: items/pages
+    payload_class: artifact
+    description: DOI registration record (artifact-like; small).
+
+  # ---------- Formalization / Code ----------
+
+  - type: formal_module
+    prefix: MOD
+    folder: items/formal-modules
+    payload_class: formal
+    description: Lean module (TauLib v2 or v3) carrying formal declarations.
+
+  - type: formal_definition
+    prefix: FDF
+    folder: items/formal-definitions
+    payload_class: formal
+    description: Lean `def` corresponding (often) to a corpus DEF.
+
+  - type: formal_theorem
+    prefix: FTH
+    folder: items/formal-theorems
+    payload_class: formal
+    description: "Lean `theorem` corresponding to a corpus THM/LEM/PRP; carries `formalizes: cid_prose_item`."
+
+  - type: formal_lemma
+    prefix: FLM
+    folder: items/formal-lemmas
+    payload_class: formal
+    description: Lean `lemma`; same shape as formal_theorem with lower citation weight by convention.
+
+  - type: formal_axiom
+    prefix: FAX
+    folder: items/formal-axioms
+    payload_class: formal
+    description: Lean `axiom`; round-trips to a Corpus AXM item with explanation.
+
+  - type: formal_assumption
+    prefix: FAX
+    folder: items/formal-axioms
+    payload_class: formal
+    description: Explicit unproved assumption used in a Lean development.
+
+  - type: mathlib_target
+    prefix: MTG
+    folder: items/mathlib-targets
+    payload_class: formal
+    description: External Mathlib declaration the τ-program targets for integration.
+
+  # ---------- Projection / Page ----------
+
+  - type: corpus_page
+    prefix: null
+    folder: items/pages
+    payload_class: page
+    description: A page on the Corpus lane (e.g., construction spine index).
+
+  - type: result_page
+    prefix: null
+    folder: items/pages
+    payload_class: page
+    description: A page rendering a Results lane filtered view.
+
+  - type: verify_page
+    prefix: null
+    folder: items/pages
+    payload_class: page
+    description: A page on the Verify lane.
+
+  - type: publication_page
+    prefix: null
+    folder: items/pages
+    payload_class: page
+    description: A publication-surface page.
+
+  - type: research_graph_page
+    prefix: null
+    folder: items/pages
+    payload_class: page
+    description: The Research Graph page (doctrine §16).
+
+  - type: about_site_page
+    prefix: null
+    folder: items/pages
+    payload_class: page
+    description: About-the-site, charter, etc.
+
+  - type: colophon_page
+    prefix: null
+    folder: items/pages
+    payload_class: page
+    description: Colophon / acknowledgements.
+
+# Payload class definitions (informational; consumed by per-type schema discriminator).
+payload_classes:
+  atomic:
+    description: Inline semantic payload (markdown / latex / plain / optional lean).
+    schema: schemas/per-type/atomic.schema.json
+    examples: [definition, theorem, lemma, claim, prediction]
+
+  artifact:
+    description: Points to canonical artifact (URL / DOI / ISBN); carries abstract + citation metadata.
+    schema: schemas/per-type/artifact.schema.json
+    examples: [monograph, paper, dossier, release_packet]
+
+  formal:
+    description: Carries module path, declaration name, source commit, axiom audit, formalizes relation.
+    schema: schemas/per-type/formal.schema.json
+    examples: [formal_module, formal_theorem, formal_definition, mathlib_target]
+
+  result:
+    description: Structured commentary + layers + domains + validation_status + inspection_route.
+    schema: schemas/per-type/result.schema.json
+    examples: [result]
+
+  proof:
+    description: Structured proof block (mode, conclusion, steps, dependencies, formality_level, proof_status).
+    schema: schemas/per-type/proof.schema.json
+    examples: [proof]
+
+  page:
+    description: Minimal projection page (route, purpose, represented items, page-level JSON-LD).
+    schema: schemas/per-type/page.schema.json
+    examples: [corpus_page, result_page, verify_page]
+
+revisions:
+  - date: 2026-05-10
+    change: Initial projection from governance/ITEM_TYPES.md
+    author: thorfuchs

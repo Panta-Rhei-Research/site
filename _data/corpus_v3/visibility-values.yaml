@@ -1,0 +1,107 @@
+# Visibility Values — YAML projection of governance/VISIBILITY.md
+#
+# This file is consumed by schemas/corpus-item.schema.json (visibility enum) and
+# by scripts/validate_public_closure.py (closure rule semantics).
+#
+# Source of truth: governance/VISIBILITY.md §1-§4.
+
+values:
+
+  - value: private
+    description: Draft, experimental sketch, confidential architecture detail, or otherwise not for any external audience.
+    public_routes: false
+    citable: false
+    in_public_closure: false
+    single_repo_location: corpus-v3 (any items/ folder)
+    post_bifurcation_location: private repo only
+    notes: Default visibility for newly created items mid-development. May reference other private items freely.
+
+  - value: internal
+    description: Team-visible (within maintainer set), not for public consumption, more shareable than private.
+    public_routes: false
+    citable: false
+    in_public_closure: false
+    single_repo_location: corpus-v3
+    post_bifurcation_location: private repo only
+    notes: Used for working notes, planning items, internal review documents.
+
+  - value: limited
+    description: Shareable with named external reviewers (peer reviewers, advisory contacts) but not yet public.
+    public_routes: false
+    citable: by_invitation
+    in_public_closure: false
+    single_repo_location: corpus-v3
+    post_bifurcation_location: private repo only
+    notes: Often precursor to public once review completes. May carry limited_to (list of reviewer ids).
+    optional_fields: [limited_to]
+
+  - value: public
+    description: Part of the public Corpus Graph. Citable, inspectable, indexable.
+    public_routes: true
+    citable: true
+    in_public_closure: true
+    single_repo_location: corpus-v3 (filtered to public via tooling)
+    post_bifurcation_location: public corpus repo
+    notes: Default end-state for active/canonical items. Generates /id/cid###/ route. Subject to public-closure rule.
+    requires_when_set:
+      - primary_alias  # public items must have a primary_alias
+
+  - value: deprecated_public
+    description: Previously public, now retired/superseded/refuted/deprecated/archived. Tombstone-rendered.
+    public_routes: true  # tombstone page
+    citable: with_caution
+    in_public_closure: true  # deprecated nodes
+    single_repo_location: corpus-v3 (filtered)
+    post_bifurcation_location: public corpus repo
+    notes: Set automatically when public item transitions to deprecated/superseded/retired/refuted/archived.
+    requires_when_set:
+      - tombstone  # boolean true
+
+# Closure semantics (single-repo cutover state — report-only)
+closure:
+  current_mode: report_only
+  current_phase: single_repo_cutover
+  post_bifurcation_mode: enforcing
+  load_bearing_relations: "see manifests/relation-vocabulary.yaml (load_bearing: true)"
+  description: |
+    During the single-repo cutover phase, validate_public_closure.py walks the
+    graph and emits manifests/public-closure-report.yaml. CI does NOT fail on
+    closure violations during this phase. Post-bifurcation, the gate flips to
+    enforcing mode.
+
+# Lifecycle × Visibility compatibility matrix (from governance/VISIBILITY.md §3)
+# (status, visibility) → allowed?
+lifecycle_visibility_matrix:
+  - status: draft
+    allowed_visibility: [private, internal]
+
+  - status: candidate
+    allowed_visibility: [private, internal, limited]
+
+  - status: active
+    allowed_visibility: [public, internal]
+
+  - status: canonical
+    allowed_visibility: [public, internal]  # internal allowed for canonical items not yet publicly released; tightened to [public] in Wave 8 bifurcation
+
+  - status: deprecated
+    allowed_visibility: [deprecated_public, internal]
+
+  - status: superseded
+    allowed_visibility: [deprecated_public]
+
+  - status: retired
+    allowed_visibility: [deprecated_public]
+
+  - status: refuted
+    allowed_visibility: [deprecated_public]
+
+  - status: archived
+    allowed_visibility: [deprecated_public]
+
+  # private_deleted has no visibility (item is gone)
+
+revisions:
+  - date: 2026-05-10
+    change: Initial projection from governance/VISIBILITY.md
+    author: thorfuchs

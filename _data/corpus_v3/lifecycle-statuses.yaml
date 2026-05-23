@@ -1,0 +1,117 @@
+# Lifecycle Statuses — YAML projection of governance/LIFECYCLE.md
+#
+# This file is consumed by schemas/corpus-item.schema.json (status enum) and
+# by scripts/validate_schema.py (transition validity, required-fields-per-status).
+#
+# Source of truth: governance/LIFECYCLE.md §1-§2.
+
+statuses:
+
+  - status: draft
+    description: Internal or early working item, not yet proposed.
+    public_route_active: false
+    required_visibility: [private, internal]
+    required_fields_extra: []
+    tombstone: false
+
+  - status: candidate
+    description: Proposed for inclusion, not yet canonical.
+    public_route_active: false
+    required_visibility: [private, internal, limited]
+    required_fields_extra: []
+    tombstone: false
+
+  - status: active
+    description: Current working item used in the Corpus.
+    public_route_active: true  # if visibility is public
+    required_visibility: [public, internal]
+    required_fields_extra: []
+    tombstone: false
+
+  - status: canonical
+    description: Stable item in the current Corpus canon.
+    public_route_active: true
+    required_visibility: [public]
+    required_fields_extra: []
+    tombstone: false
+
+  - status: deprecated
+    description: Still addressable but discouraged; often points at a successor.
+    public_route_active: true
+    required_visibility: [deprecated_public, internal]
+    required_fields_extra: []
+    tombstone: true
+
+  - status: superseded
+    description: Replaced by another item that is non-equivalent enough to warrant a new CID.
+    public_route_active: true
+    required_visibility: [deprecated_public]
+    required_fields_extra: [superseded_by]
+    tombstone: true
+
+  - status: retired
+    description: No longer active, preserved as historical, no successor.
+    public_route_active: true
+    required_visibility: [deprecated_public]
+    required_fields_extra: [retired_at, retirement_reason]
+    tombstone: true
+
+  - status: refuted
+    description: Item (typically a prediction or claim) has been falsified or rejected.
+    public_route_active: true
+    required_visibility: [deprecated_public]
+    required_fields_extra: [refuted_at, refutation_reason]
+    tombstone: true
+
+  - status: archived
+    description: Preserved historical item; natural end-state for historical items.
+    public_route_active: true
+    required_visibility: [deprecated_public]
+    required_fields_extra: []
+    tombstone: true
+
+  - status: private_deleted
+    description: Internal draft removed before public release. Only allowed pre-public_at.
+    public_route_active: false
+    required_visibility: []  # item is gone
+    required_fields_extra: []
+    tombstone: false
+    forbidden_after_public_at: true
+
+# Transition graph (allowed forward transitions only — backward transitions documented
+# in governance/LIFECYCLE.md §3.2 with extra constraints).
+transitions:
+  - from: draft
+    to: [candidate, active, private_deleted]
+
+  - from: candidate
+    to: [active, draft, private_deleted]
+
+  - from: active
+    to: [canonical, deprecated, superseded, retired, refuted, archived, candidate]  # backward to candidate only pre-public_at
+
+  - from: canonical
+    to: [deprecated, superseded, retired, refuted, archived]
+
+  - from: deprecated
+    to: [active]  # un-deprecation requires Charter Decision Log entry
+
+  - from: superseded
+    to: []  # no forward transitions (item is replaced)
+
+  - from: retired
+    to: []  # no forward transitions
+
+  - from: refuted
+    to: []  # no forward transitions
+
+  - from: archived
+    to: []  # no forward transitions
+
+  - from: private_deleted
+    to: []  # item is gone
+
+revisions:
+  - date: 2026-05-10
+    change: Initial projection from governance/LIFECYCLE.md
+    author: thorfuchs

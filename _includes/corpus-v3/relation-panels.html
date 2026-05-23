@@ -1,0 +1,154 @@
+{%- comment -%}
+  Corpus v3 relation panels.
+  Renders upstream / downstream / formalized_by / appears_in / supports /
+  supersession-history per web addendum §6.
+
+  Walks page.relations[] (canonical typed list) + the convenience-field
+  shortcuts (depends_on, formalized_by, appears_in, supports, etc.)
+  established by Charter §3.3 + SCHEMA.md §6.
+{%- endcomment -%}
+
+{%- comment -%} Aggregate predicates from relations[] + convenience fields {%- endcomment -%}
+{%- assign upstream_cids = "" | split: "" -%}
+{%- assign downstream_cids = "" | split: "" -%}
+{%- assign formalized_by_cids = "" | split: "" -%}
+{%- assign appears_in_cids = "" | split: "" -%}
+{%- assign supports_cids = "" | split: "" -%}
+
+{%- comment -%} convenience-field depends_on {%- endcomment -%}
+{%- for d in page.depends_on -%}
+  {%- assign upstream_cids = upstream_cids | push: d -%}
+{%- endfor -%}
+
+{%- comment -%} convenience-field formalized_by {%- endcomment -%}
+{%- for f in page.formalized_by -%}
+  {%- if f.id -%}
+    {%- assign formalized_by_cids = formalized_by_cids | push: f.id -%}
+  {%- elsif f -%}
+    {%- assign formalized_by_cids = formalized_by_cids | push: f -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- comment -%} convenience-field appears_in {%- endcomment -%}
+{%- for a in page.appears_in -%}
+  {%- if a.id -%}
+    {%- assign appears_in_cids = appears_in_cids | push: a.id -%}
+  {%- elsif a -%}
+    {%- assign appears_in_cids = appears_in_cids | push: a -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- comment -%} canonical relations[] {%- endcomment -%}
+{%- for rel in page.relations -%}
+  {%- case rel.predicate -%}
+    {%- when "depends_on" or "uses" or "requires" or "derives" or "extends" or "refines" or "constructs" or "assumes" -%}
+      {%- assign upstream_cids = upstream_cids | push: rel.object -%}
+    {%- when "used_by" or "depended_by" -%}
+      {%- assign downstream_cids = downstream_cids | push: rel.object -%}
+    {%- when "formalized_by" -%}
+      {%- assign formalized_by_cids = formalized_by_cids | push: rel.object -%}
+    {%- when "appears_in" or "published_in" or "explained_in" -%}
+      {%- assign appears_in_cids = appears_in_cids | push: rel.object -%}
+    {%- when "supports" or "supported_by" or "tested_by" or "validated_by" -%}
+      {%- assign supports_cids = supports_cids | push: rel.object -%}
+  {%- endcase -%}
+{%- endfor -%}
+
+{%- comment -%} Dedupe each list {%- endcomment -%}
+{%- assign upstream_unique = upstream_cids | uniq -%}
+{%- assign downstream_unique = downstream_cids | uniq -%}
+{%- assign formalized_by_unique = formalized_by_cids | uniq -%}
+{%- assign appears_in_unique = appears_in_cids | uniq -%}
+{%- assign supports_unique = supports_cids | uniq -%}
+
+{%- assign total_relations = upstream_unique.size | plus: formalized_by_unique.size | plus: appears_in_unique.size | plus: supports_unique.size -%}
+
+{%- if total_relations > 0 -%}
+<section class="content-card corpus-v3-relations" aria-labelledby="corpus-v3-relations-heading">
+  <h2 id="corpus-v3-relations-heading">Relations</h2>
+
+  {%- if upstream_unique.size > 0 -%}
+    <h3 style="font-size: 1rem;">Upstream dependencies ({{ upstream_unique.size }})</h3>
+    <div class="chip-row" style="margin-bottom: 12px;">
+      {%- for cid in upstream_unique -%}
+        {%- if cid contains "cid" -%}
+          <a class="chip chip-link" href="/id/{{ cid }}/"><code>{{ cid }}</code></a>
+        {%- else -%}
+          <span class="chip"><code>{{ cid }}</code></span>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+
+  {%- if formalized_by_unique.size > 0 -%}
+    <h3 style="font-size: 1rem;">Formalized by ({{ formalized_by_unique.size }})</h3>
+    <div class="chip-row" style="margin-bottom: 12px;">
+      {%- for cid in formalized_by_unique -%}
+        {%- if cid contains "cid" -%}
+          <a class="chip chip-link" href="/id/{{ cid }}/"><code>{{ cid }}</code></a>
+        {%- else -%}
+          <span class="chip"><code>{{ cid }}</code></span>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+
+  {%- if appears_in_unique.size > 0 -%}
+    <h3 style="font-size: 1rem;">Appears in ({{ appears_in_unique.size }})</h3>
+    <div class="chip-row" style="margin-bottom: 12px;">
+      {%- for cid in appears_in_unique -%}
+        {%- if cid contains "cid" -%}
+          <a class="chip chip-link" href="/id/{{ cid }}/"><code>{{ cid }}</code></a>
+        {%- else -%}
+          <span class="chip"><code>{{ cid }}</code></span>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+
+  {%- if supports_unique.size > 0 -%}
+    <h3 style="font-size: 1rem;">Supports / Tested by ({{ supports_unique.size }})</h3>
+    <div class="chip-row" style="margin-bottom: 12px;">
+      {%- for cid in supports_unique -%}
+        {%- if cid contains "cid" -%}
+          <a class="chip chip-link" href="/id/{{ cid }}/"><code>{{ cid }}</code></a>
+        {%- else -%}
+          <span class="chip"><code>{{ cid }}</code></span>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+
+  {%- if downstream_unique.size > 0 -%}
+    <h3 style="font-size: 1rem;">Downstream uses (declared) ({{ downstream_unique.size }})</h3>
+    <div class="chip-row" style="margin-bottom: 12px;">
+      {%- for cid in downstream_unique -%}
+        {%- if cid contains "cid" -%}
+          <a class="chip chip-link" href="/id/{{ cid }}/"><code>{{ cid }}</code></a>
+        {%- else -%}
+          <span class="chip"><code>{{ cid }}</code></span>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+
+  {%- if page.sources.size > 0 -%}
+    <h3 style="font-size: 1rem;">Sources</h3>
+    <ul class="meta-list" style="font-size: 0.85rem;">
+      {%- for src in page.sources -%}
+        <li class="meta-item">
+          <span>{{ src.type | replace: "_", " " | capitalize }}</span>
+          <span class="meta-value">
+            {%- if src.item -%}
+              <a href="/id/{{ src.item }}/"><code>{{ src.item }}</code></a>
+            {%- endif -%}
+            {%- if src.locator -%}
+              <span style="margin-left: 8px; opacity: 0.8;">{{ src.locator }}</span>
+            {%- endif -%}
+          </span>
+        </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+</section>
+{%- endif -%}

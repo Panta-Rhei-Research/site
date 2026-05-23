@@ -1,0 +1,73 @@
+{%- comment -%}
+  Corpus v3 JSON-LD emit.
+
+  Embeds a <script type="application/ld+json"> annotation on every Corpus
+  Item page per doctrine §17 + web addendum §22.
+
+  Mapping rules:
+    monograph              → schema:Book
+    chapter                → schema:Chapter
+    research_paper, research_note, research_dossier → schema:ScholarlyArticle
+    proof, result, claim, theorem, lemma, proposition, definition, axiom,
+      construction, construction_step, bridge_claim, readout_claim,
+      prediction, falsifier, open_problem, erratum → schema:DefinedTerm
+    formal_*                → schema:DefinedTerm (with pr:formalModule)
+    page items              → schema:CreativeWork
+    release_packet          → schema:CreativeWork
+{%- endcomment -%}
+
+{%- comment -%} Determine schema:type from page.type {%- endcomment -%}
+{%- assign schema_type = "schema:DefinedTerm" -%}
+{%- case page.type -%}
+  {%- when "monograph" -%}{%- assign schema_type = "schema:Book" -%}
+  {%- when "chapter" -%}{%- assign schema_type = "schema:Chapter" -%}
+  {%- when "research_paper" or "research_note" or "research_dossier" -%}
+    {%- assign schema_type = "schema:ScholarlyArticle" -%}
+  {%- when "release_packet" or "research_code" or "proof_package" or "reproducibility_bundle" or "doi_record" -%}
+    {%- assign schema_type = "schema:CreativeWork" -%}
+  {%- when "corpus_page" or "result_page" or "verify_page" or "publication_page" or "research_graph_page" or "about_site_page" or "colophon_page" -%}
+    {%- assign schema_type = "schema:CreativeWork" -%}
+{%- endcase -%}
+
+{%- capture _jsonld -%}
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "pr": "https://panta-rhei.site/ontology/"
+  },
+  "@id": "https://panta-rhei.site/id/{{ page.cid }}",
+  "@type": "{{ schema_type }}",
+  "schema:identifier": "{{ page.cid }}",
+  "schema:alternateName": [
+    {%- assign alias_count = page.aliases.size -%}
+    {%- for alias in page.aliases -%}
+      "{{ alias | escape }}"{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+  ],
+  "schema:name": {{ page.title | jsonify }},
+  "schema:description": {{ page.summary | default: page.title | jsonify }},
+  "schema:isPartOf": {
+    "@id": "https://panta-rhei.site/#corpus-v3"
+  }{% if page.layers.size > 0 %},
+  "pr:layer": [{% for l in page.layers %}"{{ l }}"{% unless forloop.last %},{% endunless %}{% endfor %}]{% endif %}{% if page.domains.size > 0 %},
+  "pr:domain": [{% for d in page.domains %}"{{ d }}"{% unless forloop.last %},{% endunless %}{% endfor %}]{% endif %}{% if page.formalized_by.size > 0 %},
+  "pr:formalizedBy": [
+    {%- for f in page.formalized_by -%}
+      {%- if f.id -%}{ "@id": "https://panta-rhei.site/id/{{ f.id }}" }{%- elsif f -%}{ "@id": "https://panta-rhei.site/id/{{ f }}" }{%- endif -%}
+      {%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+  ]{% endif %}{% if page.depends_on.size > 0 %},
+  "pr:dependsOn": [
+    {%- for d in page.depends_on -%}
+      { "@id": "https://panta-rhei.site/id/{{ d }}" }{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+  ]{% endif %},
+  "pr:status": "{{ page.status }}",
+  "pr:visibility": "{{ page.visibility }}",
+  "pr:currentVersion": "{{ page.current_version }}",
+  "pr:releaseLines": [{% for rl in page.release_lines %}"{{ rl }}"{% unless forloop.last %},{% endunless %}{% endfor %}]
+}
+{%- endcapture -%}
+<script type="application/ld+json">
+{{ _jsonld | strip_newlines | replace: "  ", "" | replace: ", ,", "," }}
+</script>
