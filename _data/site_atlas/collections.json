@@ -129,7 +129,7 @@
     "design_system_assets": {
       "collection_id": "c00010",
       "collection_key": "design_system_assets",
-      "expected_item_count": 25,
+      "expected_item_count": 26,
       "grouping": [],
       "layout": "design-asset",
       "purpose": "Summary collection for Sass/CSS design-system sources that govern the public shell and card language.",
@@ -1055,7 +1055,7 @@
     {
       "collection_id": "c00010",
       "collection_key": "design_system_assets",
-      "expected_item_count": 25,
+      "expected_item_count": 26,
       "grouping": [],
       "layout": "design-asset",
       "purpose": "Summary collection for Sass/CSS design-system sources that govern the public shell and card language.",
