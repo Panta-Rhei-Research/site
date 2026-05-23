@@ -1,0 +1,264 @@
+---
+layout: default
+---
+
+{%- comment -%}
+  corpus-v3-item layout — Wave 7 deliverable.
+
+  Renders a Corpus v3 item landing page at /id/{cid}/. Reads everything
+  from page.* frontmatter (the generator emits the full item record as
+  frontmatter, so the layout never has to fetch separate data).
+
+  Charter §6 (Web Projection Doctrine); web addendum §4 (item page sections).
+
+  Item modes (page.type → payload_class):
+    atomic     definitions, theorems, lemmas, propositions, claims, etc.
+    artifact   monographs, papers, dossiers, release packets
+    formal     formal_module, formal_theorem, formal_definition, formal_axiom
+    result     RSL items with layers/domains/inspection_route
+    proof      structured proof records
+    page       projection page items
+    tombstone  visibility deprecated_public — tombstone banner mode
+-----------------------------------------------------------------{%- endcomment -%}
+
+{% include breadcrumb-nav.html %}
+
+<article class="corpus-v3-item">
+
+  <header class="hero-card">
+    <div class="hero-eyebrow-row">
+      <span class="eyebrow">Corpus v3 · {{ page.type | replace: "_", " " | capitalize }}</span>
+      <span class="eyebrow module-id-badge">{{ page.cid }}</span>
+      {%- if page.primary_alias and page.primary_alias != "" -%}
+        <span class="chip"><code>{{ page.primary_alias }}</code></span>
+      {%- endif -%}
+      {%- if page.status -%}
+        <span class="chip">{{ page.status }}</span>
+      {%- endif -%}
+      {%- if page.current_version -%}
+        <span class="chip">{{ page.current_version }}</span>
+      {%- endif -%}
+    </div>
+
+    <h1>{{ page.title }}</h1>
+
+    {%- if page.summary and page.summary != "" -%}
+      <p class="hero-deck">{{ page.summary }}</p>
+    {%- endif -%}
+
+    {%- comment -%} Tombstone banner for deprecated_public items {%- endcomment -%}
+    {%- if page.visibility == "deprecated_public" or page.tombstone -%}
+      <div class="content-card" style="border-left: 3px solid var(--lane-current); margin-top: 14px;">
+        <p style="font-weight: 600;">⚠ This Corpus Item has been retired.</p>
+        <p>It remains addressable for provenance and citation continuity. Status: <code>{{ page.status }}</code>.</p>
+        {%- if page.superseded_by and page.superseded_by != "" -%}
+          <p>Current replacement: <a href="/id/{{ page.superseded_by }}/"><code>{{ page.superseded_by }}</code></a></p>
+        {%- endif -%}
+        {%- if page.retirement_reason and page.retirement_reason != "" -%}
+          <p>Reason: {{ page.retirement_reason }}</p>
+        {%- endif -%}
+        {%- if page.refutation_reason and page.refutation_reason != "" -%}
+          <p>Refutation: {{ page.refutation_reason }}</p>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+  </header>
+
+  {%- comment -%} Payload section — content depends on payload kind {%- endcomment -%}
+  {%- if page.payload and page.payload.kind -%}
+    <section class="content-card" aria-labelledby="corpus-v3-payload-heading">
+      <h2 id="corpus-v3-payload-heading">Payload</h2>
+      <div class="prose">
+        {%- if page.payload.kind == "inline_atomic" -%}
+          {%- if page.payload.markdown and page.payload.markdown != "" -%}
+            {{ page.payload.markdown | markdownify }}
+          {%- elsif page.payload.latex and page.payload.latex != "" -%}
+            <pre><code class="language-latex">{{ page.payload.latex }}</code></pre>
+          {%- elsif page.payload.plain and page.payload.plain != "" -%}
+            <pre>{{ page.payload.plain }}</pre>
+          {%- endif -%}
+        {%- elsif page.payload.kind == "external_artifact" -%}
+          {%- if page.payload.canonical_artifact -%}
+            <p>
+              <strong>Canonical artifact:</strong>
+              {%- if page.payload.canonical_artifact.url -%}
+                <a href="{{ page.payload.canonical_artifact.url }}">{{ page.payload.canonical_artifact.url }}</a>
+              {%- elsif page.payload.canonical_artifact.doi -%}
+                DOI <a href="https://doi.org/{{ page.payload.canonical_artifact.doi }}">{{ page.payload.canonical_artifact.doi }}</a>
+              {%- elsif page.payload.canonical_artifact.github_url -%}
+                <a href="{{ page.payload.canonical_artifact.github_url }}">{{ page.payload.canonical_artifact.github_url }}</a>
+              {%- endif -%}
+              {%- if page.payload.canonical_artifact.type -%}
+                <span class="chip" style="margin-left: 6px;">{{ page.payload.canonical_artifact.type }}</span>
+              {%- endif -%}
+            </p>
+          {%- endif -%}
+          {%- if page.payload.abstract and page.payload.abstract.markdown and page.payload.abstract.markdown != "" -%}
+            <h3>Abstract</h3>
+            {{ page.payload.abstract.markdown | markdownify }}
+          {%- endif -%}
+          {%- if page.payload.citation_markdown and page.payload.citation_markdown != "" -%}
+            <h3>Citation</h3>
+            {{ page.payload.citation_markdown | markdownify }}
+          {%- endif -%}
+        {%- elsif page.payload.kind == "page_payload" -%}
+          {%- if page.payload.route -%}
+            <p>Route: <code>{{ page.payload.route }}</code></p>
+          {%- endif -%}
+          {%- if page.payload.purpose -%}
+            <p>{{ page.payload.purpose }}</p>
+          {%- endif -%}
+        {%- endif -%}
+      </div>
+    </section>
+  {%- endif -%}
+
+  {%- comment -%} Proof block for type: proof {%- endcomment -%}
+  {%- if page.type == "proof" and page.proof -%}
+    <section class="content-card" aria-labelledby="corpus-v3-proof-heading">
+      <h2 id="corpus-v3-proof-heading">Proof</h2>
+      <div class="chip-row" style="margin-bottom: 14px;">
+        {%- if page.proof.mode -%}<span class="chip">mode: <strong>{{ page.proof.mode }}</strong></span>{%- endif -%}
+        {%- if page.proof.proof_status -%}<span class="chip">status: <strong>{{ page.proof.proof_status }}</strong></span>{%- endif -%}
+        {%- if page.proof.formality_level -%}<span class="chip">formality: <strong>{{ page.proof.formality_level }}</strong></span>{%- endif -%}
+        {%- if page.proof.version_pinning -%}<span class="chip">version-pinning: <strong>{{ page.proof.version_pinning }}</strong></span>{%- endif -%}
+      </div>
+
+      {%- if page.proof.mode == "conditional" and page.proof.assumptions.size > 0 -%}
+        <div class="content-card" style="border-left: 3px solid var(--lane-current); margin-bottom: 14px;">
+          <p><strong>Conditional proof.</strong> This proof depends on explicit unresolved assumptions and should not be read as complete until those assumptions are discharged.</p>
+          <ul>
+            {%- for assumption_cid in page.proof.assumptions -%}
+              <li><a href="/id/{{ assumption_cid }}/"><code>{{ assumption_cid }}</code></a></li>
+            {%- endfor -%}
+          </ul>
+        </div>
+      {%- endif -%}
+
+      {%- if page.proof.condition_summary and page.proof.condition_summary != "" -%}
+        <p>{{ page.proof.condition_summary }}</p>
+      {%- endif -%}
+
+      {%- if page.proof.steps.size > 0 -%}
+        <h3>Proof steps</h3>
+        <ol class="proof-steps">
+          {%- for step in page.proof.steps -%}
+            <li>
+              {%- if step.label -%}<strong>{{ step.label }}.</strong> {%- endif -%}
+              {%- if step.text_markdown -%}{{ step.text_markdown | markdownify }}{%- endif -%}
+              {%- if step.uses.size > 0 -%}
+                <p style="font-size: 0.85rem; color: var(--color-ink-700);">
+                  Uses:
+                  {%- for u in step.uses -%}
+                    {%- if u.ref -%}
+                      <code style="margin-left: 4px;">{{ u.ref }}</code>
+                      {%- if u.role -%}<span style="opacity: 0.7;"> ({{ u.role | replace: "_", " " }})</span>{%- endif -%}
+                      {%- unless forloop.last -%},{%- endunless -%}
+                    {%- endif -%}
+                  {%- endfor -%}
+                </p>
+              {%- endif -%}
+            </li>
+          {%- endfor -%}
+        </ol>
+      {%- endif -%}
+    </section>
+  {%- endif -%}
+
+  {%- comment -%} Result block for type: result {%- endcomment -%}
+  {%- if page.type == "result" and page.result -%}
+    <section class="content-card" aria-labelledby="corpus-v3-result-heading">
+      <h2 id="corpus-v3-result-heading">Result</h2>
+      <div class="chip-row" style="margin-bottom: 14px;">
+        {%- if page.result.class -%}<span class="chip">{{ page.result.class | replace: "_", " " }}</span>{%- endif -%}
+        {%- if page.result.claim_strength -%}<span class="chip">{{ page.result.claim_strength | replace: "_", " " }}</span>{%- endif -%}
+      </div>
+      {%- if page.commentary.short -%}<p>{{ page.commentary.short }}</p>{%- endif -%}
+      {%- if page.commentary.technical -%}<div class="prose">{{ page.commentary.technical | markdownify }}</div>{%- endif -%}
+      {%- if page.commentary.scope_limits -%}
+        <p style="font-size: 0.9rem; color: var(--color-ink-700); border-left: 3px solid var(--color-line-300); padding-left: 12px;">
+          <strong>Scope limits.</strong> {{ page.commentary.scope_limits }}
+        </p>
+      {%- endif -%}
+      {%- if page.result.inspection_route and page.result.inspection_route.size > 0 -%}
+        <h3>Inspection route</h3>
+        <ol>
+          {%- for step_cid in page.result.inspection_route -%}
+            <li><a href="/id/{{ step_cid }}/"><code>{{ step_cid }}</code></a></li>
+          {%- endfor -%}
+        </ol>
+      {%- endif -%}
+      {%- if page.result.falsification_surface -%}
+        <p><strong>Falsification surface:</strong> <a href="/id/{{ page.result.falsification_surface }}/"><code>{{ page.result.falsification_surface }}</code></a></p>
+      {%- endif -%}
+    </section>
+  {%- endif -%}
+
+  {%- comment -%} Formalization block for formal_* types and proof items with formalization {%- endcomment -%}
+  {%- if page.formalization and page.formalization.module -%}
+    <section class="content-card" aria-labelledby="corpus-v3-formal-heading">
+      <h2 id="corpus-v3-formal-heading">Formalization</h2>
+      <div class="chip-row" style="margin-bottom: 14px;">
+        {%- if page.formalization.status -%}<span class="chip">{{ page.formalization.status }}</span>{%- endif -%}
+        {%- if page.formalization.sorry_count != nil -%}<span class="chip">sorries: <strong>{{ page.formalization.sorry_count }}</strong></span>{%- endif -%}
+        {%- if page.formalization.project_axioms != nil -%}<span class="chip">project axioms: <strong>{{ page.formalization.project_axioms }}</strong></span>{%- endif -%}
+      </div>
+      <ul class="meta-list" style="font-size: 0.9rem;">
+        <li class="meta-item"><span>Module</span><span class="meta-value"><code>{{ page.formalization.module }}</code></span></li>
+        {%- if page.formalization.declaration -%}
+          <li class="meta-item"><span>Declaration</span><span class="meta-value"><code>{{ page.formalization.declaration }}</code></span></li>
+        {%- endif -%}
+        {%- if page.formalization.commit and page.formalization.commit != "" -%}
+          <li class="meta-item"><span>Commit</span><span class="meta-value"><code>{{ page.formalization.commit | slice: 0, 12 }}</code></span></li>
+        {%- endif -%}
+        {%- if page.formalization.lean_toolchain -%}
+          <li class="meta-item"><span>Lean toolchain</span><span class="meta-value"><code>{{ page.formalization.lean_toolchain }}</code></span></li>
+        {%- endif -%}
+      </ul>
+      {%- if page.formalization.print_axioms and page.formalization.print_axioms != "" -%}
+        <h3 style="font-size: 1rem;">#print axioms</h3>
+        <pre style="font-size: 0.78rem;">{{ page.formalization.print_axioms }}</pre>
+      {%- endif -%}
+    </section>
+  {%- endif -%}
+
+  {%- comment -%} Identifier box (right-rail style, but inline for simplicity) {%- endcomment -%}
+  {% include corpus-v3/identifier-box.html %}
+
+  {%- comment -%} Relation panels — upstream / downstream / formalized_by / appears_in {%- endcomment -%}
+  {% include corpus-v3/relation-panels.html %}
+
+  {%- comment -%} Version + history {%- endcomment -%}
+  {%- if page.history and page.history.size > 0 -%}
+    <section class="content-card" aria-labelledby="corpus-v3-history-heading">
+      <h2 id="corpus-v3-history-heading">Version &amp; History</h2>
+      <ul class="meta-list" style="font-size: 0.9rem;">
+        {%- for entry in page.history -%}
+          <li class="meta-item">
+            <span><strong>{{ entry.version }}</strong> · {{ entry.date }}</span>
+            <span class="meta-value">{{ entry.event | replace: "_", " " }}</span>
+          </li>
+        {%- endfor -%}
+      </ul>
+    </section>
+  {%- endif -%}
+
+  {%- comment -%} Status disclaimer {%- endcomment -%}
+  <section class="content-card" aria-labelledby="corpus-v3-disclaimer-heading">
+    <h2 id="corpus-v3-disclaimer-heading">Status disclaimer</h2>
+    <p style="font-size: 0.9rem; color: var(--color-ink-700);">
+      A Corpus Item page reports the program's current internal record for this item.
+      It does not imply external verification, scientific consensus, or final proof unless
+      explicitly stated. Read it together with its dependencies, formalization status,
+      and the program's <a href="/about/">overall stance</a>.
+    </p>
+  </section>
+
+</article>
+
+{%- comment -%}
+  JSON-LD embed — schema.org annotation for this Corpus Item.
+  Atomic / Result / Page items → schema:DefinedTerm
+  Artifact items → schema:ScholarlyArticle (when research_paper/note) or schema:Book (monograph)
+{%- endcomment -%}
+{% include corpus-v3/jsonld.html %}

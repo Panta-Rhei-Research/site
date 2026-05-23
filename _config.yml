@@ -56,6 +56,9 @@ collections:
     output: true
     permalink: /corpus/changelog/:name/
     sort_by: date
+  corpus_v3_items:
+    output: true
+    permalink: /id/:name/
   predictions:
     output: true
     permalink: /predictions/:name/

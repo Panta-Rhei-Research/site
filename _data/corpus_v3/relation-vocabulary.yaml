@@ -1,0 +1,392 @@
+# Relation Vocabulary — YAML projection of doctrine §12 (id-graph-v5)
+#
+# This file is the canonical list of relation predicates for Corpus Items.
+# Each predicate has a class (construction / projection / bridge / version /
+# evidence / navigation) and a load_bearing flag (consumed by public-closure
+# validator and crossref-public-closure CI gate).
+#
+# Source of truth: atlas/corpus/v3/panta-rhei-corpus-id-graph-v5-doctrine.md §12
+# + governance/VISIBILITY.md §4.1-§4.2 for load_bearing classification.
+
+predicates:
+
+  # ---------- Construction Relations (load-bearing) ----------
+
+  - predicate: depends_on
+    class: construction
+    load_bearing: true
+    inverse: used_by
+    description: This item depends on the target for its construction or proof.
+
+  - predicate: uses
+    class: construction
+    load_bearing: true
+    inverse: used_by
+    description: This item makes use of the target (definition, lemma, theorem) in its content.
+
+  - predicate: constructs
+    class: construction
+    load_bearing: true
+    inverse: constructed_by
+    description: This item constructs the target object/structure.
+
+  - predicate: derives
+    class: construction
+    load_bearing: true
+    inverse: derived_from
+    description: This item derives the target via inference.
+
+  - predicate: proves
+    class: construction
+    load_bearing: true
+    inverse: proved_by
+    description: This item is a proof establishing the target theorem/lemma/proposition.
+
+  - predicate: assumes
+    class: construction
+    load_bearing: true
+    inverse: assumed_in
+    description: This item explicitly assumes the target (axiom, gate, hypothesis).
+
+  - predicate: requires
+    class: construction
+    load_bearing: true
+    inverse: required_by
+    description: Stronger form of depends_on; the target must be discharged for this item to hold.
+
+  - predicate: extends
+    class: construction
+    load_bearing: true
+    inverse: extended_by
+    description: This item extends the target with additional structure.
+
+  - predicate: refines
+    class: construction
+    load_bearing: true
+    inverse: refined_by
+    description: This item refines the target (more precise statement, tighter hypothesis).
+
+  # ---------- Projection Relations ----------
+
+  - predicate: appears_in
+    class: projection
+    load_bearing: false
+    inverse: contains
+    description: This item appears in (is rendered by) the target artifact (book, paper, dossier).
+
+  - predicate: published_in
+    class: projection
+    load_bearing: false
+    inverse: publishes
+    description: This item is published in the target venue/artifact.
+
+  - predicate: formalized_by
+    class: projection
+    load_bearing: true
+    inverse: formalizes
+    description: This (prose) item has a formalization at the target (formal_theorem, formal_definition).
+
+  - predicate: implemented_by
+    class: projection
+    load_bearing: true
+    inverse: implements
+    description: This item is implemented by the target (code, model, artifact).
+
+  - predicate: represented_by
+    class: projection
+    load_bearing: false
+    inverse: represents
+    description: This item is represented by the target page or projection surface.
+
+  - predicate: explained_in
+    class: projection
+    load_bearing: false
+    inverse: explains
+    description: The target provides exposition/explanation of this item.
+
+  - predicate: summarized_by
+    class: projection
+    load_bearing: false
+    inverse: summarizes
+    description: The target provides a summary of this item.
+
+  - predicate: summarizes
+    class: projection
+    load_bearing: false
+    inverse: summarized_by
+    description: This item summarizes the target (inverse of summarized_by; used by research notes summarizing a theorem).
+
+  # ---------- Bridge Relations (load-bearing for bridge claims) ----------
+
+  - predicate: bridges_to
+    class: bridge
+    load_bearing: true
+    inverse: bridged_from
+    description: This bridge_claim bridges to the target external/orthodox object.
+
+  - predicate: corresponds_to
+    class: bridge
+    load_bearing: true
+    inverse: corresponds_to  # symmetric
+    description: This item corresponds to the target across a bridge.
+
+  - predicate: translates_to
+    class: bridge
+    load_bearing: true
+    inverse: translated_from
+    description: This item translates to the target in a target framework/language.
+
+  - predicate: compares_with
+    class: bridge
+    load_bearing: false
+    inverse: compares_with  # symmetric
+    description: This item compares with the target (informational).
+
+  - predicate: orthodox_target
+    class: bridge
+    load_bearing: true
+    inverse: targeted_by
+    description: Identifies the orthodox counterpart to a τ-side construction.
+
+  - predicate: mathlib_target
+    class: bridge
+    load_bearing: true
+    inverse: targeted_by
+    description: Identifies the Mathlib declaration this item targets.
+
+  # ---------- Version Relations ----------
+
+  - predicate: replaces
+    class: version
+    load_bearing: false
+    inverse: replaced_by
+    description: This item replaces the target (newer version, same identity).
+
+  - predicate: supersedes
+    class: version
+    load_bearing: false
+    inverse: superseded_by
+    description: This item supersedes the target (non-equivalent successor; new CID).
+
+  - predicate: deprecated_by
+    class: version
+    load_bearing: false
+    inverse: deprecates
+    description: This item has been deprecated by the target.
+
+  - predicate: retired_in
+    class: version
+    load_bearing: false
+    inverse: retires
+    description: This item was retired in the target release.
+
+  - predicate: corrected_by
+    class: version
+    load_bearing: false
+    inverse: corrects
+    description: This item has been corrected by the target erratum.
+
+  - predicate: erratum_for
+    class: version
+    load_bearing: false
+    inverse: has_erratum
+    description: This erratum applies to the target.
+
+  # ---------- Evidence / Validation Relations ----------
+
+  - predicate: supports
+    class: evidence
+    load_bearing: true
+    inverse: supported_by
+    description: This item supports the target (provides evidence/argument for it).
+
+  - predicate: constrains
+    class: evidence
+    load_bearing: true
+    inverse: constrained_by
+    description: This item constrains the target.
+
+  - predicate: falsifies
+    class: evidence
+    load_bearing: false
+    inverse: falsified_by
+    description: This item falsifies the target.
+
+  - predicate: tested_by
+    class: evidence
+    load_bearing: true
+    inverse: tests
+    description: This item is tested by the target (prediction, experiment, validation).
+
+  - predicate: tests
+    class: evidence
+    load_bearing: true
+    inverse: tested_by
+    description: This item tests the target (inverse of tested_by; used by predictions/falsifiers/experiments).
+
+  - predicate: validated_by
+    class: evidence
+    load_bearing: true
+    inverse: validates
+    description: This item is validated by the target (e.g., external review, audit, replication).
+
+  - predicate: challenged_by
+    class: evidence
+    load_bearing: false
+    inverse: challenges
+    description: This item is challenged by the target (informational).
+
+  # ---------- Navigation Relations ----------
+
+  - predicate: part_of
+    class: navigation
+    load_bearing: false
+    inverse: has_part
+    description: This item is part of the target (e.g., construction_step part_of construction).
+
+  - predicate: has_part
+    class: navigation
+    load_bearing: false
+    inverse: part_of
+    description: This item has the target as a part.
+
+  - predicate: next_step
+    class: navigation
+    load_bearing: false
+    inverse: previous_step
+    description: Pointer to the next step in a sequence (e.g., construction spine).
+
+  - predicate: previous_step
+    class: navigation
+    load_bearing: false
+    inverse: next_step
+    description: Pointer to the previous step in a sequence.
+
+  - predicate: route
+    class: navigation
+    load_bearing: false
+    inverse: routed_from
+    description: A routing pointer between items in a multi-step navigation.
+
+  # ---------- Proof-specific Relations (used by proof items, addendum §21) ----------
+
+  - predicate: uses_definition
+    class: construction
+    load_bearing: true
+    inverse: used_by_proof
+    description: Proof step uses the target definition.
+
+  - predicate: uses_lemma
+    class: construction
+    load_bearing: true
+    inverse: used_by_proof
+    description: Proof step uses the target lemma.
+
+  - predicate: uses_theorem
+    class: construction
+    load_bearing: true
+    inverse: used_by_proof
+    description: Proof step uses the target theorem.
+
+  - predicate: uses_assumption
+    class: construction
+    load_bearing: true
+    inverse: used_by_proof
+    description: Proof step uses the target assumption / axiom.
+
+  - predicate: uses_bridge
+    class: construction
+    load_bearing: true
+    inverse: used_by_proof
+    description: Proof step uses the target bridge claim.
+
+  - predicate: uses_result
+    class: construction
+    load_bearing: true
+    inverse: used_by_proof
+    description: Proof step uses the target result.
+
+  - predicate: cites_background
+    class: navigation
+    load_bearing: false
+    inverse: cited_as_background
+    description: Proof cites background context (not load-bearing).
+
+  - predicate: historical_reference
+    class: navigation
+    load_bearing: false
+    inverse: referenced_historically
+    description: Reference to a historical item (no current load-bearing role).
+
+  # ---------- Informational / Non-Load-Bearing ----------
+
+  - predicate: related_to
+    class: navigation
+    load_bearing: false
+    inverse: related_to  # symmetric
+    description: Generic "related to" link; informational only.
+
+  - predicate: future_work
+    class: navigation
+    load_bearing: false
+    inverse: future_work_of
+    description: Item lists future work direction.
+
+  - predicate: background_context
+    class: navigation
+    load_bearing: false
+    inverse: background_context_for
+    description: Background-context reference (not load-bearing).
+
+  - predicate: mentions
+    class: navigation
+    load_bearing: false
+    inverse: mentioned_in
+    description: Item mentions the target (no load-bearing role).
+
+  - predicate: see_also
+    class: navigation
+    load_bearing: false
+    inverse: see_also  # symmetric
+    description: '"See also" pointer.'
+
+# Relation classes (informational; consumed by validator + per-class queries)
+classes:
+  construction:
+    description: Constructive/derivational relations (depends_on, uses, constructs, derives, proves, assumes, requires, extends, refines).
+    enforces_dag: true  # load-bearing construction relations must form a DAG
+    closure_checked: true
+
+  projection:
+    description: How items project into artifacts and surfaces (appears_in, published_in, formalized_by, implemented_by, represented_by, explained_in, summarized_by).
+    enforces_dag: false
+    closure_checked: only_when_load_bearing
+
+  bridge:
+    description: Cross-framework correspondences (bridges_to, corresponds_to, translates_to, compares_with, orthodox_target, mathlib_target).
+    enforces_dag: false
+    closure_checked: only_when_load_bearing
+
+  version:
+    description: Version/lifecycle relations (replaces, supersedes, deprecated_by, retired_in, corrected_by, erratum_for).
+    enforces_dag: false
+    closure_checked: false  # tombstone deps allowed
+
+  evidence:
+    description: Empirical / validation relations (supports, constrains, falsifies, tested_by, validated_by, challenged_by).
+    enforces_dag: false
+    closure_checked: only_when_load_bearing
+
+  navigation:
+    description: Reader-navigation pointers (part_of, has_part, next_step, previous_step, route, related_to, future_work, background_context, mentions, see_also).
+    enforces_dag: false
+    closure_checked: false
+
+# Qualifier shape (per doctrine §12.7) — relations may carry qualifiers like
+# dependency_type, required_for, status, etc. Validated separately by relations
+# schema, not enumerated here.
+
+revisions:
+  - date: 2026-05-10
+    change: Initial vocabulary from id-graph-v5-doctrine §12 + crossrefs addendum §21
+    author: thorfuchs
