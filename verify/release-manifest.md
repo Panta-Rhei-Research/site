@@ -48,6 +48,42 @@ The Release Manifest records the release state, trusted base, custom axioms, fil
 
 The TauLib browser under `/verify/taulib/docs/` is generated from the Corpus-native TauLib projection pinned to commit `{{ build.taulib.commit_short }}`. To reproduce locally, import the TauLib snapshot into `corpus/taulib-sources/project`, run `lake build`, then run the Corpus TauLib projection/export scripts and the site sync.
 
+## Formalization Release Lines
+
+<!--
+  v5 next-wave W8b · IA Doctrine v5 §9.3 + Release Lines Addendum §7.
+  Source: atlas/website/v5/panta-rhei-release-lines-formalization-
+          surfaces-v5-addendum.md §7 (TauLib Release Lines) + §9.3
+          (Release Manifest representation).
+  Data:   _data/release_lines.yml · formalization_release_lines
+          + proof_package_states + citation_status enum.
+
+  Canonical four-row table per Addendum §9.3. This is the
+  authoritative surface for the formalization release-line picture
+  across the program — Corpus-side at /corpus/taulib/ (W8a) and
+  Verify-side at /verify/taulib/ (W8b) both link here.
+
+  Anchor id: formalization-release-lines (used by deep-links from
+  the Corpus + Verify TauLib pages).
+-->
+
+This table is the program's authoritative surface for the formalization release-line picture. Per [IA Doctrine §10.3 surface 2](../../atlas/website/v5/panta-rhei-ia-doctrine-v5.md), the same data is exposed as right-rail identifier boxes on each TauLib entity page (Wave 6b) and as graph entities at [Research Graph]({{ '/research-graph/' | relative_url }}#rg-software).
+
+<a id="formalization-release-lines"></a>
+
+| Formalization Surface | Corpus Relation | Status | Public? | Citable? |
+|---|---|:-:|:-:|:-:|
+| **TauLib v2 snapshot** | Corpus v2 / Second-Edition companion | frozen | ✓ | ✓ |
+| **TauLib v3 library** | Corpus v3 working line | active restructure | not yet | no |
+| **Proof packages** | per-result | per package | varies | per package |
+| **Citation status enum** | cross-cutting | enum: `citable · active_working · private · deprecated` | ✓ | per artifact |
+
+**Proof package states.** Each proof package moves through a five-state lifecycle: `in_construction → draft → candidate → released → superseded`. Released packages are citable as a per-result proof basis; non-released states should not be cited as proof. The state of each package is recorded against the package's entry in `_data/release_lines.yml::proof_package_states`.
+
+**Citation status enum.** Every TauLib-side entity in the [Research Graph]({{ '/research-graph/' | relative_url }}#rg-software) carries a `citation_status` field with one of four values: `citable` (released, immutable), `active_working` (in development, not citable), `private` (not yet public), or `deprecated` (superseded by a newer artifact). The Corpus-side TauLib release line shown above maps to `citable`; the v3 working library maps to `active_working`.
+
+The right-rail identifier box on each TauLib + proof-package page renders the relevant row of this table inline, so a reader inspecting a specific module or package can see its release-line status without leaving the page.
+
 ## Build status — summary
 
 | Metric | Value |

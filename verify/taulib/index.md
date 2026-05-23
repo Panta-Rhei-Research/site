@@ -50,6 +50,41 @@ The current projection contains **{{ summary.module_count }} modules** and **{{ 
 
 TauLib is one formalization surface inside the broader verification matrix. Lean compilation checks formalized obligations; it does not by itself establish empirical truth.
 
+## Release Lines
+
+<!--
+  v5 next-wave W8b · IA Doctrine v5 §9.2 + Release Lines Addendum §7.
+  Source: atlas/website/v5/panta-rhei-release-lines-formalization-
+          surfaces-v5-addendum.md §7 (TauLib Release Lines) + §9.2
+          (Verify lane TauLib representation).
+  Data:   _data/release_lines.yml · formalization_release_lines.
+
+  Inspection-bridge view of the same release lines that /corpus/
+  taulib/ surfaces (Corpus side, W8a). Each line is read here as
+  a trust-boundary surface: which line is citable as a proof basis,
+  which is active and therefore not yet citable, and which packages
+  are released per-result.
+-->
+
+TauLib is published through two release lines plus a per-result proof-package layer. From an inspection standpoint, each line is a distinct trust-boundary surface:
+
+<ul class="v2-grid v2-card-list">
+  <li><article class="v2-tile">
+    <h3>TauLib v2 Snapshot</h3>
+    <p><strong>Citable as a proof basis.</strong> Frozen Lean projection of the Second-Edition Corpus; pinned commit and Lean toolchain are stamped in the <a href="{{ '/verify/release-manifest/' | relative_url }}">Release Manifest</a>. Reviewers can clone the pinned commit, re-run <code>lake build</code>, and reproduce the compilation result that this page reports.</p>
+  </article></li>
+  <li><article class="v2-tile">
+    <h3>TauLib v3 Library</h3>
+    <p><strong>Active restructure · not yet citable.</strong> Layered library — import-isolated kernel, Mathlib-facing bridges, community-readable module structure — currently in private development. Not a proof basis for any cited Result until it ships publicly; current Results cite the v2 Snapshot.</p>
+  </article></li>
+  <li><article class="v2-tile">
+    <h3>Proof Packages</h3>
+    <p><strong>Per-result · per-package state.</strong> Isolated reproducibility bundles for specific formal results. Each package moves through five states: <em>in construction · draft · candidate · released · superseded</em>. Released packages are citable as a per-result proof basis; non-released states should not be cited as proof.</p>
+  </article></li>
+</ul>
+
+> **Trust boundary.** Lean compilation checks encoded formal obligations. It does not by itself establish empirical truth, bridge adequacy, or external scientific acceptance. The release-line distinction above is about formalization status; the [Verification Framework]({{ '/verify/verification-framework/' | relative_url }}) and [How to Verify]({{ '/verify/how-to-verify/' | relative_url }}) cover the broader inspection questions.
+
 ## What Verify still owns
 
 Verify does not stop at “the Lean code compiles.” It asks the higher-level inspection questions:
