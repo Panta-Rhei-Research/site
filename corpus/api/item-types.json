@@ -1,0 +1,368 @@
+{
+  "payload_classes": {
+    "artifact": {
+      "description": "Points to canonical artifact (URL / DOI / ISBN); carries abstract + citation metadata.",
+      "examples": [
+        "monograph",
+        "paper",
+        "dossier",
+        "release_packet"
+      ],
+      "schema": "schemas/per-type/artifact.schema.json"
+    },
+    "atomic": {
+      "description": "Inline semantic payload (markdown / latex / plain / optional lean).",
+      "examples": [
+        "definition",
+        "theorem",
+        "lemma",
+        "claim",
+        "prediction"
+      ],
+      "schema": "schemas/per-type/atomic.schema.json"
+    },
+    "candidate_lift": {
+      "description": "Wave 8.5 — candidate cross-layer construction not yet canonical. Carries lift.source_layers, lift.target_layers, lift.lift_path, lift.status, requires_human_review.",
+      "examples": [
+        "candidate_lift"
+      ],
+      "schema": "schemas/per-type/candidate-lift.schema.json"
+    },
+    "formal": {
+      "description": "Carries module path, declaration name, source commit, axiom audit, formalizes relation.",
+      "examples": [
+        "formal_module",
+        "formal_theorem",
+        "formal_definition",
+        "mathlib_target"
+      ],
+      "schema": "schemas/per-type/formal.schema.json"
+    },
+    "page": {
+      "description": "Minimal projection page (route, purpose, represented items, page-level JSON-LD).",
+      "examples": [
+        "corpus_page",
+        "result_page",
+        "verify_page"
+      ],
+      "schema": "schemas/per-type/page.schema.json"
+    },
+    "proof": {
+      "description": "Structured proof block (mode, conclusion, steps, dependencies, formality_level, proof_status).",
+      "examples": [
+        "proof"
+      ],
+      "schema": "schemas/per-type/proof.schema.json"
+    },
+    "result": {
+      "description": "Structured commentary + layers + domains + validation_status + inspection_route.",
+      "examples": [
+        "result"
+      ],
+      "schema": "schemas/per-type/result.schema.json"
+    }
+  },
+  "revisions": [
+    {
+      "author": "thorfuchs",
+      "change": "Initial projection from governance/ITEM_TYPES.md",
+      "date": "2026-05-10"
+    }
+  ],
+  "types": [
+    {
+      "description": "Fixed mathematical or conceptual definition introduced by the program.",
+      "folder": "items/definitions",
+      "payload_class": "atomic",
+      "prefix": "DEF",
+      "type": "definition"
+    },
+    {
+      "description": "Project-local statement assumed without proof; each Lean `axiom` gets a corresponding Corpus AXM.",
+      "folder": "items/axioms",
+      "payload_class": "atomic",
+      "prefix": "AXM",
+      "type": "axiom"
+    },
+    {
+      "description": "Subsidiary result used in proofs; often atomic and load-bearing.",
+      "folder": "items/lemmas",
+      "payload_class": "atomic",
+      "prefix": "LEM",
+      "type": "lemma"
+    },
+    {
+      "description": "Claim with proof that is not yet (or not centrally) called a theorem.",
+      "folder": "items/propositions",
+      "payload_class": "atomic",
+      "prefix": "PRP",
+      "type": "proposition"
+    },
+    {
+      "description": "Central proved statement of the program.",
+      "folder": "items/theorems",
+      "payload_class": "atomic",
+      "prefix": "THM",
+      "type": "theorem"
+    },
+    {
+      "description": "Immediate consequence of a theorem.",
+      "folder": "items/corollaries",
+      "payload_class": "atomic",
+      "prefix": "COR",
+      "type": "corollary"
+    },
+    {
+      "description": "Structured Corpus-addressed proof record with conclusion, premises, strategy, steps, dependencies, status.",
+      "folder": "items/proofs",
+      "payload_class": "proof",
+      "prefix": "PRF",
+      "type": "proof"
+    },
+    {
+      "description": "Multi-step procedure assembling part of the τ-machine.",
+      "folder": "items/constructions",
+      "payload_class": "atomic",
+      "prefix": "CNS",
+      "type": "construction"
+    },
+    {
+      "description": "One step inside a construction (e.g., a Construction Spine step S024).",
+      "folder": "items/construction-steps",
+      "payload_class": "atomic",
+      "prefix": "CNS",
+      "type": "construction_step"
+    },
+    {
+      "description": "Scholarly claim not yet proved but propositionally precise.",
+      "folder": "items/claims",
+      "payload_class": "atomic",
+      "prefix": "CLM",
+      "type": "claim"
+    },
+    {
+      "description": "Correspondence claim between an internal τ-construction and an external/orthodox object.",
+      "folder": "items/bridge-claims",
+      "payload_class": "atomic",
+      "prefix": "BRG",
+      "type": "bridge_claim"
+    },
+    {
+      "description": "Claim about what the τ-framework readouts in a specific empirical or interpretive context.",
+      "folder": "items/readout-claims",
+      "payload_class": "atomic",
+      "prefix": "RDO",
+      "type": "readout_claim"
+    },
+    {
+      "description": "Testable empirical or quantitative expectation derived from the framework.",
+      "folder": "items/predictions",
+      "payload_class": "atomic",
+      "prefix": "PRD",
+      "type": "prediction"
+    },
+    {
+      "description": "Specific condition under which a prediction, result, or claim would be refuted.",
+      "folder": "items/falsifiers",
+      "payload_class": "atomic",
+      "prefix": "FAL",
+      "type": "falsifier"
+    },
+    {
+      "description": "Problem the program states explicitly as open.",
+      "folder": "items/open-problems",
+      "payload_class": "atomic",
+      "prefix": "OPN",
+      "type": "open_problem"
+    },
+    {
+      "description": "Correction to a previously released item.",
+      "folder": "items/errata",
+      "payload_class": "atomic",
+      "prefix": "ERR",
+      "type": "erratum"
+    },
+    {
+      "description": "Reader-facing consequence surface with commentary, scope limits, validation state, inspection route.",
+      "folder": "items/results",
+      "payload_class": "result",
+      "prefix": "RSL",
+      "type": "result"
+    },
+    {
+      "description": "Wave 8.5 — proposed cross-layer construction (E0↔E1↔E2↔E3) not yet canonical. Built by agents or humans when an exact Corpus Item does not exist. Never canon until human-reviewed; carries `lift.status` + `requires_human_review: true`.",
+      "folder": "items/candidate-lifts",
+      "payload_class": "candidate_lift",
+      "prefix": "CLF",
+      "type": "candidate_lift"
+    },
+    {
+      "description": "Book in the program (Books I-VII).",
+      "folder": "items/monographs",
+      "payload_class": "artifact",
+      "prefix": "BOK",
+      "type": "monograph"
+    },
+    {
+      "description": "Chapter inside a monograph or major artifact.",
+      "folder": "items/chapters",
+      "payload_class": "artifact",
+      "prefix": "CHP",
+      "type": "chapter"
+    },
+    {
+      "description": "Standalone research paper.",
+      "folder": "items/papers",
+      "payload_class": "artifact",
+      "prefix": "PAP",
+      "type": "research_paper"
+    },
+    {
+      "description": "Focused research note (RN-XXX historically).",
+      "folder": "items/notes",
+      "payload_class": "artifact",
+      "prefix": "NOT",
+      "type": "research_note"
+    },
+    {
+      "description": "Extended research dossier (e.g., the Construction Spine).",
+      "folder": "items/dossiers",
+      "payload_class": "artifact",
+      "prefix": "DOS",
+      "type": "research_dossier"
+    },
+    {
+      "description": "Versioned release artifact bundling materials for a public release.",
+      "folder": "items/release-packets",
+      "payload_class": "artifact",
+      "prefix": "REL",
+      "type": "release_packet"
+    },
+    {
+      "description": "Research code artifact (e.g., a runnable analysis notebook, model implementation).",
+      "folder": "items/code",
+      "payload_class": "artifact",
+      "prefix": "COD",
+      "type": "research_code"
+    },
+    {
+      "description": "Formal proof package (Lean project with Lakefile + Mathlib pin + commit hash).",
+      "folder": "items/proof-packages",
+      "payload_class": "artifact",
+      "prefix": "PKG",
+      "type": "proof_package"
+    },
+    {
+      "description": "Reproducibility bundle for a result or paper.",
+      "folder": "items/proof-packages",
+      "payload_class": "artifact",
+      "prefix": "PKG",
+      "type": "reproducibility_bundle"
+    },
+    {
+      "description": "DOI registration record (artifact-like; small).",
+      "folder": "items/pages",
+      "payload_class": "artifact",
+      "prefix": "PAP",
+      "type": "doi_record"
+    },
+    {
+      "description": "Lean module (TauLib v2 or v3) carrying formal declarations.",
+      "folder": "items/formal-modules",
+      "payload_class": "formal",
+      "prefix": "MOD",
+      "type": "formal_module"
+    },
+    {
+      "description": "Lean `def` corresponding (often) to a corpus DEF.",
+      "folder": "items/formal-definitions",
+      "payload_class": "formal",
+      "prefix": "FDF",
+      "type": "formal_definition"
+    },
+    {
+      "description": "Lean `theorem` corresponding to a corpus THM/LEM/PRP; carries `formalizes: cid_prose_item`.",
+      "folder": "items/formal-theorems",
+      "payload_class": "formal",
+      "prefix": "FTH",
+      "type": "formal_theorem"
+    },
+    {
+      "description": "Lean `lemma`; same shape as formal_theorem with lower citation weight by convention.",
+      "folder": "items/formal-lemmas",
+      "payload_class": "formal",
+      "prefix": "FLM",
+      "type": "formal_lemma"
+    },
+    {
+      "description": "Lean `axiom`; round-trips to a Corpus AXM item with explanation.",
+      "folder": "items/formal-axioms",
+      "payload_class": "formal",
+      "prefix": "FAX",
+      "type": "formal_axiom"
+    },
+    {
+      "description": "Explicit unproved assumption used in a Lean development.",
+      "folder": "items/formal-axioms",
+      "payload_class": "formal",
+      "prefix": "FAX",
+      "type": "formal_assumption"
+    },
+    {
+      "description": "External Mathlib declaration the τ-program targets for integration.",
+      "folder": "items/mathlib-targets",
+      "payload_class": "formal",
+      "prefix": "MTG",
+      "type": "mathlib_target"
+    },
+    {
+      "description": "A page on the Corpus lane (e.g., construction spine index).",
+      "folder": "items/pages",
+      "payload_class": "page",
+      "prefix": null,
+      "type": "corpus_page"
+    },
+    {
+      "description": "A page rendering a Results lane filtered view.",
+      "folder": "items/pages",
+      "payload_class": "page",
+      "prefix": null,
+      "type": "result_page"
+    },
+    {
+      "description": "A page on the Verify lane.",
+      "folder": "items/pages",
+      "payload_class": "page",
+      "prefix": null,
+      "type": "verify_page"
+    },
+    {
+      "description": "A publication-surface page.",
+      "folder": "items/pages",
+      "payload_class": "page",
+      "prefix": null,
+      "type": "publication_page"
+    },
+    {
+      "description": "The Research Graph page (doctrine §16).",
+      "folder": "items/pages",
+      "payload_class": "page",
+      "prefix": null,
+      "type": "research_graph_page"
+    },
+    {
+      "description": "About-the-site, charter, etc.",
+      "folder": "items/pages",
+      "payload_class": "page",
+      "prefix": null,
+      "type": "about_site_page"
+    },
+    {
+      "description": "Colophon / acknowledgements.",
+      "folder": "items/pages",
+      "payload_class": "page",
+      "prefix": null,
+      "type": "colophon_page"
+    }
+  ]
+}

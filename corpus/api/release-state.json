@@ -1,0 +1,49 @@
+{
+  "by_content_layer": {
+    "E0": 43,
+    "E0_E1_bridge": 2,
+    "E1": 56,
+    "E1_E2_bridge": 1,
+    "E2": 16,
+    "E2_E3_bridge": 1,
+    "E3": 11,
+    "cross_layer": 1
+  },
+  "by_release_line": {
+    "corpus_v2": 1854,
+    "corpus_v3_working": 1884
+  },
+  "by_status": {
+    "active": 126,
+    "canonical": 1760
+  },
+  "by_type": {
+    "axiom": 8,
+    "bridge_claim": 1,
+    "chapter": 1,
+    "claim": 1,
+    "construction_step": 100,
+    "corollary": 6,
+    "definition": 309,
+    "erratum": 1,
+    "falsifier": 1,
+    "formal_axiom": 3,
+    "formal_module": 267,
+    "formal_theorem": 838,
+    "lemma": 23,
+    "monograph": 7,
+    "open_problem": 1,
+    "prediction": 1,
+    "proof": 6,
+    "proposition": 112,
+    "readout_claim": 1,
+    "release_packet": 2,
+    "research_dossier": 1,
+    "research_note": 1,
+    "research_paper": 1,
+    "result": 1,
+    "theorem": 193
+  },
+  "public_items_count": 1886,
+  "schema_version": "1.0.0"
+}

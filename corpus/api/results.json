@@ -1,0 +1,87 @@
+{
+  "cid000021": {
+    "aliases": [
+      "RSL0001",
+      "RSL0007",
+      "no-independent-dark-sector"
+    ],
+    "commentary": {
+      "inspection_note": "Reviewers should walk the inspection_route in order: master constant\ncalibration (THM0001) → τ-Einstein bridge (BRG0001) → dark-sector\nreadout (RDO0001) → CMB-S4 falsifiable surface (PRD0001/FAL0001).\n",
+      "scope_limits": "This result does not claim that direct-detection experiments will fail.\nDirect detection of a dark-matter particle would be consistent with the\nframework only if the particle's properties also factor through\ncarrier-capacity geometry — a strong additional constraint, but not a\ndirect framework violation.\n",
+      "short": "The orthodox dark-matter sector is the τ-framework's readout of carrier\ncapacity-gradient and holonomy structure — no independent particle\nrequired.\n",
+      "technical": "The reduction follows from the τ-Einstein bridge (BRG0001) applied to\nthe substrate's carrier-capacity geometry. The orthodox gravitational\nfield equations recover from the local-readout functor on the τ-Einstein\nidentity, and the carrier-capacity term shows up where orthodox treats\ndark matter. This is a *readout* claim, not a *bridge* claim — the\nframework doesn't assert \"dark-matter halo = τ-object X\"; it asserts\n\"what orthodox is reading out as dark matter is, in the τ readout,\ncarrier capacity-gradient structure.\"\n"
+    },
+    "content_layers": [
+      "E1"
+    ],
+    "corpus_object_level": "E3",
+    "current_version": "v1",
+    "depends_on": [
+      "cid000010",
+      "cid000012",
+      "cid000013"
+    ],
+    "domains": [
+      "physics.cosmology",
+      "gravity"
+    ],
+    "external_acceptance": "none",
+    "formalization_status": "bridge_pending",
+    "history": [
+      {
+        "date": "2026-05-10",
+        "event": "initial_corpus_item_seed",
+        "version": "v1"
+      }
+    ],
+    "id": "cid000021",
+    "layers": [
+      "E1"
+    ],
+    "payload": {
+      "canonical_format": "markdown",
+      "kind": "inline_atomic",
+      "markdown": "**Result.** In the τ-macrocosm readout, the orthodox observations\ntypically attributed to a dark-matter particle sector — flat rotation\ncurves, large-scale structure, gravitational lensing amplitudes — are\ninstead attributed to carrier capacity-gradient and holonomy structure\non the τ-substrate.\n\nThe framework does not predict the *absence* of a dark-matter particle.\nIt predicts that no *independent* dark-sector particle is *required*\nto account for the orthodox observations.\n"
+    },
+    "primary_alias": "RSL0001",
+    "projection_targets": [
+      "results.physics",
+      "results.falsification",
+      "verify.falsification"
+    ],
+    "relations": [
+      {
+        "object": "cid000015",
+        "predicate": "tested_by"
+      },
+      {
+        "object": "cid000016",
+        "predicate": "tested_by"
+      },
+      {
+        "object": "cid000001",
+        "predicate": "explained_in"
+      }
+    ],
+    "release_lines": [
+      "corpus_v3_working"
+    ],
+    "result": {
+      "claim_strength": "framework_consequence",
+      "class": "physical_readout",
+      "falsification_surface": "cid000016",
+      "inspection_route": [
+        "cid000010",
+        "cid000012",
+        "cid000013",
+        "cid000015"
+      ]
+    },
+    "status": "active",
+    "summary": "Reader-facing result: in the τ-macrocosm readout, flat rotation curves and large-scale structure are attributed to carrier capacity-gradient and holonomy structure rather than to a separate dark-matter particle sector.\n",
+    "title": "No Independent Dark-Sector Particle Required in the τ Readout",
+    "type": "result",
+    "validation_status": "empirical_open",
+    "visibility": "public"
+  }
+}

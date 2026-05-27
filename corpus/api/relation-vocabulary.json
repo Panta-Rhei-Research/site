@@ -1,0 +1,421 @@
+{
+  "classes": {
+    "bridge": {
+      "closure_checked": "only_when_load_bearing",
+      "description": "Cross-framework correspondences (bridges_to, corresponds_to, translates_to, compares_with, orthodox_target, mathlib_target).",
+      "enforces_dag": false
+    },
+    "construction": {
+      "closure_checked": true,
+      "description": "Constructive/derivational relations (depends_on, uses, constructs, derives, proves, assumes, requires, extends, refines).",
+      "enforces_dag": true
+    },
+    "evidence": {
+      "closure_checked": "only_when_load_bearing",
+      "description": "Empirical / validation relations (supports, constrains, falsifies, tested_by, validated_by, challenged_by).",
+      "enforces_dag": false
+    },
+    "navigation": {
+      "closure_checked": false,
+      "description": "Reader-navigation pointers (part_of, has_part, next_step, previous_step, route, related_to, future_work, background_context, mentions, see_also).",
+      "enforces_dag": false
+    },
+    "projection": {
+      "closure_checked": "only_when_load_bearing",
+      "description": "How items project into artifacts and surfaces (appears_in, published_in, formalized_by, implemented_by, represented_by, explained_in, summarized_by).",
+      "enforces_dag": false
+    },
+    "version": {
+      "closure_checked": false,
+      "description": "Version/lifecycle relations (replaces, supersedes, deprecated_by, retired_in, corrected_by, erratum_for).",
+      "enforces_dag": false
+    }
+  },
+  "predicates": [
+    {
+      "class": "construction",
+      "description": "This item depends on the target for its construction or proof.",
+      "inverse": "used_by",
+      "load_bearing": true,
+      "predicate": "depends_on"
+    },
+    {
+      "class": "construction",
+      "description": "This item makes use of the target (definition, lemma, theorem) in its content.",
+      "inverse": "used_by",
+      "load_bearing": true,
+      "predicate": "uses"
+    },
+    {
+      "class": "construction",
+      "description": "This item constructs the target object/structure.",
+      "inverse": "constructed_by",
+      "load_bearing": true,
+      "predicate": "constructs"
+    },
+    {
+      "class": "construction",
+      "description": "This item derives the target via inference.",
+      "inverse": "derived_from",
+      "load_bearing": true,
+      "predicate": "derives"
+    },
+    {
+      "class": "construction",
+      "description": "This item is a proof establishing the target theorem/lemma/proposition.",
+      "inverse": "proved_by",
+      "load_bearing": true,
+      "predicate": "proves"
+    },
+    {
+      "class": "construction",
+      "description": "This item explicitly assumes the target (axiom, gate, hypothesis).",
+      "inverse": "assumed_in",
+      "load_bearing": true,
+      "predicate": "assumes"
+    },
+    {
+      "class": "construction",
+      "description": "Stronger form of depends_on; the target must be discharged for this item to hold.",
+      "inverse": "required_by",
+      "load_bearing": true,
+      "predicate": "requires"
+    },
+    {
+      "class": "construction",
+      "description": "This item extends the target with additional structure.",
+      "inverse": "extended_by",
+      "load_bearing": true,
+      "predicate": "extends"
+    },
+    {
+      "class": "construction",
+      "description": "This item refines the target (more precise statement, tighter hypothesis).",
+      "inverse": "refined_by",
+      "load_bearing": true,
+      "predicate": "refines"
+    },
+    {
+      "class": "projection",
+      "description": "This item appears in (is rendered by) the target artifact (book, paper, dossier).",
+      "inverse": "contains",
+      "load_bearing": false,
+      "predicate": "appears_in"
+    },
+    {
+      "class": "projection",
+      "description": "This item is published in the target venue/artifact.",
+      "inverse": "publishes",
+      "load_bearing": false,
+      "predicate": "published_in"
+    },
+    {
+      "class": "projection",
+      "description": "This (prose) item has a formalization at the target (formal_theorem, formal_definition).",
+      "inverse": "formalizes",
+      "load_bearing": true,
+      "predicate": "formalized_by"
+    },
+    {
+      "class": "projection",
+      "description": "This item is implemented by the target (code, model, artifact).",
+      "inverse": "implements",
+      "load_bearing": true,
+      "predicate": "implemented_by"
+    },
+    {
+      "class": "projection",
+      "description": "This item is represented by the target page or projection surface.",
+      "inverse": "represents",
+      "load_bearing": false,
+      "predicate": "represented_by"
+    },
+    {
+      "class": "projection",
+      "description": "The target provides exposition/explanation of this item.",
+      "inverse": "explains",
+      "load_bearing": false,
+      "predicate": "explained_in"
+    },
+    {
+      "class": "projection",
+      "description": "The target provides a summary of this item.",
+      "inverse": "summarizes",
+      "load_bearing": false,
+      "predicate": "summarized_by"
+    },
+    {
+      "class": "projection",
+      "description": "This item summarizes the target (inverse of summarized_by; used by research notes summarizing a theorem).",
+      "inverse": "summarized_by",
+      "load_bearing": false,
+      "predicate": "summarizes"
+    },
+    {
+      "class": "bridge",
+      "description": "This bridge_claim bridges to the target external/orthodox object.",
+      "inverse": "bridged_from",
+      "load_bearing": true,
+      "predicate": "bridges_to"
+    },
+    {
+      "class": "bridge",
+      "description": "This item corresponds to the target across a bridge.",
+      "inverse": "corresponds_to",
+      "load_bearing": true,
+      "predicate": "corresponds_to"
+    },
+    {
+      "class": "bridge",
+      "description": "This item translates to the target in a target framework/language.",
+      "inverse": "translated_from",
+      "load_bearing": true,
+      "predicate": "translates_to"
+    },
+    {
+      "class": "bridge",
+      "description": "This item compares with the target (informational).",
+      "inverse": "compares_with",
+      "load_bearing": false,
+      "predicate": "compares_with"
+    },
+    {
+      "class": "bridge",
+      "description": "Identifies the orthodox counterpart to a τ-side construction.",
+      "inverse": "targeted_by",
+      "load_bearing": true,
+      "predicate": "orthodox_target"
+    },
+    {
+      "class": "bridge",
+      "description": "Identifies the Mathlib declaration this item targets.",
+      "inverse": "targeted_by",
+      "load_bearing": true,
+      "predicate": "mathlib_target"
+    },
+    {
+      "class": "version",
+      "description": "This item replaces the target (newer version, same identity).",
+      "inverse": "replaced_by",
+      "load_bearing": false,
+      "predicate": "replaces"
+    },
+    {
+      "class": "version",
+      "description": "This item supersedes the target (non-equivalent successor; new CID).",
+      "inverse": "superseded_by",
+      "load_bearing": false,
+      "predicate": "supersedes"
+    },
+    {
+      "class": "version",
+      "description": "This item has been deprecated by the target.",
+      "inverse": "deprecates",
+      "load_bearing": false,
+      "predicate": "deprecated_by"
+    },
+    {
+      "class": "version",
+      "description": "This item was retired in the target release.",
+      "inverse": "retires",
+      "load_bearing": false,
+      "predicate": "retired_in"
+    },
+    {
+      "class": "version",
+      "description": "This item has been corrected by the target erratum.",
+      "inverse": "corrects",
+      "load_bearing": false,
+      "predicate": "corrected_by"
+    },
+    {
+      "class": "version",
+      "description": "This erratum applies to the target.",
+      "inverse": "has_erratum",
+      "load_bearing": false,
+      "predicate": "erratum_for"
+    },
+    {
+      "class": "evidence",
+      "description": "This item supports the target (provides evidence/argument for it).",
+      "inverse": "supported_by",
+      "load_bearing": true,
+      "predicate": "supports"
+    },
+    {
+      "class": "evidence",
+      "description": "This item constrains the target.",
+      "inverse": "constrained_by",
+      "load_bearing": true,
+      "predicate": "constrains"
+    },
+    {
+      "class": "evidence",
+      "description": "This item falsifies the target.",
+      "inverse": "falsified_by",
+      "load_bearing": false,
+      "predicate": "falsifies"
+    },
+    {
+      "class": "evidence",
+      "description": "This item is tested by the target (prediction, experiment, validation).",
+      "inverse": "tests",
+      "load_bearing": true,
+      "predicate": "tested_by"
+    },
+    {
+      "class": "evidence",
+      "description": "This item tests the target (inverse of tested_by; used by predictions/falsifiers/experiments).",
+      "inverse": "tested_by",
+      "load_bearing": true,
+      "predicate": "tests"
+    },
+    {
+      "class": "evidence",
+      "description": "This item is validated by the target (e.g., external review, audit, replication).",
+      "inverse": "validates",
+      "load_bearing": true,
+      "predicate": "validated_by"
+    },
+    {
+      "class": "evidence",
+      "description": "This item is challenged by the target (informational).",
+      "inverse": "challenges",
+      "load_bearing": false,
+      "predicate": "challenged_by"
+    },
+    {
+      "class": "navigation",
+      "description": "This item is part of the target (e.g., construction_step part_of construction).",
+      "inverse": "has_part",
+      "load_bearing": false,
+      "predicate": "part_of"
+    },
+    {
+      "class": "navigation",
+      "description": "This item has the target as a part.",
+      "inverse": "part_of",
+      "load_bearing": false,
+      "predicate": "has_part"
+    },
+    {
+      "class": "navigation",
+      "description": "Pointer to the next step in a sequence (e.g., construction spine).",
+      "inverse": "previous_step",
+      "load_bearing": false,
+      "predicate": "next_step"
+    },
+    {
+      "class": "navigation",
+      "description": "Pointer to the previous step in a sequence.",
+      "inverse": "next_step",
+      "load_bearing": false,
+      "predicate": "previous_step"
+    },
+    {
+      "class": "navigation",
+      "description": "A routing pointer between items in a multi-step navigation.",
+      "inverse": "routed_from",
+      "load_bearing": false,
+      "predicate": "route"
+    },
+    {
+      "class": "construction",
+      "description": "Proof step uses the target definition.",
+      "inverse": "used_by_proof",
+      "load_bearing": true,
+      "predicate": "uses_definition"
+    },
+    {
+      "class": "construction",
+      "description": "Proof step uses the target lemma.",
+      "inverse": "used_by_proof",
+      "load_bearing": true,
+      "predicate": "uses_lemma"
+    },
+    {
+      "class": "construction",
+      "description": "Proof step uses the target theorem.",
+      "inverse": "used_by_proof",
+      "load_bearing": true,
+      "predicate": "uses_theorem"
+    },
+    {
+      "class": "construction",
+      "description": "Proof step uses the target assumption / axiom.",
+      "inverse": "used_by_proof",
+      "load_bearing": true,
+      "predicate": "uses_assumption"
+    },
+    {
+      "class": "construction",
+      "description": "Proof step uses the target bridge claim.",
+      "inverse": "used_by_proof",
+      "load_bearing": true,
+      "predicate": "uses_bridge"
+    },
+    {
+      "class": "construction",
+      "description": "Proof step uses the target result.",
+      "inverse": "used_by_proof",
+      "load_bearing": true,
+      "predicate": "uses_result"
+    },
+    {
+      "class": "navigation",
+      "description": "Proof cites background context (not load-bearing).",
+      "inverse": "cited_as_background",
+      "load_bearing": false,
+      "predicate": "cites_background"
+    },
+    {
+      "class": "navigation",
+      "description": "Reference to a historical item (no current load-bearing role).",
+      "inverse": "referenced_historically",
+      "load_bearing": false,
+      "predicate": "historical_reference"
+    },
+    {
+      "class": "navigation",
+      "description": "Generic \"related to\" link; informational only.",
+      "inverse": "related_to",
+      "load_bearing": false,
+      "predicate": "related_to"
+    },
+    {
+      "class": "navigation",
+      "description": "Item lists future work direction.",
+      "inverse": "future_work_of",
+      "load_bearing": false,
+      "predicate": "future_work"
+    },
+    {
+      "class": "navigation",
+      "description": "Background-context reference (not load-bearing).",
+      "inverse": "background_context_for",
+      "load_bearing": false,
+      "predicate": "background_context"
+    },
+    {
+      "class": "navigation",
+      "description": "Item mentions the target (no load-bearing role).",
+      "inverse": "mentioned_in",
+      "load_bearing": false,
+      "predicate": "mentions"
+    },
+    {
+      "class": "navigation",
+      "description": "\"See also\" pointer.",
+      "inverse": "see_also",
+      "load_bearing": false,
+      "predicate": "see_also"
+    }
+  ],
+  "revisions": [
+    {
+      "author": "thorfuchs",
+      "change": "Initial vocabulary from id-graph-v5-doctrine §12 + crossrefs addendum §21",
+      "date": "2026-05-10"
+    }
+  ]
+}
