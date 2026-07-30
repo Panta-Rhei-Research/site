@@ -11,5 +11,5 @@ gem "webrick"
 group :development, :test do
   # Dead-link + broken-image checker — runs against _site/ to catch
   # internal link regressions before deploy. See .github/scripts/link-check.sh.
-  gem "html-proofer", "~> 5.0"
+  gem "html-proofer", "~> 5.2"
 end
