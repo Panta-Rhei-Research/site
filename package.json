@@ -24,6 +24,6 @@
   "devDependencies": {
     "@playwright/test": "1.59.1",
     "pagefind": "1.5.2",
-    "wrangler": "4.93.0"
+    "wrangler": "4.118.0"
   }
 }
